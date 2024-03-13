@@ -1,30 +1,19 @@
-#---------------------------------------------------#
-## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
-#---------------------------------------------------#
-
-# HTTP 代理端口
-#port: 7890
-
-# SOCKS5 代理端口
-#socks-port: 7891
-
-# Linux 和 macOS 的 redir 代理端口
-#redir-port: 7892
-
 mixed-port: 7890
-
-# 允许局域网的连接
-allow-lan: false
-
-# 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
+allow-lan: true
+bind-address: '*'
 mode: rule
-
-# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
-# 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
-log-level: warning
-# Clash 的 RESTful API
-external-controller: '0.0.0.0:9090'
-
+log-level: info
+external-controller: '127.0.0.1:9090'
+dns:
+    enable: true
+    ipv6: false
+    default-nameserver: [223.5.5.5, 119.29.29.29]
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
+    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
+    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 
 proxies: []
 
