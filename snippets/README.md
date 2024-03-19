@@ -26,7 +26,7 @@
 proxy-providers:
   订阅地址:
     type: http
-    url: "https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml"
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/jihuama/autoget/master/snippets/nodes.yml"
     interval: 3600
     path: ./proxy_providers/NoMoreWalls.yml
     health-check:
@@ -39,28 +39,28 @@ rule-providers:
     type: http
     behavior: classical
     path: ./rule_providers/adblock.yml
-    url: "https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/adblock.yml"
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/jihuama/autoget/master/snippets/adblock.yml"
     interval: 21600 #6h
     format: yaml
   proxy:
     type: http
     behavior: classical
     path: ./rule_providers/proxy.yml
-    url: "https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/proxy.yml"
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/jihuama/autoget/master/snippets/proxy.yml"
     interval: 86400 #24h
     format: yaml
   direct:
     type: http
     behavior: classical
     path: ./rule_providers/direct.yml
-    url: "https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/direct.yml"
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/jihuama/autoget/master/snippets/direct.yml"
     interval: 86400 #24h
     format: yaml
   region:
     type: http
     behavior: classical
     path: ./rule_providers/region.yml
-    url: "https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/region.yml"
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/jihuama/autoget/master/snippets/region.yml"
     interval: 86400 #24h
     format: yaml
 
@@ -88,14 +88,14 @@ rules:
 ```
 
 # 加速链接（以节点列表为例）
-- 原始链接: `https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
-- JsDelivr 反代（zzko.cn）: `https://cdn.jsdelivr.us/gh/peasoft/NoMoreWalls@master/snippets/nodes.yml`
-- JsDelivr Fastly CDN: `https://fastly.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/nodes.yml`
-- JsDelivr Cloudflare CDN: `https://testingcf.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/nodes.yml`
-- JsDelivr GCore CDN: `https://gcore.jsdelivr.net/gh/peasoft/NoMoreWalls@master/snippets/nodes.yml`
-- GhProxy.com: `https://mirror.ghproxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
-- Gh-Proxy.com: `https://gh-proxy.com/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
+- 原始链接: `https://raw.githubusercontent.com/jihuama/autoget/master/snippets/nodes.yml`
+- JsDelivr 反代（zzko.cn）: `https://cdn.jsdelivr.us/gh/jihuama/autoget@master/snippets/nodes.yml`
+- JsDelivr Fastly CDN: `https://fastly.jsdelivr.net/gh/jihuama/autoget@master/snippets/nodes.yml`
+- JsDelivr Cloudflare CDN: `https://testingcf.jsdelivr.net/gh/jihuama/autoget@master/snippets/nodes.yml`
+- JsDelivr GCore CDN: `https://gcore.jsdelivr.net/gh/jihuama/autoget@master/snippets/nodes.yml`
+- GhProxy.com: `https://mirror.ghproxy.com/https://raw.githubusercontent.com/jihuama/autoget/master/snippets/nodes.yml`
+- Gh-Proxy.com: `https://gh-proxy.com/https://raw.githubusercontent.com/jihuama/autoget/master/snippets/nodes.yml`
 
 以下加速链接可能无效：
-- KGithub: `https://raw.kgithub.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
-- KKGithub: `https://raw.kkgithub.com/peasoft/NoMoreWalls/master/snippets/nodes.yml`
+- KGithub: `https://raw.kgithub.com/jihuama/autoget/master/snippets/nodes.yml`
+- KKGithub: `https://raw.kkgithub.com/jihuama/autoget/master/snippets/nodes.yml`
