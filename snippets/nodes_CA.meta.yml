@@ -43,20 +43,29 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 1,2,7,8,14,18|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_24
+  h2-opts: {}
+  http-opts:
+    headers:
+      Host:
+      - internet.life.com.by
+    method: GET
+    path:
+    - /
+  name: 1,2,5,7,8,14,18|🇨🇦_CA_加拿大_由快嘴科技提供：kkzui.com_24
   network: http
   port: 3389
   server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   country: CA
   h2-opts: {}
   http-opts: {}
-  name: 1,5|-https://t.me/MrXbin-56
+  name: 1,5|-https://t.me/MrXbin-68
   network: ws
   port: 8080
   server: 23.227.38.23
