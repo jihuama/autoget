@@ -3,7 +3,7 @@ proxies:
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
   password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
-  port: 50005
+  port: 20007
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
@@ -24,3 +24,25 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.202.41.139
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 15|baipaovpn日本
+  network: ws
+  port: '41597'
+  server: 183.181.36.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

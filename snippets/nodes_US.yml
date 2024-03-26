@@ -1181,11 +1181,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '10|美国 CloudFlare节点 #47'
+  client-fingerprint: chrome
+  name: 10,12,13|美国|@ripaojiedian
   network: ws
   port: '80'
   server: 104.21.224.221
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -1513,80 +1516,35 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: skk.moe
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b75b34b3-7fbc-4f30-bcb0-3a0085ecd77e
-  ws-opts:
-    headers:
-      Host: us.mooon.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: 15|baipaovpn美国
   network: ws
-  port: '80'
-  server: 172.64.170.216
-  servername: ''
-  tls: false
+  port: '2053'
+  server: 172.67.218.101
+  servername: 12k002.nnaotexiongditkgroup.top
+  tls: true
   type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
+  uuid: 855eb0a7-03de-468d-ab1c-d5a97069e62e
   ws-opts:
     headers:
-      Host: ru321.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
+      Host: 12k002.nnaotexiongditkgroup.top
+    path: /12k002
 - alterId: 0
   cipher: auto
-  name: 15,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_32
+  name: '15|baipaovpn美国 #1'
   network: ws
-  port: 8880
-  server: 104.21.84.38
-  servername: ''
-  tls: false
+  port: '2053'
+  server: 104.21.94.20
+  servername: GK0005.nnaotexiongditkgroup.top
+  tls: true
   type: vmess
-  uuid: f9c92e9c-5f92-4ff7-99a1-91a973b6ec57
+  uuid: 9e649329-c23a-4b57-a6b2-41d9aee8ed8e
   ws-opts:
     headers:
-      Host: us1.laobideng.xyz
-    path: /
+      Host: GK0005.nnaotexiongditkgroup.top
+    path: /GK0005
 - alterId: 0
   cipher: auto
   name: '15|baipaovpn美国 #2'
-  network: ws
-  port: '2053'
-  server: 104.21.80.53
-  servername: qin20.rong1104.uk
-  tls: true
-  type: vmess
-  uuid: 3ce0722e-1e03-4b05-9875-d7592b6c9f1c
-  ws-opts:
-    headers:
-      Host: qin20.rong1104.uk
-    path: /qin20
-- alterId: 0
-  cipher: auto
-  name: '15|baipaovpn美国 #3'
-  network: ws
-  port: '2053'
-  server: 104.21.67.246
-  servername: mg013.tk4433.com
-  tls: true
-  type: vmess
-  uuid: ffde13b1-e66e-4b2a-9392-4ed9a826aec6
-  ws-opts:
-    headers:
-      Host: mg013.tk4433.com
-    path: /mg013.tk4433.com
-- alterId: 0
-  cipher: auto
-  name: '15|baipaovpn美国 #4'
   network: tcp
   port: '3389'
   server: 134.122.41.160
@@ -1594,16 +1552,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 15,18|🇺🇸_US_美国->🇨🇦_CA_加拿大_3_2由快嘴科技提供...
-  network: tcp
-  port: 11129
-  server: 23.142.200.149
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_6
@@ -1704,6 +1652,19 @@ proxies:
     headers:
       Host: PVR7r.cnbete.life
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com1_32
+  network: ws
+  port: 8880
+  server: 104.21.84.38
+  tls: false
+  type: vmess
+  uuid: f9c92e9c-5f92-4ff7-99a1-91a973b6ec57
+  ws-opts:
+    headers:
+      Host: us1.laobideng.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com2_34
