@@ -1,4 +1,65 @@
 proxies:
+- alterId: 1
+  cipher: auto
+  name: 10|日本 东京Amazon数据中心
+  network: tcp
+  port: 46484
+  server: en7a5-g03.jp05-6786-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+- alterId: 0
+  cipher: auto
+  name: 10|日本 v2rayfree.eu.org
+  network: ws
+  port: '29450'
+  server: 146.56.141.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6404da77-63e3-4a11-9559-59ee4abbd4e4
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /?ed=2048
+- alterId: 1
+  cipher: auto
+  name: 10|日本 东京都Amazon数据中心
+  network: tcp
+  port: 444
+  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- alterId: 1
+  cipher: auto
+  name: '10|日本 东京Amazon数据中心 #1'
+  network: tcp
+  port: 46486
+  server: 9azvt-g05.jp05-6786-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|日本3|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 87.120.204.64
+  servername: jp-17.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇯🇵 日本特殊|@ripaojiedian
