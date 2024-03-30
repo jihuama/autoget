@@ -34,10 +34,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港1|@ripaojiedian
+  name: 12,13|香港1|@ripaojiedian
   network: ws
-  port: 50080
+  port: '50080'
   server: 223.113.130.58
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -47,27 +48,13 @@ proxies:
     headers:
       Host: cache-hk-1.cn-db.top
     path: /db00
-- alterId: 0
+- alterId: 64
   cipher: auto
   name: 13|香港|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 185.14.47.99
-  servername: hk-6.trollfunny.net
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|香港1|@ripaojiedian
   network: tcp
-  port: '57310'
-  server: 156.251.217.24
+  port: '40259'
+  server: 120.238.122.148
   servername: ''
   tls: false
   type: vmess
-  uuid: b080b33d-c598-4cb0-8381-1ac467540a89
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
