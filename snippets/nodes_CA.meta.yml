@@ -1,16 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '2,7,8,14|🇨🇦_CA_加拿大 #7'
-  network: http
-  port: 3389
-  server: 134.122.41.160
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: '7|🇨🇦_CA_加拿大 #1'
+  name: 7|🇨🇦_CA_加拿大
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -23,7 +14,20 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇨🇦_CA_加拿大 #3'
+  name: '7,14|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: '7|🇨🇦_CA_加拿大 #2'
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -34,6 +38,15 @@ proxies:
     headers:
       Host: internet.life.com.by
     path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
+  name: '7,8,14|🇨🇦_CA_加拿大 #6'
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 7,8,18|🇨🇦_CA_加拿大->🇺🇸_US_美国_2_29
