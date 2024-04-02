@@ -13,14 +13,21 @@ proxies:
     headers:
       Host: max26.flash5g.com
     path: /AnhBin
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
-  password: 724a69fd-5240-4448-9fac-4367edf8c596
-  port: 34507
-  server: rk2.izoizoizo.top
+  grpc-opts:
+    grpc-service-name: /
+  name: 12,13|日本|@ripaojiedian
+  network: grpc
+  port: '55576'
+  server: 202.81.231.30
+  servername: jp.k8s.now.cc
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 61f7a2a6-e699-40fd-bf63-5000aa4cbdeb
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -38,108 +45,11 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /
-  name: 12,13|日本4|@ripaojiedian
-  network: grpc
-  port: '55576'
-  server: 202.81.231.30
-  servername: jp.k8s.now.cc
-  skip-cert-verify: false
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.169.147.64
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 61f7a2a6-e699-40fd-bf63-5000aa4cbdeb
-- alterId: 1
-  cipher: auto
-  name: 15|baipaovpn日本东京
-  network: tcp
-  port: '21581'
-  server: 13.114.92.85
-  servername: 5mxrw-g01.jp03-7d22-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: 15|baipaovpn日本
-  network: tcp
-  port: '21581'
-  server: 54.168.127.47
-  servername: sdyfu-g01.jp01-0986-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '15|baipaovpn日本东京 #1'
-  network: tcp
-  port: '11773'
-  server: 3.113.247.137
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '15|baipaovpn日本东京 #2'
-  network: tcp
-  port: '444'
-  server: 35.77.119.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '15|baipaovpn日本东京 #3'
-  network: tcp
-  port: '28788'
-  server: 35.78.173.73
-  servername: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
-- alterId: 1
-  cipher: auto
-  name: '15|baipaovpn日本 #1'
-  network: tcp
-  port: '46482'
-  server: 103.4.13.199
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '15|baipaovpn日本东京 #4'
-  network: tcp
-  port: '28783'
-  server: 35.78.173.73
-  servername: d4w59-g01.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: '15|baipaovpn日本东京 #5'
-  network: tcp
-  port: '28785'
-  server: 35.78.173.73
-  servername: lotn9-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
-- alterId: 1
-  cipher: auto
-  name: '15|baipaovpn日本东京 #6'
-  network: tcp
-  port: '21583'
-  server: 13.114.92.85
-  servername: 0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
+  type: ss
