@@ -1,12 +1,20 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
-  password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
-  port: 50004
-  server: ddns.olucloud.subapi.cc
+  network: ws
+  port: 46012
+  server: mf411f.micloud.buzz
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 62477f7a-783b-4f00-93cb-ce1f62155776
+  ws-opts:
+    headers:
+      Host: mf411f.micloud.buzz
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -24,23 +32,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|日本4|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 104.233.170.150
-  servername: www.71974218.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.71974218.xyz
-    path: /path/303417111801
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇯🇵 日本特殊|@ripaojiedian
@@ -51,10 +42,24 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 13|日本|@ripaojiedian
+  network: ws
+  port: '46012'
+  server: mf411f.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 62477f7a-783b-4f00-93cb-ce1f62155776
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
   name: 13|日本2|@ripaojiedian
   network: tcp
-  port: '38996'
-  server: 8879v-rmyielu.qlh9n89kw-v17.my777999.top
+  port: '38997'
+  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
   servername: ''
   tls: false
   type: vmess
