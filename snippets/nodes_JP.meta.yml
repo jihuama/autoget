@@ -25,6 +25,23 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|日本3|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 87.120.204.126
+  servername: jp-14.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|日本|@ripaojiedian
   network: ws
   port: '46012'
@@ -37,12 +54,26 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 1
+- alterId: 0
   cipher: auto
   name: 15|baipaovpn日本
+  network: ws
+  port: '2052'
+  server: 47.74.6.16
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
+  ws-opts:
+    headers:
+      Host: jpyouyou.mac2winer.cfd
+    path: /039fc4e4
+- alterId: 1
+  cipher: auto
+  name: 15|baipaovpn日本东京
   network: tcp
   port: '28786'
-  server: 54.249.214.28
+  server: 13.115.208.96
   servername: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
   tls: true
   type: vmess
