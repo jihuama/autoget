@@ -95,21 +95,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 15|baipaovpn香港
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
+  name: '15|baipaovpn香港 #3'
+  network: tcp
+  port: '443'
+  server: 220.246.94.127
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
+  uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
 - alterId: 0
   cipher: auto
-  name: '15|baipaovpn香港 #1'
+  name: '15|baipaovpn香港 #4'
   network: ws
   port: '51275'
   server: 202.81.231.30
@@ -121,3 +117,17 @@ proxies:
     headers:
       Host: jp.pddf.buzz
     path: /pdd?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '15|baipaovpn香港 #5'
+  network: ws
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
