@@ -4,7 +4,7 @@ proxies:
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
   network: ws
-  port: 46012
+  port: 46001
   server: mf411f.micloud.buzz
   skip-cert-verify: false
   tfo: false
@@ -15,22 +15,14 @@ proxies:
     headers:
       Host: mf411f.micloud.buzz
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
-  password: 4f2fdda5-9fb0-4c0c-8ec7-77fe7ae15a3d
-  port: 43505
-  server: rk2.izoizoizo.top
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 12,13|日本3|@ripaojiedian
   network: ws
   port: '8080'
-  server: 87.120.204.126
-  servername: jp-14.trollfunny.net
+  server: 87.120.204.161
+  servername: jp-4.trollfunny.net
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -45,14 +37,14 @@ proxies:
   name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.203.192.6
+  server: 54.254.167.160
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   name: 13|日本|@ripaojiedian
   network: ws
-  port: '46012'
+  port: '46001'
   server: mf411f.micloud.buzz
   servername: ''
   tls: false
@@ -62,31 +54,3 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 15|baipaovpn日本
-  network: ws
-  port: '2052'
-  server: 47.74.34.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
-  ws-opts:
-    headers:
-      Host: jpyouyou.mac2winer.cfd
-    path: /039fc4e4
-- alterId: 0
-  cipher: auto
-  name: '15|baipaovpn日本 #1'
-  network: ws
-  port: '2052'
-  server: 47.91.19.249
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
-  ws-opts:
-    headers:
-      Host: jpyouyou.mac2winer.cfd
-    path: /039fc4e4
