@@ -542,35 +542,53 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13,18|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com2
+  name: 12,13,18|🇺🇸_US_美国->🇬🇧_GB_英国_2_20
   network: ws
-  port: 2095
+  port: 2086
+  server: mizban.arzonhost.ir
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  password: 91ee9465-8be4-4735-80de-f80023b8eaae
+  port: 26002
+  server: beromo.youxinye.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12,13|美国3|@ripaojiedian
+  network: ws
+  port: '8880'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 474413f9-3c15-493f-88b2-50e0c4702dde
+  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
   ws-opts:
     headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.91.100.122
-  tfo: false
-  type: ss
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国5|@ripaojiedian
+  name: 12,13|美国4|@ripaojiedian
   network: ws
-  port: 2095
+  port: '2095'
   server: fcdn.flha.ru
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -579,6 +597,20 @@ proxies:
   ws-opts:
     headers:
       Host: fcdn.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国5|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: fcdn.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -595,24 +627,23 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 15|baipaovpn美国
-  network: ws
-  port: '8080'
-  server: 172.67.199.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 18|🇺🇸_US_美国_3_23
   network: ws
   port: 2095
   server: 104.18.135.91
+  tls: false
+  type: vmess
+  uuid: 474413f9-3c15-493f-88b2-50e0c4702dde
+  ws-opts:
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_2_由快嘴科技提供：kkzui.com2
+  network: ws
+  port: 2095
+  server: cfcdn1.sanfencdn9.com
   tls: false
   type: vmess
   uuid: 474413f9-3c15-493f-88b2-50e0c4702dde
