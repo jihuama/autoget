@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 10|日本 东京Fastly节点
   network: ws
-  port: 80
+  port: '80'
   server: fastly.alipay.ovh
   tls: false
   type: vmess
@@ -29,6 +29,14 @@ proxies:
     headers:
       Host: wtywwcrzjp5.yofnhkfc.xyz
     path: /video/9TfVEyku
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.114.108.144
+  tfo: false
+  type: ss
 - alterId: 1
   cipher: auto
   name: 13|日本|@ripaojiedian
