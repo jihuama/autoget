@@ -15,6 +15,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 12,13|日本|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 54.249.13.12
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cc8624d9-9012-41fc-a425-0039ad48ae85
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 12,13|日本2|@ripaojiedian
   network: ws
   port: '2052'
@@ -29,13 +46,58 @@ proxies:
     headers:
       Host: wtywwcrzjp5.yofnhkfc.xyz
     path: /video/9TfVEyku
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 13|日本|@ripaojiedian
-  network: tcp
-  port: '449'
-  server: 2kp5h-g06.jp04-3771-vm0.entry.fr0307a.art
+  client-fingerprint: chrome
+  name: 12,13|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 18.179.199.9
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 146f5892-29b5-4f91-b96c-62a0f92c7690
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /?ed
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.215.162.189
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|日本4|@ripaojiedian
+  network: ws
+  port: '46011'
+  server: mmjp11.micloud.buzz
   servername: ''
   tls: false
   type: vmess
-  uuid: 504501ec-cd5a-35bf-9ebb-98651170fca2
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
