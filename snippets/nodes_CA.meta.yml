@@ -64,10 +64,26 @@ proxies:
   cipher: auto
   name: 10|加拿大 v2rayfree.eu.org
   network: ws
-  port: 443
+  port: '443'
   server: 158.51.121.36
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '10|加拿大 v2rayfree.eu.org #1'
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
     path: /linkvws
