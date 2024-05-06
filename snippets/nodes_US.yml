@@ -44,6 +44,17 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
+  name: '7|🇺🇸_US_美国 #2'
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
   name: '7,8|🇺🇸_US_美国 #18'
   network: ws
   port: 2052
@@ -252,14 +263,11 @@ proxies:
     path: /path/153428133302
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 10,12,13,18|🇺🇸_US_美国_2_9
+  name: 10,18|🇺🇸_US_美国_2_9
   network: ws
   port: 2052
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
@@ -374,45 +382,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: ws
-  port: '2052'
-  server: hk.wish.ml
+  port: '13486'
+  server: 218.204.178.2
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 543f15f1-96a8-4205-b4a2-1a1ae6766c12
+  uuid: 61b81abc-320b-49c1-893c-f3ddd45880de
   ws-opts:
     headers:
-      Host: us7.wish.ml
+      Host: waphk.xlb8.eu.org
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
-  password: c440808b-a8ad-484a-90c2-4399d5a26dbe
-  port: 43605
-  server: zy.aand.site
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13,18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
-  network: ws
-  port: 2082
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
-  ws-opts:
-    headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
   name: '14|🇺🇸_US_美国 #28'
@@ -426,3 +409,16 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
+  network: ws
+  port: 2082
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
