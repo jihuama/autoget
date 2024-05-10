@@ -137,100 +137,47 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
-- cipher: chacha20-ietf-poly1305
-  name: 5|-https://t.me/MrXbin-1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 118.163.179.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 5|-https://t.me/MrXbin-2
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 118.163.179.159
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 5|-https://t.me/MrXbin-3
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 118.163.179.158
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5,12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.88.161.5
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 5|-https://t.me/MrXbin-4
+  name: 5|-https://t.me/MrXbin-2
+  password: amazonskr05
+  port: 443
+  server: 18.139.225.183
+  type: ss
+- cipher: aes-256-cfb
+  name: 5|-https://t.me/MrXbin-3
   password: amazonskr05
   port: 443
   server: 52.195.189.211
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5,12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 5|-https://t.me/MrXbin-4
   password: amazonskr05
   port: 443
-  server: 47.128.230.112
-  tfo: false
+  server: 3.34.95.205
   type: ss
 - cipher: aes-256-cfb
-  name: 5|-https://t.me/MrXbin-6
-  password: amazonskr05
-  port: 443
-  server: 3.112.218.182
-  type: ss
-- cipher: aes-256-cfb
-  name: 5|-https://t.me/MrXbin-7
+  name: 5|-https://t.me/MrXbin-5
   password: amazonskr05
   port: 443
   server: 43.201.47.36
   type: ss
 - cipher: aes-256-cfb
-  name: 5|-https://t.me/MrXbin-8
+  name: 5|-https://t.me/MrXbin-6
   password: amazonskr05
   port: 443
   server: 13.214.212.171
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 5|-https://t.me/MrXbin-9
-  password: amazonskr05
-  port: 443
-  server: 47.129.9.69
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 5|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 43.203.201.192
-  type: ss
-- cipher: aes-256-cfb
-  name: 5|-https://t.me/MrXbin-11
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 103.172.116.94
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 5|-https://t.me/MrXbin-17
-  obfs: tls1.2_ticket_auth
-  obfs-param: cloudfront.net
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  server: 150.107.46.21
-  type: ssr
 - cipher: aes-256-ctr
-  name: 5|-https://t.me/MrXbin-18
+  name: 5|-https://t.me/MrXbin-9
   obfs: tls1.2_ticket_auth
   obfs-param: cdn.appsflyer.com
   password: NewBypasser2023
@@ -239,13 +186,34 @@ proxies:
   server: 163.172.218.164
   type: ssr
 - cipher: aes-256-cfb
-  name: 5|-https://t.me/MrXbin-20
+  name: 5|-https://t.me/MrXbin-12
+  obfs: tls1.2_ticket_auth
+  obfs-param: cloudfront.net
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
+- cipher: aes-256-cfb
+  name: 5|-https://t.me/MrXbin-14
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 5|-https://t.me/MrXbin-58
+  network: ws
+  port: 80
+  server: 129.153.126.128
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5f3d1958-40e7-4c3b-888c-790205b49d9d
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -261,29 +229,29 @@ proxies:
   type: vmess
   udp: true
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  country: CA
-  h2-opts: {}
-  http-opts: {}
-  name: 5|-https://t.me/MrXbin-65
-  network: ws
-  port: 8080
-  server: 23.227.39.84
-  servername: dongtaiwang13.dtku47.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      HOST: dongtaiwang13.dtku47.xyz
-    path: /1IKYjV0r/
+- cipher: chacha20-ietf-poly1305
+  country: ' GB'
+  name: 5|-https://t.me/MrXbin-100
+  password: Bog0ELmMM9DSxDdQ
+  port: 443
+  server: series-a2-me.varzesh360.co
+  type: ss
+- cipher: aes-256-cfb
+  country: JP
+  name: 5|-https://t.me/MrXbin-102
+  obfs: tls1.2_ticket_auth
+  password: eAokbaDN6
+  port: 8081
+  protocol: origin
+  protocol-param: ",:\x16\x13##\x16@...:#%%%%%%%%%\x12%^..%"
+  server: jp-am48-6.eqnode.net
+  type: ssr
 - alterId: 0
   cipher: auto
   country: NL
   h2-opts: {}
   http-opts: {}
-  name: 5|-https://t.me/MrXbin-111
+  name: 5|-https://t.me/MrXbin-104
   network: ws
   port: 443
   server: 188.114.97.43
@@ -296,26 +264,43 @@ proxies:
     headers:
       HOST: ua2-vmess.sshmax.xyz
     path: /vmess
-- cipher: aes-128-cfb
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: 5|-https://t.me/MrXbin-105
+  network: ws
+  port: 80
+  server: sg4g.xn--vhq70hxyat50h6wk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1f9b54af-3ab1-48c8-b58c-59d8d78277af
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   country: US
-  name: 5|-https://t.me/MrXbin-117
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 5|-https://t.me/MrXbin-118
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.121.43.71
-  type: ss
+  h2-opts: {}
+  http-opts: {}
+  name: 5|-https://t.me/MrXbin-109
+  network: ws
+  port: 2095
+  server: onea.flha.ru
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      HOST: onea.flha.ru
+    path: /
 - alterId: 0
   cipher: auto
   country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 5|-https://t.me/MrXbin-150
+  name: 5|-https://t.me/MrXbin-158
   network: ws
   port: 80
   server: bs1.loadingip.com
@@ -327,23 +312,6 @@ proxies:
     headers:
       HOST: dl.kgvn.garenanow.com
     path: /bs
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 5|-https://t.me/MrXbin-152
-  network: ws
-  port: 80
-  server: upload.ir
-  servername: lv1-vmess.sshmax.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7e85049a-2b44-4621-991f-1e10e2210bc9
-  ws-opts:
-    headers:
-      HOST: lv1-vmess.sshmax.xyz
-    path: /vmess
 - alterId: 0
   cipher: auto
   name: 6|德国1
@@ -749,84 +717,6 @@ proxies:
     headers:
       Host: a.prapt1.ir
     path: /
-- alterId: 64
-  cipher: auto
-  name: 9|美国聖荷西|Github搜索TrojanLinks
-  network: ws
-  port: '37002'
-  server: 38.38.153.217
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.78310250.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 9|中国文城|Github搜索TrojanLinks
-  network: ws
-  port: '38003'
-  server: 108.186.164.119
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.08659410.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '9|美国聖荷西|Github搜索TrojanLinks #1'
-  network: ws
-  port: '37002'
-  server: 107.148.198.120
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.84206290.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 9|美国西雅圖|Github搜索TrojanLinks
-  network: ws
-  port: '38001'
-  server: 142.4.113.120
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.94152251.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: 9|美国洛杉矶|Github搜索TrojanLinks
-  network: ws
-  port: '31006'
-  server: 142.171.79.134
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.32410592.xyz
-    path: /path/153428133302
-- alterId: 64
-  cipher: auto
-  name: '9|美国聖荷西|Github搜索TrojanLinks #2'
-  network: ws
-  port: '38003'
-  server: 38.38.151.21
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.72649000.xyz
-    path: /path/153428133302
 - alterId: 0
   cipher: auto
   name: 10,18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
@@ -1205,10 +1095,10 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.88.161.5
+  server: 47.128.230.112
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1331,62 +1221,18 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '15|baipaovpn江苏省 #1'
-  network: tcp
-  port: '21322'
-  server: 223.113.130.60
+  name: 15|baipaovpn日本
+  network: ws
+  port: '57557'
+  server: 132.145.126.16
   servername: ''
   tls: false
   type: vmess
-  uuid: b6d9434f-61cd-48f9-858a-a9e2e2271f3d
-- alterId: 0
-  cipher: auto
-  name: 15|baipaovpn韩国
-  network: tcp
-  port: '10001'
-  server: 103.214.68.57
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
-- alterId: 0
-  cipher: auto
-  name: '15|baipaovpn江苏省 #2'
-  network: tcp
-  port: '22300'
-  server: 223.113.130.62
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 763cc733-0740-42ab-8a50-99aacac24af7
-- alterId: 64
-  cipher: auto
-  name: 15|baipaovpn台湾省台北市
-  network: ws
-  port: '30000'
-  server: 103.123.132.26
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: f1b91a7d-a5e2-4684-a183-d2d656400ca1
   ws-opts:
     headers:
-      Host: ''
-    path: /path/173403330828
-- alterId: 0
-  cipher: auto
-  name: 15|baipaovpn欧盟
-  network: ws
-  port: '443'
-  server: 45.93.28.103
-  servername: 48.sking.app
-  tls: true
-  type: vmess
-  uuid: 32fa1a55-4f45-466a-91c7-38ffc3fc3745
-  ws-opts:
-    headers:
-      Host: 48.sking.app
-    path: /
+      Host: jp-tokyo-oracle-5a26da.ip1.shop
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: 18|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_1
