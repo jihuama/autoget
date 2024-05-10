@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.88.161.5
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|日本2|@ripaojiedian
@@ -19,17 +27,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 15|baipaovpn日本
-  network: ws
-  port: '57557'
-  server: 132.145.126.16
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f1b91a7d-a5e2-4684-a183-d2d656400ca1
-  ws-opts:
-    headers:
-      Host: jp-tokyo-oracle-5a26da.ip1.shop
-    path: /rongseven?ed=2048
