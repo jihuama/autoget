@@ -15,14 +15,23 @@ proxies:
   server: 8.210.229.184
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 12|🇭🇰 香港|@ripaojiedian
-  password: bMxhj5PHRyXZbwvM
-  port: 43430
-  server: gd1-hk.fwcloud.cc
+  name: 12,13|香港|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: hk.wish.ml
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 4168440c-41a1-4671-a5b2-8abfe318e1bb
+  ws-opts:
+    headers:
+      Host: hk2.wish.ml
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
