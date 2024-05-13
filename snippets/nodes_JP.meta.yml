@@ -17,16 +17,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本2|@ripaojiedian
-  network: tcp
-  port: '61002'
-  server: 183.232.142.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
   name: 13|日本3|@ripaojiedian
   network: tcp
   port: '443'
@@ -37,29 +27,11 @@ proxies:
   uuid: 5c03bf73-c00a-4c7b-a71d-b913641a0c10
 - alterId: 0
   cipher: auto
-  name: 15|baipaovpn日本
-  network: ws
-  port: '80'
-  server: 43.199.36.215
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: '15|baipaovpn日本 #1'
-  network: ws
-  port: '80'
-  server: 43.198.14.45
-  servername: ''
-  tls: false
+  network: tcp
+  port: '8080'
+  server: 172.104.96.157
+  servername: jp-db-gy-2.skyorg.me
+  tls: true
   type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 98e3e6ae-239e-48f7-a5fc-4a6307bf071c
