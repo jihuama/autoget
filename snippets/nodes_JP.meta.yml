@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
+  name: 11|🇯🇵 日本3|@ripaojiedian
   password: 1ebd556c-b630-3d2f-9f5f-e97ef248198c
   port: 61002
   server: 4.forlive.live
@@ -9,9 +9,31 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
+  name: 11|🇯🇵 日本4|@ripaojiedian
   password: 918eba0d3ff04abc803fb00e18d0fcb5
   port: 40010
   server: 61.172.229.17
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.182.6.181
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 18.181.200.152
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
