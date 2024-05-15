@@ -1,12 +1,21 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本3|@ripaojiedian
-  password: 1ebd556c-b630-3d2f-9f5f-e97ef248198c
-  port: 61002
-  server: 4.forlive.live
+  name: 10,11|日本3|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: vip1.hpyjc.top
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 32c24a94-eb17-4081-aa57-48df2bc58342
+  ws-opts:
+    headers:
+      Host: jp1.hpyjc.top
+    path: /?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 10|🇯🇵 日本4|@ripaojiedian
