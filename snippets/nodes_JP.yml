@@ -1,26 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|日本3|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: vip1.hpyjc.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 32c24a94-eb17-4081-aa57-48df2bc58342
-  ws-opts:
-    headers:
-      Host: jp1.hpyjc.top
-    path: /?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 10|🇯🇵 日本4|@ripaojiedian
   password: 918eba0d3ff04abc803fb00e18d0fcb5
   port: 40010
   server: 61.172.229.17
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.139.225.183
   tfo: false
   type: ss
