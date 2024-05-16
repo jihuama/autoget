@@ -1,17 +1,18 @@
 proxies:
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 10|🇯🇵 日本4|@ripaojiedian
-  password: 918eba0d3ff04abc803fb00e18d0fcb5
-  port: 40010
-  server: 61.172.229.17
+  name: 10,11|日本3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.139.225.183
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 55444c8f-fdeb-4af4-98ee-7cf5f4667659
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
