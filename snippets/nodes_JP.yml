@@ -1,18 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '8,13|baipaovpn日本 #3'
+  name: 8|日本 东京都Amazon数据中心
   network: ws
-  port: '80'
+  port: 80
   server: 18.181.190.41
-  servername: ''
   tls: false
   type: vmess
   uuid: e7c26c01-186a-479e-9218-4952353d97f1
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: tms.dingtalk.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 10|🇯🇵 日本2|@ripaojiedian
@@ -46,31 +45,3 @@ proxies:
   server: 3.34.95.205
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '13|baipaovpn日本 #1'
-  network: ws
-  port: '80'
-  server: 18.181.190.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7c26c01-186a-479e-9218-4952353d97f1
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|baipaovpn日本 #2'
-  network: ws
-  port: '443'
-  server: 172.104.80.40
-  servername: tls.19.node-for-bigairport.win
-  tls: true
-  type: vmess
-  uuid: 323c4178-e9ad-4eb9-9731-fabe6d652537
-  ws-opts:
-    headers:
-      Host: tls.19.node-for-bigairport.win
-    path: /
