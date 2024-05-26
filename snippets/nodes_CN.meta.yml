@@ -24,7 +24,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
-  name: 8,13|baipaovpn广东省广州市
+  name: 8|广东省广州市 移动
   network: tcp
   port: '51707'
   server: 183.236.51.59
@@ -51,51 +51,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|baipaovpn广东省佛山市
-  network: tcp
-  port: '61001'
-  server: 183.232.199.61
+  name: 13|baipaovpn广东省
+  network: ws
+  port: '40396'
+  server: 183.240.220.245
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|baipaovpn广东省汕头市
   network: tcp
-  port: '30127'
+  port: '30112'
   server: 183.240.179.207
   servername: ''
   tls: false
   type: vmess
   uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
-- alterId: 0
-  cipher: auto
-  name: '13|baipaovpn广东省佛山市 #1'
-  network: tcp
-  port: '15603'
-  server: 183.232.199.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: '13|baipaovpn广东省汕头市 #1'
-  network: tcp
-  port: '30131'
-  server: 183.240.179.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
-- alterId: 0
-  cipher: auto
-  name: '13|baipaovpn广东省佛山市 #2'
-  network: tcp
-  port: '15601'
-  server: 183.232.199.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
