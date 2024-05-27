@@ -59,7 +59,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '13|baipaovpn广东省广州市 #1'
+  name: 13|baipaovpn广东省广州市
   network: ws
   port: '40396'
   server: 183.232.166.137
@@ -73,11 +73,43 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|baipaovpn广东省深圳市
-  network: tcp
-  port: '15600'
-  server: 183.232.142.179
+  name: '13|baipaovpn广东省广州市 #1'
+  network: ws
+  port: '40396'
+  server: 183.240.15.199
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|baipaovpn广东省
+  network: ws
+  port: '16632'
+  server: 120.233.204.126
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9a9d508-67e1-4929-8bea-8733d5a30c93
+  ws-opts:
+    headers:
+      Host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|baipaovpn广东省深圳市
+  network: ws
+  port: '16632'
+  server: 183.232.142.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
