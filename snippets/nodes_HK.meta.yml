@@ -15,14 +15,6 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 10|🇭🇰 香港2|@ripaojiedian
-  password: 4c0df09f-e015-441c-a602-1b9d3a0fdded
-  port: 58691
-  server: hk3.gauss.life
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -42,7 +34,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|香港|@ripaojiedian
+  name: 11,13|baipaovpn广东省佛山市
   network: tcp
   port: '15605'
   server: 183.232.199.28
@@ -52,7 +44,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 11|香港8|@ripaojiedian
+  name: '11,13|baipaovpn广东省佛山市 #2'
   network: tcp
   port: '15603'
   server: 183.232.199.61
@@ -60,17 +52,3 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: '13|baipaovpn香港 #1'
-  network: ws
-  port: '12909'
-  server: 210.3.159.224
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''

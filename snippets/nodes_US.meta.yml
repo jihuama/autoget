@@ -116,6 +116,17 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
+  name: '5|🇺🇸_US_美国 #5'
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
   name: '5,6|🇺🇸_US_美国 #21'
   network: ws
   port: 2052
@@ -326,14 +337,10 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,10,11|日本3|@ripaojiedian
+  name: '8|美国 CloudFlare节点 #3'
   network: ws
-  port: '80'
+  port: 80
   server: 162.159.136.13
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: d52dd638-0e14-469b-a34c-bb5184d4dce6
@@ -396,17 +403,26 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-128-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 10|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
+  name: 10,11|美国6|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: e83f27c4-b1cb-4311-907c-ea16d32348e1
+  ws-opts:
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - alterId: 64
   cipher: auto
-  name: 11|美国3|@ripaojiedian
+  name: 11,13|baipaovpn广东省江门市
   network: tcp
   port: '34414'
   server: 120.238.122.250
@@ -441,3 +457,31 @@ proxies:
     headers:
       Host: fr.grpc.gay
     path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '13|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 162.159.9.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  ws-opts:
+    headers:
+      Host: hinet.alipay.ovh
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|baipaovpn美国弗吉尼亚州阿什本
+  network: ws
+  port: '80'
+  server: 3.210.41.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d5fb496-19fb-48fb-9880-a147326dee62
+  ws-opts:
+    headers:
+      Host: best-charm-pediatrician.glitch.me
+    path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess
