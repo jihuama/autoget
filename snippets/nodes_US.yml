@@ -1,7 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1|🇺🇸_US_美国
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 0,1,3|-https://t.me/MrXbin-136
   network: ws
   port: 443
   server: 23.154.136.2
@@ -361,11 +364,29 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 13|baipaovpn美国
-  network: tcp
-  port: '41001'
-  server: 13.215.49.73
+  name: '13|baipaovpn美国 #1'
+  network: ws
+  port: '80'
+  server: 162.159.9.55
   servername: ''
   tls: false
   type: vmess
-  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  ws-opts:
+    headers:
+      Host: hinet.alipay.ovh
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '13|baipaovpn美国 #2'
+  network: ws
+  port: '8080'
+  server: 104.16.67.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: 8bsibsh8wbbwihfhjskbbng-shape-3.mewivot154.workers.dev
+    path: /hms02.fxiaomi.sbs/link
