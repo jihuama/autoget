@@ -38,10 +38,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  country: RU
-  h2-opts: {}
-  http-opts: {}
-  name: 0,1,3|-https://t.me/MrXbin-120
+  name: 0,1|🇷🇺_RU_俄罗斯联邦
   network: ws
   port: 12910
   server: 45.136.245.240
@@ -236,44 +233,76 @@ proxies:
   name: 3|-https://t.me/MrXbin-1
   password: amazonskr05
   port: 443
-  server: 47.128.230.112
+  server: 3.112.218.182
   type: ss
-- cipher: aes-256-gcm
-  name: 3|-https://t.me/MrXbin-2
-  password: dongtaiwang.com
-  port: 51122
-  server: 109.104.152.126
+- cipher: aes-128-cfb
+  name: 3|-https://t.me/MrXbin-4
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
   type: ss
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-6
+  client-fingerprint: chrome
+  name: 3,10|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.202.41.139
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-7
+  client-fingerprint: chrome
+  name: 3,10|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.9.69
+  server: 47.128.230.112
+  tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-49
+  network: ws
+  port: 2052
+  server: yx3.chinayyds.xyz
+  type: vmess
+  uuid: 7db4532e-42ae-46e0-a19c-a30e581d74d6
+  ws-opts:
+    headers:
+      Host: pqhk.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-54
+  network: ws
+  port: 2086
+  server: vip2.hpyjc.top
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: GB
-  name: 3|-https://t.me/MrXbin-113
-  password: jha5ZXvI7J4CkWQn4iB3AF
-  port: 58939
-  server: 52.151.99.42
-  type: ss
+  uuid: 32c24a94-eb17-4081-aa57-48df2bc58342
+  ws-opts:
+    headers:
+      Host: jp1.hpyjc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,10|🇺🇸 美国5|@ripaojiedian
+  password: TNDSJfNv
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  sni: tj71.37927.online
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - cipher: aes-256-cfb
   country: JP
-  name: 3|-https://t.me/MrXbin-114
-  password: amazonskr05
-  port: 443
-  server: 3.112.219.236
-  type: ss
-- cipher: aes-256-cfb
-  country: JP
-  name: 3|-https://t.me/MrXbin-115
+  name: 3|-https://t.me/MrXbin-108
   password: amazonskr05
   port: 443
   server: 18.181.198.10
@@ -283,20 +312,20 @@ proxies:
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-116
+  name: 3|-https://t.me/MrXbin-109
   network: tcp
-  port: 21583
-  server: 0i4ui-g03.jp03-7d22-vm0.entry.fr0307a.art
+  port: 444
+  server: qin5c-g01.jp04-3771-vm0.entry.fr0307a.art
+  servername: qin5c-g01.jp04-3771-vm0.entry.fr0307a.art
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: b37b7415-1608-3fcd-aa25-d9cc4aae5ded
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
 - alterId: 1
   cipher: auto
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-117
+  name: 3|-https://t.me/MrXbin-110
   network: tcp
   port: 28786
   server: 7oi23-g04.jp06-7c5a-vm0.entry.fr0307a.art
@@ -309,26 +338,11 @@ proxies:
   country: JP
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-118
+  name: 3|-https://t.me/MrXbin-111
   network: tcp
-  port: 21581
-  server: avido-g01.jp03-7d22-vm0.entry.fr0307a.art
-  servername: avido-g01.jp03-7d22-vm0.entry.fr0307a.art
+  port: 449
+  server: h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  country: JP
-  h2-opts: {}
-  http-opts: {}
-  name: 3|-https://t.me/MrXbin-119
-  network: tcp
-  port: 28788
-  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
   type: vmess
   uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 0
@@ -336,7 +350,7 @@ proxies:
   country: SG
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-121
+  name: 3|-https://t.me/MrXbin-112
   network: tcp
   port: 12954
   server: 31.192.234.7
@@ -344,47 +358,33 @@ proxies:
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-- alterId: 0
-  cipher: auto
-  country: SG
-  h2-opts: {}
-  http-opts: {}
-  name: 3|-https://t.me/MrXbin-122
-  network: ws
-  port: 80
-  server: sg4g.xn--vhq70hxyat50h6wk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1f9b54af-3ab1-48c8-b58c-59d8d78277af
-  ws-opts:
-    path: /
 - cipher: chacha20-ietf-poly1305
   country: ' US'
-  name: 3|-https://t.me/MrXbin-123
+  name: 3|-https://t.me/MrXbin-113
   password: ..
   port: 20001
   server: 38.114.123.12
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: US
-  name: 3|-https://t.me/MrXbin-124
-  password: lWaGPVFjmnag
-  port: 443
-  server: 205.134.180.139
-  type: ss
 - cipher: aes-128-cfb
   country: US
-  name: 3|-https://t.me/MrXbin-125
+  name: 3|-https://t.me/MrXbin-115
   password: shadowsocks
   port: 443
   server: 184.170.241.194
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: US
+  name: 3|-https://t.me/MrXbin-116
+  password: lWaGPVFjmnag
+  port: 443
+  server: 205.134.180.139
   type: ss
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-128
+  name: 3|-https://t.me/MrXbin-117
   network: ws
   port: 443
   server: 23.154.136.2
@@ -394,6 +394,91 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-119
+  network: ws
+  port: 8080
+  server: 172.67.172.219
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-120
+  network: ws
+  port: 8080
+  server: 172.67.169.90
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-123
+  network: ws
+  port: 8080
+  server: 172.67.199.211
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-124
+  network: ws
+  port: 8080
+  server: 172.67.172.67
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-125
+  network: ws
+  port: 2095
+  server: onea.flha.ru
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      HOST: onea.flha.ru
+    path: /
 - alterId: 0
   cipher: auto
   name: 4|德国1
@@ -866,14 +951,11 @@ proxies:
     path: /Nbs2DSTSkFW6MrrFQHeSDQ7
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,10,11|香港7|@ripaojiedian
+  name: 8|湖南省 联通
   network: ws
   port: '16632'
   server: yes.cnmjcn.net
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
@@ -1129,42 +1211,12 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10|🇺🇸 美国4|@ripaojiedian
-  password: TNDSJfNv
-  port: 4603
-  server: 36.151.195.48
-  skip-cert-verify: true
-  sni: nagoya.meijireform.com
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 10,11|香港5|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: m.cnmjin.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 10|🇭🇰 香港6|@ripaojiedian
-  password: 45b9ba11-5d0c-4154-ad92-bb0920bade75
-  port: 58494
-  server: hk2.gauss.life
+  name: 10|🇯🇵 日本4|@ripaojiedian
+  password: 07cf58cf-79bb-4371-925d-c2f57e5b1169
+  port: 61001
+  server: 4.forlive.live
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -1220,26 +1272,10 @@ proxies:
     path: /video/bYdJ7Vc2We
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 10|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.212.91.18
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 10|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.143.93.163
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 10|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.95.164.206
+  server: 13.214.211.185
   tfo: false
   type: ss
 - alterId: 0
@@ -1281,6 +1317,26 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
+  name: 11|香港5|@ripaojiedian
+  network: tcp
+  port: '15606'
+  server: 183.232.170.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 11|香港7|@ripaojiedian
+  network: tcp
+  port: '35996'
+  server: 786huix-ee.dc-zix4ssc1-hk03.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
+- alterId: 0
+  cipher: auto
   name: 11|韩国3|@ripaojiedian
   network: tcp
   port: '42001'
@@ -1289,26 +1345,6 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 11|韩国4|@ripaojiedian
-  network: tcp
-  port: '20006'
-  server: kr01.aikunapp.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 62771ce7-db7e-4e82-b143-48499a991d89
-- alterId: 64
-  cipher: auto
-  name: 11|美国3|@ripaojiedian
-  network: tcp
-  port: '34414'
-  server: 120.238.122.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '12|🇺🇸_US_美国 #32'
