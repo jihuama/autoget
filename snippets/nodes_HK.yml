@@ -18,6 +18,32 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 10|🇺🇸 美国5|@ripaojiedian
+  password: gkviEOYc
+  port: 4787
+  server: 36.151.195.48
+  skip-cert-verify: true
+  sni: terture.meijireform.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- client-fingerprint: chrome
+  name: 10|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  password: moist
+  port: 2083
+  server: 47.243.67.28
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 10,11|香港6|@ripaojiedian
   network: ws
   port: '16632'
@@ -44,18 +70,8 @@ proxies:
   cipher: auto
   name: 11|香港|@ripaojiedian
   network: tcp
-  port: '15607'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 11|香港2|@ripaojiedian
-  network: tcp
-  port: '15604'
-  server: 183.232.199.61
+  port: '15601'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
@@ -64,8 +80,8 @@ proxies:
   cipher: auto
   name: 11|香港3|@ripaojiedian
   network: tcp
-  port: '15604'
-  server: 183.232.170.47
+  port: '15603'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
@@ -74,8 +90,8 @@ proxies:
   cipher: auto
   name: 11|香港5|@ripaojiedian
   network: tcp
-  port: '15610'
-  server: 183.232.199.28
+  port: '15601'
+  server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
@@ -83,6 +99,16 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 11|香港7|@ripaojiedian
+  network: tcp
+  port: '15605'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 11|香港8|@ripaojiedian
   network: tcp
   port: '15610'
   server: 183.232.170.47
