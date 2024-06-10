@@ -1,28 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0,1|🇺🇸_US_美国
-  network: tcp
-  port: 27880
-  server: 104.131.75.47
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: acab06f2-d134-4989-9bf6-7b868b0b4aba
-- grpc-opts:
-    grpc-service-name: grpc
-  name: 0|_US__2
-  network: grpc
-  password: f85e2ad7-3e26-4589-b478-b0b15b9b5907
-  port: 2087
-  server: 104.21.20.148
-  skip-cert-verify: true
-  sni: us1.trojanvpn.de
-  type: trojan
-  udp: true
 - grpc-opts:
     grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
-  name: 0|_US__3
+  name: 0|_US__1
   network: grpc
   password: f91f38bb-72d5-4f3e-8311-1788986293f5
   port: 443
@@ -31,9 +10,42 @@ proxies:
   sni: iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpnc.iran-mehr14.ir
   type: trojan
   udp: true
+- name: 0|_US__2
+  network: tcp
+  password: 450524c4-86ee-4a97-ac7f-888942039bcd
+  port: 23333
+  server: 172.233.146.107
+  skip-cert-verify: true
+  sni: test.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,1|🇺🇸_US_美国
+  network: http
+  port: 3389
+  server: 64.176.15.74
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 0|_US__4
+  network: ws
+  port: 8880
+  server: 104.19.38.28
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      host: funk-england-indirect-gospel.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - grpc-opts:
     grpc-service-name: 443trojan
-  name: 0|_US__4
+  name: 0|_US__5
   network: grpc
   password: qj1Dz1CJmFQRhWr1SP80aA
   port: 443
@@ -44,31 +56,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 0|_US__5
-  network: ws
-  port: 80
-  server: speed.cloudflare.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      host: freevpn878.hamidimorteza680.workers.dev
-    path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
   name: '1|🇺🇸_US_美国 #1'
   network: ws
-  port: 80
-  server: speed.cloudflare.com
+  port: 8880
+  server: 104.19.38.28
   tls: false
   type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
   ws-opts:
     headers:
-      Host: freevpn878.hamidimorteza680.workers.dev
-    path: /glweidf.cfd/linkws
+      Host: funk-england-indirect-gospel.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
   name: '5,6|🇺🇸_US_美国 #15'
