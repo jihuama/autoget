@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 8|日本 东京Fastly节点
+  network: ws
+  port: '80'
+  server: www.hkbu.edu.hk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
+  ws-opts:
+    headers:
+      Host: nmsl.kp
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 10,11|日本2|@ripaojiedian
   network: ws
@@ -22,5 +36,13 @@ proxies:
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.180.230.217
   tfo: false
   type: ss
