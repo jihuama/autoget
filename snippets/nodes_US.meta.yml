@@ -1,9 +1,10 @@
 proxies:
-- cipher: aes-128-cfb
-  name: 0|_US__1
-  password: shadowsocks
+- cipher: aes-256-gcm
+  country: CA
+  name: 0,3|-https://t.me/MrXbin-40
+  password: pKEW8JPByTVTLtM
   port: 443
-  server: 184.170.241.194
+  server: 38.114.114.207
   type: ss
 - alterId: 0
   cipher: auto
@@ -19,29 +20,23 @@ proxies:
     headers:
       host: sssub.v2.001.ssrsub.com
     path: /api/v3/download.getFile
-- cipher: chacha20-ietf-poly1305
-  name: 0|_US__3
-  password: lWaGPVFjmnag
-  port: 443
-  server: 205.134.180.139
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|_US__4
+  name: 0|_US__3
   network: ws
-  port: 8880
-  server: cfcdn1.sanfencdn9.com
+  port: 2086
+  server: 104.16.67.38
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e62d9d73-9a0e-4d7a-8eba-8a9666c9bcbe
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
+      host: snowy-river-f497.turkeys-radford.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
 - grpc-opts:
     grpc-service-name: 443trojan
-  name: 0|_US__5
+  name: 0|_US__4
   network: grpc
   password: qj1Dz1CJmFQRhWr1SP80aA
   port: 443
@@ -50,9 +45,23 @@ proxies:
   sni: cdn-21.gsmxreality.com
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  country: CA
+  name: 0,3|-https://t.me/MrXbin-36
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.114.114.207
+  type: ss
+- cipher: aes-256-gcm
+  country: CA
+  name: 0,3|-https://t.me/MrXbin-35
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.114.114.207
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|_US__6
+  name: 0|_US__7
   network: ws
   port: 80
   server: www.speedtest.net
@@ -64,34 +73,34 @@ proxies:
     headers:
       host: De2.vmess.site.
     path: /
+- cipher: aes-256-gcm
+  country: CA
+  name: 0,3|-https://t.me/MrXbin-37
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 38.114.114.207
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: US
+  name: 0,3|-https://t.me/MrXbin-125
+  password: lWaGPVFjmnag
+  port: 443
+  server: 205.134.180.139
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 0|_US__7
+  name: 0|_US__10
   network: ws
-  port: 8080
-  server: 104.26.9.22
+  port: 8880
+  server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
   ws-opts:
     headers:
-      host: dual-nothing-prep-exit.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 64
-  cipher: auto
-  name: 0|_US__8
-  network: ws
-  port: 443
-  server: 107.167.20.184
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.15314695.xyz
-    path: /path/191019072927
+      host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: 1|🇺🇸_US_美国
@@ -107,26 +116,22 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,10,11|美国2|@ripaojiedian
+  name: '1|🇺🇸_US_美国 #1'
   network: ws
-  port: '8880'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
+  port: 2086
+  server: 104.16.67.38
   tls: false
   type: vmess
-  uuid: 46b17624-fa76-4c85-b8bd-8a66cf0ae17a
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      Host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
+      Host: snowy-river-f497.turkeys-radford.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '1|🇺🇸_US_美国 #2'
+  name: '1,8|美国 CloudFlare节点 #4'
   network: ws
-  port: 80
+  port: '80'
   server: www.speedtest.net
   tls: false
   type: vmess
@@ -139,31 +144,18 @@ proxies:
   cipher: auto
   name: '1|🇺🇸_US_美国 #3'
   network: ws
-  port: 8080
-  server: 104.26.9.22
+  port: 8880
+  server: russia.com
   tls: false
   type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
   ws-opts:
     headers:
-      Host: dual-nothing-prep-exit.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 64
-  cipher: auto
-  name: '1|🇺🇸_US_美国 #4'
-  network: ws
-  port: 443
-  server: 107.167.20.184
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.15314695.xyz
-    path: /path/191019072927
+      Host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '5,6|🇺🇸_US_美国 #18'
+  name: '5,6|🇺🇸_US_美国 #17'
   network: ws
   port: 2052
   server: 172.67.152.170
@@ -176,7 +168,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '5,12|🇺🇸_US_美国 #32'
+  name: '5,12|🇺🇸_US_美国 #31'
   network: ws
   port: 2095
   server: russia.com
@@ -189,7 +181,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '5|🇺🇸_US_美国 #7'
+  name: '5|🇺🇸_US_美国 #6'
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev
@@ -200,7 +192,7 @@ proxies:
     path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
 - alterId: 0
   cipher: auto
-  name: '5,6|🇺🇸_US_美国 #23'
+  name: '5,6|🇺🇸_US_美国 #22'
   network: ws
   port: 2052
   server: 104.21.82.39
@@ -213,7 +205,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '5,6|🇺🇸_US_美国 #24'
+  name: '5,6|🇺🇸_US_美国 #23'
   network: ws
   port: 2052
   server: mahilu.site
@@ -226,7 +218,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '5,6,12|🇺🇸_US_美国 #28'
+  name: '5,6,12|🇺🇸_US_美国 #27'
   network: ws
   port: 8080
   server: fbi.gov
@@ -239,7 +231,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '5|🇺🇸_US_美国 #11'
+  name: '5|🇺🇸_US_美国 #10'
   network: ws
   port: 2086
   server: cfcdn1.sanfencdn9.com
@@ -252,7 +244,7 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: '5,6|🇺🇸_US_美国 #21'
+  name: '5,6|🇺🇸_US_美国 #20'
   network: ws
   port: 8080
   server: 162.159.134.23
@@ -265,7 +257,7 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: '5,12|🇺🇸_US_美国 #31'
+  name: '5,12|🇺🇸_US_美国 #30'
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -278,7 +270,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '5,6|🇺🇸_US_美国 #25'
+  name: '5,6|🇺🇸_US_美国 #24'
   network: ws
   port: 8880
   server: russia.com
@@ -291,7 +283,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '5|🇺🇸_US_美国 #15'
+  name: '5|🇺🇸_US_美国 #14'
   network: ws
   port: 8080
   server: yh2.freeh1.xyz
@@ -304,7 +296,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '6|🇺🇸_US_美国 #16'
+  name: '6|🇺🇸_US_美国 #15'
   network: ws
   port: 80
   server: 172.67.116.48
@@ -317,7 +309,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6|🇺🇸_US_美国 #19'
+  name: '6|🇺🇸_US_美国 #18'
   network: ws
   port: 8080
   server: yh1.dtku41.xyz
@@ -330,7 +322,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '6|🇺🇸_US_美国 #22'
+  name: '6|🇺🇸_US_美国 #21'
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -343,7 +335,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '6|🇺🇸_US_美国 #26'
+  name: '6|🇺🇸_US_美国 #25'
   network: ws
   port: 443
   server: hms082.gwdef.sbs
@@ -356,7 +348,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '6|🇺🇸_US_美国 #27'
+  name: '6|🇺🇸_US_美国 #26'
   network: ws
   port: 80
   server: 104.21.234.52
@@ -372,32 +364,6 @@ proxies:
   name: 8|美国 CloudFlare节点
   network: ws
   port: 8080
-  server: 172.67.185.218
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '8|美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: 172.67.172.96
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '8|美国 CloudFlare节点 #2'
-  network: ws
-  port: 8080
   server: 104.19.47.126
   tls: false
   type: vmess
@@ -408,24 +374,10 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '8|美国 CloudFlare节点 #3'
-  network: ws
-  port: 8080
-  server: 104.19.47.18
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '8|美国 CloudFlare节点 #4'
+  name: '8|美国 CloudFlare节点 #1'
   network: ws
   port: '8080'
-  server: 104.19.47.238
-  servername: ''
+  server: 172.67.199.69
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -433,95 +385,18 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 8|美国 华盛顿Cogent通信公司
-  network: ws
-  port: 38001
-  server: 38.33.34.20
+  grpc-opts:
+    grpc-service-name: ''
+  name: '8|美国 CloudFlare节点 #3'
+  network: grpc
+  port: '2087'
+  server: 172.64.32.154
+  servername: dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb4532223159.3wwwwoooobmuaxen.info
   tls: true
   type: vmess
-  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
-  ws-opts:
-    headers:
-      Host: www.78274451.xyz
-    path: /path/191019072927
-- alterId: 0
-  cipher: auto
-  name: '8|美国 CloudFlare节点 #5'
-  network: ws
-  port: 8080
-  server: 172.67.172.88
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '8|美国 CloudFlare节点 #6'
-  network: ws
-  port: 8080
-  server: 104.19.47.186
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '8|美国 CloudFlare节点 #7'
-  network: ws
-  port: 8080
-  server: 104.19.47.34
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 8|美国 加利福尼亚
-  network: tcp
-  port: '3389'
-  server: 64.176.173.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: '8|美国 CloudFlare节点 #8'
-  network: ws
-  port: 8080
-  server: 104.19.47.180
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 8,9|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
+  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
 - alterId: 0
   cipher: auto
   name: '8,9|github.com/freefq - 美国CloudFla... #1'
@@ -535,6 +410,55 @@ proxies:
   ws-opts:
     headers:
       Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|美国 加利福尼亚
+  network: tcp
+  port: '3389'
+  server: 64.176.173.234
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: '8|美国 CloudFlare节点 #6'
+  network: ws
+  port: '8080'
+  server: 104.19.47.34
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048
+- alterId: 2
+  cipher: auto
+  name: '8|美国 CloudFlare节点 #7'
+  network: ws
+  port: 80
+  server: free.qdns.live
+  tls: false
+  type: vmess
+  uuid: ad6afad6-5659-3f25-9477-029735d5401c
+  ws-opts:
+    headers:
+      Host: free-us.qdns.live
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8,9|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
@@ -580,23 +504,31 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10,11|美国3|@ripaojiedian
+  name: 10,11|美国2|@ripaojiedian
   network: ws
-  port: '16928'
-  server: 120.232.240.56
+  port: '8880'
+  server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  uuid: 46b17624-fa76-4c85-b8bd-8a66cf0ae17a
   ws-opts:
     headers:
-      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
-    path: /v2ray
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 10|🇺🇸 美国R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16058
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '12|🇺🇸_US_美国 #33'
+  name: '12|🇺🇸_US_美国 #32'
   network: ws
   port: 2095
   server: 104.26.4.57
