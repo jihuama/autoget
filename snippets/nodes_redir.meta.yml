@@ -1,32 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|_CN_->_US_
-  network: ws
-  port: 16928
-  server: 120.232.240.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts:
-    headers:
-      host: '%7B%22Host%22:%22193.25.215.160%22%7D'
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 0|_US_->_FR__1
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
 - grpc-opts:
     grpc-service-name: 443trojan
   name: 0|_US_->_RU_
@@ -40,7 +12,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 0|_US_->_FR__2
+  name: 0|_US_->_FR_
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -54,53 +26,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0|_US_->_FR__3
+  name: 0|_FI_->_DE_
   network: ws
-  port: 2082
-  server: 172.67.130.140
+  port: 2053
+  server: 65.109.226.6
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
   ws-opts:
     headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
+      host: divar.ir
+    path: /@V2RayyNGvpn
+- name: 0|_CN_->_US_
+  network: tcp
+  password: gkviEOYc
+  port: 50611
+  server: 183.232.139.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,8,11,12|美国3|@ripaojiedian
-  network: ws
-  port: '16928'
-  server: 120.232.240.56
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts:
-    headers:
-      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: '1,6,13|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
+  name: 1|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1,8|美国 CloudFlare节点 #10'
-  network: ws
-  port: '2082'
   server: s1c.v2.v001sss.xyz
   tls: false
   type: vmess
@@ -111,20 +61,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,6,8,13|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: 1|🇫🇮_FI_芬兰->🇩🇪_DE_德国
   network: ws
-  port: 2082
-  server: 172.67.130.140
+  port: 2053
+  server: 65.109.226.6
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
+      Host: divar.ir
+    path: /@V2RayyNGvpn
 - alterId: 0
   cipher: auto
-  name: '5,13|🇺🇸_US_美国 #31'
+  name: '5,13|🇺🇸_US_美国 #33'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -163,7 +113,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '5,6,13|🇺🇸_US_美国 #30'
+  name: '5,6,13|🇺🇸_US_美国 #32'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -176,7 +126,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '5,6|🇺🇸_US_美国 #21'
+  name: '5,6|🇺🇸_US_美国 #23'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -187,3 +137,16 @@ proxies:
     headers:
       Host: pcs-referenced-camera-concerns.trycloudflare.com
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: '6,13|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
