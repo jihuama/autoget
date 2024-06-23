@@ -174,17 +174,6 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '5|🇺🇸_US_美国 #13'
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
   name: '5,6|🇺🇸_US_美国 #29'
   network: ws
   port: 2052
@@ -442,18 +431,48 @@ proxies:
   client-fingerprint: chrome
   name: 11,12|美国2|@ripaojiedian
   network: ws
-  port: '8880'
+  port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31
+  uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
   ws-opts:
     headers:
-      Host: us6gzxQRrE4.fzbqfrse.xyz
-    path: /video/bYdJ7Vc2We
+      Host: us1cPZiz8nb.fzbqfrse.xyz
+    path: /video/6VBhAkCtV4/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国6|@ripaojiedian
+  network: ws
+  port: 46036
+  server: mmus36.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 12|美国6|@ripaojiedian
+  network: ws
+  port: '46036'
+  server: mmus36.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: '13|🇺🇸_US_美国 #39'
