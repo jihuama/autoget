@@ -124,7 +124,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 1,3|-https://t.me/MrXbin-143
+  name: 1,3|-https://t.me/MrXbin-142
   network: tcp
   port: 2083
   server: kz-v2ray.ipracevpn.com
@@ -392,14 +392,11 @@ proxies:
     path: /video/X37qXHip
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|日本3|@ripaojiedian
+  name: '8|美国 CloudFlare节点 #1'
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
@@ -499,14 +496,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|美国2|@ripaojiedian
+  name: '8|美国 CloudFlare节点 #10'
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
@@ -625,6 +618,31 @@ proxies:
     headers:
       Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
     path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国2|@ripaojiedian
+  password: 56INZqMWGt0o8Rv4
+  port: 1026
+  server: 45.61.57.7
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|美国6|@ripaojiedian
+  network: ws
+  port: '8880'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c750f7b8-1080-4881-9d4f-7e74b2c56660
+  ws-opts:
+    headers:
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
   name: '13|🇺🇸_US_美国 #36'
