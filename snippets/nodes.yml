@@ -94,8 +94,7 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  country: KR
-  name: 0,3|-https://t.me/MrXbin-118
+  name: 0|_US__5
   password: amazonskr05
   port: 443
   server: 3.39.227.28
@@ -389,79 +388,6 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-2
-  password: amazonskr05
-  port: 443
-  server: 13.124.244.90
-  type: ss
-- cipher: aes-128-gcm
-  name: 3|-https://t.me/MrXbin-9
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.79
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 3.39.251.119
-  type: ss
-- cipher: rc4-md5
-  name: 3|-https://t.me/MrXbin-27
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13501
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: tata12.cdn.node.a.tddns-ounk.com
-  type: ssr
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3|-https://t.me/MrXbin-32
-  network: tcp
-  port: 20006
-  server: kr01.aikunapp.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7aca895e-9734-4784-9437-ce6420d45968
-- cipher: aes-256-cfb
-  country: KR
-  name: 3|-https://t.me/MrXbin-117
-  password: amazonskr05
-  port: 443
-  server: 54.180.251.250
-  type: ss
-- cipher: aes-256-gcm
-  country: US
-  name: 3|-https://t.me/MrXbin-119
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.248
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: US
-  name: 3|-https://t.me/MrXbin-120
-  password: mMTy1P
-  port: 20002
-  server: 38.99.82.85
-  type: ss
-- cipher: aes-256-cfb
-  country: US
-  name: 3|-https://t.me/MrXbin-121
-  password: amazonskr05
-  port: 443
-  server: 47.129.0.210
-  type: ss
-- cipher: aes-256-cfb
-  country: US
-  name: 3|-https://t.me/MrXbin-122
-  password: amazonskr05
-  port: 443
-  server: 43.201.254.211
-  type: ss
 - alterId: 0
   cipher: auto
   name: 6|🇱🇺_LU_卢森堡
@@ -2172,11 +2098,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,12|新加坡|@ripaojiedian
+  name: 8|新加坡 v2rayfree.eu.org
   network: tcp
-  port: '57614'
+  port: 57614
   server: 5.34.176.111
-  servername: ''
   tls: false
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
@@ -2507,29 +2432,37 @@ proxies:
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
-    host: h2.wagaga.online
+    host: a1.wagaga.online
     mode: websocket
     mux: true
     path: ''
-    skip-cert-verify: true
+    skip-cert-verify: false
     tls: true
-  port: 443
-  server: 36.232.5.90
+  port: 8443
+  server: 118.170.93.63
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港|@ripaojiedian
+  password: 7514d66e-9bd7-4fd6-91a0-0532aec92f9d
+  port: 65045
+  server: 123.88.148.9
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
-  password: GsKYmYOE
-  port: 40081
-  server: 183.232.139.22
-  skip-cert-verify: true
-  sni: sg1111.156786.xyz
+  name: 11|🇦🇺 澳大利亚|@ripaojiedian
+  password: yElqzjIaSR9KF3Xg7Z8OD2AlAg7Z8OD2AlApwYY4pe3c33RuZaxBDCSC08D56x3RuZaxB
+  port: 28332
+  server: ttolpro.bigkangaroo.net
+  skip-cert-verify: false
+  sni: ttolpro.bigkangaroo.net
   tfo: false
   tls: false
   type: trojan
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+  uuid: 4c1fb969-4aea-4947-a71c-1095a8c95c83
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇭🇰 香港R|@ripaojiedian
@@ -2540,10 +2473,10 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 11|🇹🇼 台湾|@ripaojiedian
   password: amazonskr05
   port: 80
-  server: 43.201.6.50
+  server: 13.125.132.18
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -2552,6 +2485,14 @@ proxies:
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇰🇷 韩国|@ripaojiedian
+  password: amazonskr05
+  port: 80
+  server: 47.129.42.209
   tfo: false
   type: ss
 - alterId: 0
@@ -2624,18 +2565,18 @@ proxies:
     path: github.com/Alvin9999
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.179.241.46
+  server: 13.250.98.179
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.213.30.202
+  server: 57.180.19.240
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -2643,7 +2584,7 @@ proxies:
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.250.14.224
+  server: 54.250.63.178
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -2654,23 +2595,6 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|俄罗斯|@ripaojiedian
-  network: ws
-  port: '54321'
-  server: eedp257bubu2wefy1.lovebaipiao.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c8f92a11-9760-4574-96f4-d0c5165fef96
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /iphone
 - alterId: 64
   cipher: auto
   name: 12|香港2|@ripaojiedian
@@ -2693,11 +2617,11 @@ proxies:
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alterId: 0
   cipher: auto
-  name: 12|香港|@ripaojiedian
-  network: kcp
-  port: '46959'
-  server: 5.253.16.137
+  name: 12|日本3|@ripaojiedian
+  network: tcp
+  port: '43347'
+  server: 45.159.50.214
   servername: ''
   tls: false
   type: vmess
-  uuid: cc47370e-62e3-431b-97d1-7b520aa1122c
+  uuid: 4c1fb969-4aea-4947-a71c-1095a8c95c83
