@@ -1,11 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8|11|香港|@ripaojiedian
+  name: 8|10|🇭🇰 香港|@ripaojiedian
   network: tcp
-  port: '29767'
+  port: 29767
   server: iepl.hongxingdl.vip
-  servername: ''
   tls: false
   type: vmess
   uuid: 47205b34-a0d2-462a-b603-438f62ad8027
@@ -37,11 +36,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 8|10,11|香港6|@ripaojiedian
+  name: 8|10|🇭🇰 香港6|@ripaojiedian
   network: ws
-  port: '2052'
+  port: 2052
   server: v4.yydspp.cc
-  servername: ''
   tls: false
   type: vmess
   uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
@@ -66,6 +64,33 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 8,11,12|香港6|@ripaojiedian
+  network: ws
+  port: '50185'
+  server: hkt1.hkg.hypernat.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
+  ws-opts:
+    headers:
+      Host: hkt1.hkg.hypernat.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8,12|香港7|@ripaojiedian
+  network: tcp
+  port: '10184'
+  server: 36.139.183.164
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
   password: yEnxJlVC
   port: 54367
@@ -84,23 +109,6 @@ proxies:
   server: gg01.6bnw.top
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|香港6|@ripaojiedian
-  network: ws
-  port: '50185'
-  server: hkt1.hkg.hypernat.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
-  ws-opts:
-    headers:
-      Host: hkt1.hkg.hypernat.com
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港10|@ripaojiedian
@@ -109,13 +117,3 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|香港7|@ripaojiedian
-  network: tcp
-  port: '10184'
-  server: 36.139.183.164
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
