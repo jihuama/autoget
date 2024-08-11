@@ -388,22 +388,58 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: rc4-md5
-  name: 3|-https://t.me/MrXbin-5
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13227
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-6
+  name: 3|-https://t.me/MrXbin-2
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
+  type: ssr
+- cipher: rc4-md5
+  name: 3|-https://t.me/MrXbin-4
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13262
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 3|-https://t.me/MrXbin-5
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13497
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 3|-https://t.me/MrXbin-6
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13221
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 3|-https://t.me/MrXbin-7
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13448
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: sjgysy.cdn.node.a.tddns-ounk.com
+  type: ssr
+- cipher: rc4-md5
+  name: 3|-https://t.me/MrXbin-8
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13682
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: z5is.cdn.node.a.tddns-ounk.com
   type: ssr
 - alterId: 0
   cipher: auto
@@ -1414,14 +1450,11 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|日本4|@ripaojiedian
+  name: 8|10,11|日本4|@ripaojiedian
   network: ws
   port: '2052'
   server: pgrpxewcjptest.yofnhkfc.xyz
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
@@ -1448,14 +1481,11 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|美国2|@ripaojiedian
+  name: 8|10,11|美国2|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
@@ -1675,16 +1705,16 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 01479b69-268a-4900-854f-83737c5e34fc
-  port: 40012
+  password: 713366e0-20b8-4d5d-be5d-988317e086c7
+  port: 40023
   server: gg01.6bnw.top
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港3|@ripaojiedian
-  password: 01479b69-268a-4900-854f-83737c5e34fc
-  port: 39301
+  password: 713366e0-20b8-4d5d-be5d-988317e086c7
+  port: 19527
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
@@ -1703,41 +1733,92 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇹🇼 台湾|@ripaojiedian
-  password: 01479b69-268a-4900-854f-83737c5e34fc
-  port: 32207
+  password: 713366e0-20b8-4d5d-be5d-988317e086c7
+  port: 39201
   server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇹🇼 台湾2|@ripaojiedian
-  password: a4a8a2002a4fd6c5
-  port: 61931
-  server: 46.29.163.29
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇯🇵 日本2|@ripaojiedian
-  password: 01479b69-268a-4900-854f-83737c5e34fc
-  port: 19529
+  password: 713366e0-20b8-4d5d-be5d-988317e086c7
+  port: 49207
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|日本4|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9a403efc-18d7-4a78-8532-fb15541ef836
+  ws-opts:
+    headers:
+      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
+    path: /video/X37qXHip
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇰🇷 韩国|@ripaojiedian
+  password: 713366e0-20b8-4d5d-be5d-988317e086c7
+  port: 39202
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|新加坡|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9a403efc-18d7-4a78-8532-fb15541ef836
+  ws-opts:
+    headers:
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡2|@ripaojiedian
-  password: 01479b69-268a-4900-854f-83737c5e34fc
-  port: 39505
+  password: 713366e0-20b8-4d5d-be5d-988317e086c7
+  port: 39204
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|美国2|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9a403efc-18d7-4a78-8532-fb15541ef836
+  ws-opts:
+    headers:
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.219.130.214
+  server: 52.194.250.138
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1745,7 +1826,7 @@ proxies:
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.228.79.13
+  server: 13.229.243.64
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1753,6 +1834,6 @@ proxies:
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.78.200.155
+  server: 13.214.209.23
   tfo: false
   type: ss
