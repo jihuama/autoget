@@ -9,28 +9,10 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 8,12|香港5|@ripaojiedian
-  network: tcp
-  port: '54104'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 25f6705c-16f0-4c34-b370-5e8e66fa3238
-  port: 19527
-  server: 6bhz.6bnw.top
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|香港3|@ripaojiedian
+  name: 8,11,12|香港3|@ripaojiedian
   network: ws
   port: '2052'
   server: 33.6bnw.top
@@ -44,6 +26,41 @@ proxies:
     headers:
       Host: akhksm.6bnw.top
     path: /?ed=2560
+- alterId: 64
+  cipher: auto
+  name: 8,12|香港5|@ripaojiedian
+  network: tcp
+  port: '54104'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,11,12|香港8|@ripaojiedian
+  network: ws
+  port: '10001'
+  server: 62.72.163.54
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 58d4a75a-cbae-4742-92fd-bff562422e25
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港2|@ripaojiedian
+  password: 25f6705c-16f0-4c34-b370-5e8e66fa3238
+  port: 19527
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港6|@ripaojiedian
@@ -60,20 +77,3 @@ proxies:
   server: cmrefhk1.exitlag.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|香港8|@ripaojiedian
-  network: ws
-  port: '10001'
-  server: 62.72.163.54
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 58d4a75a-cbae-4742-92fd-bff562422e25
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
