@@ -11,36 +11,16 @@ proxies:
   uuid: 11f686f6-77fb-4ba0-a7c2-70c5f11ca804
 - alterId: 0
   cipher: auto
-  name: 8|14|香港7|@ripaojiedian
+  name: 8|13|🇭🇰 香港7|@ripaojiedian
   network: tcp
-  port: '44801'
+  port: 44801
   server: ambxxic01hk.dorabbb.top
-  servername: ''
   tls: false
   type: vmess
   uuid: a98edd9d-1e4f-4e12-9c54-6c3814b49aba
-- alterId: 64
-  cipher: auto
-  name: 11|🇺🇸 美国6|@ripaojiedian
-  password: c471ef32-798d-40a0-a57c-acf3475a204e
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 11|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 103.161.255.195
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 12|香港|@ripaojiedian
+  name: 8,12|香港|@ripaojiedian
   network: tcp
   port: '22201'
   server: 149.104.15.209
@@ -50,7 +30,7 @@ proxies:
   uuid: f022200b-43e0-4e41-8e89-df369cf1d93b
 - alterId: 0
   cipher: auto
-  name: 12|香港2|@ripaojiedian
+  name: 8,12|香港2|@ripaojiedian
   network: tcp
   port: '44806'
   server: ambxxic01hk.dorabbb.top
@@ -60,7 +40,7 @@ proxies:
   uuid: be263eac-a624-452b-89da-bb25190676fc
 - alterId: 64
   cipher: auto
-  name: 12|香港3|@ripaojiedian
+  name: 8,12|香港3|@ripaojiedian
   network: tcp
   port: '52908'
   server: 120.237.79.157
@@ -68,3 +48,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国6|@ripaojiedian
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13019
+  server: naiu-us.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 103.161.255.195
+  tfo: false
+  type: ss
