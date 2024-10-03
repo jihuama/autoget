@@ -1,18 +1,43 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港|@ripaojiedian
+  password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
+  port: 25991
+  server: whcm.v6v.eu
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 11,13|CN_speednode_0024
-  password: '!!str 3672449442956713984'
+  password: 0b0387b8-5258-386b-8744-dcacb2320d94
   port: 22238
   server: wduzpt.gxcvbmj.xyz
   skip-cert-verify: false
-  sni: stable-koi.gelding865.autos
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
   tfo: false
   tls: false
   type: vmess
   udp: true
   uuid: 6ea392c2-0636-3d4f-a6a2-f38a76e216d3
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|香港3|@ripaojiedian
+  network: ws
+  port: '59501'
+  server: cm.laoliu.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 454e1e97-2dab-4abb-b770-adfa92be4d19
+  ws-opts:
+    headers:
+      Host: hk22.laoliu.store
+    path: /downloads_hk22
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇭🇰 香港R|@ripaojiedian
@@ -21,6 +46,16 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港5|@ripaojiedian
+  network: tcp
+  port: '44826'
+  server: ambxxid02hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d
 - name: 13|HK_speednode_0163
   network: ws
   password: 95b
