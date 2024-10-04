@@ -1,12 +1,21 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
-  password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
-  port: 25991
-  server: whcm.v6v.eu
+  name: 11,12|香港|@ripaojiedian
+  network: ws
+  port: '80'
+  server: yfg4l.c6tu5uwk9.buzz
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  ws-opts:
+    headers:
+      Host: hk01.industriouseileen.buzz
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,39 +32,24 @@ proxies:
   uuid: 6ea392c2-0636-3d4f-a6a2-f38a76e216d3
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|香港3|@ripaojiedian
-  network: ws
-  port: '59501'
-  server: cm.laoliu.live
+  name: 12|香港2|@ripaojiedian
+  network: tcp
+  port: '10701'
+  server: 38.147.188.88
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: 454e1e97-2dab-4abb-b770-adfa92be4d19
-  ws-opts:
-    headers:
-      Host: hk22.laoliu.store
-    path: /downloads_hk22
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 103.161.255.195
-  tfo: false
-  type: ss
+  uuid: b76ca9b0-d763-4231-a2ac-c1da3af9e3bd
 - alterId: 0
   cipher: auto
-  name: 12|香港5|@ripaojiedian
+  name: 12|香港3|@ripaojiedian
   network: tcp
-  port: '44826'
-  server: ambxxid02hk.dorabbb.top
+  port: '11667'
+  server: 38.147.188.139
   servername: ''
   tls: false
   type: vmess
-  uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d
+  uuid: e099546a-4aef-4481-84e9-d0c951f226c1
 - client-fingerprint: chrome
   name: 13|HK_speednode_0144
   network: ws
