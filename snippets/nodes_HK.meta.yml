@@ -1,7 +1,8 @@
 proxies:
-- cipher: aes-128-gcm
+- alterId: -1
+  cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
+  name: 11,13|CN_speednode_0013
   password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd
   port: 10004
   server: cdn.node1.lilisi.link
@@ -15,19 +16,6 @@ proxies:
   server: tt07.51feitu.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11|🇸🇪 瑞典|@ripaojiedian
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.49.130.179
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
 - alterId: 0
   cipher: auto
   name: 12|香港3|@ripaojiedian
@@ -68,3 +56,15 @@ proxies:
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- name: 13|HK_speednode_0062
+  network: ws
+  port: 443
+  server: 219.76.13.169
+  servername: ll.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: ll.ylks.us.kg
+    path: /?ed=2560
