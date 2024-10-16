@@ -389,12 +389,6 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-128-gcm
-  name: 3,13|US_speednode_0058
-  password: Yc2CtrIz8L
-  port: 16899
-  server: 23.95.68.112
-  type: ss
-- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 3,11,13|GB_speednode_0013
   password: shadowsocks
@@ -403,22 +397,31 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-10
+  name: 3|-https://t.me/MrXbin-14
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 3|-https://t.me/MrXbin-11
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13234
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-46
+  network: ws
+  port: 443
+  server: 15.235.50.172
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: baradiha.com
+    path: /linkvws
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -461,7 +464,7 @@ proxies:
   port: 27131
   server: 36.151.192.201
   skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  sni: twnode11.oportal.cc
   tfo: false
   tls: false
   type: trojan
@@ -1478,10 +1481,18 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 11|🇭🇰 香港|@ripaojiedian
+  password: 29774f68-6f8c-492d-9ada-5cfd4313d218
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 69b103f6-2db0-452b-999e-06cb77b8021b
-  port: 29527
-  server: hzhz1.sssyun.xyz
+  password: 8c052d7a-d5da-495a-abee-93f4bef380e1
+  port: 54937
+  server: jioawdm.zhangwei.li
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -1492,52 +1503,68 @@ proxies:
   server: gtm1.ktmwan.com
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾3|@ripaojiedian
-  password: 69b103f6-2db0-452b-999e-06cb77b8021b
-  port: 40018
-  server: hzhz2.sssyun.xyz
+  name: 11|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
-  password: 69b103f6-2db0-452b-999e-06cb77b8021b
-  port: 19529
-  server: hzhz1.sssyun.xyz
+  name: 11|🇹🇼 台湾2|@ripaojiedian
+  password: 8c052d7a-d5da-495a-abee-93f4bef380e1
+  port: 27251
+  server: jioawdm.zhangwei.li
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本4|@ripaojiedian
-  password: JpTYrOJnIhNMXqli
-  port: 23801
-  server: 221.181.185.71
+  name: 11|🇯🇵 日本|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本2|@ripaojiedian
+  password: 8c052d7a-d5da-495a-abee-93f4bef380e1
+  port: 50331
+  server: biedazjyd.zhangwei.li
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
-  password: 69b103f6-2db0-452b-999e-06cb77b8021b
-  port: 40015
-  server: hzhz2.sssyun.xyz
+  name: 11|🇯🇵 日本3|@ripaojiedian
+  password: 4b3391e1-3cc6-4e82-816c-6b7bf516c12b
+  port: 49207
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  password: 5e169d24-64c5-4a31-8942-1e7b05e79db5
+  port: 11002
+  server: 61.172.235.22
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
-  password: c6011161-bc0a-4260-b622-df391c1641dd
-  port: 10668
-  server: sgzzah.lbxjc.online
+  password: 4b3391e1-3cc6-4e82-816c-6b7bf516c12b
+  port: 39204
+  server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.250.103.70
+  name: 11|🇺🇸 美国|@ripaojiedian
+  password: 8c052d7a-d5da-495a-abee-93f4bef380e1
+  port: 35423
+  server: mmt.bjcu.donghui.tech
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1545,7 +1572,15 @@ proxies:
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.183.186.69
+  server: 18.182.55.134
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.112.168.104
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1553,19 +1588,17 @@ proxies:
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.254.74
+  server: 13.115.189.201
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|香港|@ripaojiedian
-  network: tcp
-  port: '50021'
-  server: 50021.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4df8aa8f-1fd6-414d-8d2b-66b6a01ba2a8
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇻🇳 越南|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15083
+  server: 120.232.81.50
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|香港5|@ripaojiedian
@@ -1576,36 +1609,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 0
-  cipher: auto
-  name: 12|日本2|@ripaojiedian
-  network: tcp
-  port: '50031'
-  server: 50031.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4df8aa8f-1fd6-414d-8d2b-66b6a01ba2a8
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡2|@ripaojiedian
-  network: tcp
-  port: '50009'
-  server: 50009.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4df8aa8f-1fd6-414d-8d2b-66b6a01ba2a8
-- alterId: 0
-  cipher: auto
-  name: 12|美国|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 50004.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4df8aa8f-1fd6-414d-8d2b-66b6a01ba2a8
 - alterId: 64
   cipher: auto
   name: 12|德国|@ripaojiedian
@@ -2117,6 +2120,12 @@ proxies:
     headers:
       Host: dl.ylks.xyz
     path: /?proxyip=proxyip.sl.fxxl.dedyn.io
+- cipher: aes-128-gcm
+  name: 13|US_speednode_0058
+  password: Yc2CtrIz8L
+  port: 16899
+  server: 23.95.68.112
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 13|US_speednode_0059
   password: ڦʺl٬TJ1q8DFgǪǥ
