@@ -390,50 +390,21 @@ proxies:
   ws-opts: {}
 - alterId: -1
   cipher: aes-256-gcm
-  name: 3,13|US_speednode_0063
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 69.50.92.99
-  type: ss
-- alterId: -1
-  cipher: aes-256-gcm
-  name: 3,13|US_speednode_0060
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 69.50.92.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|-https://t.me/MrXbin-5
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 69.50.95.218
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|-https://t.me/MrXbin-6
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 69.50.95.218
-  type: ss
-- alterId: -1
-  cipher: aes-256-gcm
   name: 3,13|US_speednode_0111
   password: e4FCWrgpkji3QY
   port: 9101
   server: 69.50.93.113
   type: ss
   udp: true
-- alterId: -1
-  cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 3,11,13|GB_speednode_0019
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.198
+- alterId: 0
+  cipher: aes-256-gcm
+  name: 3,13|US_speednode_0065
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 69.50.95.179
   skip-cert-verify: true
-  tfo: false
   tls: true
   type: ss
-  udp: true
 - alterId: -1
   cipher: aes-256-gcm
   name: 3,13|US_speednode_0059
@@ -450,30 +421,34 @@ proxies:
   type: ss
 - alterId: -1
   cipher: aes-256-gcm
+  name: 3,13|US_speednode_0064
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 69.50.92.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 3|-https://t.me/MrXbin-13
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 69.50.95.218
+  type: ss
+- alterId: -1
+  cipher: aes-256-gcm
   name: 3,13|US_speednode_0075
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 69.50.93.113
   type: ss
   udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 3,13|US_speednode_0065
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 69.50.95.179
-  skip-cert-verify: true
-  tls: true
-  type: ss
 - alterId: -1
   cipher: aes-256-gcm
-  name: 3,13|US_speednode_0064
+  name: 3,13|US_speednode_0063
   password: kDWvXYZoTBcGkC4
-  port: 8881
+  port: 8882
   server: 69.50.92.99
   type: ss
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-23
+  name: 3|-https://t.me/MrXbin-25
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -488,6 +463,39 @@ proxies:
   network: ws
   port: 2095
   server: 172.64.167.10
+  servername: ip10.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip10.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-43
+  network: ws
+  port: 2086
+  server: aqerdsf_cdn.hfhfb.homes
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 54895917-9761-487f-b949-1476bf8193ea
+  ws-opts:
+    headers:
+      Host: rbcdn3.fask511.cfd
+    path: /?ed=512
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3,13|US_speednode_0191
+  network: ws
+  port: 2095
+  server: malaysia.com
   servername: ip10.6016725.xyz
   tls: false
   type: vmess
@@ -520,6 +528,22 @@ proxies:
       Host: mehrjavan.ir
     max_early_data: 2560
     path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-50
+  network: ws
+  port: 2095
+  server: 172.64.175.213
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip9.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 5|🇱🇺_LU_卢森堡
@@ -1639,6 +1663,18 @@ proxies:
   tfo: false
   type: ss
 - alterId: -1
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11,13|GB_speednode_0019
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.198
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: ss
+  udp: true
+- alterId: -1
   cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11,13|CN_speednode_0004
@@ -2138,6 +2174,13 @@ proxies:
     headers:
       Host: late-tooth.granzinhannah.workers.dev
     path: /?ed=2560
+- alterId: -1
+  cipher: aes-256-gcm
+  name: 13|US_speednode_0060
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 69.50.92.99
+  type: ss
 - name: 13|US_speednode_0061
   network: ws
   port: 2082
@@ -3244,21 +3287,6 @@ proxies:
     headers:
       Host: dn.ylks.xyz
     path: /freecodes
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0191
-  network: ws
-  port: 2095
-  server: malaysia.com
-  servername: ip10.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip10.6016725.xyz
-    path: /github.com/Alvin9999
 - name: 13|US_speednode_0193
   network: ws
   port: 443
