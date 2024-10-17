@@ -400,36 +400,31 @@ proxies:
   tls: true
   type: ss
   udp: true
-- alterId: -1
-  cipher: aes-256-gcm
-  name: 3,13|US_speednode_0075
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 69.50.93.113
-  type: ss
-  udp: true
-- alterId: -1
-  cipher: aes-256-gcm
-  name: 3,13|US_speednode_0063
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 69.50.92.99
-  type: ss
-- alterId: -1
-  cipher: aes-256-gcm
-  name: 3,13|US_speednode_0060
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 69.50.92.99
-  type: ss
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-16
+  name: 3|-https://t.me/MrXbin-13
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3,13|US_speednode_0072
+  network: ws
+  port: 2095
+  server: 172.64.167.10
+  servername: ip10.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip10.6016725.xyz
+    path: /github.com/Alvin9999
 - alpn:
   - http/1.1
   alterId: 0
@@ -2309,6 +2304,13 @@ proxies:
   port: 6379
   server: 69.50.95.179
   type: ss
+- alterId: -1
+  cipher: aes-256-gcm
+  name: 13|US_speednode_0060
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 69.50.92.99
+  type: ss
 - name: 13|US_speednode_0061
   network: ws
   port: 2082
@@ -2327,6 +2329,13 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 69.50.95.179
+  type: ss
+- alterId: -1
+  cipher: aes-256-gcm
+  name: 13|US_speednode_0063
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 69.50.92.99
   type: ss
 - alterId: -1
   cipher: aes-256-gcm
@@ -2405,21 +2414,14 @@ proxies:
     headers:
       Host: lm.ylks01.eu.org
     path: /blue
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0072
-  network: ws
-  port: 2095
-  server: 172.64.167.10
-  servername: ip10.6016725.xyz
-  tls: false
-  type: vmess
+- alterId: -1
+  cipher: aes-256-gcm
+  name: 13|US_speednode_0075
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 69.50.93.113
+  type: ss
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip10.6016725.xyz
-    path: /github.com/Alvin9999
 - name: 13|US_speednode_0226
   network: ws
   port: 443
