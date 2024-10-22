@@ -1,29 +1,16 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
 - alterId: 64
   cipher: auto
   name: '1,14|🇨🇳_CN_中国 #1'
   network: tcp
   port: 54882
   server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '8|广东省广州市 移动 #1'
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 8,12|香港7|@ripaojiedian
-  network: tcp
-  port: '45020'
-  server: 183.236.51.23
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -41,15 +28,38 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 13|CN_speednode_0001
-  network: tcp
-  port: 52112
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0016
+  password: 54f4e2f4-f0e1-4a15-a0cf-3a3234ab58fb
+  port: 11001
+  server: 183.232.229.165
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0019
+  password: 5409bf78-b122-4b9b-9050-da36576f5bbc
+  port: 25991
+  server: tg_mfbpn03.52cloud.us.kg
+  type: ss
+- alterId: -1
+  cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0020
+  password: 5409bf78-b122-4b9b-9050-da36576f5bbc
+  port: 34676
+  server: tg_mfbpn03.52cloud.us.kg
+  type: ss
+- alterId: -1
+  cipher: aes-256-cfb
+  name: 13|CN_speednode_0022
+  password: 75ly0yJ90LP5Ural
+  port: 20705
+  server: 221.181.185.71
+  type: ss
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  version: '2'
+- cipher: aes-256-cfb
+  name: 13|CN_speednode_0027
+  password: f52SZksXnGNfc72Q
+  port: 23382
+  server: 221.181.185.71
+  type: ss
+  udp: true
