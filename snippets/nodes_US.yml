@@ -925,6 +925,13 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
+- cipher: aes-128-gcm
+  name: 13|US_speednode_0165
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.244
+  type: ss
+  udp: true
 - name: 13|US_speednode_0166
   network: ws
   password: auto
@@ -1583,6 +1590,21 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 13|US_speednode_0330
+  network: ws
+  port: 2082
+  server: russia.com
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 13|US_speednode_0332
   network: ws
   port: 2082
@@ -1596,19 +1618,3 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0409
-  network: ws
-  port: 80
-  server: 151.101.130.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  version: '2'
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
