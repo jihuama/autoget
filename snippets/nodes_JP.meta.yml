@@ -1,20 +1,22 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
-  password: 5b4aa2a3-2d45-4cc3-b8f8-02a562a37e38
-  port: 40003
-  server: soonjp.soon.guru
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.216.179
+  server: 18.176.53.132
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|日本2|@ripaojiedian
+  network: tcp
+  port: '56916'
+  server: 45.159.50.165
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: edcc6b8f-bcf5-4d2a-9026-c58967fb2b5d
 - name: 13|JP_speednode_0045
   network: ws
   port: 2053
