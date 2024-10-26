@@ -257,15 +257,32 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 11,13|US_speednode_0088
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
+  name: 11|🇺🇸 美国2|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 137.175.97.159
   tfo: false
   type: ss
-  udp: true
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国4|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 107.148.95.104
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|美国3|@ripaojiedian
+  network: tcp
+  port: '9023'
+  server: select-us.0000000000.download
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac59a7cd-11af-3e35-a098-b785688ec627
 - name: 13|US_speednode_0061
   network: ws
   port: 8880
@@ -627,6 +644,13 @@ proxies:
     headers:
       Host: sb-1u6.pageS.Dev
     path: /o56edk55jth9andd/mtu4ljewms4ymdmumti3?ed=2560
+- cipher: aes-128-gcm
+  name: 13|US_speednode_0088
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.244
+  type: ss
+  udp: true
 - name: 13|US_speednode_0089
   network: ws
   port: 8443
