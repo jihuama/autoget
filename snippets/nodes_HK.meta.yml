@@ -19,35 +19,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12,13|US_speednode_0055
+  name: 11,12|香港2|@ripaojiedian
   network: ws
-  port: 2086
+  port: '2086'
   server: cdn1.bpcdn.cc
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: aaa1b350-15f7-4837-9a08-2129ff9c6d1e
   ws-opts:
     headers:
       Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,13|VN_speednode_0073
-  password: 94d219c9-1afc-4d42-b090-8b3794764380
-  port: 443
-  server: 36.50.134.29
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3
 - alterId: 0
   cipher: auto
   name: 12|香港5|@ripaojiedian
@@ -58,11 +43,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- name: 13|HK_speednode_0027
-  network: tcp
-  port: 33032
-  server: 156.254.115.158
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 72d37e1d-d577-4db3-dc92-3ec65b6d172b
