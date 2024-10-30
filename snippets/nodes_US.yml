@@ -204,6 +204,20 @@ proxies:
     path: /77848824
 - alterId: 0
   cipher: auto
+  name: '8,9|github.com/freefq - 美国CloudFla... #2'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -228,20 +242,6 @@ proxies:
   ws-opts:
     headers:
       Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '9|github.com/freefq - 美国CloudFla... #2'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -280,6 +280,12 @@ proxies:
   server: 150.241.95.62
   type: ss
 - cipher: aes-128-gcm
+  name: 13|US_speednode_0057
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
+  type: ss
+- cipher: aes-128-gcm
   name: 13|US_speednode_0059
   password: shadowsocks
   port: 443
@@ -315,3 +321,19 @@ proxies:
   port: 5000
   server: 23.150.152.41
   type: ss
+- alterId: 1
+  cipher: auto
+  name: 13|US_speednode_0072
+  network: ws
+  port: 443
+  server: 38.99.82.187
+  servername: 38.99.82.187
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 38.99.82.187
+    path: /linkvws
