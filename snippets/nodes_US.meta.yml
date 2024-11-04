@@ -259,7 +259,7 @@ proxies:
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 11,13|GB_speednode_0007
+  name: 11,13|GB_speednode_0030
   password: shadowsocks
   port: 443
   server: 212.102.47.131
@@ -273,34 +273,91 @@ proxies:
   server: 38.110.1.105
   tfo: false
   type: ss
-- name: 13|US_speednode_0014
+- client-fingerprint: chrome
+  name: 13|US_speednode_0035
   network: ws
-  port: 8880
-  server: 104.19.209.229
+  port: 80
+  server: 151.101.3.10
+  servername: uni.fi
+  skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
-  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
   ws-opts:
     headers:
-      Host: late-tooth.granzinhannah.workers.dev
-    path: /?ed=2560
-- name: 13|US_speednode_0015
+      Host: uni.fi
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 13|US_speednode_0036
   network: ws
   port: 80
   server: 167.82.30.71
+  servername: samane.ir
   skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
       Host: samane.ir
     path: /4u7lAS4nPLtz0xPz?ed=2560
-- name: 13|US_speednode_0016
+- cipher: chacha20-ietf-poly1305
+  name: 13|US_speednode_0037
+  password: xbzXUNbX3gQ4kxkHilG5Xp
+  port: 25543
+  server: 150.241.101.222
+  type: ss
+- client-fingerprint: chrome
+  name: 13|US_speednode_0038
+  network: ws
+  port: 80
+  server: 162.159.129.60
+  servername: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 7d2dfb7a-2ecc-4448-bcbe-245a2092fe85
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
+    path: /Telegram-Xv2ry2?ed=512
+- client-fingerprint: chrome
+  name: 13|US_speednode_0039
+  network: ws
+  port: 2052
+  server: 198.41.214.215
+  servername: late-tooth.granzinhannah.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  ws-opts:
+    headers:
+      Host: late-tooth.granzinhannah.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0041
+  network: ws
+  port: 443
+  server: 199.232.5.79
+  servername: mefa.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: mefa.ir
+    path: /H?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0042
   network: ws
   port: 8880
   server: 104.20.19.168
+  servername: late-tooth.granzinhannah.workers.dev
   skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
   uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
@@ -308,29 +365,14 @@ proxies:
     headers:
       Host: late-tooth.granzinhannah.workers.dev
     path: /?ed=2048
-- name: 13|US_speednode_0017
-  network: ws
-  port: 8880
-  server: 104.20.71.132
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
-  ws-opts:
-    headers:
-      Host: late-tooth.granzinhannah.workers.dev
-    path: /Telegram@Linkvws?ed=2560
-- cipher: aes-128-gcm
-  name: 13|US_speednode_0018
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
+- cipher: chacha20-ietf-poly1305
+  name: 13|US_speednode_0043
+  password: rUODuKJMdVMTxlq3Q5iSDX
+  port: 59644
+  server: 150.241.102.95
   type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0019
+- client-fingerprint: chrome
+  name: 13|US_speednode_0044
   network: ws
   port: 443
   server: 199.232.5.101
@@ -344,11 +386,28 @@ proxies:
     headers:
       Host: mefa.ir
     path: /H?ed=2560
-- name: 13|US_speednode_0022
+- client-fingerprint: chrome
+  name: 13|US_speednode_0045
+  network: ws
+  port: 80
+  server: 172.67.175.9
+  servername: private-codmhttp.teqqlzdw.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: ea9148b9-13b7-41cf-8911-94234e7c3fcf
+  ws-opts:
+    headers:
+      Host: private-codmhttp.teqqlzdw.workers.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 13|US_speednode_0046
   network: ws
   port: 80
   server: 199.232.37.15
+  servername: sara193.ir
   skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
@@ -357,174 +416,72 @@ proxies:
       Host: sara193.ir
     path: /BCXzvAcvSB7JzMWj?ed=2560
 - cipher: aes-256-gcm
-  name: 13|US_speednode_0023
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.134.94.168
+  name: 13|US_speednode_0047
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.68.134.202
   type: ss
-- name: 13|US_speednode_0024
+- name: 13|US_speednode_0048
   network: ws
-  port: 2095
-  server: www.speedtest.net
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: a70e1ca7-0cfa-5d07-b068-ca7657f9aba8
-  ws-opts:
-    headers:
-      Host: www.digikala.com.joinTelegram.mosiv2.fi3.vless.Sitespeedtest.net.
-    path: /join-@mosiv2-@mosiv2-?ed=2048
-- name: 13|US_speednode_0025
-  network: ws
-  port: 2052
-  server: www.speedtest.net
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: bd51708b-07de-561f-9053-d2e90ca4ee20
-  ws-opts:
-    headers:
-      Host: www.digikala.com.joinTelegram.mosiv2.pl1.vless.Sitespeedtest.net.
-    path: /join-@mosiv2-@mosiv2-?ed=2048
-- name: 13|US_speednode_0026
-  network: ws
-  port: 80
-  server: 151.101.2.165
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 4639cda7-0742-4bcd-ab1e-b7c879c2189c
-  ws-opts:
-    headers:
-      Host: que4.ir
-    path: /v2pedia?ed=2048
-- client-fingerprint: chrome
-  name: 13|US_speednode_0027
-  network: ws
-  port: 443
-  server: 151.101.130.228
-  servername: hajlab.ucdavis.edu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6407d901-f9d0-4e14-b805-39cd7440bf63
-  ws-opts:
-    headers:
-      Host: Join_Evay_vpn.ir
-    path: /@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560
-- name: 13|US_speednode_0028
-  network: ws
-  port: 443
-  server: 198.41.209.2
-  servername: meta1.modinso.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 11d876aa-6818-4d0d-9f5b-2c7e8c5499c8
-  ws-opts:
-    headers:
-      Host: meta1.modinso.ir
-    path: /@metavpnn
-- alpn:
-  - http/1.1
-  alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0029
-  network: ws
-  port: 443
-  server: www.baldengineer.com
-  servername: yen63jj36j3jfflan.thelastronin.cloudns.org
+  password: auto
+  port: 27061
+  server: 103.170.72.120
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  sni: trojanfree-76s.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: yelan.thelastronin.cloudns.org
-    path: /linkws/afrhms16v.bestxray.buzz
-- name: 13|US_speednode_0030
-  network: ws
-  port: 80
-  server: 151.101.3.10
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
-  ws-opts:
-    headers:
-      Host: uni.fi
-    path: /?ed=2048
-- name: 13|US_speednode_0031
-  network: ws
-  port: 80
-  server: 103.133.1.0
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: 9dde0cfb-2f92-432e-9c52-6d2dec6803bb
-  ws-opts:
-    headers:
-      Host: KnOtNrmV2rayOtanOtrmNnOtenOtl.tErmiUs-kAne-nOne.SARBAZIT.COM
+      Host: trojanfree-76s.pages.dev
     path: /
-- name: 13|US_speednode_0032
+- client-fingerprint: ios
+  name: 13|US_speednode_0049
   network: ws
   port: 80
-  server: 151.101.64.155
+  server: 151.101.3.8
+  servername: barkatc2.ir
   skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
-  uuid: 01cdddb2-384b-4eb6-8a62-e29572925698
+  uuid: 3c953692-c886-4194-9c0f-75cecdd6ac0e
   ws-opts:
     headers:
-      Host: speedfaa.ir
-    path: /speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa?ed=2048
-- client-fingerprint: chrome
-  name: 13|US_speednode_0033
+      Host: barkatc2.ir
+    path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0050
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.68.134.202
+  type: ss
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0051
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.68.134.202
+  type: ss
+- name: 13|US_speednode_0052
   network: ws
-  port: 443
-  server: hajlab.ucdavis.edu
-  servername: hajlab.ucdavis.edu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6407d901-f9d0-4e14-b805-39cd7440bf63
+  password: auto
+  port: 27051
+  server: 103.170.72.129
+  skip-cert-verify: true
+  sni: trojanfree-76s.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: Join_Evay_vpn.ir
-    path: /@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560
-- name: 13|US_speednode_0034
-  network: ws
-  port: 80
-  server: 151.101.2.216
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: e8a196c0-b131-411f-99b9-6e48ec21e552
-  ws-opts:
-    headers:
-      Host: bas-kon-iranii.ir
-    path: /@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config?ed=2048
-- name: 13|US_speednode_0035
-  network: ws
-  port: 80
-  server: speedtest.net
-  skip-cert-verify: false
-  type: vless
-  udp: true
-  uuid: e8a196c0-b131-411f-99b9-6e48ec21e552
-  ws-opts:
-    headers:
-      Host: bas-kon-iranii.ir
-    path: /@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config?ed=2048
-- name: 13|US_speednode_0036
+      Host: trojanfree-76s.pages.dev
+    path: /
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0053
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.68.134.202
+  type: ss
+- name: 13|US_speednode_0054
   network: ws
   password: bpb-trojan
   port: 443
-  server: 172.64.150.145
+  server: 104.18.37.111
   skip-cert-verify: true
   sni: mindrOOm-5cz.pAgEs.dEV
   type: trojan
@@ -532,3 +489,90 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
+- client-fingerprint: chrome
+  name: 13|US_speednode_0055
+  network: ws
+  port: 80
+  server: 151.101.2.216
+  servername: bas-kon-iranii.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e8a196c0-b131-411f-99b9-6e48ec21e552
+  ws-opts:
+    headers:
+      Host: bas-kon-iranii.ir
+    path: /@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config?ed=2048
+- name: 13|US_speednode_0056
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.18.37.111
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0057
+  network: ws
+  port: 443
+  server: 172.66.47.82
+  servername: pardazeshvpn-tg99.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f8a0d15b-e122-4a79-bd04-42c4565078df
+  ws-opts:
+    headers:
+      Host: pardazeshvpn-tg99.pages.dev
+    path: '/Telegram:'
+- client-fingerprint: chrome
+  name: 13|US_speednode_0058
+  network: ws
+  port: 443
+  server: 104.21.78.221
+  servername: kir-too-kos-o-koon-maman-arzeshi-begoo-jooooooon.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 79bf326d-93de-494f-a7a1-f9aaa764f86a
+  ws-opts:
+    headers:
+      Host: kir-too-kos-o-koon-maman-arzeshi-begoo-jooooooon.pages.dev
+    path: /
+- name: 13|US_speednode_0059
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 198.41.193.231
+  skip-cert-verify: true
+  sni: if.ylks.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: if.ylks.xyz
+    path: /
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0060
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.68.134.202
+  type: ss
+- client-fingerprint: chrome
+  name: 13|US_speednode_0061
+  network: ws
+  port: 80
+  server: speedtest.net
+  servername: bas-kon-iranii.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e8a196c0-b131-411f-99b9-6e48ec21e552
+  ws-opts:
+    headers:
+      Host: bas-kon-iranii.ir
+    path: /@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config?ed=2048
