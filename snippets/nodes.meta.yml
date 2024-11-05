@@ -389,22 +389,22 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-128-gcm
-  name: 3,13|GB_speednode_0041
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.195
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 3,11,13|US_speednode_0097
+  name: 3,11,13|US_speednode_0087
   password: shadowsocks
   port: 443
   server: 156.146.38.168
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  name: 3,13|GB_speednode_0022
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.195
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-13
+  name: 3|-https://t.me/MrXbin-17
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -415,12 +415,27 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3,8|0|--36
+  name: 3|-https://t.me/MrXbin-19
+  network: ws
+  port: 2095
+  server: 172.64.99.22
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-21
   network: ws
   port: 2082
-  server: 172.64.166.2
+  server: 172.64.167.10
   servername: ip18.6929198.xyz
-  tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
@@ -444,11 +459,25 @@ proxies:
     headers:
       Host: ip12.6016725.xyz
     path: /github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-25
+  network: ws
+  port: 38007
+  server: 38.174.190.80
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/102206282005
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-24
+  name: 3|-https://t.me/MrXbin-27
   network: ws
   port: 2095
   server: 172.64.166.2
@@ -464,23 +493,53 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-25
+  name: 3|-https://t.me/MrXbin-28
   network: ws
   port: 2082
-  server: 172.64.167.15
-  skip-cert-verify: true
+  server: 172.64.166.32
+  servername: ip18.6929198.xyz
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip16.6929198.xyz
+      Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3,8,13|US_speednode_0203
+  name: 3|-https://t.me/MrXbin-30
+  network: ws
+  port: 2095
+  server: singapore.com
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-31
+  network: ws
+  port: 443
+  server: 172.67.173.142
+  servername: cjuzius.zdzdzd.xyz
+  tls: true
+  type: vmess
+  uuid: b87e29df-7dd9-4c0c-8530-b2847e27522c
+  ws-opts:
+    headers:
+      Host: cjuzius.zdzdzd.xyz
+    path: /juzi
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3,8,13|US_speednode_0170
   network: ws
   port: 2095
   server: 172.64.166.22
@@ -493,53 +552,6 @@ proxies:
     headers:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3|-https://t.me/MrXbin-41
-  network: ws
-  port: 2095
-  server: 172.64.175.213
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip9.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3,8|0|--44
-  network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
-  ws-opts:
-    headers:
-      Host: daohang.mmzhk.website
-    path: /xyz
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3|-https://t.me/MrXbin-49
-  network: ws
-  port: 38007
-  server: 38.174.190.80
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/102206282005
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1118,6 +1130,20 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 8|0|--36
+  network: ws
+  port: 2082
+  server: 172.64.166.2
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 8|0|--40
   network: ws
   port: 443
@@ -1129,6 +1155,19 @@ proxies:
     headers:
       Host: dkzbofzkop.com
     path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 8|0|--44
+  network: ws
+  port: 8080
+  server: m003.mmzhk.website
+  tls: true
+  type: vmess
+  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
+  ws-opts:
+    headers:
+      Host: daohang.mmzhk.website
+    path: /xyz
 - alterId: 0
   cipher: auto
   name: '8|3,4,5|d*********g.com_0 #2'
@@ -1372,16 +1411,15 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0019
-  password: 1a2490c3-575e-3502-9ec7-26ca9240eed3
-  port: 20301
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z301.hongkongnode.top
+  name: 11,13|CN_speednode_0003
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 52112
+  server: 183.236.51.23
+  skip-cert-verify: false
+  sni: updates.sub-nthu.com
   tfo: false
   tls: false
-  type: trojan
-  udp: true
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -1496,21 +1534,6 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13|CN_speednode_0001
-  network: ws
-  port: 7000
-  server: 183.232.249.73
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
   name: 13|CN_speednode_0002
   network: ws
   port: 7000
@@ -1525,26 +1548,8 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0015
-  password: 01ec0aea-686e-4c3a-8276-cf3f145b5304
-  port: 31660
-  server: gdcub.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0016
-  password: 01ec0aea-686e-4c3a-8276-cf3f145b5304
-  port: 31650
-  server: gdcub.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0020
-  password: 01ec0aea-686e-4c3a-8276-cf3f145b5304
-  port: 31648
-  server: gdcub.yunnode.win
-  type: ss
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0021
+  name: 13|DE_speednode_0004
   network: ws
   port: 2003
   server: 89.185.85.53
@@ -1559,22 +1564,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0022
-  network: ws
-  port: 587
-  server: 8.209.117.66
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|DE_speednode_0023
+  name: 13|DE_speednode_0005
   network: ws
   port: 8080
   server: 134.122.90.27
@@ -1589,10 +1579,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0024
+  name: 13|DE_speednode_0006
   network: ws
-  port: 8000
-  server: 49.13.151.20
+  port: 587
+  server: 8.209.117.66
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -1604,97 +1594,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0025
-  network: ws
-  port: 7075
-  server: 91.107.156.72
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|DE_speednode_0026
-  network: ws
-  port: 1091
-  server: 188.245.119.18
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|DE_speednode_0027
-  network: ws
-  port: 1001
-  server: 91.107.145.251
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|DE_speednode_0028
-  network: ws
-  port: 8080
-  server: 91.107.142.237
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|DE_speednode_0029
-  network: ws
-  port: 1001
-  server: 188.245.114.237
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|DE_speednode_0030
-  network: ws
-  port: 8080
-  server: 91.107.142.138
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|DE_speednode_0031
+  name: 13|DE_speednode_0007
   network: ws
   port: 999
   server: 5.75.195.171
@@ -1709,10 +1609,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0032
+  name: 13|DE_speednode_0008
   network: ws
-  port: 587
-  server: 138.2.139.71
+  port: 8000
+  server: 49.13.151.20
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -1724,10 +1624,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0033
+  name: 13|DE_speednode_0009
   network: ws
-  port: 2003
-  server: 152.53.14.225
+  port: 8080
+  server: 91.107.142.138
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -1739,7 +1639,22 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0034
+  name: 13|DE_speednode_0010
+  network: ws
+  port: 7075
+  server: 91.107.156.72
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|DE_speednode_0011
   network: ws
   port: 8080
   server: 91.107.181.27
@@ -1754,7 +1669,22 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|DE_speednode_0035
+  name: 13|DE_speednode_0012
+  network: ws
+  port: 1001
+  server: 91.107.145.251
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|DE_speednode_0013
   network: ws
   port: 8080
   server: 159.69.189.130
@@ -1769,10 +1699,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|FI_speednode_0036
+  name: 13|DE_speednode_0014
   network: ws
-  port: 8080
-  server: 65.109.189.151
+  port: 1091
+  server: 188.245.119.18
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -1783,15 +1713,53 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 13|FR_speednode_0037
-  password: 9MBrxdT5rZi2zFw2ABJCUB
-  port: 443
-  server: 62.210.88.22
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 13|FR_speednode_0038
+  name: 13|DE_speednode_0015
+  network: ws
+  port: 2003
+  server: 152.53.14.225
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|DE_speednode_0016
+  network: ws
+  port: 587
+  server: 138.2.139.71
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|DE_speednode_0017
+  network: ws
+  port: 1001
+  server: 188.245.114.237
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|FR_speednode_0018
   network: ws
   port: 587
   server: 92.119.124.85
@@ -1805,8 +1773,15 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 13|FR_speednode_0019
+  password: 9MBrxdT5rZi2zFw2ABJCUB
+  port: 443
+  server: 62.210.88.22
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 13|FR_speednode_0039
+  name: 13|FR_speednode_0020
   network: ws
   port: 587
   server: 151.80.52.29
@@ -1821,7 +1796,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|FR_speednode_0040
+  name: 13|FR_speednode_0021
   network: ws
   port: 1001
   server: 193.187.174.174
@@ -1836,7 +1811,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|GB_speednode_0042
+  name: 13|GB_speednode_0023
   network: ws
   port: 8080
   server: 46.226.162.244
@@ -1851,7 +1826,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|GB_speednode_0043
+  name: 13|GB_speednode_0024
   network: ws
   port: 587
   server: 8.208.30.229
@@ -1866,82 +1841,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|HK_speednode_0044
-  network: ws
-  port: 587
-  server: 47.76.77.127
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|HK_speednode_0045
-  network: ws
-  port: 587
-  server: 47.243.91.39
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|HK_speednode_0046
-  network: ws
-  port: 587
-  server: 47.76.111.33
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|HK_speednode_0047
-  network: ws
-  port: 587
-  server: 47.76.165.252
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|HK_speednode_0048
-  network: ws
-  port: 587
-  server: 47.76.154.53
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|HK_speednode_0049
+  name: 13|HK_speednode_0025
   network: ws
   port: 587
   server: 152.32.129.97
@@ -1956,7 +1856,22 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|HK_speednode_0050
+  name: 13|HK_speednode_0026
+  network: ws
+  port: 587
+  server: 47.76.154.53
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|HK_speednode_0027
   network: ws
   port: 587
   server: 8.210.76.17
@@ -1971,22 +1886,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|HK_speednode_0051
-  network: ws
-  port: 587
-  server: 206.237.3.187
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|HK_speednode_0052
+  name: 13|HK_speednode_0028
   network: ws
   port: 23555
   server: 219.77.65.212
@@ -2000,10 +1900,10 @@ proxies:
       Host: juzi8186.5112233.xyz
     path: /?ed=2560fp=random
 - client-fingerprint: chrome
-  name: 13|HK_speednode_0053
+  name: 13|HK_speednode_0029
   network: ws
   port: 587
-  server: 206.237.5.205
+  server: 47.76.77.127
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -2015,22 +1915,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|HK_speednode_0054
-  network: ws
-  port: 587
-  server: 103.41.65.161
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|HK_speednode_0055
+  name: 13|HK_speednode_0030
   network: ws
   port: 6666
   server: 124.156.129.206
@@ -2045,10 +1930,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|JP_speednode_0056
+  name: 13|HK_speednode_0031
   network: ws
   port: 587
-  server: 38.47.97.33
+  server: 206.237.5.205
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -2060,7 +1945,52 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|JP_speednode_0057
+  name: 13|HK_speednode_0032
+  network: ws
+  port: 587
+  server: 103.41.65.161
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|HK_speednode_0033
+  network: ws
+  port: 587
+  server: 206.237.3.187
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|HK_speednode_0034
+  network: ws
+  port: 587
+  server: 47.243.91.39
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|JP_speednode_0035
   network: ws
   port: 8087
   server: 38.6.155.65
@@ -2075,7 +2005,22 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|JP_speednode_0058
+  name: 13|JP_speednode_0036
+  network: ws
+  port: 587
+  server: 38.47.97.33
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|JP_speednode_0037
   network: ws
   port: 54321
   server: 34.146.31.202
@@ -2090,22 +2035,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|JP_speednode_0059
-  network: ws
-  port: 587
-  server: 138.2.49.197
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|JP_speednode_0060
+  name: 13|JP_speednode_0038
   network: ws
   port: 587
   server: 168.138.51.162
@@ -2120,7 +2050,22 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|NL_speednode_0061
+  name: 13|JP_speednode_0039
+  network: ws
+  port: 587
+  server: 138.2.49.197
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|NL_speednode_0040
   network: ws
   port: 587
   server: 45.128.222.188
@@ -2135,7 +2080,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|NL_speednode_0062
+  name: 13|NL_speednode_0041
   network: ws
   port: 1001
   server: 45.94.31.75
@@ -2150,7 +2095,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|NL_speednode_0063
+  name: 13|NL_speednode_0042
   network: ws
   port: 2501
   server: 79.137.205.240
@@ -2165,7 +2110,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|NL_speednode_0064
+  name: 13|NL_speednode_0043
   network: ws
   port: 2501
   server: 212.34.155.210
@@ -2180,7 +2125,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|NL_speednode_0065
+  name: 13|NL_speednode_0044
   network: ws
   port: 1001
   server: 2.58.56.31
@@ -2195,7 +2140,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|NL_speednode_0066
+  name: 13|NL_speednode_0045
   network: ws
   port: 3001
   server: 2.58.56.31
@@ -2210,7 +2155,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|NL_speednode_0067
+  name: 13|NL_speednode_0046
   network: ws
   port: 25
   server: 31.44.0.68
@@ -2225,22 +2170,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|NL_speednode_0068
-  network: ws
-  port: 2501
-  server: 46.30.42.248
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|NL_speednode_0069
+  name: 13|NL_speednode_0047
   network: ws
   port: 587
   server: 79.137.195.171
@@ -2255,7 +2185,22 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|RU_speednode_0070
+  name: 13|NL_speednode_0048
+  network: ws
+  port: 2501
+  server: 46.30.42.248
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|RU_speednode_0049
   network: ws
   port: 8000
   server: 92.51.44.177
@@ -2270,22 +2215,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|RU_speednode_0071
-  network: ws
-  port: 443
-  server: 188.42.145.159
-  servername: VIrgiNiavPn-nL.pagEs.dEv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54ef4ecf-ff37-436a-be13-95c8a8a1114d
-  ws-opts:
-    headers:
-      Host: VIrgiNiavPn-nL.pagEs.dEv
-    path: /security=tls
-- client-fingerprint: chrome
-  name: 13|RU_speednode_0072
+  name: 13|RU_speednode_0050
   network: ws
   port: 8000
   server: 185.46.8.17
@@ -2300,7 +2230,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|RU_speednode_0073
+  name: 13|RU_speednode_0051
   network: ws
   port: 8080
   server: 91.219.150.221
@@ -2315,7 +2245,22 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0074
+  name: 13|RU_speednode_0052
+  network: ws
+  port: 443
+  server: 188.42.145.159
+  servername: VIrgiNiavPn-nL.pagEs.dEv
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 54ef4ecf-ff37-436a-be13-95c8a8a1114d
+  ws-opts:
+    headers:
+      Host: VIrgiNiavPn-nL.pagEs.dEv
+    path: /security=tls
+- client-fingerprint: chrome
+  name: 13|SG_speednode_0053
   network: ws
   port: 6666
   server: 8.222.178.214
@@ -2330,7 +2275,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0075
+  name: 13|SG_speednode_0054
   network: ws
   port: 587
   server: 8.219.57.83
@@ -2345,7 +2290,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0076
+  name: 13|SG_speednode_0055
   network: ws
   port: 587
   server: 47.245.91.113
@@ -2360,7 +2305,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0077
+  name: 13|SG_speednode_0056
   network: ws
   port: 587
   server: 47.245.105.0
@@ -2375,7 +2320,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0078
+  name: 13|SG_speednode_0057
   network: ws
   port: 8000
   server: 8.219.170.57
@@ -2390,7 +2335,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0079
+  name: 13|SG_speednode_0058
   network: ws
   port: 587
   server: 47.241.162.74
@@ -2405,7 +2350,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0080
+  name: 13|SG_speednode_0059
   network: ws
   port: 587
   server: 168.138.181.107
@@ -2420,7 +2365,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0081
+  name: 13|SG_speednode_0060
   network: ws
   port: 587
   server: 138.2.73.37
@@ -2435,7 +2380,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0082
+  name: 13|SG_speednode_0061
   network: ws
   port: 587
   server: 139.162.33.248
@@ -2450,7 +2395,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0083
+  name: 13|SG_speednode_0062
   network: ws
   port: 587
   server: 139.162.45.124
@@ -2465,21 +2410,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0084
-  network: ws
-  port: 80
-  server: 199.232.197.231
-  servername: aliii.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: aliii.ir
-    path: /kptMTT8pTmxLWsoJ?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0236
+  name: 13|US_speednode_0189
   network: ws
   port: 80
   server: 167.82.30.71
@@ -2492,14 +2423,8 @@ proxies:
     headers:
       Host: samane.ir
     path: /4u7lAS4nPLtz0xPz?ed=2560fp=chrome
-- cipher: chacha20-ietf-poly1305
-  name: 13|US_speednode_0087
-  password: rUODuKJMdVMTxlq3Q5iSDX
-  port: 59644
-  server: 150.241.102.95
-  type: ss
 - client-fingerprint: chrome
-  name: 13|US_speednode_0088
+  name: 13|US_speednode_0065
   network: ws
   port: 80
   server: www.speedtest.net
@@ -2513,7 +2438,21 @@ proxies:
       Host: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
     path: /Telegram-Xv2ry2?ed=512
 - client-fingerprint: chrome
-  name: 13|US_speednode_0089
+  name: 13|US_speednode_0066
+  network: ws
+  port: 80
+  server: 104.17.147.22
+  servername: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 7d2dfb7a-2ecc-4448-bcbe-245a2092fe85
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
+    path: /Telegram-Xv2ry2?ed=512
+- client-fingerprint: chrome
+  name: 13|US_speednode_0067
   network: ws
   port: 587
   server: 154.12.39.83
@@ -2528,7 +2467,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0090
+  name: 13|US_speednode_0068
   network: ws
   port: 587
   server: 38.47.114.156
@@ -2543,24 +2482,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0091
-  network: ws
-  port: 80
-  server: 104.17.147.22
-  servername: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7d2dfb7a-2ecc-4448-bcbe-245a2092fe85
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
-    path: /Telegram-Xv2ry2?ed=512
-- client-fingerprint: chrome
-  name: 13|US_speednode_0092
+  name: 13|US_speednode_0069
   network: ws
   port: 587
-  server: 154.12.45.75
+  server: 154.9.224.214
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -2571,38 +2496,14 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 13|US_speednode_0070
+  password: rUODuKJMdVMTxlq3Q5iSDX
+  port: 59644
+  server: 150.241.102.95
+  type: ss
 - client-fingerprint: chrome
-  name: 13|US_speednode_0093
-  network: ws
-  port: 587
-  server: 154.12.45.61
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0094
-  network: ws
-  port: 587
-  server: 38.207.167.154
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0095
+  name: 13|US_speednode_0071
   network: ws
   port: 587
   server: 154.64.228.48
@@ -2617,10 +2518,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0096
+  name: 13|US_speednode_0072
   network: ws
   port: 587
-  server: 154.9.224.214
+  server: 154.12.45.61
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -2632,67 +2533,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0098
-  network: ws
-  port: 587
-  server: 38.105.28.60
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0099
-  network: ws
-  port: 587
-  server: 154.12.45.208
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0100
-  network: ws
-  port: 587
-  server: 154.64.243.161
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0101
-  network: ws
-  port: 587
-  server: 154.64.238.55
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0102
+  name: 13|US_speednode_0073
   network: ws
   port: 587
   server: 38.207.171.223
@@ -2707,7 +2548,67 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0103
+  name: 13|US_speednode_0074
+  network: ws
+  port: 587
+  server: 154.64.238.55
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0075
+  network: ws
+  port: 587
+  server: 154.64.243.161
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0076
+  network: ws
+  port: 587
+  server: 154.12.45.208
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0077
+  network: ws
+  port: 587
+  server: 38.207.167.154
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0078
   network: ws
   port: 587
   server: 38.22.234.66
@@ -2722,22 +2623,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0104
-  network: ws
-  port: 587
-  server: 154.64.228.166
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0105
+  name: 13|US_speednode_0079
   network: ws
   port: 587
   server: 38.105.26.206
@@ -2752,10 +2638,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0106
+  name: 13|US_speednode_0080
   network: ws
   port: 587
-  server: 154.64.236.134
+  server: 38.105.28.60
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -2767,10 +2653,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0107
+  name: 13|US_speednode_0081
   network: ws
   port: 587
-  server: 38.105.31.168
+  server: 154.64.228.166
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -2782,7 +2668,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0108
+  name: 13|US_speednode_0082
   network: ws
   port: 587
   server: 154.64.228.218
@@ -2797,22 +2683,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0109
-  network: ws
-  port: 587
-  server: 38.76.144.59
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0110
+  name: 13|US_speednode_0083
   network: ws
   port: 587
   server: 38.58.56.130
@@ -2827,7 +2698,52 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0111
+  name: 13|US_speednode_0084
+  network: ws
+  port: 587
+  server: 38.76.144.59
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0085
+  network: ws
+  port: 587
+  server: 154.64.236.134
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0086
+  network: ws
+  port: 587
+  server: 38.105.31.168
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0088
   network: ws
   port: 587
   server: 154.9.237.227
@@ -2842,22 +2758,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0112
-  network: ws
-  port: 587
-  server: 38.105.26.231
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0113
+  name: 13|US_speednode_0089
   network: ws
   port: 587
   server: 38.175.108.84
@@ -2872,22 +2773,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0114
-  network: ws
-  port: 587
-  server: 154.64.225.243
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0115
+  name: 13|US_speednode_0090
   network: ws
   port: 55555
   server: 38.76.148.231
@@ -2902,7 +2788,37 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0116
+  name: 13|US_speednode_0091
+  network: ws
+  port: 587
+  server: 154.64.225.243
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0092
+  network: ws
+  port: 587
+  server: 38.105.26.231
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0093
   network: ws
   port: 587
   server: 154.40.57.223
@@ -2917,7 +2833,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0117
+  name: 13|US_speednode_0094
   network: ws
   port: 587
   server: 38.105.26.29
@@ -2932,7 +2848,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0118
+  name: 13|US_speednode_0095
   network: ws
   port: 587
   server: 38.105.27.164
@@ -2947,7 +2863,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0119
+  name: 13|US_speednode_0096
   network: ws
   port: 587
   server: 38.79.117.108
@@ -2962,7 +2878,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0120
+  name: 13|US_speednode_0097
   network: ws
   port: 587
   server: 38.105.28.9
@@ -2977,103 +2893,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0121
-  network: ws
-  port: 587
-  server: 154.64.239.219
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0122
-  network: ws
-  port: 587
-  server: 38.22.233.47
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0123
-  network: ws
-  port: 587
-  server: 154.12.45.148
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0124
-  network: ws
-  port: 587
-  server: 91.217.139.120
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 13|US_speednode_0125
-  password: cE7iaxN0dgyugxTb8EqRqQ
-  port: 1093
-  server: 3.138.200.105
-  type: ss
-- client-fingerprint: chrome
-  name: 13|US_speednode_0126
-  network: ws
-  port: 587
-  server: 154.64.232.123
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0127
-  network: ws
-  port: 587
-  server: 38.105.27.95
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0128
+  name: 13|US_speednode_0098
   network: ws
   port: 587
   server: 38.59.242.95
@@ -3088,10 +2908,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0129
+  name: 13|US_speednode_0099
   network: ws
   port: 587
-  server: 38.105.31.9
+  server: 38.105.27.95
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -3103,7 +2923,52 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0130
+  name: 13|US_speednode_0100
+  network: ws
+  port: 587
+  server: 154.64.239.219
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0101
+  network: ws
+  port: 587
+  server: 91.217.139.120
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0102
+  network: ws
+  port: 587
+  server: 38.22.233.47
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0103
   network: ws
   port: 587
   server: 209.146.101.234
@@ -3118,10 +2983,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0131
+  name: 13|US_speednode_0104
   network: ws
   port: 587
-  server: 154.40.46.5
+  server: 154.64.232.123
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -3133,7 +2998,22 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0132
+  name: 13|US_speednode_0105
+  network: ws
+  port: 587
+  server: 38.105.31.9
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0106
   network: ws
   port: 587
   server: 38.105.28.10
@@ -3148,22 +3028,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0133
-  network: ws
-  port: 587
-  server: 154.64.232.43
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0134
+  name: 13|US_speednode_0107
   network: ws
   port: 587
   server: 38.105.28.2
@@ -3178,37 +3043,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0135
-  network: ws
-  port: 55555
-  server: 38.145.210.76
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0136
-  network: ws
-  port: 587
-  server: 38.79.116.51
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0137
+  name: 13|US_speednode_0108
   network: ws
   port: 587
   server: 38.105.29.237
@@ -3223,10 +3058,10 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0138
+  name: 13|US_speednode_0109
   network: ws
   port: 587
-  server: 154.64.232.77
+  server: 154.40.46.5
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
@@ -3238,52 +3073,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0139
-  network: ws
-  port: 587
-  server: 154.9.237.203
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0140
-  network: ws
-  port: 587
-  server: 38.105.27.31
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0141
-  network: ws
-  port: 587
-  server: 38.79.113.92
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0142
+  name: 13|US_speednode_0110
   network: ws
   port: 587
   server: 38.105.27.225
@@ -3298,7 +3088,112 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0143
+  name: 13|US_speednode_0111
+  network: ws
+  port: 587
+  server: 154.64.232.43
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0112
+  network: ws
+  port: 587
+  server: 38.105.27.31
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0113
+  network: ws
+  port: 587
+  server: 38.79.116.51
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0114
+  network: ws
+  port: 587
+  server: 38.79.113.92
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0115
+  network: ws
+  port: 587
+  server: 154.9.237.203
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0116
+  network: ws
+  port: 587
+  server: 154.64.232.77
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0117
+  network: ws
+  port: 55555
+  server: 38.145.210.76
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0118
   network: ws
   port: 587
   server: 38.105.29.217
@@ -3313,7 +3208,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0144
+  name: 13|US_speednode_0119
   network: ws
   port: 587
   server: 31.40.214.227
@@ -3328,7 +3223,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0145
+  name: 13|US_speednode_0120
   network: ws
   port: 587
   server: 47.88.90.170
@@ -3343,7 +3238,7 @@ proxies:
       Host: vless.ifx.us.kg
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 13|US_speednode_0146
+  name: 13|US_speednode_0121
   network: ws
   port: 6666
   server: 192.9.155.61
@@ -3357,8 +3252,38 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0122
+  network: ws
+  port: 2095
+  server: 104.19.21.63
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0123
+  network: ws
+  port: 2095
+  server: 172.64.175.213
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0147
+  name: 13|US_speednode_0124
   network: ws
   port: 7000
   server: 74.48.186.122
@@ -3374,25 +3299,10 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0148
+  name: 13|US_speednode_0125
   network: ws
   port: 2095
-  server: 172.64.175.213
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0149
-  network: ws
-  port: 2095
-  server: 104.19.21.63
+  server: 104.19.38.12
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -3403,7 +3313,7 @@ proxies:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0150
+  name: 13|US_speednode_0126
   network: ws
   port: 587
   server: 154.64.232.184
@@ -3417,23 +3327,8 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0151
-  network: ws
-  port: 2095
-  server: 104.18.57.111
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0152
+  name: 13|US_speednode_0127
   network: ws
   port: 587
   server: 158.101.28.188
@@ -3449,25 +3344,10 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0153
+  name: 13|US_speednode_0128
   network: ws
   port: 2095
-  server: 104.19.38.12
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0154
-  network: ws
-  port: 2095
-  server: 172.64.99.22
+  server: 172.64.175.88
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -3478,7 +3358,7 @@ proxies:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0155
+  name: 13|US_speednode_0129
   network: ws
   port: 587
   server: 209.146.103.197
@@ -3494,10 +3374,10 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0156
+  name: 13|US_speednode_0130
   network: ws
   port: 2095
-  server: 172.64.175.88
+  server: 172.64.99.22
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -3509,22 +3389,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0157
-  network: ws
-  port: 2095
-  server: 104.19.123.11
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0158
+  name: 13|US_speednode_0131
   network: ws
   port: 2095
   server: 104.19.45.31
@@ -3539,10 +3404,10 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0159
+  name: 13|US_speednode_0132
   network: ws
   port: 2095
-  server: 104.19.32.216
+  server: 104.18.57.111
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -3554,49 +3419,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0160
-  network: ws
-  port: 2095
-  server: 104.21.238.100
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0161
-  network: ws
-  port: 2095
-  server: 104.19.45.13
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- name: 13|US_speednode_0162
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 172.64.150.145
-  skip-cert-verify: true
-  sni: mindrOOm-5cz.pAgEs.dEV
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mindrOOm-5cz.pAgEs.dEV
-    path: /trC8BM8bTsAF0AnLYL
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0163
+  name: 13|US_speednode_0133
   network: ws
   port: 2095
   server: 104.19.59.89
@@ -3611,7 +3434,37 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0164
+  name: 13|US_speednode_0134
+  network: ws
+  port: 2095
+  server: 104.19.32.216
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0135
+  network: ws
+  port: 2095
+  server: 104.19.123.11
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0136
   network: ws
   port: 2095
   server: 104.19.57.4
@@ -3626,7 +3479,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0165
+  name: 13|US_speednode_0137
   network: ws
   port: 2095
   server: 104.19.58.175
@@ -3641,7 +3494,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0166
+  name: 13|US_speednode_0138
   network: ws
   port: 2095
   server: 104.19.45.47
@@ -3654,21 +3507,9 @@ proxies:
     headers:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
-- name: 13|US_speednode_0167
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 104.18.37.111
-  skip-cert-verify: true
-  sni: mindrOOm-5cz.pAgEs.dEV
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mindrOOm-5cz.pAgEs.dEV
-    path: /trC8BM8bTsAF0AnLYL
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0168
+  name: 13|US_speednode_0139
   network: ws
   port: 2095
   server: 104.19.45.15
@@ -3683,7 +3524,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0169
+  name: 13|US_speednode_0140
   network: ws
   port: 2095
   server: 104.19.45.35
@@ -3698,7 +3539,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0170
+  name: 13|US_speednode_0141
   network: ws
   port: 2095
   server: 104.19.45.90
@@ -3713,7 +3554,22 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0171
+  name: 13|US_speednode_0142
+  network: ws
+  port: 2095
+  server: 104.19.46.103
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0143
   network: ws
   port: 2095
   server: 104.19.21.230
@@ -3728,7 +3584,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0172
+  name: 13|US_speednode_0144
   network: ws
   port: 2095
   server: 104.19.45.17
@@ -3741,38 +3597,95 @@ proxies:
     headers:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
-- client-fingerprint: chrome
-  name: 13|US_speednode_0173
+- name: 13|US_speednode_0145
   network: ws
-  port: 587
-  server: 152.32.233.76
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  password: bpb-trojan
+  port: 443
+  server: 172.64.150.145
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
   ws-opts:
     headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0174
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0146
   network: ws
-  port: 587
-  server: 165.154.206.81
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  port: 2095
+  server: 104.19.45.19
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0147
+  network: ws
+  port: 2095
+  server: 172.64.167.10
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0148
+  network: ws
+  port: 2095
+  server: 172.64.167.5
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0149
+  network: ws
+  port: 2095
+  server: 104.19.55.49
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0150
+  network: ws
+  port: 2095
+  server: 104.21.238.100
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0175
+  name: 13|US_speednode_0151
   network: ws
   port: 1001
   server: 5.161.56.156
@@ -3788,10 +3701,10 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0176
+  name: 13|US_speednode_0152
   network: ws
   port: 2095
-  server: 104.19.45.19
+  server: 104.19.45.13
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -3801,69 +3714,21 @@ proxies:
     headers:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0177
+- name: 13|US_speednode_0153
   network: ws
-  port: 2095
-  server: 104.19.46.103
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  password: bpb-trojan
+  port: 443
+  server: 104.18.37.111
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
   ws-opts:
     headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0178
-  network: ws
-  port: 2095
-  server: 104.19.55.49
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0179
-  network: ws
-  port: 2095
-  server: 172.64.167.10
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0180
-  network: ws
-  port: 2095
-  server: 172.64.167.5
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0181
+  name: 13|US_speednode_0154
   network: ws
   port: 2095
   server: 172.64.167.15
@@ -3878,7 +3743,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0182
+  name: 13|US_speednode_0155
   network: ws
   port: 2095
   server: 172.64.166.8
@@ -3891,9 +3756,39 @@ proxies:
     headers:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
+- client-fingerprint: chrome
+  name: 13|US_speednode_0156
+  network: ws
+  port: 587
+  server: 165.154.206.81
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0183
+  name: 13|US_speednode_0157
+  network: ws
+  port: 2095
+  server: 172.64.167.19
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0158
   network: ws
   port: 2095
   server: 104.19.45.42
@@ -3908,10 +3803,25 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0184
+  name: 13|US_speednode_0159
   network: ws
   port: 2095
-  server: 172.64.167.19
+  server: 172.64.167.25
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0160
+  network: ws
+  port: 2095
+  server: 172.64.166.12
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -3922,7 +3832,141 @@ proxies:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0185
+  name: 13|US_speednode_0161
+  network: ws
+  port: 80
+  server: 151.101.3.10
+  servername: uni.fi
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  ws-opts:
+    headers:
+      Host: uni.fi
+    path: /?ed=2048fp=chrome
+- client-fingerprint: chrome
+  name: 13|US_speednode_0162
+  network: ws
+  port: 587
+  server: 152.32.233.76
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0163
+  network: ws
+  port: 2095
+  server: 172.64.167.44
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0164
+  network: ws
+  port: 2095
+  server: 104.17.106.151
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0165
+  network: ws
+  port: 2095
+  server: 172.64.166.32
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0166
+  network: ws
+  port: 2095
+  server: 172.64.167.35
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0167
+  network: ws
+  port: 2095
+  server: 172.64.166.33
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0168
+  network: ws
+  port: 2095
+  server: 104.19.45.11
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0169
+  network: ws
+  port: 2095
+  server: 172.64.166.20
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- client-fingerprint: chrome
+  name: 13|US_speednode_0171
   network: ws
   port: 587
   server: 165.154.36.229
@@ -3938,24 +3982,10 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0186
-  network: ws
-  port: 443
-  server: 172.67.173.142
-  servername: cjuzius.zdzdzd.xyz
-  tls: true
-  type: vmess
-  uuid: b87e29df-7dd9-4c0c-8530-b2847e27522c
-  ws-opts:
-    headers:
-      Host: cjuzius.zdzdzd.xyz
-    path: /juzi
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0187
+  name: 13|US_speednode_0172
   network: ws
   port: 2095
-  server: 172.64.167.25
+  server: 172.64.166.9
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -3967,10 +3997,10 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0188
+  name: 13|US_speednode_0173
   network: ws
   port: 2095
-  server: 172.64.166.12
+  server: 172.64.167.29
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -3981,22 +4011,7 @@ proxies:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0189
-  network: ws
-  port: 8080
-  server: 23.94.136.126
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0190
+  name: 13|US_speednode_0174
   network: ws
   port: 587
   server: 165.154.134.125
@@ -4010,72 +4025,12 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0191
-  network: ws
-  port: 55555
-  server: 162.244.208.173
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0192
+  name: 13|US_speednode_0175
   network: ws
   port: 2095
-  server: 172.64.167.44
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0193
-  network: ws
-  port: 2095
-  server: 172.64.166.28
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0194
-  network: ws
-  port: 2095
-  server: 104.17.106.151
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0195
-  network: ws
-  port: 2095
-  server: 172.64.166.32
+  server: icook.tw
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -4086,7 +4041,7 @@ proxies:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0196
+  name: 13|US_speednode_0176
   network: ws
   port: 587
   server: 157.254.227.37
@@ -4100,56 +4055,27 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0197
-  network: ws
-  port: 2095
-  server: 104.19.45.11
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0198
+  name: 13|US_speednode_0177
   network: ws
-  port: 80
-  server: 151.101.3.10
-  servername: uni.fi
+  port: 8080
+  server: 23.94.136.126
+  servername: vless.ifx.us.kg
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
-  ws-opts:
-    headers:
-      Host: uni.fi
-    path: /?ed=2048fp=chrome
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0199
-  network: ws
-  port: 2095
-  server: 172.64.167.35
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0200
+  name: 13|US_speednode_0178
   network: ws
   port: 2095
-  server: 172.64.166.33
+  server: 172.64.166.28
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -4160,7 +4086,22 @@ proxies:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0201
+  name: 13|US_speednode_0179
+  network: ws
+  port: 55555
+  server: 162.244.208.173
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0180
   network: ws
   port: 587
   server: 47.253.96.123
@@ -4176,162 +4117,7 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0202
-  network: ws
-  port: 2095
-  server: 172.64.166.20
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0204
-  network: ws
-  port: 2095
-  server: 172.64.166.9
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0205
-  network: ws
-  port: 2095
-  server: 104.19.21.71
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- client-fingerprint: chrome
-  name: 13|US_speednode_0206
-  network: ws
-  port: 55555
-  server: 162.244.208.120
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0207
-  network: ws
-  port: 2095
-  server: 172.64.167.29
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- client-fingerprint: chrome
-  name: 13|US_speednode_0208
-  network: ws
-  port: 80
-  server: speedtest.net
-  servername: bas-kon-iranii.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e8a196c0-b131-411f-99b9-6e48ec21e552
-  ws-opts:
-    headers:
-      Host: bas-kon-iranii.ir
-    path: /@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config?ed=2048fp=chrome
-- client-fingerprint: chrome
-  name: 13|US_speednode_0209
-  network: ws
-  port: 55555
-  server: 162.244.208.222
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 13|US_speednode_0210
-  password: ca0Is1g0AH3W18oOH3RlJy
-  port: 28351
-  server: 35.93.40.37
-  type: ss
-- client-fingerprint: chrome
-  name: 13|US_speednode_0211
-  network: ws
-  port: 587
-  server: 139.144.202.90
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0212
-  network: ws
-  port: 2095
-  server: icook.tw
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0213
-  network: ws
-  port: 2082
-  server: 172.64.99.22
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0214
+  name: 13|US_speednode_0181
   network: ws
   port: 2095
   server: 172.64.167.8
@@ -4344,188 +4130,8 @@ proxies:
     headers:
       Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0215
-  network: ws
-  port: 2082
-  server: 104.19.32.216
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0216
-  network: ws
-  port: 2095
-  server: 172.64.194.76
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0217
-  network: ws
-  port: 2082
-  server: 104.19.57.4
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0218
-  network: ws
-  port: 2095
-  server: fbi.gov
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0219
-  network: ws
-  port: 2082
-  server: 104.19.123.11
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0220
-  network: ws
-  port: 2082
-  server: 104.19.38.12
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0221
-  network: ws
-  port: 2095
-  server: 172.64.198.249
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0222
-  network: ws
-  port: 2082
-  server: 172.64.175.88
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0223
-  network: ws
-  port: 2095
-  server: 172.64.166.16
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0224
-  network: ws
-  port: 2095
-  server: 172.64.166.2
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0225
-  network: ws
-  port: 2082
-  server: 172.64.175.213
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0226
-  network: ws
-  port: 2082
-  server: 104.19.45.17
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0227
+  name: 13|US_speednode_0182
   network: ws
   port: 443
   server: 199.232.5.79
@@ -4541,25 +4147,100 @@ proxies:
     path: /H?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0228
+  name: 13|US_speednode_0183
   network: ws
-  port: 2082
-  server: 104.19.45.35
-  servername: ip26.6929198.xyz
+  port: 2095
+  server: fbi.gov
+  servername: ip20.6016725.xyz
   tls: false
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip26.6929198.xyz
+      Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
+- client-fingerprint: chrome
+  name: 13|US_speednode_0184
+  network: ws
+  port: 587
+  server: 139.144.202.90
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0229
+  name: 13|US_speednode_0185
   network: ws
   port: 2095
-  server: 172.64.167.22
+  server: 172.64.194.76
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- client-fingerprint: chrome
+  name: 13|US_speednode_0186
+  network: ws
+  port: 55555
+  server: 162.244.208.120
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0187
+  network: ws
+  port: 2095
+  server: 172.64.198.249
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- client-fingerprint: chrome
+  name: 13|US_speednode_0188
+  network: ws
+  port: 55555
+  server: 162.244.208.222
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0190
+  network: ws
+  port: 2095
+  server: 104.19.21.71
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -4571,7 +4252,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0230
+  name: 13|US_speednode_0191
   network: ws
   port: 2095
   server: www.visa.com
@@ -4586,7 +4267,22 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0231
+  name: 13|US_speednode_0192
+  network: ws
+  port: 2082
+  server: 104.19.32.216
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0193
   network: ws
   port: 2082
   server: 104.19.45.42
@@ -4599,108 +4295,27 @@ proxies:
     headers:
       Host: ip26.6929198.xyz
     path: /github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  name: 13|US_speednode_0232
-  password: FqoIyKig0g54YdCoMWTybb
-  port: 5052
-  server: 35.93.4.218
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0233
+  name: 13|US_speednode_0194
   network: ws
-  port: 2082
-  server: 104.19.46.103
-  servername: ip26.6929198.xyz
+  port: 2095
+  server: 172.64.167.22
+  servername: ip20.6016725.xyz
   tls: false
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip26.6929198.xyz
+      Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0234
+  name: 13|US_speednode_0195
   network: ws
   port: 2082
-  server: 104.19.59.89
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- client-fingerprint: chrome
-  name: 13|US_speednode_0235
-  network: ws
-  port: 587
-  server: 74.207.225.147
-  servername: vless.ifx.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: vless.ifx.us.kg
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0237
-  network: ws
-  port: 2082
-  server: 172.64.167.10
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0238
-  network: ws
-  port: 2082
-  server: 104.19.21.63
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0239
-  network: ws
-  port: 2082
-  server: 104.19.21.230
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0240
-  network: ws
-  port: 2082
-  server: 104.19.45.90
+  server: 104.19.45.35
   servername: ip26.6929198.xyz
   tls: false
   type: vmess
@@ -4711,7 +4326,7 @@ proxies:
       Host: ip26.6929198.xyz
     path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0241
+  name: 13|US_speednode_0196
   network: ws
   port: 443
   server: 199.232.5.101
@@ -4727,10 +4342,25 @@ proxies:
     path: /H?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0242
+  name: 13|US_speednode_0197
+  network: ws
+  port: 2095
+  server: 172.64.166.16
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0198
   network: ws
   port: 2082
-  server: 104.19.45.47
+  server: 104.19.45.17
   servername: ip26.6929198.xyz
   tls: false
   type: vmess
@@ -4742,10 +4372,10 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0243
+  name: 13|US_speednode_0199
   network: ws
   port: 2082
-  server: 104.19.45.13
+  server: 172.64.175.213
   servername: ip26.6929198.xyz
   tls: false
   type: vmess
@@ -4757,10 +4387,40 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0244
+  name: 13|US_speednode_0200
+  network: ws
+  port: 2095
+  server: 172.64.166.2
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- client-fingerprint: chrome
+  name: 13|US_speednode_0201
+  network: ws
+  port: 587
+  server: 74.207.225.147
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0202
   network: ws
   port: 2082
-  server: 104.19.47.65
+  server: 104.19.46.103
   servername: ip26.6929198.xyz
   tls: false
   type: vmess
@@ -4772,10 +4432,10 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0245
+  name: 13|US_speednode_0203
   network: ws
   port: 2082
-  server: 172.64.167.15
+  server: 172.64.175.88
   servername: ip26.6929198.xyz
   tls: false
   type: vmess
@@ -4785,99 +4445,23 @@ proxies:
     headers:
       Host: ip26.6929198.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0246
+- client-fingerprint: chrome
+  name: 13|US_speednode_0204
   network: ws
-  port: 2082
-  server: 104.19.58.175
-  servername: ip26.6929198.xyz
+  port: 80
+  server: 162.159.129.60
+  servername: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  type: vless
+  uuid: 7d2dfb7a-2ecc-4448-bcbe-245a2092fe85
   ws-opts:
     headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
+      Host: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
+    path: /Telegram-Xv2ry2?ed=512fp=chrome
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0247
-  network: ws
-  port: 2082
-  server: 172.64.167.19
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0248
-  network: ws
-  port: 2082
-  server: 104.19.45.19
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0249
-  network: ws
-  port: 2082
-  server: 172.64.167.8
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0250
-  network: ws
-  port: 2082
-  server: 104.19.45.15
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0251
-  network: ws
-  port: 2082
-  server: 104.19.45.31
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0252
+  name: 13|US_speednode_0205
   network: ws
   port: 2082
   server: 172.64.166.32
@@ -4892,7 +4476,124 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0253
+  name: 13|US_speednode_0206
+  network: ws
+  port: 2082
+  server: 104.19.21.63
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0207
+  network: ws
+  port: 2082
+  server: 172.64.167.8
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0208
+  network: ws
+  port: 2082
+  server: 104.19.45.19
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0209
+  network: ws
+  port: 2082
+  server: 104.19.45.15
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0210
+  network: ws
+  port: 2082
+  server: 104.19.59.89
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- name: 13|US_speednode_0211
+  network: ws
+  password: auto
+  port: 27061
+  server: 103.170.72.120
+  skip-cert-verify: true
+  sni: trojanfree-76s.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree-76s.pages.dev
+    path: /%2F
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0212
+  network: ws
+  port: 2082
+  server: 172.64.167.44
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0213
+  network: ws
+  port: 2082
+  server: 172.64.167.10
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0214
   network: ws
   port: 2082
   server: 172.64.167.29
@@ -4907,197 +4608,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0254
-  network: ws
-  port: 2095
-  server: 104.26.5.67
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0255
-  network: ws
-  port: 2082
-  server: 172.64.167.25
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0256
-  network: ws
-  port: 2082
-  server: 172.64.167.44
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- client-fingerprint: chrome
-  name: 13|US_speednode_0257
-  network: ws
-  port: 80
-  server: 162.159.129.60
-  servername: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7d2dfb7a-2ecc-4448-bcbe-245a2092fe85
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.nl1.72.18.432.20.20.20.20.ir.xn--g28h.dns-dynamic.net.
-    path: /Telegram-Xv2ry2?ed=512fp=chrome
-- client-fingerprint: chrome
-  name: 13|US_speednode_0258
-  network: ws
-  port: 80
-  server: 172.67.175.9
-  servername: private-codmhttp.teqqlzdw.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: ea9148b9-13b7-41cf-8911-94234e7c3fcf
-  ws-opts:
-    headers:
-      Host: private-codmhttp.teqqlzdw.workers.dev
-    path: /?ed=2048fp=chrome
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0259
-  network: ws
-  port: 2082
-  server: 172.64.166.28
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0260
-  network: ws
-  port: 2082
-  server: 172.64.167.35
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- name: 13|US_speednode_0261
-  network: ws
-  password: auto
-  port: 27061
-  server: 103.170.72.120
-  skip-cert-verify: true
-  sni: trojanfree-76s.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojanfree-76s.pages.dev
-    path: /%2F
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0262
-  network: ws
-  port: 2095
-  server: 104.26.5.145
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0263
-  network: ws
-  port: 2095
-  server: 104.26.5.66
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0264
-  network: ws
-  port: 2082
-  server: 172.64.166.20
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0265
-  network: ws
-  port: 2082
-  server: 172.64.166.9
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0266
-  network: ws
-  port: 2095
-  server: 104.26.5.103
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0267
+  name: 13|US_speednode_0215
   network: ws
   port: 2082
   server: 172.64.166.12
@@ -5110,83 +4621,8 @@ proxies:
     headers:
       Host: ip26.6929198.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0268
-  network: ws
-  port: 2082
-  server: 172.64.194.76
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0269
-  network: ws
-  port: 2095
-  server: 162.159.140.66
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0270
-  network: ws
-  port: 2095
-  server: 162.159.140.33
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0271
-  network: ws
-  port: 2095
-  server: 104.26.5.123
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0272
-  network: ws
-  port: 2095
-  server: 104.26.5.113
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 13|US_speednode_0273
+  name: 13|US_speednode_0216
   network: ws
   port: 80
   server: 199.232.37.15
@@ -5201,10 +4637,10 @@ proxies:
     path: /BCXzvAcvSB7JzMWj?ed=2560fp=chrome
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0274
+  name: 13|US_speednode_0217
   network: ws
   port: 2095
-  server: 162.159.140.45
+  server: 104.26.5.67
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -5216,7 +4652,22 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0275
+  name: 13|US_speednode_0218
+  network: ws
+  port: 2082
+  server: 172.64.166.28
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0219
   network: ws
   port: 2082
   server: fbi.gov
@@ -5231,10 +4682,10 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0276
+  name: 13|US_speednode_0220
   network: ws
   port: 2082
-  server: 172.64.167.22
+  server: 172.64.167.25
   servername: ip26.6929198.xyz
   tls: false
   type: vmess
@@ -5244,7 +4695,7 @@ proxies:
     headers:
       Host: ip26.6929198.xyz
     path: /github.com/Alvin9999
-- name: 13|US_speednode_0277
+- name: 13|US_speednode_0221
   network: ws
   password: bpb-trojan
   port: 443
@@ -5257,26 +4708,12 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0279
-  network: ws
-  port: 443
-  server: 172.66.47.82
-  servername: pardazeshvpn-tg99.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f8a0d15b-e122-4a79-bd04-42c4565078df
-  ws-opts:
-    headers:
-      Host: pardazeshvpn-tg99.pages.dev
-    path: /Telegram:fp=chrome
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0280
+  name: 13|US_speednode_0222
   network: ws
   port: 2095
-  server: 162.159.140.93
+  server: 104.26.5.66
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -5288,10 +4725,10 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0281
+  name: 13|US_speednode_0223
   network: ws
   port: 2095
-  server: 162.159.140.19
+  server: 104.26.5.145
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -5303,10 +4740,10 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0282
+  name: 13|US_speednode_0224
   network: ws
   port: 2095
-  server: 162.159.140.89
+  server: 162.159.140.66
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
@@ -5318,7 +4755,97 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0283
+  name: 13|US_speednode_0225
+  network: ws
+  port: 2095
+  server: 104.26.5.103
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0226
+  network: ws
+  port: 2095
+  server: 104.26.5.123
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0227
+  network: ws
+  port: 2095
+  server: 162.159.140.33
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0228
+  network: ws
+  port: 2095
+  server: 104.26.5.113
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0229
+  network: ws
+  port: 2082
+  server: 172.64.194.76
+  servername: ip26.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0230
+  network: ws
+  port: 2095
+  server: 162.159.140.45
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0231
   network: ws
   port: 2095
   server: skk.moe
@@ -5333,7 +4860,52 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0284
+  name: 13|US_speednode_0232
+  network: ws
+  port: 2095
+  server: 162.159.140.93
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0233
+  network: ws
+  port: 2095
+  server: 162.159.140.19
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0234
+  network: ws
+  port: 2095
+  server: 162.159.140.89
+  servername: ip20.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0235
   network: ws
   port: 2095
   server: ip.sb
@@ -5348,22 +4920,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0285
-  network: ws
-  port: 2082
-  server: 104.20.17.186
-  servername: ip26.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip26.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0286
+  name: 13|US_speednode_0236
   network: ws
   port: 2095
   server: singapore.com
@@ -5378,36 +4935,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0287
-  network: ws
-  port: 2095
-  server: japan.com
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- client-fingerprint: chrome
-  name: 13|US_speednode_0288
-  network: ws
-  port: 80
-  server: 151.101.2.216
-  servername: bas-kon-iranii.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e8a196c0-b131-411f-99b9-6e48ec21e552
-  ws-opts:
-    headers:
-      Host: bas-kon-iranii.ir
-    path: /@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config?ed=2048fp=chrome
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0289
+  name: 13|US_speednode_0237
   network: ws
   port: 2095
   server: malaysia.com
@@ -5422,7 +4950,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0290
+  name: 13|US_speednode_0238
   network: ws
   port: 2082
   server: 162.159.140.56
@@ -5437,25 +4965,39 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0291
+  name: 13|US_speednode_0239
   network: ws
-  port: 2082
-  server: 162.159.140.93
-  servername: ip26.6929198.xyz
+  port: 2095
+  server: japan.com
+  servername: ip20.6016725.xyz
   tls: false
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip26.6929198.xyz
+      Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
+- client-fingerprint: chrome
+  name: 13|US_speednode_0240
+  network: ws
+  port: 80
+  server: 151.101.2.216
+  servername: bas-kon-iranii.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e8a196c0-b131-411f-99b9-6e48ec21e552
+  ws-opts:
+    headers:
+      Host: bas-kon-iranii.ir
+    path: /@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config?ed=2048fp=chrome
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0292
+  name: 13|US_speednode_0241
   network: ws
   port: 2082
-  server: ip.sb
+  server: 162.159.140.93
   servername: ip26.6929198.xyz
   tls: false
   type: vmess
