@@ -388,40 +388,29 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 3,13|FI_speednode_0026
+  password: X7eoEBrARWsBUiVfchVEdH
+  port: 443
+  server: 185.77.217.121
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 3,11,13|US_speednode_0040
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
-  name: 3|-https://t.me/MrXbin-1
+  name: 3|-https://t.me/MrXbin-12
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 69.50.92.99
   type: ss
-- cipher: aes-128-gcm
-  name: 3,13|US_speednode_0040
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-9
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.164
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 3,11,13|GB_speednode_0030
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.131
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|-https://t.me/MrXbin-18
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 69.50.92.99
-  type: ss
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-22
+  name: 3|-https://t.me/MrXbin-19
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -432,36 +421,34 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-35
+  name: 3|-https://t.me/MrXbin-31
   network: ws
-  port: 2095
-  server: 172.64.99.22
-  skip-cert-verify: true
+  port: 2082
+  server: 172.64.175.213
+  servername: ip18.6929198.xyz
   type: vmess
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip12.6016725.xyz
+      Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-38
+  name: 3|-https://t.me/MrXbin-32
   network: ws
-  port: 443
-  server: speedtest.net
-  servername: mehrjavan.ir
-  skip-cert-verify: true
-  tls: true
+  port: 2082
+  server: 172.64.194.76
+  servername: ip18.6929198.xyz
   type: vmess
   udp: true
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -812,7 +799,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 6,8,12|香港3|@ripaojiedian
+  name: 6,8,12|香港|@ripaojiedian
   network: tcp
   port: '48009'
   server: 183.236.51.23
@@ -1115,7 +1102,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: 8,12|香港2|@ripaojiedian
+  name: 8|14|香港2|@ripaojiedian
   network: tcp
   port: '34565'
   server: 120.232.153.71
@@ -1125,7 +1112,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 8,12|香港4|@ripaojiedian
+  name: 8|14|香港4|@ripaojiedian
   network: tcp
   port: '50037'
   server: 183.236.51.23
@@ -1145,7 +1132,7 @@ proxies:
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 0
   cipher: auto
-  name: 8,12|香港7|@ripaojiedian
+  name: 8|14|香港7|@ripaojiedian
   network: tcp
   port: '44826'
   server: ambxxid02hk.dorabbb.top
@@ -1155,7 +1142,7 @@ proxies:
   uuid: 263aba2e-52ac-494a-b25f-32b8d230e61d
 - alterId: 0
   cipher: auto
-  name: 8,12|香港8|@ripaojiedian
+  name: 8|14|香港8|@ripaojiedian
   network: tcp
   port: '38848'
   server: 38.147.188.250
@@ -1165,7 +1152,7 @@ proxies:
   uuid: 69e0e169-0702-4454-9d88-259d08e57926
 - alterId: 0
   cipher: auto
-  name: 8,12|日本|@ripaojiedian
+  name: 8|14|日本|@ripaojiedian
   network: tcp
   port: '23468'
   server: 47.74.8.202
@@ -1175,7 +1162,7 @@ proxies:
   uuid: 9f563bc7-0481-41d2-f8fd-a4736ded9bc0
 - alterId: 0
   cipher: auto
-  name: 8,12|韩国2|@ripaojiedian
+  name: 8|14|韩国2|@ripaojiedian
   network: tcp
   port: '41510'
   server: 45.94.68.210
@@ -1185,7 +1172,7 @@ proxies:
   uuid: 18e11bb1-2ecc-4700-902e-9a172b762bbd
 - alterId: 64
   cipher: auto
-  name: 8,12|新加坡|@ripaojiedian
+  name: 8,12|新加坡2|@ripaojiedian
   network: tcp
   port: '40002'
   server: 183.236.48.163
@@ -1195,7 +1182,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 8,12|德国|@ripaojiedian
+  name: 8|14|德国|@ripaojiedian
   network: tcp
   port: '43526'
   server: 120.232.153.71
@@ -1337,14 +1324,6 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
-  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1359,12 +1338,28 @@ proxies:
   type: trojan
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 206.119.175.50
+  name: 11|🇭🇰 香港3|@ripaojiedian
+  password: 813e5b6e-76c7-4ed3-a913-7cfcb7490424
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11,13|CN_speednode_0003
+  password: 01ec0aea-686e-4c3a-8276-cf3f145b5304
+  port: 31672
+  server: gdcub.yunnode.win
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11,13|CN_speednode_0004
+  password: 50dd31ce-2e8c-45e2-be8b-cba8a6eee621
+  port: 35631
+  server: gdcub.yunnode.win
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -1375,10 +1370,18 @@ proxies:
   server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾3|@ripaojiedian
+  password: 7c931ff3-d9fd-4f4a-94fe-44700ac0ab4b
+  port: 17007
+  server: tw007.dogsvip.site
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
-  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
+  name: 11|🇯🇵 日本|@ripaojiedian
+  password: ff8e306e-7908-4576-a14d-2a6e037a695b
   port: 11001
   server: 61.172.235.22
   tfo: false
@@ -1399,12 +1402,28 @@ proxies:
   server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11,13|GB_speednode_0030
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.131
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.110.1.105
+  password: asd123456
+  port: 8388
+  server: 137.175.97.159
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1412,7 +1431,7 @@ proxies:
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.249.197.65
+  server: 13.125.51.118
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1420,7 +1439,7 @@ proxies:
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.198.194.170
+  server: 43.201.254.74
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1428,9 +1447,29 @@ proxies:
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.170.82
+  server: 52.79.157.153
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 12|香港2|@ripaojiedian
+  network: tcp
+  port: '56601'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 12|美国4|@ripaojiedian
+  network: tcp
+  port: '52112'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: 13|CN_speednode_0001
   password: ayucloud1
@@ -1453,18 +1492,6 @@ proxies:
   server: 231103level1.unclemanco.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0003
-  password: 01ec0aea-686e-4c3a-8276-cf3f145b5304
-  port: 31672
-  server: gdcub.yunnode.win
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0004
-  password: 50dd31ce-2e8c-45e2-be8b-cba8a6eee621
-  port: 35631
-  server: gdcub.yunnode.win
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 13|CN_speednode_0005
   password: 01ec0aea-686e-4c3a-8276-cf3f145b5304
@@ -1556,13 +1583,6 @@ proxies:
   skip-cert-verify: true
   sni: testak.dd.msk.suh2
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 13|FI_speednode_0026
-  password: X7eoEBrARWsBUiVfchVEdH
-  port: 443
-  server: 185.77.217.121
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 13|FR_speednode_0028
   password: zkGxjKKql0V9Bq6oKQ0a0K
