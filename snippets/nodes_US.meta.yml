@@ -283,14 +283,6 @@ proxies:
   server: 137.175.97.159
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 11,13|US_speednode_0087
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 13|US_speednode_0189
   network: ws
@@ -378,6 +370,12 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 13|US_speednode_0070
+  password: rUODuKJMdVMTxlq3Q5iSDX
+  port: 59644
+  server: 150.241.102.95
+  type: ss
 - client-fingerprint: chrome
   name: 13|US_speednode_0071
   network: ws
@@ -2721,21 +2719,6 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0231
-  network: ws
-  port: 2095
-  server: skk.moe
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 13|US_speednode_0232
   network: ws
   port: 2095
@@ -2770,21 +2753,6 @@ proxies:
   network: ws
   port: 2095
   server: 162.159.140.89
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0235
-  network: ws
-  port: 2095
-  server: ip.sb
   servername: ip20.6016725.xyz
   tls: false
   type: vmess
