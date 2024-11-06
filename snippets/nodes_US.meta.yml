@@ -267,12 +267,20 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.131
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 137.175.97.159
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 142.202.49.119
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -362,6 +370,12 @@ proxies:
     headers:
       Host: vless.ifx.us.kg
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 13|US_speednode_0070
+  password: rUODuKJMdVMTxlq3Q5iSDX
+  port: 59644
+  server: 150.241.102.95
+  type: ss
 - client-fingerprint: chrome
   name: 13|US_speednode_0071
   network: ws
