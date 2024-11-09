@@ -390,28 +390,23 @@ proxies:
   ws-opts: {}
 - cipher: aes-256-gcm
   name: 3|-https://t.me/MrXbin-1
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.121.43.204
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|-https://t.me/MrXbin-2
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 38.121.43.204
   type: ss
 - cipher: aes-128-gcm
-  name: 3|-https://t.me/MrXbin-3
+  name: 3|-https://t.me/MrXbin-2
   password: shadowsocks
   port: 443
-  server: 149.22.95.183
+  server: 37.19.198.160
   type: ss
-- cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-4
-  password: amazonskr05
+- cipher: chacha20-ietf-poly1305
+  name: 3|-https://t.me/MrXbin-3
+  password: X7eoEBrARWsBUiVfchVEdH
   port: 443
-  server: 54.187.244.22
+  server: 185.77.217.121
   type: ss
+  udp: true
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 3,11,13|US_speednode_0012
@@ -421,7 +416,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-6
+  name: 3|-https://t.me/MrXbin-5
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.87.175.157
@@ -434,14 +429,42 @@ proxies:
   server: 212.102.47.131
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  name: 3|-https://t.me/MrXbin-8
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.121.43.204
+  type: ss
+- cipher: aes-128-gcm
+  name: 3|-https://t.me/MrXbin-10
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-23
+  name: 3|-https://t.me/MrXbin-21
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-24
+  network: ws
+  port: 2082
+  server: 172.64.175.88
+  servername: ip18.6929198.xyz
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -463,18 +486,38 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-31
+  name: 3,8|0|--27
   network: ws
-  port: 2082
-  server: 172.64.167.15
+  port: 443
+  server: speedtest.net
+  servername: mehrjavan.ir
   skip-cert-verify: true
+  tls: true
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
   ws-opts:
     headers:
-      Host: ip16.6929198.xyz
-    path: /github.com/Alvin9999
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-35
+  network: ws
+  port: 443
+  server: 57.129.28.69
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: baradiha.com
+    path: /linkvws
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1026,20 +1069,6 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 8|0|--27
-  network: ws
-  port: 443
-  server: speedtest.net
-  servername: mehrjavan.ir
-  tls: true
-  type: vmess
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
   name: '8|3,4,5|d*********g.com_0 #2'
   network: ws
   port: 8443
@@ -1116,7 +1145,7 @@ proxies:
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 0
   cipher: auto
-  name: 8,12|韩国2|@ripaojiedian
+  name: 8|14|韩国2|@ripaojiedian
   network: tcp
   port: '47369'
   server: 45.94.68.135
@@ -1380,6 +1409,26 @@ proxies:
   server: 54.200.148.115
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港6|@ripaojiedian
+  network: tcp
+  port: '34169'
+  server: 38.147.189.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b7edcefb-9720-4829-8257-842b9a29f8fc
+- alterId: 0
+  cipher: auto
+  name: 12|日本|@ripaojiedian
+  network: tcp
+  port: '15836'
+  server: 45.159.50.76
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e1218e34-80a3-4a65-8524-88ca51e79191
 - client-fingerprint: chrome
   name: 13|HK_speednode_0003
   network: ws
