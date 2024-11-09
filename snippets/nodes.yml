@@ -388,40 +388,36 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 3,11,13|US_speednode_0012
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   name: 3|-https://t.me/MrXbin-3
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-4
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: aes-256-gcm
   name: 3|-https://t.me/MrXbin-5
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.121.43.204
+  password: X7eoEBrARWsBUiVfchVEdH
+  port: 443
+  server: 185.77.217.121
   type: ss
-- cipher: aes-256-gcm
-  name: 3|-https://t.me/MrXbin-7
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.121.43.204
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|-https://t.me/MrXbin-11
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.157
   type: ss
+- cipher: rc4-md5
+  name: 3|-https://t.me/MrXbin-30
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13494
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  type: ssr
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-21
+  name: 3|-https://t.me/MrXbin-31
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -432,10 +428,10 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3|-https://t.me/MrXbin-27
+  name: 3|-https://t.me/MrXbin-33
   network: ws
   port: 2082
-  server: 172.64.198.249
+  server: 172.64.175.213
   servername: ip18.6929198.xyz
   type: vmess
   udp: true
@@ -444,6 +440,41 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3,8|0|--24
+  network: ws
+  port: 2082
+  server: 172.64.99.22
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3,8|0|--22
+  network: ws
+  port: 443
+  server: speedtest.net
+  servername: mehrjavan.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1009,34 +1040,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 8|0|--22
-  network: ws
-  port: 443
-  server: speedtest.net
-  servername: mehrjavan.ir
-  tls: true
-  type: vmess
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- alterId: 0
-  cipher: auto
-  name: 8|0|--24
-  network: ws
-  port: 2082
-  server: 172.64.99.22
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 8|0|--29
   network: ws
   port: 2082
@@ -1160,13 +1163,15 @@ proxies:
   uuid: e1218e34-80a3-4a65-8524-88ca51e79191
 - alterId: 64
   cipher: auto
-  name: 8,12|新加坡2|@ripaojiedian
+  name: 8,12,13|CN_speednode_0028
   network: tcp
-  port: '40002'
+  port: 40002
   server: 183.236.48.163
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
@@ -1323,20 +1328,20 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|JP_speednode_0004
-  password: 8e4248f7-aae5-3a38-b99d-88bf1cd37e0d
-  port: 443
-  server: 35.75.8.137
+  name: 11,13|CN_speednode_0034
+  password: b9edaab0-e484-342b-ab7c-09bd4f9dd98f
+  port: 40002
+  server: 183.236.48.163
   skip-cert-verify: true
-  sni: fastly.cdn.steampipe.steamcontent.com
+  sni: z143.hongkongnode.top
   tfo: false
   tls: false
-  type: trojan
+  type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
+  name: 11,13|CN_speednode_0036
   password: U4W5JSFDBCGUTTWN
   port: 15002
   server: 120.241.45.50
@@ -1352,7 +1357,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 11,13|CN_speednode_0032
   password: 7DJY7GZN9AQ2AURN
   port: 18001
   server: 120.241.45.50
@@ -1366,14 +1371,25 @@ proxies:
   server: 61.172.235.22
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- alterId: -1
+  cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
+  name: 11,13|GB_speednode_0057
   password: shadowsocks
   port: 443
   server: 212.102.47.131
   tfo: false
   type: ss
+- alterId: -1
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11,13|US_speednode_0120
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
+  tfo: false
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
@@ -1398,18 +1414,313 @@ proxies:
   server: 43.203.218.87
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 13|US_speednode_0011
+  name: 13|AU_speednode_0002
   network: ws
-  port: 2082
-  server: russia.com
-  servername: ip26.6929198.xyz
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: 172.105.172.209
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ip26.6929198.xyz
+      Host: 172.105.172.209
+    path: /linkvws
+- cipher: aes-128-gcm
+  name: 13|CA_speednode_0006
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|CA_speednode_0007
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.162.200.227
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|CA_speednode_0008
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0009
+  password: 70f25b2b-2443-4dc9-9654-341e3aaee5f6
+  port: 35631
+  server: gdcub.yunnode.win
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0010
+  password: 70f25b2b-2443-4dc9-9654-341e3aaee5f6
+  port: 35637
+  server: gdcub.yunnode.win
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0011
+  password: 30f09e87-c1d5-4141-adc1-ee4e7ee22895
+  port: 31675
+  server: gdcub.yunnode.win
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0012
+  password: 70f25b2b-2443-4dc9-9654-341e3aaee5f6
+  port: 35636
+  server: gdcub.yunnode.win
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0013
+  password: 70f25b2b-2443-4dc9-9654-341e3aaee5f6
+  port: 35630
+  server: gdcub.yunnode.win
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 13|CN_speednode_0014
+  network: tcp
+  port: 30565
+  server: 183.238.202.174
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0015
+  password: 30f09e87-c1d5-4141-adc1-ee4e7ee22895
+  port: 31632
+  server: gdcub.yunnode.win
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0016
+  password: 30f09e87-c1d5-4141-adc1-ee4e7ee22895
+  port: 31660
+  server: gdcub.yunnode.win
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0017
+  password: 30f09e87-c1d5-4141-adc1-ee4e7ee22895
+  port: 31636
+  server: gdcub.yunnode.win
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0018
+  password: 30f09e87-c1d5-4141-adc1-ee4e7ee22895
+  port: 31738
+  server: gdcub.yunnode.win
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 13|CN_speednode_0019
+  network: tcp
+  port: 46602
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13|CN_speednode_0025
+  network: tcp
+  port: 51704
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0026
+  password: 70f25b2b-2443-4dc9-9654-341e3aaee5f6
+  port: 35628
+  server: gdcub.yunnode.win
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0035
+  password: 70f25b2b-2443-4dc9-9654-341e3aaee5f6
+  port: 35634
+  server: gdcub.yunnode.win
+  type: ss
+- cipher: aes-128-cfb
+  name: 13|NL_speednode_0070
+  obfs: plain
+  password: shadowsocks
+  port: 443
+  protocol: origin
+  server: 109.201.152.181
+  type: ssr
+- alterId: -1
+  cipher: aes-128-cfb
+  name: 13|NL_speednode_0073
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+  udp: true
+- alterId: -1
+  cipher: aes-128-gcm
+  name: 13|US_speednode_0126
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.160
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0135
+  network: ws
+  port: 8443
+  server: 104.21.238.200
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
     path: /github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0153
+  network: ws
+  port: 8443
+  server: 104.21.238.202
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: /github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0147
+  network: ws
+  port: 8443
+  server: 104.21.238.203
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: /github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: -1
+  name: 13|US_speednode_0155
+  network: ws
+  password: auto
+  port: 27051
+  server: 103.170.72.129
+  skip-cert-verify: true
+  sni: trojanfree-76s.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojanfree-76s.pages.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0145
+  network: ws
+  port: 8443
+  server: 104.21.238.201
+  servername: http1.9290254.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: http1.9290254.xyz
+    path: /github.com/Alvin9999
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alterId: -1
+  name: 13|US_speednode_0174
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 172.64.150.145
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL?ed=2560
+- name: 13|US_speednode_0164
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 172.64.150.145
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL
+- name: 13|US_speednode_0169
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.18.37.111
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL
+- alterId: -1
+  name: 13|US_speednode_0183
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.18.37.111
+  skip-cert-verify: true
+  sni: mindrOOm-5cz.pAgEs.dEV
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mindrOOm-5cz.pAgEs.dEV
+    path: /trC8BM8bTsAF0AnLYL?ed=2560

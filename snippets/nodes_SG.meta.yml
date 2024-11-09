@@ -7,13 +7,15 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 8,12|新加坡2|@ripaojiedian
+  name: 8,12,13|CN_speednode_0028
   network: tcp
-  port: '40002'
+  port: 40002
   server: 183.236.48.163
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -24,10 +26,25 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13|SG_speednode_0006
+  name: 13|SG_speednode_0093
   network: ws
   port: 587
   server: 103.180.161.69
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|SG_speednode_0094
+  network: ws
+  port: 587
+  server: 103.180.161.123
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
