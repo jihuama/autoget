@@ -270,22 +270,42 @@ proxies:
 - alterId: -1
   cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 11,13|GB_speednode_0021
+  name: 11,13|GB_speednode_0017
   password: shadowsocks
   port: 443
   server: 212.102.47.131
   tfo: false
   type: ss
-- alterId: -1
-  cipher: aes-128-gcm
-  name: 13|US_speednode_0061
-  password: shadowsocks
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0045
+  network: ws
   port: 443
-  server: 37.19.198.160
-  type: ss
-  udp: true
+  server: obdii.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0050
+  network: ws
+  port: 2087
+  server: www.speedtest.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1d01e6ae-0d97-4a9f-af23-8d754085a94f
+  ws-opts:
+    headers:
+      Host: OfFeR.MirAclestORy.tOP.
+    path: /
 - alterId: -1
-  name: 13|US_speednode_0094
+  name: 13|US_speednode_0098
   network: ws
   password: bpb-trojan
   port: 443
@@ -298,7 +318,7 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL?ed=2560
-- name: 13|US_speednode_0082
+- name: 13|US_speednode_0086
   network: ws
   password: bpb-trojan
   port: 443
@@ -310,7 +330,7 @@ proxies:
     headers:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
-- name: 13|US_speednode_0084
+- name: 13|US_speednode_0088
   network: ws
   password: bpb-trojan
   port: 443
@@ -323,7 +343,7 @@ proxies:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
 - alterId: -1
-  name: 13|US_speednode_0089
+  name: 13|US_speednode_0094
   network: ws
   password: bpb-trojan
   port: 443
