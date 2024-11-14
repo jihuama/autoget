@@ -47,20 +47,6 @@ proxies:
   server: 120.241.45.50
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,13|VN_speednode_0177
-  password: 94d219c9-1afc-4d42-b090-8b3794764380
-  port: 443
-  server: std1.loadingip.com
-  skip-cert-verify: true
-  sni: std1.loadingip.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港4|@ripaojiedian
@@ -78,12 +64,12 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13|HK_speednode_0032
+  name: 13|HK_speednode_0015
   network: ws
   port: 23555
   server: 219.77.65.212
   servername: juzi8186.5112233.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -91,4 +77,4 @@ proxies:
   ws-opts:
     headers:
       Host: juzi8186.5112233.xyz
-    path: /?ed=2560
+    path: /?ed=2560fp=random
