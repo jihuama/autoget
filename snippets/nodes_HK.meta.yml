@@ -37,19 +37,19 @@ proxies:
   server: 120.241.45.50
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|SE_speednode_0044
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 16.171.73.217
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  name: 11,13|CN_speednode_0005
+  password: AlXRB8wqec3pCYZgSNADxROFSEa0Saz3Z6O7u3FjIlDT4eDYxp89aCy35KC2yn
+  port: 40002
+  server: 183.236.48.163
+  skip-cert-verify: false
+  sni: nagoya.meijireform.com
   tfo: false
   tls: false
-  type: trojan
-  uuid: 48a00d77-ecef-4ea9-8d60-c7ea8ea0ea09
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港3|@ripaojiedian
@@ -67,7 +67,21 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 13|HK_speednode_0019
+  name: 13|HK_speednode_0025
+  network: ws
+  port: 587
+  server: 152.32.129.97
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|HK_speednode_0027
   network: ws
   port: 23555
   server: 219.77.65.212

@@ -1,30 +1,22 @@
 proxies:
-- name: 13|FR_speednode_0015
-  network: tcp
-  port: 8080
-  server: 95.182.98.207
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 55d021c0-53fa-488a-b223-d4a49aa8f2f2
-- name: 13|FR_speednode_0016
-  network: ws
-  port: 22222
-  server: 13.37.253.85
-  servername: telegram-channel-vlessconfig.sohala.uk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  ws-opts:
-    headers:
-      Host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- client-fingerprint: chrome
-  name: 13|FR_speednode_0017
+- name: 13|FR_speednode_0022
   network: ws
   port: 2501
   server: 77.221.152.41
+  servername: vless.ifx.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|FR_speednode_0023
+  network: ws
+  port: 1001
+  server: 193.187.174.174
   servername: vless.ifx.us.kg
   skip-cert-verify: false
   tls: true
