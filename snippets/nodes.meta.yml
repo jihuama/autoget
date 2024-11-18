@@ -389,39 +389,14 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: chacha20-ietf-poly1305
-  name: 3,13|LT_speednode_0027
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3,13|LT_speednode_0030
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.199
-  type: ss
-- cipher: aes-256-gcm
-  name: 3,13|RU_speednode_0037
-  password: dongtaiwang.com
-  port: 12345
-  server: 46.17.40.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 3,13|LT_speednode_0026
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.87.175.178
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3,13|LT_speednode_0032
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.192
-  type: ss
 - cipher: aes-128-cfb
-  name: 3|-https://t.me/MrXbin-22
+  name: 3|-https://t.me/MrXbin-12
   obfs: plain
   password: shadowsocks
   port: 443
@@ -429,13 +404,52 @@ proxies:
   server: 109.201.152.181
   type: ssr
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-26
+  name: 3|-https://t.me/MrXbin-18
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- cipher: rc4-md5
+  name: 3|-https://t.me/MrXbin-19
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13302
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: mjk6.cdn.node.a.tddns-ounk.com
+  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-21
+  network: ws
+  port: 2095
+  server: 172.64.166.20
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-24
+  network: ws
+  port: 2082
+  server: 172.64.198.249
+  servername: ip18.6929198.xyz
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1505,10 +1519,28 @@ proxies:
       Host: Falcunargo.net
     path: /5Ve373mPjKg4vceF?ed
 - cipher: chacha20-ietf-poly1305
+  name: 13|LT_speednode_0032
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.192
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|LT_speednode_0027
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.188
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 13|LT_speednode_0025
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|LT_speednode_0030
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.199
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 13|LT_speednode_0031
@@ -1563,6 +1595,12 @@ proxies:
   password: KYsTzcXvoC32WXZBLlZiOE
   port: 54311
   server: 51.13.112.75
+  type: ss
+- cipher: aes-256-gcm
+  name: 13|RU_speednode_0037
+  password: dongtaiwang.com
+  port: 12345
+  server: 46.17.40.57
   type: ss
 - client-fingerprint: chrome
   name: 13|RU_speednode_0038
