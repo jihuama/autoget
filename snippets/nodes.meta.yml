@@ -388,48 +388,23 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-7
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.164
+- cipher: aes-256-cfb
+  name: 3|-https://t.me/MrXbin-1
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 3|-https://t.me/MrXbin-2
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-8
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-4
   password: 2fwufOmJ9ELfN4umzcHBfV
   port: 12224
   server: 194.87.82.28
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-6
+  name: 3,13|LT_speednode_0033
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.154
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-9
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: beesyar.org
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-10
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
   type: ss
 - cipher: aes-256-cfb
   name: 3|-https://t.me/MrXbin-16
@@ -439,14 +414,22 @@ proxies:
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-20
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 138.186.142.4
-  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|-https://t.me/MrXbin-25
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1119,7 +1102,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 8,12|日本3|@ripaojiedian
+  name: 8|14|日本3|@ripaojiedian
   network: tcp
   port: '11304'
   server: 45.159.50.143
@@ -1271,24 +1254,25 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
-  password: ad6e2bae-d580-4117-aa37-a8c111100740
-  port: 13021
-  server: naiu-us.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  name: 11,13|JP_speednode_0024
+  password: b21dc611-652c-3081-bd10-b239f2ae25e4
+  port: 443
+  server: 35.75.8.137
+  skip-cert-verify: true
+  sni: steampipe-partner.akamaized.net
   tfo: false
   tls: false
   type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港4|@ripaojiedian
-  password: MAADD8JLM8XKVW56
-  port: 15016
+  password: URZYWLLW5LQAYR7X
+  port: 15010
   server: 36.141.40.92
   tfo: false
   type: ss
@@ -1300,12 +1284,12 @@ proxies:
   server: 58.63.250.61
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港8|@ripaojiedian
-  password: bb741d28-cd11-4ce8-8799-459407bacde8
-  port: 32184
-  server: 4.api-catssr.catcloud.host
+  password: BAIL27GTV8AIK2BC
+  port: 15012
+  server: 58.63.250.61
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -1321,7 +1305,7 @@ proxies:
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.39.240.246
+  server: 54.199.66.30
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1329,7 +1313,7 @@ proxies:
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.35.167.90
+  server: 3.112.124.200
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1337,196 +1321,198 @@ proxies:
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.202.57.197
+  server: 35.89.254.222
   tfo: false
   type: ss
-- name: 13|AT_speednode_0001
+- alterId: 0
+  cipher: auto
+  name: 12|美国3|@ripaojiedian
+  network: tcp
+  port: '38692'
+  server: 38.147.165.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+- client-fingerprint: chrome
+  name: 13|AE_speednode_0001
   network: ws
-  port: 2501
-  server: 45.138.74.56
-  servername: a.mifeng.us.kg
+  port: 80
+  server: 181.214.1.71
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 13|AT_speednode_0003
+  network: ws
+  port: 443
+  server: 212.183.88.242
+  servername: dw.ylks.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|BG_speednode_0002
+      Host: dw.ylks.xyz
+    path: /bluesecurity=tls
+- name: 13|BG_speednode_0004
   network: ws
   port: 8000
   server: 31.13.248.74
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|CA_speednode_0003
+- name: 13|CA_speednode_0005
   network: ws
   port: 2003
   server: 81.19.140.78
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|CH_speednode_0004
+- client-fingerprint: chrome
+  name: 13|CH_speednode_0006
   network: ws
-  port: 587
-  server: 144.24.248.38
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 80
+  server: 185.18.250.126
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|CH_speednode_0005
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 13|CH_speednode_0007
   network: ws
-  port: 8000
-  server: 179.43.144.10
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 80
+  server: 185.18.250.200
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|CN_speednode_0006
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 13|CR_speednode_0009
   network: ws
-  port: 587
-  server: 103.142.102.236
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 2086
+  server: 190.93.244.0
+  servername: workerr.hashdiler.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 636b1684-b26c-4a9c-bc6e-8e1197a36d74
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|CZ_speednode_0007
+      Host: workerr.hashdiler.workers.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 13|CR_speednode_0010
   network: ws
-  port: 2501
-  server: 194.87.208.88
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 80
+  server: 190.93.245.245
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|CZ_speednode_0008
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 13|CR_speednode_0011
   network: ws
-  port: 8000
-  server: 194.87.11.56
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 8080
+  server: 190.93.247.56
+  servername: legendaryking.ir.www.speedtest.net.www.zula.ir.cloudflare.com.mozdozari.bUzz.
+  skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 87cf378a-ae8c-4f05-b342-f836ffdf9b2a
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|DE_speednode_0009
+      Host: legendaryking.ir.www.speedtest.net.www.zula.ir.cloudflare.com.mozdozari.bUzz.
+    path: /telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers,telegram-@LegenderY_Servers?ed=2560
+- alpn:
+  - h2
+  - h3
+  - http/1.1
+  client-fingerprint: ios
+  name: 13|DE_speednode_0012
   network: ws
-  port: 2003
-  server: 89.185.85.196
-  servername: a.mifeng.us.kg
+  port: 2096
+  server: 188.245.203.136
+  servername: mcc.rayanfmusic.IR
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 5e3647f8-1744-4a06-83b0-d6343ec84f62
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|DE_speednode_0010
-  network: ws
-  port: 1001
-  server: 78.46.170.185
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|DE_speednode_0011
-  network: ws
-  port: 2501
-  server: 89.185.85.196
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|DE_speednode_0012
-  network: ws
-  port: 1001
-  server: 159.69.22.135
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
+      Host: mcc.rayanfmusic.IR
+    path: /telegram-IRov2rayN,telegram-iroazadi,IRov2rayN-iroazadi,telegram-irov2rayN,telegram-irov2rayN,telegram-IRov2rayN,telegram-IRov2rayN,telegram-IRov2rayN,telegram-IRov2rayN,telegram-IRov2rayN,telegram-IRov2rayN?ed=2096
 - name: 13|DE_speednode_0013
   network: ws
-  port: 587
-  server: 8.209.109.10
+  port: 55555
+  server: 92.118.190.71
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|DE_speednode_0014
+- client-fingerprint: random
+  name: 13|DE_speednode_0014
   network: ws
-  port: 1001
-  server: 49.12.191.34
-  servername: a.mifeng.us.kg
+  port: 443
+  server: 185.103.253.35
+  servername: 547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
+      Host: 547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560
 - name: 13|DE_speednode_0015
   network: ws
   port: 1001
   server: 37.120.184.206
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -1535,37 +1521,25 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|DE_speednode_0016
+- name: 13|ES_speednode_0016
   network: ws
-  port: 854
-  server: 91.107.128.26
-  servername: a.mifeng.us.kg
+  port: 2053
+  server: 194.164.170.244
+  servername: happy.mianfeicf.lol
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 20fda433-1864-433b-b3dd-8f119fe4cafd
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
+      Host: happy.mianfeicf.lol
     path: /?ed=2560
-- name: 13|DE_speednode_0017
-  network: ws
-  port: 55555
-  server: 92.118.190.71
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|ES_speednode_0018
+- name: 13|ES_speednode_0017
   network: ws
   port: 8080
   server: 94.250.246.200
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -1574,180 +1548,42 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|FI_speednode_0019
+- client-fingerprint: chrome
+  name: 13|GB_speednode_0018
   network: ws
-  port: 2222
-  server: 65.21.158.255
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 80
+  server: 194.36.55.67
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|FI_speednode_0020
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 13|GB_speednode_0019
   network: ws
-  port: 587
-  server: 95.217.135.15
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 80
+  server: 194.36.55.16
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|FR_speednode_0021
-  network: ws
-  port: 8080
-  server: 152.228.207.76
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|FR_speednode_0022
-  network: ws
-  port: 2003
-  server: 77.221.152.41
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|FR_speednode_0023
-  network: ws
-  port: 587
-  server: 188.165.24.25
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|FR_speednode_0024
-  network: ws
-  port: 587
-  server: 141.94.206.40
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|GB_speednode_0025
-  network: ws
-  port: 587
-  server: 8.211.207.185
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|GB_speednode_0026
-  network: ws
-  port: 587
-  server: 149.5.52.148
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|GB_speednode_0027
-  network: ws
-  port: 587
-  server: 101.36.97.226
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|GB_speednode_0028
-  network: ws
-  port: 587
-  server: 8.208.94.35
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|GB_speednode_0029
-  network: ws
-  port: 8080
-  server: 37.230.62.172
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|HK_speednode_0030
-  network: ws
-  port: 587
-  server: 8.217.29.82
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|HK_speednode_0031
-  network: ws
-  port: 587
-  server: 8.218.153.62
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|HK_speednode_0032
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 13|HK_speednode_0020
   network: ws
   port: 587
   server: 8.218.132.79
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -1756,37 +1592,12 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|HK_speednode_0033
-  network: ws
-  port: 587
-  server: 8.218.152.147
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|HK_speednode_0034
-  network: ws
-  port: 587
-  server: 107.150.119.240
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|HK_speednode_0035
+- name: 13|HK_speednode_0021
   network: ws
   port: 54321
   server: 59.149.204.218
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -1795,128 +1606,67 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|HU_speednode_0036
-  network: ws
-  port: 11001
-  server: 45.138.90.43
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|IR_speednode_0037
-  network: ws
-  port: 8000
-  server: 31.14.116.12
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|IR_speednode_0038
+- name: 13|IR_speednode_0022
   network: ws
   port: 2222
   server: 94.182.136.181
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|JP_speednode_0039
+- client-fingerprint: random
+  name: 13|KR_speednode_0025
   network: ws
-  port: 587
-  server: 8.209.217.106
-  servername: a.mifeng.us.kg
+  port: 50000
+  server: 119.205.51.190
+  servername: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|JP_speednode_0040
+      Host: 5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560
+- client-fingerprint: random
+  name: 13|KR_speednode_0026
   network: ws
-  port: 587
-  server: 8.209.220.155
-  servername: a.mifeng.us.kg
+  port: 50000
+  server: 222.108.94.228
+  servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|JP_speednode_0041
+      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560
+- client-fingerprint: random
+  name: 13|KR_speednode_0027
   network: ws
-  port: 8889
-  server: 160.16.242.208
-  servername: a.mifeng.us.kg
+  port: 19017
+  server: 61.79.32.239
+  servername: 547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|JP_speednode_0042
-  network: ws
-  port: 587
-  server: 64.110.103.142
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0043
-  network: ws
-  port: 8000
-  server: 146.56.179.20
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0044
-  network: ws
-  port: 587
-  server: 140.238.2.81
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0045
+      Host: 547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560
+- name: 13|KR_speednode_0028
   network: ws
   port: 33890
   server: 14.43.88.180
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -1925,258 +1675,133 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|KR_speednode_0046
+- client-fingerprint: random
+  name: 13|KR_speednode_0029
   network: ws
-  port: 11310
-  server: 222.112.148.240
-  servername: a.mifeng.us.kg
+  port: 30015
+  server: 106.242.64.238
+  servername: ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0047
+      Host: ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560
+- client-fingerprint: chrome
+  name: 13|KZ_speednode_0030
   network: ws
-  port: 11211
-  server: 211.107.83.151
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 80
+  server: 31.43.179.49
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0048
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- cipher: chacha20-ietf-poly1305
+  name: 13|LT_speednode_0032
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|LT_speednode_0036
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.164
+  type: ss
+- client-fingerprint: chrome
+  name: 13|LU_speednode_0037
   network: ws
-  port: 33890
-  server: 119.200.244.99
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 80
+  server: 188.42.89.163
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0049
-  network: ws
-  port: 11001
-  server: 61.84.15.163
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0050
-  network: ws
-  port: 27018
-  server: 125.128.118.250
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0051
-  network: ws
-  port: 11001
-  server: 220.87.185.18
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0052
-  network: ws
-  port: 19150
-  server: 121.184.130.110
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0053
-  network: ws
-  port: 28006
-  server: 61.80.1.32
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|MD_speednode_0054
-  network: ws
-  port: 2003
-  server: 95.164.22.239
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|MD_speednode_0055
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 13|MD_speednode_0038
   network: ws
   port: 2501
   server: 95.164.22.239
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|NL_speednode_0056
-  network: ws
-  port: 1001
-  server: 45.130.20.40
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|NL_speednode_0057
-  network: ws
-  port: 7000
-  server: 5.2.73.137
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|NL_speednode_0058
+- name: 13|MD_speednode_0039
   network: ws
   port: 2003
-  server: 45.94.31.109
+  server: 95.164.22.239
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|NL_speednode_0059
-  network: ws
-  port: 2003
-  server: 45.94.31.75
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|NL_speednode_0060
+- name: 13|NL_speednode_0040
   network: ws
   port: 2003
   server: 2.58.56.31
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|NL_speednode_0061
-  network: ws
-  port: 1001
-  server: 45.94.31.75
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|NL_speednode_0062
+- name: 13|NL_speednode_0041
   network: ws
   port: 1001
   server: 45.94.31.109
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|NL_speednode_0063
-  network: ws
-  port: 6060
-  server: 195.200.19.139
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|NL_speednode_0064
-  network: ws
-  port: 3001
-  server: 93.185.163.186
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|NL_speednode_0065
+- name: 13|NL_speednode_0042
   network: ws
   port: 587
   server: 103.214.68.133
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 13|NL_speednode_0043
+  network: ws
+  port: 2003
+  server: 45.94.31.109
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -2185,24 +1810,167 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|RU_speednode_0066
+- name: 13|NL_speednode_0044
+  network: ws
+  port: 1001
+  server: 45.94.31.75
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 13|NL_speednode_0045
+  network: ws
+  port: 2003
+  server: 45.94.31.75
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 13|NL_speednode_0046
+  network: ws
+  port: 6060
+  server: 195.200.19.139
+  servername: a.mifeng.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 13|RO_speednode_0047
+  network: ws
+  port: 8443
+  server: 146.70.254.235
+  servername: happy.mianfeicf.lol
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20fda433-1864-433b-b3dd-8f119fe4cafd
+  ws-opts:
+    headers:
+      Host: happy.mianfeicf.lol
+    path: /?ed=2560
+- name: 13|RO_speednode_0048
+  network: ws
+  port: 8443
+  server: 146.70.254.232
+  servername: happy.mianfeicf.lol
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 20fda433-1864-433b-b3dd-8f119fe4cafd
+  ws-opts:
+    headers:
+      Host: happy.mianfeicf.lol
+    path: /?ed=2560
+- name: 13|RU_speednode_0049
+  network: tcp
+  port: 8443
+  server: yyyyyyyyymahdi1.v2ryng01.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b8e24ec7-b282-46a9-b1ed-92583b1a5120
+- name: 13|RU_speednode_0050
+  network: tcp
+  port: 8443
+  server: 109.172.94.60
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b8e24ec7-b282-46a9-b1ed-92583b1a5120
+- client-fingerprint: chrome
+  name: 13|RU_speednode_0051
+  network: ws
+  port: 80
+  server: 185.59.218.232
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 13|RU_speednode_0052
+  network: ws
+  port: 80
+  server: 185.148.107.92
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 13|RU_speednode_0060
+  network: ws
+  port: 443
+  server: 188.42.145.159
+  servername: VIrgiNiavPn-nL.pagEs.dEv
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 54ef4ecf-ff37-436a-be13-95c8a8a1114d
+  ws-opts:
+    headers:
+      Host: VIrgiNiavPn-nL.pagEs.dEv
+    path: /security=tlsfp=chromefp=chrome
+- client-fingerprint: chrome
+  name: 13|RU_speednode_0056
   network: ws
   port: 587
   server: 185.22.155.139
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|SE_speednode_0067
+- name: 13|RU_speednode_0059
+  network: ws
+  port: 2053
+  server: 91.227.18.81
+  servername: happy.mianfeicf.lol
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 20fda433-1864-433b-b3dd-8f119fe4cafd
+  ws-opts:
+    headers:
+      Host: happy.mianfeicf.lol
+    path: /?ed=2560
+- name: 13|SE_speednode_0061
   network: ws
   port: 2501
   server: 95.164.51.24
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -2211,92 +1979,711 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|SG_speednode_0068
+- name: 13|SE_speednode_0062
   network: ws
-  port: 587
-  server: 8.222.129.84
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 8080
+  server: 185.146.173.58
+  servername: lc80.lebasnoo.ir.
+  skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 26757718-95ee-406d-8c9a-bb5c4cfdd9ac
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|SG_speednode_0069
+      Host: lc80.lebasnoo.ir.
+    path: /servernett
+- client-fingerprint: random
+  name: 13|SG_speednode_0063
   network: ws
-  port: 587
-  server: 138.2.109.23
-  servername: a.mifeng.us.kg
+  port: 19990
+  server: 168.138.178.6
+  servername: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|SI_speednode_0070
-  network: ws
-  port: 10001
-  server: 212.13.236.132
-  servername: a.mifeng.us.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|TR_speednode_0071
+      Host: 8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com
+    path: /edgetunnel.2424014450.workers.dev/proxyIP=proxyip.sg.fxxk.dedyn.io
+- name: 13|TR_speednode_0064
   network: ws
   port: 2501
   server: 95.164.116.22
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|US_speednode_0072
+- name: 13|US_speednode_0065
+  network: ws
+  port: 80
+  server: VPNCSTOMIZE.fastly80-3.hosting-ip.com
+  servername: api.nhl.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 458f30b9-5ed9-477e-9d7a-9b587c02fea2
+  ws-opts:
+    headers:
+      Host: api.nhl.ir
+    path: /Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed
+- client-fingerprint: firefox
+  name: 13|US_speednode_0066
+  network: ws
+  port: 443
+  server: 151.101.65.210
+  servername: pooleno.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: pooleno.ir
+    path: /GGPPfZ3NKyOoKNiK?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0067
+  network: ws
+  port: 443
+  server: 199.232.5.101
+  servername: mefa.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: mefa.ir
+    path: /H?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0069
+  network: ws
+  port: 443
+  server: 199.232.5.79
+  servername: mefa.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: mefa.ir
+    path: /H?ed=2560
+- name: 13|US_speednode_0070
+  network: ws
+  port: 80
+  server: 172.67.175.9
+  servername: private-codmhttp.teqqlzdw.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: ea9148b9-13b7-41cf-8911-94234e7c3fcf
+  ws-opts:
+    headers:
+      Host: private-codmhttp.teqqlzdw.workers.dev
+    path: /?ed=2048
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 13|US_speednode_0098
+  network: ws
+  port: 443
+  server: 199.232.32.247
+  servername: Sanjeshp.Ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Sanjeshp.Ir
+    path: /H?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0072
+  network: ws
+  port: 80
+  server: 104.17.26.104
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 13|US_speednode_0073
+  network: ws
+  port: 80
+  server: 104.17.212.83
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: qq
+  name: 13|US_speednode_0074
+  network: ws
+  port: 443
+  server: 199.232.8.68
+  servername: ELiv2RAy-jOiN.cOm
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 80772220-3e7d-5f06-ae29-96672b8fa6df
+  ws-opts:
+    headers:
+      Host: ELiv2RAy-jOiN.cOm
+    path: /
+- client-fingerprint: chrome
+  name: 13|US_speednode_0075
+  network: ws
+  port: 80
+  server: 104.18.126.133
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 13|US_speednode_0076
+  network: ws
+  port: 443
+  server: 199.232.33.127
+  servername: mefa.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: mefa.ir
+    path: /H?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0077
+  network: ws
+  port: 80
+  server: 104.16.192.62
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 13|US_speednode_0092
+  network: ws
+  port: 443
+  server: 140.248.152.40
+  servername: Sanjeshp.Ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Sanjeshp.Ir
+    path: /H?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0079
+  network: ws
+  port: 80
+  server: 104.16.201.49
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- alpn:
+  - h2
+  - http%2F1.1
+  name: 13|US_speednode_0080
+  network: ws
+  port: 443
+  server: 167.82.97.248
+  servername: backtory.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: backtory.com
+    path: /
+- client-fingerprint: randomized
+  name: 13|US_speednode_0081
+  network: ws
+  port: 443
+  server: 199.232.6.53
+  servername: Sanjeshp.Ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Sanjeshp.Ir
+    path: /H?ed=2560
+- name: 13|US_speednode_0082
+  network: ws
+  port: 443
+  server: 172.66.45.10
+  servername: newtunnel-2xm.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 70ea7a10-de3e-4922-bc7c-4dd7c2cef882
+  ws-opts:
+    headers:
+      Host: newtunnel-2xm.pages.dev
+    path: /vless
+- client-fingerprint: chrome
+  name: 13|US_speednode_0083
+  network: ws
+  port: 80
+  server: 104.17.70.154
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- client-fingerprint: randomized
+  name: 13|US_speednode_0084
+  network: ws
+  port: 443
+  server: 199.232.7.154
+  servername: Sanjeshp.Ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Sanjeshp.Ir
+    path: /H?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 13|US_speednode_0085
+  network: ws
+  port: 443
+  server: 172.66.44.106
+  servername: MabdI.PAGeS.DEv
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: MabdI.PAGeS.DEv
+    path: /9GqWAHqtHAZpMxkq?ed=2560
+- client-fingerprint: qq
+  name: 13|US_speednode_0086
+  network: ws
+  port: 443
+  server: 199.232.5.66
+  servername: ELiV2RaY-0.cOm
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c8127c55-420b-5801-966b-a0e0dc237032
+  ws-opts:
+    headers:
+      Host: ELiV2RaY-0.cOm
+    path: /
+- name: 13|US_speednode_0087
   network: ws
   port: 587
   server: 165.154.134.125
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|US_speednode_0073
+- client-fingerprint: chrome
+  name: 13|US_speednode_0088
   network: ws
-  port: 587
-  server: 45.43.55.115
-  servername: a.mifeng.us.kg
-  tls: true
+  port: 80
+  server: bestcf.onecf.eu.org
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
   ws-opts:
     headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- name: 13|VN_speednode_0074
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 13|US_speednode_0089
+  network: ws
+  port: 80
+  server: 108.162.198.34
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- name: 13|US_speednode_0090
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  servername: TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: c921c664-d82d-4317-b4d0-7640cc9aa760
+  ws-opts:
+    headers:
+      Host: TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir
+    path: /@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480
+- client-fingerprint: randomized
+  name: 13|US_speednode_0091
+  network: ws
+  port: 443
+  server: 199.232.8.31
+  servername: Sanjeshp.Ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Sanjeshp.Ir
+    path: /H?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0093
+  network: ws
+  port: 80
+  server: 104.17.46.20
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 13|US_speednode_0094
+  network: ws
+  port: 80
+  server: 104.21.234.71
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.us.fxxk.dedyn.io
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 13|US_speednode_0095
+  network: ws
+  port: 80
+  server: unlimiteddev.fastly80-3.hosting-ip.com
+  servername: UNLIMITEDDEV.channel-telegram-1.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 60483bc2-ba33-46aa-bedd-20056a505aca
+  ws-opts:
+    headers:
+      Host: UNLIMITEDDEV.channel-telegram-1.ir
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+- client-fingerprint: chrome
+  name: 13|US_speednode_0096
+  network: ws
+  port: 80
+  server: 104.19.240.243
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- name: 13|US_speednode_0097
+  network: ws
+  port: 8443
+  server: 104.18.12.229
+  servername: pardazeshvpn-tg70.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ffd3906e-60c9-451e-8ed1-7114107e102c
+  ws-opts:
+    headers:
+      Host: pardazeshvpn-tg70.pages.dev
+    path: /
+- name: 13|US_speednode_0099
+  network: ws
+  port: 80
+  server: NUFiLTER.fastly80-2.hosting-ip.com
+  servername: Berim3arekar.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 651d818e-4d5c-4180-a295-1db7a8fabc71
+  ws-opts:
+    headers:
+      Host: Berim3arekar.net
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
+- client-fingerprint: chrome
+  name: 13|US_speednode_0100
+  network: ws
+  port: 80
+  server: cfip.xxxxxxxx.tk
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: randomized
+  name: 13|US_speednode_0101
+  network: ws
+  port: 443
+  server: 199.232.32.234
+  servername: behdasht.hrtc.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: behdasht.hrtc.ir
+    path: /H?ed=2560
+- name: 13|US_speednode_0102
+  network: ws
+  password: dns68
+  port: 443
+  server: 104.21.92.73
+  skip-cert-verify: true
+  sni: trojan.putata.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.putata.us.kg
+    path: /
+- client-fingerprint: random
+  name: 13|US_speednode_0103
+  network: ws
+  port: 443
+  server: Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: 30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560
+- client-fingerprint: chrome
+  name: 13|US_speednode_0104
+  network: ws
+  port: 80
+  server: www.wto.org
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: chrome
+  name: 13|US_speednode_0105
+  network: ws
+  port: 80
+  server: 199.181.197.247
+  servername: edgetunnel.2424014450.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: edgetunnel.2424014450.workers.dev
+    path: /proxyIP=proxyip.oracle.fxxk.dedyn.io
+- client-fingerprint: random
+  name: 13|US_speednode_0106
+  network: ws
+  port: 443
+  server: 104.19.34.51
+  servername: 478a9f2a-0d66-4035-a797-06e9c83c6739.3869fe04-6fcd-4ad4-a8f4-40582f4fa0c4.giize.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 113dd109-540e-4497-9d47-eed30315260f
+  ws-opts:
+    headers:
+      Host: 478a9f2a-0d66-4035-a797-06e9c83c6739.3869fe04-6fcd-4ad4-a8f4-40582f4fa0c4.giize.com
+    path: /edgetunnel.2424014450.workers.dev/?ed=2560
+- client-fingerprint: randomized
+  name: 13|US_speednode_0107
+  network: ws
+  port: 443
+  server: 199.232.0.21
+  servername: Sanjeshp.Ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Sanjeshp.Ir
+    path: /H?ed=2560
+- name: 13|US_speednode_0108
+  network: ws
+  port: 80
+  server: 104.22.52.235
+  servername: cc.ailicf.us.kg
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- name: 13|US_speednode_0109
+  network: ws
+  port: 80
+  server: 104.22.53.235
+  servername: cc.ailicf.us.kg
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- name: 13|US_speednode_0110
+  network: ws
+  port: 80
+  server: 172.67.27.46
+  servername: cc.ailicf.us.kg
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- client-fingerprint: chrome
+  name: 13|US_speednode_0112
+  network: ws
+  port: 80
+  server: 104.21.65.53
+  servername: tr1-vless.ctunnel.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 243ff879-b317-4430-894e-767a131db2ca
+  ws-opts:
+    headers:
+      Host: tr1-vless.ctunnel.xyz
+    path: /vless#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNprot-me-DarkVPNprot-me-DarkVPNprot-me-DarkVPNprot-me-DarkVPNprot-me-DarkVPNpro?ed=2048
+- name: 13|US_speednode_0114
+  network: ws
+  port: 80
+  server: 104.19.198.103
+  servername: tr1-vless.ctunnel.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 243ff879-b317-4430-894e-767a131db2ca
+  ws-opts:
+    headers:
+      Host: www.iranserver.com.127.0.0.1.востейcontrol.農達懲.wonkacapitano.buzz.
+    path: /vless
+- name: 13|VN_speednode_0115
   network: ws
   port: 587
   server: 152.32.255.24
   servername: a.mifeng.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
