@@ -1,6 +1,16 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 8,12|香港3|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: 8,12|香港5|@ripaojiedian
   network: tcp
   port: '58831'
@@ -12,16 +22,15 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|US_speednode_0069
-  password: 8cb7ad4e-2d61-3950-bb33-1d2cc3e653dd
-  port: 443
-  server: 35.92.52.160
+  name: 11,13|CN_speednode_0008
+  password: 5e2ce79c-170e-484a-8802-40584a1a3a12
+  port: 41490
+  server: 183.236.48.143
   skip-cert-verify: true
-  sni: akamai.cdn.steampipe.steamcontent.com
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
-  type: trojan
-  udp: true
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
