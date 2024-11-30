@@ -388,24 +388,8 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-1
-  password: vntxqHhPINXu5Ag6876fXO
-  port: 1080
-  server: 51.195.220.179
-  type: ss
-- cipher: aes-128-cfb
-  name: 3,13|US_speednode_0124
-  obfs: http_post
-  obfs-param: ''
-  password: +asd6a5s5df+
-  port: 443
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: nsus3.irundns.net
-  type: ssr
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-10
+  name: 3|-https://t.me/MrXbin-7
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -416,19 +400,18 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3,13|US_speednode_0149
+  name: 3|-https://t.me/MrXbin-17
   network: ws
-  port: 2087
-  server: www.parsvds.com
-  servername: OfFEr.miRAcLestorY.ToP.
-  skip-cert-verify: false
-  tls: true
+  port: 2095
+  server: 172.64.99.22
+  skip-cert-verify: true
   type: vmess
-  uuid: ad0a8c49-0785-46d9-bb14-2c3ab03a5dbb
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: OfFeR.MirAclestORy.tOP.
-    path: /
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1620,6 +1603,16 @@ proxies:
     headers:
       Host: za.ylks.xyz
     path: /%2F
+- cipher: aes-128-cfb
+  name: 13|US_speednode_0124
+  obfs: http_post
+  obfs-param: ''
+  password: +asd6a5s5df+
+  port: 443
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: nsus3.irundns.net
+  type: ssr
 - name: 13|US_speednode_0140
   network: ws
   password: NISHIKUITAN111
@@ -1680,3 +1673,18 @@ proxies:
     headers:
       Host: za.ylks.xyz
     path: /%2F
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0149
+  network: ws
+  port: 2087
+  server: www.parsvds.com
+  servername: OfFEr.miRAcLestorY.ToP.
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: ad0a8c49-0785-46d9-bb14-2c3ab03a5dbb
+  ws-opts:
+    headers:
+      Host: OfFeR.MirAclestORy.tOP.
+    path: /
