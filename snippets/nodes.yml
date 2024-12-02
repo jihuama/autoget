@@ -388,8 +388,34 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: aes-256-gcm
+  name: 3|-https://t.me/MrXbin-1
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.68.134.202
+  type: ss
+- cipher: aes-256-gcm
+  name: 3|-https://t.me/MrXbin-3
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 23.157.40.5
+  type: ss
+- cipher: aes-256-gcm
+  name: 3|-https://t.me/MrXbin-4
+  password: dongtaiwang.com
+  port: 32233
+  server: 185.22.152.125
+  type: ss
+- cipher: aes-128-cfb
+  name: 3|-https://t.me/MrXbin-14
+  obfs: http_post
+  password: +asd6a5s5df+
+  port: 443
+  protocol: auth_aes128_md5
+  server: nsus3.irundns.net
+  type: ssr
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-15
+  name: 3|-https://t.me/MrXbin-16
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -415,17 +441,18 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3,8|0|--42
+  name: 3,13|FR_speednode_0015
   network: ws
-  port: 2082
-  server: 190.93.245.174
-  tls: false
+  port: 443
+  server: irvideo.cfd
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
   ws-opts:
     headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -964,6 +991,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 8|0|--42
+  network: ws
+  port: 2082
+  server: 190.93.245.174
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 8|5|d*********g.com_0
   network: ws
   port: 8443
@@ -1222,19 +1262,19 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 11,13|CN_speednode_0006
   password: 1f962f36-f751-40c3-91b3-cb6d2360b450
-  port: 58831
-  server: 120.232.153.27
+  port: 39593
+  server: lmgj.hongxingdl.vip
   skip-cert-verify: false
   sni: mmbiz10.redapricotcloud.com
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港4|@ripaojiedian
+  name: 11,13|CN_speednode_0004
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54002
   server: h-k02.loveroise.com
@@ -1242,7 +1282,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0004
+  name: 11,13|CN_speednode_0005
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54000
   server: h-k01.loveroise.com
@@ -1250,7 +1290,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0003
+  name: 11|🇹🇼 台湾2|@ripaojiedian
   password: f0e7fd1e-0469-415f-95da-774021f16f36
   port: 40020
   server: soontw.soon.guru
@@ -1266,7 +1306,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国2|@ripaojiedian
+  name: 11,13|CN_speednode_0007
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54012
   server: k-r03.loveroise.com
@@ -1298,13 +1338,38 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|JP_speednode_0012
+  name: 13|CR_speednode_0008
   network: ws
-  port: 443
+  port: 2082
+  server: 190.93.245.80
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|GB_speednode_0016
+  network: ws
+  port: 15112
+  server: 5.39.254.196
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|JP_speednode_0020
+  network: ws
+  port: 80
   server: root.mid.al
-  servername: www.Arizona.edu
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   uuid: a983c698-cae4-4254-d047-51898ccd8ee7
   ws-opts:

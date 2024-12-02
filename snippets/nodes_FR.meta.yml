@@ -1,11 +1,14 @@
 proxies:
-- name: 13|FR_speednode_0009
+- name: 13|FR_speednode_0014
   network: ws
-  port: 22952
-  server: 94.23.121.119
+  port: 587
+  server: 193.243.147.107
+  servername: a.xn--i-sx6a60i.us.kg
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: a93dcd5e-b048-4736-b6c7-21d9dc2bb8a4
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
-    path: /
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
