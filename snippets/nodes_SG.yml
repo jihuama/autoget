@@ -21,9 +21,15 @@ proxies:
   server: 13.215.140.43
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 13|SG_speednode_0039
-  password: amazonskr05
+- name: 13|SG_speednode_0125
+  network: ws
+  password: bpb-trojan
   port: 443
-  server: 18.136.105.175
-  type: ss
+  server: 92.243.74.60
+  skip-cert-verify: true
+  sni: bpb.my79801.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bpb.my79801.com
+    path: /tr
