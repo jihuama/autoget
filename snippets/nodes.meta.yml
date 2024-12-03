@@ -388,66 +388,43 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: aes-256-cfb
+  name: 3,13|SG_speednode_0045
+  password: amazonskr05
+  port: 443
+  server: 18.143.178.37
+  type: ss
+- cipher: aes-256-cfb
+  name: 3,13|US_speednode_0049
+  password: amazonskr05
+  port: 443
+  server: 18.236.89.178
+  type: ss
+- cipher: aes-256-cfb
+  name: 3,13|US_speednode_0048
+  password: amazonskr05
+  port: 443
+  server: 34.221.162.56
+  type: ss
 - cipher: aes-256-gcm
-  name: 3|-https://t.me/MrXbin-2
+  name: 3|-https://t.me/MrXbin-5
   password: dongtaiwang.com
   port: 32233
   server: 185.22.152.125
   type: ss
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-11
+  name: 3|-https://t.me/MrXbin-14
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: rc4-md5
-  name: 3|-https://t.me/MrXbin-15
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13448
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: sjgysy.cdn.node.a.tddns-ounk.com
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3,8|0|--30
-  network: ws
-  port: 443
-  server: 38.75.137.21
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: harriscity.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3|-https://t.me/MrXbin-37
-  network: ws
-  port: 2082
-  server: 190.93.245.174
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3,8,13|FR_speednode_0015
+  name: 3,8,13|FR_speednode_0014
   network: ws
   port: 443
   server: irvideo.cfd
@@ -459,37 +436,19 @@ proxies:
     headers:
       Host: irvideo.cfd
     path: /linkws
-- alterId: 0
+- alterId: 64
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3,8|0|--32
-  network: ws
-  port: 2082
-  server: 190.93.245.103
+  client-fingerprint: chrome
+  name: 3,11,13|SE_speednode_0041
+  password: wkmY1R4EcP
+  port: 443
+  server: 65.20.115.19
+  skip-cert-verify: true
+  sni: myket.io
+  tfo: false
   tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3,13|CR_speednode_0008
-  network: ws
-  port: 2082
-  server: 190.93.245.80
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1028,6 +987,33 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
+  name: 8|0|--30
+  network: ws
+  port: 443
+  server: 38.75.137.21
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: harriscity.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 8|0|--32
+  network: ws
+  port: 2082
+  server: 190.93.245.103
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 8|5|d*********g.com_0
   network: ws
   port: 8443
@@ -1114,7 +1100,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 8,12|台湾|@ripaojiedian
+  name: 8|14|台湾|@ripaojiedian
   network: tcp
   port: '45077'
   server: xdd.dashuai.cyou
@@ -1124,14 +1110,11 @@ proxies:
   uuid: d574a472-d628-46cc-bcb7-ab85a6fe02bb
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|美国|@ripaojiedian
+  name: 8|13,14|美国|@ripaojiedian
   network: ws
   port: '2095'
   server: 104.26.0.91
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
@@ -1288,22 +1271,9 @@ proxies:
   server: hk9.ftq.ink
   tls: true
   type: http
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,13|CN_speednode_0006
-  password: 1f962f36-f751-40c3-91b3-cb6d2360b450
-  port: 39593
-  server: lmgj.hongxingdl.vip
-  skip-cert-verify: false
-  sni: mmbiz10.redapricotcloud.com
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0004
+  name: 11,13|CN_speednode_0006
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54002
   server: h-k02.loveroise.com
@@ -1311,10 +1281,18 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0005
+  name: 11,13|CN_speednode_0004
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54000
   server: h-k01.loveroise.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港9|@ripaojiedian
+  password: 6b475a32-8065-4407-b852-c9e26da30ef4
+  port: 11001
+  server: 183.240.255.75
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -1328,14 +1306,30 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇯🇵 日本2|@ripaojiedian
-  password: b3d05306-e5ae-46ca-9deb-40dc2232912b
-  port: 11001
-  server: 61.172.235.22
+  password: f0e7fd1e-0469-415f-95da-774021f16f36
+  port: 40003
+  server: soonjp.soon.guru
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0007
+  name: 11|🇯🇵 日本3|@ripaojiedian
+  password: aaf875c9-d3cf-41d2-9698-365d66fd257a
+  port: 20004
+  server: gy.666666222.shop
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54030
+  server: s-g04.loveroise.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11,13|CN_speednode_0003
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54012
   server: k-r03.loveroise.com
@@ -1365,7 +1359,13 @@ proxies:
   server: 13.215.140.43
   tfo: false
   type: ss
-- name: 13|AU_speednode_0001
+- cipher: chacha20-ietf-poly1305
+  name: 13|AM_speednode_0001
+  password: 6OAGLD+DOA6UcFp5Udf0r/UzyjwHV+yheNkoFDk6uL8=
+  port: 38753
+  server: 213.108.22.109
+  type: ss
+- name: 13|AU_speednode_0002
   network: ws
   port: 1001
   server: 82.115.20.250
@@ -1378,20 +1378,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- name: 13|BG_speednode_0002
-  network: ws
-  port: 11001
-  server: 77.77.14.46
-  servername: a.xn--i-sx6a60i.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg
-    path: /?ed=2560
-- name: 13|DE_speednode_0010
+- name: 13|DE_speednode_0008
   network: ws
   port: 587
   server: 45.159.51.42
@@ -1403,8 +1390,8 @@ proxies:
   ws-opts:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
-    path: /?ed=2560
-- name: 13|DE_speednode_0011
+    path: /
+- name: 13|DE_speednode_0009
   network: ws
   port: 2003
   server: 91.107.156.72
@@ -1417,7 +1404,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- name: 13|DE_speednode_0012
+- name: 13|DE_speednode_0010
   network: ws
   port: 7075
   server: 91.107.156.72
@@ -1430,7 +1417,20 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- name: 13|ES_speednode_0013
+- name: 13|DE_speednode_0011
+  network: ws
+  port: 7075
+  server: 5.75.200.148
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
+- name: 13|ES_speednode_0012
   network: ws
   port: 8080
   server: 94.250.246.200
@@ -1443,7 +1443,7 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|FR_speednode_0014
+- name: 13|FR_speednode_0013
   network: ws
   port: 587
   server: 193.243.147.107
@@ -1456,63 +1456,22 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|GB_speednode_0016
+- name: 13|IN_speednode_0026
   network: ws
-  port: 15112
-  server: 5.39.254.196
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-  ws-opts:
-    path: /
-- http-opts:
-    headers:
-      Host:
-      - www.bmw.com
-    method: GET
-    path:
-    - /
-  name: 13|IT_speednode_0017
-  network: http
-  port: 2052
-  server: 5.59.249.86
-  servername: www.bmw.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d244009a-9ceb-4f76-b52c-4da3e416ebe2
-- name: 13|JP_speednode_0018
-  network: ws
-  port: 587
-  server: 45.14.64.185
-  servername: a.xn--i-sx6a60i.us.kg
+  port: 8443
+  server: 129.154.254.254
+  servername: bPB-4JH.PaGes.dEv
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: a.xn--i-sx6a60i.us.kg
-    path: /?ed=2560
-- name: 13|JP_speednode_0019
-  network: ws
-  port: 587
-  server: 150.230.202.26
-  servername: a.xn--i-sx6a60i.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg
-    path: /?ed=2560
+      Host: bPB-4JH.PaGes.dEv
+    path: /2lFUyhaquvQIEloh?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|JP_speednode_0020
+  name: 13|JP_speednode_0027
   network: ws
   port: 80
   server: root.mid.al
@@ -1524,20 +1483,7 @@ proxies:
     headers:
       Host: kim.gov.kp
     path: /aries?ed=2048
-- name: 13|KR_speednode_0021
-  network: ws
-  port: 33889
-  server: 121.180.243.59
-  servername: a.xn--i-sx6a60i.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg
-    path: /?ed=2560
-- name: 13|KR_speednode_0022
+- name: 13|KR_speednode_0028
   network: ws
   port: 33889
   server: 121.176.166.69
@@ -1550,7 +1496,20 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- name: 13|KR_speednode_0023
+- name: 13|KR_speednode_0029
+  network: ws
+  port: 33889
+  server: 121.180.243.59
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
+- name: 13|KR_speednode_0030
   network: ws
   port: 11310
   server: 118.37.231.34
@@ -1563,88 +1522,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|KR_speednode_0024
-  network: ws
-  port: 50000
-  server: 168.126.205.5
-  servername: test2.ccdd.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
-  ws-opts:
-    headers:
-      Host: test2.ccdd.site
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|KR_speednode_0025
-  network: ws
-  port: 50000
-  server: 121.146.123.154
-  servername: test2.ccdd.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
-  ws-opts:
-    headers:
-      Host: test2.ccdd.site
-    path: /?ed=2560
-- name: 13|KR_speednode_0026
-  network: ws
-  port: 50000
-  server: 211.38.177.17
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /telegram🇨🇳 @wangcai2 /?ed=2048
-- name: 13|KR_speednode_0027
-  network: ws
-  port: 50000
-  server: 59.15.153.141
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /telegram🇨🇳 @wangcai2 /?ed=2048
-- client-fingerprint: chrome
-  name: 13|KR_speednode_0028
-  network: ws
-  port: 50000
-  server: 14.38.253.135
-  servername: test2.ccdd.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
-  ws-opts:
-    headers:
-      Host: test2.ccdd.site
-    path: /?ed=2560
-- name: 13|KR_speednode_0029
-  network: ws
-  port: 50000
-  server: 112.164.28.162
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /telegram🇨🇳 @wangcai2 /?ed=2048
-- name: 13|KR_speednode_0044
+- name: 13|KR_speednode_0032
   network: ws
   port: 33889
   server: 121.178.21.146
@@ -1657,241 +1535,46 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /
-- name: 13|KR_speednode_0031
-  network: ws
-  port: 50000
-  server: 211.39.65.170
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /telegram🇨🇳 @wangcai2 /?ed=2048
-- name: 13|KR_speednode_0032
-  network: ws
-  port: 50000
-  server: 14.46.199.74
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
 - name: 13|KR_speednode_0033
   network: ws
-  port: 50000
-  server: 211.218.223.130
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0034
-  network: ws
   port: 443
-  server: 59.3.3.161
-  servername: edgetunnel.xiaomayi.nyc.mn
+  server: 140.238.18.74
+  servername: BPb-4jH.PaGEs.dev
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0035
+      Host: BPb-4jH.PaGEs.dev
+    path: /aIa8EGozH9v6A091?ed=2560
+- name: 13|MD_speednode_0034
   network: ws
-  port: 50000
-  server: 211.221.20.167
-  servername: edgetunnel.xiaomayi.nyc.mn
+  port: 2501
+  server: 95.164.22.239
+  servername: a.mifeng.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0036
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 13|MD_speednode_0035
   network: ws
-  port: 50000
-  server: 222.108.252.112
-  servername: edgetunnel.xiaomayi.nyc.mn
+  port: 2003
+  server: 95.164.22.239
+  servername: a.mifeng.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0037
-  network: ws
-  port: 50000
-  server: 210.99.119.3
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0038
-  network: ws
-  port: 50000
-  server: 218.152.197.93
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0039
-  network: ws
-  port: 50000
-  server: 222.103.6.229
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0040
-  network: ws
-  port: 50000
-  server: 119.197.35.190
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0041
-  network: ws
-  port: 50000
-  server: 183.105.48.110
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0042
-  network: ws
-  port: 50000
-  server: 218.159.236.206
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0043
-  network: ws
-  port: 50000
-  server: 61.81.13.82
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0045
-  network: ws
-  port: 12480
-  server: 118.222.33.248
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0046
-  network: ws
-  port: 443
-  server: 4.230.9.53
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0047
-  network: ws
-  port: 10001
-  server: 112.165.35.70
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0048
-  network: ws
-  port: 443
-  server: 20.41.104.196
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|KR_speednode_0049
-  network: ws
-  port: 443
-  server: 52.141.25.42
-  servername: edgetunnel.xiaomayi.nyc.mn
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2b3219c-215f-4b7e-96d8-25b751d79988
-  ws-opts:
-    headers:
-      Host: edgetunnel.xiaomayi.nyc.mn
-    path: /Telegram🇨🇳 @WangCai2 /
-- name: 13|NL_speednode_0050
+      Host: a.mifeng.us.kg
+    path: /?ed=2560
+- name: 13|NL_speednode_0036
   network: ws
   port: 8000
   server: 46.17.98.54
@@ -1904,7 +1587,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- name: 13|NL_speednode_0051
+- name: 13|NL_speednode_0037
   network: ws
   port: 1001
   server: 192.210.160.163
@@ -1917,7 +1600,33 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- name: 13|SE_speednode_0052
+- name: 13|NL_speednode_0038
+  network: ws
+  port: 2501
+  server: 46.30.42.248
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
+- name: 13|NL_speednode_0039
+  network: ws
+  port: 465
+  server: 95.179.152.46
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
+- name: 13|SE_speednode_0040
   network: ws
   port: 2501
   server: 95.164.51.24
@@ -1930,7 +1639,33 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|TR_speednode_0053
+- name: 13|SE_speednode_0044
+  network: ws
+  port: 2095
+  server: 185.146.173.39
+  servername: sadasdsdsaads阿斯達十點三十分.boxiaa.shop.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 0dc3da13-f21f-4264-a77c-bf9ed1d55a6a
+  ws-opts:
+    headers:
+      Host: sadasdsdsaads阿斯達十點三十分.boxiaa.shop.
+    path: /?--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS--V2RAYNPLUS?ed=2560
+- name: 13|SE_speednode_0043
+  network: ws
+  port: 8080
+  server: 185.146.173.58
+  servername: lc85.lebasnoo.ir.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 06eb68e6-5f5f-4ef1-8b5e-cffbf6189766
+  ws-opts:
+    headers:
+      Host: lc85.lebasnoo.ir.
+    path: /servernett
+- name: 13|TR_speednode_0046
   network: ws
   port: 2501
   server: 95.164.116.22
@@ -1943,7 +1678,7 @@ proxies:
     headers:
       Host: a.mifeng.us.kg
     path: /?ed=2560
-- name: 13|TR_speednode_0054
+- name: 13|TR_speednode_0047
   network: ws
   port: 8080
   server: 213.238.167.21
@@ -1956,48 +1691,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|TW_speednode_0055
-  network: ws
-  port: 10004
-  server: 114.34.202.224
-  servername: test2.ccdd.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
-  ws-opts:
-    headers:
-      Host: test2.ccdd.site
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0056
-  network: ws
-  port: 34237
-  server: 155.248.192.204
-  servername: test2.ccdd.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6
-  ws-opts:
-    headers:
-      Host: test2.ccdd.site
-    path: /?ed=2560
-- name: 13|US_speednode_0057
-  network: ws
-  port: 443
-  server: 104.18.40.206
-  servername: a.xn--i-sx6a60i.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.xn--i-sx6a60i.us.kg
-    path: /?ed=2560
-- name: 13|US_speednode_0058
+- name: 13|US_speednode_0050
   network: ws
   port: 80
   server: 140.248.139.207
@@ -2010,10 +1704,10 @@ proxies:
     headers:
       Host: ADOLF-ELENA.IR
     path: /
-- name: 13|US_speednode_0059
+- name: 13|US_speednode_0051
   network: ws
   port: 443
-  server: 172.64.147.50
+  server: 104.26.12.31
   servername: a.xn--i-sx6a60i.us.kg
   skip-cert-verify: false
   tls: true
@@ -2023,20 +1717,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- name: 13|US_speednode_0060
-  network: ws
-  port: 443
-  server: v2ngfast-jcr.pages.dev
-  servername: v2nGfaSt-Jcr.pagEs.Dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: v2nGfaSt-Jcr.pagEs.Dev
-    path: /iGEuUkpVCbbe4l6w?ed=2560
-- name: 13|US_speednode_0061
+- name: 13|US_speednode_0052
   network: ws
   port: 7000
   server: 74.48.186.122
@@ -2049,37 +1730,72 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- alpn:
-  - h2
-  - http%2F1.1
-  name: 13|US_speednode_0062
+- name: 13|US_speednode_0053
   network: ws
   port: 443
-  server: 167.82.97.248
-  servername: backtory.com
-  skip-cert-verify: true
+  server: 104.26.13.31
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
+- name: 13|US_speednode_0054
+  network: ws
+  port: 443
+  server: 104.18.40.206
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
+- name: 13|US_speednode_0055
+  network: ws
+  port: 443
+  server: 172.67.75.172
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
+- name: 13|US_speednode_0056
+  network: ws
+  port: 443
+  server: v2ngfast-jcr.pages.dev
+  servername: v2nGfaSt-Jcr.pagEs.Dev
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: backtory.com
-    path: /
-- client-fingerprint: qq
-  name: 13|US_speednode_0063
+      Host: v2nGfaSt-Jcr.pagEs.Dev
+    path: /iGEuUkpVCbbe4l6w?ed=2560
+- name: 13|US_speednode_0057
   network: ws
   port: 443
-  server: 199.232.86.55
-  servername: www.teh.ir
-  skip-cert-verify: true
+  server: 172.64.147.50
+  servername: a.xn--i-sx6a60i.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: fa0c39fe-1c37-491b-afc8-d8538057b990
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: www.teh.ir
-    path: /VLESS?TehranArgo-TehranArgo-TehranArgo?ed=2560
-- name: 13|US_speednode_0064
+      Host: a.xn--i-sx6a60i.us.kg
+    path: /?ed=2560
+- name: 13|US_speednode_0058
   network: ws
   port: 2003
   server: 150.241.96.14
@@ -2092,78 +1808,48 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg
     path: /?ed=2560
-- alpn:
-  - h2
-  - http%2F1.1
-  name: 13|US_speednode_0065
+- client-fingerprint: qq
+  name: 13|US_speednode_0059
   network: ws
   port: 443
-  server: 167.82.97.49
-  servername: cosmocare.ir
+  server: 199.232.86.55
+  servername: www.teh.ir
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  uuid: fa0c39fe-1c37-491b-afc8-d8538057b990
   ws-opts:
     headers:
-      Host: cosmocare.ir
-    path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0066
+      Host: www.teh.ir
+    path: /VLESS?TehranArgo-TehranArgo-TehranArgo?ed=2560
+- name: 13|US_speednode_0060
   network: ws
-  port: 80
-  server: unlimiteddev.fastly80-3.hosting-ip.com
-  servername: UNLIMITEDDEV.channel-telegram-1.ir
+  port: 8080
+  server: 104.17.234.12
+  servername: join.bede.UNLIMITEDDEV.www.speedtest.net.de.Abrha.co.sabadyt.ir
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: d2b4a384-2036-4856-d7ef-7b39faa348e9
+  uuid: f1243593-db7d-47ae-8d6a-66db99b6892f
   ws-opts:
     headers:
-      Host: UNLIMITEDDEV.channel-telegram-1.ir
-    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
-- name: 13|US_speednode_0067
+      Host: join.bede.UNLIMITEDDEV.www.speedtest.net.de.Abrha.co.sabadyt.ir
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=8880
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0061
   network: ws
-  port: 80
-  server: 151.101.192.155
-  servername: testfast7.v2fast7.com
-  skip-cert-verify: false
+  port: 8080
+  server: 104.25.210.55
+  skip-cert-verify: true
   tls: false
-  type: vless
-  uuid: 6e963169-be52-461d-91df-641c4af8fb3b
+  type: vmess
+  uuid: cf7a7fe0-dea3-443d-926c-58b1b95696b2
   ws-opts:
     headers:
-      Host: testfast7.v2fast7.com
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
-- name: 13|US_speednode_0068
-  network: ws
-  port: 80
-  server: 151.101.128.155
-  servername: testfast7.v2fast7.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 6e963169-be52-461d-91df-641c4af8fb3b
-  ws-opts:
-    headers:
-      Host: testfast7.v2fast7.com
-    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
-- alpn:
-  - h2
-  - http/1.1
-  name: 13|US_speednode_0069
-  network: tcp
-  port: 443
-  server: 147135001178.sec22org.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-- name: 13|US_speednode_0070
+      Host: kloop.程式設計語言.website.
+    path: /?ed=8080
+- name: 13|US_speednode_0062
   network: ws
   port: 8080
   server: 104.17.234.128
@@ -2171,7 +1857,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: dc3837aa-704d-4732-a7ec-049bda54fe6a
+  uuid: f1243593-db7d-47ae-8d6a-66db99b6892f
   ws-opts:
     headers:
       Host: join.bede.unlimiteddev.www.speedtest.net.de.abrha.co.unlimiteddev.community.
@@ -2179,7 +1865,18 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  name: 13|US_speednode_0071
+  name: 13|US_speednode_0063
+  network: tcp
+  port: 443
+  server: 147135004002.sec20org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+- alpn:
+  - h2
+  - http/1.1
+  name: 13|US_speednode_0064
   network: tcp
   port: 443
   server: 147135011033.sec21org.com
@@ -2187,3 +1884,55 @@ proxies:
   tls: true
   type: vless
   uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+- name: 13|US_speednode_0065
+  network: tcp
+  port: 443
+  server: 147135010103.sec19org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
+- name: 13|US_speednode_0066
+  network: ws
+  port: 8080
+  server: 104.18.22.19
+  servername: Operatormci.xn--nevergiveupyeoqkfsggy.bookmarkingonline.info.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 520061ab-e8e3-4325-9272-8e3583094964
+  ws-opts:
+    headers:
+      Host: Operatormci.xn--nevergiveupyeoqkfsggy.bookmarkingonline.info.
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 13|US_speednode_0067
+  network: ws
+  port: 443
+  server: 151.101.194.133
+  servername: mio.splashthat.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b9e02ae4-b54a-4b4f-a561-ce16239f637d
+  ws-opts:
+    headers:
+      Host: api.nhl32.ir
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
+- client-fingerprint: qq
+  name: 13|US_speednode_0069
+  network: ws
+  port: 443
+  server: 199.232.79.57
+  servername: ELiV2--ELENA.COM
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 0fa9cf4a-7061-5239-9da9-f89a88b56390
+  ws-opts:
+    headers:
+      Host: ELiV2--ELENA.COM
+    path: /
