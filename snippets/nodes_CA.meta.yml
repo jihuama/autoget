@@ -1,1 +1,33 @@
-proxies: []
+proxies:
+- alpn:
+  - http%2F1.1
+  client-fingerprint: random
+  name: 13|CA_speednode_0001
+  network: ws
+  port: 443
+  server: 199.212.90.40
+  servername: 6177.aespa.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 11cf1fa6-a471-4025-8b60-ada97098eea8
+  ws-opts:
+    headers:
+      Host: 6177.aespa.dynv6.net
+    path: /?ed=2560
+- alpn:
+  - http%2F1.1
+  client-fingerprint: random
+  name: 13|CA_speednode_0002
+  network: ws
+  port: 443
+  server: 199.212.90.87
+  servername: 6177.aespa.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 11cf1fa6-a471-4025-8b60-ada97098eea8
+  ws-opts:
+    headers:
+      Host: 6177.aespa.dynv6.net
+    path: /?ed=2560
