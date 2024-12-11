@@ -1,16 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 8|14|香港3|@ripaojiedian
-  network: tcp
-  port: '50052'
-  server: 183.236.48.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 8,12|香港5|@ripaojiedian
   network: tcp
   port: '58831'
@@ -31,16 +21,27 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  name: 8,12|香港9|@ripaojiedian
+  network: tcp
+  port: '41490'
+  server: 183.236.48.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
-  name: 11,13|US_speednode_0078
-  password: ypDt8RkT7J
-  port: 43118
-  server: 89.187.181.172
+  name: 11,13|CN_speednode_0017
+  password: 6307d00e-56e0-4d0d-afe9-254155638bdf
+  port: 21154
+  server: 219.135.231.205
   skip-cert-verify: true
-  sni: egcmi.phooeyunfold.com
+  sni: vn.mjt000.com
   tfo: false
   tls: false
   type: trojan
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -79,3 +80,29 @@ proxies:
     headers:
       Host: tr.koiok.us.kg
     path: /?ed=2560
+- name: 13|HK_speednode_0024
+  network: ws
+  port: 2083
+  server: 154.211.8.84
+  servername: 123.drmIng.bUzz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: 123.drmIng.bUzz
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2048
+- name: 13|HK_speednode_0025
+  network: ws
+  port: 443
+  server: 154.211.8.155
+  servername: 123.drmIng.bUzz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: 123.drmIng.bUzz
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2048
