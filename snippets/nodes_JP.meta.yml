@@ -41,3 +41,59 @@ proxies:
   server: 43.203.255.151
   tfo: false
   type: ss
+- name: 13|JP_speednode_0007
+  network: ws
+  port: 80
+  server: pscresearch.faculty.ucdavis.edu
+  servername: harifet-manam-6.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f2004126-5865-4980-b6dd-2211dbaadf10
+  ws-opts:
+    headers:
+      Host: harifet-manam-6.com
+    path: /?ed=2560
+- name: 13|JP_speednode_0008
+  network: ws
+  port: 80
+  server: zmaoz.faculty.ucdavis.edu
+  servername: harifet-manam-9.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f2004126-5865-4980-b6dd-2211dbaadf10
+  ws-opts:
+    headers:
+      Host: harifet-manam-9.com
+    path: /?ed=2560
+- name: 13|JP_speednode_0009
+  network: ws
+  port: 80
+  server: bwdraper.faculty.ucdavis.edu
+  servername: harifet-manam-8.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f2004126-5865-4980-b6dd-2211dbaadf10
+  ws-opts:
+    headers:
+      Host: harifet-manam-8.com
+    path: /?ed=2560
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 13|JP_speednode_0010
+  network: ws
+  port: 443
+  server: live.skornorth.com
+  servername: live.skornorth.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d6252cc5-2f53-4966-ad3b-99285b891879
+  ws-opts:
+    headers:
+      Host: custom-config.ir
+    path: /@custom_config?ed=2048
