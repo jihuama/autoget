@@ -286,247 +286,157 @@ proxies:
   server: 113.99.142.152
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: 13|US_speednode_0028
+  password: amazonskr05
+  port: 443
+  server: 34.222.132.123
+  type: ss
+- cipher: aes-256-cfb
+  name: 13|US_speednode_0030
+  password: amazonskr05
+  port: 443
+  server: 52.41.180.11
+  type: ss
+- name: 13|US_speednode_0031
+  network: ws
+  port: 80
+  server: 104.24.20.150
+  servername: little-grass-d3f7az.cijof58321.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 442ac940-bbdd-4044-9b2c-e4e53cbe0055
+  ws-opts:
+    headers:
+      Host: little-grass-d3f7az.cijof58321.workers.dev
+    path: /?ed=2560
+- name: 13|US_speednode_0032
+  network: ws
+  port: 2086
+  server: 104.16.140.135
+  servername: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 31348b17-4ab2-40c0-b79e-c81032331d30
+  ws-opts:
+    headers:
+      Host: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
+    path: /tsgg0FHbT55sIEXC?ed=2560
 - grpc-opts:
-    grpc-mode: multi
+    grpc-mode: gun
     grpc-service-name: swordnewnew
-  name: 13|US_speednode_0012
+  name: 13|US_speednode_0034
   network: grpc
   port: 443
   server: cf.cishanjichang.me
-  servername: ghk.jintianpaolu.tech
+  servername: gbr.cishanjichang.me
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 89b90001-4206-4871-a99d-1744d48f215b
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0025
-  network: ws
-  port: 8880
-  server: 162.159.45.246
-  servername: m20.155857.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0013
-  network: ws
-  port: 8880
-  server: 162.159.45.238
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0014
-  network: ws
-  port: 8880
-  server: 162.159.45.219
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0015
-  network: ws
-  port: 8880
-  server: 162.159.45.208
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- client-fingerprint: random
-  name: 13|US_speednode_0016
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: 13|US_speednode_0035
   network: ws
   port: 443
-  server: 104.24.92.113
-  servername: tvmez.pages.dev
-  skip-cert-verify: true
+  server: 192.0.54.235
+  servername: mmdserver.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 968f8967-1361-41d5-9769-f6624ef58694
+  uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
   ws-opts:
     headers:
-      Host: tvmez.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0017
+      Host: mmdserver.us.kg
+    path: /?ed=2048
+- name: 13|US_speednode_0036
   network: ws
-  port: 443
-  server: 104.24.23.51
-  servername: tvmez.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 968f8967-1361-41d5-9769-f6624ef58694
-  ws-opts:
-    headers:
-      Host: tvmez.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0018
-  network: ws
-  port: 443
-  server: 103.21.244.106
-  servername: tvmez.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 968f8967-1361-41d5-9769-f6624ef58694
-  ws-opts:
-    headers:
-      Host: tvmez.pages.dev
-    path: /?ed=2560
-- name: 13|US_speednode_0019
-  network: ws
-  port: 2086
-  server: 104.21.64.1
-  servername: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
+  port: 8080
+  server: 188.114.97.3
+  servername: ShaHrAmcOnfIgWoRKERcjsA9898.CoNfIGshaHrAmcOnfIg.woRKeRs.dev
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 7320522d-56c1-4e35-9fa7-88a151d76828
+  uuid: 260c4900-69a9-465c-8c3a-272eb1b4ec00
   ws-opts:
     headers:
-      Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
-    path: /DdAtLiofda1FCcda?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0020
+      Host: ShaHrAmcOnfIgWoRKERcjsA9898.CoNfIGshaHrAmcOnfIg.woRKeRs.dev
+    path: /0URHFxBSQcqVmgqm
+- cipher: rc4-md5
+  name: 13|US_speednode_0037
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 79.110.53.169
+  type: ss
+  udp: true
+- name: 13|US_speednode_0038
   network: ws
   port: 443
-  server: 104.24.59.181
-  servername: tvmez.pages.dev
-  skip-cert-verify: true
+  server: 132.226.114.74
+  servername: rix.tgzdyz2.top
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 968f8967-1361-41d5-9769-f6624ef58694
+  uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
   ws-opts:
     headers:
-      Host: tvmez.pages.dev
+      Host: rix.tgzdyz2.top
     path: /?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0021
-  network: ws
-  port: 443
-  server: www.wto.org
-  servername: server17.aibox.tv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 4a1abb8d-812e-41d8-b398-4cba9933805d
-  ws-opts:
-    headers:
-      Host: server17.aibox.tv
-    path: /ws/
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0022
-  network: ws
-  port: 443
-  server: log.bpminecraft.com
-  servername: server17.aibox.tv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 4a1abb8d-812e-41d8-b398-4cba9933805d
-  ws-opts:
-    headers:
-      Host: server17.aibox.tv
-    path: /ws/
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0023
-  network: ws
-  port: 443
-  server: www.visa.com.hk
-  servername: server17.aibox.tv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 4a1abb8d-812e-41d8-b398-4cba9933805d
-  ws-opts:
-    headers:
-      Host: server17.aibox.tv
-    path: /ws/
-- client-fingerprint: random
-  name: 13|US_speednode_0024
-  network: ws
-  port: 443
-  server: 104.24.185.182
-  servername: tvmez.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 968f8967-1361-41d5-9769-f6624ef58694
-  ws-opts:
-    headers:
-      Host: tvmez.pages.dev
-    path: /?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0026
-  network: ws
-  port: 443
-  server: www.gco.gov.qa
-  servername: server17.aibox.tv
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 4a1abb8d-812e-41d8-b398-4cba9933805d
-  ws-opts:
-    headers:
-      Host: server17.aibox.tv
-    path: /ws/
-- name: 13|US_speednode_0027
+- name: 13|US_speednode_0039
   network: ws
   port: 80
-  server: 172.64.40.169
-  servername: worker-winter-meadow-e881.test55.workers.dev
+  server: speedtest.net
+  servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: a2056696-90fc-4e0a-b7c8-e85ce9f96d18
+  uuid: bbcc6a4f-de43-4599-b48f-42a8cf994324
   ws-opts:
     headers:
-      Host: worker-winter-meadow-e881.test55.workers.dev
-    path: /
-- name: 13|US_speednode_0028
+      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+- name: 13|US_speednode_0040
+  network: ws
+  port: 443
+  server: 129.213.136.180
+  servername: rix.tgzdyz2.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
+  ws-opts:
+    headers:
+      Host: rix.tgzdyz2.top
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: 13|US_speednode_0041
+  obfs: plain
+  obfs-param: ''
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 52.41.180.11
+  type: ssr
+- name: 13|US_speednode_0042
+  network: ws
+  port: 443
+  server: 141.148.187.195
+  servername: rix.tgzdyz2.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
+  ws-opts:
+    headers:
+      Host: rix.tgzdyz2.top
+    path: /?ed=2560
+- name: 13|US_speednode_0043
   network: ws
   port: 80
   server: 151.101.64.155
@@ -539,643 +449,42 @@ proxies:
     headers:
       Host: iranvpn.com.
     path: /?ed=1024
-- name: 13|US_speednode_0029
+- name: 13|US_speednode_0044
   network: ws
   port: 80
-  server: polproxy.fastly80.hosting-ip.com
-  servername: moienam.com
+  server: 151.101.130.133
+  servername: fatmelo.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 7f1dd75a-c845-405f-a6c0-12d10edea16b
+  uuid: 82fc176f-7cc7-40a1-e1ec-af2298e23eab
   ws-opts:
     headers:
-      Host: moienam.com
-    path: /telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram?ed=2048
-- name: 13|US_speednode_0035
+      Host: fatmelo.com
+    path: /olem/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn-d=2048
+- name: 13|US_speednode_0045
+  network: ws
+  port: 2053
+  server: 205.233.181.36
+  servername: rix.tgzdyz2.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
+  ws-opts:
+    headers:
+      Host: rix.tgzdyz2.top
+    path: /
+- name: 13|US_speednode_0047
   network: ws
   port: 80
-  server: speedtest.net
-  servername: XpnTeam.ir
+  server: ISVvpn.fastly80-2.hosting-ip.com
+  servername: 5774.ir
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 4de0d632-c6c5-4284-ad93-7024fce7fd4c
+  uuid: d74acf2c-2148-4343-891c-627c4b5d690b
   ws-opts:
     headers:
-      Host: XpnTeam.ir
-    path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
-- name: 13|US_speednode_0031
-  network: ws
-  port: 80
-  server: 151.101.2.165
-  servername: XpnTeam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 4de0d632-c6c5-4284-ad93-7024fce7fd4c
-  ws-opts:
-    headers:
-      Host: XpnTeam.ir
-    path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
-- name: 13|US_speednode_0032
-  network: ws
-  port: 443
-  server: 151.101.2.133
-  servername: live.wkrq.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7f1dd75a-c845-405f-a6c0-12d10edea16b
-  ws-opts:
-    headers:
-      Host: moienam.com
-    path: /telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram?ed=2048
-- client-fingerprint: random
-  name: 13|US_speednode_0034
-  network: ws
-  port: 443
-  server: 172.64.144.132
-  servername: tvmez.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 968f8967-1361-41d5-9769-f6624ef58694
-  ws-opts:
-    headers:
-      Host: tvmez.pages.dev
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0037
-  network: ws
-  port: 8880
-  server: 104.21.238.44
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0038
-  network: ws
-  port: 8880
-  server: 162.159.45.141
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0039
-  network: ws
-  port: 8880
-  server: 104.18.114.219
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0040
-  network: ws
-  port: 2086
-  server: 104.21.238.195
-  servername: e1.285581.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e1.285581.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0041
-  network: ws
-  port: 8880
-  server: 104.21.238.203
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0042
-  network: ws
-  port: 8880
-  server: 104.18.114.200
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0043
-  network: ws
-  port: 8880
-  server: 104.18.114.88
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0044
-  network: ws
-  port: 8880
-  server: 104.18.114.31
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0045
-  network: ws
-  port: 8880
-  server: 104.18.114.143
-  servername: m1.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m1.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0046
-  network: ws
-  port: 8880
-  server: 104.21.238.27
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0047
-  network: ws
-  port: 8880
-  server: 104.18.114.242
-  servername: m1.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m1.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0048
-  network: ws
-  port: 8880
-  server: 104.21.238.128
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0049
-  network: ws
-  port: 8880
-  server: 104.21.238.113
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0050
-  network: ws
-  port: 443
-  server: 151.101.194.133
-  servername: mio.splashthat.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: da2a8660-bf54-41d2-aeeb-b7ea85fbdf60
-  ws-opts:
-    headers:
-      Host: Hajmoji216.net
-    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0051
-  network: ws
-  port: 8880
-  server: 104.21.238.193
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0052
-  network: ws
-  port: 8880
-  server: 104.18.114.178
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0053
-  network: ws
-  port: 2086
-  server: 104.18.114.14
-  servername: e1.285581.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e1.285581.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0054
-  network: ws
-  port: 8880
-  server: 162.159.45.100
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0055
-  network: ws
-  port: 8880
-  server: 104.21.238.236
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0056
-  network: ws
-  port: 2086
-  server: 104.21.238.46
-  servername: e1.285581.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e1.285581.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0057
-  network: ws
-  port: 8880
-  server: 104.18.114.147
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0058
-  network: ws
-  port: 8880
-  server: 104.18.114.42
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0059
-  network: ws
-  port: 8880
-  server: 104.21.238.97
-  servername: m1.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m1.155857.xyz
-    path: /github.com/Alvin9999
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0060
-  network: ws
-  port: 443
-  server: b-corsairs.com
-  servername: zmaoz.faculty.ucdavis.edu.
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29e0206a-2cef-4c8d-aa4b-dd7a43748167
-  ws-opts:
-    headers:
-      Host: fonmelo.com
-    path: /olem/ws?e@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn-d=4096
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0061
-  network: ws
-  port: 8880
-  server: 104.26.0.124
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0062
-  network: ws
-  port: 8880
-  server: 104.18.114.3
-  servername: m1.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m1.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0063
-  network: ws
-  port: 8880
-  server: 104.18.114.97
-  servername: m1.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m1.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0064
-  network: ws
-  port: 2086
-  server: 104.18.114.119
-  servername: e1.285581.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e1.285581.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0065
-  network: ws
-  port: 8880
-  server: 104.26.0.149
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0066
-  network: ws
-  port: 2086
-  server: 104.26.0.5
-  servername: e1.285581.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e1.285581.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0067
-  network: ws
-  port: 8880
-  server: 104.26.0.133
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0068
-  network: ws
-  port: 8880
-  server: 104.26.0.3
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0069
-  network: ws
-  port: 8880
-  server: 104.21.238.10
-  servername: m20.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m20.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0070
-  network: ws
-  port: 8880
-  server: 104.26.0.118
-  servername: m1.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m1.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0071
-  network: ws
-  port: 2086
-  server: 104.26.0.98
-  servername: e1.285581.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e1.285581.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0072
-  network: ws
-  port: 8880
-  server: 104.26.0.12
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0073
-  network: ws
-  port: 8880
-  server: 104.26.0.40
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0074
-  network: ws
-  port: 8880
-  server: 104.26.0.103
-  servername: m8.155857.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m8.155857.xyz
-    path: /github.com/Alvin9999
+      Host: 5774.ir
+    path: /VLESS?ed=80
