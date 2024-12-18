@@ -392,38 +392,37 @@ proxies:
   name: 3|-https://t.me/MrXbin-2
   password: amazonskr05
   port: 443
-  server: 52.79.248.193
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-3
-  password: amazonskr05
-  port: 443
-  server: 43.203.141.93
-  type: ss
-- cipher: aes-256-cfb
-  name: 3,13|US_speednode_0018
-  password: amazonskr05
-  port: 443
-  server: 44.243.243.198
-  type: ss
-- cipher: aes-256-cfb
-  name: 3,13|KR_speednode_0006
-  password: amazonskr05
-  port: 443
   server: 43.203.198.1
   type: ss
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-6
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
-  server: 217.30.10.18
+  name: 3,13|KR_speednode_0026
+  password: amazonskr05
+  port: 443
+  server: 52.79.52.119
   type: ss
-  udp: true
+- cipher: aes-256-cfb
+  name: 3,13|US_speednode_0038
+  password: amazonskr05
+  port: 443
+  server: 34.215.192.217
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|-https://t.me/MrXbin-5
+  password: amazonskr05
+  port: 443
+  server: 54.218.229.170
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|-https://t.me/MrXbin-6
+  password: amazonskr05
+  port: 443
+  server: 43.203.243.93
+  type: ss
 - cipher: aes-256-cfb
   name: 3|-https://t.me/MrXbin-7
   password: amazonskr05
   port: 443
-  server: 35.94.51.2
+  server: 34.222.132.123
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -433,8 +432,15 @@ proxies:
   server: 43.203.122.162
   tfo: false
   type: ss
-- cipher: chacha20-ietf
+- cipher: aes-256-cfb
   name: 3|-https://t.me/MrXbin-9
+  password: QWDDvVE9npNurQfA
+  port: 9026
+  server: 217.30.10.18
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 3|-https://t.me/MrXbin-10
   password: asd123456
   port: 8388
   server: 103.36.91.32
@@ -443,64 +449,42 @@ proxies:
   name: 3|-https://t.me/MrXbin-12
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13262
+  port: 13630
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  server: bb29cs.cdn.node.a.tddns-ounk.com
   type: ssr
 - cipher: rc4-md5
   name: 3|-https://t.me/MrXbin-13
   obfs: tls1.2_ticket_auth
   password: Cskw6d
-  port: 13233
+  port: 13628
   protocol: auth_aes128_md5
   protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
+  server: bb29cs.cdn.node.a.tddns-ounk.com
   type: ssr
-- cipher: aes-128-cfb
+- cipher: rc4-md5
   name: 3|-https://t.me/MrXbin-14
-  obfs: http_post
-  password: +asd6a5s5df+
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13634
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: bb29cs.cdn.node.a.tddns-ounk.com
+  type: ssr
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|US_speednode_0045
+  password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
   port: 443
-  protocol: auth_aes128_md5
-  server: nsus3.irundns.net
-  type: ssr
-- cipher: rc4-md5
-  name: 3|-https://t.me/MrXbin-16
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13227
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 3|-https://t.me/MrXbin-22
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13020
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: xrbsy1.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 3|-https://t.me/MrXbin-25
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13186
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
-  type: ssr
-- cipher: rc4-md5
-  name: 3|-https://t.me/MrXbin-26
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13185
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: z5is.cdn.node.a.tddns-ounk.com
-  type: ssr
+  server: 167.234.221.194
+  skip-cert-verify: true
+  sni: us01.ssr.ee
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1259,19 +1243,6 @@ proxies:
   server: hk9.ftq.ink
   tls: true
   type: http
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,13|CN_speednode_0002
-  password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
-  port: 40002
-  server: 183.236.48.163
-  skip-cert-verify: false
-  sni: vn.mjt000.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港6|@ripaojiedian
@@ -1343,7 +1314,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 13|DE_speednode_0003
+  name: 13|DE_speednode_0002
   network: http
   port: 19984
   server: 188.245.215.46
@@ -1352,464 +1323,435 @@ proxies:
   tls: false
   type: vless
   uuid: 13e15bfe-73f7-4bfe-a386-136451137fc3
-- alterId: 0
-  cipher: auto
-  name: 13|DE_speednode_0004
+- name: 13|DE_speednode_0003
   network: ws
   port: 443
-  server: 57.129.24.125
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
-- client-fingerprint: randomized
-  name: 13|JP_speednode_0005
-  network: ws
-  port: 443
-  server: zmaoz.faculty.ucdavis.edu
-  servername: zmaoz.faculty.ucdavis.edu
+  server: 138.2.177.36
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 64c84156-8507-4d9f-8b4a-6c5f028e6264
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|DE_speednode_0004
+  network: ws
+  port: 443
+  server: 130.162.227.253
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|DE_speednode_0005
+  network: ws
+  port: 443
+  server: 132.226.203.64
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|DE_speednode_0006
+  network: ws
+  port: 443
+  server: 141.144.244.120
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|DE_speednode_0007
+  network: ws
+  port: 443
+  server: 152.70.191.244
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|DE_speednode_0008
+  network: ws
+  port: 443
+  server: 141.147.24.245
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|DE_speednode_0009
+  network: ws
+  port: 443
+  server: 141.147.44.103
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|DE_speednode_0010
+  network: ws
+  port: 443
+  server: 144.24.188.182
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|GB_speednode_0011
+  network: ws
+  port: 443
+  server: 130.162.173.192
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|GB_speednode_0012
+  network: ws
+  port: 443
+  server: 141.147.64.9
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|GB_speednode_0013
+  network: ws
+  port: 443
+  server: 193.123.177.190
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|GB_speednode_0014
+  network: ws
+  port: 443
+  server: 143.47.245.187
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|GB_speednode_0015
+  network: ws
+  port: 443
+  server: 152.67.154.76
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|GB_speednode_0016
+  network: ws
+  port: 443
+  server: 150.230.123.141
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|GB_speednode_0017
+  network: ws
+  port: 443
+  server: 132.145.12.124
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|JP_speednode_0019
+  network: ws
+  port: 443
+  server: 150.230.216.127
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|JP_speednode_0020
+  network: ws
+  port: 443
+  server: 64.110.104.30
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|JP_speednode_0021
+  network: ws
+  port: 443
+  server: 158.101.141.78
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|KR_speednode_0022
+  network: ws
+  port: 443
+  server: 158.180.89.73
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|KR_speednode_0023
+  network: ws
+  port: 443
+  server: 144.24.73.232
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|KR_speednode_0024
+  network: ws
+  port: 443
+  server: 129.154.59.99
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|KR_speednode_0025
+  network: ws
+  port: 443
+  server: 150.230.252.18
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
 - cipher: aes-256-cfb
-  name: 13|KR_speednode_0007
+  name: 13|KR_speednode_0027
   password: amazonskr05
   port: 443
-  server: 43.203.243.93
+  server: 43.202.65.32
   type: ss
-- name: 13|KZ_speednode_0008
+- name: 13|NL_speednode_0028
   network: ws
-  password: tg-fq521free
   port: 443
-  server: 194.76.18.129
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 13|NL_speednode_0009
-  password: VpKABcOpNNA0l5G2AVOmw8
-  port: 62685
-  server: 213.109.147.242
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|PL_speednode_0010
-  password: M3t2ZEQcMGRWBjRa
-  port: 9011
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|PL_speednode_0011
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|PL_speednode_0012
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|PL_speednode_0013
-  password: wfLC2y7rzZyCmuyt
-  port: 9093
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|PL_speednode_0014
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|PL_speednode_0015
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 217.30.10.18
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|PL_speednode_0016
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  server: 217.30.10.18
-  type: ss
-- name: 13|RU_speednode_0017
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 45.67.215.95
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 13|US_speednode_0019
-  network: ws
-  port: 8080
-  server: 172.67.163.189
-  servername: stArt.siTEG52770.WorKeRS.deV
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: dc580147-c87c-4527-bf90-192eb1cf62d1
-  ws-opts:
-    headers:
-      Host: stArt.siTEG52770.WorKeRS.deV
-    path: /V7zmCPZUuL2T1r5r/MC4wLjAuMA==?ed=2560
-- grpc-opts:
-    grpc-mode: multi
-    grpc-service-name: swordnewnew
-  name: 13|US_speednode_0020
-  network: grpc
-  port: 443
-  server: ghk.cishanjichang.me
-  servername: ghk.cishanjichang.me
+  server: 158.101.202.178
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 89b90001-4206-4871-a99d-1744d48f215b
-- grpc-opts:
-    grpc-mode: multi
-    grpc-service-name: swordnewnew
-  name: 13|US_speednode_0021
-  network: grpc
-  port: 443
-  server: gbr.cishanjichang.me
-  servername: gbr.cishanjichang.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 89b90001-4206-4871-a99d-1744d48f215b
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: swordnewnew
-  name: 13|US_speednode_0022
-  network: grpc
-  port: 443
-  server: cf.cishanjichang.me
-  servername: gbr.cishanjichang.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 89b90001-4206-4871-a99d-1744d48f215b
-- client-fingerprint: random
-  name: 13|US_speednode_0047
-  network: ws
-  port: 2083
-  server: 172.67.75.52
-  servername: 3-fs4f6s46.huangyurong.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
-    path: /?ed=2560fp=random
-- client-fingerprint: random
-  name: 13|US_speednode_0024
-  network: ws
-  port: 2087
-  server: 104.26.4.57
-  servername: 3-fs4f6s46.huangyurong.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
+      Host: vdb.bgm2024.us.kg
     path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0025
+- alpn:
+  - http/1.1
+  name: 13|NL_speednode_0029
   network: ws
-  port: 2087
-  server: 172.67.71.122
-  servername: 3-fs4f6s46.huangyurong.cfd
+  port: 443
+  server: 158.101.209.76
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
+      Host: vdb.bgm2024.us.kg
     path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0051
+- name: 13|NL_speednode_0030
   network: ws
-  port: 2083
-  server: 104.26.4.157
-  servername: 3-fs4f6s46.huangyurong.cfd
+  port: 443
+  server: 141.144.203.197
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
-    path: /
-- client-fingerprint: random
-  name: 13|US_speednode_0027
-  network: ws
-  port: 2083
-  server: 104.26.5.157
-  servername: 3-fs4f6s46.huangyurong.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
+      Host: vdb.bgm2024.us.kg
     path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0028
+- name: 13|NL_speednode_0031
   network: ws
-  port: 8443
-  server: 104.26.13.140
-  servername: 3-fs4f6s46.huangyurong.cfd
+  port: 443
+  server: 143.47.179.130
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
+      Host: vdb.bgm2024.us.kg
     path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0029
+- name: 13|NL_speednode_0032
   network: ws
-  port: 8443
-  server: 172.67.75.194
-  servername: 3-fs4f6s46.huangyurong.cfd
+  port: 443
+  server: 141.148.227.53
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
+      Host: vdb.bgm2024.us.kg
     path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0030
+- name: 13|NL_speednode_0033
   network: ws
-  port: 2087
-  server: 104.26.5.57
-  servername: 3-fs4f6s46.huangyurong.cfd
+  port: 443
+  server: 158.101.215.156
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
+      Host: vdb.bgm2024.us.kg
     path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0031
+- name: 13|NL_speednode_0034
   network: ws
-  port: 8443
-  server: 104.26.12.140
-  servername: 3-fs4f6s46.huangyurong.cfd
+  port: 443
+  server: 158.101.205.99
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
+      Host: vdb.bgm2024.us.kg
     path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0054
-  network: ws
-  port: 8443
-  server: 172.64.146.66
-  servername: 3-fs4f6s46.huangyurong.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
-    path: /
-- client-fingerprint: chrome
-  name: 13|US_speednode_0060
-  network: ws
-  port: 8443
-  server: 104.18.41.190
-  servername: 3-fs4f6s46.huangyurong.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
-    path: /?ed=2560fp=random
-- client-fingerprint: qq
-  name: 13|US_speednode_0034
+- name: 13|NL_speednode_0035
   network: ws
   port: 443
-  server: 199.232.125.44
-  servername: ELiV2--ELENA.COM
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 8f6f8193-0f0b-5933-9346-718542befff9
-  ws-opts:
-    headers:
-      Host: ELiV2--ELENA.COM
-    path: /
-- name: 13|US_speednode_0035
-  network: ws
-  port: 80
-  server: 151.101.64.155
-  servername: iranvpn.com.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 64ccb313-d2bd-4b44-a6fd-522a14c819fd
-  ws-opts:
-    headers:
-      Host: iranvpn.com.
-    path: /?ed=1024
-- client-fingerprint: qq
-  name: 13|US_speednode_0036
-  network: ws
-  port: 443
-  server: 199.232.125.43
-  servername: ELI-V2-RAY.COM
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ec1540bf-39b1-5901-bc00-4aa9c81e27af
-  ws-opts:
-    headers:
-      Host: ELI-V2-RAY.COM
-    path: /
-- client-fingerprint: random
-  name: 13|US_speednode_0037
-  network: ws
-  port: 2087
-  server: 104.16.148.244
-  servername: 3-fs4f6s46.huangyurong.cfd
+  server: 158.101.219.121
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
+      Host: vdb.bgm2024.us.kg
     path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 13|US_speednode_0038
-  password: amazonskr05
-  port: 443
-  server: 54.70.176.73
-  type: ss
-- client-fingerprint: qq
-  name: 13|US_speednode_0039
+- alpn:
+  - http/1.1
+  name: 13|NL_speednode_0036
   network: ws
   port: 443
-  server: 199.232.125.50
-  servername: ELI-V2-RAY.COM
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: e9f6766e-b137-5a7d-97d7-373ef67e46b2
-  ws-opts:
-    headers:
-      Host: ELI-V2-RAY.COM
-    path: /
-- cipher: aes-256-cfb
-  name: 13|US_speednode_0040
-  obfs: plain
-  obfs-param: ''
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 44.243.243.198
-  type: ssr
-- cipher: aes-256-cfb
-  name: 13|US_speednode_0041
-  obfs: plain
-  obfs-param: ''
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 35.94.51.2
-  type: ssr
-- cipher: rc4-md5
-  name: 13|US_speednode_0042
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 79.110.53.169
-  type: ss
-- grpc-opts:
-    grpc-mode: multi
-    grpc-service-name: swordnewnew
-  name: 13|US_speednode_0044
-  network: grpc
-  port: 443
-  server: gro.cishanjichang.me
-  servername: gro.cishanjichang.me
+  server: 152.70.49.115
+  servername: vdb.bgm2024.us.kg
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 89b90001-4206-4871-a99d-1744d48f215b
-- cipher: aes-256-cfb
-  name: 13|US_speednode_0045
-  password: amazonskr05
-  port: 443
-  server: 34.222.136.128
-  type: ss
-- client-fingerprint: random
-  name: 13|US_speednode_0046
-  network: ws
-  port: 2087
-  server: 104.16.149.244
-  servername: 3-fs4f6s46.huangyurong.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: 3-fs4f6s46.huangyurong.cfd
+      Host: vdb.bgm2024.us.kg
     path: /?ed=2560
-- name: 13|US_speednode_0048
+- alpn:
+  - http/1.1
+  name: 13|SE_speednode_0037
   network: ws
-  password: tg-fq521free
   port: 443
-  server: 216.24.57.30
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
+  server: 129.151.204.91
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 13|US_speednode_0049
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- name: 13|US_speednode_0039
   network: ws
   port: 80
   server: speedtest.net
@@ -1822,123 +1764,76 @@ proxies:
     headers:
       Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
     path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
-- name: 13|US_speednode_0050
+- name: 13|US_speednode_0041
   network: ws
   port: 80
-  server: 151.101.3.8
-  servername: www.x-ui.com
+  server: 151.101.194.133
+  servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 5e32df7f-dbf7-5bb8-8a37-c189e11365e6
+  uuid: 64c84156-8507-4d9f-8b4a-6c5f028e6264
   ws-opts:
     headers:
-      Host: www.x-ui.com
-    path: /vless?ed=1048
+      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
 - alpn:
-  - h2
   - http/1.1
-  name: 13|US_speednode_0052
-  network: tcp
-  port: 443
-  server: 147135001178.sec22org.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-- name: 13|US_speednode_0053
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 198.62.62.67
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  name: 13|US_speednode_0055
-  network: tcp
-  port: 443
-  server: 135.148.177.196
-  servername: 147135001178.sec22org.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-- alpn:
-  - h2
-  - http/1.1
-  name: 13|US_speednode_0056
-  network: tcp
-  port: 443
-  server: 147135004002.sec20org.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- name: 13|US_speednode_0057
-  network: tcp
-  port: 443
-  server: 15.204.153.78
-  servername: 147135010103.sec19org.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
-- alpn:
-  - h2
-  - http/1.1
-  name: 13|US_speednode_0058
-  network: tcp
-  port: 443
-  server: 147135001195.sec22org.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- alpn:
-  - h2
-  - http/1.1
-  name: 13|US_speednode_0059
-  network: tcp
-  port: 443
-  server: 147.135.1.195
-  servername: 147135001195.sec22org.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- alpn:
-  - h2
-  - http/1.1
-  name: 13|US_speednode_0061
-  network: tcp
-  port: 443
-  server: 147.135.4.2
-  servername: 147135004002.sec20org.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|US_speednode_0062
+  name: 13|US_speednode_0042
   network: ws
   port: 443
-  server: 172.67.160.44
-  servername: de.bolagskontaktstockholm.se
-  skip-cert-verify: true
+  server: 160.79.105.205
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
   ws-opts:
     headers:
-      Host: de.bolagskontaktstockholm.se
-    path: /ws
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  name: 13|US_speednode_0043
+  network: ws
+  port: 443
+  server: 132.226.114.74
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  name: 13|US_speednode_0044
+  network: ws
+  port: 443
+  server: 129.153.223.37
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  name: 13|US_speednode_0046
+  network: ws
+  port: 443
+  server: 160.79.105.247
+  servername: vdb.bgm2024.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 531bf100-1477-487c-a979-6adebf8f105f
+  ws-opts:
+    headers:
+      Host: vdb.bgm2024.us.kg
+    path: /?ed=2560
