@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 8|14|香港3|@ripaojiedian
-  network: tcp
-  port: '39042'
-  server: hk1.tiljkc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e4e8fd5-5ffa-336c-83a8-d4f1fcf64d46
 - alterId: 64
   cipher: auto
   name: 8,12|香港4|@ripaojiedian
@@ -21,10 +11,30 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 8|14|香港5|@ripaojiedian
+  client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - api.teborder.com
+    method: GET
+    path:
+    - /game
+  name: 8,11,12|香港5|@ripaojiedian
+  network: http
+  port: '41002'
+  server: hk1.tiljkc.top
+  servername: api.teborder.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 869760fe-7f4f-320c-b223-697f8e870088
+- alterId: 0
+  cipher: auto
+  name: 8,12|香港6|@ripaojiedian
   network: tcp
-  port: '29011'
-  server: ccc-v3-11.rabbitpro-in-1.com
+  port: '29014'
+  server: ccc-v3-14.rabbitpro-in-1.com
   servername: ''
   tls: false
   type: vmess
@@ -41,17 +51,27 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  name: 8,12|香港8|@ripaojiedian
+  network: tcp
+  port: '41020'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 11,13|HK_speednode_0010
-  password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb
-  port: 40091
-  server: 18.166.212.182
+  name: 11,13|CN_speednode_0014
+  password: d4f89111885.wns.windows.com
+  port: 1576
+  server: 123.125.94.170
   skip-cert-verify: true
-  sni: hk12.bilibili.com
+  sni: egsource1.mzsourcenode.info
   tfo: false
   tls: false
   type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 869760fe-7f4f-320c-b223-697f8e870088
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港3|@ripaojiedian
@@ -60,43 +80,3 @@ proxies:
   server: 219.135.227.209
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - api.teborder.com
-    method: GET
-    path:
-    - /game
-  name: 11,12|香港5|@ripaojiedian
-  network: http
-  port: '41002'
-  server: hk1.tiljkc.top
-  servername: api.teborder.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 869760fe-7f4f-320c-b223-697f8e870088
-- alterId: 0
-  cipher: auto
-  name: 12|香港6|@ripaojiedian
-  network: tcp
-  port: '29014'
-  server: ccc-v3-14.rabbitpro-in-1.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4aaca0a5-7d55-3358-81ec-25b5e371ed90
-- alterId: 64
-  cipher: auto
-  name: 12|香港8|@ripaojiedian
-  network: tcp
-  port: '41020'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

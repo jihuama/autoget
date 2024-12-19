@@ -265,19 +265,13 @@ proxies:
   server: 31.59.111.4
   tfo: false
   type: ss
-- name: 13|US_speednode_0025
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
-  skip-cert-verify: true
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 13|US_speednode_0026
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0031
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.114.114.77
+  type: ss
+- name: 13|US_speednode_0034
   network: ws
   password: tg-fq521free
   port: 443
@@ -289,3 +283,32 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0044
+  network: ws
+  port: 8880
+  server: upos-sz-mirrorcf1ov.bilivideo.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d26c85e9-3afc-4c79-bb3f-930848fe82f3
+  ws-opts:
+    headers:
+      Host: argo9.zjccc.nyc.mn
+    path: /d26c85e9-3afc-4c79-bb3f-930848fe82f3-vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0045
+  network: ws
+  port: 8443
+  server: upos-sz-mirrorcf1ov.bilivideo.com
+  servername: argo9.zjccc.nyc.mn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d26c85e9-3afc-4c79-bb3f-930848fe82f3
+  ws-opts:
+    headers:
+      Host: argo9.zjccc.nyc.mn
+    path: /d26c85e9-3afc-4c79-bb3f-930848fe82f3-vm?ed=2048
