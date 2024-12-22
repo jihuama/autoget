@@ -272,8 +272,27 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- name: 13|US_speednode_0022
+  network: ws
+  port: 443
+  server: 104.24.139.27
+  servername: lhxt.xiaomi.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+  ws-opts:
+    headers:
+      Host: lhxt.xiaomi.win
+    path: /?ed=2560
 - cipher: aes-128-cfb
-  name: 13|US_speednode_0011
+  name: 13|US_speednode_0023
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- cipher: aes-128-cfb
+  name: 13|US_speednode_0024
   obfs: plain
   obfs-param: ''
   password: shadowsocks
@@ -282,73 +301,8 @@ proxies:
   protocol-param: ''
   server: 184.170.241.194
   type: ssr
-- name: 13|US_speednode_0013
-  network: ws
-  port: 8080
-  server: 172.67.163.189
-  servername: stArt.siTEG52770.WorKeRS.deV
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: dc580147-c87c-4527-bf90-192eb1cf62d1
-  ws-opts:
-    headers:
-      Host: stArt.siTEG52770.WorKeRS.deV
-    path: /V7zmCPZUuL2T1r5r/MC4wLjAuMA==?ed=2560
-- name: 13|US_speednode_0014
-  network: ws
-  port: 2086
-  server: 104.21.64.1
-  servername: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7320522d-56c1-4e35-9fa7-88a151d76828
-  ws-opts:
-    headers:
-      Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
-    path: /DdAtLiofda1FCcda?ed=2560
-- name: 13|US_speednode_0016
-  network: ws
-  port: 80
-  server: 104.16.178.96
-  servername: sweet-glade-2430-ppal03.xasev15708.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b8a0fe1a-fbea-4572-a878-20b7f7c98636
-  ws-opts:
-    headers:
-      Host: sweet-glade-2430-ppal03.xasev15708.workers.dev
-    path: /?ed=2560
-- name: 13|US_speednode_0017
-  network: ws
-  port: 80
-  server: 188.114.97.1
-  servername: biTter-DArkNEsS-3199.wAKoCi1200.WorkERS.dEv
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 90b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: biTter-DArkNEsS-3199.wAKoCi1200.WorkERS.dEv
-    path: /09EpH4tzdpaF2F6Q?ed=2560
-- name: 13|US_speednode_0018
-  network: ws
-  port: 80
-  server: 104.16.46.27
-  servername: cold-snowflake-4912-ppal03.rarenok889.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 98f9fb8e-ac0c-4a54-80ff-dcce095d9fbd
-  ws-opts:
-    headers:
-      Host: cold-snowflake-4912-ppal03.rarenok889.workers.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|US_speednode_0027
+- client-fingerprint: random
+  name: 13|US_speednode_0025
   network: ws
   port: 443
   server: 172.64.160.120
@@ -356,14 +310,47 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
   ws-opts:
     headers:
       Host: lhxt.xiaomi.win
-    path: /?ed=2560fp=random
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0027
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.75.136.21
+  type: ss
+- client-fingerprint: random
+  name: 13|US_speednode_0028
+  network: ws
+  port: 443
+  server: 104.24.186.216
+  servername: lhxt.xiaomi.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+  ws-opts:
+    headers:
+      Host: lhxt.xiaomi.win
+    path: /?ed=2560
 - client-fingerprint: random
   name: 13|US_speednode_0029
+  network: ws
+  port: 443
+  server: 104.24.136.104
+  servername: lhxt.xiaomi.win
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
+  ws-opts:
+    headers:
+      Host: lhxt.xiaomi.win
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 13|US_speednode_0034
   network: ws
   port: 443
   server: 104.24.49.64
@@ -371,41 +358,13 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
   ws-opts:
     headers:
       Host: lhxt.xiaomi.win
-    path: /?ed=2560fp=random
-- name: 13|US_speednode_0021
-  network: ws
-  port: 443
-  server: 199.232.125.43
-  servername: ELI-V2-RAY.COM
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ec1540bf-39b1-5901-bc00-4aa9c81e27af
-  ws-opts:
-    headers:
-      Host: ELI-V2-RAY.COM
     path: /
-- client-fingerprint: chrome
-  name: 13|US_speednode_0041
-  network: ws
-  port: 443
-  server: 104.16.250.188
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560fp=random
 - client-fingerprint: random
-  name: 13|US_speednode_0037
+  name: 13|US_speednode_0031
   network: ws
   port: 443
   server: 188.114.97.158
@@ -413,116 +372,28 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /
-- client-fingerprint: random
-  name: 13|US_speednode_0043
-  network: ws
-  port: 443
-  server: 104.16.123.68
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560fp=random
-- name: 13|US_speednode_0025
-  network: ws
-  port: 8880
-  server: 172.67.195.126
-  servername: falcunargo-telegram.384f2ed785.workers.Dev
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 44ab0683-1a75-4859-88ce-ef9ffea53c91
-  ws-opts:
-    headers:
-      Host: falcunargo-telegram.384f2ed785.workers.Dev
-    path: /
-- client-fingerprint: random
-  name: 13|US_speednode_0044
-  network: ws
-  port: 443
-  server: 188.114.96.128
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560fp=random
-- client-fingerprint: chrome
-  name: 13|US_speednode_0048
-  network: ws
-  port: 443
-  server: 104.16.59.58
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
-  ws-opts:
-    headers:
-      Host: lhxt.xiaomi.win
-    path: /?ed=2560fp=random
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0031
-  network: ws
-  port: 443
-  server: us16.998998.best
-  servername: server9.998877.best
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
-  ws-opts:
-    headers:
-      Host: server9.998877.best
-    path: /drtyhiknu/kf/sgi
-- name: 13|US_speednode_0032
-  network: ws
-  port: 80
-  server: speedtest.net
-  servername: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1ad59ede-fb5b-470a-a1b9-4867e2560576
-  ws-opts:
-    headers:
-      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
-- client-fingerprint: random
-  name: 13|US_speednode_0033
-  network: ws
-  port: 443
-  server: 104.16.60.155
-  servername: lhxt.xiaomi.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
   uuid: 31f81de4-c0c3-4aa0-9b1d-dea8906a2ed1
   ws-opts:
     headers:
       Host: lhxt.xiaomi.win
     path: /?ed=2560
-- name: 13|US_speednode_0034
+- name: 13|US_speednode_0032
   network: ws
   port: 8443
-  server: us6.998998.best
+  server: 104.18.38.147
+  servername: server39.998877.best
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
+  ws-opts:
+    headers:
+      Host: server39.998877.best
+    path: /drtgoiuy/fd?ed=2560
+- name: 13|US_speednode_0033
+  network: ws
+  port: 8443
+  server: 172.64.149.109
   servername: server39.998877.best
   skip-cert-verify: false
   tls: true
@@ -536,7 +407,7 @@ proxies:
   name: 13|US_speednode_0035
   network: ws
   port: 443
-  server: 104.24.136.104
+  server: 104.16.59.58
   servername: lhxt.xiaomi.win
   skip-cert-verify: false
   tls: true
@@ -546,82 +417,20 @@ proxies:
     headers:
       Host: lhxt.xiaomi.win
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0038
-  network: ws
-  port: 80
-  server: upos-sz-mirrorcf1ov.bilivideo.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 74133cf5-3e95-4f79-8379-7977f94c493a
-  ws-opts:
-    headers:
-      Host: argo9.zjccc.nyc.mn
-    path: /74133cf5-3e95-4f79-8379-7977f94c493a-vm?ed=2048
-- cipher: rc4-md5
-  name: 13|US_speednode_0039
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.42.68
-  type: ss
-- name: 13|US_speednode_0040
+- name: 13|US_speednode_0036
   network: ws
   port: 443
-  server: 151.101.2.133
-  servername: live.wkrq.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 85b6a216-37d2-40f6-96df-26537fe21653
-  ws-opts:
-    headers:
-      Host: Eiv2ray.Net
-    path: /Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray?ed=2096
-- name: 13|US_speednode_0045
-  network: ws
-  port: 2082
-  server: 104.18.14.19
-  servername: 13tg.jpl8xmqb.workers.dev
+  server: 199.232.125.43
+  servername: ELI-V2-RAY.COM
   skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 131387aa-4b2a-43aa-bf7c-d94306ba55fb
-  ws-opts:
-    headers:
-      Host: 13tg.jpl8xmqb.workers.dev
-    path: /?ed=2560
-- name: 13|US_speednode_0046
-  network: ws
-  port: 2086
-  server: 104.16.140.135
-  servername: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 31348b17-4ab2-40c0-b79e-c81032331d30
-  ws-opts:
-    headers:
-      Host: b4f0b859-super-smoke-7916.bouncy-vulture1054.workers.dev
-    path: /tsgg0FHbT55sIEXC?ed=2560
-- alterId: 64
-  cipher: auto
-  name: 13|US_speednode_0047
-  network: ws
-  port: 38004
-  server: 199.180.101.29
-  skip-cert-verify: false
   tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: vless
+  uuid: ec1540bf-39b1-5901-bc00-4aa9c81e27af
   ws-opts:
     headers:
-      Host: www.70778598.xyz
-    path: /path/1734770577466
-- name: 13|US_speednode_0049
+      Host: ELI-V2-RAY.COM
+    path: /
+- name: 13|US_speednode_0040
   network: ws
   port: 80
   server: AT3.fast.hosting-ip.com
@@ -634,16 +443,16 @@ proxies:
     headers:
       Host: kazemi211zerofun.coM
     path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-- name: 13|US_speednode_0050
+- name: 13|US_speednode_0041
   network: ws
-  port: 80
-  server: NUFiLTER.fastly80-2.hosting-ip.com
-  servername: 6.fidsxss11x.ir
+  port: 8443
+  server: us6.998998.best
+  servername: server39.998877.best
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 36a9fad9-3b94-4cf1-856d-81b484d91cc5
+  uuid: 11338fbe-71f7-47da-bc29-e74780eda3d3
   ws-opts:
     headers:
-      Host: 6.fidsxss11x.ir
-    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+      Host: server39.998877.best
+    path: /drtgoiuy/fd?ed=2560
