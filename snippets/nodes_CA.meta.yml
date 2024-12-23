@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- alpn:
+  - http/1.1
+  name: 13|CA_speednode_0005
+  network: ws
+  port: 8443
+  server: 204.216.105.106
+  servername: kb.lii2010.us.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
+  ws-opts:
+    headers:
+      Host: kb.lii2010.us.kg
+    path: /?ed=2560
