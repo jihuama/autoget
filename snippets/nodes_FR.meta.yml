@@ -16,18 +16,28 @@ proxies:
     headers:
       Host: loki.oracle
     path: /farcry?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|FR_speednode_0010
-  network: ws
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 13|FR_speednode_0011
+  network: tcp
   port: 443
-  server: beyonddbc.sbs
-  servername: beyonddbc.sbs
+  server: en.linceedab.com
   skip-cert-verify: false
   tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /linkws
+  type: vless
+  uuid: 24f7f8e5-dbe5-4cde-e018-2b74a00b6d69
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 13|FR_speednode_0012
+  network: tcp
+  port: 443
+  server: 57.128.178.253
+  servername: en.linceedab.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 24f7f8e5-dbe5-4cde-e018-2b74a00b6d69
