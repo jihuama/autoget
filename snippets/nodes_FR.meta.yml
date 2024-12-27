@@ -2,12 +2,12 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 8,11,12|法国|@ripaojiedian
+  name: 8,11,12,13|US_speednode_0065
   network: ws
-  port: '443'
+  port: 443
   server: primer.ibilibi.li
   servername: ameblo.jp
-  skip-cert-verify: false
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vmess
@@ -16,28 +16,3 @@ proxies:
     headers:
       Host: loki.oracle
     path: /farcry?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|FR_speednode_0011
-  network: tcp
-  port: 443
-  server: en.linceedab.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 24f7f8e5-dbe5-4cde-e018-2b74a00b6d69
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 13|FR_speednode_0012
-  network: tcp
-  port: 443
-  server: 57.128.178.253
-  servername: en.linceedab.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 24f7f8e5-dbe5-4cde-e018-2b74a00b6d69
