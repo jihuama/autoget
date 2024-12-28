@@ -11,7 +11,7 @@ proxies:
   uuid: fa98714c-1d2b-3b60-81e0-f7151110e801
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 11,13|JP_speednode_0029
+  name: 11,13|JP_speednode_0039
   password: shadowsocks
   port: 443
   server: 149.22.87.204
@@ -25,21 +25,24 @@ proxies:
   server: 18.181.162.137
   tfo: false
   type: ss
-- client-fingerprint: randomized
-  name: 13|JP_speednode_0030
-  network: ws
+- cipher: aes-256-cfb
+  name: 13|JP_speednode_0040
+  password: amazonskr05
   port: 443
-  server: zmaoz.faculty.ucdavis.edu
-  servername: zmaoz.faculty.ucdavis.edu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1ce7a1ba-64d3-4c50-9dc6-6b9f79bfd11d
-  ws-opts:
-    headers:
-      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
-- name: 13|JP_speednode_0031
+  server: 13.115.231.64
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|JP_speednode_0041
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)a7bbfde:185966
+    mode: tls
+    tls: false
+  port: 2377
+  server: 18.176.215.63
+  type: ss
+- name: 13|JP_speednode_0042
   network: ws
   port: 443
   server: pscresearch.faculty.ucdavis.edu
@@ -52,3 +55,31 @@ proxies:
     headers:
       Host: hvwrfuerhetitugj44yhrthj.com
     path: /ws/?ed=2048
+- client-fingerprint: randomized
+  name: 13|JP_speednode_0043
+  network: ws
+  port: 443
+  server: zmaoz.faculty.ucdavis.edu
+  servername: zmaoz.faculty.ucdavis.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5284a8d3-a9c5-421b-931d-bc8464d56fe1
+  ws-opts:
+    headers:
+      Host: JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
+- client-fingerprint: chrome
+  name: 13|JP_speednode_0044
+  network: ws
+  port: 80
+  server: scp-fasttttly.tencent.su
+  servername: scp-only.ws.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 4ea312d7-3844-4ff8-8062-ed2e03ddc2a1
+  ws-opts:
+    headers:
+      Host: scp-only.ws.com
+    path: /ws

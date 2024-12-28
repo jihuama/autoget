@@ -191,6 +191,16 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 8,12|美国|@ripaojiedian
+  network: tcp
+  port: '30895'
+  server: 156.251.189.225
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f011b57-a456-45ae-aa2c-f976780e56c3
+- alterId: 0
+  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -257,39 +267,27 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 12|美国|@ripaojiedian
-  network: tcp
-  port: '30895'
-  server: 156.251.189.225
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f011b57-a456-45ae-aa2c-f976780e56c3
-- name: 13|US_speednode_0053
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0076
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 38.110.1.105
+  type: ss
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0077
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.110.1.105
+  type: ss
+- name: 13|US_speednode_0080
   network: ws
-  password: yaml777
+  password: tg-fq521free
   port: 443
-  server: 172.67.207.57
+  server: 198.62.62.67
   skip-cert-verify: true
-  sni: yaml7.ggff.net
+  sni: torjan.xn--xhq44j.eu.org
   type: trojan
   ws-opts:
     headers:
-      Host: yaml7.ggff.net
+      Host: torjan.xn--xhq44j.eu.org
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0067
-  network: ws
-  port: 443
-  server: 104.21.95.16
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
-  ws-opts:
-    headers:
-      Host: hms03.dongfeng.cfd
-    path: /linkws
