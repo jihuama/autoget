@@ -191,6 +191,26 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - api.teborder.com
+    method: GET
+    path:
+    - /qfubCCSCeI
+  name: 8,11,12|美国2|@ripaojiedian
+  network: http
+  port: '42122'
+  server: shcm.pfdsddla.com
+  servername: api.teborder.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 2c610eac-882d-3944-a7c4-674c033f0073
+- alterId: 0
+  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -269,28 +289,54 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - api.teborder.com
-    method: GET
-    path:
-    - /qfubCCSCeI
-  name: 11,12|美国2|@ripaojiedian
-  network: http
-  port: '42122'
-  server: shcm.pfdsddla.com
-  servername: api.teborder.com
+- alpn:
+  - h2
+  - http/1.1
+  name: 13|US_speednode_0042
+  network: tcp
+  port: 443
+  server: 147135001178.sec22org.com
   skip-cert-verify: false
-  tfo: false
   tls: true
-  type: vmess
-  uuid: 2c610eac-882d-3944-a7c4-674c033f0073
+  type: vless
+  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+- alpn:
+  - h2
+  - http/1.1
+  name: 13|US_speednode_0043
+  network: tcp
+  port: 443
+  server: 147135001195.sec22org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
+- alpn:
+  - h2
+  - http/1.1
+  name: 13|US_speednode_0044
+  network: tcp
+  port: 443
+  server: 135.148.177.196
+  servername: 147135001178.sec22org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+- alpn:
+  - h2
+  - http/1.1
+  name: 13|US_speednode_0045
+  network: tcp
+  port: 443
+  server: 147.135.1.195
+  servername: 147135001195.sec22org.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
 - client-fingerprint: ios
-  name: 13|US_speednode_0020
+  name: 13|US_speednode_0048
   network: tcp
   port: 18443
   reality-opts:
@@ -301,15 +347,14 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 86206c88-b8e3-4cb3-8932-3ca6ea1b6033
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|US_speednode_0021
+- name: 13|US_speednode_0047
   network: tcp
   port: 443
-  server: 209.141.53.75
-  servername: contents.riot-cdn.com
+  server: 147.135.4.2
+  servername: 147135004002.sec20org.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 61eb66a8-bc41-491e-a8dc-270874140f41
+  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
