@@ -269,6 +269,12 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
+- cipher: aes-128-cfb
+  name: 13|US_speednode_0054
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
 - cipher: aes-256-cfb
   name: 13|US_speednode_0057
   password: qwerREWQ@@
@@ -286,3 +292,17 @@ proxies:
   protocol-param: ''
   server: 184.170.241.194
   type: ssr
+- alterId: 64
+  cipher: auto
+  name: 13|US_speednode_0066
+  network: ws
+  port: 36009
+  server: 198.2.196.7
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.84163007.xyz
+    path: /path/1735208641002
