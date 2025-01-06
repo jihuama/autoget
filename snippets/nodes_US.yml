@@ -189,16 +189,16 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 8|14|美国2|@ripaojiedian
+  name: 8,12|美国|@ripaojiedian
   network: tcp
-  port: '8001'
-  server: 38.150.7.183
+  port: '52112'
+  server: 183.236.51.23
   servername: ''
   tls: false
   type: vmess
-  uuid: 64f8f872-fc9b-4782-967f-185c79e3c6a8
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -275,16 +275,6 @@ proxies:
   server: 184.170.241.194
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 12|美国|@ripaojiedian
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   http-opts:
@@ -318,3 +308,17 @@ proxies:
   port: 8080
   server: 23.251.121.242
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0065
+  network: ws
+  port: 443
+  server: hms02opi.fxiaomi.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /link
