@@ -1,14 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|日本2|@ripaojiedian
+  name: 8|13,14|日本2|@ripaojiedian
   network: ws
   port: '21001'
   server: csct.xxxxxx.one
   servername: jp1.runjustfast.com
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 437c6b4b-d508-4662-a508-cf3337b836b3
@@ -16,18 +13,19 @@ proxies:
     headers:
       Host: jp1.runjustfast.com
     path: /21a64xdea04c
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本|@ripaojiedian
+  password: U5GAQMMIFQ2FD44A
+  port: 18003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 122.248.193.242
+  server: 18.182.64.182
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0043
-  password: amazonskr05
-  port: 443
-  server: 43.206.231.196
-  type: ss
-  udp: true
