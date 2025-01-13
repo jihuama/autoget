@@ -273,16 +273,77 @@ proxies:
   server: 23.154.136.247
   tfo: false
   type: ss
-- name: 13|US_speednode_0031
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: random
+  name: 13|US_speednode_0051
+  network: ws
+  port: 80
+  server: 167.82.1.105
+  servername: teleirani.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 253ef561-9e57-4336-befd-878ddd30df01
+  ws-opts:
+    headers:
+      Host: teleirani.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: 13|US_speednode_0052
   network: ws
   port: 443
-  server: 154.17.229.206
-  servername: dousa.monv.me
+  server: 173.245.59.81
+  servername: vydtpd.adresstime.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: f232ea17-b79f-4e64-d130-d3ce92b8e5b1
+  uuid: a324cb38-6465-4cca-b856-dc1887f4ec50
   ws-opts:
     headers:
-      Host: dousa.monv.me
+      Host: vydtpd.adresstime.com
+    path: /wss
+- alpn:
+  - http/1.1
+  name: 13|US_speednode_0053
+  network: ws
+  port: 443
+  server: 162.159.44.157
+  servername: f1ft2u.parscodes.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 06e0551f-b2a5-47f8-92bd-5d4a5832bdde
+  ws-opts:
+    headers:
+      Host: f1ft2u.parscodes.com
+    path: /wss
+- name: 13|US_speednode_0054
+  network: ws
+  port: 443
+  server: 198.41.192.239
+  servername: usb.warpo.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e7934134-5395-47a7-bd90-f68a467e3971
+  ws-opts:
+    headers:
+      Host: usb.warpo.me
     path: /bing
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0055
+  network: ws
+  port: 80
+  server: 151.101.2.216
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c69f3029-ae1e-45ca-aa08-70970f14dfd2
+  ws-opts:
+    headers:
+      Host: telegram-ISVvpn.ir
+    path: /racevpn
