@@ -1,13 +1,23 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 8,12|香港4|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
-  name: 11,13|FR_speednode_0012
-  password: JFchk1TxFG
-  port: 1935
-  server: 13.39.244.105
-  skip-cert-verify: false
-  sni: x1fr-amazon.devefun.net
+  name: 11,13|CN_speednode_0002
+  password: phXKwfrd
+  port: 36442
+  server: 223.113.54.145
+  skip-cert-verify: true
+  sni: sg02.trojanyyds.xyz
   tfo: false
   tls: false
   type: trojan
@@ -44,8 +54,66 @@ proxies:
   server: dns.a123.my
   tfo: false
   type: ss
-- name: 13|HK_speednode_0014
-  port: 4000
-  server: hk9.ftq.ink
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 13|HK_speednode_0011
+  network: ws
+  port: 443
+  server: 13.75.45.129
+  servername: v.aivpn.filegear-sg.me
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
+  uuid: 211bbb0b-70a7-4792-ad04-cb6e599d2b9e
+  ws-opts:
+    headers:
+      Host: v.aivpn.filegear-sg.me
+    path: /?ed=2560
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 13|HK_speednode_0012
+  network: ws
+  port: 39584
+  server: 185.213.62.199
+  servername: v.aivpn.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 211bbb0b-70a7-4792-ad04-cb6e599d2b9e
+  ws-opts:
+    headers:
+      Host: v.aivpn.filegear-sg.me
+    path: /?ed=2560
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 13|HK_speednode_0013
+  network: ws
+  port: 2083
+  server: 154.218.15.250
+  servername: v.aivpn.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 211bbb0b-70a7-4792-ad04-cb6e599d2b9e
+  ws-opts:
+    headers:
+      Host: v.aivpn.filegear-sg.me
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  name: 13|HK_speednode_0014
+  network: ws
+  port: 2087
+  server: 154.211.8.227
+  servername: amedo.esslh.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 70186b61-319d-42f2-9807-7df9594aa385
+  ws-opts:
+    headers:
+      Host: amedo.esslh.filegear-sg.me
+    path: /?ed=2560
