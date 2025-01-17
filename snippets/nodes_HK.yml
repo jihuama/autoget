@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8,12|香港3|@ripaojiedian
+  name: 8|14|香港3|@ripaojiedian
   network: tcp
   port: '45051'
   server: xdd.dashuai.cyou
@@ -21,14 +21,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|香港5|@ripaojiedian
+  name: 8|13,14|香港5|@ripaojiedian
   network: ws
   port: '443'
   server: hk-bmg.cowvpn.org
   servername: hk-bmgcf.cowvpn.org
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
@@ -36,6 +33,18 @@ proxies:
     headers:
       Host: hk-bmgcf.cowvpn.org
     path: /cctv13/vmess_hk-bmgcf
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11,13|CN_speednode_0001
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港6|@ripaojiedian
@@ -52,3 +61,13 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港5|@ripaojiedian
+  network: tcp
+  port: '16785'
+  server: 103.30.76.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
