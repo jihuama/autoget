@@ -1,4 +1,14 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 8,12|香港4|@ripaojiedian
+  network: tcp
+  port: '53002'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 8,12|香港5|@ripaojiedian
@@ -9,9 +19,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,13|IN_speednode_0026
+  password: '!!str 3648425794742788096'
+  port: 443
+  server: 5.8.35.208
+  skip-cert-verify: false
+  sni: loving-boa.treefrog761.one
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0001
+  name: 11,13|CN_speednode_0004
   password: 7243745919d6de49a5db
   plugin: obfs
   plugin-opts:
@@ -37,3 +61,17 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|HK_speednode_0023
+  network: http
+  port: 16785
+  server: 103.30.76.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
