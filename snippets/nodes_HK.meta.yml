@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 8|13,14|香港3|@ripaojiedian
-  network: ws
-  port: '8226'
-  server: 89.185.31.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
-  ws-opts:
-    headers:
-      Host: v12.emovpn.buzz
-    path: /
 - alterId: 64
   cipher: auto
   name: 8,12|香港4|@ripaojiedian
@@ -50,3 +36,28 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- name: 13|HK_speednode_0034
+  port: 4000
+  server: hk9.ftq.ink
+  tls: true
+  type: http
+  udp: true
+- name: 13|HK_speednode_0035
+  port: 4000
+  server: ftq.ink
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 13|HK_speednode_0036
+  port: 443
+  reality-opts:
+    public-key: DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw
+    short-id: 6ba85179e30d4fc2
+  server: 47.76.136.169
+  servername: www.dayuse.com.hk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e927b27f-e73c-4580-802e-9265fd7c40e8
