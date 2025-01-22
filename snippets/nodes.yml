@@ -388,77 +388,92 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: chacha20-ietf
+  name: 3|-https://t.me/MrXbin-1
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 3|-https://t.me/MrXbin-2
   password: qwerREWQ@@
-  port: 37041
-  server: 121.170.203.147
+  port: 28290
+  server: 125.141.31.74
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-7
-  password: amazonskr05
-  port: 443
-  server: 3.34.189.113
+  name: 3|-https://t.me/MrXbin-3
+  password: qwerREWQ@@
+  port: 34847
+  server: 218.50.149.114
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|-https://t.me/MrXbin-9
+  name: 3|-https://t.me/MrXbin-5
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 193.29.139.189
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-10
-  password: amazonskr05
-  port: 443
-  server: 13.230.174.203
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-12
-  password: qwerREWQ@@
-  port: 27973
-  server: p196.panda001.net
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-13
+  name: 3|-https://t.me/MrXbin-6
   password: amazonskr05
   port: 443
   server: 54.187.174.202
   type: ss
   udp: true
+- cipher: rc4-md5
+  name: 3|-https://t.me/MrXbin-7
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 3|-https://t.me/MrXbin-15
+  name: 3|-https://t.me/MrXbin-8
+  password: amazonskr05
+  port: 443
+  server: 54.179.54.70
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 3|-https://t.me/MrXbin-9
   password: qwerREWQ@@
   port: 27973
   server: 221.168.44.72
   type: ss
-- cipher: chacha20-ietf
-  name: 3|-https://t.me/MrXbin-16
-  password: asd123456
-  port: 8388
-  server: 107.148.6.121
+- cipher: aes-256-cfb
+  name: 3|-https://t.me/MrXbin-10
+  password: qwerREWQ@@
+  port: 28290
+  server: p220.panda001.net
   type: ss
   udp: true
+- cipher: rc4-md5
+  name: 3|-https://t.me/MrXbin-12
+  obfs: tls1.2_ticket_auth
+  password: Cskw6d
+  port: 13636
+  protocol: auth_aes128_md5
+  protocol-param: 524959:5u4MZ6
+  server: bb29cs.cdn.node.a.tddns-ounk.com
+  type: ssr
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 3,8,13|DE_speednode_0095
-  network: http
-  port: 2082
-  server: 64.225.109.206
-  skip-cert-verify: false
+  http-opts: {}
+  name: 3,11,13|JP_speednode_0112
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
+  skip-cert-verify: true
+  sni: sg02.trojanyyds.xyz
+  tfo: false
   tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1010,6 +1025,21 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 8,13|DE_speednode_0095
+  network: http
+  port: 2082
+  server: 64.225.109.206
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+- alterId: 0
+  cipher: auto
   name: 8|0|--36
   network: ws
   port: 8880
@@ -1246,20 +1276,6 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,13|JP_speednode_0112
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: 74.226.136.204
-  skip-cert-verify: true
-  sni: sg02.trojanyyds.xyz
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇭🇰 香港5|@ripaojiedian
