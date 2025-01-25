@@ -1,15 +1,4 @@
 proxies:
-- alpn:
-  - h2
-  name: 13|FR_speednode_0031
-  port: 8443
-  server: 138.199.27.206
-  servername: cdg-1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
 - http-opts:
     headers:
       Host:
@@ -17,7 +6,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 13|FR_speednode_0032
+  name: 13|FR_speednode_0028
   network: http
   port: 22671
   server: 91.134.102.128
@@ -27,13 +16,3 @@ proxies:
   type: vless
   udp: true
   uuid: 91989253-37d6-4d28-83fe-8ffd0c3de0f7
-- alpn:
-  - h2
-  name: 13|FR_speednode_0033
-  port: 8443
-  server: cdg-1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
