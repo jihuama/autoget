@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - alterId: 0
   cipher: auto
   name: 8,12|新加坡2|@ripaojiedian
@@ -25,24 +31,3 @@ proxies:
   server: 54.255.94.7
   tfo: false
   type: ss
-- alpn:
-  - h2
-  name: 13|SG_speednode_0044
-  port: 8443
-  server: 156.146.56.207
-  servername: sin-sg-01.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
-- alpn:
-  - h2
-  name: 13|SG_speednode_0045
-  port: 8443
-  server: sin-sg-01.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 157448af-8ecf-4075-a9e9-b23a6a94899b
