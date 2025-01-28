@@ -1,14 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|香港2|@ripaojiedian
+  name: 8|13,14|香港2|@ripaojiedian
   network: ws
   port: '23532'
   server: 212.192.12.70
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 5549a8c5-5d90-4abb-b1df-3182009206a0
@@ -18,7 +15,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 8,12|香港3|@ripaojiedian
+  name: 8|14|香港3|@ripaojiedian
   network: tcp
   port: '45017'
   server: 142.0.134.242
@@ -28,7 +25,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 8,12|香港4|@ripaojiedian
+  name: 8|14|香港4|@ripaojiedian
   network: tcp
   port: '40565'
   server: 120.232.153.63
@@ -46,30 +43,39 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 443
-  server: 103.44.255.81
-  skip-cert-verify: false
-  sni: tr.koxok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koxok.us.kg
-    path: /?ed=2560
-- alterId: 64
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11,13|speednode_0047
-  password: '!!str 3763495894587285504'
-  port: 443
-  server: 3.250.247.186
-  skip-cert-verify: true
-  sni: daring-puma.goat627.mom
+  name: 11|🇭🇰 香港|@ripaojiedian
+  password: P3H53ZJU7Q2VS6GP
+  port: 15002
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港2|@ripaojiedian
+  password: UEJBNJ5R5XAGT9YJ
+  port: 15014
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港3|@ripaojiedian
+  network: tcp
+  port: '40975'
+  server: 38.147.188.17
+  servername: ''
   tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: vmess
+  uuid: ab2867d9-5abe-4b18-836b-b3ea69df3e4f
+- alterId: 0
+  cipher: auto
+  name: 12|香港4|@ripaojiedian
+  network: tcp
+  port: '43837'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c89e8998-9164-4a28-b664-8abdcbf3a3a6
