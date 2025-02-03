@@ -1,44 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰1 |  2.8MB/s
-  password: d0f47361-bc0f-4a12-86ce-f53158eecf3c
-  port: 34338
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8|0|🇭🇰1 |  4.4MB/s
-  network: tcp
-  port: 45051
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 94e76aaf-a5cb-4d08-9872-cb389bcd4a57
-- alterId: 0
-  cipher: auto
-  name: 8|14|香港|@ripaojiedian
-  network: tcp
-  port: '50028'
-  server: 50028.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 63e90ac2-b431-421d-9262-b6c4ce488908
-- alterId: 64
-  cipher: auto
-  name: 8,12|香港5|@ripaojiedian
-  network: tcp
-  port: '40565'
-  server: 120.232.153.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|香港|@ripaojiedian
+  name: 8,11,12|香港|@ripaojiedian
   network: ws
   port: '80'
   server: 111.47.212.184
@@ -52,6 +16,16 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 8,12|香港5|@ripaojiedian
+  network: tcp
+  port: '40565'
+  server: 120.232.153.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian

@@ -1,19 +1,36 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|speednode_0048
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
-  servername: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  sni: z294.hongkongnode.top
-  tfo: false
-  tls: false
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇯🇵2 |  5.5MB/s
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: japan-5.keenvpn.me
+  type: ss
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 3|🇯🇵3 |  1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.201.102.200
+  type: ss
+- alterId: 99999
+  cipher: auto
+  name: 8|0|🇯🇵4 |  3.4MB/s
+  network: tcp
+  port: 446
+  server: 4sq5c-g03.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
+- alterId: 99999
+  cipher: auto
+  name: 8|0|🇯🇵5 |  5.9MB/s
+  network: tcp
+  port: 21583
+  server: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art
+  servername: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -28,13 +45,5 @@ proxies:
   password: H0P889CX07EQNGNV
   port: 18005
   server: 156.231.104.15
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.215.205.85
   tfo: false
   type: ss
