@@ -189,19 +189,37 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 64
+- alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 3|🇺🇸1 |  4.9MB/s
-  network: tcp
-  port: 45402
-  server: 120.232.153.123
+  name: 3|🇺🇸1 |  2.1MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: 49ad2ad7-c0e5-3bf4-87ea-af1a25d754b6
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3,11|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.215.205.85
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸4 |  2.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.163.107.154
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -210,21 +228,30 @@ proxies:
   port: 21019
   server: 219.135.231.205
   skip-cert-verify: true
-  sni: x71.flybar.work
+  sni: z140.hongkongnode.top
   tfo: false
   tls: false
   type: trojan
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 8|0|🇺🇸7 |  2.7MB/s
+  name: 8|0|🇺🇸1 |  4.9MB/s
   network: tcp
-  port: 50009
-  server: 50009.baidu-cdn.top
+  port: 45402
+  server: 120.232.153.123
   tls: false
   type: vmess
-  uuid: 540a5d31-cd1f-41bd-b5bd-92126f2cdc85
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 8|0|🇺🇸2 |  6.2MB/s
+  network: tcp
+  port: 60717
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  tls: false
+  type: vmess
+  uuid: dbb4c3e2-12de-4678-aafe-7e520b609098
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
