@@ -190,18 +190,41 @@ proxies:
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸3 |  1.8MB/s
-  password: 95cdd785-13be-40cd-aa0e-45991b631629
-  port: 34402
-  server: southvip1.pkyun.xyz
+  client-fingerprint: chrome
+  name: 3|🇺🇸3 |  5.0MB/s
+  password: f175d66f-7cf5-47aa-83be-a8e969cdbe2d
+  port: 40000
+  server: rk1.boost1.top
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸4 |  4.7MB/s
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: us-boardman-oregon-2.keenvpn.me
-  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '3,6|Github搜索TrojanLinks #32'
+  network: tcp
+  port: '45402'
+  server: 120.232.153.123
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸6 |  1.1MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: 3396d69f-7ce2-3f37-9597-089d88710bc2
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 8|0|🇺🇸2 |  4.3MB/s
@@ -282,24 +305,31 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇺🇸 美国|@ripaojiedian
-  password: RKIMIYL2VX8R2A09
-  port: 17002
-  server: 23.185.248.12
+  password: OUKMA500HD6PGEPF
+  port: 17005
+  server: 23.185.248.15
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
-  password: R1MYZXV2OOXHQUKZ
-  port: 17008
-  server: 23.185.248.18
+  password: 2VMSAJ5HAWHYMBRN
+  port: 17003
+  server: 23.185.248.13
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
-  password: 02QTZ3AY38RPVKY6
-  port: 17001
-  server: 23.185.248.11
+  grpc-opts:
+    grpc-service-name: /
+  name: 11,12|美国3|@ripaojiedian
+  network: grpc
+  port: '443'
+  server: t03-cf.phpman.top
+  servername: t03-cf.phpman.top
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 537d21ad-49af-41ad-8089-db557b63a40e
