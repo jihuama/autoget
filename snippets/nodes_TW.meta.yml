@@ -1,10 +1,24 @@
 proxies:
-- name: 3|🇹🇼1 |  4.1MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 2
+  cipher: auto
+  name: 3|🇹🇼1 |  6.1MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f0469b3b-9228-36b3-bf8f-84d6a266c91e
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 3|🇹🇼2 |  3.2MB/s
+  password: 79739832-b888-415a-a454-8b53911c944a
+  port: 30332
+  server: vps.200566.xyz
+  type: ss

@@ -189,6 +189,30 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- client-fingerprint: chrome
+  name: 3|🇺🇸1 |  4.8MB/s
+  network: ws
+  port: 80
+  server: 198.41.219.177
+  servername: cc.ailicf.us.kg
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- client-fingerprint: chrome
+  delay: 863
+  name: 3|🇺🇸2 |  2.8MB/s
+  network: tcp
+  port: 30944
+  server: 107.172.157.148
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 819664e1-26f2-49db-8025-b18adee8fd2c
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -197,41 +221,37 @@ proxies:
   port: 21019
   server: 219.135.231.205
   skip-cert-verify: true
-  sni: z298.hongkongnode.top
+  sni: z141.hongkongnode.top
   tfo: false
   tls: false
   type: trojan
   udp: true
   uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸4 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.190.43.178
+  type: ss
+  udp: true
+- name: 3|🇺🇸5 |  7.8MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
-  name: 3|🇺🇸2 |  5.0MB/s
+  name: 3|🇺🇸6 |  1.8MB/s
   password: '!!str 123456'
   port: 443
   server: 192.3.85.237
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: 3|🇺🇸4 |  2.2MB/s
-  password: a0605527-28e4-449c-80ee-5642cc16a8af
-  port: 80
-  server: br.huafei888.site
-  skip-cert-verify: true
-  sni: br.huafei888.site
-  type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: 8|0|🇺🇸6 |  4.5MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 05339454-308d-36f3-9d75-95fa117a8de4
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
   name: 8,12|美国|@ripaojiedian
