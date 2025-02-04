@@ -189,27 +189,6 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸1 |  2.7MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5c51710-04d9-38a8-9f22-cf1ed29743bf
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  name: 3|🇺🇸2 |  2.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.195.220.24
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -218,50 +197,78 @@ proxies:
   port: 21019
   server: 219.135.231.205
   skip-cert-verify: true
-  sni: z304.hongkongnode.top
+  sni: z261.hongkongnode.top
   tfo: false
   tls: false
   type: trojan
   udp: true
   uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
 - cipher: aes-256-cfb
-  name: 3|🇺🇸5 |  5.7MB/s
+  name: 3|🇺🇸3 |  5.8MB/s
   password: amazonskr05
   port: 443
-  server: 34.217.180.245
+  server: 54.71.17.51
   type: ss
-- cipher: aes-256-cfb
-  name: 3|🇺🇸6 |  1.5MB/s
-  password: amazonskr05
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸6 |  1.7MB/s
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
   port: 443
-  server: 52.24.52.100
+  server: us-ashburn-virginia.keenvpn.me
   type: ss
-- alterId: 64
+  udp: true
+- alterId: 2
   cipher: auto
-  name: 8|0|🇺🇸17 |  5.5MB/s
+  name: 3|🇺🇸8 |  4.5MB/s
   network: ws
-  port: 37001
-  server: 192.74.231.199
-  servername: www.57277774.xyz
-  tls: true
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: c55cfbfc-b936-353a-b2b7-1366b86c5fde
   ws-opts:
     headers:
-      Host: www.57277774.xyz
-    path: /path/1737106641750
+      Host: 16.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸9 |  4.9MB/s
+  network: ws
+  port: 23605
+  server: 5.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c55cfbfc-b936-353a-b2b7-1366b86c5fde
+  ws-opts:
+    headers:
+      Host: 5.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 8|0|🇺🇸1 |  2.7MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: b5c51710-04d9-38a8-9f22-cf1ed29743bf
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: 8|13,14|美国3|@ripaojiedian
-  network: grpc
-  port: '443'
-  server: t03-cf.phpman.top
-  servername: t03-cf.phpman.top
-  tls: true
+  name: 8,12|美国|@ripaojiedian
+  network: tcp
+  port: '23763'
+  server: bzryjncvbwng.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 537d21ad-49af-41ad-8089-db557b63a40e
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -330,13 +337,3 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 12|美国|@ripaojiedian
-  network: tcp
-  port: '23763'
-  server: bzryjncvbwng.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
