@@ -189,56 +189,66 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
   client-fingerprint: chrome
-  name: 3,11,13|speednode_0048
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
+  down: 55 Mbps
+  name: 3|🇺🇸1 |  4.8MB/s
+  port: 38670
+  ports: 10000-20000
+  server: 208.87.243.151
   skip-cert-verify: true
-  sni: z261.hongkongnode.top
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - cipher: aes-256-cfb
-  name: 3|🇺🇸3 |  5.8MB/s
+  name: 3|🇺🇸2 |  4.7MB/s
   password: amazonskr05
   port: 443
-  server: 54.71.17.51
+  server: 3.36.115.19
   type: ss
-- client-fingerprint: chrome
-  down: ''
-  fingerprint: ''
-  name: 3|🇺🇸5 |  3.0MB/s
-  obfs: salamander
-  obfs-password: 13f7ba5f
-  password: 4e9ee29b39a28277
-  port: 443
-  server: 66.135.11.68
-  skip-cert-verify: true
-  sni: 66.135.11.68
-  type: hysteria2
-  up: ''
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸6 |  1.7MB/s
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: us-ashburn-virginia.keenvpn.me
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸8 |  4.5MB/s
+  name: 3|🇺🇸3 |  5.8MB/s
   network: ws
-  port: 23616
-  server: 16.mamamajd.site
+  port: 23613
+  server: 13.mamamajd.site
   skip-cert-verify: true
+  tfo: true
   tls: false
   type: vmess
   udp: true
+  uuid: c55cfbfc-b936-353a-b2b7-1366b86c5fde
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸5 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.195.218.219
+  type: ss
+- name: 3|🇺🇸6 |  3.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 2
+  cipher: auto
+  name: 8|0|🇺🇸8 |  4.5MB/s
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
+  tls: false
+  type: vmess
   uuid: c55cfbfc-b936-353a-b2b7-1366b86c5fde
   ws-opts:
     headers:
@@ -246,31 +256,16 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸9 |  4.9MB/s
+  name: 8|0|🇺🇸9 |  4.9MB/s
   network: ws
   port: 23605
   server: 5.mamamajd.site
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: c55cfbfc-b936-353a-b2b7-1366b86c5fde
   ws-opts:
     headers:
       Host: 5.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 8|0|🇺🇸1 |  2.7MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: b5c51710-04d9-38a8-9f22-cf1ed29743bf
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
