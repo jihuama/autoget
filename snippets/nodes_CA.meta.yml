@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 3|🇨🇦1 |  4.7MB/s
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6afaf50-e32d-11ef-b534-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: us-21.hihu.net
+    path: /
+- cipher: aes-128-gcm
+  name: 3|🇨🇦2 |  5.7MB/s
+  password: 703a28b4-26a0-412a-a663-bccd1ad402a7
+  port: 12035
+  server: mdss-other.04z3susick.download
+  type: ss
+- cipher: aes-128-gcm
+  name: 3|🇨🇦3 |  5.6MB/s
+  password: 703a28b4-26a0-412a-a663-bccd1ad402a7
+  port: 12045
+  server: mdss-other.04z3susick.download
+  type: ss
