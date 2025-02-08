@@ -189,32 +189,53 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸1 |  6.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.221.167.203
-  type: ss
-- cipher: rc4-md5
-  name: 3|🇺🇸2 |  4.1MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
 - alterId: 2
   cipher: auto
-  name: 8|0|🇺🇸2 |  5.2MB/s
+  name: 3|🇺🇸1 |  5.3MB/s
   network: ws
-  port: 23617
-  server: 17.mamamajd.site
+  port: 23618
+  server: 18.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
   tls: false
   type: vmess
-  uuid: 9b0d5da3-b43d-3cd0-b96d-84004851268d
+  udp: true
+  uuid: 167b50ff-f2d0-39a5-989e-fd7fd07916a2
   ws-opts:
     headers:
-      Host: 17.mamamajd.site
+      Host: 18.mamamajd.site
     path: /
+- client-fingerprint: chrome
+  name: 3|🇺🇸2 |  4.4MB/s
+  network: ws
+  port: 443
+  server: lucky.cepu.us.kg
+  servername: lucky.cepu.us.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd45501e-52ec-4584-affe-f12f9a5a3aeb
+  ws-opts:
+    headers:
+      Host: lucky.cepu.us.kg
+    path: /198.13.42.58-32954
+- client-fingerprint: chrome
+  name: 3|🇺🇸3 |  28.7MB/s
+  network: ws
+  port: 80
+  server: 104.22.53.235
+  servername: cc.ailicf.us.kg
+  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /b5cdabf0-e04
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
