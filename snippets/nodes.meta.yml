@@ -388,75 +388,53 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇰🇷1 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.79.216.192
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇫🇷1 |  3.5MB/s
+  password: 227712f9-e972-4555-8025-06e6dec1bb47
+  port: 36115
+  server: free.2weradf.xyz
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇸🇬1 |  4.7MB/s
+  name: 3|🇺🇸1 |  3.2MB/s
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 18.141.25.54
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇸🇬2 |  1.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.77.240.71
-  type: ss
+  protocol: origin
+  server: 54.190.43.178
+  type: ssr
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸1 |  5.3MB/s
+  name: 3|🇺🇸2 |  4.0MB/s
   network: ws
-  port: 23618
-  server: 18.mamamajd.site
+  port: 23617
+  server: 17.mamamajd.site
   skip-cert-verify: true
-  tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: 167b50ff-f2d0-39a5-989e-fd7fd07916a2
+  uuid: 569053ac-300d-3d77-b531-a369cdd4bbda
   ws-opts:
     headers:
-      Host: 18.mamamajd.site
+      Host: 17.mamamajd.site
     path: /
-- client-fingerprint: chrome
-  name: 3|🇺🇸2 |  4.4MB/s
-  network: ws
+- name: 3|🌀1- |  6.0MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: lucky.cepu.us.kg
-  servername: lucky.cepu.us.kg
+  server: hkcera3-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkcera3-cdn-route.couldflare-cdn.com
   tls: true
-  type: vless
-  udp: true
-  uuid: cd45501e-52ec-4584-affe-f12f9a5a3aeb
-  ws-opts:
-    headers:
-      Host: lucky.cepu.us.kg
-    path: /198.13.42.58-32954
-- client-fingerprint: chrome
-  name: 3|🇺🇸3 |  28.7MB/s
-  network: ws
-  port: 80
-  server: 104.22.53.235
-  servername: cc.ailicf.us.kg
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- auth: 79739832-b888-415a-a454-8b53911c944a
+  client-fingerprint: chrome
+  name: 3|🇹🇼1 |  4.3MB/s
+  password: 79739832-b888-415a-a454-8b53911c944a
+  port: 30329
+  server: vps.200566.xyz
   skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
-  ws-opts:
-    headers:
-      Host: cc.ailicf.us.kg
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /b5cdabf0-e04
-  xudp: true
+  sni: vps.200566.xyz
+  type: hysteria2
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
