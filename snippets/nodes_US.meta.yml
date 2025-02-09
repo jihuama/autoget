@@ -189,83 +189,68 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  down: 55 Mbps
-  name: 3|🇺🇸1 |  5.3MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸2 |  2.3MB/s
-  password: a01de107-6a79-4215-af76-c2515d2063d6
-  port: 36111
-  server: free.2weradf.xyz
+  name: 3|🇺🇸1 |  3.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.218.233.42
   type: ss
+- name: 3|🇺🇸2 |  1.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: usgp1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11|🇸🇬 新加坡5|@ripaojiedian
-  password: 415b770f-20de-4be4-a3c1-8376da50a1b7
-  port: 49549
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  skip-cert-verify: false
-  sni: mm2.redapricotcloud.com
+  name: 3,11,13|US_speednode_0049
+  password: Bw5Mz7QkVp
+  port: 443
+  server: 149.28.110.226
+  skip-cert-verify: true
+  sni: z-v2-077057.kailib.com
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   udp: true
   uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸4 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.38.165.76
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸5 |  3.5MB/s
-  password: a01de107-6a79-4215-af76-c2515d2063d6
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸6 |  1.8MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: 3|🇺🇸4 |  3.6MB/s
+  network: http
+  port: 8881
+  server: 155.138.204.188
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
-  uuid: e64618c4-caf2-317d-937d-fd46a9e2fc25
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- alterId: 2
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸7 |  6.3MB/s
+  name: 3|🇺🇸5 |  4.4MB/s
   network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
+  port: 2082
+  server: s1.db-link01.top
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
-  uuid: e64618c4-caf2-317d-937d-fd46a9e2fc25
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 13.mamamajd.site
-    path: /
-- name: 3|🇺🇸8 |  3.2MB/s
+      Host: 100-39-195-198.s1.db-link01.top
+    path: /dabai.in104.16.26.37
+- name: 3|🇺🇸6 |  4.5MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -274,32 +259,13 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
-  cipher: auto
-  name: 8|0|🇺🇸2 |  5.5MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 1a202230-14eb-372a-8859-fcc758dccc3f
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 8|0|🇺🇸7 |  5.1MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 1a202230-14eb-372a-8859-fcc758dccc3f
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
+- cipher: aes-256-cfb
+  name: 3,13|US_speednode_0040
+  password: amazonskr05
+  port: 443
+  server: 34.221.171.18
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -392,3 +358,282 @@ proxies:
   server: 183.61.177.234
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: 13|US_speednode_0026
+  network: http
+  port: 8881
+  server: 155.138.208.122
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- name: 13|US_speednode_0029
+  network: ws
+  port: 443
+  server: wear.net
+  servername: wear.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 046fd332-80a6-43b0-91b0-7238a1dfc36c
+  ws-opts:
+    headers:
+      Host: aw039.ir
+    path: /
+- name: 13|US_speednode_0028
+  network: ws
+  port: 80
+  server: ipcloudflaretamiz.fastly80-2.hosting-ip.com
+  servername: vipfast_7.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 169bb191-9155-4fc8-9fe4-b4380ca764c1
+  ws-opts:
+    headers:
+      Host: vipfast_7.com
+    path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=1024
+- alterId: 64
+  cipher: auto
+  name: 13|US_speednode_0030
+  network: ws
+  port: 31005
+  server: 38.11.50.70
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.65420682.xyz
+    path: /path/1737106641750
+- name: 13|US_speednode_0031
+  network: ws
+  port: 80
+  server: 104.17.148.22
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /LwW5jwrnymnOdqki?ed=2560
+- name: 13|US_speednode_0046
+  network: ws
+  port: 80
+  server: 104.20.129.2
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
+- name: 13|US_speednode_0033
+  network: ws
+  port: 80
+  server: tgju.org
+  servername: a.xn--i-sx6a60i.us.kg.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: a.xn--i-sx6a60i.us.kg.
+    path: /Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray-Telegram-icV2ray?ed=2560
+- name: 13|US_speednode_0034
+  network: ws
+  port: 443
+  server: hajlab.ucdavis.edu
+  servername: hajlab.ucdavis.edu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 262d8ab2-0d82-4b8b-90f9-601109aa39b3
+  ws-opts:
+    headers:
+      Host: joinxvproxybedee.ir
+    path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
+- name: 13|US_speednode_0038
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /Telegram@MTMVPN/?ed=2560
+- cipher: aes-256-cfb
+  name: 13|US_speednode_0037
+  password: amazonskr05
+  port: 443
+  server: 52.38.165.76
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 13|US_speednode_0039
+  port: 443
+  server: 147135011033.sec21org.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+- cipher: aes-256-cfb
+  name: 13|US_speednode_0041
+  password: amazonskr05
+  port: 443
+  server: 54.200.164.45
+  type: ss
+  udp: true
+- name: 13|US_speednode_0043
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  servername: 49.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: abfc215c-b2dc-4d7b-bab4-e0e17812a8d6
+  ws-opts:
+    headers:
+      Host: 49.org
+    path: /telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095
+- name: 13|US_speednode_0047
+  network: ws
+  port: 80
+  server: speedtest.net
+  servername: foffmelo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 576d1c42-4b4a-4bba-c786-f1c43700d05d
+  ws-opts:
+    headers:
+      Host: foffmelo.com
+    path: /olem/ws?ed=1024
+- name: 13|US_speednode_0048
+  network: ws
+  port: 80
+  server: nufilter.fastly80-3.hosting-ip.com
+  servername: 6.fidsxss222x.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ff2b2fca-a979-4f23-8740-17975f11110a
+  ws-opts:
+    headers:
+      Host: 6.fidsxss222x.ir
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080
+- name: 13|US_speednode_0050
+  network: ws
+  port: 80
+  server: cloud2.xmsvx.com
+  servername: jetservices55.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a65af0ef-ff96-412d-a6ff-477dd6809b85
+  ws-opts:
+    headers:
+      Host: jetservices55.ir
+    path: /CANALTELEGRAM--@jet_config--CANALTELEGRAM--@jet_config
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: 13|US_speednode_0051
+  network: http
+  port: 8881
+  server: 66.42.90.216
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alpn:
+  - http/1.1
+  name: 13|US_speednode_0054
+  network: ws
+  port: 443
+  server: 172.64.35.157
+  servername: 5swtck.parscodes.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cab9cb6-b1ee-4e81-a33a-440a86243ef2
+  ws-opts:
+    headers:
+      Host: 5swtck.parscodes.com
+    path: /wss
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 13|US_speednode_0055
+  network: ws
+  port: 2083
+  server: 135.84.67.74
+  servername: elite.vip-morteza.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f7418f38-3f9b-445f-97ec-2b45f348bfe5
+  ws-opts:
+    headers:
+      Host: elite.vip-morteza.xyz
+    path: /
+- name: 13|US_speednode_0056
+  network: ws
+  port: 80
+  server: join.ISVvpn.fastly80-3.hosting-ip.com
+  servername: Copy-Az-Chahnnel-ISVvpn-21.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a626abcf-b56e-4d3f-9067-1a3e76ee489a
+  ws-opts:
+    headers:
+      Host: Copy-Az-Chahnnel-ISVvpn-21.com
+    path: /VLESS?ed=80

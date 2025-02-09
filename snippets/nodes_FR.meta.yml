@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - Icloud.com
+    method: GET
+    path:
+    - /
+  name: 13|FR_speednode_0008
+  network: http
+  port: 42368
+  reality-opts:
+    public-key: bXihxwGbc7wUePUY0-dEYEiL-OXxmL9qwuS9lL0x_jQ
+    short-id: 779d331ea5
+  server: 185.10.17.201
+  servername: Icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c960621a-32f2-4dae-8262-22f5716fbcc9
