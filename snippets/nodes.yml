@@ -389,11 +389,58 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: chacha20-ietf
-  name: 3,13|CN_speednode_0018
+  name: 3,13|CN_speednode_0075
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8204
+  port: 8201
+  protocol: origin
+  protocol-param: ''
+  server: cn06.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0045
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8209
+  protocol: origin
+  protocol-param: ''
+  server: cn08.closeai.one
+  type: ssr
+  udp: true
+- cipher: aes-128-gcm
+  name: 3,13|CN_speednode_0077
+  password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
+  port: 12009
+  server: mdss-hk.04z3susick.download
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0023
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8207
+  protocol: origin
+  protocol-param: ''
+  server: cn07.closeai.one
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  name: 3,13|SG_speednode_0136
+  password: amazonskr05
+  port: 443
+  server: 52.221.234.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0024
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8231
   protocol: origin
   protocol-param: ''
   server: cn06.closeai.one
@@ -401,108 +448,25 @@ proxies:
   udp: true
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 3|🌀1- |  5.8MB/s
+  name: 3|🌀2- |  2.8MB/s
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8114
+  port: 8113
   protocol: origin
   protocol-param: ''
   server: cn03.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 3,13|CN_speednode_0040
+  name: 3,13|CN_speednode_0019
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8123
+  port: 8233
   protocol: origin
   protocol-param: ''
-  server: cn05.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 3,13|CN_speednode_0066
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8504
-  protocol: origin
-  protocol-param: ''
-  server: cn15.closeai.one
-  type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 3,13|CN_speednode_0010
-  password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
-  port: 12008
-  server: mdss-hk.04z3susick.download
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 3|🌀2- |  6.1MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8101
-  protocol: origin
-  protocol-param: ''
-  server: cn01.closeai.one
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|JP_speednode_0129
-  password: 6557bf4a-852b-4a69-ad35-d53293386a13
-  port: 443
-  server: ni.mjt000.com
-  skip-cert-verify: false
-  sni: ni.mjt000.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
-- cipher: chacha20-ietf
-  name: 3,13|CN_speednode_0011
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8124
-  protocol: origin
-  protocol-param: ''
-  server: cn05.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 3,13|CN_speednode_0093
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8515
-  protocol: origin
-  protocol-param: ''
-  server: cn16.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 3|🌀3- |  1.0MB/s
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  type: ss
-- cipher: chacha20-ietf
-  name: 3,13|CN_speednode_0026
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8215
-  protocol: origin
-  protocol-param: ''
-  server: cn09.closeai.one
+  server: cn06.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
@@ -516,104 +480,239 @@ proxies:
   server: cn06.closeai.one
   type: ssr
   udp: true
+- cipher: aes-128-gcm
+  name: 3,13|CN_speednode_0010
+  password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
+  port: 12008
+  server: mdss-hk.04z3susick.download
+  type: ss
+  udp: true
 - cipher: chacha20-ietf
-  name: 3,13|CN_speednode_0061
+  name: 3,13|CN_speednode_0093
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8801
+  port: 8515
+  protocol: origin
+  protocol-param: ''
+  server: cn16.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0047
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8507
+  protocol: origin
+  protocol-param: ''
+  server: cn16.closeai.one
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3,13|CN_speednode_0059
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6557bf4a-852b-4a69-ad35-d53293386a13
+  ws-opts:
+    headers:
+      Host: 2835dfeccdb7fd37119978ee6e32ae61.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,13|CN_speednode_0100
+  network: ws
+  port: 16622
+  server: yes.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6557bf4a-852b-4a69-ad35-d53293386a13
+  ws-opts:
+    headers:
+      Host: 2835dfeccdb7fd37119978ee6e32ae61.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-cfb
+  name: 3,13|SG_speednode_0139
+  password: amazonskr05
+  port: 443
+  server: 54.179.36.235
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 3|🌀4- |  4.6MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8407
+  protocol: origin
+  protocol-param: ''
+  server: cn12.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 3|🌀5- |  3.6MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8116
+  protocol: origin
+  protocol-param: ''
+  server: cn04.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0029
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8410
+  protocol: origin
+  protocol-param: ''
+  server: cn14.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0009
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8105
+  protocol: origin
+  protocol-param: ''
+  server: cn02.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 3|🌀7- |  6.0MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8118
+  protocol: origin
+  protocol-param: ''
+  server: cn04.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0051
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8516
+  protocol: origin
+  protocol-param: ''
+  server: cn16.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0085
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8803
   protocol: origin
   protocol-param: ''
   server: cn00.closeai.one
   type: ssr
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 3,13|CN_speednode_0044
-  password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
-  port: 30003
-  server: gdgs.tarioblink.me
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 3|🇸🇬1 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.250.12.185
-  type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 3|🌀4- |  5.2MB/s
+  name: 3|🌀8- |  1.7MB/s
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8113
+  port: 8115
   protocol: origin
   protocol-param: ''
   server: cn03.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 3,13|CN_speednode_0062
+  name: 3,13|CN_speednode_0022
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8505
+  port: 8217
   protocol: origin
   protocol-param: ''
-  server: cn15.closeai.one
+  server: cn09.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0013
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8303
+  protocol: origin
+  protocol-param: ''
+  server: cn10.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 3,13|CN_speednode_0052
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8513
+  protocol: origin
+  protocol-param: ''
+  server: cn16.closeai.one
   type: ssr
   udp: true
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
-  network: tcp
-  port: '50002'
-  server: 47.104.186.133
-  tls: false
+  network: ws
+  port: '31002'
+  server: 37.120.209.124
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
+  ws-opts:
+    headers:
+      Host: www.68547476.xyz
+    path: /path/191019072927
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #1'
   network: ws
-  port: '31006'
-  server: 142.171.79.69
+  port: '30000'
+  server: 23.224.15.180
   tls: true
   type: vmess
-  uuid: 7681a72f-5201-4aa8-b531-f297aa7ce3ea
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.94251895.xyz
+      Host: www.15870563.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #2'
   network: ws
-  port: '30002'
-  server: 83.142.225.57
-  tls: true
-  type: vmess
-  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
-  ws-opts:
-    headers:
-      Host: www.52710324.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #3'
-  network: ws
-  port: 443
-  server: 119.252.190.115
+  port: '30000'
+  server: 148.135.47.51
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.23376046.xyz
+      Host: www.68871349.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #4'
+  name: '6|Github搜索TrojanLinks #3'
   network: ws
   port: 443
   server: 185.128.26.67
@@ -626,77 +725,68 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #5'
-  network: ws
-  port: '30001'
-  server: 170.178.190.141
-  tls: true
+  name: '6|Github搜索TrojanLinks #4'
+  network: tcp
+  port: '50002'
+  server: 47.104.186.133
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #5'
+  network: ws
+  port: 443
+  server: 27.124.8.141
+  tls: true
+  type: vmess
+  uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6
   ws-opts:
     headers:
-      Host: www.37505531.xyz
+      Host: www.20850772.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #6'
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  tls: false
+  network: ws
+  port: '30000'
+  server: 41.215.242.89
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: ee442f43-b07a-419d-bd27-2d3456393abc
+  ws-opts:
+    headers:
+      Host: www.23764915.xyz
+    path: /path/191019072927
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #7'
   network: ws
-  port: '30000'
-  server: 185.173.94.213
+  port: 443
+  server: 103.158.228.202
   tls: true
   type: vmess
-  uuid: 8d78c2a8-acaa-467d-9234-d2606624506d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.15206351.xyz
+      Host: www.47187921.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #8'
-  network: tcp
-  port: '50002'
-  server: 112.132.215.12
-  tls: false
+  network: ws
+  port: '30000'
+  server: 104.233.161.235
+  tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.14703369.xyz
+    path: /path/191019072927
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #9'
-  network: ws
-  port: 443
-  server: 23.109.136.78
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.82710897.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #10'
-  network: ws
-  port: 443
-  server: 37.120.142.251
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.82210771.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #11'
   network: ws
   port: '30000'
   server: 152.89.160.13
@@ -706,6 +796,32 @@ proxies:
   ws-opts:
     headers:
       Host: www.31383769.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #10'
+  network: ws
+  port: '30000'
+  server: 185.108.128.60
+  tls: true
+  type: vmess
+  uuid: 5aab3936-16d7-4377-8c33-0d77f2d295ee
+  ws-opts:
+    headers:
+      Host: www.14601176.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #11'
+  network: ws
+  port: 443
+  server: 37.120.142.251
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.82210771.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
@@ -723,263 +839,19 @@ proxies:
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #13'
-  network: tcp
-  port: '50002'
-  server: 47.116.173.76
-  tls: false
+  network: ws
+  port: '30001'
+  server: 185.133.42.144
+  tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.17336793.xyz
+    path: /path/191019072927
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #14'
-  network: ws
-  port: '30000'
-  server: 85.206.168.69
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.93271626.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #15'
-  network: ws
-  port: '30000'
-  server: 41.215.242.89
-  tls: true
-  type: vmess
-  uuid: ee442f43-b07a-419d-bd27-2d3456393abc
-  ws-opts:
-    headers:
-      Host: www.23764915.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #16'
-  network: ws
-  port: 443
-  server: 118.107.245.22
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.16452063.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #17'
-  network: ws
-  port: '41000'
-  server: 46.182.107.109
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42031742.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #18'
-  network: ws
-  port: '30001'
-  server: 89.163.247.25
-  tls: true
-  type: vmess
-  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
-  ws-opts:
-    headers:
-      Host: www.78791485.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #19'
-  network: ws
-  port: 443
-  server: 71.19.248.159
-  tls: true
-  type: vmess
-  uuid: 3d173f0a-138b-4baf-9ec6-4848243e0a12
-  ws-opts:
-    headers:
-      Host: www.57024853.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #20'
-  network: ws
-  port: '49997'
-  server: 107.148.255.226
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48351451.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #21'
-  network: tcp
-  port: '50002'
-  server: 47.92.152.169
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #22'
-  network: tcp
-  port: '40172'
-  server: 120.232.153.63
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #23'
-  network: ws
-  port: '31002'
-  server: 37.120.209.124
-  tls: true
-  type: vmess
-  uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
-  ws-opts:
-    headers:
-      Host: www.68547476.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #24'
-  network: ws
-  port: 443
-  server: 46.29.218.82
-  tls: true
-  type: vmess
-  uuid: f7a456da-9886-4dd7-b193-4c59a726219c
-  ws-opts:
-    headers:
-      Host: www.59167990.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #25'
-  network: tcp
-  port: '59003'
-  server: 183.236.51.36
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #26'
-  network: ws
-  port: '30007'
-  server: 107.148.0.244
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.52410231.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #27'
-  network: ws
-  port: '30001'
-  server: 119.59.98.41
-  tls: true
-  type: vmess
-  uuid: 4d24fbde-cb0e-4025-98ec-222933847d3d
-  ws-opts:
-    headers:
-      Host: www.71199889.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #28'
-  network: ws
-  port: '30000'
-  server: 185.108.128.60
-  tls: true
-  type: vmess
-  uuid: 5aab3936-16d7-4377-8c33-0d77f2d295ee
-  ws-opts:
-    headers:
-      Host: www.14601176.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #29'
-  network: ws
-  port: '30001'
-  server: 137.175.42.249
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.22368793.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #30'
-  network: ws
-  port: '30004'
-  server: 104.37.215.74
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.27440431.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #31'
-  network: ws
-  port: '30009'
-  server: 134.122.135.236
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.15714639.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #32'
-  network: ws
-  port: '30000'
-  server: 185.169.64.32
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.77435157.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #33'
-  network: ws
-  port: 443
-  server: 194.15.196.172
-  tls: true
-  type: vmess
-  uuid: 4d0247e0-d1da-444c-9cda-8cc20e4e4435
-  ws-opts:
-    headers:
-      Host: www.91078537.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '6|Github搜索TrojanLinks #34'
   network: ws
   port: 443
   server: 45.128.37.228
@@ -992,7 +864,29 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #35'
+  name: '6|Github搜索TrojanLinks #15'
+  network: ws
+  port: '30000'
+  server: 85.206.168.69
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.93271626.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #16'
+  network: tcp
+  port: '59003'
+  server: 183.236.51.36
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #17'
   network: ws
   port: '30001'
   server: 103.254.152.82
@@ -1005,7 +899,90 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #36'
+  name: '6|Github搜索TrojanLinks #18'
+  network: ws
+  port: 443
+  server: 119.252.190.115
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23376046.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #19'
+  network: tcp
+  port: '50095'
+  server: 120.198.71.219
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #20'
+  network: tcp
+  port: '50002'
+  server: 47.92.152.169
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #21'
+  network: ws
+  port: 443
+  server: 118.107.245.22
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.16452063.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #22'
+  network: ws
+  port: 443
+  server: 23.109.136.78
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.82710897.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #23'
+  network: ws
+  port: 443
+  server: 71.19.248.159
+  tls: true
+  type: vmess
+  uuid: 3d173f0a-138b-4baf-9ec6-4848243e0a12
+  ws-opts:
+    headers:
+      Host: www.57024853.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #24'
+  network: ws
+  port: '30002'
+  server: 83.142.225.57
+  tls: true
+  type: vmess
+  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
+  ws-opts:
+    headers:
+      Host: www.52710324.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #25'
   network: tcp
   port: '50002'
   server: 120.26.55.225
@@ -1014,20 +991,81 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #37'
+  name: '6|Github搜索TrojanLinks #26'
   network: ws
-  port: 443
-  server: 37.120.236.254
+  port: '30000'
+  server: 185.169.64.32
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.68077080.xyz
+      Host: www.77435157.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #38'
+  name: '6|Github搜索TrojanLinks #27'
+  network: ws
+  port: '30006'
+  server: 134.122.135.249
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.74572155.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #28'
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #29'
+  network: ws
+  port: '30001'
+  server: 170.178.190.141
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.37505531.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #30'
+  network: ws
+  port: 443
+  server: 194.15.196.172
+  tls: true
+  type: vmess
+  uuid: 4d0247e0-d1da-444c-9cda-8cc20e4e4435
+  ws-opts:
+    headers:
+      Host: www.91078537.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #31'
+  network: ws
+  port: 443
+  server: 46.29.218.82
+  tls: true
+  type: vmess
+  uuid: f7a456da-9886-4dd7-b193-4c59a726219c
+  ws-opts:
+    headers:
+      Host: www.59167990.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #32'
   network: ws
   port: '30000'
   server: 185.236.203.70
@@ -1040,20 +1078,64 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #39'
+  name: '6|Github搜索TrojanLinks #33'
   network: ws
-  port: 443
-  server: 178.175.132.85
+  port: '41000'
+  server: 46.182.107.109
   tls: true
   type: vmess
-  uuid: 7e4219ae-8bf1-4f79-902b-4f259c64533d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.10507558.xyz
+      Host: www.42031742.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #40'
+  name: '6|Github搜索TrojanLinks #34'
+  network: tcp
+  port: '50002'
+  server: 120.210.205.59
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #35'
+  network: tcp
+  port: '42120'
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #36'
+  network: ws
+  port: '30001'
+  server: 89.163.247.25
+  tls: true
+  type: vmess
+  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
+  ws-opts:
+    headers:
+      Host: www.78791485.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #37'
+  network: ws
+  port: '30001'
+  server: 119.59.98.41
+  tls: true
+  type: vmess
+  uuid: 4d24fbde-cb0e-4025-98ec-222933847d3d
+  ws-opts:
+    headers:
+      Host: www.71199889.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #38'
   network: ws
   port: 443
   server: 91.132.197.4
@@ -1066,51 +1148,77 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #41'
+  name: '6|Github搜索TrojanLinks #39'
   network: tcp
-  port: '42120'
-  server: 183.236.51.23
+  port: '50002'
+  server: 47.116.173.76
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '6|Github搜索TrojanLinks #42'
+  name: '6|Github搜索TrojanLinks #40'
   network: ws
   port: 443
-  server: 104.37.214.195
+  server: 61.97.244.93
+  tls: true
+  type: vmess
+  uuid: e8b77ebd-d651-4847-b7b2-e3f7c762832a
+  ws-opts:
+    headers:
+      Host: www.72255859.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #41'
+  network: ws
+  port: '49998'
+  server: 104.192.86.90
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.66848185.xyz
+      Host: www.67828527.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '6|Github搜索TrojanLinks #42'
+  network: ws
+  port: '37001'
+  server: 38.33.56.45
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.36790472.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #43'
   network: ws
   port: 443
-  server: 162.209.198.150
+  server: 37.120.236.254
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.68366614.xyz
+      Host: www.68077080.xyz
     path: /path/191019072927
 - alterId: 64
   cipher: auto
   name: '6|Github搜索TrojanLinks #44'
   network: ws
-  port: '30007'
-  server: 103.123.132.30
+  port: 443
+  server: 178.175.132.85
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 7e4219ae-8bf1-4f79-902b-4f259c64533d
   ws-opts:
     headers:
-      Host: www.26172671.xyz
+      Host: www.10507558.xyz
     path: /path/191019072927
 - alterId: 0
   cipher: auto
@@ -1246,6 +1354,20 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,13|JP_speednode_0129
+  password: 6557bf4a-852b-4a69-ad35-d53293386a13
+  port: 443
+  server: ni.mjt000.com
+  skip-cert-verify: false
+  sni: ni.mjt000.com
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡2|@ripaojiedian
@@ -1436,14 +1558,14 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 13|CN_speednode_0009
+  name: 13|CN_speednode_0011
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8105
+  port: 8124
   protocol: origin
   protocol-param: ''
-  server: cn02.closeai.one
+  server: cn05.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
@@ -1455,17 +1577,6 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: cn01.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0013
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8303
-  protocol: origin
-  protocol-param: ''
-  server: cn10.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
@@ -1502,11 +1613,11 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 13|CN_speednode_0019
+  name: 13|CN_speednode_0018
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
-  port: 8233
+  port: 8204
   protocol: origin
   protocol-param: ''
   server: cn06.closeai.one
@@ -1535,39 +1646,6 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 13|CN_speednode_0022
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8217
-  protocol: origin
-  protocol-param: ''
-  server: cn09.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0023
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8207
-  protocol: origin
-  protocol-param: ''
-  server: cn07.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0024
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8231
-  protocol: origin
-  protocol-param: ''
-  server: cn06.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
   name: 13|CN_speednode_0025
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
@@ -1576,6 +1654,17 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: cn17.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 13|CN_speednode_0026
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8215
+  protocol: origin
+  protocol-param: ''
+  server: cn09.closeai.one
   type: ssr
   udp: true
 - alterId: 0
@@ -1602,17 +1691,6 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: cn06.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0029
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8410
-  protocol: origin
-  protocol-param: ''
-  server: cn14.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
@@ -1730,6 +1808,17 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
+  name: 13|CN_speednode_0040
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8123
+  protocol: origin
+  protocol-param: ''
+  server: cn05.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
   name: 13|CN_speednode_0041
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
@@ -1762,16 +1851,12 @@ proxies:
   server: cn07.closeai.one
   type: ssr
   udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0045
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8209
-  protocol: origin
-  protocol-param: ''
-  server: cn08.closeai.one
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0044
+  password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc
+  port: 30003
+  server: gdgs.tarioblink.me
+  type: ss
   udp: true
 - cipher: chacha20-ietf
   name: 13|CN_speednode_0046
@@ -1782,17 +1867,6 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: cn18.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0047
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8507
-  protocol: origin
-  protocol-param: ''
-  server: cn16.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
@@ -1823,28 +1897,6 @@ proxies:
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
   password: passwd
   port: 8517
-  protocol: origin
-  protocol-param: ''
-  server: cn16.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0051
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8516
-  protocol: origin
-  protocol-param: ''
-  server: cn16.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0052
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8513
   protocol: origin
   protocol-param: ''
   server: cn16.closeai.one
@@ -1918,21 +1970,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 13|CN_speednode_0059
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6557bf4a-852b-4a69-ad35-d53293386a13
-  ws-opts:
-    headers:
-      Host: 2835dfeccdb7fd37119978ee6e32ae61.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|CN_speednode_0060
   network: ws
   port: 16632
@@ -1946,6 +1983,28 @@ proxies:
     headers:
       Host: 2835dfeccdb7fd37119978ee6e32ae61.mobgslb.tbcache.com
     path: /
+- cipher: chacha20-ietf
+  name: 13|CN_speednode_0061
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8801
+  protocol: origin
+  protocol-param: ''
+  server: cn00.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 13|CN_speednode_0062
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8505
+  protocol: origin
+  protocol-param: ''
+  server: cn15.closeai.one
+  type: ssr
+  udp: true
 - alterId: 0
   cipher: auto
   name: 13|CN_speednode_0063
@@ -1981,6 +2040,17 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: cn18.closeai.one
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 13|CN_speednode_0066
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8504
+  protocol: origin
+  protocol-param: ''
+  server: cn15.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
@@ -2068,17 +2138,6 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 13|CN_speednode_0075
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8201
-  protocol: origin
-  protocol-param: ''
-  server: cn06.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
   name: 13|CN_speednode_0076
   obfs: http_simple
   obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
@@ -2088,13 +2147,6 @@ proxies:
   protocol-param: ''
   server: cn17.closeai.one
   type: ssr
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0077
-  password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff
-  port: 12009
-  server: mdss-hk.04z3susick.download
-  type: ss
   udp: true
 - cipher: chacha20-ietf
   name: 13|CN_speednode_0078
@@ -2171,17 +2223,6 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: cn17.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0085
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8803
-  protocol: origin
-  protocol-param: ''
-  server: cn00.closeai.one
   type: ssr
   udp: true
 - cipher: chacha20-ietf
@@ -2331,21 +2372,6 @@ proxies:
   network: ws
   port: 16645
   server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6557bf4a-852b-4a69-ad35-d53293386a13
-  ws-opts:
-    headers:
-      Host: 2835dfeccdb7fd37119978ee6e32ae61.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|CN_speednode_0100
-  network: ws
-  port: 16622
-  server: yes.mojcn.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -2516,13 +2542,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 13|SG_speednode_0136
-  password: amazonskr05
-  port: 443
-  server: 52.221.234.117
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 13|SG_speednode_0137
   password: amazonskr05
   port: 443
@@ -2534,13 +2553,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.213.40.92
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|SG_speednode_0139
-  password: amazonskr05
-  port: 443
-  server: 54.179.36.235
   type: ss
   udp: true
 - cipher: aes-256-cfb
