@@ -1,4 +1,27 @@
 proxies:
+- name: 3|🇯🇵1 |  2.4MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo102-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo102-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-cfb
+  name: 3|🇯🇵2 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.183.142.200
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.139.221.191
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|日本3|@ripaojiedian
@@ -9,10 +32,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0015
-  password: amazonskr05
-  port: 443
-  server: 57.180.246.231
-  type: ss
-  udp: true

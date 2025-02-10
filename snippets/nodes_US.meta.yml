@@ -189,7 +189,19 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- name: 3|🇺🇸1 |  6.2MB/s
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 3|🇺🇸1 |  5.0MB/s
+  obfs: http_simple
+  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
+  password: passwd
+  port: 8503
+  protocol: origin
+  protocol-param: ''
+  server: cn15.closeai.one
+  type: ssr
+  udp: true
+- name: 3|🇺🇸2 |  2.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -198,49 +210,6 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 3|🇺🇸2 |  5.8MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8512
-  protocol: origin
-  protocol-param: ''
-  server: cn16.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 3|🇺🇸3 |  6.2MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8110
-  protocol: origin
-  protocol-param: ''
-  server: cn02.closeai.one
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 3|🇺🇸4 |  1.8MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8513
-  protocol: origin
-  protocol-param: ''
-  server: cn16.closeai.one
-  type: ssr
-  udp: true
-- cipher: aes-256-cfb
-  name: 3,13|US_speednode_0040
-  password: amazonskr05
-  port: 443
-  server: 34.221.171.18
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -468,6 +437,13 @@ proxies:
   type: vless
   udp: true
   uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+- cipher: aes-256-cfb
+  name: 13|US_speednode_0040
+  password: amazonskr05
+  port: 443
+  server: 34.221.171.18
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 13|US_speednode_0041
   password: amazonskr05
