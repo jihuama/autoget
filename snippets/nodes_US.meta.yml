@@ -189,46 +189,57 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸1 |  6.0MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 3|🇺🇸1 |  1.2MB/s
+  port: 17549
+  server: 208.87.243.151
   skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- client-fingerprint: chrome
+  name: 3|🇺🇸2 |  6.5MB/s
+  network: ws
+  port: 80
+  server: 198.41.208.231
+  servername: cc.ailicf.us.kg
   tls: false
-  type: vmess
+  type: vless
   udp: true
-  uuid: fb362f19-b489-3f1e-8c0d-573b60360f05
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
   ws-opts:
     headers:
-      Host: 17.mamamajd.site
-    path: /
-- cipher: chacha20-ietf
-  name: 3|🇺🇸2 |  1.6MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8123
-  protocol: origin
-  protocol-param: ''
-  server: cn05.closeai.one
-  type: ssr
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸3 |  3.6MB/s
+  password: 5ea3dd8e-551d-4473-8736-9d594c0505b7
+  port: 20119
+  server: chiyu.myfczy169.top
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|US_speednode_0049
-  password: Bw5Mz7QkVp
-  port: 443
-  server: 149.28.110.226
-  skip-cert-verify: true
-  sni: z-v2-077057.kailib.com
-  tfo: false
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: 3|🇺🇸4 |  1.7MB/s
+  network: http
+  port: 8881
+  server: 155.138.204.188
+  skip-cert-verify: false
   tls: false
-  type: trojan
-  udp: true
-  uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -297,30 +308,16 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
-  password: NG8UKXGFBF4LFJQ9
-  port: 17005
-  server: 183.232.239.172
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
-  password: M4GWJS4SIR9UHK0Y
-  port: 17002
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
-  password: 5FJF20OHXKZCSDEB
-  port: 17006
-  server: 183.61.177.234
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|美国2|@ripaojiedian
+  network: tcp
+  port: '44447'
+  server: 38.147.161.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
 - alterId: 0
   cipher: auto
   http-opts:
@@ -544,20 +541,6 @@ proxies:
     headers:
       Host: foffmelo.com
     path: /olem/ws?ed=1024
-- name: 13|US_speednode_0048
-  network: ws
-  port: 80
-  server: nufilter.fastly80-3.hosting-ip.com
-  servername: 6.fidsxss222x.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: ff2b2fca-a979-4f23-8740-17975f11110a
-  ws-opts:
-    headers:
-      Host: 6.fidsxss222x.ir
-    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080
 - name: 13|US_speednode_0050
   network: ws
   port: 80

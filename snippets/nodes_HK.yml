@@ -1,48 +1,37 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 3|🇭🇰1 |  1.2MB/s
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰2 |  5.5MB/s
-  password: 731dafbc-652d-42c3-b075-56913aab1289
-  port: 36141
+  name: 3|🇭🇰1 |  5.5MB/s
+  password: b9ab8d30-8e97-4ac2-94f6-ab6ece8fe4f0
+  port: 36145
   server: free.2weradf.xyz
   type: ss
-- cipher: chacha20-ietf
-  name: 3|🇭🇰3 |  1.8MB/s
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8107
-  protocol: origin
-  protocol-param: ''
-  server: cn02.closeai.one
-  type: ssr
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
-  password: 5OVJDT1EY2YS8XDP
-  port: 15011
-  server: 183.232.239.172
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
-  password: WOS0SJZNDJXRJUZL
-  port: 15014
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
-  password: 3S8L0OZ5QZN490S8
-  port: 15006
-  server: 183.61.177.234
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港|@ripaojiedian
+  network: tcp
+  port: '18423'
+  server: 38.147.188.94
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d74f7655-eb59-4b48-9f8f-98a9c64a9e10
+- alterId: 0
+  cipher: auto
+  name: 12|香港2|@ripaojiedian
+  network: tcp
+  port: '12875'
+  server: 38.147.189.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1a3f584c-0960-48ef-a161-942c91e8ab64
+- alterId: 0
+  cipher: auto
+  name: 12|香港3|@ripaojiedian
+  network: tcp
+  port: '31488'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 234dcf63-5809-44fd-9c53-86f51f2e76a7
