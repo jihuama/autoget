@@ -1,18 +1,41 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇯🇵1 |  1.9MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21254
-  server: 581023.horace.im
-  type: ss
 - cipher: aes-256-cfb
-  name: 3,13|JP_speednode_0027
+  name: 3,13|JP_speednode_0022
   password: amazonskr05
   port: 443
-  server: 54.249.60.76
+  server: 52.68.141.225
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 3,13|JP_speednode_0025
+  password: amazonskr05
+  port: 443
+  server: 3.112.28.118
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇯🇵4 |  4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.206.238.113
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3,13|CN_speednode_0015
+  network: ws
+  port: 12889
+  server: cs.ktmhy.cc
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 89718007-5cb2-42db-bbb6-15b6dcdd8e41
+  ws-opts:
+    headers:
+      Host: cs.ktmhy.cc
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -61,13 +84,6 @@ proxies:
   type: vmess
   uuid: e1541125-9df4-4ee7-bb05-e68f85d7937f
 - cipher: aes-256-cfb
-  name: 13|JP_speednode_0022
-  password: amazonskr05
-  port: 443
-  server: 52.68.141.225
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 13|JP_speednode_0023
   password: amazonskr05
   port: 443
@@ -82,17 +98,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 13|JP_speednode_0025
-  password: amazonskr05
-  port: 443
-  server: 3.112.28.118
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 13|JP_speednode_0026
   password: amazonskr05
   port: 443
   server: 54.249.114.132
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|JP_speednode_0027
+  password: amazonskr05
+  port: 443
+  server: 54.249.60.76
   type: ss
   udp: true
 - cipher: aes-256-cfb
