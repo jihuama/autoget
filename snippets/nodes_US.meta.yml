@@ -189,14 +189,84 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- auth: 5bf003f0-be90-40fe-acb4-6045e7eff135
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
   client-fingerprint: chrome
-  name: 3|🇺🇸1 |  1.5MB/s
-  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
-  port: 26511
+  down: 55 Mbps
+  name: 3|🇺🇸1 |  2.8MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- auth: a4c1b618-024a-42d4-b78a-1c25c337a484
+  client-fingerprint: chrome
+  name: 3|🇺🇸2 |  1.9MB/s
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 22026
   server: br1.xiaoliyu.cyou
   skip-cert-verify: true
   sni: br1.xiaoliyu.cyou
+  type: hysteria2
+- auth: 7ffe88bc-c79c-4f54-989e-b4896bf35535
+  client-fingerprint: chrome
+  name: 3|🇺🇸3 |  1.9MB/s
+  password: 7ffe88bc-c79c-4f54-989e-b4896bf35535
+  port: 26434
+  server: fr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
+- auth: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  client-fingerprint: chrome
+  name: 3|🇺🇸4 |  2.6MB/s
+  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  port: 24512
+  server: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- name: 3,13|US_speednode_0117
+  network: ws
+  port: 80
+  server: 66.235.200.58
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸6 |  5.1MB/s
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d983af2f-0b3d-3e11-8651-47c7dfef6e88
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
+- auth: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  client-fingerprint: chrome
+  name: 3|🇺🇸7 |  2.9MB/s
+  password: 5bf003f0-be90-40fe-acb4-6045e7eff135
+  port: 26592
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
   type: hysteria2
 - alterId: 0
   cipher: auto
@@ -212,43 +282,31 @@ proxies:
   type: trojan
   udp: true
   uuid: 6eef3448-bbc0-4933-894a-72b3e8786109
-- cipher: aes-256-cfb
-  name: 3|🇺🇸3 |  3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.11.187.58
-  type: ss
-- auth: a4c1b618-024a-42d4-b78a-1c25c337a484
-  client-fingerprint: chrome
-  name: 3|🇺🇸4 |  3.2MB/s
-  password: a4c1b618-024a-42d4-b78a-1c25c337a484
-  port: 26389
-  server: gb1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: gb1.xiaoliyu.cyou
-  type: hysteria2
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸6 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.38.190.194
-  type: ss
-  udp: true
-- name: 3,13|US_speednode_0117
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸9 |  2.0MB/s
   network: ws
-  port: 80
-  server: 66.235.200.58
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  uuid: d983af2f-0b3d-3e11-8651-47c7dfef6e88
   ws-opts:
     headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+      Host: 13.mamamajd.site
+    path: /
+- auth: a4c1b618-024a-42d4-b78a-1c25c337a484
+  client-fingerprint: chrome
+  name: 3|🇺🇸10 |  1.1MB/s
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 24342
+  server: ln4.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ln4.xiaoliyu.cyou
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
