@@ -1,26 +1,52 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇯🇵1 |  5.2MB/s
-  password: d626953d-cde0-4f52-9554-a12b116f853c
-  port: 36113
-  server: free.2weradf.xyz
+- cipher: aes-256-cfb
+  name: 3|🇯🇵1 |  5.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.115.39.161
   type: ss
-- cipher: aes-256-gcm
+  udp: true
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
-  password: ee2d2b8b-18b0-4fdd-afd1-a7c0030ec635
-  port: 58148
-  server: lm.kaiqsz.com
+  name: 3,11,13|US_speednode_0129
+  password: '!!str 65086441068973800'
+  port: 443
+  server: live-serval.shiner427.skin
+  skip-cert-verify: false
+  sni: hk12.bilibili.com
   tfo: false
-  type: ss
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 6eef3448-bbc0-4933-894a-72b3e8786109
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 3,11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.206.238.113
   tfo: false
   type: ss
+  udp: true
+- name: 3|🇯🇵5 |  3.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo102-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo102-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11,13|CN_speednode_0006
+  password: ee2d2b8b-18b0-4fdd-afd1-a7c0030ec635
+  port: 58148
+  server: lm.kaiqsz.com
+  tfo: false
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|日本|@ripaojiedian
@@ -32,58 +58,9 @@ proxies:
   type: vmess
   uuid: 0acfdca6-a960-469a-a7b8-2634371fd9d3
 - cipher: aes-256-cfb
-  name: 13|JP_speednode_0022
-  password: amazonskr05
-  port: 443
-  server: 52.68.141.225
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0023
-  password: amazonskr05
-  port: 443
-  server: 13.115.39.161
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0024
-  password: amazonskr05
-  port: 443
-  server: 54.199.161.79
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0025
-  password: amazonskr05
-  port: 443
-  server: 3.112.28.118
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0026
-  password: amazonskr05
-  port: 443
-  server: 54.249.114.132
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0027
+  name: 13|JP_speednode_0039
   password: amazonskr05
   port: 443
   server: 54.249.60.76
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0029
-  password: amazonskr05
-  port: 443
-  server: 52.192.7.214
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0030
-  password: amazonskr05
-  port: 443
-  server: 52.68.247.21
   type: ss
   udp: true
