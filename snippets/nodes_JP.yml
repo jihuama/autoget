@@ -1,48 +1,26 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 3,13|JP_speednode_0025
-  password: amazonskr05
-  port: 443
-  server: 3.112.28.118
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇯🇵1 |  5.2MB/s
+  password: d626953d-cde0-4f52-9554-a12b116f853c
+  port: 36113
+  server: free.2weradf.xyz
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11,12|日本2|@ripaojiedian
-  network: ws
-  port: '25775'
-  server: tttxbmsm.fask511.cfd
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  ws-opts:
-    headers:
-      Host: www.douyin.com
-    path: /?ed=1024
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8411
-  protocol: origin
-  protocol-param: ''
-  server: cn14.closeai.one
-  type: ssr
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11,13|JP_speednode_0029
-  password: amazonskr05
-  port: 443
-  server: 52.192.7.214
+  name: 11|🇯🇵 日本2|@ripaojiedian
+  password: ee2d2b8b-18b0-4fdd-afd1-a7c0030ec635
+  port: 58148
+  server: lm.kaiqsz.com
   tfo: false
   type: ss
-  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.206.238.113
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|日本|@ripaojiedian
@@ -52,7 +30,7 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: e1541125-9df4-4ee7-bb05-e68f85d7937f
+  uuid: 0acfdca6-a960-469a-a7b8-2634371fd9d3
 - cipher: aes-256-cfb
   name: 13|JP_speednode_0022
   password: amazonskr05
@@ -75,6 +53,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 13|JP_speednode_0025
+  password: amazonskr05
+  port: 443
+  server: 3.112.28.118
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 13|JP_speednode_0026
   password: amazonskr05
   port: 443
@@ -89,10 +74,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 13|JP_speednode_0028
+  name: 13|JP_speednode_0029
   password: amazonskr05
   port: 443
-  server: 52.195.185.150
+  server: 52.192.7.214
   type: ss
   udp: true
 - cipher: aes-256-cfb
