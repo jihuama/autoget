@@ -189,57 +189,113 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
+- auth: 7ffe88bc-c79c-4f54-989e-b4896bf35535
   client-fingerprint: chrome
-  name: 3|🇺🇸1 |  4.0MB/s
-  network: tcp
-  port: 31247
-  server: 581023.horace.im
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸2 |  1.1MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
+  name: 3|🇺🇸1 |  2.2MB/s
+  password: 7ffe88bc-c79c-4f54-989e-b4896bf35535
+  port: 26371
+  server: gb1.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 734fd02b-13e7-3c3b-9f8e-6e8d3153916f
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- cipher: aes-256-gcm
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- client-fingerprint: chrome
+  down: 100
+  name: 3|🇺🇸2 |  4.3MB/s
+  password: 4a48871d49c3f20fd93d365c49e45f78
+  port: 443
+  server: v.mch.vaala.cat
+  sni: v.mch.vaala.cat
+  type: hysteria2
+  up: 100
+- auth: 7ffe88bc-c79c-4f54-989e-b4896bf35535
   client-fingerprint: chrome
-  name: 3|🇺🇸3 |  6.2MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21102
-  server: 910281.chasel.sbs
-  type: ss
+  name: 3|🇺🇸3 |  2.0MB/s
+  password: 7ffe88bc-c79c-4f54-989e-b4896bf35535
+  port: 26434
+  server: fr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
 - cipher: aes-256-cfb
-  name: 3|🇺🇸4 |  3.0MB/s
+  client-fingerprint: chrome
+  name: 3|🇺🇸4 |  7.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.184.126.174
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 3|🇺🇸5 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.221.182.25
+  type: ss
+- auth: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  client-fingerprint: chrome
+  name: 3|🇺🇸6 |  3.0MB/s
+  password: 82c01da0-59b7-48f2-8a24-58e7e5e1d8e3
+  port: 26898
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+- cipher: chacha20-ietf
+  name: 3|🇺🇸7 |  1.1MB/s
+  password: asd123456
+  port: 8388
+  server: 137.175.113.215
+  type: ss
+- auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+  client-fingerprint: chrome
+  name: 3|🇺🇸8 |  4.4MB/s
+  password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+  port: 8080
+  server: us4.youxuan.wiki
+  skip-cert-verify: false
+  sni: us4.youxuan.wiki
+  type: hysteria2
+- auth: a4c1b618-024a-42d4-b78a-1c25c337a484
+  client-fingerprint: chrome
+  name: 3|🇺🇸9 |  3.1MB/s
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 26389
+  server: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- auth: a4c1b618-024a-42d4-b78a-1c25c337a484
+  client-fingerprint: chrome
+  name: 3|🇺🇸10 |  1.7MB/s
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 22027
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+- auth: 7ffe88bc-c79c-4f54-989e-b4896bf35535
+  client-fingerprint: chrome
+  name: 3|🇺🇸11 |  1.9MB/s
+  password: 7ffe88bc-c79c-4f54-989e-b4896bf35535
+  port: 26946
+  server: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 3|🇺🇸12 |  5.4MB/s
   password: amazonskr05
   port: 443
   server: 34.216.74.146
   type: ss
-- cipher: aes-256-gcm
+- auth: a4c1b618-024a-42d4-b78a-1c25c337a484
   client-fingerprint: chrome
-  name: 3|🇺🇸5 |  5.9MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21124
-  server: 510613.frederica.xyz
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸6 |  1.1MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21112
-  server: 581023.horace.im
-  type: ss
+  name: 3|🇺🇸13 |  3.3MB/s
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  port: 22026
+  server: br1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: br1.xiaoliyu.cyou
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
