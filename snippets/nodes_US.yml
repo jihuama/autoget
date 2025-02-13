@@ -190,33 +190,36 @@ proxies:
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 3|🇺🇸1 |  5.8MB/s
+  client-fingerprint: chrome
+  name: 3|🇺🇸1 |  11.1MB/s
   password: amazonskr05
   port: 443
-  server: 18.143.103.137
+  server: 52.195.215.236
   type: ss
-- alterId: 0
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3|🇺🇸4 |  6.1MB/s
+  password: 4abcfe47-d1bb-42fc-b560-648c10cd32a4
+  port: 49095
+  server: temp.haoyf.xyz
+  type: ss
+  udp: true
+- alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|GB_speednode_0041
-  password: '!!str 65086441068973800'
-  port: 443
-  server: grown-mackerel.shiner427.skin
-  skip-cert-verify: false
-  sni: live-serval.shiner427.skin
-  tfo: false
+  name: 3|🇺🇸7 |  5.3MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  skip-cert-verify: true
   tls: false
-  type: trojan
+  type: vmess
   udp: true
-  uuid: 93a2deb7-82d6-495a-b37b-1b9a9b5132ef
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸3 |  7.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.245.222.80
-  type: ss
-  udp: true
+  uuid: d34dcfb8-f739-3312-b516-74fcb2b9db20
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
