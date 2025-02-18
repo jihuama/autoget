@@ -1,4 +1,27 @@
 proxies:
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 3|🇭🇰1 |  1.1MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
+  tls: false
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 3|🇭🇰2 |  2.4MB/s
+  network: tcp
+  port: 37528
+  reality-opts:
+    public-key: qBPL3e2Cip0uRxcfXzQ-BNRJep8womQRzupBMojAGH8
+    short-id: 937cf95f39945af1
+  server: 47.79.37.56
+  servername: yahoo.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: ee649780-6a77-4125-9edd-b7e72aa86efe
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇭🇰 香港|@ripaojiedian
@@ -10,6 +33,20 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,13|GB_speednode_0041
+  password: '!!str 65086441068973800'
+  port: 443
+  server: grown-mackerel.shiner427.skin
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 93a2deb7-82d6-495a-b37b-1b9a9b5132ef
 - alterId: 0
   cipher: auto
   name: 12|香港2|@ripaojiedian
