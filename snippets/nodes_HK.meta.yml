@@ -1,18 +1,35 @@
 proxies:
 - client-fingerprint: chrome
-  name: 3|🇭🇰2 |  4.4MB/s
-  network: tcp
-  port: 37528
-  reality-opts:
-    public-key: qBPL3e2Cip0uRxcfXzQ-BNRJep8womQRzupBMojAGH8
-    short-id: 937cf95f39945af1
-  server: 47.79.37.56
-  servername: yahoo.com
-  skip-cert-verify: false
+  down: '2000'
+  name: 3|🇭🇰1 |  1.1MB/s
+  password: 5adfc828-440d-4022-9571-0299a905b98e
+  port: 1443
+  server: hkt.mjhy2.com
+  sni: hkt.mjhy2.com
+  type: hysteria2
+  up: '2000'
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|DE_speednode_0031
+  password: '!!str 3782591447421952000'
+  port: 443
+  server: patient-ghost.treefrog761.one
+  skip-cert-verify: true
+  sni: patient-ghost.treefrog761.one
   tfo: false
-  tls: true
-  type: vless
-  uuid: ee649780-6a77-4125-9edd-b7e72aa86efe
+  tls: false
+  type: trojan
+  udp: true
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 3|🇭🇰3 |  4.9MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇭🇰 香港|@ripaojiedian
