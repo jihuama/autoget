@@ -189,14 +189,34 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-128-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇺🇸8 |  6.0MB/s
-  password: 64ddb7e7-618b-4413-bd14-8b28372cc2a3
-  port: 52004
-  server: a1.1tsm-sab2qkybzqc4ujzufu5yqppaomvbqfmrjunx7dmbde1ktmr.cv
+  name: 3|🇺🇸8 |  4.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 44.243.110.63
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|HK_speednode_0076
+  password: b2d0b65a-616c-433d-8e7b-08af61017fa8
+  port: 43396
+  server: 45.146.232.172
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
+  tls: false
+  type: trojan
   udp: true
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸12 |  1.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.244.78.72
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -283,30 +303,12 @@ proxies:
   tls: false
   type: vmess
   uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    method: GET
-    path:
-    - /
-  name: 13|US_speednode_0135
-  network: http
-  port: 8881
-  server: 155.138.208.122
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
 - alterId: 64
   cipher: auto
-  name: 13|US_speednode_0151
+  name: 13|US_speednode_0109
   network: ws
-  port: 31005
-  server: 38.11.50.72
+  port: 30003
+  server: 38.11.69.35
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -314,5 +316,5 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.65420682.xyz
-    path: /path/1737194780660
+      Host: www.52140341.xyz
+    path: /path/1738143533474
