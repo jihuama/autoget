@@ -189,74 +189,59 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3|🇺🇸1 |  3.9MB/s
-  network: tcp
-  port: 31111
-  server: 581023.horace.im
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸2 |  2.5MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21113
-  server: 581023.horace.im
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸3 |  1.0MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21309
-  server: 510613.frederica.xyz
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇺🇸4 |  6.2MB/s
+  name: 3|🇺🇸1 |  3.0MB/s
   password: amazonskr05
   port: 443
-  server: 35.86.249.1
+  server: 54.244.78.72
   type: ss
+- client-fingerprint: chrome
+  down: 100
+  name: 3|🇺🇸2 |  5.7MB/s
+  password: 4a48871d49c3f20fd93d365c49e45f78
+  port: 443
+  server: v.mch.vaala.cat
+  sni: v.mch.vaala.cat
+  type: hysteria2
+  up: 100
 - auth: bcf89582-072f-4e16-97e2-5d1258e0100d
   client-fingerprint: chrome
-  name: 3|🇺🇸5 |  17.0MB/s
+  name: 3|🇺🇸3 |  1.9MB/s
   password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 24531
-  server: us2.xiaoliyu.cyou
+  port: 24928
+  server: gb1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
+  sni: gb1.xiaoliyu.cyou
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
+  name: 3|🇺🇸4 |  1.2MB/s
+  network: ws
+  port: 2052
+  server: 104.17.147.22
+  servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+  tls: false
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+    path: /WG9SqpThFFMyTenz?ed=2560
+- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
   client-fingerprint: chrome
-  name: 3|🇺🇸6 |  2.2MB/s
-  network: tcp
-  port: 31102
-  server: 910281.chasel.sbs
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸7 |  4.5MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21159
-  server: 581023.horace.im
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸8 |  6.0MB/s
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21252
-  server: 510613.frederica.xyz
-  type: ss
+  name: 3|🇺🇸5 |  1.3MB/s
+  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  port: 30102
+  server: ca11.bethebest.eu.org
+  skip-cert-verify: true
+  sni: du.wish.ml
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸9 |  3.3MB/s
+  name: 3|🇺🇸6 |  5.3MB/s
   network: ws
-  port: 23618
-  server: 18.mamamajd.site
+  port: 23615
+  server: 15.mamamajd.site
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -264,8 +249,32 @@ proxies:
   uuid: 24d40aaa-e989-3941-8cb4-8dff47508e10
   ws-opts:
     headers:
-      Host: 18.mamamajd.site
+      Host: 15.mamamajd.site
     path: /
+- name: 3|🇺🇸7 |  1.5MB/s
+  obfs: salamander
+  obfs-password: d2648ec2
+  password: 18240b2dfdd76484
+  port: 443
+  server: 70.34.207.153
+  skip-cert-verify: true
+  sni: 70.34.207.153
+  type: hysteria2
+  udp: true
+- name: 3,13|US_speednode_0062
+  network: ws
+  port: 80
+  server: 66.235.200.191
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -385,20 +394,6 @@ proxies:
   network: ws
   port: 80
   server: 66.235.200.30
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0062
-  network: ws
-  port: 80
-  server: 66.235.200.191
   servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
   tls: false
