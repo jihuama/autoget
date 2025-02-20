@@ -191,27 +191,26 @@ proxies:
   ws-opts: {}
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇺🇸3 |  2.3MB/s
+  name: 3|🇺🇸1 |  2.7MB/s
   password: amazonskr05
   port: 443
-  server: 52.41.168.231
+  server: 54.190.1.125
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸4 |  4.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.195.215.236
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸4 |  1.1MB/s
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸6 |  2.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.216.193.190
-  type: ss
-  udp: true
+  uuid: 4e37ce47-d35d-364c-b9fd-650e5e1473b5
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
