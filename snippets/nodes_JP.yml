@@ -1,24 +1,30 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇯🇵1 |  6.1MB/s
+  name: 3|🇯🇵1 |  5.8MB/s
   password: amazonskr05
   port: 443
-  server: 3.112.216.127
+  server: 18.182.6.88
   type: ss
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 3|🇯🇵2 |  1.1MB/s
-  password: amazonskr05
+  name: 3,11,13|HK_speednode_0006
+  password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
-  server: 13.114.96.104
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇯🇵3 |  5.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.245.114
+  server: 104.251.227.182
+  skip-cert-verify: true
+  sni: hezijiasuqi.com
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: a5e99fc4-5b87-4312-aa8a-52cad1971b92
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇯🇵3 |  1.5MB/s
+  password: 13fc0e3c-9262-4c03-894c-36e4bb08b7f0
+  port: 36113
+  server: free.2weradf.xyz
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
