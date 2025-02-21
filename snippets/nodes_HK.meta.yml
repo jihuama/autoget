@@ -1,27 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 3|🇭🇰1 |  6.1MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
-  tls: false
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 3|🇭🇰2 |  1.9MB/s
-  network: tcp
-  port: 37528
-  reality-opts:
-    public-key: qBPL3e2Cip0uRxcfXzQ-BNRJep8womQRzupBMojAGH8
-    short-id: 937cf95f39945af1
-  server: 47.79.37.56
-  servername: yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: ee649780-6a77-4125-9edd-b7e72aa86efe
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
@@ -38,19 +15,11 @@ proxies:
   server: 156.245.190.23
   tfo: false
   type: ss
-- cipher: chacha20-ietf
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港4|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港5|@ripaojiedian
-  password: 2MNBVYYYB23ZF03Z
-  port: 15002
-  server: 92.113.116.11
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40000
+  server: hk.fastsoonlink.com
   tfo: false
   type: ss
