@@ -191,21 +191,63 @@ proxies:
   ws-opts: {}
 - auth: 334c4713-73ea-4e71-b827-21a22d31736b
   client-fingerprint: chrome
-  name: 3|🇺🇸1 |  1.5MB/s
+  name: 3|🇺🇸1 |  2.8MB/s
   password: 334c4713-73ea-4e71-b827-21a22d31736b
-  port: 23903
-  server: us1.xiaoliyu.cyou
+  port: 24967
+  server: br1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: us1.xiaoliyu.cyou
+  sni: br1.xiaoliyu.cyou
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 3|🇺🇸2 |  4.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.34.200.48
-  type: ss
-- client-fingerprint: chrome
-  name: 3,13|US_speednode_0101
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸2 |  1.7MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: eb93d5fa-19a5-3c33-97d6-13944c1effdf
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 3|🇺🇸3 |  2.6MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 24048
+  server: ln1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ln1.xiaoliyu.cyou
+  type: hysteria2
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 3|🇺🇸4 |  1.7MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 23847
+  server: us2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 3,13|CN_speednode_0008
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- name: 3,13|US_speednode_0101
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -219,52 +261,28 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- name: 3,13|US_speednode_0161
-  network: ws
-  port: 80
-  server: hajlab.ucdavis.edu
-  servername: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b27f4d97-2562-4867-ae20-45e625eec5f5
-  ws-opts:
-    headers:
-      Host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net
-    path: /
-- name: 3,13|US_speednode_0153
-  network: ws
-  port: 80
-  server: 66.235.200.58
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - auth: bcf89582-072f-4e16-97e2-5d1258e0100d
   client-fingerprint: chrome
-  name: 3|🇺🇸6 |  4.3MB/s
+  name: 3|🇺🇸7 |  1.0MB/s
   password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 22065
-  server: fr2.xiaoliyu.cyou
+  port: 24359
+  server: kr2.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: fr2.xiaoliyu.cyou
+  sni: kr2.xiaoliyu.cyou
   type: hysteria2
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  client-fingerprint: chrome
-  name: 3|🇺🇸7 |  2.5MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 26084
-  server: sg5.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg5.xiaoliyu.cyou
-  type: hysteria2
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸8 |  2.9MB/s
+  network: tcp
+  port: 7733
+  reality-opts:
+    public-key: bdVahzcZN694ebmTLvPE0nymHucaFWw6_h6cV5hvTlI
+    short-id: 335bfdfb
+  server: ort.gecs.top
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
 - alterId: 0
   cipher: auto
   name: 8,12|美国2|@ripaojiedian
@@ -585,6 +603,20 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@ShadowProxy66
+- name: 13|US_speednode_0153
+  network: ws
+  port: 80
+  server: 66.235.200.58
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - name: 13|US_speednode_0155
   network: ws
   port: 80
@@ -613,6 +645,20 @@ proxies:
     headers:
       Host: 49.org
     path: /telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095
+- name: 13|US_speednode_0161
+  network: ws
+  port: 80
+  server: hajlab.ucdavis.edu
+  servername: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: b27f4d97-2562-4867-ae20-45e625eec5f5
+  ws-opts:
+    headers:
+      Host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net
+    path: /
 - name: 13|US_speednode_0162
   network: ws
   port: 80
