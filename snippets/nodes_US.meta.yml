@@ -191,26 +191,43 @@ proxies:
   ws-opts: {}
 - auth: bcf89582-072f-4e16-97e2-5d1258e0100d
   client-fingerprint: chrome
-  name: 3|🇺🇸1 |  1.7MB/s
+  name: 3|🇺🇸1 |  4.7MB/s
   password: bcf89582-072f-4e16-97e2-5d1258e0100d
   port: 25444
   server: us1.xiaoliyu.cyou
   skip-cert-verify: true
   sni: us1.xiaoliyu.cyou
   type: hysteria2
+- cipher: aes-256-cfb
+  name: 3|🇺🇸2 |  7.5MB/s
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 35.87.206.35
+  type: ssr
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 3|🇺🇸3 |  5.2MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 25485
+  server: fr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: fr2.xiaoliyu.cyou
+  type: hysteria2
 - auth: bcf89582-072f-4e16-97e2-5d1258e0100d
   client-fingerprint: chrome
-  name: 3|🇺🇸2 |  2.6MB/s
+  name: 3|🇺🇸4 |  2.3MB/s
   password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 23449
-  server: us2.xiaoliyu.cyou
+  port: 23756
+  server: br1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
+  sni: br1.xiaoliyu.cyou
   type: hysteria2
-- name: 3,13|US_speednode_0159
+- name: 3,13|US_speednode_0210
   network: ws
   port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
   servername: Join--E-L-i-V-2-R-A-Y.net
   skip-cert-verify: false
   tls: false
@@ -221,82 +238,83 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- cipher: aes-256-cfb
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
   client-fingerprint: chrome
-  name: 3|🇺🇸4 |  1.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.220.99.193
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|CN_speednode_0046
-  password: 65f14831-5c67-483f-9e85-f3aa73f21187
-  port: 54082
-  server: 120.232.153.40
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 3,13|US_speednode_0246
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  servername: 49.org
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e0a4c15d-7367-4f01-9c1b-285f57938b7b
-  ws-opts:
-    headers:
-      Host: 49.org
-    path: /telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  client-fingerprint: chrome
-  name: 3|🇺🇸8 |  1.3MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 24359
-  server: kr2.xiaoliyu.cyou
+  name: 3|🇺🇸6 |  1.5MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 24967
+  server: br1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: kr2.xiaoliyu.cyou
+  sni: br1.xiaoliyu.cyou
   type: hysteria2
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
   client-fingerprint: chrome
-  name: 3|🇺🇸9 |  1.9MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 24531
+  name: 3|🇺🇸7 |  1.2MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 23847
   server: us2.xiaoliyu.cyou
   skip-cert-verify: true
   sni: us2.xiaoliyu.cyou
   type: hysteria2
-- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
-  client-fingerprint: chrome
-  name: 3|🇺🇸10 |  2.9MB/s
-  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
-  port: 30102
-  server: ca12.bethebest.eu.org
-  skip-cert-verify: true
-  sni: du.wish.ml
-  type: hysteria2
 - cipher: aes-256-cfb
-  name: 3|🇺🇸11 |  3.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.194.186.197
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇺🇸12 |  5.4MB/s
+  name: 3|🇺🇸8 |  3.9MB/s
   obfs: plain
   password: amazonskr05
   port: 443
   protocol: origin
   server: 52.41.168.231
   type: ssr
+- client-fingerprint: chrome
+  name: 3|🇺🇸9 |  4.8MB/s
+  network: ws
+  port: 80
+  server: 198.41.208.231
+  servername: cc.ailicf.us.kg
+  tls: false
+  type: vless
+  udp: true
+  uuid: b5cdabf0-e048-4fa2-90da-9379b1a4926e
+  ws-opts:
+    headers:
+      Host: cc.ailicf.us.kg
+    path: /b5cdabf0-e04
+- auth: 334c4713-73ea-4e71-b827-21a22d31736b
+  client-fingerprint: chrome
+  name: 3|🇺🇸10 |  1.0MB/s
+  password: 334c4713-73ea-4e71-b827-21a22d31736b
+  port: 22123
+  server: kr2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: kr2.xiaoliyu.cyou
+  type: hysteria2
+- name: 3,13|US_speednode_0217
+  network: ws
+  port: 80
+  server: join.eliv2.ray.fastly80-3.hosting-ip.com
+  servername: JoinChannel--ELiV2--ELiV2.iR
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a9784d56-8975-4b13-9e62-84da185fd889
+  ws-opts:
+    headers:
+      Host: JoinChannel--ELiV2--ELiV2.iR
+    path: /telegram-ELiV2RAY---telegram-ELiV2RAY---telegram-ELiV2RAY---telegram-ELiV2RAY---telegram-ELiV2RAY---telegram-ELiV2RAY?ed=2560
+- name: 3,13|US_speednode_0235
+  network: ws
+  port: 80
+  server: 104.20.43.197
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
 - alterId: 2
   cipher: auto
   name: 8|2|🇺🇸5 |  6.0MB/s
@@ -396,6 +414,30 @@ proxies:
   server: 23.185.248.13
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|美国2|@ripaojiedian
+  network: tcp
+  port: '13447'
+  server: 23.236.68.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e41fa05-75d0-4d8c-9e23-41e2e7a8fa9f
+- name: 13|US_speednode_0159
+  network: ws
+  port: 80
+  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 13|US_speednode_0219
   network: ws
   port: 80
@@ -480,20 +522,6 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0210
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - client-fingerprint: chrome
   name: 13|US_speednode_0211
   network: ws
@@ -504,20 +532,6 @@ proxies:
   type: vless
   udp: true
   uuid: b7101472-8e4c-47bb-db35-f1cf1c89f543
-- name: 13|US_speednode_0217
-  network: ws
-  port: 80
-  server: join.eliv2.ray.fastly80-3.hosting-ip.com
-  servername: JoinChannel--ELiV2--ELiV2.iR
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: a9784d56-8975-4b13-9e62-84da185fd889
-  ws-opts:
-    headers:
-      Host: JoinChannel--ELiV2--ELiV2.iR
-    path: /telegram-ELiV2RAY---telegram-ELiV2RAY---telegram-ELiV2RAY---telegram-ELiV2RAY---telegram-ELiV2RAY---telegram-ELiV2RAY?ed=2560
 - name: 13|US_speednode_0218
   network: ws
   port: 8080
@@ -578,20 +592,6 @@ proxies:
   network: ws
   port: 80
   server: 66.235.200.30
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
-- name: 13|US_speednode_0235
-  network: ws
-  port: 80
-  server: 104.20.43.197
   servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
   tls: false
@@ -665,6 +665,20 @@ proxies:
     headers:
       Host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net
     path: /
+- name: 13|US_speednode_0246
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  servername: 49.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e0a4c15d-7367-4f01-9c1b-285f57938b7b
+  ws-opts:
+    headers:
+      Host: 49.org
+    path: /telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee,telegram-v2safee?ed=2095
 - name: 13|US_speednode_0247
   network: ws
   port: 80
