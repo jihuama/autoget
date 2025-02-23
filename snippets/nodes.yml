@@ -388,59 +388,108 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 3|🌀1- |  1.9MB/s
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9f9e7f7b-2b70-3a8e-ace3-d7921de507e6
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11,13|US_speednode_0203
-  password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
+  name: 3,11|🇺🇸 美国2|@ripaojiedian
+  password: '3747000103274291200'
   port: 443
-  server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
-  skip-cert-verify: true
-  sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen
+  server: fluent-bat.treefrog761.one
+  skip-cert-verify: false
+  sni: fluent-bat.treefrog761.one
   tfo: false
   tls: false
   type: trojan
   udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 3,11|🇯🇵 日本5|@ripaojiedian
+  obfs: plain
+  obfs-param: c499e93390.wns.windows.com
+  password: mtbv8n
+  port: 1454
+  protocol: auth_aes128_md5
+  protocol-param: 93390:TDWk1JwybHq
+  server: relayjp4.vip.primeconectin.pro
+  type: ssr
 - cipher: aes-256-cfb
-  name: 3,13|SG_speednode_0118
+  client-fingerprint: chrome
+  name: 3|🇺🇸4 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.244.78.72
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇺🇸5 |  3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.94.23.23
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇺🇸7 |  2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.41.168.231
+  type: ss
+- cipher: aes-256-cfb
+  name: 3,13|SG_speednode_0079
   password: amazonskr05
   port: 443
   server: 13.229.180.183
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  delay: 241
-  name: 3|🇫🇷1 |  1.0MB/s
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  type: ss
 - cipher: aes-256-cfb
-  name: 3|🇺🇸8 |  1.1MB/s
+  client-fingerprint: chrome
+  name: 3|🇺🇸10 |  1.9MB/s
   password: amazonskr05
   port: 443
-  server: 18.236.132.239
+  server: 35.160.134.223
   type: ss
+- cipher: aes-256-cfb
+  name: 3|🇺🇸12 |  3.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.220.174.155
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 3,11|🇭🇰 香港9|@ripaojiedian
+  obfs: plain
+  obfs-param: c499e93390.wns.windows.com
+  password: mtbv8n
+  port: 578
+  protocol: auth_aes128_md5
+  protocol-param: 93390:TDWk1JwybHq
+  server: bgphk5.vip.primeconectin.pro
+  type: ssr
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3,11|🇭🇰 香港4|@ripaojiedian
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  delay: 1048
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇩🇪1 |  28.7MB/s
+  network: ws
+  port: 443
+  server: eu9.998998.best
+  servername: server54-4.998877.best
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
+  ws-opts:
+    headers:
+      HOST: server54-4.998877.best
+    path: /jsedr6deersed6h?ed=2560
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1161,14 +1210,6 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港4|@ripaojiedian
-  password: LZQ0R9BL69GCC6FS
-  port: 15005
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
   name: 11|🇭🇰 香港5|@ripaojiedian
   password: 2H98UZT9LT1TE3X9
   port: 15008
@@ -1189,6 +1230,30 @@ proxies:
   password: TCEL1H0XD7TWAKI0
   port: 15011
   server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港8|@ripaojiedian
+  password: 777bc05be0dd624959fb
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45905
+  server: console.03.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾|@ripaojiedian
+  password: 3e26a8cfb09fda219b36
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45573
+  server: console.03.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -1215,6 +1280,17 @@ proxies:
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾5|@ripaojiedian
+  obfs: plain
+  obfs-param: c499e93390.wns.windows.com
+  password: mtbv8n
+  port: 1206
+  protocol: auth_aes128_md5
+  protocol-param: 93390:TDWk1JwybHq
+  server: aiatw6.primeconectin.pro
+  type: ssr
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -1237,6 +1313,18 @@ proxies:
   password: 84HMRAWILKB49QUZ
   port: 18002
   server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡|@ripaojiedian
+  password: f4cd0a554e9d0558c581
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45917
+  server: console.03.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -1279,31 +1367,39 @@ proxies:
   server: 54.169.104.136
   tfo: false
   type: ss
-- cipher: rc4-md5
-  name: 13|CN_speednode_0006
+- cipher: chacha20-ietf
+  name: 12|6aaZ5rivOXxAcmlwYW9qaWVkaWFu
   obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40239
+  obfs-param: YzQ5OWU5MzM5MC53bnMud2luZG93cy5jb20
+  password: mtbv8n
+  port: '578'
   protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 3.link-hub.click
+  protocol-param: OTMzOTA6VERXazFKd3liSHE
+  server: bgphk5.vip.primeconectin.pro
   type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 13|CN_speednode_0007
+- cipher: chacha20-ietf
+  name: 12|5Y-w5rm-NXxAcmlwYW9qaWVkaWFu
   obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40238
+  obfs-param: YzQ5OWU5MzM5MC53bnMud2luZG93cy5jb20
+  password: mtbv8n
+  port: '1206'
   protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 3.link-hub.click
+  protocol-param: OTMzOTA6VERXazFKd3liSHE
+  server: aiatw6.primeconectin.pro
   type: ssr
-  udp: true
+- cipher: chacha20-ietf
+  name: 12|5pel5pysNXxAcmlwYW9qaWVkaWFu
+  obfs: plain
+  obfs-param: YzQ5OWU5MzM5MC53bnMud2luZG93cy5jb20
+  password: mtbv8n
+  port: '1454'
+  protocol: auth_aes128_md5
+  protocol-param: OTMzOTA6VERXazFKd3liSHE
+  server: relayjp4.vip.primeconectin.pro
+  type: ssr
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0008
+  name: 13|CN_speednode_0003
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
@@ -1318,22 +1414,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0009
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 13|CN_speednode_0012
+  name: 13|CN_speednode_0005
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -1349,7 +1430,22 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0011
+  name: 13|CN_speednode_0006
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0007
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -1364,7 +1460,7 @@ proxies:
       Host: tk.hzlt.tkddns.xyz
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 13|GB_speednode_0035
+  name: 13|GB_speednode_0015
   password: vcUpZCJzOuaVoN8OL2cYvK
   port: 443
   server: 78.129.140.11
@@ -1372,26 +1468,11 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 13|HK_speednode_0039
-  network: ws
-  port: 443
-  server: hk2.x-net.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a6057e0b-2591-4175-b089-872e449426c4
-  ws-opts:
-    headers:
-      Host: hk2.x-net.vip
-    path: /index
-- alterId: 0
-  cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 13|HK_speednode_0040
+  name: 13|HK_speednode_0019
   network: http
   port: 30704
   server: 43.247.135.63
@@ -1400,14 +1481,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- cipher: aes-128-gcm
-  name: 13|NL_speednode_0086
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.82
-  type: ss
-  udp: true
-- name: 13|SC_speednode_0116
+- name: 13|SC_speednode_0078
   network: ws
   password: Aimer
   port: 2087
@@ -1420,7 +1494,7 @@ proxies:
     headers:
       Host: agepy.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 13|SG_speednode_0133
+- name: 13|SG_speednode_0088
   network: ws
   password: Aimer
   port: 2087
@@ -1434,84 +1508,16 @@ proxies:
       Host: agepy.ambercc.filegear-sg.me
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 13|SI_speednode_0134
-  password: PPXb8J2ciDybokWl7kxKab
-  port: 51587
-  server: free2.okkserver.tech
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|TR_speednode_0135
+  name: 13|TR_speednode_0089
   password: LytryZ13mUEWLx2hKFJvM8
   port: 65262
   server: h110vpntr.outlinekeys.net
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 13|TW_speednode_0136
+  name: 13|TW_speednode_0090
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.223.20.79
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 13|US_speednode_0186
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 67.220.95.230
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 13|US_speednode_0197
-  network: ws
-  port: 30000
-  server: www.39676427.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a
-  ws-opts:
-    headers:
-      Host: www.39676427.xyz
-    path: /path/191019072927
-- name: 13|US_speednode_0198
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 108.165.152.59
-  skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 13|US_speednode_0199
-  network: ws
-  password: Pooria
-  port: 443
-  server: 104.17.148.22
-  skip-cert-verify: false
-  sni: 301.pOORiAm.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 301.pOORiAm.ir
-    path: /trPyOrWMfkHd15oxiI?ed=1520
-- name: 13|US_speednode_0202
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.36
-  skip-cert-verify: false
-  sni: agepy.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepy.ambercc.filegear-sg.me
-    path: /?ed=2560
