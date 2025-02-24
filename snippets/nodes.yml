@@ -389,10 +389,18 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 3|🇨🇦1 |  20.9MB/s
+  name: 3|🇸🇬1 |  6.1MB/s
   password: amazonskr05
   port: 443
-  server: 47.129.7.198
+  server: 13.229.55.109
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3,11|🇭🇰 香港2|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -409,69 +417,57 @@ proxies:
   udp: true
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰1 |  5.8MB/s
+  client-fingerprint: chrome
+  name: 3,11|🇭🇰 香港8|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52613
-  server: 111.29.57.125
+  port: 52612
+  server: hk02.x.quickcht3.club
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 3|🇨🇦2 |  6.0MB/s
+  name: 3|🇺🇸7 |  1.1MB/s
   password: amazonskr05
   port: 443
-  server: 47.128.150.63
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇦1 |  1.5MB/s
-  password: YTNjNDY5
-  port: 8388
-  server: 185.234.64.35
+  server: 3.38.214.76
   type: ss
 - cipher: aes-256-cfb
-  name: 3|🇺🇸7 |  7.6MB/s
+  name: 3|🇺🇸8 |  5.6MB/s
   password: amazonskr05
   port: 443
-  server: 35.87.185.129
+  server: 34.220.174.155
   type: ss
 - cipher: aes-256-cfb
-  name: 3|🇸🇬1 |  4.3MB/s
+  name: 3|🇰🇷1 |  5.2MB/s
   password: amazonskr05
   port: 443
-  server: 54.254.169.121
+  server: 54.180.133.38
   type: ss
 - cipher: aes-256-cfb
-  name: 3|🇺🇸9 |  3.2MB/s
+  name: 3|🇺🇸13 |  2.1MB/s
   password: amazonskr05
   port: 443
-  server: 34.212.9.157
+  server: 54.213.120.25
   type: ss
 - cipher: aes-256-cfb
-  name: 3|🇺🇸10 |  1.3MB/s
+  name: 3|🇷🇺2 |  14.4MB/s
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇺🇸14 |  2.3MB/s
   password: amazonskr05
   port: 443
-  server: 52.32.166.45
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇯🇵2 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.197.84.70
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇷🇺1 |  1.8MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+  server: 54.244.0.4
   type: ss
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸13 |  2.0MB/s
+  name: 8|2|🇺🇸13 |  2.0MB/s
   network: ws
   port: 23617
   server: 17.mamamajd.site
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 41fcdfba-b5c4-3ad5-9f41-1aa49a3e959d
   ws-opts:
     headers:
@@ -479,44 +475,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3|🌀1- |  1.2MB/s
+  name: 8|2|🌀1- |  1.2MB/s
   network: ws
   port: 20330
   server: 45.144.174.12
   tls: false
   type: vmess
-  udp: true
   uuid: beaad91b-40cb-4aa5-9bc8-b412a023f1ca
   ws-opts:
     path: /
-- alterId: 2
-  cipher: auto
-  name: 8|1|🇺🇸1 |  1.3MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 41fcdfba-b5c4-3ad5-9f41-1aa49a3e959d
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 8,13|HK_speednode_0016
-  network: http
-  port: 30704
-  server: 43.247.135.63
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
 - alterId: 0
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
@@ -668,14 +635,6 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港4|@ripaojiedian
@@ -706,14 +665,6 @@ proxies:
   password: TCEL1H0XD7TWAKI0
   port: 15011
   server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港8|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -921,6 +872,21 @@ proxies:
   server: 78.129.140.11
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|HK_speednode_0016
+  network: http
+  port: 30704
+  server: 43.247.135.63
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
 - cipher: aes-256-cfb
   name: 13|TW_speednode_0068
   password: f8f7aCzcPKbsF8p3
