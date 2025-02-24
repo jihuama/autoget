@@ -5,6 +5,18 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-cfb
+  name: 3|🇸🇬1 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.188.250
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇸🇬2 |  3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.215.32
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
@@ -61,17 +73,3 @@ proxies:
   server: 13.229.82.37
   tfo: false
   type: ss
-- name: 13|SG_speednode_0064
-  network: ws
-  port: 443
-  server: 8.219.202.145
-  servername: dob.fenmila.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 038562dc-6958-4ce7-eae2-887d8a1bee2a
-  ws-opts:
-    headers:
-      Host: dob.fenmila.me
-    path: /bing
