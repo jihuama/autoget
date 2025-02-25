@@ -189,26 +189,16 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+- auth: d839f04d-3879-46f5-82fa-feb8b4162f9f
   client-fingerprint: chrome
-  name: 3|🇺🇸1 |  3.3MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 23231
-  server: us2.xiaoliyu.cyou
+  name: 3|🇺🇸1 |  3.8MB/s
+  password: d839f04d-3879-46f5-82fa-feb8b4162f9f
+  port: 30102
+  server: ca12.bethebest.eu.org
   skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
+  sni: du.wish.ml
   type: hysteria2
-- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
-  client-fingerprint: chrome
-  name: 3|🇺🇸2 |  2.2MB/s
-  password: bcf89582-072f-4e16-97e2-5d1258e0100d
-  port: 24928
-  server: gb1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: gb1.xiaoliyu.cyou
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 3,13|US_speednode_0069
+- name: 3,13|US_speednode_0065
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -222,23 +212,55 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- client-fingerprint: chrome
-  name: 3|🇺🇸4 |  4.4MB/s
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  client-fingerprint: chrome
+  name: 3|🇺🇸3 |  4.7MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 25444
+  server: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us1.xiaoliyu.cyou
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸4 |  6.2MB/s
   network: ws
-  port: 2052
-  server: 104.17.147.22
-  servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
   tls: false
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  type: vmess
+  udp: true
+  uuid: c8eecd08-d056-351f-9701-edec6e693f64
   ws-opts:
     headers:
-      Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
-    path: /WG9SqpThFFMyTenz?ed=2560
-- name: 3,13|US_speednode_0104
+      Host: 17.mamamajd.site
+    path: /
+- client-fingerprint: chrome
+  name: 3|🇺🇸5 |  6.5MB/s
+  network: ws
+  port: 443
+  server: 8.216.130.173
+  servername: sga.kddhs.asia
+  tls: true
+  type: vless
+  uuid: c4ade83b-a52f-48fd-ca5b-d03035b21239
+  ws-opts:
+    headers:
+      Host: sga.kddhs.asia
+    path: /bing
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸6 |  2.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.212.0.149
+  type: ss
+- name: 3,13|US_speednode_0103
   network: ws
   port: 80
-  server: 66.235.200.5
+  server: 66.235.200.30
   servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
   tls: false
@@ -248,32 +270,79 @@ proxies:
   ws-opts:
     headers:
       Host: pormang.webhost99.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: 3|🇺🇸7 |  1.7MB/s
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- cipher: aes-256-gcm
+  name: 3|🇺🇸8 |  6.4MB/s
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  port: 21159
+  server: 581023.horace.im
+  type: ss
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  client-fingerprint: chrome
+  name: 3|🇺🇸9 |  3.1MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 25644
+  server: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: gb1.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 3|🇺🇸10 |  6.1MB/s
+  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
+  port: 21113
+  server: 581023.horace.im
+  type: ss
+- name: 3|🇺🇸11 |  5.0MB/s
   network: ws
   port: 2095
   server: 156.238.18.163
   skip-cert-verify: false
-  tls: false
   type: vless
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1fp
+- auth: bcf89582-072f-4e16-97e2-5d1258e0100d
+  client-fingerprint: chrome
+  name: 3|🇺🇸12 |  3.2MB/s
+  password: bcf89582-072f-4e16-97e2-5d1258e0100d
+  port: 24668
+  server: ln1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ln1.xiaoliyu.cyou
+  type: hysteria2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸13 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.33.5.226
+  type: ss
+- name: 3|🇺🇸14 |  10.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 2
   cipher: auto
-  name: 8|2|🇺🇸13 |  2.0MB/s
+  name: 3|🇺🇸15 |  5.8MB/s
   network: ws
-  port: 23617
-  server: 17.mamamajd.site
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
   tls: false
   type: vmess
-  uuid: 41fcdfba-b5c4-3ad5-9f41-1aa49a3e959d
+  udp: true
+  uuid: c8eecd08-d056-351f-9701-edec6e693f64
   ws-opts:
     headers:
-      Host: 17.mamamajd.site
+      Host: 13.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
@@ -351,7 +420,7 @@ proxies:
   server: 23.154.136.148
   tfo: false
   type: ss
-- name: 13|US_speednode_0090
+- name: 13|US_speednode_0086
   network: ws
   port: 80
   server: 104.26.14.85
@@ -365,7 +434,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 13|US_speednode_0110
+- name: 13|US_speednode_0106
   network: ws
   port: 80
   server: 172.67.73.163
@@ -379,7 +448,7 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
-- name: 13|US_speednode_0097
+- name: 13|US_speednode_0093
   network: ws
   port: 80
   server: 66.235.200.58
@@ -393,7 +462,21 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0105
+- name: 13|US_speednode_0100
+  network: ws
+  port: 80
+  server: 66.235.200.5
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /
+- name: 13|US_speednode_0101
   network: ws
   port: 80
   server: 66.235.200.149
@@ -407,21 +490,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0107
-  network: ws
-  port: 80
-  server: 66.235.200.30
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0106
+- name: 13|US_speednode_0102
   network: ws
   port: 80
   server: 66.235.200.222
@@ -435,7 +504,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0109
+- name: 13|US_speednode_0105
   network: ws
   port: 80
   server: 66.235.200.191
@@ -449,7 +518,7 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- name: 13|US_speednode_0112
+- name: 13|US_speednode_0108
   network: ws
   port: 2052
   server: www.speedtest.net
@@ -463,7 +532,7 @@ proxies:
     headers:
       Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
     path: /?ed=1080
-- name: 13|US_speednode_0113
+- name: 13|US_speednode_0109
   network: ws
   port: 443
   server: 45.62.114.221
