@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 3|🇯🇵1 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.245.114
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -19,6 +13,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
+- auth: 8b3db529-47d5-41ae-b00d-008517110fce
+  client-fingerprint: chrome
+  name: 3|🇯🇵2 |  1.2MB/s
+  password: 8b3db529-47d5-41ae-b00d-008517110fce
+  port: 35801
+  server: rb.sytcloud.top
+  skip-cert-verify: true
+  sni: rb.sytcloud.top
+  type: hysteria2
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
