@@ -1,4 +1,24 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11|🇺🇸 美国|@ripaojiedian
+  password: Vad3.123a)asd1234-asdasd.asdazzS.123
+  port: 50004
+  server: 50004.baidu-cdn.top
+  skip-cert-verify: false
+  sni: xx.tc.hk.go.107421.xyz
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
+- cipher: aes-256-cfb
+  name: 3|🇯🇵3 |  2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.216.127
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -26,20 +46,21 @@ proxies:
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本4|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40254
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 3.link-hub.click
-  type: ssr
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 20c0d292462.microsoft.com
+    mode: http
+  port: 4602
+  server: pr3.jymzffbquawl.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.128.150.63
+  server: 3.38.214.76
   tfo: false
   type: ss
 - name: 13|JP_speednode_0022
