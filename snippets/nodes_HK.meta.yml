@@ -1,13 +1,30 @@
 proxies:
-- name: 3|🇭🇰1 |  5.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- client-fingerprint: chrome
+  name: 3|🇭🇰1 |  5.2MB/s
+  network: ws
   port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
+  server: 8.212.104.247
+  servername: clawhk.costs.asia
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: vless
+  uuid: a5c6f225-4cb9-4e58-edea-1e0793b656b7
+  ws-opts:
+    headers:
+      Host: clawhk.costs.asia
+    path: /bing
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰2 |  1.4MB/s
+  network: tcp
+  port: 50095
+  server: 120.198.71.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.219
+  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
