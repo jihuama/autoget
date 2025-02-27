@@ -388,19 +388,30 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   client-fingerprint: chrome
-  down: 55 Mbps
-  name: 3|🇺🇸1 |  5.8MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
+  name: 3|🇺🇸1 |  1.6MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: fh5.su8.lol
+  skip-cert-verify: false
+  sni: fh5.su8.lol
+  type: hysteria2
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  client-fingerprint: chrome
+  name: 3|🌀1- |  1.8MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: dg2.su8.lol
+  skip-cert-verify: false
+  sni: dg2.su8.lol
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 3|🇺🇸2 |  3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.212.0.149
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -415,17 +426,32 @@ proxies:
   type: vmess
   udp: true
   uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇯🇵2 |  3.6MB/s
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  client-fingerprint: chrome
+  name: 3|🇳🇱1 |  3.6MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: fhmx1.su8.lol
+  skip-cert-verify: false
+  sni: fhmx1.su8.lol
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 3|🇺🇸4 |  5.3MB/s
+  password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
-  server: japan-4.keenvpn.me
+  server: 143.198.235.49
+  skip-cert-verify: true
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 3|🇺🇸5 |  1.0MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.143.66.99
   type: ss
-  udp: true
-- name: 3,13|US_speednode_0084
+- name: 3,13|RU_speednode_0048
   network: ws
   port: 80
-  server: 66.235.200.58
+  server: 185.174.138.194
   servername: pormang.webhost99.workers.dev
   skip-cert-verify: false
   tls: false
@@ -436,174 +462,158 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-- cipher: rc4-md5
-  name: 3|🌀1- |  2.1MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 159.65.149.67
+- cipher: aes-256-gcm
+  name: 3|🇺🇸7 |  1.0MB/s
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 69.50.95.115
   type: ss
-- client-fingerprint: chrome
-  name: 3|🇺🇸4 |  14.4MB/s
-  network: tcp
-  port: 443
-  server: 15.204.151.43
-  servername: 147135001195.sec22org.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
   udp: true
-  uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- cipher: aes-256-cfb
-  name: 3|🇸🇬2 |  10.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.55.109
-  type: ss
 - auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   client-fingerprint: chrome
-  name: 3|🌀2- |  1.0MB/s
+  name: 3|🌀2- |  1.6MB/s
   password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   port: 8899
   server: yingguo1.su8.lol
   skip-cert-verify: false
   sni: yingguo1.su8.lol
   type: hysteria2
-- name: 3|🇺🇸5 |  2.0MB/s
+- cipher: aes-256-gcm
+  name: 3|🇺🇸8 |  1.0MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.143.66.99
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸9 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.185.211.74
+  type: ss
+- name: 3|🇯🇵1 |  2.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: usgp3-cdn-route.couldflare-cdn.com
+  server: jpgmo101-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
-  sni: usgp3-cdn-route.couldflare-cdn.com
+  sni: jpgmo101-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 3|🇯🇵3 |  4.8MB/s
+- name: 3|🇭🇰1 |  5.3MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
+  server: hkre1-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
+  sni: hkre1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇯🇵4 |  5.9MB/s
+  name: 3|🇺🇸10 |  5.6MB/s
   password: amazonskr05
   port: 443
-  server: 35.72.9.98
+  server: 34.211.97.239
   type: ss
-- name: 3,13|US_speednode_0091
+- cipher: aes-256-cfb
+  name: 3|🇺🇸11 |  4.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.33.5.226
+  type: ss
+- client-fingerprint: chrome
+  name: 3,13|US_speednode_0056
   network: ws
   port: 80
-  server: 66.235.200.5
-  servername: pormang.webhost99.workers.dev
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: pormang.webhost99.workers.dev
-    path: /
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 3|🇺🇸13 |  3.0MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   client-fingerprint: chrome
-  name: 3|🇬🇧2 |  1.2MB/s
+  name: 3|🇩🇪1 |  2.0MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: fl.su8.lol
+  skip-cert-verify: false
+  sni: fl.su8.lol
+  type: hysteria2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇸🇬1 |  9.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.213.53.194
+  type: ss
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  client-fingerprint: chrome
+  name: 3|🇬🇧1 |  3.0MB/s
   password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   port: 8899
   server: dg3.su8.lol
   skip-cert-verify: false
   sni: dg3.su8.lol
   type: hysteria2
+- client-fingerprint: chrome
+  name: 3|🇫🇷1 |  1.3MB/s
+  password: dongtaiwang.com
+  port: 13861
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   client-fingerprint: chrome
-  name: 3|🇯🇵5 |  2.5MB/s
+  name: 3|🇺🇸15 |  5.2MB/s
   password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   port: 8899
-  server: shouer2.su8.lol
+  server: fenghuang1.su8.lol
   skip-cert-verify: false
-  sni: shouer2.su8.lol
+  sni: fenghuang1.su8.lol
   type: hysteria2
-- cipher: aes-256-cfb
+- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
   client-fingerprint: chrome
-  name: 3|🇸🇬3 |  1.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.221.195.154
-  type: ss
+  name: 3|🇺🇸16 |  4.1MB/s
+  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
+  port: 8899
+  server: dg1.su8.lol
+  skip-cert-verify: false
+  sni: dg1.su8.lol
+  type: hysteria2
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3,11|🇸🇬 新加坡5|@ripaojiedian
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- auth: b546e98f-967a-4e95-aa67-4cdd6c1b9677
-  client-fingerprint: chrome
-  name: 3|🇺🇸7 |  2.3MB/s
-  password: b546e98f-967a-4e95-aa67-4cdd6c1b9677
-  port: 10002
-  server: 50.114.152.111
-  skip-cert-verify: true
-  type: hysteria2
-- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
-  client-fingerprint: chrome
-  name: 3|🇺🇸8 |  2.7MB/s
-  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
-  port: 8899
-  server: yingguo2.su8.lol
-  skip-cert-verify: false
-  sni: yingguo2.su8.lol
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 3|🌀4- |  3.6MB/s
-  network: ws
-  port: 80
-  server: ffa41b.5d8ecf82.cfd
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4bf074f4-7e9c-4e4b-a10d-156e26199729
-  ws-opts:
-    headers:
-      Host: us03s.5d8ecf82.cfd
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇸🇬4 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.254.62.242
-  type: ss
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 3|🇺🇸9 |  1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.220.174.155
-  tls: false
+  name: 3|🇺🇸17 |  1.0MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 69.50.95.115
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 3|🇺🇸10 |  6.1MB/s
-  network: tcp
-  port: 44014
-  server: 120.198.71.219
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- auth: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
-  client-fingerprint: chrome
-  name: 3|🇺🇸11 |  5.0MB/s
-  password: 999fe97a-5cd1-4f9f-9826-85db2b50a6ef
-  port: 8899
-  server: shenghesai1.su8.lol
-  skip-cert-verify: false
-  sni: shenghesai1.su8.lol
-  type: hysteria2
+- cipher: rc4-md5
+  name: 3|🌀3- |  4.2MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 159.65.149.67
+  type: ss
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1410,6 +1420,14 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡5|@ripaojiedian
+  password: 0407WKIEIXMTLGC6
+  port: 16007
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
@@ -1530,20 +1548,6 @@ proxies:
     headers:
       Host: pormang.webhost99.workers.dev
     path: /
-- name: 13|RU_speednode_0048
-  network: ws
-  port: 80
-  server: 185.174.138.194
-  servername: pormang.webhost99.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-  ws-opts:
-    headers:
-      Host: pormang.webhost99.workers.dev
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
 - name: 13|RU_speednode_0047
   network: ws
   port: 8080
@@ -1607,20 +1611,6 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
-- name: 13|US_speednode_0056
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 13|US_speednode_0077
   network: ws
   port: 80
@@ -1648,6 +1638,34 @@ proxies:
   ws-opts:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
+    path: /
+- name: 13|US_speednode_0084
+  network: ws
+  port: 80
+  server: 66.235.200.58
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+- name: 13|US_speednode_0091
+  network: ws
+  port: 80
+  server: 66.235.200.5
+  servername: pormang.webhost99.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+  ws-opts:
+    headers:
+      Host: pormang.webhost99.workers.dev
     path: /
 - name: 13|US_speednode_0092
   network: ws
