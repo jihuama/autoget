@@ -189,12 +189,36 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-cfb
-  name: 3|🇺🇸1 |  1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.220.211.62
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸4 |  5.3MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9733ac76-ae96-3ed6-b89d-9427ab4b4983
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸11 |  1.3MB/s
+  network: ws
+  port: 23618
+  server: 18.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9733ac76-ae96-3ed6-b89d-9427ab4b4983
+  ws-opts:
+    headers:
+      Host: 18.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
