@@ -388,92 +388,97 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: aes-128-cfb
+  name: 3|🇺🇸2 |  1.6MB/s
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇸🇬1 |  2.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.62.242
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 3|🌀1- |  3.3MB/s
+  network: ws
+  port: 23612
+  server: 12.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ec63b096-9bcf-315a-9776-ac52ff90cd95
+  ws-opts:
+    headers:
+      Host: 12.mamamajd.site
+    path: /
+- cipher: chacha20-ietf
+  name: 3|🌏1 |  1.5MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇨🇦1 |  1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.8.153
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11|🇭🇰 香港9|@ripaojiedian
-  password: Vad3.123a)asd1234-asdasd.asdazzS.123
-  port: 48889
-  server: gy.youaremygod.top
+  name: 3,11|🇭🇰 香港10|@ripaojiedian
+  password: Vad3.123a%2529asd1234-asdasd.asdazzS.123
+  port: 443
+  server: 43.154.83.213
   skip-cert-verify: false
   sni: xx.tc.hk.go.107421.xyz
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
-- alterId: '0'
-  cipher: auto
-  name: 3|🇺🇸2 |  1.3MB/s
-  network: tcp
-  port: 48919
-  server: 183.236.51.38
-  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: 3|🇭🇰1 |  2.2MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
+  name: 3|🇸🇬2 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.140.3.253
   type: ss
 - cipher: chacha20-ietf
+  client-fingerprint: chrome
   country: 🇭🇰HK
   delay: 180
-  name: 3|🌏1 |  1.2MB/s
+  name: 3|🌏2 |  3.2MB/s
   password: asd123456
   port: 8388
   server: 103.149.183.61
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇰🇷1 |  5.3MB/s
-  password: 828f4879-74d5-4936-94e1-f8423d999fe7
-  port: 36313
+  name: 3|🇺🇸5 |  4.4MB/s
+  password: 5f7faba7-3b48-4fd4-83f8-0497236b37e3
+  port: 36741
   server: free.2weradf.xyz
   type: ss
 - cipher: aes-256-cfb
-  name: 3|🇯🇵2 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.216.127
+  name: 3|🇭🇰2 |  5.2MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇹🇼1 |  2.1MB/s
+  password: 5f7faba7-3b48-4fd4-83f8-0497236b37e3
+  port: 36241
+  server: free.2weradf.xyz
   type: ss
 - cipher: aes-256-cfb
-  name: 3|🇨🇦2 |  6.3MB/s
+  name: 3|🇯🇵1 |  2.9MB/s
   password: amazonskr05
   port: 443
-  server: 47.129.8.153
-  type: ss
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 3|🇺🇸3 |  3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.32.166.45
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 3|🇺🇸4 |  5.3MB/s
-  network: ws
-  port: 443
-  server: mix1.998998.best
-  servername: jp1-2.zfork.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
-  ws-opts:
-    headers:
-      HOST: jp1-2.zfork.com
-    path: /wpmckfpajfng?ed=2560
-- cipher: aes-256-cfb
-  name: 3|🇯🇵5 |  8.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.1.95
+  server: 54.238.247.32
   type: ss
 - alterId: 64
   cipher: auto
@@ -1206,18 +1211,18 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾4|@ripaojiedian
-  password: HQJQFA7U2Z5HGZWH
-  port: 21003
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
   name: 11|🇹🇼 台湾3|@ripaojiedian
   password: Y2U58S90E3GST1AQ
   port: 21001
   server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾4|@ripaojiedian
+  password: HQJQFA7U2Z5HGZWH
+  port: 21003
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -1247,9 +1252,9 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
-  password: B5CJMEHJMSMNQ120
-  port: 16012
-  server: w72tapyb.slashdevslashnetslashtun.net
+  password: 0407WKIEIXMTLGC6
+  port: 16007
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -1262,34 +1267,29 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡5|@ripaojiedian
-  password: 0407WKIEIXMTLGC6
-  port: 16007
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡4|@ripaojiedian
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
   password: IHWLYZSSSX4GSKLA
   port: 16013
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇺🇸 美国|@ripaojiedian
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 69.50.93.111
-  tfo: false
-  type: ss
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40211
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.250.96.5
+  server: 47.129.151.205
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1297,7 +1297,7 @@ proxies:
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.78.98.113
+  server: 13.250.31.115
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1305,19 +1305,29 @@ proxies:
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.229.59.137
+  server: 18.143.187.178
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   name: 12|香港9|@ripaojiedian
   network: tcp
-  port: '48889'
-  server: gy.youaremygod.top
+  port: '42120'
+  server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess
-  uuid: c130cb36-c93f-4be7-9228-a7a97d43885a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: 12|576O5Zu9fEByaXBhb2ppZWRpYW4
+  obfs: plain
+  obfs-param: Y2QyYjY5MjkwMi42NjAyYjg0NjM0NjQxMDg1MDYubWljcm9zb2Z0LmNvbQ
+  password: ENZ52K
+  port: '40211'
+  protocol: auth_aes128_md5
+  protocol-param: OTI5MDI6cEZXR09R
+  server: 2.hublink.pro
+  type: ssr
 - cipher: aes-256-cfb
   name: 13|TW_speednode_0055
   password: f8f7aCzcPKbsF8p3
