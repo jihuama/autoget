@@ -189,20 +189,17 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- client-fingerprint: chrome
-  name: 3|🇺🇸1 |  4.1MB/s
-  network: ws
-  port: 80
-  server: 104.21.58.212
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 5a4e040a-8de6-4222-bd6f-9f535b8772fd
-  ws-opts:
-    headers:
-      Host: calm-violet-0e47.pomofoc222.workers.dev
-    path: /lrJO6NEVRGHecfbo?ed=2560
-- name: 3|🇺🇸2 |  2.9MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸1 |  5.8MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.d3.gladns.com
+  type: ss
+- name: 3|🇺🇸2 |  3.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: usgp3-cdn-route.couldflare-cdn.com
@@ -211,53 +208,92 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 3|🇺🇸4 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.212.0.149
-  type: ss
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸6 |  4.3MB/s
-  network: tcp
-  port: 7733
-  reality-opts:
-    public-key: bdVahzcZN694ebmTLvPE0nymHucaFWw6_h6cV5hvTlI
-    short-id: 335bfdfb
-  server: ort.gecs.top
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  uuid: 0a3cd062-241a-43fc-9c50-eccacbbd5aae
-- name: 3|🇺🇸7 |  1.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-128-cfb
-  name: 3|🇺🇸8 |  4.7MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
 - client-fingerprint: chrome
-  name: 3|🇺🇸9 |  4.8MB/s
+  name: 3|🇺🇸3 |  5.2MB/s
   network: ws
-  port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
+  port: 2052
+  server: 156.238.18.165
   skip-cert-verify: false
+  tls: false
   type: vless
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- name: 3|🇺🇸5 |  1.6MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf
+  name: 3|🇺🇸6 |  1.1MB/s
+  password: asd123456
+  port: 8388
+  server: 137.175.113.193
+  type: ss
+- name: 3|🇺🇸7 |  1.2MB/s
+  network: ws
+  port: 443
+  server: wilson.ns.cloudflare.com
+  servername: s5.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: s5.ylkszy.eu.org
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸9 |  5.7MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.f2.gladns.com
+  type: ss
+- name: 3|🇺🇸10 |  1.6MB/s
+  network: ws
+  port: 443
+  server: 198.62.62.4
+  servername: s5.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: s5.ylkszy.eu.org
+    path: /?ed=2560
+- name: 3|🇺🇸11 |  6.0MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
+- client-fingerprint: chrome
+  name: 3|🇺🇸12 |  2.3MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...

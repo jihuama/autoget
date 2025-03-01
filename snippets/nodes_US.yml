@@ -189,17 +189,31 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-cfb
-  name: 3|🇺🇸4 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.212.0.149
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸1 |  5.8MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.d3.gladns.com
   type: ss
-- cipher: aes-128-cfb
-  name: 3|🇺🇸8 |  4.7MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
+- cipher: chacha20-ietf
+  name: 3|🇺🇸6 |  1.1MB/s
+  password: asd123456
+  port: 8388
+  server: 137.175.113.193
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸9 |  5.7MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.f2.gladns.com
   type: ss
 - alterId: 0
   cipher: auto
