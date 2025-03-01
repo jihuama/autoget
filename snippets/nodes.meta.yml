@@ -388,54 +388,11 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- client-fingerprint: chrome
-  name: 3|🇺🇸1 |  5.1MB/s
-  network: ws
-  port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-- name: 3|🇯🇵1 |  2.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸2 |  4.9MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 91a7ddba-3af8-3797-b75a-20e9d9d9ca47
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  name: 3|🇯🇵2 |  7.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.181.198.147
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|🌀1- |  28.8MB/s
-  password: WNW5MZJX57ZJUNQU
-  port: 16009
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+- cipher: chacha20-ietf
+  name: 3|🌏1 |  5.1MB/s
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   type: ss
 - alterId: 0
   cipher: auto
@@ -451,58 +408,50 @@ proxies:
   type: trojan
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 3|🇹🇼1 |  5.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-cfb
-  name: 3|🇸🇬1 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.139.162.25
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬2 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.254.62.242
-  type: ss
-- name: 3|🇭🇰1 |  2.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 3|🇯🇵4 |  2.7MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jpgmo101-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jpgmo101-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 3|🇺🇸5 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 3|🇺🇸6 |  3.2MB/s
+- client-fingerprint: chrome
+  name: 3|🇺🇸1 |  5.8MB/s
   network: ws
-  port: 443
-  server: www.wto.org
+  port: 80
+  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3,11|🇭🇰 香港7|@ripaojiedian
+  password: TCEL1H0XD7TWAKI0
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 3|🇺🇸2 |  6.0MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇰🇷1 |  2.1MB/s
+  password: b9934be6-6184-4b85-a629-9815b8ae5660
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+- name: 3|🇭🇰1 |  3.2MB/s
+  network: ws
+  port: 50000
+  server: 220.90.247.28
   servername: s5.ylkszy.eu.org
   skip-cert-verify: true
   tls: true
@@ -513,6 +462,127 @@ proxies:
     headers:
       Host: s5.ylkszy.eu.org
     path: /?ed=2560
+- cipher: aes-256-cfb
+  name: 3|🇸🇬1 |  7.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.141.140.152
+  type: ss
+- name: 3|🇺🇸3 |  5.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp2-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: usgp2-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: rc4-md5
+  name: 3|🇬🇧1 |  5.1MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰2 |  1.7MB/s
+  password: b9934be6-6184-4b85-a629-9815b8ae5660
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+- client-fingerprint: chrome
+  name: 3|🇺🇸4 |  3.2MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸5 |  2.4MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 91a7ddba-3af8-3797-b75a-20e9d9d9ca47
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- client-fingerprint: chrome
+  name: 3|🇭🇰3 |  5.2MB/s
+  network: ws
+  port: 6080
+  server: 47.74.42.50
+  servername: clawjp.costs.asia
+  tls: true
+  type: vless
+  uuid: 3c6f85bf-5e7b-445a-a928-3ca145b5e2b0
+  ws-opts:
+    headers:
+      Host: clawjp.costs.asia
+    path: /bing
+- name: 3|🇭🇰4 |  3.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 3|🇺🇸6 |  5.1MB/s
+  network: ws
+  port: 443
+  server: www.4chan.org
+  servername: s5.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: s5.ylkszy.eu.org
+    path: /?ed=2560
+- name: 3|🇯🇵2 |  3.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jpgmo102-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo102-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇹🇼2 |  1.5MB/s
+  password: b9934be6-6184-4b85-a629-9815b8ae5660
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 3|🌀2- |  3.2MB/s
+  network: ws
+  port: 23611
+  server: 11.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 91a7ddba-3af8-3797-b75a-20e9d9d9ca47
+  ws-opts:
+    headers:
+      Host: 11.mamamajd.site
+    path: /
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1221,14 +1291,6 @@ proxies:
   password: RBN1UNGVPF1BQXPK
   port: 15006
   server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港7|@ripaojiedian
-  password: TCEL1H0XD7TWAKI0
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
