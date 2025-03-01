@@ -189,36 +189,49 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸2 |  2.0MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
+- name: 3|🇺🇸1 |  5.6MB/s
+  password: sysadmin.sysadmin
+  port: 446
+  server: 23.95.20.134
   skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
+  type: hysteria2
   udp: true
-  uuid: 52cbb57a-ee6b-3cc7-8048-62216ac79b03
+- cipher: aes-256-gcm
+  name: 3|🇺🇸2 |  1.0MB/s
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.68.135.208
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 3|🇺🇸3 |  4.3MB/s
+  network: ws
+  port: 80
+  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: 13.mamamajd.site
-    path: /
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 3|🇺🇸4 |  5.9MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: 3,13|US_speednode_0056
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- name: 3,13|NL_speednode_0029
+  network: ws
+  port: 2052
+  server: 45.149.12.183
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- client-fingerprint: chrome
+  name: 3,13|US_speednode_0056
   network: ws
   port: 80
   server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
@@ -232,23 +245,67 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- auth: b546e98f-967a-4e95-aa67-4cdd6c1b9677
-  client-fingerprint: chrome
-  name: 3|🇺🇸7 |  4.2MB/s
-  password: b546e98f-967a-4e95-aa67-4cdd6c1b9677
-  port: 10002
-  server: 50.114.152.111
-  skip-cert-verify: true
-  type: hysteria2
-- name: 3|🇺🇸9 |  12.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
+- cipher: aes-256-gcm
+  name: 3|🇺🇸6 |  1.1MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 38.68.135.208
+  type: ss
+  udp: true
+- name: 3,13|SC_speednode_0051
+  network: ws
+  port: 8880
+  server: 154.83.2.228
+  servername: redw.pooriam.ir
   skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- cipher: aes-256-gcm
+  name: 3|🇺🇸8 |  1.1MB/s
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 139.64.165.230
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 3|🇺🇸9 |  1.1MB/s
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.68.135.208
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 3|🇺🇸10 |  1.0MB/s
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.68.135.208
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇺🇸11 |  5.2MB/s
+  password: 0f0b82ed-33da-4289-8196-3f88b8559b55
+  port: 36371
+  server: free.2weradf.xyz
+  type: ss
+- client-fingerprint: chrome
+  name: 3|🇺🇸12 |  1.0MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
