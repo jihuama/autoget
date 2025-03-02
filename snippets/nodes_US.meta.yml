@@ -189,20 +189,39 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  down: 55 Mbps
-  name: 3|🇺🇸1 |  5.4MB/s
-  port: 17549
-  server: 208.87.243.151
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇺🇸1 |  4.8MB/s
+  network: ws
+  port: 443
+  server: mix1.998998.best
+  servername: jp1-2.zfork.com
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- name: 3|🇺🇸2 |  6.1MB/s
+  tls: true
+  type: vmess
+  uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
+  ws-opts:
+    headers:
+      HOST: jp1-2.zfork.com
+    path: /wpmckfpajfng?ed=2560
+- client-fingerprint: chrome
+  name: 3|🇺🇸2 |  4.7MB/s
+  network: ws
+  port: 80
+  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+- name: 3|🇺🇸3 |  6.3MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -211,61 +230,58 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 3,13|US_speednode_0056
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸5 |  13.0MB/s
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇺🇸4 |  1.4MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸5 |  4.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.143.186.182
+  type: ss
+- client-fingerprint: chrome
+  name: 3|🇺🇸7 |  3.4MB/s
+  network: ws
+  port: 443
+  server: 8.219.202.145
+  servername: dob.fenmila.me
+  tls: true
+  type: vless
+  uuid: 038562dc-6958-4ce7-eae2-887d8a1bee2a
+  ws-opts:
+    headers:
+      Host: dob.fenmila.me
+    path: /bing
+- alterId: 2
+  cipher: auto
+  name: 8|0|🇺🇸5 |  13.0MB/s
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-a.tkong.cc
-  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
       Host: tk.hzlt.tkddns.xyz
-    path: /
-- name: 3,13|GB_speednode_0009
-  network: ws
-  port: 443
-  server: 31.22.116.38
-  servername: usd.kobtty.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7671069f-ce73-4977-be03-414e79f1d7cd
-  ws-opts:
-    headers:
-      Host: usd.kobtty.me
-    path: /bing
-- alterId: 2
-  cipher: auto
-  name: 8|2|🇺🇸6 |  2.8MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 04cb7151-a151-3194-8cfb-2702f34120c7
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
@@ -356,6 +372,20 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
+- name: 13|US_speednode_0056
+  network: ws
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 13|US_speednode_0077
   network: ws
   port: 80
