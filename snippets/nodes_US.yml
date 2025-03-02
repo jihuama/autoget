@@ -189,22 +189,48 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸1 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.193.73.178
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3|🇺🇸3 |  1.8MB/s
+  network: ws
+  port: 63092
+  server: in06.xxxoooxxxooo.net
+  type: vmess
+  udp: true
+  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
+  ws-opts:
+    headers:
+      Host: de01-cdn.airport-v2.com
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸1 |  9.2MB/s
-  password: c27d6767-6562-4a3a-b012-3fdb5d91842d
-  port: 36271
-  server: free.2weradf.xyz
+  client-fingerprint: chrome
+  name: 3|🇺🇸4 |  5.8MB/s
+  password: 09e86b59-c965-4051-a1ce-d24f53bd6f7c
+  port: 20044
+  server: sg04.nicenode.cc
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇺🇸5 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.195.185.114
   type: ss
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸3 |  5.7MB/s
+  name: 8|2|🇺🇸3 |  5.7MB/s
   network: ws
   port: 23613
   server: 13.mamamajd.site
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 7634791a-727a-3ccd-ab08-71df858f756e
   ws-opts:
     headers:
