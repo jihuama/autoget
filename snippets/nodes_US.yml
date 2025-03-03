@@ -190,45 +190,54 @@ proxies:
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 3|🇺🇸1 |  5.6MB/s
+  ip-version: dual
+  name: 3|🇺🇸1 |  5.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.212.0.149
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 3|🇺🇸3 |  6.0MB/s
   password: amazonskr05
   port: 443
   server: 52.195.185.114
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸2 |  1.0MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 23.154.136.162
+- alterId: 0
+  cipher: auto
+  name: 3|🇺🇸9 |  2.0MB/s
+  network: ws
+  port: 443
+  server: LA01.890619.GGff.NeT
+  servername: la01.890619.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 632e73b1-2ed0-4844-b111-cc6ef68439a3
+  ws-opts:
+    headers:
+      Host: LA01.890619.GGff.NeT
+    path: /UHXvYRn3CE81zHBaw7RlmqFIy
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 3|🇺🇸10 |  2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.190.1.125
   type: ss
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸3 |  5.3MB/s
+  name: 8|0|🇺🇸3 |  5.3MB/s
   network: ws
   port: 23617
   server: 17.mamamajd.site
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 975eba47-5d04-3761-aca6-4bfee48b8fe9
   ws-opts:
     headers:
       Host: 17.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 8|2|🇺🇸3 |  5.7MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 7634791a-727a-3ccd-ab08-71df858f756e
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
