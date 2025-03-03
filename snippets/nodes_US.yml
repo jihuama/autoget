@@ -189,28 +189,21 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 3|🇺🇸1 |  5.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.212.0.149
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 3|🇺🇸3 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.195.185.114
-  type: ss
+- cipher: rc4-md5
+  name: 3|🇺🇸1 |  2.7MB/s
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 107.155.57.11
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸9 |  2.0MB/s
+  name: 8|2|🇺🇸9 |  2.0MB/s
   network: ws
   port: 443
   server: LA01.890619.GGff.NeT
   servername: la01.890619.ggff.net
-  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 632e73b1-2ed0-4844-b111-cc6ef68439a3
@@ -218,27 +211,6 @@ proxies:
     headers:
       Host: LA01.890619.GGff.NeT
     path: /UHXvYRn3CE81zHBaw7RlmqFIy
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 3|🇺🇸10 |  2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.190.1.125
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 8|0|🇺🇸3 |  5.3MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 975eba47-5d04-3761-aca6-4bfee48b8fe9
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
   name: 8,12|美国2|@ripaojiedian
