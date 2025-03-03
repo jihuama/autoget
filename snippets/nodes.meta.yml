@@ -388,39 +388,14 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- name: 3,13|US_speednode_0056
-  network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- name: 3|🌏1 |  5.8MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
 - cipher: aes-128-gcm
-  name: 3|🇨🇦1 |  3.7MB/s
-  password: shadowsocks
-  port: 443
-  server: 149.34.244.71
+  client-fingerprint: chrome
+  name: 3|🇯🇵1 |  1.9MB/s
+  password: 32c41b01-84be-11ef-bb6b-bc241111d95d
+  port: 28029
+  server: js.wnwwv.cn
   type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬1 |  3.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.55.109
-  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -433,58 +408,66 @@ proxies:
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸2 |  5.5MB/s
+- client-fingerprint: chrome
+  name: 3|🇺🇸1 |  9.1MB/s
   network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: 470b5a3b-97f7-38dd-90f1-e659b14540a7
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: 15.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸3 |  5.0MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 470b5a3b-97f7-38dd-90f1-e659b14540a7
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- cipher: aes-256-gcm
-  name: 3|🇺🇸4 |  1.0MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 23.154.136.162
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3,11|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.168.96
+  tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸5 |  2.4MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇯🇵2 |  11.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.112.30.167
+  type: ss
   udp: true
-  uuid: 470b5a3b-97f7-38dd-90f1-e659b14540a7
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇯🇵3 |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.162.239
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇯🇵4 |  2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.183.164.43
+  type: ss
+  udp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 3|🇺🇸3 |  3.7MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1310,14 +1293,6 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.129.168.96
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
@@ -1495,6 +1470,20 @@ proxies:
   server: 154.223.20.79
   type: ss
   udp: true
+- name: 13|US_speednode_0056
+  network: ws
+  port: 80
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+  servername: Join--E-L-i-V-2-R-A-Y.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: Join--E-L-i-V-2-R-A-Y.net
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
 - name: 13|US_speednode_0077
   network: ws
   port: 80
