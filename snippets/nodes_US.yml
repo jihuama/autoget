@@ -190,39 +190,33 @@ proxies:
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸1 |  5.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.193.73.178
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3|🇺🇸3 |  1.8MB/s
-  network: ws
-  port: 63092
-  server: in06.xxxoooxxxooo.net
-  type: vmess
-  udp: true
-  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
-  ws-opts:
-    headers:
-      Host: de01-cdn.airport-v2.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 3|🇺🇸4 |  5.8MB/s
-  password: 09e86b59-c965-4051-a1ce-d24f53bd6f7c
-  port: 20044
-  server: sg04.nicenode.cc
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇺🇸5 |  5.7MB/s
+  name: 3|🇺🇸1 |  5.6MB/s
   password: amazonskr05
   port: 443
   server: 52.195.185.114
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3|🇺🇸2 |  1.0MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 23.154.136.162
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸3 |  5.3MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 975eba47-5d04-3761-aca6-4bfee48b8fe9
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
 - alterId: 2
   cipher: auto
   name: 8|2|🇺🇸3 |  5.7MB/s
@@ -314,14 +308,3 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40211
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
