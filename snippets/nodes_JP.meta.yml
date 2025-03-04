@@ -1,32 +1,45 @@
 proxies:
-- name: 3|🇯🇵1 |  7.6MB/s
+- name: 3|🇯🇵1 |  2.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: jpgmo102-cdn-route.couldflare-cdn.com
+  server: jpgmo101-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
-  sni: jpgmo102-cdn-route.couldflare-cdn.com
+  sni: jpgmo101-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: '0'
-  cipher: auto
-  name: 3|🇯🇵2 |  2.1MB/s
-  network: tcp
-  port: 35565
-  server: 120.198.71.214
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇯🇵3 |  4.0MB/s
+  name: 3|🇯🇵2 |  11.9MB/s
   password: amazonskr05
   port: 443
   server: 13.231.193.189
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 3|🇯🇵3 |  2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.230.20.120
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 8,12|日本4|@ripaojiedian
+  name: 3|🇯🇵4 |  3.5MB/s
+  network: ws
+  port: 52353
+  server: 0000000000000000000000000046.bgroup-node-for-bigairport.sbs
+  servername: 0000000000000000000000000046.bgroup-node-for-bigairport.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b71f9e84-86c9-49c4-b5f4-b33b35ee7410
+  ws-opts:
+    headers:
+      Host: 0000000000000000000000000046.bgroup-node-for-bigairport.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|13|日本4|@ripaojiedian
   network: tcp
   port: '48019'
   server: 45.159.51.116
@@ -63,6 +76,16 @@ proxies:
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.243.205
+  server: 54.151.184.124
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|日本4|@ripaojiedian
+  network: tcp
+  port: '35565'
+  server: 120.198.71.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
