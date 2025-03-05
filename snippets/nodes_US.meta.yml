@@ -189,6 +189,21 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- delay: 1157
+  name: 3|🇺🇸1 |  1.1MB/s
+  network: ws
+  port: 443
+  server: icook.tw
+  servername: c01.ylkszy.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: c01.ylkszy.eu.org
+    path: /?ed=2560
 - name: 3,13|US_speednode_0056
   network: ws
   port: 80
@@ -203,94 +218,22 @@ proxies:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
     path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸2 |  1.3MB/s
-  password: 686b44f4-c4e1-4b9f-9c98-59b616b90549
-  port: 36641
-  server: free.2weradf.xyz
-  type: ss
-- client-fingerprint: chrome
-  name: 3|🇺🇸3 |  4.4MB/s
-  network: ws
-  port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-- name: 3,13|SC_speednode_0050
-  network: ws
-  port: 8880
-  server: 154.83.2.230
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- name: 3|🇺🇸5 |  1.8MB/s
-  network: ws
-  port: 2095
-  server: 156.238.18.163
-  skip-cert-verify: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1fp
-- client-fingerprint: chrome
-  name: 3|🇺🇸6 |  5.3MB/s
-  network: ws
-  port: 2052
-  server: 156.238.18.165
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - cipher: aes-256-cfb
-  ip-version: dual
-  name: 3|🇺🇸7 |  2.6MB/s
+  client-fingerprint: chrome
+  name: 3|🇺🇸5 |  5.1MB/s
   password: amazonskr05
   port: 443
-  server: 54.244.204.173
-  tls: false
+  server: 3.38.190.30
   type: ss
   udp: true
-- name: 3|🇺🇸8 |  4.6MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸6 |  5.2MB/s
+  password: amazonskr05
   port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
-  cipher: auto
-  name: 8|1|🇺🇸8 |  1.1MB/s
-  network: ws
-  port: 23605
-  server: 5.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 5e754113-0f1c-392e-9c54-d8029dab2f96
-  ws-opts:
-    headers:
-      Host: 5.mamamajd.site
-    path: /
+  server: 18.236.83.127
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 8,12|美国2|@ripaojiedian
