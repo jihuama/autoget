@@ -1,13 +1,15 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰2 |  1.8MB/s
-  password: c4168a67-1290-4d8a-9462-04705999594a
-  port: 36141
-  server: free.2weradf.xyz
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 3|🇭🇰1 |  2.0MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 8,12|香港9|@ripaojiedian
+  name: 8|13|香港9|@ripaojiedian
   network: tcp
   port: '37903'
   server: 38.147.188.105
@@ -74,3 +76,13 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 12|香港9|@ripaojiedian
+  network: tcp
+  port: '13264'
+  server: 38.147.189.130
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8145db0b-c4d7-4389-be41-99f991a4b43f
