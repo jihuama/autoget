@@ -23,7 +23,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '0,1,4,14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #10'
+  name: '0,1,4|🇺🇸_US_美国 #5'
   network: ws
   port: 2086
   server: 104.19.57.4
@@ -79,7 +79,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '0,1,4,14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
+  name: '0,1,4|🇺🇸_US_美国 #9'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -161,7 +161,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,14|🇺🇸_US_美国 #16'
+  name: 1|🇺🇸_US_美国
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -171,7 +171,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,14|🇺🇸_US_美国 #17'
+  name: '1|🇺🇸_US_美国 #1'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -181,7 +181,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,14|🇺🇸_US_美国 #18'
+  name: '1|🇺🇸_US_美国 #2'
   network: ws
   port: 8080
   server: russia.com
@@ -189,36 +189,53 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸1 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.38.97.249
-  type: ss
-  udp: true
-- name: 3,13|US_speednode_0056
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸1 |  6.7MB/s
   network: ws
-  port: 80
-  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
-  servername: Join--E-L-i-V-2-R-A-Y.net
-  skip-cert-verify: false
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  uuid: 91a4d8fc-5164-39d1-8bc2-a17a4e674447
   ws-opts:
     headers:
-      Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+      Host: 17.mamamajd.site
+    path: /
+- name: 3|🇺🇸2 |  4.8MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: usgp3-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: usgp3-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 3|🇺🇸3 |  3.9MB/s
+  name: 3|🇺🇸3 |  5.0MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 156.146.40.194
   tls: false
   type: ss
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 3,8|1|🇩🇪1 |  5.5MB/s
+  network: ws
+  port: 80
+  server: 151.101.66.168
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /XESALISTHEBEST?ed=2048
 - name: 3,13|SC_speednode_0051
   network: ws
   port: 8880
@@ -234,18 +251,29 @@ proxies:
       Host: redw.pooriam.ir
     path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - client-fingerprint: chrome
-  name: 3|🇺🇸5 |  2.9MB/s
+  name: 3,13|US_speednode_0056
   network: ws
   port: 80
-  server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+  server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
   servername: Join--E-L-i-V-2-R-A-Y.net
   skip-cert-verify: false
+  tls: false
   type: vless
+  udp: true
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
       Host: Join--E-L-i-V-2-R-A-Y.net
-    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+    path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+- name: 3|🇺🇸11 |  2.8MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 2
   cipher: auto
   name: 8|1|🇺🇸2 |  1.9MB/s
