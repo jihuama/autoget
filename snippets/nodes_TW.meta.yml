@@ -2,23 +2,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11|🇺🇸 美国2|@ripaojiedian
-  password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
-  port: 44014
-  server: 120.198.71.219
+  name: 8,11,12|台湾2|@ripaojiedian
+  network: ws
+  port: '12883'
+  server: gtm1.ktmwan.net
+  servername: ''
   skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
   type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇹🇼2 |  5.5MB/s
-  password: f5f6ad69-8e91-4e5f-a741-cd14f14ac3bd
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
+  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇹🇼 台湾|@ripaojiedian
