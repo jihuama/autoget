@@ -189,23 +189,47 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸1 |  4.4MB/s
-  password: 9b63f012-814f-44ac-90e6-fd225edfa7da
-  port: 36641
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸2 |  3.3MB/s
-  password: 9b63f012-814f-44ac-90e6-fd225edfa7da
-  port: 36441
-  server: free.2weradf.xyz
-  type: ss
+- name: 3|🇺🇸1 |  12.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
-  name: 3|🇺🇸3 |  4.0MB/s
+  name: 3|🇺🇸2 |  5.6MB/s
+  network: ws
+  port: 2086
+  server: 212.183.88.84
+  skip-cert-verify: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸3 |  1.8MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cf21325c-a1e0-3d7d-8911-b52c2200f960
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- client-fingerprint: chrome
+  name: 3|🇺🇸4 |  2.2MB/s
   network: ws
   port: 2095
-  server: 156.238.18.48
+  server: 156.238.18.163
   skip-cert-verify: false
   tls: false
   type: vless
@@ -214,6 +238,20 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- name: 3,13|NL_speednode_0029
+  network: ws
+  port: 2052
+  server: 45.149.12.183
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -291,18 +329,6 @@ proxies:
     host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
     mode: http
   port: 8771
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202502231733428-Ein9IQ2kBA.download.microsoft.com
-    mode: http
-  port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
