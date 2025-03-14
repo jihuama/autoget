@@ -189,22 +189,29 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇺🇸1 |  9.4MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
-- name: 3,13|NL_speednode_0029
+- cipher: aes-256-cfb
+  name: 3|🇺🇸1 |  6.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.218.61.43
+  type: ss
+- client-fingerprint: chrome
+  name: 3|🇺🇸2 |  2.0MB/s
   network: ws
-  port: 2052
-  server: 45.149.12.183
+  port: 2095
+  server: 156.238.18.163
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- name: 3,13|SC_speednode_0049
+  network: ws
+  port: 8880
+  server: 154.83.2.156
   servername: redw.pooriam.ir
   skip-cert-verify: false
   tls: false
@@ -214,21 +221,69 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- alterId: 2
-  cipher: auto
-  name: 8|0|🇺🇸2 |  1.1MB/s
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- client-fingerprint: chrome
+  name: 3|🇺🇸4 |  5.2MB/s
   network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  port: 8880
+  server: 195.85.59.155
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+      Host: photographipictureai.ir
+    path: /Telegram
+- client-fingerprint: chrome
+  name: 3|🇺🇸5 |  2.2MB/s
+  network: ws
+  port: 8880
+  server: 185.146.173.112
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  ws-opts:
+    headers:
+      Host: photographipictureai.ir
+    path: /Telegram
+- cipher: aes-128-gcm
+  name: 3|🇺🇸6 |  5.6MB/s
+  password: f4cd0a554e9d0558c581
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45917
+  server: console.03.aliyun.aq.kunlunaqs.com
+  type: ss
+- name: 3,13|SC_speednode_0050
+  network: ws
+  port: 8880
+  server: 154.83.2.230
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- client-fingerprint: chrome
+  name: 3|🇺🇸8 |  7.6MB/s
+  network: ws
+  port: 2086
+  server: 212.183.88.84
+  skip-cert-verify: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
