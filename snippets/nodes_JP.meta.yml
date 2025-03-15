@@ -1,10 +1,74 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇯🇵1 |  3.4MB/s
-  password: amazonskr05
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵1 |  6.4MB/s
+  network: tcp
+  port: 63134
+  reality-opts:
+    public-key: sJyLIpS_6XMDEDhIgr0Xq2yAI8LdUaktWyrUKIVMOSw
+  server: 156.246.89.131
+  servername: www.ebay.com
+  tls: true
+  type: vless
+  uuid: f212a7d3-7175-40bb-bba2-fde5668893e6
+- cipher: aes-128-gcm
+  name: 3|🇯🇵2 |  1.2MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24523
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 3|🇯🇵3 |  12.4MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24520
+  server: wy.76681f9610f175c6.com
+  type: ss
+- client-fingerprint: chrome
+  name: 3|🇯🇵4 |  4.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 43.202.49.76
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 3|🇯🇵5 |  2.9MB/s
+  network: ws
+  port: 2052
+  server: 156.238.18.165
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+- cipher: aes-128-gcm
+  name: 3|🇯🇵6 |  15.0MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24547
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 3|🇯🇵7 |  1.2MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24522
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 3|🇯🇵8 |  13.6MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24548
+  server: wy.76681f9610f175c6.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 3|🇯🇵9 |  15.3MB/s
+  password: ec588545-292e-4a11-ada2-d62e599af928
+  port: 24521
+  server: wy.76681f9610f175c6.com
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
