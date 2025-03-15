@@ -1,11 +1,15 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3,11|🇹🇼 台湾5|@ripaojiedian
-  password: 6VQE3NRIIDK656Q0
-  port: 21002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇹🇼1 |  4.8MB/s
+  password: ffe6a2cf-c5ef-4bf5-95d0-496a0645dd1f
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇹🇼2 |  2.1MB/s
+  password: ffe6a2cf-c5ef-4bf5-95d0-496a0645dd1f
+  port: 36243
+  server: free.2weradf.xyz
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -13,6 +17,18 @@ proxies:
   password: OOW5TZHO9I1OFBAF
   port: 21001
   server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾3|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    mode: http
+  port: 8746
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -25,6 +41,14 @@ proxies:
     mode: http
   port: 8745
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾5|@ripaojiedian
+  password: 6VQE3NRIIDK656Q0
+  port: 21002
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-cfb
