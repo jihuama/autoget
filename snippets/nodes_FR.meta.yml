@@ -1,25 +1,23 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇫🇷1 |  4.2MB/s
-  port: 44557
-  server: 195.154.200.178
-  servername: apple.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  ip-version: dual
+  name: 3|🇫🇷1 |  4.4MB/s
+  network: ws
+  port: 2095
+  server: 185.174.138.209
   skip-cert-verify: true
-  type: hysteria
-  up: 1000 Mbps
-- cipher: aes-128-gcm
-  name: 3|🇫🇷2 |  11.3MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24564
-  server: sg.76681f9610f175c6.com
-  type: ss
+  type: vmess
+  udp: true
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM
 - auth: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
   client-fingerprint: chrome
-  name: 3|🇫🇷3 |  1.6MB/s
+  name: 3|🇫🇷2 |  1.8MB/s
   password: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
   port: 37732
   server: 207.180.248.7
@@ -27,3 +25,19 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇫🇷3 |  3.3MB/s
+  network: ws
+  port: 2052
+  server: 185.174.138.199
+  servername: yellow-paper-029c.yvonna.workers.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      HOST: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM
