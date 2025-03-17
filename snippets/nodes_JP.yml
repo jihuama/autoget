@@ -1,66 +1,55 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇯🇵2 |  5.0MB/s
+  name: 3,11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.114.76.143
+  server: 54.238.186.53
+  tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇯🇵3 |  4.4MB/s
+  name: 3|🇯🇵6 |  4.2MB/s
   password: amazonskr05
   port: 443
-  server: 43.207.150.238
+  server: 18.182.5.123
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇯🇵4 |  3.5MB/s
+  name: 3|🇯🇵8 |  3.8MB/s
   password: amazonskr05
   port: 443
-  server: 13.114.55.245
+  server: 18.179.8.12
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇯🇵10 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.230.142.42
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇯🇵11 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.230.168.61
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,8,11|🇯🇵 日本3|@ripaojiedian
+  name: 8|1,12|🇯🇵 日本3|@ripaojiedian
   network: ws
   port: 46015
   server: fadawtawd.zhangwei.li
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
   ws-opts:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇯🇵6 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.196.181.68
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇯🇵7 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.112.13.110
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇯🇵8 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.95.26.81
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 8,12|日本3|@ripaojiedian
+  name: 8|13|日本3|@ripaojiedian
   network: ws
   port: '46015'
   server: fadawtawd.zhangwei.li
@@ -96,11 +85,23 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.34.253.95
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|日本3|@ripaojiedian
+  network: tcp
+  port: '18066'
+  server: 45.159.50.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fd359563-996d-461f-b0d7-97083b1616ae
+- alterId: 0
+  cipher: auto
+  name: 12|日本A|@ripaojiedian
+  network: kcp
+  port: '58490'
+  server: 8.209.203.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
