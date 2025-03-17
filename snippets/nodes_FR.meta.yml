@@ -1,15 +1,36 @@
 proxies:
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 3|🇫🇷1 |  4.4MB/s
+  port: 44557
+  server: 195.154.200.178
+  servername: apple.com
+  skip-cert-verify: true
+  type: hysteria
+  up: 1000 Mbps
+- delay: 2847
+  name: 3|🇫🇷2 |  5.8MB/s
+  network: ws
+  port: 8880
+  server: 195.85.59.155
+  tls: false
+  type: vless
+  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  ws-opts:
+    headers:
+      Host: photographipictureai.ir
+    path: /Telegram
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  ip-version: dual
-  name: 3|🇫🇷1 |  2.4MB/s
+  name: 8|2|🇫🇷1 |  2.4MB/s
   network: ws
   port: 2095
   server: 185.174.138.209
-  skip-cert-verify: true
+  tls: false
   type: vmess
-  udp: true
   uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
   ws-opts:
     headers:
