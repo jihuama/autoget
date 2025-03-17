@@ -3,36 +3,38 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
+  client-fingerprint: chrome
   down: 1000 Mbps
-  name: 3|🇫🇷1 |  4.4MB/s
+  name: 3|🇫🇷1 |  5.1MB/s
   port: 44557
   server: 195.154.200.178
   servername: apple.com
   skip-cert-verify: true
   type: hysteria
   up: 1000 Mbps
-- delay: 2847
-  name: 3|🇫🇷2 |  5.8MB/s
-  network: ws
-  port: 8880
-  server: 195.85.59.155
-  tls: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇫🇷2 |  1.0MB/s
+  network: tcp
+  port: 22234
+  reality-opts:
+    public-key: tVDaWxsy54q7yRNRdJ718Gyt2HDoh_3R2y_PX22hhjM
+    short-id: 95c93be9
+  server: 195.154.56.233
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇫🇷1 |  2.4MB/s
+  udp: true
+  uuid: 22a54b72-9c39-4bb0-97d0-41bbaaca2a67
+- name: 3|🇫🇷3 |  1.9MB/s
   network: ws
   port: 2095
-  server: 185.174.138.209
-  tls: false
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  server: 156.238.18.163
+  skip-cert-verify: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: yellow-paper-029c.yvonna.workers.dev
-    path: /az05.beyondy.cfd/link?/TM
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1fp
