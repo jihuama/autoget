@@ -1,4 +1,20 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 3|🇹🇼1 |  5.5MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 73a827eb-271f-378e-8d39-da04a598b6af
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇹🇼 台湾|@ripaojiedian
@@ -7,14 +23,16 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇹🇼 台湾2|@ripaojiedian
-  password: 645d056f-369c-46d3-a1cb-7f04c06916ce
-  port: 30018
-  server: 114.132.40.118
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|台湾2|@ripaojiedian
+  network: tcp
+  port: '11112'
+  server: bgp1.bgp1.miaomiaowu114514.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
 - cipher: aes-256-cfb
   name: 13|TW_speednode_0055
   password: f8f7aCzcPKbsF8p3

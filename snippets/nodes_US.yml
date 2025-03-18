@@ -191,17 +191,28 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 8|2|🇺🇸7 |  5.1MB/s
+  name: 3,8|2|🇺🇸7 |  5.1MB/s
   network: ws
   port: 23615
   server: 15.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
   tls: false
   type: vmess
+  udp: true
   uuid: c10a0e2f-3b88-3f96-bbc5-8941b97b4995
   ws-opts:
     headers:
       Host: 15.mamamajd.site
     path: /
+- alterId: '0'
+  cipher: auto
+  name: 3|🇺🇸7 |  1.1MB/s
+  network: tcp
+  port: 31998
+  server: 120.234.102.229
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -276,7 +287,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -288,25 +299,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
-  password: E1SCB7Q1P7HFR8K8
-  port: 17005
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
-  password: 54SY1SP5HU73E00Z
-  port: 17001
-  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
