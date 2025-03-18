@@ -388,19 +388,43 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 3|🇺🇸1 |  5.7MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
 - client-fingerprint: chrome
-  name: 3|🇸🇬1 |  5.3MB/s
-  network: ws
+  name: 3|🇯🇵1 |  5.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: 47.74.20.72
-  servername: sgb.bkn.asia
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 3|🇹🇼1 |  2.7MB/s
+  network: ws
+  port: 8443
+  server: 92.243.74.3
+  servername: edfgl.aimercc.filegear-sg.me
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 183ebae2-4d43-4026-c7c4-c336b6cef2a2
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      Host: sgb.bkn.asia
-    path: /bing
+      Host: edfgl.aimercc.filegear-sg.me
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -413,153 +437,9 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  udp: true
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 760
-  name: 3|🇬🇧1 |  2.7MB/s
-  password: WKQOJA6MCJLFJPPC
-  port: 19002
-  server: 206.245.211.12
-  type: ss
-- fast-open: true
-  name: 3|🇷🇺1 |  1.3MB/s
-  password: dongtaiwang.com
-  port: 37481
-  server: 46.17.41.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- name: 3|🇹🇼1 |  4.4MB/s
-  network: ws
-  port: 44300
-  server: 154.17.31.123
-  servername: edfgk.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgk.aimercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  delay: 874
-  name: 3|🇬🇧2 |  1.5MB/s
-  password: CEHN6OCZVPMGBK56
-  port: 19007
-  server: 206.245.211.17
-  type: ss
 - client-fingerprint: chrome
-  name: 3,13|SC_speednode_0049
-  network: ws
-  port: 8880
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- client-fingerprint: chrome
-  name: 3|🇺🇸3 |  1.3MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.18
-  servername: usc.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 704222bd-7eff-4307-ae26-d6a5ab79817a
-  ws-opts:
-    headers:
-      Host: usc.xzncr.asia
-    path: /bing
-- name: 3|🇹🇼2 |  2.9MB/s
-  network: ws
-  port: 46741
-  server: 45.66.129.147
-  servername: edfgl.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgl.aimercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: firefox
-  name: 3|🇺🇸4 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 104.26.8.179
-  servername: j1us3.jsjc.sbs
-  tls: true
-  type: vless
-  uuid: c335c896-8893-4282-808d-13c2ddbefa7a
-  ws-opts:
-    headers:
-      Host: j1us3.jsjc.sbs
-    path: /jsjc/us3
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇸🇬2 |  2.8MB/s
-  password: J02IYFVAPSDI594B
-  port: 16002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇸🇬4 |  2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.39.129
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸5 |  2.7MB/s
-  password: 3F14MP7K8P4G1631
-  port: 17008
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇷🇺2 |  5.3MB/s
-  port: 10469
-  server: 46.17.41.174
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 100 Mbps
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇸🇬5 |  2.8MB/s
-  password: 1184NST9FJYCM3PU
-  port: 16003
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸7 |  2.5MB/s
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.210.253.95
-  type: ssr
-- name: 3|🇹🇼3 |  1.6MB/s
+  name: 3|🇹🇼2 |  1.7MB/s
   network: ws
   port: 12157
   server: 183.108.91.204
@@ -573,456 +453,8 @@ proxies:
     headers:
       Host: edfgk.aimercc.filegear-sg.me
     path: /?ed=2560
-- delay: 2505
-  name: 3|🇺🇸8 |  5.3MB/s
-  network: ws
-  port: 8880
-  server: 195.85.59.155
-  tls: false
-  type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇰🇷2 |  3.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.201.85.71
-  type: ss
-- auth: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
-  client-fingerprint: chrome
-  name: 3|🇫🇷1 |  4.4MB/s
-  password: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
-  port: 37732
-  server: 207.180.248.7
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇭🇰2 |  1.2MB/s
-  password: VQOZ1SJ72XVZ604A
-  port: 15003
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
 - client-fingerprint: chrome
-  name: 3|🇮🇳1 |  4.4MB/s
-  network: ws
-  port: 8880
-  server: 185.146.173.112
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- name: 3|🌀1- |  5.1MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.176
-  servername: vx01.vs2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: vx01.vs2024.us.kg
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 3|🇰🇷4 |  1.1MB/s
-  network: ws
-  port: 587
-  server: 103.214.68.133
-  servername: a.mifeng.us.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.mifeng.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  fast-open: true
-  name: 3|🇷🇺3 |  1.5MB/s
-  password: dongtaiwang.com
-  port: 18626
-  server: 46.29.163.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 3|🇯🇵2 |  3.4MB/s
-  network: ws
-  port: 2052
-  server: 104.17.147.22
-  servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
-  tls: false
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
-    path: /WG9SqpThFFMyTenz?ed=2560
-- client-fingerprint: chrome
-  name: 3|🇭🇰3 |  5.0MB/s
-  network: ws
-  port: 443
-  server: 162.247.5.92
-  servername: hk.bkn.asia
-  tls: true
-  type: vless
-  uuid: ce2824eb-9bc1-4369-c574-8a769b203df9
-  ws-opts:
-    headers:
-      Host: hk.bkn.asia
-    path: /bing
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸10 |  2.6MB/s
-  password: R0TCV512GW9XMYZ4
-  port: 17006
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1798
-  name: 3,8|1|🇩🇪1 |  1.4MB/s
-  network: ws
-  port: 443
-  server: 23.158.56.241
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
-- name: 3|🇹🇼5 |  4.8MB/s
-  network: ws
-  port: 2096
-  server: 27.50.49.188
-  servername: edfgl.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgl.aimercc.filegear-sg.me
-    path: /?ed=2560
-- name: 3|🇹🇼6 |  2.8MB/s
-  network: ws
-  port: 2096
-  server: 50.114.55.109
-  servername: edfgk.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgk.aimercc.filegear-sg.me
-    path: /?ed=2560
-- name: 3|🇹🇼7 |  3.1MB/s
-  network: ws
-  port: 443
-  server: 129.154.207.203
-  servername: edfgk.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgk.aimercc.filegear-sg.me
-    path: /?ed=2560
-- name: 3|🇹🇼8 |  5.3MB/s
-  network: ws
-  port: 8443
-  server: 138.2.36.157
-  servername: edfgl.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgl.aimercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇸🇬6 |  2.3MB/s
-  password: OWZW8UDWG7PO3WWV
-  port: 16016
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇳🇴NO
-  delay: 937
-  name: 3|🇨🇦1 |  2.6MB/s
-  password: XCASGIDOF6TPCSCK
-  port: 20034
-  server: 185.90.61.157
-  type: ss
-- client-fingerprint: chrome
-  name: 3|🇺🇸12 |  3.2MB/s
-  network: tcp
-  port: 443
-  server: 192.9.236.144
-  servername: 147135004002.sec20org.com
-  tls: true
-  type: vless
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- name: 3|🇹🇼9 |  2.9MB/s
-  network: ws
-  port: 443
-  server: 154.26.186.86
-  servername: edfgk.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgk.aimercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🌀3- |  1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.182.5.123
-  type: ss
-- name: 3|🇺🇸15 |  3.5MB/s
-  network: ws
-  port: 5008
-  server: 45.154.98.211
-  servername: vx01.vs2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: vx01.vs2024.us.kg
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇸🇬7 |  1.9MB/s
-  password: LB57GK1GFK7U5HUP
-  port: 16011
-  server: w72tapyb.slashdevslashnetslashtun.net
-  type: ss
-- name: 3|🇺🇸16 |  2.8MB/s
-  network: ws
-  port: 5005
-  server: 45.154.98.231
-  servername: vx01.vs2024.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      Host: vx01.vs2024.us.kg
-    path: /ss.vs2024.us.kg
-- name: 3|🇹🇼10 |  2.7MB/s
-  network: ws
-  port: 8443
-  server: 27.50.48.239
-  servername: edfgk.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgk.aimercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇸🇬8 |  2.8MB/s
-  password: NLC9RAS011T4RHAC
-  port: 16013
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇺🇸17 |  5.4MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- client-fingerprint: chrome
-  name: 3|🇭🇰6 |  6.3MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
-- client-fingerprint: chrome
-  name: 3,13|SC_speednode_0050
-  network: ws
-  port: 8880
-  server: 154.83.2.230
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- cipher: aes-256-cfb
-  country: 🇯🇵JP
-  delay: 318
-  name: 3|🇯🇵4 |  5.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.181.194.77
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇸🇬9 |  2.7MB/s
-  password: AV90RPD2LATI12CR
-  port: 16015
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 3,8|1|🇷🇺1 |  3.2MB/s
-  network: ws
-  port: 21013
-  server: 176.32.35.148
-  tls: false
-  type: vmess
-  uuid: 01d8ffc6-092e-46d5-8a09-6766f2bb2188
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: 3|🇫🇷2 |  1.4MB/s
-  network: ws
-  port: 80
-  server: 104.21.58.212
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 5a4e040a-8de6-4222-bd6f-9f535b8772fd
-  ws-opts:
-    headers:
-      Host: calm-violet-0e47.pomofoc222.workers.dev
-    path: /lrJO6NEVRGHecfbo?ed=2560
-- client-fingerprint: randomized
-  name: 3|🇫🇷3 |  1.1MB/s
-  network: ws
-  port: 443
-  server: ip.sb
-  servername: 64D78605.Fr-7rB.pageS.dEv
-  tls: true
-  type: vless
-  uuid: 70f8697b-f9f3-4692-8e0a-3d1834fd76dc
-  ws-opts:
-    headers:
-      Host: 64D78605.Fr-7rB.pageS.dEv
-    path: /YBa1BBPnrlsvyMZD/MzUuMTgwLjIyOS4x?ed=2560
-- name: 3|🇹🇼11 |  4.2MB/s
-  network: ws
-  port: 443
-  server: 154.29.145.110
-  servername: edfgl.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgl.aimercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 3|🇳🇱1 |  1.6MB/s
-  network: ws
-  port: 80
-  server: 104.17.148.22
-  servername: redw.pooriam.ir
-  tls: false
-  type: vless
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /LwW5jwrnymnOdqki?ed=2560
-- auth: d3804ef3-10dc-469c-b887-2290cd75c484
-  client-fingerprint: chrome
-  down: 100
-  name: 3|🇷🇺5 |  1.5MB/s
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: d3804ef3-10dc-469c-b887-2290cd75c484
-  port: 31008
-  server: 176.32.35.148
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: aes-256-gcm
-  country: 🇷🇴RO
-  delay: 2707
-  name: 3|🇨🇦2 |  2.1MB/s
-  password: Q7MZEE6KQQTDAAR3
-  port: 20027
-  server: 185.126.237.58
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸21 |  2.8MB/s
-  password: CVRJLT2B39SKIJ6I
-  port: 17004
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇷🇺6 |  1.6MB/s
-  port: 10803
-  server: 185.22.155.71
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 1000 Mbps
-- name: 3|🇹🇼12 |  3.0MB/s
+  name: 3|🇹🇼3 |  5.8MB/s
   network: ws
   port: 443
   server: 47.242.11.244
@@ -1036,7 +468,323 @@ proxies:
     headers:
       Host: edfgk.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 3|🇹🇼13 |  4.1MB/s
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇯🇵2 |  2.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.230.20.15
+  type: ss
+- client-fingerprint: chrome
+  name: 3|🇹🇼4 |  1.5MB/s
+  network: ws
+  port: 44300
+  server: 154.17.31.123
+  servername: edfgk.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgk.aimercc.filegear-sg.me
+    path: /?ed=2560
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 3|🇫🇷1 |  4.2MB/s
+  port: 44557
+  server: 195.154.200.178
+  servername: apple.com
+  skip-cert-verify: true
+  type: hysteria
+  up: 1000 Mbps
+- alpn:
+  - h3,h2,http/1.1
+  client-fingerprint: chrome
+  name: 3|🌀1-HT |  1.8MB/s
+  network: ws
+  port: 443
+  server: ht.9901157.xyz
+  servername: ht.9901157.xyz
+  tls: true
+  type: vless
+  uuid: d1ee68e3-5ed9-4da9-bb17-2cf83298afe3
+  ws-opts:
+    headers:
+      Host: ht.9901157.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 3|🇺🇸3 |  5.7MB/s
+  network: ws
+  password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
+  port: 443
+  server: 172.67.204.75
+  skip-cert-verify: true
+  sni: Us6-02.818185.Xyz
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Us6-02.818185.Xyz
+    path: /ILLcisbMYUd6MQzxVoMQ
+- client-fingerprint: chrome
+  name: 3|🇺🇸4 |  5.4MB/s
+  network: tcp
+  port: 50999
+  reality-opts:
+    public-key: 26wNJTzy8laEJLpVe1Tmo_CLJSkqwwAsM4c7hjSN4WQ
+    short-id: 0400e8ae8448
+  server: 154.13.5.181
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 0aaa2e86-62d3-4f52-80b1-26f14e17cfaf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇫🇮1 |  1.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QSTLAP-obdDV0dk5pe4jz_GuvNrpARTCImyHkDDOEQ8
+    short-id: 90cf52c1faec71
+  server: 65.109.207.209
+  servername: refersion.com
+  tls: true
+  type: vless
+  uuid: 69aa4cf7-407d-472c-bdc8-7ea098cc70b2
+- client-fingerprint: chrome
+  name: 3|🇺🇸5 |  4.5MB/s
+  network: ws
+  port: 5008
+  server: 45.154.98.211
+  servername: vx01.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: vx01.vs2024.us.kg
+    path: /?ed=2560
+- name: 3|🇳🇱1 |  1.8MB/s
+  network: ws
+  port: 2096
+  server: 104.17.148.22
+  servername: FuMzLrHj.kOrTiZ.InFo
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: FuMzLrHj.kOrTiZ.InFo
+    path: /
+- client-fingerprint: firefox
+  name: 3|🇺🇸6 |  5.1MB/s
+  network: ws
+  port: 443
+  server: 104.26.8.179
+  servername: j1us3.jsjc.sbs
+  tls: true
+  type: vless
+  uuid: c335c896-8893-4282-808d-13c2ddbefa7a
+  ws-opts:
+    headers:
+      Host: j1us3.jsjc.sbs
+    path: /jsjc/us3
+- client-fingerprint: chrome
+  name: 3|🇹🇼5 |  5.5MB/s
+  network: ws
+  port: 443
+  server: 154.29.145.110
+  servername: edfgl.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgl.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: 3|🇳🇱2 |  5.0MB/s
+  network: ws
+  port: 8443
+  server: 104.17.148.22
+  servername: PbDcFyWr0.KoTtArY.InFo
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: PbDcFyWr0.KoTtArY.InFo
+    path: /
+- client-fingerprint: chrome
+  name: 3|🇺🇸8 |  5.4MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.28
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /
+- client-fingerprint: chrome
+  name: 3|🇭🇰1 |  3.8MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
+- client-fingerprint: chrome
+  name: 3|🇺🇸9 |  1.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alpn:
+  - h3,h2,http/1.1
+  client-fingerprint: chrome
+  name: 3|🌀2-GL |  5.7MB/s
+  network: ws
+  port: 443
+  server: gl.9901154.xyz
+  servername: gl.9901154.xyz
+  tls: true
+  type: vless
+  uuid: a6b40242-7a3c-4346-97a2-439d8fd06250
+  ws-opts:
+    headers:
+      Host: gl.9901154.xyz
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇯🇵5 |  4.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.230.142.42
+  type: ss
+- client-fingerprint: chrome
+  name: 3|🇺🇸10 |  2.5MB/s
+  network: ws
+  port: 5005
+  server: 45.154.98.231
+  servername: vx01.vs2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      Host: vx01.vs2024.us.kg
+    path: /ss.vs2024.us.kg
+- alterId: 0
+  cipher: auto
+  name: 3|🌀3-CN |  4.8MB/s
+  network: ws
+  port: 23018
+  server: 212.192.13.68
+  tls: false
+  type: vmess
+  uuid: 3d80b7a8-19e2-4b42-8881-3750c60df151
+  ws-opts:
+    headers: {}
+    path: /
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 1000 Mbps
+  name: 3|🇷🇺1 |  3.9MB/s
+  port: 10803
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 1000 Mbps
+  name: 3|🇺🇸12 |  5.1MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- auth: 44d16d76-08be-4a54-8fd6-62eee78ddb0c
+  client-fingerprint: chrome
+  down: 100
+  name: 3|🌀4-CN |  1.8MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 44d16d76-08be-4a54-8fd6-62eee78ddb0c
+  port: 31003
+  server: 212.192.13.110
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- client-fingerprint: chrome
+  name: 3|🇸🇬1 |  1.1MB/s
+  network: ws
+  port: 443
+  server: 47.245.101.23
+  servername: sgb.bkn.asia
+  tls: true
+  type: vless
+  uuid: 183ebae2-4d43-4026-c7c4-c336b6cef2a2
+  ws-opts:
+    headers:
+      Host: sgb.bkn.asia
+    path: /bing
+- client-fingerprint: chrome
+  name: 3|🇺🇸13 |  4.5MB/s
+  network: ws
+  port: 443
+  server: 31.22.116.16
+  servername: usa.xzncr.asia
+  tls: true
+  type: vless
+  uuid: 433f4c30-7b28-4d4e-b573-a6624231700a
+  ws-opts:
+    headers:
+      Host: usa.xzncr.asia
+    path: /bing
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  delay: 263
+  name: 3,11|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.215.250.172
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 3|🇹🇼6 |  1.5MB/s
   network: ws
   port: 443
   server: arvind.ns.cloudflare.com
@@ -1050,31 +798,11 @@ proxies:
     headers:
       Host: edfgl.aimercc.filegear-sg.me
     path: /?ed=2560
-- name: 3|🇹🇼14 |  3.0MB/s
+- client-fingerprint: chrome
+  name: 3|🇹🇼7 |  5.0MB/s
   network: ws
-  port: 8080
-  server: 141.147.144.246
-  servername: edfgk.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgk.aimercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇯🇵7 |  2.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.230.20.15
-  type: ss
-- name: 3|🇹🇼15 |  4.6MB/s
-  network: ws
-  port: 8443
-  server: 92.243.74.3
+  port: 46741
+  server: 45.66.129.147
   servername: edfgl.aimercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -1084,6 +812,35 @@ proxies:
   ws-opts:
     headers:
       Host: edfgl.aimercc.filegear-sg.me
+    path: /?ed=2560
+- name: 3|🇹🇼8 |  5.3MB/s
+  network: ws
+  port: 2096
+  server: 27.50.49.188
+  servername: edfgl.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgl.aimercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 3|🇹🇼9 |  5.1MB/s
+  network: ws
+  port: 443
+  server: 129.154.207.203
+  servername: edfgk.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edfgk.aimercc.filegear-sg.me
     path: /?ed=2560
 - alterId: 64
   cipher: auto
@@ -1623,6 +1380,31 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 8|1|🇷🇺1 |  3.2MB/s
+  network: ws
+  port: 21013
+  server: 176.32.35.148
+  tls: false
+  type: vmess
+  uuid: 01d8ffc6-092e-46d5-8a09-6766f2bb2188
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇩🇪1 |  1.4MB/s
+  network: ws
+  port: 443
+  server: 23.158.56.241
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: 8|1|🇷🇺2 |  1.4MB/s
   network: ws
   port: 443
@@ -1827,14 +1609,6 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|tg频道:@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.215.250.172
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 11|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -2106,6 +1880,34 @@ proxies:
     headers:
       Host: a.xn--i-sx6a60i.us.kg.
     path: /
+- name: 13|SC_speednode_0049
+  network: ws
+  port: 8880
+  server: 154.83.2.156
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- name: 13|SC_speednode_0050
+  network: ws
+  port: 8880
+  server: 154.83.2.230
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
 - name: 13|SC_speednode_0051
   network: ws
   port: 8880

@@ -189,106 +189,47 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,11|🇺🇸 美国3|@ripaojiedian
-  password: 8cwxYqlSeC4Xw8KOApT3SxCIX69eZ7zBNZDE0Dap3y9AZTFBFlD5a2euA7A3YzR2DpSyI
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 3|🇺🇸1 |  5.7MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 1000 Mbps
+- client-fingerprint: chrome
+  name: 3|🇺🇸3 |  5.7MB/s
+  network: ws
+  password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
   port: 443
-  server: bedsheet.homeofbrave.net
-  skip-cert-verify: false
-  sni: bedsheet.homeofbrave.net
+  server: 172.67.204.75
+  skip-cert-verify: true
+  sni: Us6-02.818185.Xyz
   tfo: false
-  tls: false
   type: trojan
   udp: true
-  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+  ws-opts:
+    headers:
+      Host: Us6-02.818185.Xyz
+    path: /ILLcisbMYUd6MQzxVoMQ
 - client-fingerprint: chrome
-  name: 3,13|SC_speednode_0049
-  network: ws
-  port: 8880
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- client-fingerprint: chrome
-  name: 3|🇺🇸3 |  1.3MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.18
-  servername: usc.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 704222bd-7eff-4307-ae26-d6a5ab79817a
-  ws-opts:
-    headers:
-      Host: usc.xzncr.asia
-    path: /bing
-- client-fingerprint: firefox
-  name: 3|🇺🇸4 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 104.26.8.179
-  servername: j1us3.jsjc.sbs
-  tls: true
-  type: vless
-  uuid: c335c896-8893-4282-808d-13c2ddbefa7a
-  ws-opts:
-    headers:
-      Host: j1us3.jsjc.sbs
-    path: /jsjc/us3
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸5 |  2.7MB/s
-  password: 3F14MP7K8P4G1631
-  port: 17008
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸7 |  2.5MB/s
-  obfs: plain
-  password: amazonskr05
-  port: 443
-  protocol: origin
-  server: 34.210.253.95
-  type: ssr
-- delay: 2505
-  name: 3|🇺🇸8 |  5.3MB/s
-  network: ws
-  port: 8880
-  server: 195.85.59.155
-  tls: false
-  type: vless
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /Telegram
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸10 |  2.6MB/s
-  password: R0TCV512GW9XMYZ4
-  port: 17006
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-- client-fingerprint: chrome
-  name: 3|🇺🇸12 |  3.2MB/s
+  name: 3|🇺🇸4 |  5.4MB/s
   network: tcp
-  port: 443
-  server: 192.9.236.144
-  servername: 147135004002.sec20org.com
+  port: 50999
+  reality-opts:
+    public-key: 26wNJTzy8laEJLpVe1Tmo_CLJSkqwwAsM4c7hjSN4WQ
+    short-id: 0400e8ae8448
+  server: 154.13.5.181
+  servername: yahoo.com
   tls: true
   type: vless
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- name: 3|🇺🇸15 |  3.5MB/s
+  uuid: 0aaa2e86-62d3-4f52-80b1-26f14e17cfaf
+- client-fingerprint: chrome
+  name: 3|🇺🇸5 |  4.5MB/s
   network: ws
   port: 5008
   server: 45.154.98.211
@@ -302,7 +243,44 @@ proxies:
     headers:
       Host: vx01.vs2024.us.kg
     path: /?ed=2560
-- name: 3|🇺🇸16 |  2.8MB/s
+- client-fingerprint: firefox
+  name: 3|🇺🇸6 |  5.1MB/s
+  network: ws
+  port: 443
+  server: 104.26.8.179
+  servername: j1us3.jsjc.sbs
+  tls: true
+  type: vless
+  uuid: c335c896-8893-4282-808d-13c2ddbefa7a
+  ws-opts:
+    headers:
+      Host: j1us3.jsjc.sbs
+    path: /jsjc/us3
+- client-fingerprint: chrome
+  name: 3|🇺🇸8 |  5.4MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.28
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /
+- client-fingerprint: chrome
+  name: 3|🇺🇸9 |  1.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: 3|🇺🇸10 |  2.5MB/s
   network: ws
   port: 5005
   server: 45.154.98.231
@@ -320,8 +298,9 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
+  client-fingerprint: chrome
   down: 1000 Mbps
-  name: 3|🇺🇸17 |  5.4MB/s
+  name: 3|🇺🇸12 |  5.1MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -330,27 +309,18 @@ proxies:
   udp: true
   up: 1000 Mbps
 - client-fingerprint: chrome
-  name: 3,13|SC_speednode_0050
+  name: 3|🇺🇸13 |  4.5MB/s
   network: ws
-  port: 8880
-  server: 154.83.2.230
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: 31.22.116.16
+  servername: usa.xzncr.asia
+  tls: true
   type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  uuid: 433f4c30-7b28-4d4e-b573-a6624231700a
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸21 |  2.8MB/s
-  password: CVRJLT2B39SKIJ6I
-  port: 17004
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
+      Host: usa.xzncr.asia
+    path: /bing
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
