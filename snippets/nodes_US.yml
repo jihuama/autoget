@@ -189,30 +189,30 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 3,8|2|🇺🇸7 |  5.1MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c10a0e2f-3b88-3f96-bbc5-8941b97b4995
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: 3|🇺🇸7 |  1.1MB/s
-  network: tcp
-  port: 31998
-  server: 120.234.102.229
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 3,11|🇺🇸 美国|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-xh4inuCuH4.download.microsoft.com
+    mode: http
+  port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 3,11|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-xh4inuCuH4.download.microsoft.com
+    mode: http
+  port: 8773
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -281,27 +281,3 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
-    mode: http
-  port: 8771
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
-    mode: http
-  port: 8773
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
