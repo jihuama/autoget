@@ -189,13 +189,32 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11|🇺🇸 美国3|@ripaojiedian
+  password: 8cwxYqlSeC4Xw8KOApT3SxCIX69eZ7zBNZDE0Dap3y9AZTFBFlD5a2euA7A3YzR2DpSyI
+  port: 443
+  server: bedsheet.homeofbrave.net
+  skip-cert-verify: false
+  sni: bedsheet.homeofbrave.net
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+- cipher: aes-256-cfb
+  name: 3|🇺🇸2 |  1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.236.137.219
+  type: ss
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  client-fingerprint: chrome
   down: 1000 Mbps
-  name: 3|🇺🇸1 |  1.9MB/s
+  name: 3|🇺🇸3 |  5.5MB/s
   port: 11512
   server: 108.181.24.77
   skip-cert-verify: true
@@ -203,45 +222,9 @@ proxies:
   type: hysteria
   udp: true
   up: 1000 Mbps
-- client-fingerprint: chrome
-  name: 3|🇺🇸2 |  2.5MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.16
-  servername: usa.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 433f4c30-7b28-4d4e-b573-a6624231700a
-  ws-opts:
-    headers:
-      Host: usa.xzncr.asia
-    path: /bing
-- client-fingerprint: chrome
-  name: 3|🇺🇸3 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 31.22.116.196
-  servername: usd.xzncr.asia
-  tls: true
-  type: vless
-  uuid: 034b7109-a45a-46d7-afde-3eec1af72322
-  ws-opts:
-    headers:
-      Host: usd.xzncr.asia
-    path: /bing
-- client-fingerprint: chrome
-  name: 3|🇺🇸4 |  3.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - country: 🇺🇸US
   delay: 2009
-  name: 3|🇺🇸5 |  3.3MB/s
+  name: 3|🇺🇸4 |  3.9MB/s
   password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
   port: 443
   server: 107.167.18.123
@@ -249,47 +232,55 @@ proxies:
   sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
   type: hysteria2
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸6 |  3.4MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f2591110-7245-378a-9f10-b7dcbd1b7074
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
+- client-fingerprint: chrome
+  ip-version: dual
+  name: 3|🇺🇸5 |  2.2MB/s
+  network: tcp
+  port: 443
+  server: 51.81.18.62
+  servername: 147135011033.sec21org.com
+  tls: true
+  type: vless
+  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  client-fingerprint: chrome
   down: 1000 Mbps
-  name: 3|🇺🇸7 |  2.2MB/s
+  name: 3|🇺🇸6 |  4.8MB/s
   port: 17549
   server: 208.87.243.151
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 1000 Mbps
-- alterId: 2
-  cipher: auto
-  name: 8|2|🇺🇸13 |  4.2MB/s
+- client-fingerprint: chrome
+  name: 3,13|SC_speednode_0049
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  port: 8880
+  server: 154.83.2.156
+  servername: redw.pooriam.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: redw.pooriam.ir
+    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+- alterId: 2
+  cipher: auto
+  name: 8|2|🇺🇸6 |  3.4MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: f2591110-7245-378a-9f10-b7dcbd1b7074
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
