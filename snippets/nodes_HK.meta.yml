@@ -1,15 +1,32 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇭🇰1 |  2.8MB/s
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3|🇭🇰2 |  1.2MB/s
+  password: VQOZ1SJ72XVZ604A
+  port: 15003
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  type: ss
+- client-fingerprint: chrome
+  name: 3|🇭🇰3 |  5.0MB/s
   network: ws
-  port: 22017
-  server: 103.136.150.144
-  tls: false
-  type: vmess
-  uuid: dea11e6e-ea19-4a6d-b78c-d104d280632f
+  port: 443
+  server: 162.247.5.92
+  servername: hk.bkn.asia
+  tls: true
+  type: vless
+  uuid: ce2824eb-9bc1-4369-c574-8a769b203df9
   ws-opts:
-    path: /
+    headers:
+      Host: hk.bkn.asia
+    path: /bing
+- client-fingerprint: chrome
+  name: 3|🇭🇰6 |  6.3MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - alterId: 0
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
