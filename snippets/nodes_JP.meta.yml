@@ -1,14 +1,17 @@
 proxies:
 - client-fingerprint: chrome
-  name: 3|🇯🇵6 |  2.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
+  name: 3|🇯🇵1 |  1.7MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.163
   skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - alterId: 0
   cipher: auto
   name: 8,12|日本A|@ripaojiedian
@@ -43,6 +46,14 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 11|🇺🇸 美国5|@ripaojiedian
+  password: SDYlNZ6z5DA8TZqz33YnN4lzpp88YBZOyXC5we8AZBqn6YXwI0gISyalXjIOyNwCaDpDORKSyDCSg9S
+  port: 28333
+  server: rolling.homeofbrave.net
+  skip-cert-verify: false
+  sni: rolling.homeofbrave.net
+  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇯🇵 日本5|@ripaojiedian
