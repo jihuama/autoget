@@ -189,30 +189,68 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: chacha20-ietf
-  name: 3|🇺🇸20 |  1.2MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
+- client-fingerprint: chrome
+  name: 3,11|🇺🇸 美国5|@ripaojiedian
+  password: SDYlNZ6z5DA8TZqz33YnN4lzpp88YBZOyXC5we8AZBqn6YXwI0gISyalXjIOyNwCaDpDORKSyDCSg9S
+  port: 28333
+  server: rolling.homeofbrave.net
+  skip-cert-verify: false
+  sni: rolling.homeofbrave.net
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: i8oL7PsxV002zYFTmiIeg
+  name: 3|🇺🇸6 |  3.8MB/s
+  network: grpc
+  password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  port: 443
+  server: 192.3.130.103
+  sni: us10-01zl.huangshang.filegear-sg.me
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇺🇸21 |  2.2MB/s
+  name: 3|🇺🇸8 |  1.7MB/s
   password: 7bbb0021ab931024
   port: 11202
   server: 67.220.67.59
   type: ss
 - alterId: 2
   cipher: auto
-  name: 8|2|🇺🇸6 |  3.4MB/s
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇺🇸12 |  3.1MB/s
   network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  tls: false
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f2591110-7245-378a-9f10-b7dcbd1b7074
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: 15.mamamajd.site
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇺🇸14 |  2.0MB/s
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
     path: /
 - alterId: 0
   cipher: auto
