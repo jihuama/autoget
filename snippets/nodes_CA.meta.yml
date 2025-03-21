@@ -1,16 +1,21 @@
 proxies:
-- auth: ccc74489-2ec3-480b-9ac7-2c875df7de82
-  name: 3|🇨🇦1 |  1.6MB/s
-  password: ccc74489-2ec3-480b-9ac7-2c875df7de82
-  port: 8443
-  server: jnd1.gywanglug.xyz
+- auth: 60609cca-82bf-40b9-aad2-4526712708c6
+  client-fingerprint: chrome
+  down: 100
+  name: 3|🇨🇦1 |  2.4MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 60609cca-82bf-40b9-aad2-4526712708c6
+  port: 30009
+  server: 141.195.112.53
   skip-cert-verify: true
-  sni: jnd1.gywanglug.xyz
   type: hysteria2
+  udp: true
+  up: 100
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3|🇨🇦2 |  4.5MB/s
+  name: 3,8|1|🇨🇦2 |  4.5MB/s
   network: ws
   port: 20022
   server: 141.195.112.53
@@ -20,3 +25,11 @@ proxies:
   uuid: cfb611bf-c93e-413b-b04c-3090f4f7cbbb
   ws-opts:
     path: /
+- auth: ccc74489-2ec3-480b-9ac7-2c875df7de82
+  name: 3|🇨🇦3 |  5.1MB/s
+  password: ccc74489-2ec3-480b-9ac7-2c875df7de82
+  port: 8443
+  server: jnd1.gywanglug.xyz
+  skip-cert-verify: true
+  sni: jnd1.gywanglug.xyz
+  type: hysteria2
