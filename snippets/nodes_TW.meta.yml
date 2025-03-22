@@ -1,10 +1,45 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 3|🇹🇼1 |  7.4MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 64050
-  server: csuzhou01.1cooldns.com
-  type: ss
+- name: 3|🇹🇼1 |  1.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: tw1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: tw1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 2
+  cipher: auto
+  name: 3|🇹🇼2 |  1.2MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e28834b8-3b57-3cc8-b084-7c5d08c6af57
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 3|🇹🇼3 |  1.1MB/s
+  network: ws
+  port: 2052
+  server: 104.26.13.228
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 282533b1-cbf1-40a6-b399-a1116163fcc5
+  ws-opts:
+    headers:
+      Host: throbbing-haze-ac69.guoronghuang180.workers.dev
+    path: /?ed=2560
 - alterId: 64
   cipher: auto
   name: 8,12|台湾|@ripaojiedian
