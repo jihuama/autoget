@@ -1,4 +1,31 @@
 proxies:
+- cipher: chacha20-ietf
+  name: 3|🇭🇰2 |  2.6MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3|🇭🇰3 |  6.2MB/s
+  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
+  port: 19240
+  server: ss.miloli.cc
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰13 |  2.0MB/s
+  network: tcp
+  port: 51039
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
