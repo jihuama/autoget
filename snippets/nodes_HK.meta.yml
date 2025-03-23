@@ -1,24 +1,7 @@
 proxies:
-- name: 3|🇭🇰1 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 3|🇭🇰2 |  2.8MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2021
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰3 |  1.5MB/s
+  name: 3|🇭🇰1 |  5.1MB/s
   network: tcp
   port: 11555
   reality-opts:
@@ -30,26 +13,59 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰6 |  5.9MB/s
+  name: 3|🇭🇰2 |  6.0MB/s
   network: tcp
-  port: 24318
+  port: 41279
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
+  server: csuzhou01.1cooldns.com
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 8,12|香港3|@ripaojiedian
+- cipher: chacha20-ietf
+  name: 3|🇭🇰3 |  1.0MB/s
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇭🇰7 |  4.1MB/s
   network: tcp
-  port: '40102'
-  server: 120.232.153.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  port: 40387
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 3|🇭🇰8 |  2.3MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 1000
+  server: tw.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 3|🇭🇰10 |  3.5MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2021
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- name: 3|🇭🇰11 |  6.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   name: 8,12|香港5|@ripaojiedian
@@ -60,6 +76,16 @@ proxies:
   tls: false
   type: vmess
   uuid: CE361194-7D70-614C-780B-D3BDB61D0257
+- alterId: 0
+  cipher: auto
+  name: 8,12|香港3|@ripaojiedian
+  network: tcp
+  port: '40102'
+  server: 120.232.153.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alterId: 0
   cipher: auto
   name: 8,12|香港6|@ripaojiedian

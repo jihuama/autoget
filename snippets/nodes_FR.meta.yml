@@ -1,33 +1,20 @@
 proxies:
-- auth: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
-  name: 3|🇫🇷1 |  5.2MB/s
-  password: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
-  port: 37732
-  server: 207.180.248.7
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 3|🇫🇷1 |  5.9MB/s
+  port: 44557
+  protocol: udp
+  server: 195.154.200.178
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
+  type: hysteria
+  up: 1000
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇫🇷2 |  5.2MB/s
-  network: ws
-  port: 80
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: 301.pooriam.ir
-    path: /telegram-id-@Selinc/?ed=2503
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇫🇷3 |  4.2MB/s
+  name: 3|🇫🇷2 |  5.3MB/s
   network: ws
   port: 8080
   server: 46.254.93.124
@@ -40,18 +27,35 @@ proxies:
     headers:
       Host: sNaPp.MaStErSrV.ir.
     path: ''
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 3|🇫🇷3 |  2.1MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2005
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: fr01.akebi.cc
+  type: hysteria2
+- auth: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
+  name: 3|🇫🇷4 |  5.2MB/s
+  password: a3661fb3-b0ab-4022-ba5c-7c0ef0e01db8
+  port: 37732
+  server: 207.180.248.7
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - client-fingerprint: chrome
   flow: ''
   grpc-opts:
     grpc-service-name: fdvsdv
-  mode: gun
-  name: 3|🇫🇷4 |  3.6MB/s
+  mode: ''
+  name: 3|🇫🇷5 |  3.9MB/s
   network: grpc
   port: 2098
   reality-opts:
     public-key: JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs
     short-id: 2665af94c7b25f90
-  server: hetzner.unironically.ir
+  server: 188.245.242.20
   servername: sourceforge.net
   tls: true
   type: vless
@@ -60,28 +64,16 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇫🇷5 |  5.2MB/s
+  name: 3|🇫🇷6 |  4.5MB/s
   network: ws
-  port: 443
-  server: 104.25.140.153
-  servername: BPB-pANEL-En-1O0.pAges.DEV
-  tls: true
+  port: 80
+  server: 104.17.147.22
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: f9f52055-ff98-4f3c-baa4-869864503e1e
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: BPB-pANEL-En-1O0.pAges.DEV
-    path: /
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 3|🇫🇷6 |  5.9MB/s
-  port: 44557
-  protocol: udp
-  server: 195.154.200.178
-  skip-cert-verify: true
-  type: hysteria
-  up: 1000
+      Host: 301.pooriam.ir
+    path: /telegram-id-@Selinc/?ed=2503
