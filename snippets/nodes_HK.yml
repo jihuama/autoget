@@ -1,20 +1,30 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 3|🇭🇰3 |  1.0MB/s
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 8,12|香港5|@ripaojiedian
+  name: 3|🇭🇰3 |  5.8MB/s
   network: tcp
-  port: '10701'
-  server: 120.198.71.184
-  servername: ''
+  port: 55754
+  server: 183.236.51.38
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: CE361194-7D70-614C-780B-D3BDB61D0257
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰9 |  1.5MB/s
+  network: tcp
+  port: 34093
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
@@ -25,6 +35,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+- alterId: 0
+  cipher: auto
+  name: 8,12|香港5|@ripaojiedian
+  network: tcp
+  port: '10701'
+  server: 120.198.71.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: CE361194-7D70-614C-780B-D3BDB61D0257
 - alterId: 0
   cipher: auto
   name: 8,12|香港6|@ripaojiedian
