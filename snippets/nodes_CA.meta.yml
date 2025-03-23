@@ -1,22 +1,8 @@
 proxies:
-- name: 3|🇨🇦1 |  1.8MB/s
-  network: ws
-  port: 443
-  server: 104.18.46.81
-  servername: nl.ylkszy.eu.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: nl.ylkszy.eu.org
-    path: /?ed=2560
 - auth: 1540237c-ce3e-4bff-bbb3-e3a33ba5d831
   client-fingerprint: chrome
   down: 100
-  name: 3|🇨🇦2 |  4.1MB/s
+  name: 3|🇨🇦1 |  1.7MB/s
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   password: 1540237c-ce3e-4bff-bbb3-e3a33ba5d831
@@ -26,3 +12,19 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇨🇦2 |  5.4MB/s
+  network: ws
+  port: 443
+  server: iplocation.io
+  servername: nl.ylkszy.eu.org
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: nl.ylkszy.eu.org
+    path: /?ed=2560security=tls
