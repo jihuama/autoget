@@ -1,6 +1,6 @@
 proxies:
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 3|🇭🇰2 |  1.5MB/s
+  name: 3|🇭🇰1 |  3.8MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2000
   server: tw3.akebi.cc
@@ -8,36 +8,20 @@ proxies:
   sni: hk03.akebi.cc
   type: hysteria2
 - client-fingerprint: chrome
-  name: 3|🇭🇰4 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰5 |  6.2MB/s
+  name: 3|🇭🇰2 |  6.3MB/s
   network: tcp
-  port: 41279
+  port: 11555
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
+  server: test123.zlqhdns.top
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf
-  name: 3|🇭🇰7 |  2.7MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰8 |  6.2MB/s
+  name: 3|🇭🇰3 |  6.0MB/s
   network: tcp
   port: 24318
   reality-opts:
@@ -47,37 +31,47 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 3,8|1|🇭🇰9 |  1.5MB/s
-  network: tcp
-  port: 34093
-  server: 120.198.71.214
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 3|🇭🇰10 |  1.7MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 1000
-  server: tw.akebi.cc
-  skip-cert-verify: false
-  sni: hk03.akebi.cc
-  type: hysteria2
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 3|🇭🇰12 |  4.9MB/s
+  name: 3|🇭🇰4 |  3.2MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 2021
   server: tw3.akebi.cc
   skip-cert-verify: false
   sni: hk03.akebi.cc
   type: hysteria2
+- name: 3|🇭🇰5 |  2.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: hkre1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: hkre1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
-  name: 8|1|🇭🇰3 |  5.8MB/s
+  client-fingerprint: chrome
+  name: 3,11|🇯🇵 日本5|@ripaojiedian 2
+  password: 05819241-c538-4a25-9c1b-7dc5d7646e22
+  port: 10105
+  server: 45.196.233.64
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 6A5C1155-BC24-F312-5E67-9E735E36E19A
+- cipher: chacha20-ietf
+  name: 3|🇭🇰7 |  1.4MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.61
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇭🇰9 |  2.5MB/s
   network: tcp
-  port: 55754
-  server: 183.236.51.38
+  port: '34093'
+  server: 120.198.71.214
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

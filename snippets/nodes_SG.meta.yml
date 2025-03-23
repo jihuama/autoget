@@ -6,26 +6,45 @@ proxies:
   server: 54.179.87.28
   type: ss
 - client-fingerprint: chrome
-  name: 3|🇸🇬1 |  5.2MB/s
+  name: 3|🇸🇬1 |  2.9MB/s
   password: myszy28811
   port: 28811
   server: pipi.myddns.me
   type: socks5
   udp: true
   username: myszy
-- cipher: aes-256-cfb
-  delay: 425
-  name: 3|🇸🇬2 |  3.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.99.127
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|🇸🇬6 |  4.8MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21114
-  server: okanc.node-is.green
-  type: ss
+- client-fingerprint: chrome
+  flow: none
+  mode: ''
+  name: 3|🇸🇬2 |  5.8MB/s
+  network: ws
+  port: 2096
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: none
+  mode: ''
+  name: 3|🇸🇬3 |  5.6MB/s
+  network: ws
+  port: 2096
+  server: 141.193.213.20
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: '%2F'
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
