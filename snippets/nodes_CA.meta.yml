@@ -1,14 +1,42 @@
 proxies:
-- auth: e68aab3c-79a5-4d53-bd6d-27637c0fae34
-  client-fingerprint: chrome
-  down: 100
-  name: 3|🇨🇦1 |  1.8MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: e68aab3c-79a5-4d53-bd6d-27637c0fae34
-  port: 30009
-  server: 141.195.112.53
+- name: 3|🇨🇦1 |  1.7MB/s
+  network: ws
+  port: 443
+  server: 212.183.88.109
+  servername: vx.dbbn2024.us.kg
   skip-cert-verify: true
-  type: hysteria2
+  tls: true
+  type: vless
   udp: true
-  up: 100
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vx.dbbn2024.us.kg
+    path: /?ed=2560
+- name: 3|🇨🇦2 |  1.4MB/s
+  network: ws
+  port: 443
+  server: 185.133.35.125
+  servername: vx.dbbn2024.us.kg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vx.dbbn2024.us.kg
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3|🇨🇦3 |  5.6MB/s
+  network: ws
+  port: 20023
+  server: 141.195.112.53
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b7274fbe-2377-4413-8b3b-22e72539178e
+  ws-opts:
+    path: /
