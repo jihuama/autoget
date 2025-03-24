@@ -1,31 +1,14 @@
 proxies:
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 3|🇹🇼1 |  1.6MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 30001
-  server: tw.akebi.cc
-  skip-cert-verify: false
-  sni: tw.akebi.cc
-  type: hysteria2
-- name: 3|🇹🇼2 |  3.9MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-128-gcm
-  name: 3|🇹🇼3 |  2.4MB/s
+  name: 3|🇹🇼1 |  7.0MB/s
   password: VMhGp5wEIyCDf90T
-  port: 15375
-  server: bsuqian01.dynu.net
+  port: 64050
+  server: csuzhou01.1cooldns.com
   type: ss
-- name: 3|🇹🇼4 |  1.9MB/s
+- name: 3|🇹🇼2 |  6.2MB/s
   network: ws
-  port: 31444
-  server: 14.52.18.105
+  port: 50000
+  server: 211.38.168.1
   servername: agedgj.ambercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
@@ -36,16 +19,20 @@ proxies:
     headers:
       host: agedgj.ambercc.filegear-sg.me
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 8|12|台湾2|@ripaojiedian
-  network: tcp
-  port: '11110'
-  server: 156.224.77.98
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 111032f8-eabc-46c0-fe89-8acceaeb34e5
+- name: 3|🇹🇼3 |  3.7MB/s
+  network: ws
+  port: 443
+  server: 45.62.118.94
+  servername: agedgl.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: agedgl.ambercc.filegear-sg.me
+    path: /?ed=2560
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇹🇼 台湾|@ripaojiedian
