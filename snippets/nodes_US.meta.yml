@@ -189,13 +189,21 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3,11|🇹🇼 台湾|@ripaojiedian
+  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
+  port: 41705
+  server: zf1.10101251.xyz
+  tfo: false
+  type: ss
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇺🇸1 |  5.8MB/s
+  name: 3|🇺🇸2 |  5.9MB/s
   network: ws
-  port: 2095
-  server: 156.238.18.60
+  port: 80
+  server: 156.238.18.51
   servername: ''
   tls: false
   type: vless
@@ -204,43 +212,11 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /
-- cipher: aes-256-cfb
-  name: 3|🇺🇸2 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.244.97.108
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,11|🇸🇬 新加坡2|@ripaojiedian
-  password: '!!str 74260705449889500'
-  port: 10710
-  server: 120.198.71.184
-  skip-cert-verify: false
-  sni: grown-doberman.shiner427.skin
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: CE361194-7D70-614C-780B-D3BDB61D0257
-- cipher: aes-256-cfb
-  name: 3|🇺🇸4 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.27.128.220
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇺🇸5 |  4.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.161.163.245
-  type: ss
+    path: Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇺🇸6 |  3.2MB/s
+  name: 3|🇺🇸3 |  4.6MB/s
   network: ws
   port: 2095
   server: 156.238.18.208
@@ -253,33 +229,81 @@ proxies:
     headers:
       Host: redw.pooriam.ir
     path: /
-- name: 3,13|SC_speednode_0049
+- cipher: aes-256-cfb
+  name: 3|🇺🇸4 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.191.187.21
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇺🇸5 |  3.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.190.61.46
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸7 |  4.3MB/s
+  network: tcp
+  port: 50200
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- grpc-opts:
+    grpc-service-name: i8oL7PsxV002zYFTmiIeg
+  name: 3|🇺🇸8 |  1.2MB/s
+  network: grpc
+  password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  port: 443
+  server: 192.3.130.103
+  sni: us10-01zl.huangshang.filegear-sg.me
+  type: trojan
+  udp: true
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇺🇸9 |  5.0MB/s
   network: ws
-  port: 8880
-  server: 154.83.2.156
-  servername: redw.pooriam.ir
-  skip-cert-verify: false
+  port: 80
+  server: 45.131.4.82
+  servername: ''
   tls: false
   type: vless
-  udp: true
+  udp: false
   uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: redw.pooriam.ir
-    path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇺🇸8 |  5.8MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- name: 3|🇺🇸9 |  5.6MB/s
+      Host: 301.pooriam.ir
+    path: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸10 |  3.1MB/s
+  network: tcp
+  port: 40430
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸11 |  6.1MB/s
+  network: tcp
+  port: 21578
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3|🇺🇸12 |  4.3MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: ustx004-cdn-route.couldflare-cdn.com
@@ -288,29 +312,13 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸10 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 104.21.6.179
-  servername: us6-10.890601.XYz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
-  ws-opts:
-    headers:
-      Host: us6-10.890601.xyz
-    path: /GuJUq5kZ2d6MQzxVoMQ
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇺🇸11 |  5.8MB/s
+  name: 3|🇺🇸13 |  5.0MB/s
   network: ws
-  port: 2095
-  server: 156.238.18.153
+  port: 80
+  server: 156.238.18.174
   servername: ''
   tls: false
   type: vless
@@ -319,313 +327,155 @@ proxies:
   ws-opts:
     headers:
       Host: redw.pooriam.ir
-    path: /
-- name: 3|🇺🇸12 |  5.2MB/s
-  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-  port: 443
-  server: 107.167.18.123
+    path: Telegram@WangCai2/?ed=2560
+- name: 3|🇺🇸14 |  5.2MB/s
+  network: ws
+  port: 2086
+  server: 104.21.4.189
   skip-cert-verify: true
-  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 3|🇺🇸13 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.244.128.249
-  type: ss
+  type: vless
+  udp: true
+  uuid: 7320522d-56c1-4e35-9fa7-88a151d76828
+  ws-opts:
+    headers:
+      Host: 07fd36f0-yuv2ray3131331456346534643.cocefob714.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /DdAtLiofda1FCcda?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇺🇸14 |  4.9MB/s
+  name: 3|🇺🇸15 |  1.3MB/s
   network: ws
-  port: 8880
-  server: 45.149.12.217
+  port: 80
+  server: 156.238.18.156
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: photographipictureai.ir
-    path: /TABRIZ.NET, @Azarbayjab1.googleapis.com, @Azarbayjab1@Azarbayjab1/?ed=tabrizm137.com
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸15 |  5.2MB/s
-  network: ws
-  port: 443
-  server: 172.67.204.75
-  servername: sanjose03.818185.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
-  ws-opts:
-    headers:
-      Host: sanjose03.818185.xyz
-    path: /oLdow5owANhO1cThJQeJb
-- client-fingerprint: firefox
-  flow: ''
-  mode: ''
-  name: 3|🇮🇳2 |  5.3MB/s
-  network: ws
-  port: 443
-  server: 104.18.20.0
-  servername: in4_pq_vip_user_api.xn--ghqu5fm27b67w.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: b2b7f2fd-58af-46c3-aa31-b00a32e3c781
-  ws-opts:
-    headers:
-      Host: in4_pq_vip_user_api.xn--ghqu5fm27b67w.com
-    path: /pq/in4
-- name: 3|🇺🇸17 |  5.8MB/s
+      Host: redw.pooriam.ir
+    path: Telegram🇨🇳 @WangCai2
+- name: 3|🇺🇸17 |  1.1MB/s
   network: ws
   port: 2095
-  server: 104.18.21.69
+  server: 156.238.18.28
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: fuckingxijinping.xijinpingbigsb.workers.dev
-    path: /?ed=2560
+      Host: redw.pooriam.ir
+    path: /
+- name: 3|🇺🇸18 |  5.8MB/s
+  network: ws
+  port: 443
+  server: 104.16.152.64
+  servername: wl.vs2025.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: wl.vs2025.cfd
+    path: /ss.vs2024.us.kg
+- cipher: aes-256-cfb
+  name: 3|🇺🇸19 |  1.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.200.106.206
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸18 |  5.2MB/s
+  name: 3|🇺🇸20 |  5.8MB/s
   network: tcp
-  port: 57926
+  port: 30274
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
+  server: gy01.hunheiydd.xyz
   servername: gateway.icloud.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  delay: 1862
-  h2-opts: {}
-  http-opts: {}
-  name: 3|🇺🇸19 |  5.7MB/s
-  network: ws
-  port: 80
-  server: 104.26.12.31
-  servername: 326249018619672025032010340654852.mglxc.chibaba.filegear-sg.me
-  skip-cert-verify: true
-  type: vmess
-  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
-  ws-opts:
-    headers:
-      HOST: 326249018619672025032010340654852.mglxc.chibaba.filegear-sg.me
-    path: /lxc.html?ed=2048
+- cipher: aes-256-cfb
+  name: 3|🇺🇸21 |  5.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.185.253.219
+  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 3|🇺🇸23 |  3.9MB/s
+  network: tcp
+  port: 56701
+  reality-opts:
+    public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
+    short-id: 792147b8
+  server: 107.173.37.43
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: false
+  uuid: a31662df-9ef2-43f9-981f-6cb2d0341c17
 - alpn:
   - h3
   auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 3|🇺🇸20 |  5.0MB/s
-  port: 17549
-  server: 208.87.243.151
+  down: 1000 Mbps
+  name: 3|🇺🇸24 |  5.8MB/s
+  port: 11512
+  server: 108.181.24.77
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: apple.com
   type: hysteria
-  up: 11 Mbps
+  udp: true
+  up: 1000 Mbps
 - client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸21 |  6.0MB/s
+  name: 3|🇺🇸25 |  5.1MB/s
   network: ws
-  port: 443
-  server: 104.21.58.135
-  servername: sanjose03.818185.xyz
-  tls: true
+  port: 2052
+  server: 156.238.18.165
+  skip-cert-verify: false
+  tls: false
   type: vless
-  udp: false
-  uuid: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: sanjose03.818185.xyz
-    path: /oLdow5owANhO1cThJQeJb
-- cipher: aes-256-cfb
-  name: 3|🇺🇸22 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.190.61.46
-  type: ss
-- name: 3|🇺🇸23 |  5.9MB/s
-  network: ws
-  password: 2fec7227-9abe-46f2-af18-78302b836c45
-  port: 443
-  server: 172.67.173.64
-  sni: 3y.2032.pp.ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3y.2032.pp.ua
-    path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸32 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 172.67.163.14
-  servername: 3n.2031.pp.ua
-  tls: true
-  type: vless
-  udp: false
-  uuid: 2fec7227-9abe-46f2-af18-78302b836c45
-  ws-opts:
-    headers:
-      Host: 3n.2031.pp.ua
-    path: /qF5dXhCllosLcFpqdDoAgkondVWl
-- auth: 0qBVTmOwV5JGMIBnx6J78INuc9o
-  name: 3|🇺🇸25 |  5.2MB/s
-  password: 0qBVTmOwV5JGMIBnx6J78INuc9o
-  port: 34630
-  server: 34.220.176.173
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸26 |  3.9MB/s
-  network: ws
-  port: 443
-  server: 172.67.200.238
-  servername: mm8x01.890689.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 6040a753-e35b-4384-8713-96f3c639b621
-  ws-opts:
-    headers:
-      Host: mm8x01.890689.xyz
-    path: /qzS0GzXjVWvcbs2HOmaeWimvT3
-- cipher: aes-256-cfb
-  name: 3|🇺🇸27 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.201.58.186
-  type: ss
+      Host: redw.pooriam.ir
+    path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸28 |  5.7MB/s
+  name: 3|🇺🇸27 |  4.9MB/s
   network: tcp
-  port: 64654
+  port: 38311
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: zhee01.dynu.net
-  servername: gateway.icloud.com
+  servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- allowInsecure: ''
-  name: 3|🇺🇸29 |  1.6MB/s
-  network: ws
-  password: 85950277-f447-48f0-9ead-aaf6d5ff3cad
-  port: 443
-  server: 104.21.34.159
-  skip-cert-verify: false
-  sni: df5tym.2031.pp.ua
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: df5tym.2031.pp.ua
-    path: /I4L1BP2DQVYmx5NYQ76MGGq
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇺🇸30 |  5.7MB/s
+  name: 3|🇺🇸28 |  5.5MB/s
   network: ws
   port: 80
-  server: 104.21.58.212
+  server: 156.238.19.232
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 5a4e040a-8de6-4222-bd6f-9f535b8772fd
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: calm-violet-0e47.pomofoc222.workers.dev
-    path: /lrJO6NEVRGHecfbo?ed=2560
-- allowInsecure: ''
-  name: 3|🇺🇸31 |  1.1MB/s
-  network: ws
-  password: 2fec7227-9abe-46f2-af18-78302b836c45
-  port: 443
-  server: 104.21.30.167
-  skip-cert-verify: false
-  sni: 3y.2032.pp.ua
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 3y.2032.pp.ua
-    path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸33 |  2.7MB/s
-  network: ws
-  port: 443
-  server: 104.21.21.226
-  servername: mm8x01.890689.xyz
-  tls: true
-  type: vless
-  udp: false
-  uuid: 6040a753-e35b-4384-8713-96f3c639b621
-  ws-opts:
-    headers:
-      Host: mm8x01.890689.xyz
-    path: /qzS0GzXjVWvcbs2HOmaeWimvT3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸34 |  7.6MB/s
-  network: tcp
-  port: 65428
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸35 |  6.1MB/s
-  network: tcp
-  port: 22054
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸36 |  5.1MB/s
-  network: ws
-  port: 8880
-  server: 45.149.12.75
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /TABRIZ.NET, @Azarbayjab1.googleapis.com, @Azarbayjab1@Azarbayjab1/?ed=tabrizm137.com
+      Host: redw.pooriam.ir
+    path: Telegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
   name: 8|2|🇺🇸3 |  1.9MB/s

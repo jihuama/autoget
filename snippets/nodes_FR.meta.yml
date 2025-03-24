@@ -1,16 +1,17 @@
 proxies:
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇫🇷1 |  3.8MB/s
-  port: 44557
-  server: 195.154.200.178
-  servername: apple.com
-  skip-cert-verify: true
+- client-fingerprint: randomized
+  name: 3|🇫🇷1 |  1.0MB/s
+  network: ws
+  port: 443
+  server: ip.sb
+  servername: 64D78605.Fr-7rB.pageS.dEv
   tls: true
-  type: hysteria
-  up: 1000 Mbps
+  type: vless
+  uuid: 70f8697b-f9f3-4692-8e0a-3d1834fd76dc
+  ws-opts:
+    headers:
+      host: 64D78605.Fr-7rB.pageS.dEv
+    path: /YBa1BBPnrlsvyMZD/MzUuMTgwLjIyOS4x?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3|🇫🇷2 |  1.0MB/s
@@ -27,3 +28,11 @@ proxies:
   type: vless
   udp: true
   uuid: 22a54b72-9c39-4bb0-97d0-41bbaaca2a67
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 3|🇫🇷3 |  1.2MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2005
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: fr01.akebi.cc
+  type: hysteria2
