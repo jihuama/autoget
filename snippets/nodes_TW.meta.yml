@@ -1,5 +1,28 @@
 proxies:
-- name: 3|🇹🇼1 |  6.3MB/s
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 3|🇹🇼1 |  1.6MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 30001
+  server: tw.akebi.cc
+  skip-cert-verify: false
+  sni: tw.akebi.cc
+  type: hysteria2
+- name: 3|🇹🇼2 |  3.9MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: tw1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: tw1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-128-gcm
+  name: 3|🇹🇼3 |  2.4MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 15375
+  server: bsuqian01.dynu.net
+  type: ss
+- name: 3|🇹🇼4 |  1.9MB/s
   network: ws
   port: 31444
   server: 14.52.18.105
@@ -13,37 +36,9 @@ proxies:
     headers:
       host: agedgj.ambercc.filegear-sg.me
     path: /?ed=2560
-- name: 3|🇹🇼2 |  4.2MB/s
-  network: ws
-  port: 12151
-  server: 14.56.139.220
-  servername: agedgj.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: agedgj.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 3|🇹🇼3 |  5.9MB/s
-  network: ws
-  port: 50000
-  server: 211.38.168.1
-  servername: agedgj.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: agedgj.ambercc.filegear-sg.me
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 8,12|台湾2|@ripaojiedian
+  name: 8|12|台湾2|@ripaojiedian
   network: tcp
   port: '11110'
   server: 156.224.77.98
@@ -54,7 +49,15 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇹🇼 台湾|@ripaojiedian
-  password: 9CREQ4Q7QTCEHO4R
+  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
+  port: 41705
+  server: zf1.10101251.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾2|@ripaojiedian
+  password: YY1SVLAEC2CXXGRW
   port: 21005
   server: 150.116.11.9
   tfo: false
