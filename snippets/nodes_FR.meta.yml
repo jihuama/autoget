@@ -1,7 +1,27 @@
 proxies:
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 3|🇫🇷1 |  2.3MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2005
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: fr01.akebi.cc
+  type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 3|🇫🇷2 |  3.0MB/s
+  port: 44557
+  server: 195.154.200.178
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: hysteria
+  up: 1000 Mbps
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇫🇷1 |  5.0MB/s
+  name: 3|🇫🇷3 |  6.0MB/s
   network: tcp
   port: 40072
   reality-opts:
@@ -11,46 +31,29 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  disable-sni: true
-  mode: ''
-  name: 3|🇫🇷2 |  5.4MB/s
+- alterId: 0
+  cipher: auto
+  name: 3|🇫🇷4 |  2.3MB/s
   network: ws
-  port: 8080
-  server: 46.254.93.124
-  servername: ''
+  port: 2082
+  server: 45.142.120.190
   skip-cert-verify: true
+  tfo: false
   tls: false
-  type: vless
-  udp: false
-  uuid: 31f625ef-7585-441d-9df3-8839506dfb1e
+  type: vmess
+  udp: true
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
   ws-opts:
     headers:
-      Host: sNaPp.MaStErSrV.ir.
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇫🇷3 |  1.0MB/s
-  network: tcp
-  port: 22234
-  reality-opts:
-    public-key: tVDaWxsy54q7yRNRdJ718Gyt2HDoh_3R2y_PX22hhjM
-    short-id: 95c93be9
-  server: 195.154.56.233
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  sni: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 22a54b72-9c39-4bb0-97d0-41bbaaca2a67
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link#
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇫🇷4 |  4.5MB/s
+  name: 3|🇫🇷5 |  5.6MB/s
   network: ws
   port: 8080
-  server: soft98.ir.p31download.com
+  server: 46.254.93.124
   servername: ''
   tls: false
   type: vless
@@ -60,15 +63,3 @@ proxies:
     headers:
       Host: sNaPp.MaStErSrV.ir.
     path: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇫🇷5 |  5.2MB/s
-  network: tcp
-  port: 16698
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
