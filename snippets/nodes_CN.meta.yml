@@ -16,7 +16,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🌀15-CN |  6.0MB/s
+  name: 3|🌀6-CN |  6.2MB/s
+  network: tcp
+  port: 28680
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🌀7-CN |  1.8MB/s
   network: tcp
   port: 62157
   reality-opts:
@@ -29,14 +41,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3|🌀17-CN |  1.5MB/s
+  name: 3|🌀15-CN |  3.0MB/s
   network: ws
-  port: 22030
-  server: 212.192.12.73
+  port: 21030
+  server: 212.192.12.56
   tls: false
   type: vmess
   udp: true
-  uuid: b050e31f-34e6-409b-a69c-65329a3c802f
+  uuid: 0ffbe5e9-7bd6-4ccb-8481-173fd056061e
   ws-opts:
     path: /
 - alterId: 0
