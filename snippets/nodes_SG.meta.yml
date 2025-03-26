@@ -5,16 +5,15 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- name: 3|🇸🇬1 |  6.3MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
+- cipher: aes-256-cfb
+  name: 3|🇸🇬1 |  6.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.134.156
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬2 |  9.1MB/s
+  name: 3|🇸🇬2 |  6.1MB/s
   network: tcp
   port: 56127
   reality-opts:
@@ -24,27 +23,30 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇸🇬5 |  4.2MB/s
+  name: 3,8|2|🇸🇬5 |  4.2MB/s
   network: tcp
   port: '56901'
   server: 183.236.51.38
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
+- name: 3|🇸🇬4 |  6.2MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬4 |  4.7MB/s
+  name: 3|🇸🇬5 |  3.7MB/s
   network: tcp
-  port: 10778
+  port: 44003
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
+  server: csuzhou01.1cooldns.com
   servername: www.nvidia.com
   tls: true
   type: vless
