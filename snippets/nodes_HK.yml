@@ -1,34 +1,38 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3,11|🇺🇸 美国5|@ripaojiedian
+  password: d8285a86cdb003de
+  port: 16112
+  server: 46.17.40.113
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 8|13|香港|@ripaojiedian
-  network: tcp
-  port: '53199'
-  server: 38.147.188.94
-  servername: ''
+  client-fingerprint: chrome
+  name: 3|🇭🇰15 |  1.5MB/s
+  network: ws
+  port: 22030
+  server: 212.192.12.73
   tls: false
   type: vmess
-  uuid: 1bd1a355-cc70-47a4-b8ca-fb4e0a38fac6
+  udp: true
+  uuid: 148c90c0-b259-4f75-aaa3-1b3feb98f78f
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 8|13|香港3|@ripaojiedian
-  network: tcp
-  port: '40102'
-  server: 120.232.153.63
-  servername: ''
+  client-fingerprint: chrome
+  name: 3,11|🇺🇸 美国4|@ripaojiedian
+  password: '!!str 74260704627805900'
+  port: 443
+  server: capital-hyena.shiner427.skin
+  skip-cert-verify: false
+  sni: capital-hyena.shiner427.skin
+  tfo: false
   tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 0
-  cipher: auto
-  name: 8|13|香港7|@ripaojiedian
-  network: tcp
-  port: '51182'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: trojan
+  uuid: b2259281-bad1-499a-bde4-4df89ff286bd
 - alterId: 0
   cipher: auto
   name: 8,12|香港A|@ripaojiedian
