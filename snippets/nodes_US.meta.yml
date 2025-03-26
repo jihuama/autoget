@@ -189,62 +189,38 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸1 |  1.6MB/s
-  network: tcp
-  port: 19620
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸2 |  3.8MB/s
-  network: tcp
-  port: 33718
-  reality-opts:
-    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
-  server: 31.59.111.49
-  servername: icloud.cdn-apple.com
-  tfo: false
-  tls: true
-  type: vless
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸1 |  5.3MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
   udp: true
-  uuid: e657e5fb-c417-4d3f-d84e-a3a8f010f9fa
+  uuid: 5387b472-5468-34af-8f72-5e5115fec3ed
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 3|🇺🇸3 |  3.6MB/s
+  name: 3|🇺🇸2 |  5.9MB/s
   port: 17549
   server: 208.87.243.151
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 11 Mbps
-- name: 3|🇺🇸4 |  1.1MB/s
-  network: ws
-  port: 8443
-  server: 192.200.160.109
-  servername: agedgv.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: agedgv.ambercc.filegear-sg.me
-    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸5 |  5.1MB/s
+  name: 3|🇺🇸3 |  3.7MB/s
   network: tcp
-  port: 46372
+  port: 27932
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: zhee01.dynu.net
@@ -252,9 +228,41 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇺🇸4 |  4.4MB/s
+  network: tcp
+  port: 443
+  server: 192.9.236.144
+  servername: 147135004002.sec20org.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸6 |  5.7MB/s
+  name: 3|🇺🇸5 |  5.4MB/s
+  network: tcp
+  port: 32055
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: 5CBqBh6MeDq6GajcilBiDg==
+  name: 3|🇺🇸6 |  5.3MB/s
+  password: 5CBqBh6MeDq6GajcilBiDg==
+  port: 61001
+  server: 192-227-152-86.nip.io
+  skip-cert-verify: true
+  sni: 192-227-152-86.nip.io
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸7 |  1.8MB/s
   network: tcp
   port: 21578
   reality-opts:
@@ -266,95 +274,79 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸7 |  5.4MB/s
+  name: 3|🇺🇸8 |  1.5MB/s
   network: tcp
-  port: 22054
+  port: 30274
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.yahoo.com
+  server: gy01.hunheiydd.xyz
+  servername: gateway.icloud.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸8 |  5.2MB/s
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇺🇸9 |  2.2MB/s
   network: ws
-  port: 8880
-  server: 45.149.12.217
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-  ws-opts:
-    headers:
-      Host: photographipictureai.ir
-    path: /TABRIZ.NET, @Azarbayjab1.googleapis.com, @Azarbayjab1@Azarbayjab1/?ed=tabrizm137.com
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸9 |  5.4MB/s
-  network: tcp
-  port: 30206
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: 5CBqBh6MeDq6GajcilBiDg==
-  name: 3|🇺🇸10 |  4.4MB/s
-  password: 5CBqBh6MeDq6GajcilBiDg==
-  port: 61001
-  server: 192-227-152-86.nip.io
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
   skip-cert-verify: true
-  sni: 192-227-152-86.nip.io
-  type: hysteria2
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸11 |  5.2MB/s
-  network: ws
-  port: 8880
-  server: 45.149.12.201
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: photographipictureai.ir
-    path: /TABRIZ.NET, @Azarbayjab1.googleapis.com, @Azarbayjab1@Azarbayjab1/?ed=tabrizm137.com
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸12 |  1.2MB/s
-  network: tcp
+      Host: zxjp-a.tkong.cc
+    path: /
+- cipher: aes-256-cfb
+  name: 3|🇺🇸10 |  5.8MB/s
+  password: amazonskr05
   port: 443
-  server: 192.9.236.144
-  servername: 147135004002.sec20org.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
+  server: 35.93.21.189
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸13 |  5.2MB/s
+  name: 3|🇺🇸11 |  5.8MB/s
   network: tcp
-  port: 27932
+  port: 57926
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.amazon.com
+  server: beiyong.dynuddns.net
+  servername: gateway.icloud.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf
+  name: 3|🇺🇸12 |  5.5MB/s
+  password: asd123456
+  port: 8388
+  server: 137.175.113.215
+  type: ss
+- name: 3|🇺🇸13 |  5.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: rc4-md5
+  name: 3|🇺🇸14 |  5.4MB/s
+  obfs: plain
+  password: dfa917baa06bee2e
+  port: 23691
+  protocol: origin
+  server: 38.107.226.99
+  type: ssr
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸14 |  5.2MB/s
+  name: 3|🇺🇸15 |  2.2MB/s
   network: tcp
   port: 29023
   reality-opts:
@@ -364,40 +356,65 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇺🇸15 |  4.8MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇺🇸16 |  2.4MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- cipher: aes-256-gcm
+  name: 3|🇺🇸17 |  5.2MB/s
+  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
+  port: 41705
+  server: zf1.10101251.xyz
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸16 |  5.8MB/s
+  name: 3|🇺🇸18 |  5.9MB/s
   network: tcp
-  port: 38311
+  port: 19620
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
+  server: shenzhou05.mysynology.net
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 2
-  cipher: auto
-  name: 8|1|🇺🇸12 |  5.3MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: aa88fdd8-f054-34dc-9bf4-2cbb611794b4
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸19 |  5.5MB/s
+  network: tcp
+  port: 38302
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸20 |  6.0MB/s
+  network: tcp
+  port: 22054
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...

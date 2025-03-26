@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇫🇷1 |  3.1MB/s
+  name: 3|🇫🇷1 |  8.3MB/s
   network: tcp
   port: 40072
   reality-opts:
@@ -15,7 +15,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 3|🇫🇷2 |  3.7MB/s
+  name: 3|🇫🇷2 |  5.3MB/s
   port: 44557
   server: 195.154.200.178
   servername: apple.com
@@ -24,19 +24,18 @@ proxies:
   type: hysteria
   up: 1000 Mbps
 - client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: fdvsdv
-  mode: ''
-  name: 3|🇫🇷3 |  3.6MB/s
-  network: grpc
-  port: 2098
+  flow: xtls-rprx-vision
+  name: 3|🇫🇷3 |  1.0MB/s
+  network: tcp
+  port: 22234
   reality-opts:
-    public-key: JNcCRy0bfOEzzyqh1foTuuG9T8IvwiO8ApJu5FhVERs
-    short-id: 2665af94c7b25f90
-  server: 188.245.242.20
-  servername: sourceforge.net
+    public-key: tVDaWxsy54q7yRNRdJ718Gyt2HDoh_3R2y_PX22hhjM
+    short-id: 95c93be9
+  server: 195.154.56.233
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  sni: www.yahoo.com
   tls: true
   type: vless
-  udp: false
-  uuid: de3e121a-8405-4888-98ec-8914c1850a2d
+  udp: true
+  uuid: 22a54b72-9c39-4bb0-97d0-41bbaaca2a67
