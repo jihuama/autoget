@@ -1,15 +1,34 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 3|🇯🇵1 |  1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.8.12
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵4 |  6.2MB/s
+  name: 3|🇯🇵1 |  6.0MB/s
   network: tcp
-  port: 31735
+  port: 10635
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  name: 3|🇯🇵4 |  1.2MB/s
+  network: ws
+  port: 2095
+  server: 156.238.18.28
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redw.pooriam.ir
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵5 |  3.9MB/s
+  network: tcp
+  port: 25768
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: bsuqian01.dynu.net
@@ -19,7 +38,19 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵6 |  6.1MB/s
+  name: 3|🇯🇵6 |  5.9MB/s
+  network: tcp
+  port: 48121
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵7 |  6.3MB/s
   network: tcp
   port: 16497
   reality-opts:
@@ -31,19 +62,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵8 |  6.6MB/s
-  network: tcp
-  port: 10635
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵9 |  6.7MB/s
+  name: 3|🇯🇵8 |  6.2MB/s
   network: tcp
   port: 13989
   reality-opts:
@@ -53,96 +72,6 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 3|🇯🇵11 |  4.0MB/s
-  network: tcp
-  port: 45458
-  raw:
-    add: 103.200.30.8
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: bbe8249a-3bfe-43c2-fe55-838e7ae13c45
-    net: tcp
-    path: ''
-    port: 45458
-    ps: V2CROSS.COM
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 103.200.30.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bbe8249a-3bfe-43c2-fe55-838e7ae13c45
-- cipher: aes-256-cfb
-  name: 3|🇯🇵12 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.181.194.77
-  type: ss
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇯🇵13 |  4.8MB/s
-  network: ws
-  port: 2086
-  server: 185.135.9.180
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: ''
-- cipher: aes-256-cfb
-  name: 3|🇯🇵14 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 57.180.35.64
-  type: ss
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 3|🇯🇵15 |  1.9MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2012
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: jp02.akebi.cc
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵16 |  3.0MB/s
-  network: tcp
-  port: 25768
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇯🇵17 |  5.5MB/s
-  network: ws
-  port: 80
-  server: 156.238.18.234
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redw.pooriam.ir
-    path: Telegram @WangCai2 /?ed=2560
 - alterId: 0
   cipher: auto
   name: 8,12|日本A|@ripaojiedian
@@ -159,7 +88,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-V0ONnI0Viy.download.microsoft.com
+    host: 202503170996717-JTU8BAQVaE.download.microsoft.com
     mode: http
   port: 8764
   server: cn01.efan8867801.xyz
@@ -171,7 +100,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-V0ONnI0Viy.download.microsoft.com
+    host: 202503170996717-JTU8BAQVaE.download.microsoft.com
     mode: http
   port: 8761
   server: cn01.efan8867801.xyz
@@ -187,10 +116,10 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本4|@ripaojiedian
-  password: CQ6E6S8LBSRMG7AF
-  port: 18012
-  server: 156.231.104.22
+  name: 11|🇯🇵 日本6|@ripaojiedian
+  password: b6a2f7dde84e7a12
+  port: 19111
+  server: 45.130.146.37
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -198,6 +127,16 @@ proxies:
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.35.138.170
+  server: 18.181.175.212
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|日本4|@ripaojiedian
+  network: tcp
+  port: '18744'
+  server: 156.246.91.239
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b2259281-bad1-499a-bde4-4df89ff286bd
