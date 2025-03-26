@@ -14,32 +14,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- auth: fef82341-9425-49af-8aa3-a16883bf5121
-  client-fingerprint: chrome
-  down: 100
-  name: 3|🌀2-CN |  1.7MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: fef82341-9425-49af-8aa3-a16883bf5121
-  port: 33007
-  server: 212.192.13.68
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 31be2acf-ed70-4960-9517-6e2a4366b105
-  client-fingerprint: chrome
-  down: 100
-  name: 3|🌀4-CN |  2.2MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: 31be2acf-ed70-4960-9517-6e2a4366b105
-  port: 31003
-  server: 212.192.12.56
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🌀5-CN |  5.5MB/s
+  network: tcp
+  port: 28680
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 广东省移动 7
