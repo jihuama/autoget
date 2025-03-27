@@ -189,45 +189,124 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸1 |  4.2MB/s
+  network: tcp
+  port: 27932
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: random
+  flow: ''
+  mode: ''
+  name: 3|🇺🇸2 |  6.0MB/s
+  network: ws
+  port: 443
+  server: 104.16.41.105
+  servername: kawaiifreevpn-7ds.pages.dev
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+  ws-opts:
+    headers:
+      Host: kawaiifreevpn-7ds.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸3 |  6.0MB/s
+  network: tcp
+  port: 21578
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 3|🇺🇸1 |  5.8MB/s
+  name: 3|🇺🇸4 |  6.0MB/s
   port: 17549
   server: 208.87.243.151
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 11 Mbps
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸2 |  5.4MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: eba3a350-32cc-3d3e-8e94-278e946c1190
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 3|🇺🇸3 |  5.3MB/s
-  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-  port: 443
-  server: 107.167.18.123
-  skip-cert-verify: true
-  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  name: 3|🇺🇸5 |  3.5MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: mg5.gywanglug.xyz
+  skip-cert-verify: false
+  sni: mg5.gywanglug.xyz
   type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸4 |  5.4MB/s
+  name: 3|🇺🇸6 |  2.8MB/s
+  network: tcp
+  port: 40430
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: random
+  flow: ''
+  mode: ''
+  name: 3|🇺🇸7 |  3.7MB/s
+  network: ws
+  port: 443
+  server: 104.16.222.128
+  servername: kawaiifreevpn-7ds.pages.dev
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+  ws-opts:
+    headers:
+      Host: kawaiifreevpn-7ds.pages.dev
+    path: /?ed=2560
+- client-fingerprint: random
+  flow: ''
+  mode: ''
+  name: 3|🇺🇸8 |  2.3MB/s
+  network: ws
+  port: 443
+  server: 104.16.43.245
+  servername: kawaiifreevpn-7ds.pages.dev
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+  ws-opts:
+    headers:
+      Host: kawaiifreevpn-7ds.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸9 |  5.2MB/s
+  network: tcp
+  port: 57926
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸10 |  5.3MB/s
   network: tcp
   port: 50200
   reality-opts:
@@ -237,6 +316,37 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: rc4-md5
+  name: 3|🇺🇸11 |  5.2MB/s
+  obfs: plain
+  password: dfa917baa06bee2e
+  port: 23691
+  protocol: origin
+  server: 38.107.226.99
+  type: ssr
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸12 |  3.4MB/s
+  network: tcp
+  port: 33718
+  reality-opts:
+    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+  server: 31.59.111.49
+  servername: icloud.cdn-apple.com
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e657e5fb-c417-4d3f-d84e-a3a8f010f9fa
+- name: 3|🇺🇸13 |  5.4MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: ''
   flow: ''
   mode: ''
@@ -254,33 +364,13 @@ proxies:
     headers:
       Host: dd8.transitkala.com
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸6 |  3.4MB/s
-  network: tcp
-  port: 30274
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: rc4-md5
-  name: 3|🇺🇸7 |  5.3MB/s
-  obfs: plain
-  password: dfa917baa06bee2e
-  port: 23691
-  protocol: origin
-  server: 38.107.226.99
-  type: ssr
 - client-fingerprint: random
   flow: ''
   mode: ''
-  name: 3|🇺🇸8 |  5.8MB/s
+  name: 3|🇺🇸16 |  3.9MB/s
   network: ws
   port: 443
-  server: 104.19.252.87
+  server: 104.22.22.237
   servername: kawaiifreevpn-7ds.pages.dev
   tls: true
   type: vless
@@ -292,201 +382,81 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸9 |  5.2MB/s
+  name: 3|🇺🇸17 |  3.5MB/s
   network: tcp
-  port: 40430
+  port: 38302
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸10 |  5.3MB/s
-  network: tcp
-  port: 46372
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
+  server: agaungzhou01.bumbleshrimp.com
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇺🇸11 |  3.7MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
+- cipher: aes-256-cfb
+  name: 3|🇺🇸18 |  5.2MB/s
+  password: amazonskr05
   port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
+  server: 35.161.163.245
+  type: ss
+- client-fingerprint: random
+  flow: ''
+  mode: ''
+  name: 3|🇺🇸19 |  6.0MB/s
+  network: ws
+  port: 443
+  server: 104.17.135.91
+  servername: kawaiifreevpn-7ds.pages.dev
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: vless
+  udp: false
+  uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+  ws-opts:
+    headers:
+      Host: kawaiifreevpn-7ds.pages.dev
+    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸12 |  5.2MB/s
+  name: 3|🇺🇸20 |  5.3MB/s
   network: tcp
-  port: 19620
+  port: 30206
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
+  server: bsuqian01.dynu.net
+  servername: addons.mozilla.org
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 3|🇺🇸21 |  5.6MB/s
+  password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
+  port: 443
+  server: 107.167.18.123
+  skip-cert-verify: true
+  sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
+  type: hysteria2
+  udp: true
 - auth: fpcwlrmFDkafdqZ0ZSfefuzKJL0
-  name: 3|🇺🇸13 |  4.2MB/s
+  name: 3|🇺🇸22 |  4.4MB/s
   password: fpcwlrmFDkafdqZ0ZSfefuzKJL0
   port: 25347
   server: 52.36.201.159
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸14 |  6.0MB/s
-  network: tcp
-  port: 21578
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
+- alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,11|🇬🇧 英国|@ripaojiedian
-  password: '!!str 74260704627805900'
-  port: 443
-  server: many-macaque.shiner427.skin
-  skip-cert-verify: false
-  sni: many-macaque.shiner427.skin
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸16 |  5.8MB/s
-  network: tcp
-  port: 22054
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇺🇸17 |  5.5MB/s
+  name: 8|1|🇺🇸2 |  5.4MB/s
   network: ws
-  password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
-  port: 443
-  server: 192.3.130.96
-  skip-cert-verify: true
-  sni: us6-01zl.huangshang.ggff.net
-  tfo: false
-  type: trojan
-  udp: true
+  port: 23615
+  server: 15.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: eba3a350-32cc-3d3e-8e94-278e946c1190
   ws-opts:
     headers:
-      Host: us6-01zl.huangshang.ggff.net
-    path: /ILLcisbMYUd6MQzxVoMQ
-- cipher: chacha20-ietf
-  name: 3|🇺🇸18 |  5.7MB/s
-  password: asd123456
-  port: 8388
-  server: 137.175.113.215
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸19 |  5.8MB/s
-  network: tcp
-  port: 57926
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸20 |  5.9MB/s
-  network: tcp
-  port: 38311
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  name: 3|🇺🇸21 |  5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.222.2.112
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇺🇸22 |  5.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.185.253.219
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸23 |  2.4MB/s
-  network: tcp
-  port: 33718
-  reality-opts:
-    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
-  server: 31.59.111.49
-  servername: icloud.cdn-apple.com
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e657e5fb-c417-4d3f-d84e-a3a8f010f9fa
-- name: 3|🇺🇸24 |  5.9MB/s
-  network: ws
-  port: 2095
-  server: 104.18.21.69
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: fuckingxijinping.xijinpingbigsb.workers.dev
-    path: /?ed=2560
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇺🇸25 |  4.7MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸26 |  5.8MB/s
-  network: tcp
-  port: 29023
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+      Host: 15.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
