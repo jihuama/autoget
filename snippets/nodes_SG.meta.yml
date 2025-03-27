@@ -5,34 +5,21 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬1 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.250.106.255
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬2 |  4.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.103.201
-  type: ss
-- name: 3|🇸🇬3 |  6.2MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
-- cipher: aes-256-cfb
-  name: 3|🇸🇬4 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.51.201
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬5 |  6.5MB/s
+  name: 3|🇸🇬1 |  6.3MB/s
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬2 |  4.8MB/s
   network: tcp
   port: 56127
   reality-opts:
@@ -43,14 +30,21 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-cfb
-  name: 3|🇸🇬6 |  5.4MB/s
+  name: 3|🇸🇬3 |  4.6MB/s
   password: amazonskr05
   port: 443
-  server: 52.76.22.133
+  server: 54.169.64.23
   type: ss
+- name: 3|🇸🇬4 |  5.7MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬7 |  2.8MB/s
+  name: 3|🇸🇬5 |  6.1MB/s
   network: tcp
   port: 44003
   reality-opts:
@@ -60,18 +54,18 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬8 |  5.9MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  name: 3|🇸🇬6 |  3.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.38.96
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇸🇬7 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.73.58
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
