@@ -1,6 +1,6 @@
 proxies:
 - allowInsecure: ''
-  name: 3|🇹🇼1 |  5.9MB/s
+  name: 3|🇹🇼1 |  6.1MB/s
   network: ws
   password: Aimer
   port: 2087
@@ -14,67 +14,38 @@ proxies:
       Host: agepm.ambercc.filegear-sg.me
     path: /?ed=2560
 - allowInsecure: ''
-  name: 3|🇹🇼2 |  6.6MB/s
+  name: 3|🇹🇼2 |  5.8MB/s
   network: ws
   password: Aimer
-  port: 27149
-  server: 23.94.213.132
+  port: 2083
+  server: 154.83.2.88
   skip-cert-verify: false
-  sni: agepn.ambercc.filegear-sg.me
+  sni: agepm.ambercc.filegear-sg.me
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: agepn.ambercc.filegear-sg.me
+      Host: agepm.ambercc.filegear-sg.me
     path: /?ed=2560
 - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
   client-fingerprint: chrome
-  name: 3|🇹🇼3 |  4.3MB/s
+  name: 3|🇹🇼3 |  5.8MB/s
   password: 82febca6-8856-41fe-84df-c8bda0b72c7b
   port: 30001
   server: tw.akebi.cc
   skip-cert-verify: false
   sni: tw.akebi.cc
   type: hysteria2
-- name: 3|🇹🇼4 |  6.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- allowInsecure: ''
-  name: 3|🇹🇼5 |  4.0MB/s
-  network: ws
-  password: Aimer
-  port: 20080
-  server: 192.210.207.89
-  skip-cert-verify: false
-  sni: agepn.ambercc.filegear-sg.me
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: agepn.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
-  password: JWK22ZOMOBYNN125
-  port: 21007
-  server: 150.116.11.11
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇹🇼 台湾2|@ripaojiedian
-  password: 4SQDULUG1L5LS1OI
-  port: 21002
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|台湾|@ripaojiedian
+  network: tcp
+  port: '31919'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   name: 13|TW_speednode_0055
   password: f8f7aCzcPKbsF8p3
