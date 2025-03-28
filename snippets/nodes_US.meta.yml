@@ -189,54 +189,61 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 3|🇺🇸2 |  5.2MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
 - alpn:
   - h3
   auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 3|🇺🇸1 |  6.0MB/s
-  port: 17549
-  server: 208.87.243.151
+  down: 1000 Mbps
+  name: 3|🇺🇸3 |  5.6MB/s
+  port: 11512
+  server: 108.181.24.77
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: apple.com
   type: hysteria
-  up: 11 Mbps
+  udp: true
+  up: 1000 Mbps
+- client-fingerprint: chrome
+  name: 3|🇺🇸4 |  5.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3,13|CH_speednode_0002
+  name: 3|🇺🇸5 |  2.0MB/s
   network: ws
   port: 443
-  server: 144.24.243.207
-  servername: dd8.transitkala.com
-  skip-cert-verify: false
+  server: 172.66.47.25
+  servername: GrOupYOUNeS.PAGes.DEV
   tls: true
   type: vless
-  udp: true
-  uuid: b529971c-f46a-4eb9-a02d-e39cc3e83cf5
-  ws-opts:
-    headers:
-      Host: dd8.transitkala.com
-    path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸3 |  5.6MB/s
-  network: ws
-  port: 8080
-  server: 45.131.4.33
-  servername: ''
-  tls: false
-  type: vless
   udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  uuid: e2d6455c-9846-4502-8394-16b8c1c07b68
   ws-opts:
     headers:
-      Host: gozargah.validbv7996.ir
-    path: /@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=2560
+      Host: GrOupYOUNeS.PAGes.DEV
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- cipher: aes-128-cfb
+  name: 3|🇺🇸6 |  1.2MB/s
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇺🇸4 |  5.6MB/s
+  name: 3|🇺🇸7 |  5.1MB/s
   network: ws
   port: 8080
   server: 45.131.4.73
@@ -249,139 +256,42 @@ proxies:
     headers:
       Host: gozargah.validbv7996.ir
     path: /@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=2560
-- cipher: aes-128-cfb
-  name: 3|🇺🇸5 |  5.2MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
 - auth: caf21c96-35ef-4d5e-97c8-a9d8d4edcc5b
   client-fingerprint: chrome
-  name: 3|🇺🇸6 |  4.6MB/s
+  name: 3|🇺🇸8 |  4.9MB/s
   password: caf21c96-35ef-4d5e-97c8-a9d8d4edcc5b
   port: 51228
   server: sub-us.yangxiansheng.online
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- client-fingerprint: random
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸7 |  1.2MB/s
-  network: ws
-  port: 443
-  server: 104.16.41.105
-  servername: kawaiifreevpn-7ds.pages.dev
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
-  ws-opts:
-    headers:
-      Host: kawaiifreevpn-7ds.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸8 |  1.5MB/s
-  network: ws
-  port: 443
-  server: 104.16.222.128
-  servername: kawaiifreevpn-7ds.pages.dev
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
-  ws-opts:
-    headers:
-      Host: kawaiifreevpn-7ds.pages.dev
-    path: /?ed=2560
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 3|🇺🇸9 |  5.4MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇺🇸10 |  6.1MB/s
+  name: 3|🇺🇸9 |  2.6MB/s
   network: ws
   port: 80
-  server: 104.16.46.27
+  server: 45.131.4.33
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 98f9fb8e-ac0c-4a54-80ff-dcce095d9fbd
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
-      Host: cold-snowflake-4912-ppal03.rarenok889.workers.dev
-    path: ''
-- client-fingerprint: random
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸11 |  1.2MB/s
-  network: ws
-  port: 443
-  server: 104.17.135.91
-  servername: kawaiifreevpn-7ds.pages.dev
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
-  ws-opts:
-    headers:
-      Host: kawaiifreevpn-7ds.pages.dev
-    path: /?ed=2560
-- auth: 5CBqBh6MeDq6GajcilBiDg==
-  client-fingerprint: chrome
-  name: 3|🇺🇸12 |  4.7MB/s
-  password: 5CBqBh6MeDq6GajcilBiDg==
-  port: 61001
-  server: 192-227-152-86.nip.io
-  skip-cert-verify: true
-  sni: 192-227-152-86.nip.io
-  type: hysteria2
+      Host: gozargah.validbv7996.ir
+    path: /@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=2560
 - alpn:
   - h3
   auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇺🇸13 |  5.8MB/s
-  port: 11512
-  server: 108.181.24.77
+  down: 55 Mbps
+  name: 3|🇺🇸10 |  6.2MB/s
+  port: 17549
+  server: 208.87.243.151
   skip-cert-verify: true
-  sni: apple.com
+  sni: www.bing.com
   type: hysteria
-  udp: true
-  up: 1000 Mbps
-- client-fingerprint: random
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸14 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 104.16.38.176
-  servername: kawaiifreevpn-7ds.pages.dev
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
-  ws-opts:
-    headers:
-      Host: kawaiifreevpn-7ds.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 3|🇺🇸15 |  5.7MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: ustx004-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: ustx004-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  up: 11 Mbps
 - alterId: 0
   cipher: auto
   name: 8,12|美国3|@ripaojiedian
