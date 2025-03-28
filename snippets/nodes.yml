@@ -390,43 +390,82 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 3|🇫🇷1 |  3.4MB/s
-  network: ws
-  port: 443
-  server: 144.24.200.164
-  servername: beyonddsz.cfd
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- cipher: aes-128-cfb
-  name: 3|🇺🇸2 |  5.5MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸3 |  4.5MB/s
-  network: ws
-  port: 21006
-  server: 134.195.211.116
-  skip-cert-verify: true
+  client-fingerprint: chrome
+  name: 3,11|🇺🇸 美国3|@ripaojiedian
+  password: 6e8b9913-5277-4627-95b0-86766ae65ad6
+  port: 18733
+  server: 23.236.68.110
+  skip-cert-verify: false
+  sni: mmbiz1.redapricotcloud.com
   tfo: false
   tls: false
   type: vmess
+  uuid: 6b2e2719-a545-49c1-ab3f-6f4104ae9f56
+- alterId: 0
+  cipher: auto
+  name: 3,8|2|🇩🇪1 |  5.4MB/s
+  network: ws
+  port: '443'
+  server: 172.67.71.217
+  tls: true
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    path: /fixedfloati.cfd/linkwsd
+- allowInsecure: ''
+  client-fingerprint: chrome
+  name: 3|🇹🇼1 |  2.9MB/s
+  network: ws
+  password: Aimer
+  port: 20080
+  server: 192.210.207.89
+  skip-cert-verify: false
+  sni: agepn.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: agepn.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,8|2|🇷🇺1 |  1.9MB/s
+  network: ws
+  port: 23031
+  server: 195.133.5.127
+  tls: false
+  type: vmess
   udp: true
-  uuid: 41c38652-db8d-4d7a-8627-d36e8565c755
+  uuid: d7c34d84-f217-4902-88aa-a5ada6eb2c7a
   ws-opts:
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3,11|🇸🇬 新加坡|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇸🇬2 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.9.107
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇸🇬3 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.188.214
+  type: ss
 - allowInsecure: ''
-  name: 3|🇹🇼1 |  6.1MB/s
+  name: 3|🇹🇼4 |  2.2MB/s
   network: ws
   password: Aimer
   port: 2087
@@ -441,160 +480,168 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3|🇫🇷2 |  4.6MB/s
+  name: 3,8|2|🇫🇷2 |  1.9MB/s
   network: ws
-  port: 443
-  server: 8.219.206.22
-  servername: beyonddsz.cfd
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3,11|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.125.21.61
+  port: 2082
+  server: 45.142.120.190
+  skip-cert-verify: true
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3,11|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.125.231.170
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇯🇵1 |  4.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.207.157.253
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬1 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.250.106.255
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸5 |  5.2MB/s
-  network: ws
-  port: 21008
-  raw:
-    add: 134.195.211.116
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 41c38652-db8d-4d7a-8627-d36e8565c755
-    net: ws
-    path: /
-    port: 21008
-    ps: V2CROSS.COM
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 134.195.211.116
-  servername: ''
   tls: false
   type: vmess
-  uuid: 41c38652-db8d-4d7a-8627-d36e8565c755
+  udp: true
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
   ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇳🇱1 |  5.6MB/s
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.154
-  type: ss
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link#
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇯🇵2 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.181.194.77
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 3,11|🇩🇪 德国|@ripaojiedian
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.178
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬2 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.51.201
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🌀2- |  2.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.195.209.247
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇯🇵5 |  6.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.179.8.12
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  delay: 978
-  name: 3|🇺🇸9 |  5.9MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- cipher: aes-256-gcm
   name: 3|🇸🇬4 |  6.1MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21114
-  server: okanc.node-is.green
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇰🇷3 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.36.26.148
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3,11|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.203.249.105
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇸🇬5 |  6.1MB/s
   password: amazonskr05
   port: 443
   server: 18.141.139.23
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 3|🇭🇰3 |  4.8MB/s
+  password: B7E2E1B8-E810-4BA0-A300-5632B912019D
+  port: 13864
+  server: prem.pythoncdn.com
+  type: ss
+- cipher: aes-128-cfb
+  name: 3|🇺🇸5 |  5.2MB/s
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3|🇺🇸11 |  1.6MB/s
+  name: 3|🇰🇷2 |  6.2MB/s
   password: amazonskr05
   port: 443
-  server: 34.222.2.112
+  server: 13.124.229.107
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 3,8|2|🇩🇪7 |  5.5MB/s
+  network: ws
+  port: 443
+  raw:
+    add: 172.67.71.217
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: 1t3chx0.zed23.web1337.net
+    id: 9072d339-3885-4fe1-b0bc-29fa7505410e
+    net: ws
+    path: /fixedfloati.cfd/linkwsd
+    port: 443
+    ps: 🇺🇸 US_430
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 172.67.71.217
+  servername: 1t3chx0.zed23.web1337.net
+  tls: true
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    headers:
+      Host: 1t3chx0.zed23.web1337.net
+    path: /fixedfloati.cfd/linkwsd
+- alterId: 0
+  cipher: auto
+  name: 3,8|2|🌀3- |  1.2MB/s
+  network: ws
+  port: 8443
+  raw:
+    add: windows.onetwothree123.ir
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: windows.onetwothree123.ir
+    id: b5af7791-2801-408c-88a1-2d3bb7240bb2
+    net: ws
+    path: /Xot8ex8r
+    port: '8443'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: tls
+    type: none
+    v: '2'
+  server: windows.onetwothree123.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b5af7791-2801-408c-88a1-2d3bb7240bb2
+  ws-opts:
+    headers:
+      Host: windows.onetwothree123.ir
+    path: /Xot8ex8r
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇰🇷3 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.202.67.225
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 3|🇺🇸9 |  5.4MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇯🇵2 |  3.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.157.253
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 3,8|2|🇨🇭1 |  3.9MB/s
+  network: tcp
+  port: 22324
+  raw:
+    add: 186.190.215.93
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 04621bae-ab36-11ec-b909-0242ac120002
+    net: tcp
+    path: ''
+    port: '22324'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 186.190.215.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇯🇵3 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.112.73.126
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🌀5-T1 |  2.1MB/s
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.23.63
   type: ss
 - allowInsecure: ''
-  name: 3|🇹🇼2 |  5.8MB/s
+  name: 3|🇹🇼5 |  1.2MB/s
   network: ws
   password: Aimer
   port: 2083
@@ -607,76 +654,72 @@ proxies:
     headers:
       Host: agepm.ambercc.filegear-sg.me
     path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🌀4- |  5.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.40.170.193
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇺🇸12 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.244.97.108
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬6 |  4.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.64.23
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇸🇬7 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.254.9.107
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇳🇱2 |  5.6MB/s
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.199
-  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,11|🇺🇸 美国3|@ripaojiedian
-  password: 6e8b9913-5277-4627-95b0-86766ae65ad6
-  port: 18733
-  server: 23.236.68.110
-  skip-cert-verify: false
-  sni: mmbiz1.redapricotcloud.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6b2e2719-a545-49c1-ab3f-6f4104ae9f56
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇩🇪1 |  4.8MB/s
+  name: 3,8|2|🇫🇷5 |  1.4MB/s
   network: ws
   port: 443
-  server: 23.158.56.241
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  server: 144.24.200.164
+  servername: beyonddsz.cfd
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  udp: true
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
   ws-opts:
     headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
+      Host: beyonddsz.cfd
+    path: /linkws
+- cipher: aes-256-gcm
+  name: 3|🇸🇬6 |  6.0MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21114
+  server: okanc.node-is.green
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 8|2|🇨🇦1 |  4.7MB/s
+  client-fingerprint: chrome
+  name: 3,8|2|🌀6-CN |  1.7MB/s
   network: ws
-  port: 20032
-  server: 141.195.112.33
+  port: 21031
+  server: 212.192.12.56
   tls: false
   type: vmess
+  udp: true
   uuid: d7c34d84-f217-4902-88aa-a5ada6eb2c7a
   ws-opts:
     path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 3,11|🇭🇰 香港6|@ripaojiedian
+  password: e935efa8-ede3-4fc5-8e2a-7d63b1090452
+  port: 23987
+  server: xg1.gywanglug.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇰🇷4 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.36.72.86
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇰🇷5 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.36.26.148
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 8,12|香港4|@ripaojiedian
+  network: tcp
+  port: '14601'
+  server: stan.pythoncdn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
 - alterId: 0
   cipher: auto
   name: 8,12|香港|@ripaojiedian
@@ -687,6 +730,36 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 8,12|香港7|@ripaojiedian
+  network: tcp
+  port: '47231'
+  server: 38.147.188.96
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 178eb98b-3999-4094-a739-1456bdd3ebe1
+- alterId: 0
+  cipher: auto
+  name: 8,12|台湾|@ripaojiedian
+  network: tcp
+  port: '31919'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 8,12|美国3|@ripaojiedian
+  network: tcp
+  port: '18733'
+  server: 23.236.68.110
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b2e2719-a545-49c1-ab3f-6f4104ae9f56
 - alterId: 0
   cipher: auto
   name: 8,12|日本A|@ripaojiedian
@@ -855,14 +928,6 @@ proxies:
   server: 103.149.182.191
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港6|@ripaojiedian
-  password: e935efa8-ede3-4fc5-8e2a-7d63b1090452
-  port: 23987
-  server: xg1.gywanglug.xyz
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -895,17 +960,6 @@ proxies:
   server: 61.72.28.169
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇺🇸 美国|@ripaojiedian
@@ -930,36 +984,38 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|香港4|@ripaojiedian
-  network: tcp
-  port: '14601'
-  server: stan.pythoncdn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
-- alterId: 0
-  cipher: auto
-  name: 12|香港7|@ripaojiedian
-  network: tcp
-  port: '47231'
-  server: 38.147.188.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 178eb98b-3999-4094-a739-1456bdd3ebe1
-- alterId: 0
-  cipher: auto
-  name: 12|台湾|@ripaojiedian
-  network: tcp
-  port: '31919'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.203.249.105
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.231.170
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.21.61
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇩🇪 德国|@ripaojiedian
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.178
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   name: 12|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
   obfs: tls1.2_ticket_auth
@@ -970,16 +1026,6 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 12|美国3|@ripaojiedian
-  network: tcp
-  port: '18733'
-  server: 23.236.68.110
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b2e2719-a545-49c1-ab3f-6f4104ae9f56
 - cipher: aes-256-cfb
   name: 13|TW_speednode_0055
   password: f8f7aCzcPKbsF8p3
