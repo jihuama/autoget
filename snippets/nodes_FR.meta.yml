@@ -1,7 +1,53 @@
 proxies:
+- auth: dongtaiwang.com
+  name: 3|🇫🇷1 |  5.0MB/s
+  password: dongtaiwang.com
+  port: 61770
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 3|🇫🇷2 |  2.6MB/s
+  port: 44557
+  server: 195.154.200.178
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: hysteria
+  up: 1000 Mbps
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 3|🇫🇷3 |  4.6MB/s
+  password: dongtaiwang.com
+  port: 59967
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3,13|NL_speednode_0027
+  network: ws
+  port: 80
+  server: 45.131.4.162
+  servername: gozargah.validbv7996.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇫🇷1 |  5.3MB/s
+  name: 3|🇫🇷5 |  5.0MB/s
   network: tcp
   port: 40072
   reality-opts:
@@ -11,59 +57,18 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇫🇷2 |  6.0MB/s
-  port: 44557
-  server: 195.154.200.178
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: hysteria
-  up: 1000 Mbps
-- auth: dongtaiwang.com
-  name: 3|🇫🇷3 |  2.4MB/s
-  password: dongtaiwang.com
-  port: 61770
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: dongtaiwang.com
-  client-fingerprint: chrome
-  name: 3|🇫🇷4 |  4.4MB/s
-  password: dongtaiwang.com
-  port: 59967
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 3|🇫🇷5 |  4.5MB/s
+- name: 13|FR_speednode_0015
   network: ws
+  packet-encoding: xudp
   port: 443
-  server: m2-1cm.pages.dev
-  servername: M2-1CM.paGes.DeV
+  server: 185.16.110.107
+  servername: in.youlingkais.filegear-sg.me
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 0ef0630e-544c-4ed0-a4de-861f14695f37
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: M2-1CM.paGes.DeV
-    path: /ognicwivyrkxih6r
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇫🇷2 |  1.7MB/s
-  network: ws
-  port: 443
-  server: 152.67.251.232
-  servername: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
+      Host: in.youlingkais.filegear-sg.me
+    path: /?ed=2560
