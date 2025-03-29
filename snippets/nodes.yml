@@ -388,37 +388,51 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- cipher: aes-256-cfb
+  name: 3|🇯🇵4 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.178.177.97
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇰🇷5 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.203.249.105
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇸🇬3 |  1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.134.156
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸1 |  1.9MB/s
-  network: tcp
-  port: 8080
-  raw:
-    add: 199.195.253.98
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 6e0ba6b7-ee39-5d17-94cf-502f7a2e9144
-    net: tcp
-    path: ''
-    port: '8080'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: chacha20-poly1305
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 199.195.253.98
-  servername: ''
+  client-fingerprint: chrome
+  name: 3|🇷🇺2 |  1.7MB/s
+  network: ws
+  port: 23035
+  server: 195.133.5.127
   tls: false
   type: vmess
-  uuid: 6e0ba6b7-ee39-5d17-94cf-502f7a2e9144
-- cipher: chacha20-ietf
-  name: 3|🇺🇸5 |  2.4MB/s
-  password: asd123456
-  port: 8388
-  server: 137.175.113.193
+  udp: true
+  uuid: 6db03994-2f40-400a-8f53-1d2eee08325a
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇸🇬4 |  2.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.141.139.23
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇰🇷19 |  2.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.36.26.148
   type: ss
 - alterId: 64
   cipher: auto
@@ -1168,14 +1182,19 @@ proxies:
   server: 183.232.229.164
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,13|TW_speednode_0109
   password: '74260702287384200'
-  port: 443
-  server: settled-mite.shiner427.skin
+  port: 20141
+  server: akile-hinet-new.gosurfing.net
   skip-cert-verify: false
   sni: settled-mite.shiner427.skin
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港4|@ripaojiedian
@@ -1210,7 +1229,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 11,13|CN_speednode_0086
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -1219,6 +1238,7 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡2|@ripaojiedian
@@ -1301,10 +1321,129 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0032
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11001
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 13|CN_speednode_0046
+  password: 46d0c7e4-b94e-414b-810c-d281190c9535
+  port: 16876
+  server: ttsh.xissyun.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0050
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11008
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0053
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11004
+  server: 61.172.235.22
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0062
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12353
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0064
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12356
+  server: hk.bazhuayujiasu.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0066
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 11003
+  server: 61.172.235.22
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0068
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12366
+  server: 183.240.255.75
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0069
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12357
+  server: hk.bazhuayujiasu.cc
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0071
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12355
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0072
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12365
+  server: 183.240.255.75
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0073
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12363
+  server: 183.240.255.75
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0076
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12364
+  server: 183.240.255.75
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0077
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12358
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0078
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12359
+  server: 183.232.229.164
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0080
+  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+  port: 12357
+  server: 120.232.150.248
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 13|TW_speednode_0055
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
+  name: 13|US_speednode_0122
+  password: amazonskr05
+  port: 443
+  server: 34.209.118.169
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|US_speednode_0124
+  password: amazonskr05
+  port: 443
+  server: 54.69.142.224
   type: ss
   udp: true
