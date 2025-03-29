@@ -191,33 +191,6 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,8|1|🇺🇸20 |  3.9MB/s
-  network: ws
-  port: 420
-  server: 674ddbc7-stw740-stx214-84ap.fmt2-us.sghuawei.com
-  tls: false
-  type: vmess
-  uuid: b2ae33f6-edd2-11ee-808f-f23c93141fad
-  ws-opts:
-    headers:
-      Host: 674ddbc7-stw740-stx214-84ap.fmt2-us.sghuawei.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸13 |  5.6MB/s
-  network: ws
-  port: 420
-  server: 35a503ea-stucg0-su99vp-4mce.fmt2-us.sghuawei.com
-  tls: false
-  type: vmess
-  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
-  ws-opts:
-    headers:
-      Host: 35a503ea-stucg0-su99vp-4mce.fmt2-us.sghuawei.com
-    path: /
-- alterId: 2
-  cipher: auto
   name: 8|1|🇺🇸13 |  5.5MB/s
   network: ws
   port: 420
@@ -244,10 +217,14 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 8|1|🇺🇸17 |  5.6MB/s
+  client-fingerprint: chrome
+  name: 8,11,12|美国3|@ripaojiedian
   network: ws
-  port: 420
+  port: '420'
   server: 0e1f11d2-stw740-sy3miy-3kis.fmt2-us.sghuawei.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
@@ -255,9 +232,22 @@ proxies:
     headers:
       Host: 0e1f11d2-stw740-sy3miy-3kis.fmt2-us.sghuawei.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 8|1|🇺🇸20 |  3.9MB/s
+  network: ws
+  port: 420
+  server: 674ddbc7-stw740-stx214-84ap.fmt2-us.sghuawei.com
+  tls: false
+  type: vmess
+  uuid: b2ae33f6-edd2-11ee-808f-f23c93141fad
+  ws-opts:
+    headers:
+      Host: 674ddbc7-stw740-stx214-84ap.fmt2-us.sghuawei.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 8,12|美国3|@ripaojiedian
+  name: 8|13|美国3|@ripaojiedian
   network: tcp
   port: '18733'
   server: 23.236.68.110
@@ -339,7 +329,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-78Zoi5O2jZ.download.microsoft.com
+    host: 202503170996717-bgAUFz3awY.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -351,9 +341,26 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-78Zoi5O2jZ.download.microsoft.com
+    host: 202503170996717-bgAUFz3awY.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|美国5|@ripaojiedian
+  network: ws
+  port: '420'
+  server: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6e28d086-f1bd-11ed-9ebc-f23c93665044
+  ws-opts:
+    headers:
+      Host: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
+    path: /
