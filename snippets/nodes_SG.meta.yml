@@ -7,44 +7,38 @@ proxies:
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬1 |  6.2MB/s
+  name: 3|🇸🇬1 |  2.0MB/s
   network: tcp
-  port: 44003
+  port: 56127
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇸🇬2 |  3.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.76.22.133
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬3 |  2.0MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇸🇬4 |  6.2MB/s
-  network: tcp
-  port: 44171
-  server: js.sf1.pw
+- name: 3,13|US_speednode_0048
+  network: ws
+  port: 80
+  server: support.zoom.us
+  servername: free.pranithsandaruwan.shop
+  skip-cert-verify: false
   tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+  type: vless
+  udp: true
+  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+  ws-opts:
+    headers:
+      Host: free.pranithsandaruwan.shop
+    path: /
+- client-fingerprint: chrome
+  name: 3|🇸🇬3 |  4.8MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11,13|CN_speednode_0003
@@ -81,31 +75,3 @@ proxies:
   server: 18.181.194.77
   tfo: false
   type: ss
-- name: 13|SG_speednode_0030
-  network: ws
-  port: 8443
-  server: 92.243.74.2
-  servername: edfgv.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgv.aimercc.filegear-sg.me
-    path: /?ed=2560
-- name: 13|SG_speednode_0031
-  network: ws
-  port: 8443
-  server: 27.50.49.177
-  servername: edfgv.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgv.aimercc.filegear-sg.me
-    path: /?ed=2560
