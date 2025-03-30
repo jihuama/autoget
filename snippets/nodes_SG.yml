@@ -5,32 +5,46 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3,13|CN_speednode_0025
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 1565
+  name: 3|🇸🇬4 |  2.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.0.50.161
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 3|🇸🇬2 |  4.2MB/s
+  name: 8|2|🇸🇬2 |  4.2MB/s
   network: ws
   port: 25245
   server: sg1.awslcn.info
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: sg1.awslcn.info
-  ws-path: /
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 3|🇸🇬3 |  6.0MB/s
+  name: 8|2|🇸🇬3 |  6.0MB/s
   network: ws
   port: 25243
   server: sg1.awslcn.info
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: sg1.awslcn.info
-  ws-path: /
+  ws-opts: {}
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian

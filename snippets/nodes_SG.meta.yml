@@ -5,49 +5,9 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- name: 3,13|US_speednode_0060
-  network: ws
-  port: 80
-  server: support.zoom.us
-  servername: free.pranithsandaruwan.shop
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
-  ws-opts:
-    headers:
-      Host: free.pranithsandaruwan.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇸🇬2 |  4.2MB/s
-  network: ws
-  port: 25245
-  server: sg1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: sg1.awslcn.info
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇸🇬3 |  6.0MB/s
-  network: ws
-  port: 25243
-  server: sg1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-headers:
-    Host: sg1.awslcn.info
-  ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬4 |  6.2MB/s
+  name: 3|🇸🇬1 |  6.3MB/s
   network: tcp
   port: 56127
   reality-opts:
@@ -57,6 +17,60 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3,13|CN_speednode_0025
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0012
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  delay: 1565
+  name: 3|🇸🇬4 |  2.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.0.50.161
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇸🇬2 |  4.2MB/s
+  network: ws
+  port: 25245
+  server: sg1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇸🇬3 |  6.0MB/s
+  network: ws
+  port: 25243
+  server: sg1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
@@ -81,38 +95,10 @@ proxies:
   server: 52.76.22.133
   tfo: false
   type: ss
-- name: 13|SG_speednode_0051
-  network: ws
-  port: 8443
-  server: 92.243.74.2
-  servername: edfgv.aimercc.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgv.aimercc.filegear-sg.me
-    path: /?ed=2560
 - name: 13|SG_speednode_0052
   network: ws
   port: 8443
   server: 27.50.49.230
-  servername: edfgv.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edfgv.aimercc.filegear-sg.me
-    path: /?ed=2560
-- name: 13|SG_speednode_0053
-  network: ws
-  port: 8443
-  server: 27.50.49.177
   servername: edfgv.aimercc.filegear-sg.me
   skip-cert-verify: true
   tls: true
