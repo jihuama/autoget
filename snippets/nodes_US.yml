@@ -191,7 +191,22 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇺🇸14 |  2.0MB/s
+  name: 3|🇺🇸9 |  1.9MB/s
+  network: ws
+  port: 443
+  server: us10-04.852224.ggff.net
+  servername: us10-04.852224.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  ws-opts:
+    headers:
+      Host: us10-04.852224.ggff.net
+    path: /SNwNdunw28lVztopw90eoXel
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇺🇸1 |  5.2MB/s
   network: ws
   port: 443
   server: us10-09.852224.ggff.net
@@ -205,7 +220,7 @@ proxies:
     path: /SNwNdunw28lVztopw90eoXel
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇺🇸5 |  1.1MB/s
+  name: 8|2|🇺🇸2 |  1.3MB/s
   network: ws
   port: 8443
   server: 185.176.26.209
@@ -217,9 +232,9 @@ proxies:
     headers:
       Host: lax1.ibgfw.top
     path: /xrenvws
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸5 |  1.6MB/s
+  name: 8|2|🇺🇸5 |  1.6MB/s
   network: ws
   port: '8443'
   server: 185.176.26.209
@@ -227,20 +242,15 @@ proxies:
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
   ws-opts:
-    headers:
-      host: lax1.ibgfw.top
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸6 |  4.0MB/s
+  name: 8|2|🇺🇸6 |  4.0MB/s
   network: ws
   port: 443
   server: 107.174.34.6
-  skip-cert-verify: true
-  tfo: false
   tls: true
   type: vmess
-  udp: true
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
@@ -248,33 +258,17 @@ proxies:
     path: /dabai.in172.64.19.172
 - alterId: 64
   cipher: auto
-  name: 3|🇺🇸8 |  3.9MB/s
+  name: 8|2|🇺🇸8 |  3.9MB/s
   network: tcp
   port: 52143
-  raw:
-    add: 142.4.104.33
-    aid: '64'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 418048af-a293-4b99-9b0c-98ca3580dd24
-    net: tcp
-    path: /
-    port: 52143
-    ps: 🇺🇸 US_401
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
   server: 142.4.104.33
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸11 |  1.1MB/s
+  name: 8|2|🇺🇸11 |  1.1MB/s
   network: ws
   port: '8443'
   server: 194.59.5.221
@@ -282,12 +276,10 @@ proxies:
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
   ws-opts:
-    headers:
-      host: lax1.ibgfw.top
     path: /xrenvws
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇺🇸25 |  1.4MB/s
+  name: 8|2|🇺🇸16 |  1.5MB/s
   network: ws
   port: 8443
   server: 45.205.0.22
@@ -299,17 +291,9 @@ proxies:
     headers:
       Host: lax1.ibgfw.top
     path: /xrenvws
-- cipher: aes-256-cfb
-  country: 🇺🇸 US
-  delay: 1081
-  name: 3|🇺🇸17 |  2.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.40.170.193
-  type: ss
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸18 |  1.3MB/s
+  name: 8|2|🇺🇸18 |  1.3MB/s
   network: ws
   port: 8443
   server: 188.42.145.9
@@ -321,10 +305,9 @@ proxies:
     headers:
       Host: lax1.ibgfw.top
     path: /xrenvws
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3|🇺🇸20 |  1.9MB/s
+  name: 8|2|🇺🇸20 |  1.9MB/s
   network: ws
   port: 8443
   server: 185.238.228.41
@@ -336,9 +319,9 @@ proxies:
     headers:
       Host: lax1.ibgfw.top
     path: /xrenvws
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸23 |  3.3MB/s
+  name: 8|2|🇺🇸23 |  3.3MB/s
   network: ws
   port: '443'
   server: us10-04.852224.ggff.net
@@ -346,12 +329,10 @@ proxies:
   type: vmess
   uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
   ws-opts:
-    headers:
-      host: us10-04.852224.ggff.net
     path: /SNwNdunw28lVztopw90eoXel
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸24 |  3.7MB/s
+  name: 8|2|🇺🇸24 |  3.7MB/s
   network: ws
   port: '443'
   server: us10-09.852224.ggff.net
@@ -359,166 +340,7 @@ proxies:
   type: vmess
   uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
   ws-opts:
-    headers:
-      host: us10-09.852224.ggff.net
     path: /SNwNdunw28lVztopw90eoXel
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸2 |  1.7MB/s
-  network: ws
-  port: 443
-  server: 104.21.112.1
-  servername: us7-03.890624.xyz
-  tls: true
-  type: vmess
-  uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
-  ws-opts:
-    headers:
-      Host: us7-03.890624.xyz
-    path: /bua2hMcbA8wMzbGFtV
-- alterId: 0
-  cipher: auto
-  name: 8,13|US_speednode_0250
-  network: ws
-  port: 8443
-  server: 14.102.229.82
-  servername: lax1.ibgfw.top
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸6 |  1.1MB/s
-  network: ws
-  port: 8443
-  server: 5.10.246.166
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸10 |  1.0MB/s
-  network: ws
-  port: '8443'
-  server: 92.53.188.185
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸12 |  1.5MB/s
-  network: ws
-  port: '8443'
-  server: 185.238.228.41
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸15 |  2.9MB/s
-  network: ws
-  port: 8443
-  server: 77.232.140.180
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸17 |  4.8MB/s
-  network: ws
-  port: '8443'
-  server: 94.242.230.119
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸18 |  1.9MB/s
-  network: ws
-  port: 8443
-  server: 188.244.122.249
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸21 |  1.1MB/s
-  network: ws
-  port: 8443
-  server: 188.164.248.120
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸22 |  2.5MB/s
-  network: ws
-  port: 8443
-  server: 89.116.46.96
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸24 |  5.4MB/s
-  network: ws
-  port: 443
-  server: US7-03.890624.xYz
-  servername: US7-03.890624.xYz
-  tls: true
-  type: vmess
-  uuid: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
-  ws-opts:
-    path: /bua2hMcbA8wMzbGFtV
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸31 |  1.8MB/s
-  network: ws
-  port: 8443
-  server: 89.116.180.69
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
@@ -627,18 +449,3 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0251
-  network: ws
-  port: 8443
-  server: 167.68.5.215
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
