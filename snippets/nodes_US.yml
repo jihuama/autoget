@@ -189,9 +189,44 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: '0'
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸8 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.220.225.248
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸11 |  5.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.208.203.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 3,13|CN_speednode_0041
+  password: 483DD6BF-E02D-48A9-83D7-09B9313B49AD
+  port: 31103
+  server: free-relay.themars.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 3,13|CN_speednode_0048
+  password: 483DD6BF-E02D-48A9-83D7-09B9313B49AD
+  port: 31104
+  server: free-relay.themars.top
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸22 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.208.31.71
+  type: ss
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸1 |  1.2MB/s
+  name: 8|2|🇺🇸1 |  1.2MB/s
   network: ws
   port: '8443'
   server: 194.59.5.221
@@ -199,29 +234,23 @@ proxies:
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
   ws-opts:
-    headers:
-      host: lax1.ibgfw.top
     path: /xrenvws
 - alterId: 2
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3|🇺🇸2 |  1.0MB/s
+  name: 8|2|🇺🇸2 |  1.0MB/s
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸4 |  1.0MB/s
+  name: 8|2|🇺🇸4 |  1.0MB/s
   network: ws
   port: '8443'
   server: 14.102.229.82
@@ -229,83 +258,20 @@ proxies:
   type: vmess
   uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
   ws-opts:
-    headers:
-      host: lax1.ibgfw.top
     path: /xrenvws
-- allowInsecure: '1'
-  name: 3|🇺🇸5 |  1.4MB/s
-  network: tcp
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20031
-  server: 183.240.228.139
-  skip-cert-verify: true
-  sni: 1.tgz3yef6gd.xyz
-  tls: true
-  type: trojan
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 3|🇺🇸6 |  4.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.89.254.58
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸7 |  2.8MB/s
+  name: 8|2|🇺🇸7 |  2.8MB/s
   network: ws
   port: 21027
   server: 134.195.211.116
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: f17c76c1-2c3b-4791-b2a7-15435b81ed3a
-  ws-headers:
-    Host: 134.195.211.116
-  ws-path: /
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|US_speednode_0101
-  password: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
-  port: 1378
-  server: t10.emovpn.buzz
-  skip-cert-verify: true
-  sni: www.baidu.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: 3|🇺🇸10 |  3.9MB/s
-  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
-  port: 41705
-  server: zf1.10101251.xyz
-  type: ss
-- allowInsecure: '1'
-  name: 3|🇺🇸11 |  1.8MB/s
-  network: tcp
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20038
-  server: 183.240.228.139
-  skip-cert-verify: true
-  sni: 8.tgz3yef6gd.xyz
-  tls: true
-  type: trojan
-- allowInsecure: '1'
-  name: 3|🇺🇸12 |  3.0MB/s
-  network: tcp
-  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 20040
-  server: 183.240.228.139
-  skip-cert-verify: true
-  sni: 10.tgz3yef6gd.xyz
-  tls: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 3,13|US_speednode_0097
+  name: 8,13|US_speednode_0097
   network: ws
   port: 3903
   server: v53.emovpn.buzz
@@ -320,106 +286,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8|2|🇺🇸1 |  3.1MB/s
+  client-fingerprint: chrome
+  name: 8,11,12|美国|@ripaojiedian
   network: ws
-  port: 8297
-  server: v41.emovpn.buzz
+  port: '8136'
+  server: v49.emovpn.buzz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
   ws-opts:
     headers:
-      Host: v41.emovpn.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸2 |  1.7MB/s
-  network: ws
-  port: 443
-  server: 188.114.96.6
-  servername: jahfkjha.cfd
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸5 |  3.8MB/s
-  network: ws
-  port: 443
-  server: 185.146.173.158
-  servername: jahfkjha.cfd
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸7 |  1.6MB/s
-  network: ws
-  port: 443
-  server: 154.83.2.90
-  servername: jahfkjha.cfd
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸8 |  2.8MB/s
-  network: ws
-  port: '443'
-  server: 185.146.173.95
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸9 |  2.1MB/s
-  network: ws
-  port: 443
-  server: 185.146.173.95
-  servername: jahfkjha.cfd
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸13 |  1.9MB/s
-  network: ws
-  port: '443'
-  server: 104.21.18.227
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸31 |  3.7MB/s
-  network: ws
-  port: 20031
-  server: 207.90.238.136
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f739441a-468e-4246-8c48-f9eb357300da
-  ws-opts:
+      Host: v49.emovpn.buzz
     path: /
 - alterId: 0
   cipher: auto
@@ -488,23 +368,6 @@ proxies:
   ws-opts:
     headers:
       Host: server32.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
-  network: ws
-  port: '8136'
-  server: v49.emovpn.buzz
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
-  ws-opts:
-    headers:
-      Host: v49.emovpn.buzz
     path: /
 - alterId: 0
   cipher: auto
