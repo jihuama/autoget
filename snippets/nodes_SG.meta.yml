@@ -5,70 +5,15 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0047
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬1 |  1.2MB/s
   network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  name: 3|🇸🇬2 |  3.8MB/s
-  network: ws
-  port: 443
-  server: 13.67.9.5
-  servername: shg2.azurewebsites.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    headers:
-      host: shg2.azurewebsites.net
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0043
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0031
-  network: tcp
-  port: 44003
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇸🇬5 |  4.7MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21114
-  server: okanc.node-is.green
-  type: ss
+  port: 4135
+  server: 28e38e7c-su2dc0-sv85jh-dcdv.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 1659deda-0625-11f0-8002-f23c93141fad
 - name: 3,13|US_speednode_0103
   network: ws
   port: 80
@@ -83,45 +28,87 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- name: 3|🇸🇬8 |  6.3MB/s
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬3 |  1.1MB/s
+  network: tcp
+  port: 3681
+  server: 82ba1c75-su2dc0-sv85jh-dcdv.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 1659deda-0625-11f0-8002-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬4 |  2.4MB/s
+  network: tcp
+  port: 4135
+  server: 148cda66-su2dc0-susvoj-d6ar.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬5 |  2.0MB/s
+  network: tcp
+  port: 3683
+  server: b953fc54-su2dc0-sv9ymy-dezg.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 952f0a9a-097d-11f0-aa52-f23c93136cb3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0043
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬7 |  4.5MB/s
+  network: tcp
+  port: 4137
+  server: d64de51c-su2dc0-susvoj-d6ar.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
+- cipher: aes-256-cfb
+  name: 3|🇸🇬8 |  2.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.128.245.70
+  type: ss
+- name: 3|🇸🇬9 |  4.9MB/s
   password: myszy28811
   port: 28811
   server: pipi.myddns.me
   type: socks5
   udp: true
   username: myszy
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3,13|CN_speednode_0019
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 8|2|🇸🇬5 |  6.3MB/s
-  network: ws
-  port: 25245
-  server: sg1.awslcn.info
+  name: 3|🇸🇬10 |  4.4MB/s
+  network: tcp
+  port: 3681
+  server: d64de51c-su2dc0-susvoj-d6ar.c.volczijie.com
   tls: false
   type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
+  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 8|2|🇸🇬6 |  2.3MB/s
-  network: ws
-  port: 25243
-  server: sg1.awslcn.info
+  name: 3|🇸🇬12 |  3.1MB/s
+  network: tcp
+  port: 3683
+  server: a23ffce7-su2dc0-susvoj-d6ar.b.fosant.com
   tls: false
   type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
+  uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
