@@ -1,32 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|SC_speednode_0044
-  password: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
-  port: 6104
-  server: t22.emovpn.buzz
-  skip-cert-verify: true
-  sni: www.baidu.com
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰2 |  1.8MB/s
-  password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-  port: 11001
-  server: 183.232.229.164
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 3|🇭🇰6 |  5.2MB/s
+  name: 3|🇭🇰1 |  5.8MB/s
   network: ws
   port: 2052
   raw:
-    add: ms.rtxconfigz.xyz
+    add: 20.189.122.198
     aid: '0'
     alpn: ''
     fp: ''
@@ -41,6 +20,39 @@ proxies:
     tls: ''
     type: ''
     v: '2'
+  server: 20.189.122.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
+  ws-opts:
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰11 |  2.8MB/s
+  network: tcp
+  port: 34093
+  server: 120.198.71.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 120.198.71.214
+  ws-path: /
+- name: 3|🇭🇰16 |  3.4MB/s
+  network: tcp
+  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+  port: 20104
+  server: 111.62.241.211
+  skip-cert-verify: true
+  sni: 4.2gyh5ybsic.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇭🇰6 |  5.2MB/s
+  network: ws
+  port: 2052
   server: ms.rtxconfigz.xyz
   servername: ''
   tls: false
