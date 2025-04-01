@@ -5,37 +5,13 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬2 |  1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.188.214
+- cipher: aes-256-gcm
+  name: 3|🇸🇬6 |  6.1MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
   type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬6 |  1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.73.58
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 3|🇸🇬12 |  1.1MB/s
-  network: tcp
-  port: 53102
-  server: 183.236.51.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.236.51.38
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 3|🇸🇬13 |  1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.141.139.23
-  type: ss
+  udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
@@ -60,3 +36,10 @@ proxies:
   server: 3.36.26.148
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: 13|SG_speednode_0080
+  password: amazonskr05
+  port: 443
+  server: 18.141.139.23
+  type: ss
+  udp: true

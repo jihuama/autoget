@@ -1,49 +1,50 @@
 proxies:
 - auth: dongtaiwang.com
-  name: 3|🇫🇷1 |  5.2MB/s
-  password: dongtaiwang.com
-  port: 59967
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇫🇷2 |  5.5MB/s
-  port: 44557
-  server: 195.154.200.178
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: hysteria
-  up: 1000 Mbps
-- client-fingerprint: randomized
-  name: 3|🇫🇷3 |  4.5MB/s
-  network: ws
-  port: 443
-  server: ip.sb
-  servername: 64D78605.Fr-7rB.pageS.dEv
-  tls: true
-  type: vless
-  uuid: 70f8697b-f9f3-4692-8e0a-3d1834fd76dc
-  ws-opts:
-    headers:
-      host: 64D78605.Fr-7rB.pageS.dEv
-    path: /YBa1BBPnrlsvyMZD/MzUuMTgwLjIyOS4x?ed=2560
-- auth: dongtaiwang.com
-  name: 3|🇫🇷4 |  5.3MB/s
+  name: 3|🇫🇷1 |  5.4MB/s
   password: dongtaiwang.com
   port: 61770
   server: 51.159.226.1
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 13|FR_speednode_0019
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.15.82
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇫🇷2 |  1.7MB/s
+  network: tcp
+  port: 40072
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: dongtaiwang.com
+  name: 3|🇫🇷3 |  5.3MB/s
+  password: dongtaiwang.com
+  port: 59967
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 13|FR_speednode_0059
+  network: ws
+  port: 443
+  server: 185.16.110.107
+  servername: mn.youlingkais.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: mn.youlingkais.filegear-sg.me
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 13|FR_speednode_0060
+  password: Qx22XZwNt4SCcnWNkypEAj
+  port: 44316
+  server: 81.19.137.66
   type: ss
   udp: true
