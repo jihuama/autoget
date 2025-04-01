@@ -5,23 +5,13 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3,13|US_speednode_0098
-  network: ws
-  port: 80
-  server: 170.114.45.6
-  servername: free.server.pranithsandaruwan.shop
-  skip-cert-verify: true
-  tls: false
-  type: vless
+- name: 3,13|CN_speednode_0034
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
   udp: true
-  uuid: f95543de-d6c7-474e-a58e-c9891833f45b
-  ws-opts:
-    headers:
-      Host: free.server.pranithsandaruwan.shop
-    path: /
+  username: myszy
 - name: 3,13|US_speednode_0096
   network: ws
   port: 80
@@ -36,34 +26,51 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- cipher: aes-256-gcm
-  name: 3|🇸🇬6 |  6.1MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21115
-  server: okanc.node-is.green
-  type: ss
-  udp: true
-- name: 3,13|CN_speednode_0034
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
-- client-fingerprint: chrome
-  delay: 1335
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬9 |  2.4MB/s
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇸🇬1 |  6.1MB/s
   network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  port: 3683
+  server: 4f4f231e-su7xc0-su1oku-2gok.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇸🇬2 |  5.4MB/s
+  network: tcp
+  port: 3683
+  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇸🇬3 |  6.2MB/s
+  network: tcp
+  port: 3683
+  server: a5944a92-su7b40-tclkqs-deip.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇸🇬8 |  6.6MB/s
+  network: tcp
+  port: 3683
+  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇸🇬10 |  6.0MB/s
+  network: tcp
+  port: 3683
+  server: 098e0774-su7xc0-tcm6ys-deip.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 7a2512b4-09ee-11f0-8d46-f23c9313b177
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
