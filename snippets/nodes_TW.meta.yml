@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼1 |  4.0MB/s
+  name: 3|🇹🇼1 |  6.0MB/s
   network: tcp
   port: 47531
   reality-opts:
@@ -12,44 +12,41 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
-  delay: 1260
   flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0010
-  network: tcp
-  port: 37809
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  mode: ''
-  name: 3|🇹🇼8 |  1.0MB/s
-  network: tcp
-  port: 20413
-  reality-opts:
-    public-key: BQk3bbYxbWAzoi8F0gl7oiM90YO7wFNuwTJRxaWtWFg
-    short-id: bd2ca454
-  server: 36.228.237.192
-  servername: www.visa.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: f5202085-8402-4b17-9e35-58ccd1b7f79b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇹🇼10 |  4.4MB/s
+  name: 3|🇹🇼2 |  2.5MB/s
   network: tcp
   port: 15823
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
+  server: gy01.hunheiydd.xyz
   servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  name: 3|🇹🇼3 |  1.8MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 846a0e02-026c-3aa2-ab8d-d4d266934d79
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇹🇼4 |  5.0MB/s
+  network: tcp
+  port: 12477
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gy01.hunheiydd.xyz
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
