@@ -1,53 +1,22 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 3,11|🇭🇰 香港8|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 4ec7af9f9f.m.ctrip.com
+    mode: http
+  port: 10001
+  server: south.inmysecretlife.xyz
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf
-  name: 3|🇭🇰4 |  1.7MB/s
+  name: 3|🇭🇰11 |  1.0MB/s
   password: asd123456
   port: 8388
   server: 103.149.182.191
   type: ss
-- name: 3|🇭🇰10 |  2.5MB/s
-  network: ws
-  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
-  port: 40021
-  server: vt-bana2-cn-11.ghpgwqswodgzv.com
-  skip-cert-verify: false
-  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
-    path: '%2Fdl_media'
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇭🇰4 |  5.6MB/s
-  network: ws
-  port: 2052
-  server: ms.rtxconfigz.xyz
-  tls: false
-  type: vmess
-  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇭🇰7 |  1.8MB/s
-  network: ws
-  port: 2052
-  server: 20.189.122.198
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
-  ws-opts:
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇭🇰8 |  5.2MB/s
-  network: tcp
-  port: 320
-  server: pilaobanpengyou.netcar.live
-  tls: false
-  type: vmess
-  uuid: 84834668-5a2c-4677-8aa2-ceb85a4c2361
 - alterId: 0
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
@@ -119,17 +88,5 @@ proxies:
   password: HU1AA5DVZP3V8PZD
   port: 15004
   server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港8|@ripaojiedian
-  password: Sj10bnYDe7w6V29E
-  plugin: obfs
-  plugin-opts:
-    host: 4ec7af9f9f.m.ctrip.com
-    mode: http
-  port: 10001
-  server: south.inmysecretlife.xyz
   tfo: false
   type: ss
