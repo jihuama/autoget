@@ -1,13 +1,25 @@
 proxies:
-- alterId: 0
+- cipher: aes-128-gcm
+  name: 3|🇹🇼3 |  1.9MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 15375
+  server: bsuqian01.dynu.net
+  type: ss
+- alterId: 2
   cipher: auto
-  name: 8|2|🇹🇼7 |  6.2MB/s
-  network: tcp
-  port: 3687
-  server: 681b338b-su9s00-t36qk2-cuof.a.fosant.com
+  name: 3|🇹🇼5 |  1.1MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4ac1098c-eff0-11ef-8543-f23c93136cb3
+  udp: true
+  uuid: ff32cce6-87ca-3b46-aeec-42be5ae1778f
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
 - cipher: aes-256-cfb
   name: 13|TW_speednode_0083
   password: f8f7aCzcPKbsF8p3
