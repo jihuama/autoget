@@ -389,28 +389,91 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
 - cipher: aes-256-cfb
-  name: 3|🇯🇵1 |  4.1MB/s
+  name: 3|🇺🇸1 |  4.9MB/s
   password: amazonskr05
   port: 443
-  server: 52.195.209.247
+  server: 34.222.2.112
   type: ss
-- cipher: aes-256-cfb
-  name: 3,13|CN_speednode_0004
-  obfs: tls1.2_ticket_auth
-  obfs-param: sg2-cdn-route.couldflare-cdn.com
-  password: uiACqrIr
-  port: 56138
-  protocol: origin
-  protocol-param: ''
-  server: cm2.xcone.xyz
-  type: ssr
+- name: 3|🇺🇸3 |  5.6MB/s
+  network: ws
+  password: 6040a753-e35b-4384-8713-96f3c639b621
+  port: 443
+  server: 104.21.69.41
+  skip-cert-verify: false
+  sni: kju84.890602.XYZ
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kju84.890602.XYZ
+    path: '%2FWxWOWO1YA9bs2HOmaeWimvT3'
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬1 |  1.6MB/s
+  network: tcp
+  port: 3683
+  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+  ws-headers:
+    Host: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 3,8,12|香港3|@ripaojiedian
+  network: tcp
+  port: '10032'
+  server: v2-hk1-zx.netcar.live
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bfd93c5c-abc7-416a-a205-372d3db979a4
+  ws-headers:
+    Host: v2-hk1-zx.netcar.live
+  ws-path: /
+- allowInsecure: ''
+  name: 3|🌀4-SE |  1.8MB/s
+  network: ws
+  password: qXI16FpsEL72
+  port: 2096
+  server: mojnews.itn24.ir
+  skip-cert-verify: false
+  sni: mojnews.itn24.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mojnews.itn24.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  name: 3,8|1|🇸🇬6 |  1.2MB/s
+  network: tcp
+  port: 3683
+  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+  ws-headers:
+    Host: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  ws-path: /
+- name: 3|🇺🇸6 |  4.7MB/s
+  network: ws
+  password: 6040a753-e35b-4384-8713-96f3c639b621
+  port: 443
+  server: 104.21.21.226
+  skip-cert-verify: true
+  sni: uK803.890689.Xyz
+  tfo: false
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 3|🇸🇬2 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.134.156
-  type: ss
+  ws-opts:
+    headers:
+      Host: uK803.890689.Xyz
+    path: /WxWOWO1YA9bs2HOmaeWimvT3
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -425,71 +488,111 @@ proxies:
   type: trojan
   udp: true
   uuid: 4ac1098c-eff0-11ef-8543-f23c93136cb3
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰5 |  3.4MB/s
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  skip-cert-verify: true
+- allowInsecure: ''
+  name: 3|🌀6-SE |  1.7MB/s
+  network: ws
+  password: UdWCqeGXQBEn
+  port: 2096
+  server: 104.21.71.8
+  skip-cert-verify: false
+  sni: mojnews.itn24.ir
   tls: true
-  type: ss
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mojnews.itn24.ir
+    path: /🆔@M3HDIO1
 - alterId: 0
   cipher: auto
-  name: 3|🇯🇵3 |  5.5MB/s
+  client-fingerprint: chrome
+  name: 3,8|1|🇷🇺3 |  4.6MB/s
   network: ws
-  port: 25775
-  raw:
-    add: 111.243.122.124
-    aid: 0
-    alpn: ''
-    fp: ''
-    host: www.douyin.com
-    id: 50597737-862b-43c4-a4ba-5c808171d6d1
-    net: ws
-    path: /www.khanacademy.org?ed=512
-    port: 25775
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: ''
-    sni: ''
-    tls: ''
-    type: auto
-    v: null
-  server: 111.243.122.124
-  servername: ''
+  port: 23039
+  server: 195.133.5.127
   tls: false
   type: vmess
-  uuid: 50597737-862b-43c4-a4ba-5c808171d6d1
-  ws-opts:
-    headers:
-      Host: www.douyin.com
-    path: /www.khanacademy.org?ed=512
-- cipher: aes-256-cfb
-  name: 3|🇯🇵5 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.199.64.156
-  type: ss
-- name: 3|🇭🇰12 |  2.8MB/s
-  network: ws
-  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
-  port: 40021
-  server: vt-bana2-cn-11.ghpgwqswodgzv.com
-  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
-  type: trojan
   udp: true
+  uuid: 9a4707a1-afe6-41a7-b787-d56c3a7eb8f9
   ws-opts:
-    headers:
-      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
-    path: /dl_media
+    path: /
 - cipher: aes-256-cfb
-  name: 3|🇸🇬5 |  1.0MB/s
+  name: 3|🇸🇬6 |  1.4MB/s
   password: amazonskr05
   port: 443
-  server: 47.128.245.70
+  server: 54.169.188.214
   type: ss
 - cipher: aes-256-cfb
-  name: 3|🇺🇸13 |  5.4MB/s
+  name: 3|🇸🇬7 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.9.107
+  type: ss
+- allowInsecure: ''
+  name: 3|🇺🇸14 |  2.0MB/s
+  network: ws
+  password: 6040a753-e35b-4384-8713-96f3c639b621
+  port: 443
+  server: 172.67.204.22
+  skip-cert-verify: false
+  sni: kju84.890602.XYZ
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kju84.890602.xyz
+    path: /WxWOWO1YA9bs2HOmaeWimvT3
+- allowInsecure: ''
+  name: 3|🌀13-SE |  2.5MB/s
+  network: ws
+  password: BWAbQx16kl2z
+  port: 2087
+  server: econews.onetwothree123.ir
+  skip-cert-verify: false
+  sni: econews.onetwothree123.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: econews.onetwothree123.ir
+    path: /🆔@M3HDIO1
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3,11|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.150.238
+  tfo: false
+  type: ss
+- allowInsecure: ''
+  name: 3|🌀15-SE |  3.2MB/s
+  network: ws
+  password: KsMF5kLudbU3
+  port: 2087
+  server: 104.21.44.185
+  skip-cert-verify: false
+  sni: econews.onetwothree123.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: econews.onetwothree123.ir
+    path: /🆔@M3HDIO1
+- allowInsecure: ''
+  name: 3|🇺🇸21 |  4.8MB/s
+  network: ws
+  password: 6040a753-e35b-4384-8713-96f3c639b621
+  port: 443
+  server: 172.67.200.238
+  skip-cert-verify: false
+  sni: uK803.890689.Xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uk803.890689.xyz
+    path: /WxWOWO1YA9bs2HOmaeWimvT3
+- cipher: aes-256-cfb
+  name: 3|🇺🇸22 |  5.7MB/s
   password: amazonskr05
   port: 443
   server: 54.202.0.97
@@ -501,18 +604,41 @@ proxies:
   server: 156.146.40.194
   type: ss
   udp: true
-- alterId: '0'
+- cipher: aes-256-cfb
+  name: 3|🇸🇬9 |  3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.0.50.161
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇯🇵9 |  1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.207.157.253
+  type: ss
+- alterId: 2
   cipher: auto
-  name: 3|🇯🇵8 |  4.7MB/s
+  client-fingerprint: chrome
+  name: 3|🇺🇸25 |  1.1MB/s
   network: ws
-  port: '25775'
-  server: hhhfksdcbr.fask511.cfd
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 50597737-862b-43c4-a4ba-5c808171d6d1
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      host: www.douyin.com
-    path: /www.khanacademy.org?ed=512
+      Host: zxjp-c.tkong.cc
+    path: /
+- cipher: aes-256-cfb
+  name: 3|🇸🇬10 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.73.58
+  type: ss
 - alterId: 0
   cipher: auto
   name: 3,13|US_speednode_0101
@@ -545,66 +671,8 @@ proxies:
     headers:
       Host: hk.niskakowski.ggff.net
     path: /aa
-- cipher: aes-256-cfb
-  name: 3|🇺🇸19 |  1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.222.2.112
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 3,8,12|日本4|@ripaojiedian
-  network: tcp
-  port: '36001'
-  server: v2-hk2-zf2.netcar.live
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
-  ws-headers:
-    Host: v2-hk2-zf2.netcar.live
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,8|1|🇷🇺3 |  4.6MB/s
-  network: ws
-  port: 23039
-  server: 195.133.5.127
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9a4707a1-afe6-41a7-b787-d56c3a7eb8f9
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇸🇬9 |  5.6MB/s
-  network: tcp
-  port: 3683
-  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
-  ws-headers:
-    Host: 1387ebdd-su7b40-su6828-eme.b.fosant.com
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 3|🇸🇬10 |  4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.38.96
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇺🇸28 |  1.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.208.203.47
-  type: ss
 - allowInsecure: ''
-  name: 3|🌀15-SE |  5.6MB/s
+  name: 3|🌀18-SE |  1.8MB/s
   network: ws
   password: SD85M89IdW67
   port: 2083
@@ -617,18 +685,23 @@ proxies:
     headers:
       Host: yjc.twn24.ir
     path: /🆔@M3HDIO1
-- alterId: '0'
-  cipher: auto
-  name: 3|🇯🇵16 |  5.8MB/s
-  network: ws
-  port: '25775'
-  server: kkkghdragxc.fask511.cfd
-  type: vmess
-  uuid: 50597737-862b-43c4-a4ba-5c808171d6d1
-  ws-opts:
-    headers:
-      host: www.douyin.com
-    path: /www.khanacademy.org?ed=512
+- cipher: aes-128-gcm
+  name: 3|🇹🇼8 |  2.2MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 33368
+  server: shenzhou05.mysynology.net
+  type: ss
+- cipher: aes-256-cfb
+  name: 3,13|CN_speednode_0004
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
+  udp: true
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1176,13 +1249,14 @@ proxies:
   uuid: 21ddbca6-a333-4aa1-9431-33725df1e85e
 - alterId: 0
   cipher: auto
-  name: 8|1|🇸🇬6 |  1.2MB/s
+  name: 8|12|🇯🇵 日本4|@ripaojiedian
   network: tcp
-  port: 3683
-  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  port: 36001
+  server: v2-hk2-zf2.netcar.live
+  servername: ''
   tls: false
   type: vmess
-  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
 - alterId: 2
   cipher: auto
   name: 8|1|🇬🇧8 |  5.4MB/s
@@ -1220,16 +1294,6 @@ proxies:
   uuid: b1f8ac28-98f4-4e75-93c1-37f0d959e78b
 - alterId: 0
   cipher: auto
-  name: 8,12|香港3|@ripaojiedian
-  network: tcp
-  port: '10032'
-  server: v2-hk1-zx.netcar.live
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bfd93c5c-abc7-416a-a205-372d3db979a4
-- alterId: 0
-  cipher: auto
   name: 8,12|香港5|@ripaojiedian
   network: tcp
   port: '41002'
@@ -1240,14 +1304,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|香港6|@ripaojiedian
+  name: 8|12,13|香港6|@ripaojiedian
   network: ws
   port: '8443'
   server: hk.ggpdx.ggff.net
   servername: hk.ggpdx.ggff.net
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 0c08b87c-67d7-401e-93dc-7bcda12e795b
@@ -1257,7 +1318,7 @@ proxies:
     path: 0c08b87c-67d7-401e-93dc-7bcda12e795b-vm
 - alterId: 0
   cipher: auto
-  name: 8,12|香港9|@ripaojiedian
+  name: 8|13|香港9|@ripaojiedian
   network: tcp
   port: '4136'
   server: ac9d3c3c-su2dc0-sv9ymy-dezg.d.volczijie.com
@@ -1267,14 +1328,11 @@ proxies:
   uuid: 952f0a9a-097d-11f0-aa52-f23c93136cb3
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|日本3|@ripaojiedian
+  name: 8|12,13|日本3|@ripaojiedian
   network: ws
   port: '19608'
   server: lc.loc.cc
   servername: lc.loc.cc
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 3a5ca001-9884-4d96-a002-2b04f306747e
@@ -1284,14 +1342,11 @@ proxies:
     path: 3a5ca001-9884-4d96-a002-2b04f306747e-vm
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|韩国|@ripaojiedian
+  name: 8|12,13|韩国|@ripaojiedian
   network: ws
   port: '443'
   server: kr.ttcc.tech
   servername: kr.ttcc.tech
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 41cfbd9d-d2da-4300-a142-b49068f7ad3d
@@ -1301,7 +1356,7 @@ proxies:
     path: /41cfbd9d-d2da-4300-a142-b49068f7ad3d
 - alterId: 0
   cipher: auto
-  name: 8,12|日本A|@ripaojiedian
+  name: 8|13|日本A|@ripaojiedian
   network: kcp
   port: '58490'
   server: 8.209.203.88
@@ -1448,35 +1503,48 @@ proxies:
   name: 11|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.213.69.248
+  server: 43.203.206.73
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|香港|@ripaojiedian
+  network: ws
+  port: '8880'
+  server: 107.151.245.175
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cd92310f-afcf-4861-ac10-aaa20aa2e0dc
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: cd92310f-afcf-4861-ac10-aaa20aa2e0dc-vm
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
-  password: MQ6J7FHRWL2EBDKX
-  port: 15015
-  server: qh62onjn.slashdevslashnetslashtun.net
+  name: 11|🇭🇰 香港2|@ripaojiedian
+  password: CDG9XK11MN9S70IY
+  port: 15008
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港4|@ripaojiedian
-  password: HU1AA5DVZP3V8PZD
+  password: QBUR7SN6CCSDQD9J
   port: 15004
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港8|@ripaojiedian
-  password: Sj10bnYDe7w6V29E
-  plugin: obfs
-  plugin-opts:
-    host: 4ec7af9f9f.m.ctrip.com
-    mode: http
-  port: 10001
-  server: south.inmysecretlife.xyz
+  name: 11|🇭🇰 香港6|@ripaojiedian
+  password: fa7336fd-365d-4bc2-a1f3-7233d6abdb05
+  port: 36222
+  server: rk1.nynode0.cc
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -1485,7 +1553,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -1494,9 +1562,25 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇯🇵 日本2|@ripaojiedian
-  password: QSM88IU0D1Y77F3O
+  password: 9X6HM83GN02K8GDR
+  port: 18005
+  server: 156.231.104.15
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本3|@ripaojiedian
+  password: DXLMD9TRFJID5RBE
   port: 18003
   server: 156.231.104.13
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  password: c33861aa-18ce-4436-a3f5-81ff8f3c6e25
+  port: 48150
+  server: rk2.nynode0.cc
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -1505,7 +1589,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8769
   server: cn01.efan8867801.xyz
@@ -1514,7 +1598,7 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
-  password: GCXTUOMZIM3F6J96
+  password: 3IID3X30X5V41GUG
   port: 16001
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
@@ -1522,9 +1606,29 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡2|@ripaojiedian
-  password: 9BUY3HH5FVDMCCH7
+  password: 73X9GBT73GSRS89R
   port: 16011
   server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  password: cfa82b34-bb9a-44e5-bb6c-e3df8284a070
+  port: 26712
+  server: rk2.nynode0.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡4|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 55417938a8.m.ctrip.com
+    mode: http
+  port: 10003
+  server: south.inmysecretlife.xyz
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -1533,7 +1637,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8776
   server: cn01.efan8867801.xyz
@@ -1545,36 +1649,46 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|美国3|@ripaojiedian
+  network: ws
+  port: '2053'
+  server: usa.visa.com
+  servername: hax.hy.cloudns.ch
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: d79261b1-b706-49f6-b39d-af2a0b8ebac5
+  ws-opts:
+    headers:
+      Host: hax.hy.cloudns.ch
+    path: d79261b1-b706-49f6-b39d-af2a0b8ebac5-vm
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.54.89
+  server: 3.34.253.95
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 11,13|JP_speednode_0063
   password: amazonskr05
   port: 443
-  server: 44.247.247.209
+  server: 43.207.203.164
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.36.26.148
-  tfo: false
-  type: ss
+  udp: true
 - cipher: aes-128-gcm
   name: 13|CN_speednode_0003
   password: 492e27b0-d18f-4851-bed4-6c6afe1307d7
@@ -1703,13 +1817,6 @@ proxies:
   password: Qx22XZwNt4SCcnWNkypEAj
   port: 44316
   server: 81.19.137.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|JP_speednode_0063
-  password: amazonskr05
-  port: 443
-  server: 43.207.203.164
   type: ss
   udp: true
 - cipher: aes-256-cfb

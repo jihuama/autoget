@@ -5,6 +5,70 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬1 |  1.6MB/s
+  network: tcp
+  port: 3683
+  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+  ws-headers:
+    Host: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 3,8|1|🇸🇬6 |  1.2MB/s
+  network: tcp
+  port: 3683
+  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+  ws-headers:
+    Host: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|US_speednode_0095
+  password: oIwjHDXpKePvYIg8
+  port: 443
+  server: 43.162.127.44
+  skip-cert-verify: false
+  sni: myvps.cfd
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 4ac1098c-eff0-11ef-8543-f23c93136cb3
+- cipher: aes-256-cfb
+  name: 3|🇸🇬6 |  1.4MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.188.214
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇸🇬7 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.9.107
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇸🇬9 |  3.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.0.50.161
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇸🇬10 |  5.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.73.58
+  type: ss
 - cipher: aes-256-cfb
   name: 3,13|CN_speednode_0004
   obfs: tls1.2_ticket_auth
@@ -16,46 +80,6 @@ proxies:
   server: cm2.xcone.xyz
   type: ssr
   udp: true
-- cipher: aes-256-cfb
-  name: 3|🇸🇬2 |  1.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.134.156
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇸🇬5 |  1.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.128.245.70
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 3|🇸🇬9 |  5.6MB/s
-  network: tcp
-  port: 3683
-  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
-  ws-headers:
-    Host: 1387ebdd-su7b40-su6828-eme.b.fosant.com
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 3|🇸🇬10 |  4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 47.129.38.96
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇸🇬6 |  1.2MB/s
-  network: tcp
-  port: 3683
-  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 8|1|🇸🇬7 |  3.5MB/s
@@ -68,7 +92,7 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
-  password: GCXTUOMZIM3F6J96
+  password: 3IID3X30X5V41GUG
   port: 16001
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
@@ -76,19 +100,40 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡2|@ripaojiedian
-  password: 9BUY3HH5FVDMCCH7
+  password: 73X9GBT73GSRS89R
   port: 16011
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.36.26.148
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  password: cfa82b34-bb9a-44e5-bb6c-e3df8284a070
+  port: 26712
+  server: rk2.nynode0.cc
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡4|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 55417938a8.m.ctrip.com
+    mode: http
+  port: 10003
+  server: south.inmysecretlife.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11,13|JP_speednode_0063
+  password: amazonskr05
+  port: 443
+  server: 43.207.203.164
+  tfo: false
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 13|SG_speednode_0080
   password: amazonskr05
