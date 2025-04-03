@@ -5,23 +5,16 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- name: 3|🇸🇬1 |  2.0MB/s
-  port: 10808
-  server: 13.229.89.254
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: ec131ead-e121-4468-934f-34e0c10175e9
 - cipher: aes-256-cfb
-  name: 3|🇸🇬2 |  3.3MB/s
+  client-fingerprint: chrome
+  name: 3|🇸🇬1 |  1.4MB/s
   password: amazonskr05
   port: 443
-  server: 13.250.61.152
+  server: 3.1.205.82
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0009
+  name: 3,13|CN_speednode_0014
   network: tcp
   port: 56127
   reality-opts:
@@ -33,73 +26,28 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬4 |  5.5MB/s
-  network: tcp
-  port: 44003
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇸🇬5 |  6.0MB/s
-  network: ws
-  port: 443
-  server: kyree.ns.cloudflare.com
-  servername: cv.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: cv.dong2025.cfd
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 3|🇸🇬6 |  1.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.179.52.175
-  type: ss
-- name: 3,13|US_speednode_0044
-  network: ws
-  port: 80
-  server: support.zoom.us
-  servername: free.pranithsandaruwan.shop
+- name: 3|🇸🇬3 |  6.6MB/s
+  port: 21918
+  server: 47.129.119.183
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
-  ws-opts:
-    headers:
-      Host: free.pranithsandaruwan.shop
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬8 |  2.7MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇸🇬1 |  1.1MB/s
-  network: tcp
-  port: '3683'
-  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+  uuid: e8c06684-7fb7-4448-dcd7-468ef40a36f3
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇸🇬4 |  2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.238.196
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇸🇬5 |  3.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.64.13
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
@@ -124,22 +72,7 @@ proxies:
   server: 47.128.80.62
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 13|SG_speednode_0036
-  password: amazonskr05
-  port: 443
-  server: 13.212.77.19
-  type: ss
-  udp: true
-- name: 13|SG_speednode_0037
-  port: 21918
-  server: 47.129.119.183
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e8c06684-7fb7-4448-dcd7-468ef40a36f3
-- name: 13|SG_speednode_0038
+- name: 13|SG_speednode_0061
   network: ws
   port: 8443
   server: 111.119.235.98
@@ -153,3 +86,17 @@ proxies:
     headers:
       Host: sgp.cayuo.me
     path: /bing
+- name: 13|SG_speednode_0062
+  network: ws
+  port: 443
+  server: 27.50.49.136
+  servername: edccw.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccw.aimercc.filegear-sg.me
+    path: /?ed=2560
