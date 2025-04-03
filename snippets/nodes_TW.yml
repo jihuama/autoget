@@ -1,15 +1,18 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 3|🇹🇼1 |  1.9MB/s
-  password: 79739832-b888-415a-a454-8b53911c944a
-  port: 30332
-  server: 111.247.40.56
-  type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 3|🇹🇼23 |  3.5MB/s
-  password: f203200f-f6a4-49d8-893e-6559804d79ae
-  port: 50204
-  server: bgp-xdd.blue-bgp.xyz
+  name: 11,12|台湾|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 104.17.137.127
+  servername: tw.niskakowski.ggff.net
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
+  ws-opts:
+    headers:
+      Host: tw.niskakowski.ggff.net
+    path: /aa
