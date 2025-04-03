@@ -5,27 +5,14 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0022
+- alterId: '0'
+  cipher: auto
+  name: 3|🇸🇬1 |  1.5MB/s
   network: tcp
-  port: 44003
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  delay: 615
-  name: 3|🇸🇬2 |  4.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.73.58
-  type: ss
+  port: '3683'
+  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  type: vmess
+  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
 - name: 3,13|US_speednode_0079
   network: ws
   port: 80
@@ -40,34 +27,34 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- cipher: aes-256-cfb
-  delay: 1576
-  name: 3|🇸🇬4 |  1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.212.199.43
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇸🇬5 |  2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.250.55.223
-  type: ss
-- name: 3|🇸🇬6 |  1.6MB/s
-  network: ws
-  port: 80
-  server: support.zoom.us
-  servername: free.pranithsandaruwan.shop
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0014
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3,13|SG_speednode_0061
+  network: ws
+  port: 8443
+  server: 111.119.235.98
+  servername: sgp.cayuo.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a89981b0-8096-4bbc-8d24-da2330650c4b
   ws-opts:
     headers:
-      Host: free.pranithsandaruwan.shop
-    path: /
+      Host: sgp.cayuo.me
+    path: /bing
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
@@ -92,20 +79,6 @@ proxies:
   server: 47.128.80.62
   tfo: false
   type: ss
-- name: 13|SG_speednode_0061
-  network: ws
-  port: 8443
-  server: 111.119.235.98
-  servername: sgp.cayuo.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a89981b0-8096-4bbc-8d24-da2330650c4b
-  ws-opts:
-    headers:
-      Host: sgp.cayuo.me
-    path: /bing
 - name: 13|SG_speednode_0062
   network: ws
   port: 443
