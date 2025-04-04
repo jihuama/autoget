@@ -1,4 +1,36 @@
 proxies:
+- cipher: aes-256-cfb
+  delay: 880
+  name: 3|🇯🇵1 |  1.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.112.73.126
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 3|🇯🇵2 |  2.4MB/s
+  network: ws
+  port: 422
+  server: 9c9ed1dd-submo0-sy5h80-37m3.tky02.east.189ti.com
+  tls: false
+  type: vmess
+  uuid: 3804b1c6-0600-11ee-94af-f23c93141fad
+  ws-opts:
+    headers:
+      Host: webrtcpunch.video.qq.com
+    path: /
+- cipher: aes-256-cfb
+  name: 3|🇯🇵4 |  1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.199.237.27
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇯🇵11 |  3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.199.167.92
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

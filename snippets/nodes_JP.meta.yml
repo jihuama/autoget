@@ -1,7 +1,54 @@
 proxies:
+- cipher: aes-256-cfb
+  delay: 880
+  name: 3|🇯🇵1 |  1.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.112.73.126
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 3|🇯🇵2 |  2.4MB/s
+  network: ws
+  port: 422
+  server: 9c9ed1dd-submo0-sy5h80-37m3.tky02.east.189ti.com
+  tls: false
+  type: vmess
+  uuid: 3804b1c6-0600-11ee-94af-f23c93141fad
+  ws-opts:
+    headers:
+      Host: webrtcpunch.video.qq.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵1 |  6.5MB/s
+  name: 3|🇯🇵3 |  3.0MB/s
+  network: tcp
+  port: 16497
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  name: 3|🇯🇵4 |  1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.199.237.27
+  type: ss
+- name: 3|🇯🇵5 |  3.6MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵6 |  5.9MB/s
   network: tcp
   port: 25768
   reality-opts:
@@ -11,65 +58,43 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇦🇪1 |  5.1MB/s
+- name: 3|🇯🇵7 |  4.8MB/s
   network: ws
   port: 80
-  server: 45.131.5.182
-  servername: ''
+  server: 45.131.4.210
   tls: false
   type: vless
-  udp: false
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳@WangCai2
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇯🇵3 |  5.7MB/s
+    path: /
+- name: 3|🇯🇵8 |  4.5MB/s
   network: ws
   port: 80
-  server: 45.131.5.119
-  servername: ''
+  server: 45.131.5.113
   tls: false
   type: vless
-  udp: false
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: Telegram🇨🇳@WangCai2/?ed=2560
+    path: /Telegram @WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵4 |  5.5MB/s
+  name: 3|🇯🇵9 |  5.1MB/s
   network: tcp
-  port: 13989
+  port: 10635
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵5 |  6.1MB/s
-  network: tcp
-  port: 31735
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
+  server: shenzhou05.mysynology.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵6 |  1.1MB/s
+  name: 3|🇯🇵10 |  5.4MB/s
   network: tcp
   port: 10635
   reality-opts:
@@ -79,44 +104,24 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇯🇵7 |  1.9MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.126
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: Telegram🇨🇳@WangCai2/?ed
-- name: 3|🇯🇵8 |  5.1MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.179
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- name: 3|🇯🇵9 |  1.2MB/s
-  network: ws
+- cipher: aes-256-cfb
+  name: 3|🇯🇵11 |  3.3MB/s
+  password: amazonskr05
   port: 443
-  server: braden.ns.cloudflare.com
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
+  server: 54.199.167.92
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵12 |  5.8MB/s
+  network: tcp
+  port: 14548
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   tls: true
   type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylka.dpdns.org
-    path: /?ed=2560
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3,13|CN_speednode_0014
@@ -130,6 +135,18 @@ proxies:
   tls: true
   type: vless
   udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵14 |  5.1MB/s
+  network: tcp
+  port: 13989
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
