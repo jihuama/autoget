@@ -390,20 +390,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 3,8,12|日本4|@ripaojiedian
-  network: tcp
-  port: '28588'
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
-  ws-headers:
-    Host: pqcaqxvt.xn--fiqs8sjz2bull.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 3,8|2|🇸🇬11 |  1.0MB/s
   network: tcp
   port: '3683'
@@ -415,29 +401,72 @@ proxies:
   ws-headers:
     Host: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
   ws-path: /
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇸🇬3 |  1.0MB/s
-  network: tcp
-  port: '3683'
-  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  name: 3|🇩🇪2 |  5.7MB/s
+  network: ws
+  port: 2096
+  raw:
+    add: 104.21.48.1
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: frank1-sub.890699.xyz
+    id: f94d4633-b815-4d22-d3ab-117c60bcbfad
+    net: ws
+    path: /frank1-sub.890699.xyz
+    port: '2096'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: frank1-sub.890699.xyz
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.21.48.1
+  servername: frank1-sub.890699.xyz
+  tls: true
   type: vmess
-  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 3|🇹🇼3 |  1.4MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
+  uuid: f94d4633-b815-4d22-d3ab-117c60bcbfad
+  ws-opts:
+    headers:
+      Host: frank1-sub.890699.xyz
+    path: /frank1-sub.890699.xyz
+- allowInsecure: '1'
+  name: 3|🇺🇸8 |  5.1MB/s
+  network: ws
+  password: 02926f9e-153a-42c8-8ecd-8fade7009ad1
+  port: 443
+  server: 107.173.87.40
+  skip-cert-verify: true
+  sni: golinkwuxian.top
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 111.golinkwuxian.top
+    path: /apple
+- alterId: 2
+  cipher: auto
+  name: 3|🇨🇦10 |  2.7MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
+- cipher: aes-256-cfb
+  delay: 522
+  name: 3|🇸🇬5 |  1.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.77.19
   type: ss
-- alterId: '0'
-  cipher: auto
-  name: 3|🇺🇸30 |  1.1MB/s
-  network: tcp
-  port: 32977
-  server: 120.232.153.41
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1032,6 +1061,16 @@ proxies:
     headers:
       Host: oracleipv4.till.nyc.mn
     path: /123
+- alterId: 0
+  cipher: auto
+  name: 8,12|日本4|@ripaojiedian
+  network: tcp
+  port: '28588'
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2

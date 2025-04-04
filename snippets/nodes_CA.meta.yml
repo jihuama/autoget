@@ -1,8 +1,163 @@
 proxies:
-- name: 3|🇨🇦1 |  1.7MB/s
+- name: 3|🇨🇦1 |  1.2MB/s
   network: ws
   port: 443
-  server: 158.101.216.244
+  server: www.wto.org
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦2 |  5.0MB/s
+  network: ws
+  port: 8443
+  server: 138.2.235.224
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦3 |  5.8MB/s
+  network: ws
+  port: 443
+  server: 8.222.185.203
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦4 |  1.0MB/s
+  network: ws
+  port: 443
+  server: moura.ns.cloudflare.com
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦5 |  4.3MB/s
+  network: ws
+  port: 443
+  server: rustam.ns.cloudflare.com
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦6 |  2.0MB/s
+  network: ws
+  port: 58312
+  server: 152.70.100.102
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦7 |  5.1MB/s
+  network: ws
+  port: 443
+  server: 192.9.227.116
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CA_speednode_0001
+  network: tcp
+  port: 42557
+  reality-opts:
+    public-key: 9pG_yCinyMylCDQVtADAZELH1vlb5PGz_MZw8dmYZxY
+    short-id: 3139a260
+  server: 132.145.105.88
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+- name: 3|🇨🇦9 |  4.3MB/s
+  network: ws
+  port: 443
+  server: 144.24.78.188
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- alterId: 2
+  cipher: auto
+  name: 3|🇨🇦10 |  2.7MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
+- name: 3|🇨🇦11 |  5.2MB/s
+  network: ws
+  port: 46757
+  server: 154.40.46.28
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦12 |  6.8MB/s
+  network: ws
+  port: 443
+  server: 8.220.218.105
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -15,15 +170,27 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|CA_speednode_0001
-  port: 42557
+  name: 3|🇨🇦13 |  2.8MB/s
+  network: tcp
+  port: 16011
   reality-opts:
-    public-key: 9pG_yCinyMylCDQVtADAZELH1vlb5PGz_MZw8dmYZxY
-    short-id: 3139a260
-  server: 132.145.105.88
-  servername: www.yahoo.com
-  skip-cert-verify: false
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gy01.hunheiydd.xyz
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3|🇨🇦14 |  6.1MB/s
+  network: ws
+  port: 10912
+  server: 116.47.10.236
+  servername: nl.ylka.dpdns.org
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nl.ylka.dpdns.org
+    path: /?ed=2560
