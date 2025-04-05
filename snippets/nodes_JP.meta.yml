@@ -1,59 +1,31 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3,11|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.238.109.190
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵1 |  5.8MB/s
+  name: 3|🇯🇵2 |  1.8MB/s
   network: tcp
-  port: 31735
+  port: 10635
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
+  server: gysz0000.dynu.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-cfb
-  name: 3|🇯🇵2 |  5.5MB/s
+  name: 3|🇯🇵3 |  6.1MB/s
   password: amazonskr05
   port: 443
-  server: 52.198.238.20
+  server: 52.199.237.27
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵3 |  6.0MB/s
-  network: tcp
-  port: 16497
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  name: 3|🇯🇵5 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.199.167.92
-  type: ss
-- cipher: aes-256-cfb
-  name: 3|🇯🇵7 |  6.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 52.195.209.247
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵8 |  5.8MB/s
-  network: tcp
-  port: 11839
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇯🇵9 |  6.0MB/s
+- name: 3|🇯🇵4 |  6.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -64,46 +36,115 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵10 |  2.0MB/s
+  name: 3|🇯🇵5 |  1.3MB/s
   network: tcp
-  port: 10635
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵11 |  4.2MB/s
-  network: tcp
-  port: 14548
+  port: 13989
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: csuzhou01.1cooldns.com
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3|🇯🇵6 |  5.7MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.151
+  servername: gozargah.validbv7996.ir
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵7 |  6.1MB/s
+  network: tcp
+  port: 48121
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0014
-  network: tcp
-  port: 35659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: gateway.icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇯🇵14 |  2.8MB/s
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇯🇵8 |  5.8MB/s
   network: ws
   port: 80
-  server: 45.131.4.33
+  server: 45.131.5.194
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @WangCai2
+- name: 3|🇯🇵9 |  2.8MB/s
+  network: ws
+  port: 80
+  server: 45.131.5.179
+  servername: gozargah.validbv7996.ir
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵10 |  6.0MB/s
+  network: tcp
+  port: 25768
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  name: 3|🇯🇵11 |  5.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.183.76.102
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵12 |  6.2MB/s
+  network: tcp
+  port: 31735
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11|🇺🇸 美国5|@ripaojiedian
+  password: 3ffa664f-364a-4937-a314-1d9f02ad8458
+  port: 32001
+  server: lbso.bnnodeservice.com
+  skip-cert-verify: false
+  sni: pull-flv-t11.douyincdn.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+- name: 3|🇯🇵14 |  4.8MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.248
   tls: false
   type: vless
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
@@ -111,6 +152,17 @@ proxies:
     headers:
       Host: gozargah.validbv7996.ir
     path: /
+- name: 3|🇯🇵15 |  5.4MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.198
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram @WangCai2
 - alterId: 2
   cipher: auto
   name: 8|2|🇯🇵2 |  2.4MB/s
@@ -126,14 +178,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|日本2|@ripaojiedian
+  name: 8|12,13|日本2|@ripaojiedian
   network: ws
   port: '10390'
   server: 222.104.240.250
   servername: oracleipv4.till.nyc.mn
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
@@ -143,7 +192,7 @@ proxies:
     path: /123
 - alterId: 0
   cipher: auto
-  name: 8,12|日本4|@ripaojiedian
+  name: 8|13|日本4|@ripaojiedian
   network: tcp
   port: '28588'
   server: pqcaqxvt.xn--fiqs8sjz2bull.com
@@ -166,9 +215,17 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇯🇵 日本3|@ripaojiedian
-  password: LC0JUMZIUL16S24B
-  port: 18012
-  server: 156.231.104.22
+  password: 8JLSTR4973MMT8E3
+  port: 18001
+  server: 120.233.205.203
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  password: 3b6f8043-5876-432a-a853-f5d292080651
+  port: 26735
+  server: 183.236.51.167
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -188,6 +245,26 @@ proxies:
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.229.210.217
+  server: 47.129.238.196
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|日本7|@ripaojiedian
+  network: tcp
+  port: '4151'
+  server: c50e5830-submo0-t23v18-6wpo.c.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 12|日本8|@ripaojiedian
+  network: tcp
+  port: '33184'
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
