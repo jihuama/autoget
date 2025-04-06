@@ -7,7 +7,21 @@ proxies:
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬1 |  1.5MB/s
+  name: 3,13|CN_speednode_0010
+  network: tcp
+  port: 44003
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬2 |  3.0MB/s
   network: tcp
   port: 10778
   reality-opts:
@@ -18,27 +32,12 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-cfb
-  delay: 1576
-  name: 3|🇸🇬2 |  4.7MB/s
+  name: 3|🇸🇬3 |  1.7MB/s
   password: amazonskr05
   port: 443
-  server: 13.212.199.43
+  server: 18.140.70.168
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0013
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇸🇬4 |  3.0MB/s
+- name: 3|🇸🇬4 |  1.3MB/s
   network: ws
   port: 8443
   server: 111.119.235.98
@@ -50,39 +49,29 @@ proxies:
     headers:
       Host: sgp.cayuo.me
     path: /bing
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬5 |  5.9MB/s
+  network: tcp
+  port: 29877
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-cfb
-  name: 3|🇸🇬5 |  1.1MB/s
+  delay: 522
+  name: 3|🇸🇬6 |  1.1MB/s
   password: amazonskr05
   port: 443
-  server: 54.179.52.175
+  server: 13.212.77.19
   type: ss
-- name: 3,13|US_speednode_0035
-  network: ws
-  port: 80
-  server: 170.114.45.6
-  servername: free.pranithsandaruwan.shop
-  skip-cert-verify: true
-  tls: false
-  type: vless
   udp: true
-  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
-  ws-opts:
-    headers:
-      Host: free.pranithsandaruwan.shop
-    path: /
 - alterId: 0
   cipher: auto
-  name: 8|13|新加坡|@ripaojiedian
-  network: tcp
-  port: '4135'
-  server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡|@ripaojiedian
+  name: 8,12|新加坡|@ripaojiedian
   network: tcp
   port: '4135'
   server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
@@ -90,3 +79,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.199.64.156
+  tfo: false
+  type: ss
