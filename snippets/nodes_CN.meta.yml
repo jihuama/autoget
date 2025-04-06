@@ -16,12 +16,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🌀5-CN |  4.8MB/s
+  name: 3|🌀17-CN |  2.1MB/s
   network: tcp
   port: 62157
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: shenzhou02.mysynology.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🌀19-CN |  3.0MB/s
+  network: tcp
+  port: 28680
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
   servername: www.nvidia.com
   tls: true
   type: vless
@@ -53,42 +65,14 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 2
-  cipher: auto
-  name: 13|CN_speednode_0015
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|CN_speednode_0018
-  port: 46372
+  name: 13|CN_speednode_0010
+  port: 44003
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|CN_speednode_0020
-  port: 50200
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.amazon.com
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   skip-cert-verify: true
   tls: true
   type: vless
@@ -109,12 +93,12 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|CN_speednode_0023
-  port: 65053
+  name: 13|CN_speednode_0022
+  port: 64654
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.amazon.com
+  server: zhee01.dynu.net
+  servername: gateway.icloud.com
   skip-cert-verify: true
   tls: true
   type: vless
@@ -155,6 +139,22 @@ proxies:
   server: gdgs.tarioblink.me
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0029
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - alterId: 2
   cipher: auto
   name: 13|CN_speednode_0031

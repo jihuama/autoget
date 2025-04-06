@@ -1,23 +1,23 @@
 proxies:
-- auth: dongtaiwang.com
-  name: 3|🇫🇷1 |  5.6MB/s
-  password: dongtaiwang.com
-  port: 61770
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: dongtaiwang.com
-  name: 3|🇫🇷2 |  5.5MB/s
-  password: dongtaiwang.com
-  port: 59967
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 3|🇫🇷1 |  3.0MB/s
+  network: ws
+  port: 2087
+  server: 190.93.247.56
+  servername: WWW.adabefarsi.eu.
+  tls: true
+  type: vless
+  udp: false
+  uuid: 259ce089-06c5-4b40-bda2-6510bbca3bc4
+  ws-opts:
+    headers:
+      Host: WWW.adabefarsi.eu.
+    path: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇫🇷3 |  4.8MB/s
+  name: 3|🇫🇷2 |  1.6MB/s
   network: tcp
   port: 40072
   reality-opts:
@@ -27,26 +27,11 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- allowInsecure: ''
-  name: 3|🇫🇷4 |  5.3MB/s
-  network: tcp
-  password: utF6JLQd2x
-  port: 1935
-  server: 141.227.128.69
-  skip-cert-verify: false
-  sni: x1es-ovh.devefun.net
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 11|🇫🇷 法国|@ripaojiedian
-  network: ws
-  password: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  port: 443
-  server: fr2a.88888007.xyz
-  skip-cert-verify: false
-  sni: fr2a.88888007.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: fr2a.88888007.xyz
-    path: /3f741a9f-3c66-4102-838c-c77524d32d85
+- auth: dongtaiwang.com
+  name: 3|🇫🇷3 |  5.1MB/s
+  password: dongtaiwang.com
+  port: 59967
+  server: 195.154.33.70
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2

@@ -1,45 +1,36 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼1 |  2.6MB/s
+  name: 3|🇹🇼1 |  5.7MB/s
   network: tcp
-  port: 15700
+  port: 16704
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇹🇼2 |  6.4MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇹🇼3 |  1.4MB/s
-  network: tcp
-  port: 15823
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
   servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼5 |  5.7MB/s
+  name: 3|🇹🇼2 |  6.1MB/s
   network: tcp
-  port: 16704
+  port: 15823
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
+  server: gy01.hunheiydd.xyz
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇹🇼3 |  1.3MB/s
+  network: tcp
+  port: 37809
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
   servername: www.yahoo.com
   tls: true
   type: vless
@@ -58,15 +49,47 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 3|🇹🇼5 |  5.5MB/s
+  network: ws
+  port: 2052
+  server: 104.26.13.228
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 282533b1-cbf1-40a6-b399-a1116163fcc5
+  ws-opts:
+    headers:
+      Host: throbbing-haze-ac69.guoronghuang180.workers.dev
+    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼8 |  6.0MB/s
+  name: 3|🇹🇼7 |  5.3MB/s
   network: tcp
-  port: 13263
+  port: 15700
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: zhee01.dynu.net
-  servername: gateway.icloud.com
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 3|🇹🇼8 |  3.9MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 30001
+  server: tw.akebi.cc
+  skip-cert-verify: false
+  sni: tw.akebi.cc
+  type: hysteria2
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾|@ripaojiedian
+  password: D9EOTB2JHFUCARRA
+  port: 21005
+  server: 150.116.11.9
+  tfo: false
+  type: ss
