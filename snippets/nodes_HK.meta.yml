@@ -1,35 +1,86 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0011
+  name: 3|🇭🇰1 |  4.4MB/s
   network: tcp
-  port: 46716
+  port: 40387
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
+  server: bsuqian01.dynu.net
   servername: www.nvidia.com
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0009
+  name: 3|🇭🇰2 |  5.1MB/s
   network: tcp
-  port: 35853
+  port: 41279
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇭🇰3 |  2.0MB/s
+  network: tcp
+  port: 54220
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: zhee01.dynu.net
   servername: www.nvidia.com
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  name: 3|🇭🇰4 |  1.5MB/s
+  network: ws
+  port: 80
+  raw:
+    add: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
+    aid: '2'
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: ca506e08-ce3d-5e5a-c128-6358caca15e5
+    net: ws
+    path: /
+    port: 80
+    ps: 🇭🇰 HK_154
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- auth: 6467b3ad-1551-4ccc-9727-587e9a9089b1
+  client-fingerprint: chrome
+  down: 100
+  name: 3|🇭🇰5 |  1.6MB/s
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  password: 6467b3ad-1551-4ccc-9727-587e9a9089b1
+  port: 33000
+  server: 103.136.150.2
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰3 |  6.1MB/s
+  name: 3|🇭🇰7 |  6.1MB/s
   network: tcp
   port: 24318
   reality-opts:
@@ -41,71 +92,16 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰4 |  5.0MB/s
+  name: 3|🇭🇰8 |  5.3MB/s
   network: tcp
-  port: 54220
+  port: 33782
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
+  server: shenzhou05.mysynology.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 3|🇭🇰5 |  1.2MB/s
-  network: ws
-  port: 23000
-  raw:
-    add: 103.136.150.2
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 391eee01-bdef-4c94-b2de-99d90af8b069
-    net: ws
-    path: /
-    port: '23000'
-    ps: 🇭🇰 --001-1C
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 103.136.150.2
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 391eee01-bdef-4c94-b2de-99d90af8b069
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇭🇰6 |  5.8MB/s
-  network: tcp
-  port: 41279
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 2
-  cipher: auto
-  name: 3|🇭🇰7 |  2.9MB/s
-  network: ws
-  port: 80
-  server: 4ac87188-suk9s0-t7qex7-1supq.hk3.p5pv.com
-  servername: 🇭🇰HK-1.65.208.163-5585 | 5.237MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 4ac87188-suk9s0-t7qex7-1supq.hk3.p5pv.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 8,12|香港6|@ripaojiedian
@@ -159,17 +155,17 @@ proxies:
   server: 156.245.190.21
   tfo: false
   type: ss
-- name: 13|HK_speednode_0033
+- name: 13|HK_speednode_0022
   network: ws
   port: 443
-  server: 8.212.76.10
-  servername: hk.mehun.me
+  server: 162.247.5.92
+  servername: vn.qhahd.shop
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b41f3d0c-3e2f-4f57-9995-c6bdf2b3204d
+  uuid: df40aa49-0c6b-4fcd-d6be-f30a57a82833
   ws-opts:
     headers:
-      Host: hk.mehun.me
+      Host: vn.qhahd.shop
     path: /bing
