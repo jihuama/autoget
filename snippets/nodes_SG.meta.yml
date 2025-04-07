@@ -5,26 +5,70 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- client-fingerprint: chrome
-  flow: none
-  mode: ''
-  name: 3|🇸🇬1 |  2.6MB/s
-  network: ws
-  port: 2096
-  server: 141.193.213.20
-  servername: premium.vkehi.shop
-  tls: true
+- client-fingerprint: ''
+  flow: ''
+  grpc-opts:
+    grpc-service-name: 2055vless
+  mode: gun
+  name: 3|🇸🇬1 |  1.4MB/s
+  network: grpc
+  port: 6067
+  server: sg.foxmaster.ir
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: '%2F'
+  uuid: fbb9aca3-4a93-4d6f-a7f5-3e0c353181f8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬2 |  6.1MB/s
+  network: tcp
+  port: 29877
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  name: 3|🇸🇬3 |  2.9MB/s
+  password: 25612qazwsx
+  port: 25612
+  server: 18.142.181.4
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0004
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|IN_speednode_0009
+  password: b19c4375-d847-4c40-9824-4767c88b5f38
+  port: 10021
+  server: www.hk-jd.top
+  skip-cert-verify: true
+  sni: www.hk-jd.top
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
 - client-fingerprint: chrome
   flow: none
   mode: ''
-  name: 3|🇸🇬2 |  5.6MB/s
+  name: 3|🇸🇬6 |  2.7MB/s
   network: ws
   port: 2096
   server: 141.193.213.21
@@ -37,6 +81,14 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: '%2F'
+- auth: 493ed7e0-4657-4ec2-818f-e600c47c14fa
+  name: 3|🇸🇬7 |  4.5MB/s
+  password: 493ed7e0-4657-4ec2-818f-e600c47c14fa
+  port: 20000
+  server: 168.138.184.187
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
