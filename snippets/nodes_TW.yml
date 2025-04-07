@@ -1,9 +1,23 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾2|@ripaojiedian
-  password: 508cada1-f050-4864-a3ca-b626db3e74df
-  port: 30002
-  server: 45.207.157.70
+  name: 3,11,13|CN_speednode_0014
+  port: 5228
+  server: 00a6fed2-suk9s0-t7qex7-1supq.cu.plebai.net
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 12|台湾|@ripaojiedian
+  network: tcp
+  port: '3690'
+  server: 58acaca7-sumqo0-tbfl8f-xcf.b.fosant.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3

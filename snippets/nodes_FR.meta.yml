@@ -1,41 +1,37 @@
 proxies:
-- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  name: 3|🇫🇷1 |  2.2MB/s
-  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-  port: 2005
-  server: tw3.akebi.cc
-  skip-cert-verify: false
-  sni: fr01.akebi.cc
-  type: hysteria2
-- country: 🇫🇷FR
-  delay: 2273
-  name: 3|🇫🇷2 |  5.5MB/s
-  password: dongtaiwang.com
-  port: 61770
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇫🇷3 |  4.9MB/s
+- alterId: 0
+  cipher: auto
+  name: 3|🇫🇷1 |  4.4MB/s
   network: ws
-  port: 8080
-  server: 172.67.73.163
+  port: 443
+  raw:
+    add: 158.180.228.226
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: beyonddsz.cfd
+    id: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇬🇧 GB_144
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 158.180.228.226
   servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: aa29360c-55ce-4986-8232-091ccfa6151b
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
   ws-opts:
     headers:
-      Host: SE.kRbC9dycP8.ZulAir.orG.
-    path: /?ed=2048
+      Host: beyonddsz.cfd
+    path: /linkws
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇫🇷4 |  1.4MB/s
+  name: 3|🇫🇷2 |  1.0MB/s
   network: tcp
   port: 40072
   reality-opts:
@@ -45,3 +41,13 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- country: 🇫🇷FR
+  delay: 2273
+  name: 3|🇫🇷3 |  2.3MB/s
+  password: dongtaiwang.com
+  port: 61770
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
