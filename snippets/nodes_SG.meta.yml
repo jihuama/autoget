@@ -8,10 +8,10 @@ proxies:
 - client-fingerprint: chrome
   flow: none
   mode: ''
-  name: 3|🇸🇬1 |  2.6MB/s
+  name: 3|🇸🇬1 |  4.4MB/s
   network: ws
   port: 2096
-  server: 141.193.213.20
+  server: 141.193.213.21
   servername: premium.vkehi.shop
   tls: true
   type: vless
@@ -21,28 +21,26 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: '%2F'
-- delay: 1276
-  name: 3|🇸🇬2 |  4.7MB/s
-  network: ws
-  port: 2052
-  server: www.speedtest.net
-  servername: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
-  tls: false
-  type: vless
-  udp: true
-  uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  ws-opts:
-    headers:
-      Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
-    path: /?ed=1080
 - auth: 493ed7e0-4657-4ec2-818f-e600c47c14fa
-  name: 3|🇸🇬3 |  4.5MB/s
+  name: 3|🇸🇬2 |  4.9MB/s
   password: 493ed7e0-4657-4ec2-818f-e600c47c14fa
   port: 20000
   server: 168.138.184.187
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬3 |  5.9MB/s
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
