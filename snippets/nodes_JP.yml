@@ -1,16 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,11|🇺🇸 美国3|@ripaojiedian
-  port: 14100
-  server: dxv4.pai50288.uk
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 3,11|🇯🇵 日本特殊|@ripaojiedian
@@ -21,13 +9,27 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 8|1|🇯🇵2 |  6.0MB/s
+  name: 3|🇯🇵6 |  1.1MB/s
+  network: ws
+  port: 11184
+  server: 175.215.154.208
+  servername: oracle2ipv4.till.nyc.mn
+  tls: true
+  type: vmess
+  uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17
+  ws-opts:
+    headers:
+      Host: oracle2ipv4.till.nyc.mn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇯🇵1 |  5.7MB/s
   network: tcp
-  port: 4151
-  server: 5ba5b6bd-suh6o0-svqrrs-4cwg.c.volczijie.com
+  port: 30251
+  server: 34.97.245.204
   tls: false
   type: vmess
-  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
+  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
 - alterId: 0
   cipher: auto
   name: 8,12|日本2|@ripaojiedian

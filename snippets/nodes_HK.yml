@@ -1,22 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8|1|🇭🇰4 |  2.3MB/s
-  network: tcp
-  port: 4138
-  server: 113437c7-submo0-su9xu5-1phl.c.volczijie.com
+  name: 3|🇭🇰4 |  2.1MB/s
+  network: ws
+  port: 23002
+  raw:
+    add: 212.192.12.154
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 361d4055-e74d-4b39-a6b4-ef2030b134ef
+    net: ws
+    path: /
+    port: '23002'
+    ps: 🇭🇰 --001-1D
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 212.192.12.154
+  servername: ''
   tls: false
   type: vmess
-  uuid: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇭🇰13 |  4.5MB/s
-  network: tcp
-  port: 4136
-  server: 285c04c5-suh6o0-sv6d5y-ddgs.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+  uuid: 361d4055-e74d-4b39-a6b4-ef2030b134ef
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -89,3 +99,14 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 3.link-hub.click
   type: ssr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国3|@ripaojiedian
+  port: 14100
+  server: dxv4.pai50288.uk
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
