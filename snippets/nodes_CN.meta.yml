@@ -14,6 +14,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🌀7-CN |  6.2MB/s
+  network: tcp
+  port: 62157
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 广东省移动 7
@@ -78,6 +90,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
+  name: 13|CN_speednode_0008
+  password: 582e242b-752f-4ec9-a640-240ca98d5055
+  port: 39785
+  server: hk2.qsm1.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
   name: 13|CN_speednode_0009
   password: 582e242b-752f-4ec9-a640-240ca98d5055
   port: 39786
@@ -117,6 +136,13 @@ proxies:
   password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
   port: 55001
   server: hongkong.cnix.asia
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 13|CN_speednode_0015
+  password: 582e242b-752f-4ec9-a640-240ca98d5055
+  port: 39783
+  server: hk3.qsm1.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -161,19 +187,6 @@ proxies:
   server: hk3.qsm1.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|CN_speednode_0022
-  port: 31800
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-128-gcm
   name: 13|CN_speednode_0025
   password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
@@ -298,13 +311,6 @@ proxies:
   password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
   port: 13004
   server: jscm-hkmax.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0045
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 35619
-  server: oz.qsm1.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
