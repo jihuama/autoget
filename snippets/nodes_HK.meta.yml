@@ -1,28 +1,7 @@
 proxies:
-- name: 3|🇭🇰1 |  6.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰2 |  2.0MB/s
-  network: tcp
-  port: 33782
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇭🇰3 |  2.0MB/s
+  name: 3|🇭🇰1 |  2.0MB/s
   network: tcp
   port: 54220
   reality-opts:
@@ -32,20 +11,52 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-128-gcm
-  name: 3,13|CN_speednode_0011
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 33706
-  server: hk2.qsm1.xyz
-  type: ss
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 3|🇭🇰2 |  1.0MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2000
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|CN_speednode_0040
+  password: a25ed269-105b-4f15-bee2-bc2785d38912
+  port: 3684
+  server: ac681bb7-sudhc0-su9u31-b4pt.d.volczijie.com
+  skip-cert-verify: false
+  sni: 120.198.71.173
+  tfo: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: 3,13|CN_speednode_0032
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 33654
-  server: hk4.qsm1.xyz
-  type: ss
-  udp: true
+  uuid: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇭🇰4 |  5.7MB/s
+  network: tcp
+  port: 24318
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  name: 3|🇭🇰5 |  2.5MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.187
+  tls: false
+  type: vless
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
