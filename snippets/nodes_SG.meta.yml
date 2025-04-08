@@ -5,10 +5,26 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇸🇬1 |  4.7MB/s
+  network: ws
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
+  servername: sg02s.de15-5483-d16b.sbs
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    headers:
+      HOST: sg02s.de15-5483-d16b.sbs
+    path: /
 - client-fingerprint: chrome
   flow: none
   mode: ''
-  name: 3|🇸🇬1 |  4.4MB/s
+  name: 3|🇸🇬2 |  4.9MB/s
   network: ws
   port: 2096
   server: 141.193.213.21
@@ -21,17 +37,9 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: '%2F'
-- auth: 493ed7e0-4657-4ec2-818f-e600c47c14fa
-  name: 3|🇸🇬2 |  4.9MB/s
-  password: 493ed7e0-4657-4ec2-818f-e600c47c14fa
-  port: 20000
-  server: 168.138.184.187
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬3 |  5.9MB/s
+  name: 3|🇸🇬3 |  1.3MB/s
   network: tcp
   port: 10778
   reality-opts:
@@ -41,6 +49,14 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: 493ed7e0-4657-4ec2-818f-e600c47c14fa
+  name: 3|🇸🇬4 |  1.9MB/s
+  password: 493ed7e0-4657-4ec2-818f-e600c47c14fa
+  port: 20000
+  server: 168.138.184.187
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
