@@ -2,27 +2,42 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11,13|IN_speednode_0009
-  password: b19c4375-d847-4c40-9824-4767c88b5f38
-  port: 10021
-  server: www.hk-jd.top
-  skip-cert-verify: true
-  sni: www.hk-jd.top
+  name: 3,11|🇺🇸 美国3|@ripaojiedian
+  port: 14100
+  server: dxv4.pai50288.uk
+  skip-cert-verify: false
   tfo: false
   tls: false
-  type: trojan
+  type: vmess
   udp: true
-  uuid: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3,11|🇯🇵 日本特殊|@ripaojiedian
+  password: thisgou
+  port: 80
+  server: 18.183.101.244
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 8|13|日本4|@ripaojiedian
+  name: 8|1|🇯🇵2 |  6.0MB/s
   network: tcp
-  port: '31842'
-  server: 45.159.50.212
+  port: 4151
+  server: 5ba5b6bd-suh6o0-svqrrs-4cwg.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
+- alterId: 0
+  cipher: auto
+  name: 8,12|日本2|@ripaojiedian
+  network: tcp
+  port: '35575'
+  server: 45.159.50.12
   servername: ''
   tls: false
   type: vmess
-  uuid: 570e52c1-be15-4c79-a9e7-bab82555a034
+  uuid: 94a09477-7cdc-450d-aecd-c73ef596b5e9
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -37,27 +52,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
-  password: thisgou
-  port: 80
-  server: 18.183.101.244
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 11|🇯🇵 东京特殊|@ripaojiedian
   password: thisgou
   port: 80
   server: 13.230.226.50
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|日本2|@ripaojiedian
-  network: tcp
-  port: '35575'
-  server: 45.159.50.12
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94a09477-7cdc-450d-aecd-c73ef596b5e9
