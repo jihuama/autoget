@@ -5,20 +5,13 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- name: 3|🇸🇬1 |  6.2MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
 - client-fingerprint: chrome
   flow: none
   mode: ''
-  name: 3|🇸🇬2 |  6.0MB/s
+  name: 3|🇸🇬1 |  1.8MB/s
   network: ws
   port: 2096
-  server: 141.193.213.21
+  server: 141.193.213.20
   servername: premium.vkehi.shop
   tls: true
   type: vless
@@ -28,21 +21,17 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: '%2F'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬3 |  3.5MB/s
+- alterId: '0'
+  cipher: auto
+  name: 3|🇸🇬5 |  2.5MB/s
   network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  port: 42892
+  server: 120.232.153.40
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇸🇬5 |  5.4MB/s
+  name: 3,8|1|🇸🇬4 |  1.7MB/s
   network: ws
   port: 80
   server: fbf248.de15-5483-d16b.sbs
@@ -55,6 +44,39 @@ proxies:
     headers:
       Host: sg02s.de15-5483-d16b.sbs
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0023
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: '0'
+  cipher: auto
+  name: 3|🇸🇬7 |  2.2MB/s
+  network: ws
+  port: '80'
+  server: fbf248.de15-5483-d16b.sbs
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    headers:
+      host: sg02s.de15-5483-d16b.sbs
+    path: /
+- name: 3|🇸🇬8 |  5.5MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
+  udp: true
+  username: myszy
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
