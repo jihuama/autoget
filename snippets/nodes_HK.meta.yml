@@ -1,5 +1,5 @@
 proxies:
-- name: 3|🇭🇰1 |  6.2MB/s
+- name: 3|🇭🇰1 |  6.3MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
@@ -8,6 +8,28 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0012
+  network: tcp
+  port: 25135
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  name: 3|🇭🇰3 |  1.3MB/s
+  password: 82febca6-8856-41fe-84df-c8bda0b72c7b
+  port: 2000
+  server: tw3.akebi.cc
+  skip-cert-verify: false
+  sni: hk03.akebi.cc
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3,13|CN_speednode_0068
@@ -24,17 +46,47 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0016
+  name: 3|🇭🇰5 |  5.4MB/s
   network: tcp
-  port: 11555
+  port: 45883
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3,11|🇹🇼 台湾|@ripaojiedian
+  password: d316fca3-e4ca-4774-8230-24a8fb9f99f6
+  port: 10239
+  server: 120.234.255.61
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇭🇰7 |  5.0MB/s
+  network: tcp
+  port: 61178
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: test123.zlqhdns.top
   servername: www.nvidia.com
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇭🇰8 |  2.9MB/s
+  network: tcp
+  port: 24318
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -47,32 +99,6 @@ proxies:
   type: vless
   udp: true
   uuid: b945d332-319a-409a-bc04-f8d3c8c933dc
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇭🇰5 |  1.4MB/s
-  network: tcp
-  port: 24318
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0010
-  network: tcp
-  port: 41279
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
   name: 8|1|🇭🇰9 |  1.7MB/s
@@ -117,6 +143,20 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,13|RO_speednode_0089
+  password: '!!str 74260698218909400'
+  port: 443
+  server: 109.107.159.122
+  skip-cert-verify: true
+  sni: electric-mallard.shiner427.skin
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港3|@ripaojiedian
