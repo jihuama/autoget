@@ -16,7 +16,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🌀7-CN |  6.2MB/s
+  name: 3|🌀6-CN |  3.3MB/s
+  network: tcp
+  port: 28680
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🌀14-CN |  5.3MB/s
   network: tcp
   port: 62157
   reality-opts:
@@ -40,290 +52,436 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0001
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 33652
-  server: hk2.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0002
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 43681
-  server: jp1.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0003
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 43685
-  server: jp1.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0004
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 39781
-  server: hk1.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0005
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 33651
-  server: hk1.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0006
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 36795
-  server: hk1.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0007
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 36796
-  server: hk1.qsm1.xyz
-  type: ss
+  port: 9900
+  server: cghk.xxality.cn
+  servername: cghk.hysality.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
+  uuid: b945d332-319a-409a-bc04-f8d3c8c933dc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0008
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 39785
-  server: hk2.qsm1.xyz
-  type: ss
+  port: 9900
+  server: gzyd.cg.xxality.cn
+  servername: cghk.hysality.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0009
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 39786
-  server: hk1.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0010
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 39782
-  server: hk2.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0011
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 33706
-  server: hk2.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0012
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 55012
-  server: hongkong.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0013
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 36794
-  server: hk4.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0014
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 55001
-  server: hongkong.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0015
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 39783
-  server: hk3.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
+  uuid: b945d332-319a-409a-bc04-f8d3c8c933dc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0016
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 56008
-  server: gdgzcm-hkbase.cnix.asia
-  type: ss
+  port: 11555
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0017
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 43786
-  server: jp1.qsm1.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
   name: 13|CN_speednode_0018
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 12002
-  server: japan.cnix.asia
-  type: ss
+  network: ws
+  port: 30806
+  server: v6.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0019
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 12004
-  server: japan.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0020
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 16002
-  server: jscm-jp.cnix.asia
-  type: ss
+  port: 34313
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: gateway.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0021
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 33653
-  server: hk3.qsm1.xyz
-  type: ss
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0023
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0025
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 12001
-  server: japan.cnix.asia
-  type: ss
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0024
+  port: 23657
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0026
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 16001
-  server: jscm-jp.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0027
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 25003
-  server: gdcm-sg.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0028
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 25005
-  server: gdcm-sg.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0029
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 25011
-  server: singapore.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0030
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 25007
-  server: singapore.cnix.asia
-  type: ss
+  port: 21578
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0031
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 25009
-  server: singapore.cnix.asia
-  type: ss
+  port: 22734
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0032
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 33654
-  server: hk4.qsm1.xyz
-  type: ss
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0034
+  network: ws
+  port: 30835
+  server: v35.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0033
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 55005
-  server: hongkong.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0035
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 38793
-  server: hk3.qsm1.xyz
-  type: ss
+  port: 13989
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0036
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 13002
-  server: jscm-hkmax.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0037
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 13008
-  server: jscm-hkmax.cnix.asia
-  type: ss
+  port: 10860
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0038
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 13007
-  server: jscm-hkmax.cnix.asia
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0039
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 13003
-  server: jscm-hkmax.cnix.asia
-  type: ss
+  port: 64654
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0041
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 25004
-  server: gdcm-sg.cnix.asia
-  type: ss
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0040
+  port: 46372
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0042
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 13005
-  server: jscm-hkmax.cnix.asia
-  type: ss
+  port: 12477
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gy01.hunheiydd.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0043
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 13011
-  server: jscm-usa.cnix.asia
-  type: ss
+  port: 16497
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0044
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 13004
-  server: jscm-hkmax.cnix.asia
-  type: ss
+  port: 23301
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0045
+  port: 34313
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: 120.238.53.237
+  servername: gateway.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0046
-  password: 582e242b-752f-4ec9-a640-240ca98d5055
-  port: 36617
-  server: oz.qsm1.xyz
-  type: ss
+  port: 65428
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 13|CN_speednode_0047
-  password: 2b6f2ca8-421e-4a93-9a2a-b64cb6696fc5
-  port: 13001
-  server: jscm-hkmax.cnix.asia
+  port: 40072
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0065
+  network: ws
+  port: 22643
+  server: 119.188.66.248
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0050
+  port: 50200
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0052
+  port: 20216
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0053
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0058
+  port: 17889
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0060
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0063
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0066
+  port: 22216
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0067
+  port: 27932
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0068
+  port: 12597
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0072
+  port: 11839
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gy01.hunheiydd.xyz
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|CN_speednode_0073
+  port: 12831
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0078
+  network: ws
+  port: 30805
+  server: v5.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
