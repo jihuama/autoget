@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|RO_speednode_0089
-  password: '!!str 74260698218909400'
-  port: 443
-  server: 109.107.159.122
-  skip-cert-verify: true
-  sni: electric-mallard.shiner427.skin
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
   name: 3,8|1|🇯🇵10 |  6.1MB/s
   network: tcp
   port: 17233
@@ -28,13 +14,17 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 8|1|🇯🇵5 |  5.2MB/s
+  name: 3,8|1|🇯🇵5 |  5.2MB/s
   network: tcp
   port: 17233
   server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+  ws-headers:
+    Host: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 8|1|🇯🇵6 |  3.2MB/s
@@ -50,25 +40,25 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-eSGnD05gdd.download.microsoft.com
+    host: 202504031266665-c4zHT87iGG.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇯🇵 日本3|@ripaojiedian
-  password: N7BHIQ9OMXEZDUWU
-  port: 18005
-  server: 156.231.104.15
+  password: 2cb27b35-25da-458c-9545-dff29bf7b12d
+  port: 38726
+  server: gy.tangu.win
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇯🇵 日本特殊|@ripaojiedian
-  password: thisgou
-  port: 80
-  server: 18.183.101.244
+  password: amazonskr05
+  port: 443
+  server: 52.13.121.24
   tfo: false
   type: ss
