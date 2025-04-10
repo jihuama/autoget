@@ -5,21 +5,44 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: '0'
+- alterId: 64
   cipher: auto
-  name: 3|🇸🇬1 |  5.0MB/s
+  client-fingerprint: chrome
+  name: 3,11,13|CN_speednode_0004
+  password: 573ae74e-5eea-467a-abc1-fdc65b8aa4fa
+  port: 36609
+  server: 120.232.153.40
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- auth: abbdd5f5-8200-46f3-8b4f-573d7bc99a57
+  name: 3|🇸🇬2 |  1.0MB/s
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: abbdd5f5-8200-46f3-8b4f-573d7bc99a57
+  port: 20000
+  server: sg.ansuyun.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 3,8|1|🇸🇬1 |  5.0MB/s
   network: ws
   port: '80'
   server: fbf248.de15-5483-d16b.sbs
+  tls: false
   type: vmess
   uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
   ws-opts:
-    headers:
-      host: sg02s.de15-5483-d16b.sbs
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇸🇬5 |  2.1MB/s
+  name: 3,8|1|🇸🇬2 |  5.2MB/s
   network: ws
   port: 80
   server: fbf248.de15-5483-d16b.sbs
@@ -32,10 +55,22 @@ proxies:
     headers:
       Host: sg02s.de15-5483-d16b.sbs
     path: /
-- client-fingerprint: chrome
-  flow: none
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬5 |  3.6MB/s
+  network: tcp
+  port: 17231
+  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  ws-headers:
+    Host: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
+  ws-path: /
+- flow: none
   mode: ''
-  name: 3|🇸🇬4 |  5.4MB/s
+  name: 3|🇸🇬6 |  4.1MB/s
   network: ws
   port: 2096
   server: 141.193.213.21
@@ -48,32 +83,9 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: '%2F'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0023
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 8|1|🇸🇬3 |  3.9MB/s
-  network: tcp
-  port: 17231
-  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇸🇬4 |  3.1MB/s
+  name: 8|1|🇸🇬3 |  1.6MB/s
   network: tcp
   port: 17231
   server: 03d929ef-suk9s0-tcmdts-1mmu6.cm5.p5pv.com
@@ -98,7 +110,7 @@ proxies:
   server: 52.78.247.197
   tfo: false
   type: ss
-- name: 13|SG_speednode_0093
+- name: 13|SG_speednode_0045
   network: ws
   port: 443
   server: 152.42.218.33
