@@ -1,7 +1,33 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 0|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬1 |  4.4MB/s
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3,11|🇸🇬 新加坡|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 54.255.247.220
+  tfo: false
+  type: ss
 - flow: none
   mode: ''
-  name: 3|🇸🇬1 |  5.9MB/s
+  name: 3|🇸🇬3 |  4.2MB/s
   network: ws
   port: 2096
   server: 141.193.213.21
@@ -14,39 +40,47 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: '%2F'
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|CN_speednode_0004
+  port: 36609
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬2 |  4.9MB/s
+  name: 3,13|CN_speednode_0006
   network: tcp
-  port: 10778
+  port: 56127
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  name: 3|🇸🇬6 |  2.7MB/s
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  port: 9999
+  server: sg1.epclub.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 3|🇸🇬4 |  5.0MB/s
+  name: 8|0|🇸🇬4 |  5.0MB/s
   network: ws
   port: 80
-  raw:
-    add: fbf248.de15-5483-d16b.sbs
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: sg02s.de15-5483-d16b.sbs
-    id: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
-    net: ws
-    path: /
-    port: 80
-    ps: 🇺🇸 US_245
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
   server: fbf248.de15-5483-d16b.sbs
   servername: ''
   tls: false
@@ -56,35 +90,6 @@ proxies:
     headers:
       Host: sg02s.de15-5483-d16b.sbs
     path: /
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇸🇬4 |  5.2MB/s
-  network: ws
-  port: 80
-  server: fbf248.de15-5483-d16b.sbs
-  tls: false
-  type: vmess
-  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8|12|新加坡|@ripaojiedian
-  network: tcp
-  port: '3681'
-  server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 54.255.247.220
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡2|@ripaojiedian
