@@ -7,13 +7,33 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 8|2|🇸🇬5 |  2.7MB/s
+  name: 3|🇸🇬1 |  1.1MB/s
   network: tcp
   port: 17231
   server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  ws-headers:
+    Host: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
+  ws-path: /
+- client-fingerprint: chrome
+  flow: none
+  mode: ''
+  name: 3|🇸🇬3 |  3.3MB/s
+  network: ws
+  port: 2096
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: '%2F'
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡|@ripaojiedian
