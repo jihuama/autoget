@@ -1,7 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|🇨🇦2 |  2.4MB/s
+  name: 3|🇨🇦1 |  5.4MB/s
+  network: ws
+  port: 12897
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,8|2|🇨🇦2 |  2.4MB/s
   network: tcp
   port: 27699
   raw:
@@ -25,13 +39,3 @@ proxies:
   tls: false
   type: vmess
   uuid: c23b127b-af87-43bb-aa1e-ce42374a2b53
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇨🇦1 |  1.0MB/s
-  network: tcp
-  port: 58891
-  server: 91.194.11.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340

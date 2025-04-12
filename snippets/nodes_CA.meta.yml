@@ -1,20 +1,44 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇨🇦1 |  2.7MB/s
-  network: tcp
-  port: 26113
-  reality-opts:
-    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-    short-id: 1fbd20fd
-  server: 192.18.145.7
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
 - alterId: 0
   cipher: auto
-  name: 3|🇨🇦2 |  2.4MB/s
+  name: 3|🇨🇦1 |  5.4MB/s
+  network: ws
+  port: 12897
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CA_speednode_0003
+  network: tcp
+  port: 42557
+  reality-opts:
+    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+    short-id: f430927d
+  server: 155.248.219.28
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  name: 3|🇨🇦3 |  1.1MB/s
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 192.18.145.7
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 3,8|2|🇨🇦2 |  2.4MB/s
   network: tcp
   port: 27699
   raw:
@@ -38,27 +62,3 @@ proxies:
   tls: false
   type: vmess
   uuid: c23b127b-af87-43bb-aa1e-ce42374a2b53
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇨🇦1 |  1.0MB/s
-  network: tcp
-  port: 58891
-  server: 91.194.11.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|CA_speednode_0003
-  port: 42557
-  reality-opts:
-    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
-    short-id: f430927d
-  server: 155.248.219.28
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
