@@ -1,41 +1,7 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 3|🇭🇰1 |  5.8MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8101
-  protocol: origin
-  protocol-param: ''
-  server: cn01.closeai.one
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 3|🇭🇰2 |  6.2MB/s
-  network: ws
-  port: 12884
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- cipher: chacha20-ietf
-  name: 3|🇭🇰3 |  6.1MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8109
-  protocol: origin
-  protocol-param: ''
-  server: cn02.closeai.one
-  type: ssr
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰4 |  6.7MB/s
+  name: 3|🇭🇰1 |  6.1MB/s
   network: tcp
   port: 24318
   reality-opts:
@@ -47,24 +13,78 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰5 |  2.8MB/s
+  name: 3|🇭🇰2 |  3.2MB/s
   network: tcp
-  port: 40387
+  port: 35853
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
+  server: zhee01.dynu.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰6 |  2.6MB/s
+  name: 3,13|CN_speednode_0048
   network: tcp
-  port: 25135
+  port: 12597
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0014
+  network: tcp
+  port: 33782
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0024
+  network: tcp
+  port: 54220
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: zhee01.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇭🇰7 |  4.5MB/s
+  network: tcp
+  port: 41279
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇭🇰8 |  3.0MB/s
+  network: tcp
+  port: 40387
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
   servername: www.nvidia.com
   tls: true
   type: vless
@@ -83,23 +103,12 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf
-  name: 3|🇭🇰8 |  3.2MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8115
-  protocol: origin
-  protocol-param: ''
-  server: cn03.closeai.one
-  type: ssr
 - alterId: 0
   cipher: auto
-  name: 3|🇭🇰9 |  5.1MB/s
+  name: 8|2|🇭🇰2 |  6.2MB/s
   network: ws
-  port: 12890
+  port: 12884
   server: gtm1.ktmwan.net
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
@@ -109,23 +118,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8|2|🇭🇰2 |  1.3MB/s
-  network: tcp
-  port: 15228
-  server: c195c7ba-sum4g0-swnfyy-18y1l.cm.plebai.net
+  name: 8|2|🇭🇰9 |  5.1MB/s
+  network: ws
+  port: 12890
+  server: gtm1.ktmwan.net
   tls: false
   type: vmess
-  uuid: 96c5f18c-9390-11eb-86a4-f23c913c8d2b
-- alterId: 64
-  cipher: auto
-  name: 8,12|香港7|@ripaojiedian
-  network: tcp
-  port: '43121'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
