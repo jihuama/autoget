@@ -1,4 +1,18 @@
 proxies:
+- cipher: chacha20-ietf
+  name: 3|🇭🇰4 |  1.5MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 3|🇭🇰6 |  2.5MB/s
+  network: tcp
+  port: '46345'
+  server: 120.198.71.214
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 3,11|🇭🇰 香港1|@ripaojiedian
@@ -9,7 +23,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 3|🇭🇰8 |  2.2MB/s
+  name: 3,8|1|🇭🇰8 |  2.2MB/s
   network: ws
   port: 80
   raw:
@@ -37,15 +51,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇭🇰6 |  2.8MB/s
-  network: tcp
-  port: 34652
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

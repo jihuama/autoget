@@ -9,16 +9,31 @@ proxies:
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵2 |  5.0MB/s
+  name: 3,13|CN_speednode_0019
   network: tcp
-  port: 11839
+  port: 25768
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
+  server: bsuqian01.dynu.net
   servername: www.nvidia.com
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 3|🇯🇵3 |  3.0MB/s
+  network: tcp
+  port: 17233
+  server: f547c7cf-sunz40-t49lki-1ejce.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
+  ws-headers:
+    Host: f547c7cf-sunz40-t49lki-1ejce.cm5.p5pv.com
+  ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3,13|CN_speednode_0017
@@ -33,21 +48,20 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- delay: 1276
-  name: 3|🇯🇵4 |  5.1MB/s
-  network: ws
-  port: 2052
-  server: www.speedtest.net
-  servername: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
+- alterId: 0
+  cipher: auto
+  name: 3|🇯🇵6 |  2.5MB/s
+  network: tcp
+  port: 17233
+  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  skip-cert-verify: true
   tls: false
-  type: vless
-  udp: true
-  uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  ws-opts:
-    headers:
-      Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
-    path: /?ed=1080
-- name: 3|🇯🇵5 |  5.2MB/s
+  type: vmess
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  ws-headers:
+    Host: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  ws-path: /
+- name: 3|🇯🇵7 |  6.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -58,77 +72,95 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵6 |  6.0MB/s
+  name: 3|🇯🇵9 |  5.7MB/s
+  network: tcp
+  port: 14548
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵10 |  6.0MB/s
+  network: tcp
+  port: 48121
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵11 |  1.1MB/s
+  network: tcp
+  port: 17278
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵12 |  5.2MB/s
   network: tcp
   port: 10635
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
+  server: gysz0000.dynu.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 3,8|2|🇯🇵4 |  1.5MB/s
+  name: 3|🇯🇵13 |  5.7MB/s
+  network: tcp
+  port: 17233
+  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
+  ws-headers:
+    Host: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 3,8|1|🇯🇵8 |  4.2MB/s
   network: tcp
   port: '17233'
   server: d7481a66-sunz40-taklwz-12bd.cm5.p5pv.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
+  ws-headers:
+    Host: d7481a66-sunz40-taklwz-12bd.cm5.p5pv.com
+  ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵9 |  3.6MB/s
+  name: 3,13|CN_speednode_0010
   network: tcp
-  port: 16497
+  port: 31735
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
+  server: bsuqian01.dynu.net
   servername: www.nvidia.com
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 8|2|🇯🇵2 |  1.8MB/s
-  network: tcp
-  port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇯🇵3 |  2.0MB/s
-  network: tcp
-  port: '27750'
-  server: 5.253.41.147
-  tls: false
-  type: vmess
-  uuid: 4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇯🇵5 |  2.5MB/s
-  network: tcp
-  port: 17233
-  server: aa715e82-sunz40-t1tfcf-1o3sh.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 96b3f2ee-5f66-11ee-804b-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇯🇵6 |  1.4MB/s
-  network: tcp
-  port: 17233
-  server: 9cb8b51d-sunz40-svabg7-1td06.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇯🇵7 |  1.6MB/s
+  name: 8|1|🇯🇵7 |  5.5MB/s
   network: tcp
   port: 17233
   server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
