@@ -1,103 +1,5 @@
 proxies:
-- name: 3|🇨🇦1 |  4.6MB/s
-  network: ws
-  port: 8443
-  server: 130.61.51.100
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- name: 3|🇨🇦2 |  2.4MB/s
-  network: ws
-  port: 443
-  server: 63.141.128.96
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- name: 3|🇨🇦3 |  5.8MB/s
-  network: ws
-  port: 443
-  server: iplocation.io
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- name: 3|🇨🇦4 |  2.6MB/s
-  network: ws
-  port: 443
-  server: 217.163.76.97
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- name: 3|🇨🇦5 |  4.4MB/s
-  network: ws
-  port: 443
-  server: time.is
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- name: 3|🇨🇦6 |  1.0MB/s
-  network: ws
-  port: 443
-  server: 212.183.88.132
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- name: 3|🇨🇦7 |  4.2MB/s
-  network: ws
-  port: 443
-  server: 140.238.158.238
-  servername: vn.dong2025.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vn.dong2025.cfd
-    path: /?ed=2560
-- name: 3|🇨🇦8 |  3.0MB/s
+- name: 3|🇨🇦1 |  3.3MB/s
   network: ws
   port: 443
   server: 185.133.35.242
@@ -109,31 +11,8 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vn.dong2025.cfd
+      Host: vn.dong2025.cfd
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇨🇦1 |  5.4MB/s
-  network: ws
-  port: 12897
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇨🇦4 |  5.0MB/s
-  network: tcp
-  port: 27699
-  server: 91.194.11.118
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c23b127b-af87-43bb-aa1e-ce42374a2b53
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 13|CA_speednode_0003

@@ -189,205 +189,69 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- auth: 2213c15d-8d6d-4e4f-986b-ddd59eedc45a
-  name: 3|🇺🇸1 |  4.6MB/s
-  password: 2213c15d-8d6d-4e4f-986b-ddd59eedc45a
-  port: 52171
-  server: 107.172.190.228
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 3|🇺🇸1 |  3.7MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  name: 3|🇺🇸2 |  3.3MB/s
+  password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+  port: 47262
+  server: 164.152.19.229
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- auth: baf74b30
-  name: 3|🇺🇸2 |  5.1MB/s
-  password: baf74b30
-  port: 37832
-  server: 104.168.22.226
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0053
-  network: tcp
-  port: 50452
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
+- auth: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  client-fingerprint: chrome
+  name: 3|🇺🇸3 |  5.2MB/s
+  password: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  port: 8443
+  server: cdb71208-suk9s0-sv6oiy-1p1b.hy2.gotochinatown.net
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- fast-open: true
-  name: 3|🇺🇸4 |  5.1MB/s
-  password: dongtaiwang.com
-  port: 15544
-  server: 108.181.5.133
-  skip-cert-verify: true
-  sni: apple.com
-  tls: true
+  sni: cdb71208-suk9s0-sv6oiy-1p1b.hy2.gotochinatown.net
   type: hysteria2
-  udp: true
-- client-fingerprint: ''
-  flow: ''
-  grpc-opts:
-    grpc-service-name: 2055vless
-  mode: ''
-  name: 3|🇺🇸5 |  2.5MB/s
-  network: grpc
-  port: 6067
-  server: 159.89.216.103
+- alterId: 0
+  cipher: auto
+  name: 3,8,12|美国2|@ripaojiedian
+  network: tcp
+  port: '5229'
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
   servername: ''
   tls: false
-  type: vless
-  udp: false
-  uuid: 0ac50e14-b3a2-4a7d-b881-61d5178e56e1
-- auth: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-  name: 3|🇺🇸6 |  5.0MB/s
-  password: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-  port: 8443
-  server: d446948b-sunz40-svabg7-1td06.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: d446948b-sunz40-svabg7-1td06.hy2.gotochinatown.net
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 3,8|2|🇺🇸26 |  5.4MB/s
-  network: tcp
-  port: 5229
-  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
   type: vmess
-  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
-  ws-headers:
-    Host: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
-  ws-path: /
-- auth: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  name: 3|🇺🇸8 |  1.7MB/s
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  port: 8443
-  server: 74f0ee85-suk9s0-swtza9-1q91p.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 74f0ee85-suk9s0-swtza9-1q91p.hy2.gotochinatown.net
-  type: hysteria2
-- auth: 40639730-e027-11ea-87ad-f23c913c8d2b
-  name: 3|🇺🇸9 |  4.8MB/s
-  password: 40639730-e027-11ea-87ad-f23c913c8d2b
-  port: 8443
-  server: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸10 |  3.4MB/s
-  network: tcp
-  port: 443
-  server: 51.81.37.15
-  servername: 147135004002.sec20org.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0040
-  network: tcp
-  port: 50200
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.amazon.com
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 3|🇺🇸5 |  5.0MB/s
+  port: 11512
+  server: 108.181.24.77
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: apple.com
+  type: hysteria
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: -udp443
-  mode: ''
-  name: 3|🇺🇸13 |  3.7MB/s
-  network: ''
-  port: 443
-  server: 135.148.182.1
-  servername: 147135001195.sec22org.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- client-fingerprint: chrome
-  name: 3|🇺🇸14 |  3.4MB/s
-  network: tcp
-  port: 443
-  server: 135.148.195.57
-  servername: 147135001195.sec22org.com
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ea286109-d20f-415e-849e-4af20ab04b65
-- name: 3|🇺🇸15 |  2.0MB/s
-  network: ws
-  password: 12bb340e-291c-406a-8402-c43f37fa201d
-  port: 443
-  server: oxui.supercopilot.top
+  up: 1000 Mbps
+- auth: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
+  client-fingerprint: chrome
+  name: 3|🇺🇸6 |  5.1MB/s
+  password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
+  port: 8443
+  server: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
   skip-cert-verify: false
-  type: trojan
-  ws-opts:
-    path: /12bb340e-291c-406a-8402-c43f37fa201d
+  sni: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
+  type: hysteria2
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇺🇸16 |  1.3MB/s
-  network: ws
-  port: 2083
-  server: 104.26.9.63
-  servername: test.bujidao.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 1ccc1dd8-d8ed-4b69-b0c2-27f6282f9755
-  ws-opts:
-    headers:
-      Host: test.bujidao.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸17 |  1.6MB/s
-  network: ws
-  port: 8083
-  server: dd26bf3b-sunz40-tavn57-1mtqy.se.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e27137c8-5952-11ef-aa23-f23c9164ca5d
-  ws-headers:
-    Host: dd26bf3b-sunz40-tavn57-1mtqy.se.plebai.net
-  ws-path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3,13|GB_speednode_0056
-  network: ws
-  port: 8880
-  server: 31.22.116.154
-  servername: redfree8.pooriashop.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8.pooriashop.ir
-    path: /Telegram@V2ray_Alpha
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸19 |  1.3MB/s
+  name: 3|🇺🇸7 |  3.6MB/s
   network: ws
   port: 443
   server: 199.34.228.178
@@ -400,26 +264,10 @@ proxies:
     headers:
       Host: 3u.2031.pp.ua
     path: /qF5dXhCllosLcFpqdDoAgkondVWl
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸20 |  1.3MB/s
-  network: ws
-  port: 443
-  server: 104.22.59.100
-  servername: 2576.papala.filegear-sg.me
-  tls: true
-  type: vless
-  udp: false
-  uuid: e1d98310-db5a-4279-bbf7-760902b4af0b
-  ws-opts:
-    headers:
-      Host: 2576.papala.filegear-sg.me
-    path: /?ed=2560
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 3|🇺🇸21 |  1.4MB/s
+  name: 3|🇺🇸9 |  5.4MB/s
   network: ws
   port: 443
   server: 173.245.58.100
@@ -435,107 +283,139 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 3|🇺🇸22 |  1.0MB/s
-  network: ws
-  port: 443
-  server: 172.66.47.92
-  servername: Work-YUU00.pageS.dEv
-  tls: true
-  type: vless
-  udp: false
-  uuid: 49d4b99d-7d99-416a-9778-2c75d79100bb
-  ws-opts:
-    headers:
-      Host: work-yuu00.pages.dev
-    path: ''
-- name: 3|🇺🇸23 |  2.7MB/s
+  name: 3|🇺🇸10 |  1.5MB/s
   network: tcp
   port: 443
-  server: 15.204.150.39
+  server: 15.204.191.46
   servername: 147135001178.sec22org.com
   tls: true
   type: vless
+  udp: false
   uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸24 |  3.1MB/s
-  network: tcp
-  port: 21578
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
+- fast-open: true
+  name: 3|🇺🇸11 |  3.9MB/s
+  password: dongtaiwang.com
+  port: 15544
+  server: 108.181.5.133
+  skip-cert-verify: true
+  sni: apple.com
   tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  name: 3|🇺🇸25 |  2.0MB/s
-  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-  port: 8443
-  server: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
   type: hysteria2
-- auth: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
-  name: 3|🇺🇸27 |  3.5MB/s
-  password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
-  port: 8443
-  server: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
-  type: hysteria2
-- name: 3|🇺🇸29 |  2.7MB/s
-  network: tcp
+  udp: true
+- client-fingerprint: ''
+  flow: -udp443
+  mode: ''
+  name: 3|🇺🇸12 |  1.0MB/s
+  network: ''
   port: 443
-  server: 135.148.237.61
+  server: 15.204.184.159
   servername: 147135011033.sec21org.com
   tls: true
   type: vless
+  udp: false
   uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-- client-fingerprint: chrome
-  flow: ''
-  grpc-opts:
-    grpc-service-name: HlAPZV9g9xmyAVVV002zYFTmiIeg
+- auth: be8ba532-0dcf-11f0-9a65-f23c9164ca5d
+  name: 3|🇺🇸13 |  4.9MB/s
+  password: be8ba532-0dcf-11f0-9a65-f23c9164ca5d
+  port: 8443
+  server: 8b21ebfd-suif40-tcvn0z-1tlyg.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 8b21ebfd-suif40-tcvn0z-1tlyg.hy2.gotochinatown.net
+  type: hysteria2
+- auth: 40639730-e027-11ea-87ad-f23c913c8d2b
+  client-fingerprint: chrome
+  name: 3|🇺🇸14 |  4.9MB/s
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  port: 8443
+  server: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
+  type: hysteria2
+- client-fingerprint: ''
+  flow: -udp443
   mode: ''
-  name: 3|🇺🇸30 |  1.2MB/s
-  network: grpc
+  name: 3|🇺🇸15 |  4.6MB/s
+  network: ''
   port: 443
-  server: 192.3.130.103
-  servername: us10-03zl.huangshang.filegear-sg.me
+  server: 135.148.182.1
+  servername: 147135001195.sec22org.com
   tls: true
   type: vless
   udp: false
-  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇺🇸31 |  5.4MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸32 |  3.2MB/s
+  uuid: ea286109-d20f-415e-849e-4af20ab04b65
+- name: 3|🇺🇸16 |  5.4MB/s
   network: ws
-  port: 2052
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f6c96581-cad4-5749-b02d-742cd0870c44
+  password: aTArbZ2F0E
+  port: 443
+  server: 172.66.168.209
+  sni: uSa-vp-27.bLAzECLOUD.SITE
+  type: trojan
   ws-opts:
     headers:
-      Host: sPeedtest2.sbs.za.v2vless.sitespeedtest.net
-    path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+      Host: uSa-vp-27.bLAzECLOUD.SITE
+    path: /linkvkws
+- alterId: 0
+  cipher: auto
+  name: 3|🇺🇸17 |  2.7MB/s
+  network: tcp
+  port: 5228
+  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+  ws-headers:
+    Host: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3|🇺🇸19 |  1.7MB/s
+  network: ws
+  port: 30829
+  server: v29.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - client-fingerprint: chrome
-  name: 3|🇺🇸33 |  5.0MB/s
+  flow: -udp443-udp443
+  mode: ''
+  name: 3|🇺🇸20 |  2.2MB/s
+  network: ''
+  port: 443
+  server: 135.148.163.90
+  servername: 147135001178.sec22org.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+- auth: 2213c15d-8d6d-4e4f-986b-ddd59eedc45a
+  name: 3|🇺🇸21 |  3.8MB/s
+  password: 2213c15d-8d6d-4e4f-986b-ddd59eedc45a
+  port: 52171
+  server: 107.172.190.228
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 3,8|1|🇺🇸12 |  3.5MB/s
+  network: tcp
+  port: 5229
+  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
+  ws-headers:
+    Host: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
+  ws-path: /
+- client-fingerprint: chrome
+  name: 3|🇺🇸25 |  1.2MB/s
   network: ws
   port: 443
   server: ns1.cloudflare.com
@@ -550,179 +430,57 @@ proxies:
     headers:
       Host: cr7.medicaldream.ir
     path: /?ed=2550?/
-- client-fingerprint: ''
-  flow: -udp443-udp443
-  mode: ''
-  name: 3|🇺🇸34 |  2.2MB/s
-  network: ''
-  port: 443
-  server: 15.204.153.29
-  servername: 147135004002.sec20org.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-- auth: be8ba532-0dcf-11f0-9a65-f23c9164ca5d
-  name: 3|🇺🇸35 |  5.1MB/s
-  password: be8ba532-0dcf-11f0-9a65-f23c9164ca5d
-  port: 8443
-  server: 8b21ebfd-suif40-tcvn0z-1tlyg.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 8b21ebfd-suif40-tcvn0z-1tlyg.hy2.gotochinatown.net
-  type: hysteria2
-- name: 3|🇺🇸36 |  3.8MB/s
+- name: 3|🇺🇸27 |  1.6MB/s
   network: tcp
   port: 443
-  server: 15.204.145.23
-  servername: 147135001178.sec22org.com
+  server: 135.148.237.61
+  servername: 147135011033.sec21org.com
   tls: true
   type: vless
-  uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+  uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+- auth: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  client-fingerprint: chrome
+  name: 3|🇺🇸28 |  5.3MB/s
+  password: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  port: 8443
+  server: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇺🇸37 |  5.7MB/s
+  name: 3,13|US_speednode_0089
   network: tcp
-  port: 23295
+  port: 30158
   reality-opts:
-    public-key: hdXgEyTgfYa0tSA982Ao7bTrefhyj1e3evCBhoAJdG0
-    short-id: f5108ea6
-  server: bwgdc1.aloofly.eu
-  servername: www.amd.com
+    public-key: n7Ptb-3f4pw0D-hG-UP8Dp5Gf8J8Uxn029JMwdTyEFc
+    short-id: ee9e2505
+  server: 164.152.19.229
+  servername: www.yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: d29abcc8-889f-40d4-89c7-bb023ec31a61
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇺🇸38 |  5.8MB/s
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  servername: maxnETvIp-UsA-vP1.mAxNeTcLOudseRvICE.COM
-  tls: true
-  type: vless
-  udp: false
-  uuid: 81bd91b5-b0fd-4f16-a471-d11d04ec715b
-  ws-opts:
-    headers:
-      Host: maxnETvIp-UsA-vP1.mAxNeTcLOudseRvICE.COM
-    path: /linkws?ed=2560
+  udp: true
+  uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
 - alterId: 0
   cipher: auto
-  name: 8|2|🇺🇸3 |  1.4MB/s
-  network: tcp
-  port: 27773
-  server: 5.180.30.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b2347239-dd15-40b3-b683-50cc2ff19ae7
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸5 |  1.3MB/s
+  name: 8|1|🇺🇸17 |  1.6MB/s
   network: ws
   port: 8083
-  server: dcd6b19c-sunz40-t78iw5-e7db.se.plebai.net
+  server: dd26bf3b-sunz40-tavn57-1mtqy.se.plebai.net
   tls: false
   type: vmess
-  uuid: 213e222c-8e0f-11ef-8dc4-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    host:
-    - txui.supercopilot.top
-    path: /ecd7820d-941f-47ba-b821-aa33e77d1a4f
-  name: 8|2|🇺🇸15 |  1.8MB/s
-  network: h2
-  port: 443
-  server: txui.supercopilot.top
-  tls: true
-  type: vmess
-  uuid: ecd7820d-941f-47ba-b821-aa33e77d1a4f
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸23 |  1.4MB/s
-  network: ws
-  port: 8083
-  server: 8cf5cc50-sunz40-sumf02-155d9.se.plebai.net
-  tls: false
-  type: vmess
-  uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
+  uuid: e27137c8-5952-11ef-aa23-f23c9164ca5d
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 8,12|美国2|@ripaojiedian
-  network: tcp
-  port: '5229'
-  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸44 |  2.6MB/s
+  name: 8|1|🇺🇸28 |  5.8MB/s
   network: tcp
   port: 5229
   server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
   tls: false
   type: vmess
   uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸46 |  5.2MB/s
-  network: ws
-  port: 8083
-  server: 2ebc590b-suvds0-sv5llu-1ldl3.se.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸50 |  1.2MB/s
-  network: ws
-  port: 8083
-  server: 2b72f3b0-sunz40-suqjqq-1pr35.se.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  ws-opts:
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸54 |  5.4MB/s
-  network: ws
-  port: 12885
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇺🇸63 |  5.1MB/s
-  network: ws
-  port: 443
-  server: usa-sanjose-one.890614.filegear-sg.me
-  servername: usa-sanjose-one.890614.filegear-sg.me
-  tls: true
-  type: vmess
-  uuid: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
-  ws-opts:
-    headers:
-      Host: usa-sanjose-one.890614.filegear-sg.me
-    path: /YfB29GXf4cThJQeJb
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -880,20 +638,6 @@ proxies:
     headers:
       Host: epccr.ambercc.filegear-sg.me
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|US_speednode_0089
-  port: 30158
-  reality-opts:
-    public-key: n7Ptb-3f4pw0D-hG-UP8Dp5Gf8J8Uxn029JMwdTyEFc
-    short-id: ee9e2505
-  server: 164.152.19.229
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
 - name: 13|US_speednode_0090
   network: ws
   port: 2083
