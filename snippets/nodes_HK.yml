@@ -1,18 +1,45 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 8|1|🇭🇰8 |  2.2MB/s
+  name: 3|🇭🇰9 |  1.4MB/s
   network: ws
-  port: 80
-  server: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com
+  port: 23010
+  raw:
+    add: 212.192.12.154
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 0bcdb99f-50eb-48f7-afb3-66992607c652
+    net: ws
+    path: /
+    port: '23010'
+    ps: 🇭🇰 --001-1C
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 212.192.12.154
   servername: ''
   tls: false
   type: vmess
-  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  uuid: 0bcdb99f-50eb-48f7-afb3-66992607c652
   ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰10 |  2.0MB/s
+  network: tcp
+  port: 34652
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -30,6 +57,22 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,11|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 46003
+  server: cloudgd.coemn.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: cloudgd.coemn.com
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 8,12|香港7|@ripaojiedian
@@ -40,6 +83,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 8,12|香港5|@ripaojiedian
+  network: ws
+  port: '46003'
+  server: cloudgd.coemn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港|@ripaojiedian
@@ -64,22 +121,6 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 46003
-  server: cloudgd.coemn.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: cloudgd.coemn.com
-    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港6|@ripaojiedian
@@ -96,17 +137,3 @@ proxies:
   server: gdyd.aicheetah.lol
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|香港5|@ripaojiedian
-  network: ws
-  port: '46003'
-  server: cloudgd.coemn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn

@@ -1,7 +1,15 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3,11|🇯🇵 日本2|@ripaojiedian
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 27534
+  server: gdlt.aicheetah.lol
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 3,11|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -9,42 +17,6 @@ proxies:
     mode: http
   port: 8765
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇯🇵7 |  5.5MB/s
-  network: tcp
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇯🇵8 |  4.2MB/s
-  network: tcp
-  port: '17233'
-  server: d7481a66-sunz40-taklwz-12bd.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 8|12|日本|@ripaojiedian
-  network: tcp
-  port: '22253'
-  server: hn3x.newbee8.me
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1824af53-6021-4866-a6f9-1bad166dc2c2
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
-  password: d192a833-b118-4b46-8e54-12cf5025d4cd
-  port: 27534
-  server: gdlt.aicheetah.lol
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
