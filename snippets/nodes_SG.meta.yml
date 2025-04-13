@@ -5,28 +5,13 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- flow: none
-  mode: ''
-  name: 3|🇸🇬1 |  5.6MB/s
-  network: ws
-  port: 2096
-  server: 141.193.213.21
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  udp: false
-  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: '%2F'
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇸🇬2 |  5.6MB/s
+  name: 3|🇸🇬1 |  1.3MB/s
   network: ws
   port: 2096
-  server: 162.120.94.90
+  server: 199.34.228.171
   servername: premium.vkehi.shop
   tls: true
   type: vless
@@ -36,25 +21,35 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: /
-- flow: ''
-  mode: ''
-  name: 3|🇸🇬3 |  5.8MB/s
+- client-fingerprint: chrome
+  name: 3,13|US_speednode_0067
   network: ws
-  port: 2096
-  server: 141.193.213.20
-  servername: premium.vkehi.shop
-  tls: true
+  port: 80
+  server: 170.114.45.6
+  servername: free.pranithsandaruwan.shop
+  skip-cert-verify: true
+  tls: false
   type: vless
-  udp: false
-  uuid: eb50d091-51ed-4f89-bc4e-8b04320585d7
+  udp: true
+  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
   ws-opts:
     headers:
-      Host: premium.vkehi.shop
+      Host: free.pranithsandaruwan.shop
     path: /
+- auth: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  name: 3|🇸🇬3 |  1.2MB/s
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 00a41b90-d694-406b-9b4b-392fe2c52cf1
+  port: 9999
+  server: sg1.epclub.xyz
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇸🇬4 |  5.0MB/s
+  name: 3|🇸🇬5 |  5.7MB/s
   network: ws
   port: 2096
   server: 152.70.155.147
