@@ -1,10 +1,18 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 3|🇹🇼4 |  5.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
+- allowInsecure: ''
+  name: 3|🇹🇼3 |  1.5MB/s
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 154.211.8.84
+  skip-cert-verify: false
+  sni: epccr.ambercc.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epccr.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇹🇼 台湾2|@ripaojiedian
