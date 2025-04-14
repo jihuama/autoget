@@ -1,54 +1,16 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵1 |  1.4MB/s
+  name: 3|🇯🇵1 |  6.1MB/s
   network: tcp
-  port: 48121
+  port: 10635
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
+  server: shenzhou05.mysynology.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇯🇵2 |  6.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: random
-  name: 3|🇯🇵3 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 104.16.209.110
-  servername: masaleini.mahsaamini.dpdns.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 10d9df89-9a20-4110-9711-bca119490ee9
-  ws-opts:
-    headers:
-      Host: masaleini.mahsaamini.dpdns.org
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|CN_speednode_0023
-  password: 7655935d-51f8-301f-8e5f-17d3e232bf28
-  port: 17234
-  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
-  skip-cert-verify: false
-  sni: z278.hongkongnode.top
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3,13|CN_speednode_0016
@@ -65,25 +27,13 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵6 |  5.1MB/s
+  name: 3|🇯🇵3 |  1.3MB/s
   network: tcp
   port: 11839
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: gysz0000.dynu.net
   servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵7 |  1.2MB/s
-  network: tcp
-  port: 17278
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
@@ -103,16 +53,49 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵9 |  1.2MB/s
+  name: 3|🇯🇵5 |  5.9MB/s
   network: tcp
-  port: 14548
+  port: 48121
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
+  server: beiyong.dynuddns.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵6 |  6.2MB/s
+  network: tcp
+  port: 17278
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵7 |  6.0MB/s
+  network: tcp
+  port: 10635
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇯🇵4 |  3.1MB/s
+  network: tcp
+  port: 17233
+  server: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
