@@ -1,18 +1,14 @@
 proxies:
-- allowInsecure: ''
-  name: 3|🇹🇼3 |  1.5MB/s
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 154.211.8.84
-  skip-cert-verify: false
-  sni: epccr.ambercc.filegear-sg.me
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epccr.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: chacha20-ietf
+  name: 3|🇹🇼2 |  4.8MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8301
+  protocol: origin
+  protocol-param: ''
+  server: cn10.closeai.one
+  type: ssr
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇹🇼 台湾2|@ripaojiedian
