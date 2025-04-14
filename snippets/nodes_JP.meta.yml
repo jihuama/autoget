@@ -1,39 +1,19 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 3|🇯🇵1 |  6.2MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8409
-  protocol: origin
-  protocol-param: ''
-  server: cn13.closeai.one
-  type: ssr
-- cipher: chacha20-ietf
-  name: 3|🇯🇵2 |  2.4MB/s
-  obfs: http_simple
-  obfs-param: 20581-passw0rd.download.microsoft.com
-  password: passwd
-  port: 8413
-  protocol: origin
-  protocol-param: ''
-  server: cn14.closeai.one
-  type: ssr
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵3 |  1.2MB/s
+  name: 3|🇯🇵1 |  6.3MB/s
   network: tcp
-  port: 10635
+  port: 11839
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
+  server: gysz0000.dynu.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵4 |  6.0MB/s
+  name: 3|🇯🇵2 |  5.4MB/s
   network: tcp
   port: 16497
   reality-opts:
@@ -45,53 +25,37 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵5 |  2.2MB/s
+  name: 3|🇯🇵4 |  5.4MB/s
   network: tcp
-  port: 10635
+  port: 17278
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0016
-  network: tcp
-  port: 25768
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf
-  name: 3|🇯🇵9 |  3.6MB/s
+  name: 3|🇯🇵6 |  6.1MB/s
   obfs: http_simple
   obfs-param: 20581-passw0rd.download.microsoft.com
   password: passwd
-  port: 8407
+  port: 8409
   protocol: origin
   protocol-param: ''
-  server: cn12.closeai.one
+  server: cn13.closeai.one
   type: ssr
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵10 |  6.4MB/s
-  network: tcp
-  port: 11839
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇯🇵11 |  1.5MB/s
+- cipher: chacha20-ietf
+  name: 3|🇯🇵7 |  5.6MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8413
+  protocol: origin
+  protocol-param: ''
+  server: cn14.closeai.one
+  type: ssr
+- name: 3|🇯🇵8 |  6.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -100,38 +64,14 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵12 |  2.7MB/s
-  network: tcp
-  port: 14548
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵13 |  6.1MB/s
-  network: tcp
-  port: 48121
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇯🇵14 |  4.1MB/s
+  name: 3|🇯🇵9 |  4.2MB/s
   network: ws
   port: 80
-  server: 45.131.210.186
-  servername: redfree8.pooriashop.ir
+  server: 45.131.4.147
+  servername: ''
   tls: false
   type: vless
   udp: false
@@ -139,14 +79,24 @@ proxies:
   ws-opts:
     headers:
       Host: redfree8.pooriashop.ir
-    path: Telegram@WangCai2/?ed
+    path: ''
+- cipher: chacha20-ietf
+  name: 3|🇯🇵10 |  7.5MB/s
+  obfs: http_simple
+  obfs-param: 20581-passw0rd.download.microsoft.com
+  password: passwd
+  port: 8407
+  protocol: origin
+  protocol-param: ''
+  server: cn12.closeai.one
+  type: ssr
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504140137024-Zlzv0ZMcwk.download.microsoft.com
+    host: 202504140137024-VdwANYqU5v.download.microsoft.com
     mode: http
   port: 8765
   server: cn01.efan8867801.xyz
