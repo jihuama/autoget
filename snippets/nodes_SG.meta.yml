@@ -5,22 +5,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇸🇬1 |  4.1MB/s
-  network: ws
-  port: 2095
-  server: 104.21.7.193
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f3562b04-2f2b-433a-80b4-45f60d659004
-  ws-opts:
-    headers:
-      Host: 925tg.3gnc3sjz.workers.dev
-    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3,13|CN_speednode_0011
@@ -35,19 +19,24 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: 00a41b90-d694-406b-9b4b-392fe2c52cf1
-  name: 3|🇸🇬3 |  1.1MB/s
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 00a41b90-d694-406b-9b4b-392fe2c52cf1
-  port: 9999
-  server: sg1.epclub.xyz
+- client-fingerprint: chrome
+  delay: 2679
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0013
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 8,12|新加坡|@ripaojiedian
+  name: 3,8,12|新加坡|@ripaojiedian
   network: tcp
   port: '23910'
   server: hzz9.fgmcx.top
@@ -55,6 +44,12 @@ proxies:
   tls: false
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇸🇬4 |  6.0MB/s
+  password: wUIFQcMM2K2VYdVz8GKyeE
+  port: 443
+  server: 13.212.90.20
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇸🇬 新加坡2|@ripaojiedian
