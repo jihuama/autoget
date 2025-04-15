@@ -1,29 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|CN_speednode_0023
-  password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93
-  port: 17234
-  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
-- alterId: '0'
-  cipher: auto
-  name: 3|🇫🇷2 |  2.2MB/s
+  name: 3,8|1|🇫🇷2 |  2.2MB/s
   network: tcp
   port: '17235'
   server: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+  ws-headers:
+    Host: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 3,8|0|🇫🇷2 |  1.5MB/s
+  name: 3,8|1|🇫🇷4 |  2.4MB/s
   network: tcp
   port: 17235
   server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
@@ -34,6 +25,15 @@ proxies:
   ws-headers:
     Host: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇫🇷1 |  2.1MB/s
+  network: tcp
+  port: 17235
+  server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇫🇷 法国|@ripaojiedian
