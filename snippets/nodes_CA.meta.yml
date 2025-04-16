@@ -1,46 +1,19 @@
 proxies:
-- name: 3|🇨🇦1 |  4.1MB/s
-  network: ws
-  port: 443
-  server: 192.0.54.174
-  servername: vc.ylka.dpdns.org
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 3|🇨🇦1 |  3.1MB/s
+  network: tcp
+  port: 26113
+  reality-opts:
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
+  server: 132.145.108.102
+  servername: www.yahoo.com
   tls: true
   type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vc.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦2 |  5.3MB/s
-  network: ws
-  port: 443
-  server: time.is
-  servername: vc.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vc.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦3 |  5.5MB/s
-  network: ws
-  port: 443
-  server: decker.ns.cloudflare.com
-  servername: vc.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vc.ylka.dpdns.org
-    path: /?ed=2560
+  udp: false
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 13|CA_speednode_0001
