@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
 - alterId: 64
   cipher: auto
   name: '1,14|🇨🇳_CN_中国 #1'
@@ -28,3 +22,25 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: aes-256-gcm
+  name: 13|CN_speednode_0006
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0026
+  network: ws
+  port: 30835
+  server: v35.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
