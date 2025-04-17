@@ -1,12 +1,17 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3,11|🇹🇼 台湾|@ripaojiedian
-  password: OP8PXXDOW0GFSBO2
-  port: 21005
-  server: 150.116.11.9
-  tfo: false
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 8|1|🇹🇼2 |  2.3MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: d0d003b8-ad44-37a7-82bf-ad911a23b4df
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -37,3 +42,11 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇹🇼 台湾|@ripaojiedian
+  password: OP8PXXDOW0GFSBO2
+  port: 21005
+  server: 150.116.11.9
+  tfo: false
+  type: ss
