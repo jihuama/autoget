@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼1 |  5.7MB/s
+  name: 3|🇹🇼1 |  5.6MB/s
   network: tcp
   port: 12477
   reality-opts:
@@ -13,24 +13,12 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼2 |  2.7MB/s
+  name: 3|🇹🇼2 |  1.5MB/s
   network: tcp
-  port: 15700
+  port: 37809
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇹🇼3 |  6.3MB/s
-  network: tcp
-  port: 15823
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
+  server: shenzhou05.mysynology.net
   servername: www.yahoo.com
   tls: true
   type: vless
@@ -43,6 +31,32 @@ proxies:
   server: 150.116.11.9
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0006
+  network: tcp
+  port: 47531
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇹🇼5 |  6.1MB/s
+  network: tcp
+  port: 15823
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
