@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,8,12|香港6|@ripaojiedian
+  name: 3,8|2,13|香港6|@ripaojiedian
   network: tcp
   port: '15229'
   server: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net
@@ -41,13 +41,10 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11|🇭🇰 香港5|@ripaojiedian
+  name: 8|12|🇭🇰 香港5|@ripaojiedian
   network: ws
   port: 46003
   server: cloudgd.coemn.com
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
@@ -67,7 +64,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 8,12|香港5|@ripaojiedian
+  name: 8|13|香港5|@ripaojiedian
   network: ws
   port: '46003'
   server: cloudgd.coemn.com
@@ -103,11 +100,30 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港6|@ripaojiedian
-  password: cdc48a7a-b618-45af-a831-5afbd686b02f
-  port: 12202
-  server: gg21.hangfengjiasu.com
+  name: 11,12|香港6|@ripaojiedian
+  network: ws
+  port: '16892'
+  server: xb-vm-hk.718181.xyz
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 2426b3d5-f377-44ca-a1d2-c527ef52c67f
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|香港5|@ripaojiedian
+  network: tcp
+  port: '41291'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
