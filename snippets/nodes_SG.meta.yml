@@ -7,6 +7,23 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 3,8,11,12|新加坡|@ripaojiedian
+  network: ws
+  port: '12901'
+  server: gtm1.ktmwan.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0320bad3-41dd-4069-a91f-d58c5370df22
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: 3,8,12|新加坡2|@ripaojiedian
   network: tcp
   port: '17231'
@@ -19,21 +36,36 @@ proxies:
   ws-headers:
     Host: 0496335c-sux8g0-swbudg-1mzwj.cm5.p5pv.com
   ws-path: /
-- client-fingerprint: chrome
-  delay: 1241
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0021
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: true
+- alterId: 0
+  cipher: auto
+  name: 3,8|1|🇸🇬6 |  5.7MB/s
+  network: ws
+  port: 443
+  raw:
+    add: 104.21.42.243
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: sgfqkqmltcy.site
+    id: d13fc2f5-3e05-4795-81eb-44143a09e552
+    net: ws
+    path: /rbqqvws
+    port: 443
+    ps: 🇺🇸 US_316
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.21.42.243
+  servername: ''
   tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3,13|CN_speednode_0017
@@ -48,49 +80,33 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇸🇬10 |  1.3MB/s
-  network: ws
-  port: 443
-  server: 140.245.44.250
-  servername: sgp.cayuo.me
-  tls: true
-  type: vless
-  udp: false
-  uuid: a89981b0-8096-4bbc-8d24-da2330650c4b
-  ws-opts:
-    headers:
-      Host: sgp.cayuo.me
-    path: /bing
 - alterId: 0
   cipher: auto
-  name: 8|12|新加坡|@ripaojiedian
+  name: 8|1|🇸🇬2 |  4.9MB/s
   network: tcp
-  port: '23910'
-  server: hzz9.fgmcx.top
-  servername: ''
+  port: 17231
+  server: f8553737-suz340-sw30na-2vfx.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+  uuid: 7d74be30-1102-11ec-a0fc-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
-  network: ws
-  port: '12901'
-  server: gtm1.ktmwan.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
+  name: 8|1|🇸🇬4 |  2.9MB/s
+  network: tcp
+  port: 17231
+  server: cd4bd325-suz340-sw0fy8-4c42.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 0320bad3-41dd-4069-a91f-d58c5370df22
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
+  uuid: 1758c288-c39d-3d20-f34f-f4c62bc1d8d4
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇸🇬5 |  5.0MB/s
+  network: tcp
+  port: 17231
+  server: af11f5b7-suz340-sv1gez-1tk5u.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: e3217bc2-061f-11f0-90e2-f23c913c8d2b
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
