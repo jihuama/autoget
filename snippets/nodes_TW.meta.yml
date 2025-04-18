@@ -1,13 +1,36 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼1 |  6.1MB/s
+  name: 3,13|CN_speednode_0009
   network: tcp
-  port: 15700
+  port: 15823
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
+  server: gysz0000.dynu.net
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3|🇹🇼2 |  2.4MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇹🇼3 |  6.1MB/s
+  network: tcp
+  port: 47531
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
@@ -27,13 +50,13 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼3 |  5.3MB/s
+  name: 3|🇹🇼5 |  2.9MB/s
   network: tcp
-  port: 47531
+  port: 15700
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: gateway.icloud.com
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
@@ -47,20 +70,6 @@ proxies:
   server: zhee01.dynu.net
   servername: gateway.icloud.com
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0009
-  network: tcp
-  port: 15823
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.yahoo.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -95,11 +104,13 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
-  password: OP8PXXDOW0GFSBO2
-  port: 21005
-  server: 150.116.11.9
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|台湾|@ripaojiedian
+  network: tcp
+  port: '45078'
+  server: haa.dashuai.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a1322b0-9c6e-433c-8fb3-d7690b3093f2
