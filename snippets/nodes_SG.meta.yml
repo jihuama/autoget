@@ -5,10 +5,25 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬1 |  5.7MB/s
+  network: ws
+  port: 2053
+  server: cloudflare.182682.xyz
+  servername: sg1.pavo.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
+  ws-opts:
+    headers:
+      Host: sg1.pavo.eu.org
+    path: /sg1vmess
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇸🇬1 |  5.5MB/s
+  name: 3|🇸🇬2 |  4.2MB/s
   network: ws
   port: 80
   server: 141.193.213.20
@@ -24,7 +39,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇸🇬2 |  1.1MB/s
+  name: 3|🇸🇬3 |  3.5MB/s
   network: ws
   port: 80
   server: partner.zoom.us
@@ -37,6 +52,12 @@ proxies:
     headers:
       Host: lk.sahanwickramasinghe.shop
     path: /
+- cipher: chacha20-ietf
+  name: 3|🇸🇬4 |  1.6MB/s
+  password: asd123456
+  port: 8388
+  server: 107.148.37.70
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
