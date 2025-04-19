@@ -1,6 +1,53 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 3|🇹🇼2 |  3.3MB/s
+  network: tcp
+  port: 47531
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3|🇹🇼3 |  3.5MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0009
+  network: tcp
+  port: 15823
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇹🇼5 |  4.7MB/s
+  network: tcp
+  port: 15700
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 3,13|CN_speednode_0008
   network: tcp
   port: 12477
@@ -13,71 +60,13 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇹🇼2 |  3.8MB/s
-  network: tcp
-  port: 47531
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 3|🇹🇼3 |  5.8MB/s
-  network: ws
-  port: 2052
-  server: 104.26.13.228
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: 282533b1-cbf1-40a6-b399-a1116163fcc5
-  ws-opts:
-    headers:
-      Host: throbbing-haze-ac69.guoronghuang180.workers.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0015
-  network: tcp
-  port: 37809
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 3|🇹🇼8 |  2.8MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 33368
   server: shenzhou05.mysynology.net
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0019
-  network: tcp
-  port: 13263
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: gateway.icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇹🇼6 |  2.0MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: ss
 - alterId: 0
   cipher: auto
   name: 8,12|台湾|@ripaojiedian
@@ -88,30 +77,3 @@ proxies:
   tls: false
   type: vmess
   uuid: ced0060e-ae26-4f08-a96d-a5edbce6dd16
-- alterId: 0
-  cipher: auto
-  name: 8|12|🇹🇼 台湾2|@ripaojiedian
-  network: ws
-  port: 46005
-  server: fadawtawd.zhangwei.li
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: fadawtawd.zhangwei.li
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 8|13|台湾2|@ripaojiedian
-  network: ws
-  port: '46005'
-  server: fadawtawd.zhangwei.li
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
