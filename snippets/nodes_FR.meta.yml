@@ -1,26 +1,24 @@
 proxies:
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇫🇷1 |  5.4MB/s
-  network: ws
-  port: 8880
-  server: 104.21.56.233
-  servername: ''
-  tls: false
+- client-fingerprint: chrome
+  delay: 1514
+  flow: xtls-rprx-vision
+  name: 3|🇫🇷1 |  1.3MB/s
+  network: tcp
+  port: 40072
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  tls: true
   type: vless
-  udp: false
-  uuid: 238b597a-b49e-48f6-9cb1-27865989bddd
-  ws-opts:
-    headers:
-      Host: Mystic-vpn.academivpn-mystic.site.
-    path: /Telegram-Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn---Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn--Academi_vpn-Admin-Mystic_vpn?ed=2048
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: ''
   flow: ''
   grpc-opts:
     grpc-service-name: DarkTeam_VPN
   mode: ''
-  name: 3|🇫🇷2 |  5.3MB/s
+  name: 3|🇫🇷2 |  3.7MB/s
   network: grpc
   port: 13039
   server: 198.244.193.109
@@ -29,37 +27,3 @@ proxies:
   type: vless
   udp: false
   uuid: 5efbe592-3027-417d-8807-47fcddb40549
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 3|🇫🇷3 |  5.1MB/s
-  network: ws
-  port: 2096
-  server: www.parsvds.com
-  servername: rEDzOnE.MirAcLehEaRTbIt.ICu
-  tls: true
-  type: vless
-  udp: false
-  uuid: 35fff34b-37f5-41fd-8252-aeef568b4684
-  ws-opts:
-    headers:
-      Host: rEDzOnE.MirAcLehEaRTbIt.ICu
-    path: /2096/@V2RayyNGVpn
-- auth: dongtaiwang.com
-  client-fingerprint: chrome
-  name: 3|🇫🇷4 |  4.8MB/s
-  password: dongtaiwang.com
-  port: 23587
-  server: 195.154.33.70
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇫🇷2 |  2.0MB/s
-  network: tcp
-  port: 17235
-  server: c1be5110-sv2sg0-td6bp2-1h5ry.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 545ff4da-9571-11ec-a8bf-f23c91cfbbc9
