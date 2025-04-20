@@ -191,17 +191,17 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,11|🇮🇳 印度|@ripaojiedian
-  password: d5826953-96a0-4e2e-ad04-638668222256
-  port: 45073
-  server: xdd.dashuai.cyou
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
+  name: 3,8|2|🇺🇸16 |  4.9MB/s
+  network: tcp
+  port: '5228'
+  server: 7bd0fd61-suz340-tau0mq-1i41w.cu.plebai.net
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 0e80c044-ccf7-42fd-8590-bc007f4cfb5f
+  uuid: d13637bd-0e24-11ed-9d0b-f23c91cfbbc9
+  ws-headers:
+    Host: 7bd0fd61-suz340-tau0mq-1i41w.cu.plebai.net
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 3,8|2|🇺🇸25 |  3.4MB/s
@@ -215,14 +215,20 @@ proxies:
   ws-headers:
     Host: 157.148.96.92
   ws-path: /
-- allowInsecure: '1'
-  name: 3|🇺🇸8 |  4.3MB/s
-  network: original
-  password: 2342895f-ca91-49de-a409-2be44e77d05b
-  port: 27301
-  server: 45.146.232.173
-  skip-cert-verify: true
-  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|RU_speednode_0096
+  password: 502ce857-5d5d-4acd-9c5c-f62a9acfa54e
+  port: 8877
+  server: de.ajiaxi.cyou
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 654285e6-23fb-4073-b8de-eba90f562fe6
 - alterId: 0
   cipher: auto
   name: 3,8|2|🇺🇸19 |  3.1MB/s
@@ -236,66 +242,75 @@ proxies:
   ws-headers:
     Host: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
   ws-path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 3|🇺🇸11 |  2.1MB/s
+  name: 3|🇺🇸24 |  2.1MB/s
   network: ws
-  port: 12089
-  raw:
-    add: 92f8af01-sv2sg0-t21ryz-1rk0u.se.plebai.net
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: ae403676-1f72-11ef-98df-f23c91cfbbc9
-    net: ws
-    path: /
-    port: 12089
-    ps: wowrack
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 92f8af01-sv2sg0-t21ryz-1rk0u.se.plebai.net
-  servername: ''
-  tls: false
+  port: 30829
+  server: v29.heduian.link
+  skip-cert-verify: true
+  sni: ''
   type: vmess
-  uuid: ae403676-1f72-11ef-98df-f23c91cfbbc9
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+      host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸12 |  3.1MB/s
-  network: ws
-  port: 12089
-  raw:
-    add: 0696c07d-sv2sg0-tegcd3-1ne75.se.plebai.net
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
-    net: ws
-    path: /
-    port: 12089
-    ps: wowrack
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 0696c07d-sv2sg0-tegcd3-1ne75.se.plebai.net
-  servername: ''
+  name: 3,8|2|🇺🇸30 |  4.3MB/s
+  network: tcp
+  port: 5229
+  server: 8f34e685-suz340-svvaj9-fa3p.cu.plebai.net
   tls: false
   type: vmess
-  uuid: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+  uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3|🇺🇸31 |  1.8MB/s
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+      Host: baidu.com
+    path: /oooo
+- allowInsecure: ''
+  name: 3,13|US_speednode_0109
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 104.21.23.115
+  skip-cert-verify: true
+  sni: 1cc.852224.ggff.net
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 1cc.852224.ggff.net
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- allowInsecure: ''
+  name: 3,13|US_speednode_0110
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 172.67.210.210
+  skip-cert-verify: true
+  sni: 1cc.852224.ggff.net
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 1cc.852224.ggff.net
+    path: /OYzPAeaZdXUq2d6J3gc4aj
 - alterId: 0
   cipher: auto
   ip-version: dual
@@ -308,767 +323,21 @@ proxies:
   uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 3,8|2|🇺🇸1 |  2.1MB/s
+  name: 3|🇺🇸44 |  5.7MB/s
+  network: tcp
+  port: 5229
+  server: 0ecc8d37-sux8g0-swbudg-1mzwj.cu.plebai.net
+  type: vmess
+  uuid: a203d80e-10fe-11ef-88a6-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇺🇸1 |  2.1MB/s
   network: tcp
   port: '5228'
   server: 2042c623-suz340-sw30na-2vfx.cu.plebai.net
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 7d74be30-1102-11ec-a0fc-f23c913c8d2b
-  ws-headers:
-    Host: 2042c623-suz340-sw30na-2vfx.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 3,8|2|🇺🇸30 |  4.3MB/s
-  network: tcp
-  port: 5229
-  server: 8f34e685-suz340-svvaj9-fa3p.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab
-  ws-headers:
-    Host: 8f34e685-suz340-svvaj9-fa3p.cu.plebai.net
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸25 |  1.4MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: f9065ee6-sva740-t9c951-1t1s5.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 4cee4858-bb77-11ef-a46e-f23c913c8d2b
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: f9065ee6-sva740-t9c951-1t1s5.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4cee4858-bb77-11ef-a46e-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸26 |  2.0MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 3d88c887-sva740-t7hmka-1plv4.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 28213b50-7ed5-11ee-add6-f23c91369f2d
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 3d88c887-sva740-t7hmka-1plv4.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸27 |  2.3MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 292b86fc-sv2sg0-sv2vdm-1qudz.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: a63b0d44-e290-11ee-91f6-f23c91cfbbc9
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 292b86fc-sv2sg0-sv2vdm-1qudz.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a63b0d44-e290-11ee-91f6-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸28 |  1.5MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 2667451c-sv2sg0-tb36ag-1jfq7.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: baa46fd6-63c1-11ed-8ea9-f23c913c8d2b
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 2667451c-sv2sg0-tb36ag-1jfq7.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: baa46fd6-63c1-11ed-8ea9-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸29 |  1.8MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: ca012141-sv2sg0-t2hy87-gmmc.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: e8a553fe-62bc-11ef-89a3-f23c913c8d2b
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: ca012141-sv2sg0-t2hy87-gmmc.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8a553fe-62bc-11ef-89a3-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3,8|2|🇺🇸24 |  2.5MB/s
-  network: tcp
-  port: 5228
-  server: b115e896-sux8g0-t0w6o1-1lk9i.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a60e3782-223e-11ee-b973-f23c913c8d2b
-  ws-headers:
-    Host: b115e896-sux8g0-t0w6o1-1lk9i.cu.plebai.net
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸34 |  2.1MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: a16899e7-sv2sg0-td1l1t-1s824.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: a16899e7-sv2sg0-td1l1t-1s824.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸36 |  2.5MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: f682342c-sva740-sxxbmq-1szgv.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: f682342c-sva740-sxxbmq-1szgv.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸37 |  1.8MB/s
-  network: ws
-  port: 12089
-  raw:
-    add: be27d542-sv2sg0-tdbt1l-1gabf.se.plebai.net
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: df84b552-97a9-11ec-bb74-f23c9164ca5d
-    net: ws
-    path: /
-    port: 12089
-    ps: wowrack
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: be27d542-sv2sg0-tdbt1l-1gabf.se.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: df84b552-97a9-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸38 |  3.3MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: c0323421-sva740-t9uin7-19ord.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: c0323421-sva740-t9uin7-19ord.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3,8|2|🇺🇸16 |  4.9MB/s
-  network: tcp
-  port: '5228'
-  server: 7bd0fd61-suz340-tau0mq-1i41w.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13637bd-0e24-11ed-9d0b-f23c91cfbbc9
-  ws-headers:
-    Host: 7bd0fd61-suz340-tau0mq-1i41w.cu.plebai.net
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸40 |  1.3MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 34efdd64-sv2sg0-t9hghw-1sdoq.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 7c077572-6da9-11ef-b786-f23c91cfbbc9
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 34efdd64-sv2sg0-t9hghw-1sdoq.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7c077572-6da9-11ef-b786-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸41 |  1.7MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 38d11a6e-sv2sg0-t4v3jz-1k8ga.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: f860f2da-5035-11ed-bb74-f23c9164ca5d
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 38d11a6e-sv2sg0-t4v3jz-1k8ga.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸42 |  1.3MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 5e4475ac-sv2sg0-swos8d-1te2a.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 574db4bc-ef5e-11ef-bd1a-f23c913c8d2b
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 5e4475ac-sv2sg0-swos8d-1te2a.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 574db4bc-ef5e-11ef-bd1a-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸43 |  1.5MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 45a37457-sv2sg0-t9i7o2-1lt20.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: bf4ec108-f2b7-11ef-b654-f23c91cfbbc9
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 45a37457-sv2sg0-t9i7o2-1lt20.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bf4ec108-f2b7-11ef-b654-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸44 |  2.1MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 8cb1a77d-sv2sg0-sy8f4e-ukt4.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 6589f6d0-e192-11ec-bd7c-f23c913c8d2b
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 8cb1a77d-sv2sg0-sy8f4e-ukt4.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6589f6d0-e192-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸45 |  1.6MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 282b42f5-sv2sg0-tdbt1l-1gabf.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: df84b552-97a9-11ec-bb74-f23c9164ca5d
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 282b42f5-sv2sg0-tdbt1l-1gabf.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: df84b552-97a9-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸47 |  2.1MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 77b2398c-sv2sg0-t2hqlr-1s3mx.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 77b2398c-sv2sg0-t2hqlr-1s3mx.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸50 |  2.9MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 71263ac3-sv2sg0-sxi4nd-1o6fm.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: e03df6fc-97e8-11ee-be7f-f23c9164ca5d
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 71263ac3-sv2sg0-sxi4nd-1o6fm.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e03df6fc-97e8-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸51 |  1.7MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 4480c5ee-sv2sg0-sw4w3a-1pbfz.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 3f03b164-86a9-11ee-ba78-f23c91cfbbc9
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 4480c5ee-sv2sg0-sw4w3a-1pbfz.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3f03b164-86a9-11ee-ba78-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸52 |  1.6MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: d4541598-sva740-svo46i-1tmhw.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 46459926-0fbd-11f0-b0c8-f23c913c8d2b
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: d4541598-sva740-svo46i-1tmhw.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 46459926-0fbd-11f0-b0c8-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸53 |  2.0MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: c2d6789b-sv2sg0-t5qfe2-1khwf.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: c2d6789b-sv2sg0-t5qfe2-1khwf.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸54 |  1.8MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: 5014efd6-sv2sg0-t517yc-1shzj.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 63aab438-79ae-11ef-b3f6-f23c913c8d2b
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 5014efd6-sv2sg0-t517yc-1shzj.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 63aab438-79ae-11ef-b3f6-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸56 |  1.7MB/s
-  network: ws
-  port: 12089
-  raw:
-    add: adfee7c3-sva740-sxxbmq-1szgv.se.plebai.net
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-    net: ws
-    path: /
-    port: 12089
-    ps: wowrack
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: adfee7c3-sva740-sxxbmq-1szgv.se.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸57 |  1.7MB/s
-  network: ws
-  port: 1281
-  raw:
-    add: d9917cc3-sv2sg0-tct1rd-1o0ch.sv.plebai.net
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: broadcastlv.chat.bilibili.com
-    id: d49e545e-0daf-11ee-a91f-f23c913c8d2b
-    net: ws
-    path: /
-    port: 1281
-    ps: PetaExpress
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: d9917cc3-sv2sg0-tct1rd-1o0ch.sv.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d49e545e-0daf-11ee-a91f-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: 3|🇺🇸58 |  5.6MB/s
-  network: tcp
-  port: '37805'
-  server: 120.232.153.63
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 3,8|2|🇺🇸10 |  2.5MB/s
-  network: tcp
-  port: 5228
-  server: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-  ws-headers:
-    Host: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 8|2|🇺🇸6 |  3.4MB/s
@@ -1078,6 +347,15 @@ proxies:
   tls: false
   type: vmess
   uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇺🇸10 |  2.5MB/s
+  network: tcp
+  port: 5228
+  server: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 8|2|🇺🇸14 |  4.2MB/s
@@ -1107,6 +385,15 @@ proxies:
   uuid: 2b634c80-fd7e-11ef-9f25-f23c9164ca5d
 - alterId: 0
   cipher: auto
+  name: 8|2|🇺🇸24 |  2.5MB/s
+  network: tcp
+  port: 5228
+  server: b115e896-sux8g0-t0w6o1-1lk9i.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: a60e3782-223e-11ee-b973-f23c913c8d2b
+- alterId: 0
+  cipher: auto
   name: 8|2|🇺🇸26 |  2.5MB/s
   network: tcp
   port: 5229
@@ -1125,7 +412,7 @@ proxies:
   uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 8,12|美国4|@ripaojiedian
+  name: 8|13|美国4|@ripaojiedian
   network: tcp
   port: '14100'
   server: 144.255.36.254
@@ -1203,11 +490,11 @@ proxies:
     path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian 2
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504182189466-KXW6ZXTh3H.download.microsoft.com
+    host: 202504182189466-8od2bG05Pm.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1221,3 +508,13 @@ proxies:
   server: 38.107.226.14
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|美国4|@ripaojiedian
+  network: tcp
+  port: '5229'
+  server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
