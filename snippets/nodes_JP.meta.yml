@@ -1,19 +1,19 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵1 |  2.7MB/s
+  name: 3|🇯🇵1 |  2.6MB/s
   network: tcp
-  port: 35659
+  port: 25768
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: gateway.icloud.com
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵2 |  2.5MB/s
+  name: 3|🇯🇵2 |  6.2MB/s
   network: tcp
   port: 31735
   reality-opts:
@@ -22,6 +22,46 @@ proxies:
   servername: www.nvidia.com
   tls: true
   type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3,13|JP_speednode_0036
+  port: 52787
+  server: 13.231.172.203
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: abcaa7dc-9b0a-459e-a9fd-a76c161fa432
+- delay: 416
+  name: 3,13|JP_speednode_0035
+  network: tcp
+  port: 16725
+  server: 54.168.120.254
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fcc420da-544b-422a-944f-0ccb2b35acb2
+- cipher: aes-256-gcm
+  delay: 2290
+  name: 3|🇯🇵5 |  5.1MB/s
+  password: 0a999a3a-01f8-453c-b5f6-793d99ba9457
+  port: 56789
+  server: japantv4.zhixiang.us
+  type: ss
+- client-fingerprint: chrome
+  delay: 770
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0011
+  network: tcp
+  port: 14548
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 3,13|JP_speednode_0037
   password: exaxgqkKkd0TAMrCxeonWg==
@@ -33,13 +73,32 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- cipher: aes-256-gcm
-  delay: 2290
-  name: 3|🇯🇵4 |  3.8MB/s
-  password: 0a999a3a-01f8-453c-b5f6-793d99ba9457
-  port: 56789
-  server: japantv4.zhixiang.us
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵8 |  1.1MB/s
+  network: tcp
+  port: 13989
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0009
+  network: tcp
+  port: 48121
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -87,19 +146,3 @@ proxies:
   server: 13.124.153.152
   tfo: false
   type: ss
-- name: 13|JP_speednode_0035
-  port: 16725
-  server: 54.168.120.254
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fcc420da-544b-422a-944f-0ccb2b35acb2
-- name: 13|JP_speednode_0036
-  port: 52787
-  server: 13.231.172.203
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: abcaa7dc-9b0a-459e-a9fd-a76c161fa432
