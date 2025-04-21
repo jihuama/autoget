@@ -189,20 +189,6 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|CN_speednode_0018
-  password: 8da4c3ad-463c-4546-a841-3355024f8656
-  port: 57852
-  server: 120.232.153.40
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 3,11|🇺🇸 美国3|@ripaojiedian
@@ -211,23 +197,9 @@ proxies:
   server: 97.107.140.236
   tfo: false
   type: ss
-- allowInsecure: ''
-  name: 3|🇺🇸9 |  1.0MB/s
-  network: ws
-  password: auto
-  port: 443
-  server: 172.66.46.254
-  skip-cert-verify: false
-  sni: dcf741e8.epeius-2gy.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dcf741e8.epeius-2gy.pages.dev
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 3,8|2|🇺🇸43 |  5.8MB/s
+  name: 3,8|1|🇺🇸27 |  5.2MB/s
   network: ws
   port: 80
   server: www.wn03.cc
@@ -243,14 +215,44 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8|2|🇺🇸14 |  2.5MB/s
-  network: ws
-  port: 23077
-  server: 45.147.201.231
+  name: 3|🇺🇸15 |  5.3MB/s
+  network: tcp
+  port: 5228
+  server: 000611b6-sva740-t4ib2y-1kdw3.cu.plebai.net
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f90b800d-2b37-424e-afc8-4ecb2a64b64f
-  ws-opts: {}
+  uuid: e39687a8-3350-11ed-8110-f23c91cfbbc9
+  ws-headers:
+    Host: 000611b6-sva740-t4ib2y-1kdw3.cu.plebai.net
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 3|🇺🇸21 |  5.5MB/s
+  network: ws
+  port: '2053'
+  server: 141.101.121.127
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      host: 1744007578.speed.mamha.cccp.freefly.pp.ua
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 3|🇺🇸26 |  5.3MB/s
+  network: ws
+  port: 2053
+  server: 141.101.121.127
+  servername: 1744007578.speed.mamha.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1744007578.speed.mamha.cccp.freefly.pp.ua
+    path: /
 - alterId: 0
   cipher: auto
   name: 8,12|美国|@ripaojiedian

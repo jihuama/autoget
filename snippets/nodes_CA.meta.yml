@@ -1,18 +1,62 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇨🇦1 |  5.5MB/s
-  network: tcp
-  port: 16011
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.amazon.com
+- name: 3|🇨🇦1 |  5.4MB/s
+  network: ws
+  port: 443
+  server: steamdb.info
+  servername: vv.ylka.dpdns.org
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vv.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦2 |  3.1MB/s
+  network: ws
+  port: 443
+  server: 192.0.54.174
+  servername: vv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vv.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦3 |  3.4MB/s
+  network: ws
+  port: 1010
+  server: 45.154.98.99
+  servername: vv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vv.ylka.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦4 |  1.2MB/s
+  network: ws
+  port: 443
+  server: 160.123.255.131
+  servername: vv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vv.ylka.dpdns.org
+    path: /?ed=2560
 - auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  name: 3|🇨🇦2 |  2.7MB/s
+  name: 3|🇨🇦5 |  2.9MB/s
   password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
   port: 45979
   server: 132.145.108.102
