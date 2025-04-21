@@ -189,46 +189,41 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: 3,8,12|香港6|@ripaojiedian
-  network: tcp
-  port: '43674'
-  server: 120.234.102.229
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 120.234.102.229
-  ws-path: /
-- alterId: '2'
-  cipher: auto
-  name: 3|🇺🇸13 |  3.5MB/s
-  network: ws
-  port: '30829'
-  server: v29.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v29.heduian.link
-    path: /oooo
 - cipher: chacha20-ietf
-  name: 3|🇺🇸15 |  2.2MB/s
+  name: 3|🇺🇸12 |  2.2MB/s
   password: asd123456
   port: 8388
   server: 137.175.113.215
   type: ss
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸22 |  1.4MB/s
-  network: tcp
-  port: '50082'
-  server: 120.198.71.216
+  name: 3|🇺🇸14 |  2.5MB/s
+  network: ws
+  port: 23077
+  server: 45.147.201.231
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: f90b800d-2b37-424e-afc8-4ecb2a64b64f
+  ws-headers:
+    Host: 45.147.201.231
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇺🇸43 |  5.8MB/s
+  network: ws
+  port: 80
+  server: www.wn03.cc
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  ws-opts:
+    headers:
+      Host: us.freeyyds.dpdns.org
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: 8|2|🇺🇸9 |  2.2MB/s
@@ -377,7 +372,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 8,12|美国4|@ripaojiedian
+  name: 8|13|美国4|@ripaojiedian
   network: tcp
   port: '5229'
   server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
@@ -465,11 +460,21 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇺🇸 美国3|@ripaojiedian
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.107.226.14
+  password: '!!str 1234'
+  port: 1234
+  server: 97.107.140.236
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|美国4|@ripaojiedian
+  network: tcp
+  port: '45251'
+  server: 112.65.92.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
