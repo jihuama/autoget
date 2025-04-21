@@ -1,13 +1,22 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 3|🇹🇼2 |  2.7MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 3|🇹🇼1 |  4.1MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 26bc8681-0318-3097-bc64-64ab051eb81a
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
-  name: 12|台湾|@ripaojiedian
+  name: 8,12|台湾|@ripaojiedian
   network: tcp
   port: '10546'
   server: xwogpb.cjjvmm.xyz
@@ -17,7 +26,7 @@ proxies:
   uuid: daa4d73e-aca3-3ef7-a9dd-3a2487fcb38d
 - alterId: 0
   cipher: auto
-  name: 12|台湾2|@ripaojiedian
+  name: 8,12|台湾2|@ripaojiedian
   network: tcp
   port: '45285'
   server: 36.150.232.128
