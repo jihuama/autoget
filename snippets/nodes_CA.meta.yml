@@ -1,20 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇨🇦1 |  5.3MB/s
-  network: tcp
-  port: 16011
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇨🇦2 |  3.9MB/s
+- name: 3|🇨🇦1 |  5.5MB/s
   network: ws
   port: 443
-  server: 192.9.227.116
+  server: time.is
   servername: vv.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -23,11 +11,11 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: vv.ylka.dpdns.org
+      Host: vv.ylka.dpdns.org
     path: /?ed=2560
 - alterId: 2
   cipher: auto
-  name: 3|🇨🇦3 |  5.4MB/s
+  name: 8|2|🇨🇦3 |  5.4MB/s
   network: ws
   port: 30825
   server: v25.heduian.link
