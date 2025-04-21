@@ -190,32 +190,54 @@ proxies:
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
 - cipher: aes-128-cfb
-  name: 3|🇺🇸1 |  5.4MB/s
+  name: 3|🇺🇸5 |  5.6MB/s
   password: shadowsocks
   port: 443
   server: 184.170.241.194
   type: ss
+- name: 3|🇺🇸7 |  5.9MB/s
+  network: ws
+  password: f82fb954-06a1-4f0b-9180-17e07585b61f
+  port: 443
+  server: 172.67.212.82
+  skip-cert-verify: false
+  sni: 6tghjk.131.pp.ua
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 6tghjk.131.pp.ua
+    path: '%2FYu29UN3Yz8hcnI3SlZor0'
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸10 |  4.3MB/s
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: '2'
+  cipher: auto
+  name: 3|🇺🇸13 |  2.9MB/s
+  network: ws
+  port: '30829'
+  server: v29.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸18 |  2.6MB/s
+  name: 3,8|2|🇺🇸18 |  2.6MB/s
   network: ws
   port: 8443
-  raw:
-    add: skk.moe
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: digitaloceanus.lzj520hxw.dpdns.org
-    id: ba516af9-329e-4c5c-8ff6-dc59f563269e
-    net: ws
-    path: ba516af9-329e-4c5c-8ff6-dc59f563269e-vm
-    port: 8443
-    ps: CloudFlare
-    scy: ''
-    sni: ''
-    tls: tls
-    type: ''
-    v: '2'
   server: skk.moe
   servername: ''
   tls: true
