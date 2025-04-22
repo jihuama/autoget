@@ -5,32 +5,25 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- client-fingerprint: chrome
-  flow: none
-  mode: ''
-  name: 3|🇸🇬1 |  1.1MB/s
-  network: ws
-  port: 8443
-  server: 141.193.213.21
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  udp: false
-  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: '%2F'
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇸🇬2 |  5.2MB/s
-  password: wUIFQcMM2K2VYdVz8GKyeE
-  port: 443
-  server: 13.212.90.20
-  type: ss
-- client-fingerprint: chrome
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇸🇬4 |  5.9MB/s
+  name: 3|🇸🇬1 |  1.7MB/s
+  network: ws
+  port: 2082
+  server: 173.245.59.109
+  servername: digitalscientificresearchgroup.ir
+  tls: false
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /TM@Azarbayjab1?ed
+- flow: ''
+  mode: ''
+  name: 3|🇸🇬2 |  5.8MB/s
   network: ws
   port: 8443
   server: 141.193.213.20
@@ -43,10 +36,59 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: ''
+- client-fingerprint: chrome
+  flow: none
+  mode: ''
+  name: 3|🇸🇬3 |  3.9MB/s
+  network: ws
+  port: 8443
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: '%2F'
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 3|🇸🇬4 |  1.5MB/s
+  password: wUIFQcMM2K2VYdVz8GKyeE
+  port: 443
+  server: 13.212.90.20
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0012
+  network: tcp
+  port: 29877
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 3,8,12|新加坡|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇸🇬5 |  3.2MB/s
+  name: 3|🇸🇬8 |  5.3MB/s
   network: ws
   port: 80
   server: 170.114.46.6
@@ -59,19 +101,25 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.cfd
     path: /
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇸🇬9 |  3.1MB/s
+  network: ws
+  port: 50000
+  server: 49.175.158.24
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: ''
 - alterId: 0
   cipher: auto
-  name: 3,8,12|新加坡|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 3|🇸🇬7 |  5.2MB/s
+  name: 8|0|🇸🇬7 |  5.2MB/s
   network: ws
   port: 443
   server: www.racknerd.com
@@ -83,27 +131,6 @@ proxies:
     headers:
       Host: grants-andrews-lp-helpful.trycloudflare.com
     path: /vmess-argo?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇸🇬1 |  1.2MB/s
-  network: tcp
-  port: 54652
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇸🇬8 |  3.8MB/s
-  network: ws
-  port: 40000
-  server: ml02.333210.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8d8531b-a2b2-4515-911b-10c2f8ab7f26
-  ws-opts:
-    path: /bby
 - alterId: 0
   cipher: auto
   name: 8,12|新加坡2|@ripaojiedian
