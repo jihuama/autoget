@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,8|12|🇯🇵 日本4|@ripaojiedian
+  name: 3,8|1|🇯🇵9 |  6.0MB/s
   network: tcp
   port: 17233
   server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
@@ -13,6 +13,28 @@ proxies:
   ws-headers:
     Host: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
   ws-path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 3,11|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504212352625-1jaHlWfGGj.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 3,8,12|日本5|@ripaojiedian
+  network: tcp
+  port: '17233'
+  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -40,18 +62,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504212352625-1jaHlWfGGj.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 8,12|日本6|@ripaojiedian
+  network: kcp
+  port: '53893'
+  server: 47.74.41.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇯🇵 日本特殊|@ripaojiedian
@@ -60,23 +80,3 @@ proxies:
   server: 34.222.45.211
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|日本5|@ripaojiedian
-  network: tcp
-  port: '17233'
-  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 12|日本6|@ripaojiedian
-  network: kcp
-  port: '53893'
-  server: 47.74.41.147
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
