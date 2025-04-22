@@ -1,47 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 3,8|1|🇯🇵9 |  6.0MB/s
-  network: tcp
-  port: 17233
-  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
-  ws-headers:
-    Host: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
-  ws-path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 3,11|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504212352625-1jaHlWfGGj.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 3,8,12|日本5|@ripaojiedian
-  network: tcp
-  port: '17233'
-  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇯🇵4 |  2.4MB/s
+  name: 3|🇯🇵1 |  1.6MB/s
   network: ws
-  port: 23349
-  server: 59.5.53.119
+  port: 50000
+  server: 106.244.68.249
   servername: photosair.ir
   tls: true
   type: vless
@@ -50,7 +14,21 @@ proxies:
   ws-opts:
     headers:
       Host: photosair.ir
-    path: /bing
+    path: /bingflow=-udp443
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|CN_speednode_0018
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 57852
+  server: 120.232.153.40
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 3,13|JP_speednode_0033
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
@@ -61,38 +39,30 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇯🇵8 |  1.3MB/s
-  network: ws
-  port: 11325
-  server: 49.246.39.46
-  servername: photosair.ir
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 3|🇯🇵10 |  1.3MB/s
-  network: ws
-  port: 443
-  server: 172.66.47.15
-  servername: GgGgr.PaGES.dEV
-  tls: true
-  type: vless
-  udp: false
-  uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
-  ws-opts:
-    headers:
-      Host: ggggr.pages.dev
-    path: /Telegram@proxy_mtm/?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 3,8,12|日本5|@ripaojiedian
+  network: tcp
+  port: '17233'
+  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 3,8|2|🇯🇵6 |  3.9MB/s
+  network: tcp
+  port: '17233'
+  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
+  ws-headers:
+    Host: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
+  ws-path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -130,12 +100,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504212352625-mSKdydjLdf.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.222.45.211
+  server: 3.36.89.243
   tfo: false
   type: ss
 - name: 13|JP_speednode_0032

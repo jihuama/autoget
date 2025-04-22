@@ -1,30 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇯🇵9 |  6.0MB/s
-  network: tcp
-  port: 17233
-  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
-  servername: ''
-  skip-cert-verify: true
+  client-fingerprint: chrome
+  name: 3,11,13|CN_speednode_0018
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 57852
+  server: 120.232.153.40
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  tfo: false
   tls: false
   type: vmess
-  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
-  ws-headers:
-    Host: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
-  ws-path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 3,11|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504212352625-1jaHlWfGGj.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 3,8,12|日本5|@ripaojiedian
@@ -35,6 +23,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 3,8|2|🇯🇵6 |  3.9MB/s
+  network: tcp
+  port: '17233'
+  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
+  ws-headers:
+    Host: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
+  ws-path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -72,11 +74,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504212352625-mSKdydjLdf.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.222.45.211
+  server: 3.36.89.243
   tfo: false
   type: ss

@@ -5,36 +5,38 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 3,8,12|新加坡|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
 - client-fingerprint: chrome
-  flow: none
-  mode: ''
-  name: 3|🇸🇬2 |  6.0MB/s
-  network: ws
-  port: 8443
-  server: 141.193.213.21
-  servername: premium.vkehi.shop
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬1 |  4.6MB/s
+  network: tcp
+  port: 10649
+  reality-opts:
+    public-key: N3OhMYHjw0MGH7X93-6lec9iOMQHRUr-Uz-cGzQ32jQ
+  server: 92.112.22.115
+  servername: www.iij.ad.jp
   tls: true
   type: vless
-  udp: false
-  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: '%2F'
+  uuid: 78956f2a-5650-4ac1-b5e5-c86491768443
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇸🇬3 |  5.1MB/s
+  name: 3|🇸🇬2 |  3.0MB/s
+  network: ws
+  port: 50004
+  server: 39.116.19.171
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇸🇬3 |  5.7MB/s
   network: ws
   port: 80
   server: 170.114.46.6
@@ -47,68 +49,86 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.cfd
     path: /
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇸🇬4 |  5.9MB/s
-  network: ws
-  port: 8880
-  server: 104.21.7.193
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f3562b04-2f2b-433a-80b4-45f60d659004
-  ws-opts:
-    headers:
-      Host: 925tg.3gnc3sjz.workers.dev
-    path: /?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇸🇬5 |  1.2MB/s
-  network: ws
-  port: 2095
-  server: 104.21.7.193
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f3562b04-2f2b-433a-80b4-45f60d659004
-  ws-opts:
-    headers:
-      Host: 925tg.3gnc3sjz.workers.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬7 |  3.5MB/s
-  network: tcp
-  port: 10649
-  reality-opts:
-    public-key: N3OhMYHjw0MGH7X93-6lec9iOMQHRUr-Uz-cGzQ32jQ
-  server: 92.112.22.115
-  servername: www.iij.ad.jp
-  tls: true
-  type: vless
-  uuid: 78956f2a-5650-4ac1-b5e5-c86491768443
 - alterId: 0
   cipher: auto
-  name: 8|1|🇸🇬2 |  6.2MB/s
+  name: 3|🇸🇬4 |  6.3MB/s
+  network: tcp
+  port: 17231
+  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
+  ws-headers:
+    Host: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
+  ws-path: /
+- client-fingerprint: chrome
+  flow: none
+  mode: ''
+  name: 3|🇸🇬5 |  5.8MB/s
+  network: ws
+  port: 8443
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 3|🇸🇬6 |  5.4MB/s
+  network: ws
+  port: 8443
+  server: 141.193.213.20
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: false
+  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 3,8,12|新加坡|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇸🇬8 |  3.3MB/s
+  network: ws
+  port: 56659
+  server: 202.182.124.217
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bing
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇸🇬6 |  1.6MB/s
   network: tcp
   port: 17231
   server: d0012c0c-sux8g0-sycaxv-14au8.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇸🇬5 |  5.1MB/s
-  network: tcp
-  port: 17231
-  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 8,12|新加坡2|@ripaojiedian
@@ -124,7 +144,7 @@ proxies:
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.230.173.71
+  server: 47.129.221.216
   tfo: false
   type: ss
 - name: 13|SG_speednode_0042
