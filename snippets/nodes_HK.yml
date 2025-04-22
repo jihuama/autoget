@@ -1,6 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 3|🇭🇰3 |  4.5MB/s
+  network: tcp
+  port: 19901
+  raw:
+    add: xg.dashuai.cyou
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: xg.dashuai.cyou
+    id: 0c1b0cfa-dcc0-4978-8db5-e8dbe1b6a424
+    net: tcp
+    path: /
+    port: '19901'
+    ps: '🇭🇰 '
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: xg.dashuai.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0c1b0cfa-dcc0-4978-8db5-e8dbe1b6a424
+- alterId: 0
+  cipher: auto
   name: 3,8|2|🇭🇰3 |  1.2MB/s
   network: tcp
   port: 15229
@@ -27,56 +53,17 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 3|🇭🇰4 |  2.1MB/s
+  name: 3,8|2|🇭🇰10 |  2.1MB/s
   network: tcp
   port: 15229
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-  ws-headers:
-    Host: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇭🇰7 |  1.2MB/s
-  network: tcp
-  port: 15229
-  raw:
-    add: 60a411de-sva740-t7uinf-i8ie.cm.plebai.net
-    aid: 0
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-    net: tcp
-    path: ''
-    port: 15229
-    ps: 1|🇭🇰8 |  2.0MB/s
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: 60a411de-sva740-t7uinf-i8ie.cm.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-- alterId: 64
-  cipher: auto
-  name: 3,6,8,12|香港8|@ripaojiedian
-  network: tcp
-  port: '42375'
-  server: 120.198.71.214
+  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
   ws-headers:
-    Host: 120.198.71.214
+    Host: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
   ws-path: /
 - alterId: 2
   cipher: auto
@@ -163,16 +150,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8|2|🇭🇰10 |  2.1MB/s
-  network: tcp
-  port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-- alterId: 0
-  cipher: auto
   name: 8,12|香港5|@ripaojiedian
   network: tcp
   port: '41291'
@@ -201,19 +178,34 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 11|🇭🇰 香港|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  skip-cert-verify: false
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: 111.29.57.125
+  name: 11|🇭🇰 香港2|@ripaojiedian
+  password: a77288b8-3a1b-4f1a-af4e-d721ccb92297
+  port: 18988
+  server: tencent.vpne.one
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港3|@ripaojiedian
+  network: kcp
+  port: '52059'
+  server: 8.218.228.45
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 888ce5e9-6e3a-4b5c-bcb7-ce1125c02d79
