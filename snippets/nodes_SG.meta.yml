@@ -5,38 +5,37 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- client-fingerprint: chrome
-  flow: none
-  mode: ''
-  name: 3|🇸🇬1 |  2.0MB/s
-  network: ws
-  port: 8443
-  server: 141.193.213.21
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  udp: false
-  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
-  ws-opts:
-    headers:
-      Host: premium.vkehi.shop
-    path: '%2F'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬2 |  1.6MB/s
+- alterId: 0
+  cipher: auto
+  name: 3|🇸🇬1 |  1.2MB/s
   network: tcp
-  port: 10649
-  reality-opts:
-    public-key: N3OhMYHjw0MGH7X93-6lec9iOMQHRUr-Uz-cGzQ32jQ
-  server: 92.112.22.115
-  servername: www.iij.ad.jp
-  tls: true
-  type: vless
-  uuid: 78956f2a-5650-4ac1-b5e5-c86491768443
+  port: 54652
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|CN_speednode_0018
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 57852
+  server: 120.232.153.40
+  skip-cert-verify: false
+  sni: hk-13-568.flztjc.net
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 3|🇸🇬3 |  4.2MB/s
+  name: 3|🇸🇬3 |  2.7MB/s
   network: ws
   port: 8443
   server: 141.193.213.20
@@ -49,25 +48,55 @@ proxies:
     headers:
       Host: premium.vkehi.shop
     path: ''
-- client-fingerprint: ''
-  flow: ''
+- alterId: 0
+  cipher: auto
+  name: 3,8,12|新加坡|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
+  ws-headers:
+    Host: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  ws-path: /
+- client-fingerprint: chrome
+  flow: none
   mode: ''
-  name: 3|🇸🇬4 |  2.3MB/s
+  name: 3|🇸🇬5 |  5.9MB/s
   network: ws
-  port: 30065
-  server: 49.166.202.100
-  servername: photosair.ir
+  port: 8443
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
   tls: true
   type: vless
   udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
   ws-opts:
     headers:
-      Host: photosair.ir
-    path: /bingflow=-udp443
+      Host: premium.vkehi.shop
+    path: '%2F'
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇸🇬6 |  1.8MB/s
+  network: ws
+  port: 80
+  server: 170.114.46.6
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: b5540249-9ac4-4037-aacd-79c71052864f
+  ws-opts:
+    headers:
+      Host: free.pranithsandaruwan.cfd
+    path: /
 - alterId: 0
   cipher: auto
-  name: 3|🇸🇬6 |  6.0MB/s
+  name: 3|🇸🇬8 |  3.8MB/s
   network: ws
   port: 40000
   raw:
@@ -93,22 +122,6 @@ proxies:
   uuid: f8d8531b-a2b2-4515-911b-10c2f8ab7f26
   ws-opts:
     path: /bby
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇸🇬7 |  5.4MB/s
-  network: ws
-  port: 80
-  server: 170.114.46.6
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: b5540249-9ac4-4037-aacd-79c71052864f
-  ws-opts:
-    headers:
-      Host: free.pranithsandaruwan.cfd
-    path: /
 - alterId: 0
   cipher: auto
   name: 8|2|🇸🇬4 |  6.3MB/s
@@ -118,16 +131,6 @@ proxies:
   tls: false
   type: vmess
   uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 8,12|新加坡|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 8|2|🇸🇬10 |  1.5MB/s
