@@ -1,11 +1,51 @@
 proxies:
+- alterId: '0'
+  cipher: auto
+  name: 3|🇯🇵1 |  6.2MB/s
+  network: tcp
+  port: '17233'
+  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
+  type: vmess
+  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 3|🇯🇵2 |  4.0MB/s
+  name: 3|🇯🇵2 |  4.3MB/s
+  network: ws
+  port: 11413
+  server: 121.158.194.32
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: /bingflow=-udp443flow=-udp443
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇯🇵3 |  1.1MB/s
+  network: ws
+  port: 30045
+  server: 49.166.202.100
+  servername: photosair.ir
+  tls: true
+  type: vless
+  udp: false
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: photosair.ir
+    path: ''
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇯🇵4 |  4.1MB/s
   network: ws
   port: 50000
-  server: 106.244.68.249
+  server: 221.158.170.74
   servername: photosair.ir
   tls: true
   type: vless
@@ -15,22 +55,32 @@ proxies:
     headers:
       Host: photosair.ir
     path: /bingflow=-udp443
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 3|🇯🇵4 |  3.7MB/s
-  network: ws
-  port: 50000
-  server: 27.100.229.147
-  servername: photosair.ir
+- alterId: 0
+  cipher: auto
+  name: 3,8,12|日本5|@ripaojiedian
+  network: tcp
+  port: '17233'
+  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  ws-headers:
+    Host: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
+  ws-path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵8 |  5.0MB/s
+  network: tcp
+  port: 13989
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: gateway.icloud.com
   tls: true
   type: vless
-  udp: false
-  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-  ws-opts:
-    headers:
-      Host: photosair.ir
-    path: /bing
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   name: 3,13|JP_speednode_0033
   password: exaxgqkKkd0TAMrCxeonWg==
@@ -42,41 +92,22 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- delay: 863
-  name: 3,13|NL_speednode_0039
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇯🇵11 |  3.4MB/s
   network: ws
   port: 80
-  server: 45.131.5.233
+  server: 45.131.211.175
   servername: digitalscientificresearchgroup.ir
-  skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
+  udp: false
   uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
   ws-opts:
     headers:
       Host: digitalscientificresearchgroup.ir
-    path: /Telegram🇨🇳@WangCai2
-- alterId: 0
-  cipher: auto
-  name: 8,12|日本5|@ripaojiedian
-  network: tcp
-  port: '17233'
-  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇯🇵6 |  1.5MB/s
-  network: tcp
-  port: 17233
-  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
+    path: Telegram🇨🇳@WangCai2/?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
