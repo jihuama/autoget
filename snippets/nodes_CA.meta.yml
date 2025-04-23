@@ -1,37 +1,7 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 3|🇨🇦1 |  5.1MB/s
-  network: ws
-  port: 30825
-  raw:
-    add: v25.heduian.link
-    aid: 2
-    alpn: ''
-    fp: ''
-    host: baidu.com
-    id: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    net: ws
-    path: /oooo
-    port: 30825
-    ps: 0|🇨🇦2 |  5.5MB/s
-    scy: auto
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: v25.heduian.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇨🇦2 |  4.0MB/s
+  name: 3|🇨🇦2 |  2.0MB/s
   network: tcp
   port: 16011
   reality-opts:
@@ -41,10 +11,21 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- insecure: '1'
+  mport: ''
+  name: 3|🇨🇦3 |  2.3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  ports: ''
+  server: 132.145.108.102
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3,13|CA_speednode_0001
-  network: tcp
+  name: 13|CA_speednode_0001
   port: 42557
   reality-opts:
     public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo

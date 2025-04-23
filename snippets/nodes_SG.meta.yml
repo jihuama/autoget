@@ -5,50 +5,23 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬1 |  6.2MB/s
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 3|🇸🇬2 |  6.3MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
+  client-fingerprint: chrome
+  name: 3,11,13|CN_speednode_0018
+  password: 8e603038-3713-4c74-9b9c-43ad4cc15650
+  port: 57852
+  server: 120.232.153.40
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 9a871ebd-b399-36ab-8ab9-875c2db5158a
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3,8,12|新加坡|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
-  ws-headers:
-    Host: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  ws-path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬8 |  6.3MB/s
+  name: 3|🇸🇬2 |  6.2MB/s
   network: tcp
   port: 10778
   reality-opts:
@@ -58,21 +31,22 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- flow: ''
-  mode: ''
-  name: 3|🇸🇬9 |  3.7MB/s
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇸🇬5 |  5.6MB/s
   network: ws
-  port: 8443
-  server: 141.193.213.20
-  servername: premium.vkehi.shop
-  tls: true
-  type: vless
-  udp: false
-  uuid: c50f6c7f-d18e-47e8-8be0-9d12af7b8809
+  port: 2086
+  server: cdn1.bpcdn.cc
+  servername: sgtxv82wilpfh6a8vm.lovebaipiao.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
   ws-opts:
     headers:
-      Host: premium.vkehi.shop
-    path: ''
+      HOST: sgtxv82wilpfh6a8vm.lovebaipiao.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3,13|CN_speednode_0012
@@ -87,9 +61,38 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- auth: 82613a89cb5319d9
+  name: 3|🇸🇬8 |  3.8MB/s
+  password: 82613a89cb5319d9
+  port: 44874
+  server: 92.112.23.195
+  skip-cert-verify: true
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬9 |  4.5MB/s
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 3,8,12|新加坡2|@ripaojiedian
+  name: 8|11|🇸🇬 新加坡|@ripaojiedian
+  network: tcp
+  port: 17231
+  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 8|12|新加坡2|@ripaojiedian
   network: tcp
   port: '41902'
   server: 183.236.51.38
@@ -102,7 +105,7 @@ proxies:
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.221.216
+  server: 43.207.191.66
   tfo: false
   type: ss
 - name: 13|SG_speednode_0042
