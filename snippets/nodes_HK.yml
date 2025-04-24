@@ -1,9 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,8|2|🇭🇰3 |  1.1MB/s
+  name: 3|🇭🇰2 |  4.4MB/s
   network: tcp
   port: 15229
+  server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+  ws-headers:
+    Host: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰3 |  2.0MB/s
+  network: tcp
+  port: 15229
+  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  ws-headers:
+    Host: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇭🇰3 |  1.0MB/s
+  network: tcp
+  port: '15229'
   server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
   tls: false
   type: vmess
@@ -24,6 +50,16 @@ proxies:
   network: tcp
   port: '43674'
   server: 120.234.102.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 8,12|香港7|@ripaojiedian
+  network: tcp
+  port: '36609'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
@@ -77,17 +113,3 @@ proxies:
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,13|CN_speednode_0021
-  password: 78d4625c-4221-4496-ab62-729f0d05fa2c
-  port: 43497
-  server: sla.cn.964e995b760.gogodns.xin
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
-  tls: false
-  type: trojan
-  udp: true
-  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
