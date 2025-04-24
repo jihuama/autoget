@@ -5,10 +5,34 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|SG_speednode_0051
+  password: '!!str 3828095943467868160'
+  port: 443
+  server: stable-labrador.dolphin109.quest
+  skip-cert-verify: true
+  sni: stable-labrador.dolphin109.quest
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 8,12|新加坡3|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 8,11,12|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -22,21 +46,3 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.139.84
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡3|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
