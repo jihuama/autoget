@@ -1,14 +1,15 @@
 proxies:
-- name: 3|🇹🇼9 |  5.0MB/s
+- allowInsecure: ''
+  name: 3|🇹🇼5 |  1.4MB/s
   network: ws
   password: Aimer
-  port: 2083
-  server: 188.164.159.91
-  skip-cert-verify: true
+  port: 8443
+  server: 27.50.49.230
+  skip-cert-verify: false
   sni: epcca.ambercc.filegear-sg.me
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      host: epcca.ambercc.filegear-sg.me
+      Host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
