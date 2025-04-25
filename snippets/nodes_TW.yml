@@ -1,44 +1,5 @@
 proxies:
-- delay: 2342
-  name: 3|🇹🇼2 |  1.8MB/s
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 104.129.167.255
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epcca.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼4 |  3.7MB/s
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 154.211.8.109
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epcca.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼5 |  2.2MB/s
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 27.50.49.209
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epcca.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼6 |  6.3MB/s
+- name: 3|🇹🇼3 |  1.7MB/s
   network: ws
   password: Aimer
   port: 2096
@@ -51,11 +12,11 @@ proxies:
     headers:
       host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼9 |  1.2MB/s
+- name: 3|🇹🇼4 |  1.7MB/s
   network: ws
   password: Aimer
-  port: 2087
-  server: 154.211.8.227
+  port: 443
+  server: 103.116.7.235
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
@@ -64,21 +25,7 @@ proxies:
     headers:
       host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- delay: 1521
-  name: 3|🇹🇼11 |  2.9MB/s
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.36
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epcca.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼14 |  1.2MB/s
+- name: 3|🇹🇼6 |  1.2MB/s
   network: ws
   password: Aimer
   port: 443
@@ -91,20 +38,7 @@ proxies:
     headers:
       host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼18 |  1.4MB/s
-  network: ws
-  password: Aimer
-  port: 443
-  server: 154.17.224.83
-  skip-cert-verify: true
-  sni: epcca.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epcca.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼19 |  1.0MB/s
+- name: 3|🇹🇼8 |  1.2MB/s
   network: ws
   password: Aimer
   port: 2087
@@ -117,11 +51,49 @@ proxies:
     headers:
       host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼20 |  1.5MB/s
+- alterId: 0
+  cipher: auto
+  delay: 677
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇹🇼9 |  6.2MB/s
+  network: tcp
+  port: 3687
+  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+- delay: 2342
+  name: 3|🇹🇼10 |  5.0MB/s
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 104.129.167.255
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 3|🇹🇼11 |  1.2MB/s
   network: ws
   password: Aimer
   port: 2087
-  server: 46.254.93.134
+  server: 27.50.49.209
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 3|🇹🇼16 |  1.2MB/s
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 27.50.49.74
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan

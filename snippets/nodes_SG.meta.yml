@@ -5,27 +5,19 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0034
-  network: tcp
-  port: 56127
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-gcm
+  name: 3|🇸🇬1 |  6.0MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21115
+  server: okanc.node-is.green
+  type: ss
 - auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
-  name: 3|🇸🇬2 |  4.5MB/s
+  name: 3|🇸🇬2 |  3.0MB/s
   password: b543c066-2189-4aa4-8afb-445ac8ee28d4
   port: 35000
-  server: 152.69.220.212
+  server: 140.245.35.78
   skip-cert-verify: true
-  sni: api.push.apple.com
+  sni: www.apple.com
   type: hysteria2
 - alterId: 0
   cipher: auto
@@ -43,7 +35,7 @@ proxies:
   ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬4 |  5.3MB/s
+  name: 3|🇸🇬4 |  6.2MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -54,28 +46,17 @@ proxies:
   tls: true
   type: vless
   uuid: b543c066-2189-4aa4-8afb-445ac8ee28d4
-- cipher: aes-256-cfb
-  name: 3|🇸🇬5 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.169.209.123
-  type: ss
+- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  name: 3|🇸🇬6 |  3.7MB/s
+  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  port: 35000
+  server: 152.69.220.212
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇸🇬7 |  3.5MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: gkeUZppVQzutjGsRcsGMW8OrPHboJ3qRFpIvj8lcUj4
-    short-id: c174618d
-  server: pq.aws52.yydjc.top
-  servername: tv.apple.com
-  tls: true
-  type: vless
-  uuid: b543c066-2189-4aa4-8afb-445ac8ee28d4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇸🇬8 |  6.2MB/s
+  name: 3|🇸🇬7 |  6.2MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -86,15 +67,68 @@ proxies:
   tls: true
   type: vless
   uuid: b543c066-2189-4aa4-8afb-445ac8ee28d4
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇸🇬9 |  4.8MB/s
-  password: 67eOyIrV
-  port: 11503
-  server: 103.106.229.195
-  tfo: true
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬8 |  2.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gkeUZppVQzutjGsRcsGMW8OrPHboJ3qRFpIvj8lcUj4
+    short-id: c174618d
+  server: pq.aws52.yydjc.top
+  servername: tv.apple.com
+  tls: true
+  type: vless
+  uuid: b543c066-2189-4aa4-8afb-445ac8ee28d4
+- auth: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  name: 3|🇸🇬9 |  5.1MB/s
+  password: b543c066-2189-4aa4-8afb-445ac8ee28d4
+  port: 35000
+  server: 140.245.46.17
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+- client-fingerprint: chrome
+  delay: 1924
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0023
+  network: tcp
+  port: 29877
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0034
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬13 |  7.4MB/s
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
