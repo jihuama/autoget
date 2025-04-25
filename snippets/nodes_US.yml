@@ -189,24 +189,77 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- cipher: aes-256-cfb
-  name: 3|🇺🇸5 |  5.6MB/s
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  name: 3|🇺🇸1 |  5.4MB/s
+  network: ws
   port: 443
-  server: 54.244.175.56
-  type: ss
+  server: codepen.io
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f0991217-66ce-418d-8040-3e07af1e3eca
+  ws-opts:
+    headers:
+      Host: admin.kasrax.ir
+    path: /shs111.kejixiaoqi666.store/
+- alterId: 2
+  cipher: auto
+  name: 3,8|2|🇺🇸17 |  5.6MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-headers:
+    Host: zxjp-c.tkong.cc
+  ws-opts: {}
+  ws-path: /
 - cipher: aes-256-gcm
-  name: 3|🇺🇸6 |  5.5MB/s
-  password: amazonskr05
-  port: 80
-  server: 54.213.250.116
+  client-fingerprint: chrome
+  name: 3|🇺🇸13 |  4.8MB/s
+  password: Dv4gU61r
+  port: 13384
+  server: 54.235.183.175
+  tfo: true
   type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
+  name: 3|🇺🇸19 |  3.3MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,8|2|🇺🇸33 |  3.7MB/s
+  network: tcp
+  port: 5228
+  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 3|🇺🇸7 |  4.5MB/s
+  name: 3,8|2|🇺🇸7 |  4.5MB/s
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -220,41 +273,30 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 3|🇺🇸14 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.162.248.36
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸17 |  5.6MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: zxjp-c.tkong.cc
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 3|🇺🇸19 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.188.119.78
-  type: ss
 - cipher: aes-256-gcm
-  name: 3|🇺🇸23 |  4.0MB/s
+  client-fingerprint: chrome
+  name: 3|🇺🇸30 |  5.4MB/s
+  password: ymU5aLxZ
+  port: 31841
+  server: 172.245.232.170
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 3|🇺🇸31 |  4.8MB/s
   password: amazongreatvpn
   port: 443
-  server: 44.204.173.8
+  server: 34.219.82.5
+  type: ss
+- cipher: aes-256-gcm
+  name: 3|🇺🇸40 |  5.8MB/s
+  password: amazongreatvpn
+  port: 443
+  server: 13.52.214.17
   type: ss
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇺🇸6 |  5.7MB/s
+  name: 3,8|2|🇺🇸26 |  3.0MB/s
   network: tcp
   port: 5229
   server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
@@ -265,112 +307,6 @@ proxies:
   ws-headers:
     Host: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
   ws-path: /
-- cipher: aes-256-gcm
-  name: 3|🇺🇸28 |  5.2MB/s
-  password: amazongreatvpn
-  port: 443
-  server: 34.219.82.5
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,8|1|🇺🇸17 |  5.5MB/s
-  network: tcp
-  port: 5228
-  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- cipher: aes-256-cfb
-  name: 3|🇺🇸34 |  5.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.208.211.153
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|🇺🇸39 |  4.9MB/s
-  password: amazonskr05
-  port: 80
-  server: 52.12.84.118
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 8|1|🇺🇸16 |  1.3MB/s
-  network: ws
-  port: '30808'
-  server: v8.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 8|1|🇺🇸21 |  5.9MB/s
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 8,13|CN_speednode_0043
-  network: ws
-  port: 30808
-  server: v8.heduian.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v8.heduian.link
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 8|1|🇺🇸44 |  5.9MB/s
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸46 |  3.9MB/s
-  network: ws
-  port: 443
-  server: 45.194.53.81
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
-  ws-opts:
-    headers:
-      Host: 3sdfgvcxxx.938.pp.ua
-    path: /P879mtCoHQqaWO67qEaMINZ1
-- alterId: 2
-  cipher: auto
-  name: 8|1|🇺🇸52 |  5.8MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
 - alterId: 0
   cipher: auto
   name: 8,12|美国|@ripaojiedian
