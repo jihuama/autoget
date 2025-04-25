@@ -1,20 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 3,8|0|🇭🇰14 |  1.2MB/s
-  network: tcp
-  port: 15229
-  server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
-  ws-headers:
-    Host: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
-  ws-path: /
 - alterId: 2
   cipher: auto
-  name: 3|🇭🇰11 |  1.2MB/s
+  name: 3,8|2|🇭🇰11 |  1.2MB/s
   network: ws
   port: 8080
   server: 578e2eb9-svc1s0-t28b6o-ef48.hk3.p5pv.com
@@ -25,28 +12,62 @@ proxies:
     Host: broadcastlv.chat.bilibili.com
     User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
       (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+  ws-opts: {}
   ws-path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  ip-version: dual
-  name: 3,11,13|CN_speednode_0021
-  password: 78d4625c-4221-4496-ab62-729f0d05fa2c
-  port: 43497
-  server: sla.cn.964e995b760.gogodns.xin
+  name: 3|🇭🇰6 |  1.2MB/s
+  network: tcp
+  port: 15229
+  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
   skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  tfo: false
   tls: false
-  type: trojan
-  udp: true
-  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
+  type: vmess
+  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  ws-headers:
+    Host: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 8|0|🇭🇰5 |  2.0MB/s
+  name: 3|🇭🇰9 |  1.4MB/s
+  network: ws
+  port: 23023
+  raw:
+    add: 212.192.12.154
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 018474eb-864a-4fb6-9ee7-bcc51fb7e986
+    net: ws
+    path: /
+    port: '23023'
+    ps: 🇭🇰 --001-1K
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 212.192.12.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 018474eb-864a-4fb6-9ee7-bcc51fb7e986
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰11 |  6.2MB/s
+  password: 6nbr2lgt2hv
+  port: 56002
+  server: 99db71a1.z4f0d9i1c6-fb-hk02.6pzfwf.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇭🇰7 |  1.8MB/s
   network: tcp
-  port: '15229'
-  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  port: 15229
+  server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
   tls: false
   type: vmess
   uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
@@ -60,6 +81,16 @@ proxies:
   tls: false
   type: vmess
   uuid: b68f8c35-935e-444f-8944-291bf15a56a5
+- alterId: 0
+  cipher: auto
+  name: 8,12|香港5|@ripaojiedian
+  network: tcp
+  port: '41291'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 8,12|香港6|@ripaojiedian
