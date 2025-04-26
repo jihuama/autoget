@@ -1,52 +1,58 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3,11|🇭🇰 香港3|@ripaojiedian
+  password: 796EA43C-1A63-8C50-3745-FD3946149E4F
+  port: 21202
+  server: 910281.chasel.sbs
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇭🇰2 |  1.4MB/s
-  network: tcp
-  port: 15229
-  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
-  ws-headers:
-    Host: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇭🇰7 |  1.7MB/s
+  name: 3|🇭🇰9 |  1.4MB/s
   network: tcp
   port: 15229
   server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  ws-headers:
+    Host: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 8|13|香港3|@ripaojiedian
+  name: 8|2|🇭🇰2 |  1.3MB/s
   network: tcp
-  port: '57888'
-  server: 47.83.137.220
-  servername: ''
+  port: 4136
+  server: 02c32b60-sudhc0-sva30v-au6.d.volczijie.com
   tls: false
   type: vmess
-  uuid: b68f8c35-935e-444f-8944-291bf15a56a5
+  uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇭🇰12 |  4.6MB/s
+  network: tcp
+  port: 4138
+  server: 4b2f25cf-sudhc0-sva30v-au6.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇭🇰17 |  1.4MB/s
+  network: tcp
+  port: 15229
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 8,12|香港5|@ripaojiedian
   network: tcp
   port: '41291'
   server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 8|13|香港6|@ripaojiedian
-  network: tcp
-  port: '43674'
-  server: 120.234.102.229
   servername: ''
   tls: false
   type: vmess
@@ -98,13 +104,5 @@ proxies:
     tls: true
   port: 39170
   server: hkkh11v1.xpmc.cc
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
-  password: 796EA43C-1A63-8C50-3745-FD3946149E4F
-  port: 21202
-  server: 910281.chasel.sbs
   tfo: false
   type: ss
