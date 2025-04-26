@@ -1,12 +1,34 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3,11|🇭🇰 香港3|@ripaojiedian
-  password: 796EA43C-1A63-8C50-3745-FD3946149E4F
-  port: 21202
-  server: 910281.chasel.sbs
-  tfo: false
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 3|🇭🇰6 |  2.4MB/s
+  network: ws
+  port: 80
+  server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 3|🇭🇰9 |  1.0MB/s
+  network: ws
+  port: 80
+  server: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 8,12|香港5|@ripaojiedian
@@ -64,5 +86,13 @@ proxies:
     tls: true
   port: 39170
   server: hkkh11v1.xpmc.cc
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港3|@ripaojiedian
+  password: 796EA43C-1A63-8C50-3745-FD3946149E4F
+  port: 21202
+  server: 910281.chasel.sbs
   tfo: false
   type: ss
