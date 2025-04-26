@@ -1,4 +1,21 @@
 proxies:
+- name: 3|🇫🇷1 |  3.3MB/s
+  password: 45b46edb-679b-4ea5-befd-88c05bb94f80
+  port: 2056
+  server: fr3.eyucdn.xyz
+  skip-cert-verify: true
+  sni: fr3.eyucdn.xyz
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 3|🇫🇷2 |  1.7MB/s
+  network: tcp
+  port: 17235
+  server: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 3,8|1|🇫🇷1 |  1.8MB/s
@@ -8,26 +25,9 @@ proxies:
   tls: false
   type: vmess
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  delay: 1922
-  h2-opts: {}
-  http-opts: {}
-  name: 3,8|1|🇫🇷2 |  1.3MB/s
-  network: ws
-  port: 30837
-  server: v37.heduian.link
-  servername: ocbc.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇫🇷3 |  5.3MB/s
+  name: 3|🇫🇷4 |  4.8MB/s
   network: tcp
   port: 40072
   reality-opts:
@@ -37,3 +37,15 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  name: 8|1|🇫🇷2 |  1.3MB/s
+  network: ws
+  port: 30837
+  server: v37.heduian.link
+  servername: ocbc.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
