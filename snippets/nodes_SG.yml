@@ -5,9 +5,15 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-cfb
+  name: 3|🇸🇬1 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.132.112
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 3,8|0|🇸🇬8 |  3.5MB/s
+  name: 3,8|1|🇸🇬4 |  6.2MB/s
   network: tcp
   port: 17231
   raw:
@@ -31,45 +37,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇸🇬5 |  1.2MB/s
+  name: 8|1|🇸🇬5 |  1.2MB/s
   network: ws
   port: 21369
   server: a.886968.xyz
   servername: a.886968.xyz
-  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3
   ws-opts:
     headers:
       Host: a.886968.xyz
-    path: /wfdef
-- alterId: 0
-  cipher: auto
-  name: 8|0|🇸🇬4 |  2.6MB/s
-  network: ws
-  port: 43050
-  server: 152.69.220.94
-  servername: a.ziqiu1060.ggff.net
-  tls: true
-  type: vmess
-  uuid: 28ca0567-754e-46fc-e774-b19c787975f7
-  ws-opts:
-    headers:
-      Host: a.ziqiu1060.ggff.net
-    path: /dsfsdf
-- alterId: 0
-  cipher: auto
-  name: 8|0|🇸🇬6 |  1.5MB/s
-  network: ws
-  port: '21369'
-  server: a.886968.xyz
-  tls: true
-  type: vmess
-  uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3
-  ws-opts:
     path: /wfdef
 - alterId: 2
   cipher: auto
