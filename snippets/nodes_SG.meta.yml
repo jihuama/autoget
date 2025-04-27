@@ -5,15 +5,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- name: 3|🇸🇬1 |  1.0MB/s
-  network: tcp
-  password: fd693f7c-4160-41cc-9065-cbf9df5a12d4
-  port: 27401
-  server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   delay: 1924
   flow: xtls-rprx-vision
@@ -29,7 +20,7 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇸🇬3 |  5.1MB/s
+- name: 3|🇸🇬3 |  1.6MB/s
   network: tcp
   password: 2b03629a-0eab-41f4-bd1c-2558cdc03e2b
   port: 27401
@@ -38,20 +29,40 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇸🇬5 |  5.1MB/s
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3|🇸🇬6 |  1.9MB/s
+  network: tcp
+  password: 2e67a93d-04e7-45ff-a94f-0350f4301bd9
+  port: 42881
+  server: 183.2.150.98
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 8|1|🇸🇬1 |  2.6MB/s
-  network: ws
-  port: 443
-  server: sgfqkqmltcy.site
-  servername: sgfqkqmltcy.site
-  tls: true
+  name: 3|🇸🇬7 |  6.2MB/s
+  network: tcp
+  port: 17231
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: sgfqkqmltcy.site
-    path: /rbqqvws
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+  ws-headers:
+    Host: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  ws-path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
