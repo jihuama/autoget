@@ -190,68 +190,8 @@ proxies:
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
 - client-fingerprint: chrome
-  name: 3|🇺🇸1 |  5.5MB/s
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 443
-  server: 35806ac4-svc1s0-t1bnjq-1krtb.los.gotochinatown.net
-  sni: 35806ac4-svc1s0-t1bnjq-1krtb.los.gotochinatown.net
-  tls: true
-  type: http
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 3|🇺🇸2 |  2.8MB/s
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  port: 443
-  server: 07f52356-svfr40-swy6li-tni2.sj.gotochinatown.net
-  tls: true
-  type: http
-  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 3|🇺🇸3 |  5.6MB/s
-  port: 11512
-  server: 108.181.24.77
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000 Mbps
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  mode: ''
-  name: 3|🇺🇸4 |  5.3MB/s
-  network: tcp
-  port: 57355
-  reality-opts:
-    public-key: d-G52RaxhX8PN553Oa8wBPu7XG25_6lO-aThcOqNby4
-    short-id: 34548d
-  server: 172.82.67.156
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 274fc521-1b7a-43ce-a425-2f1a34a7ca6d
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,8|1|🇺🇸17 |  5.6MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸6 |  4.5MB/s
+  name: 3|🇺🇸1 |  2.6MB/s
   network: tcp
   port: 40430
   reality-opts:
@@ -263,54 +203,61 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇺🇸59 |  5.3MB/s
+  name: 3,8|1|🇺🇸51 |  3.6MB/s
+  network: tcp
+  port: '5228'
+  server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  ws-headers:
+    Host: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
+  ws-path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸3 |  1.8MB/s
+  network: tcp
+  port: 38302
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇺🇸4 |  5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.184.71.212
+  type: ss
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  client-fingerprint: chrome
+  name: 3|🇺🇸5 |  2.8MB/s
   network: ws
   port: 443
-  server: xc147-2.meiziba5566.com
-  servername: xc147-2.meiziba5566.com
+  server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
+  servername: us.4056860.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: vmess
-  uuid: c26f81db-422e-48e5-8324-0970dde4553f
+  type: vless
+  uuid: bc2a2e87-e34b-4126-91ce-e7bccdafc4d4
   ws-opts:
     headers:
-      Host: xc147-2.meiziba5566.com
-    path: /c26f81db
-- name: 3|🇺🇸8 |  3.8MB/s
+      Host: us.4056860.xyz
+    path: /ws
+- name: 3|🇺🇸6 |  5.5MB/s
   port: 443
-  server: 2be2e542-svc1s0-swy6li-tni2.sj.gotochinatown.net
+  server: 61209291-svc1s0-t28b6o-ef48.sj.gotochinatown.net
   tls: true
   type: socks5
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 3|🇺🇸9 |  3.8MB/s
-  port: 17549
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  up: 11 Mbps
-- country: 🇺🇸US
-  delay: 1108
-  name: 3|🇺🇸10 |  1.6MB/s
-  password: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b
-  port: 8443
-  server: dad5fcbe-sv4n40-t0hae4-1curq.hy2.gotochinatown.net
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
-- auth: 80aa5178-f936-11ed-8ce6-f23c91369f2d
-  name: 3|🇺🇸11 |  1.6MB/s
-  password: 80aa5178-f936-11ed-8ce6-f23c91369f2d
-  port: 8443
-  server: c26d0357-supts0-tfvcxz-1nq4g.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: c26d0357-supts0-tfvcxz-1nq4g.hy2.gotochinatown.net
-  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 3,8|1|🇺🇸12 |  5.7MB/s
+  name: 3,8|1|🇺🇸12 |  5.6MB/s
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -322,89 +269,104 @@ proxies:
     Host: zxjp-a.tkong.cc
   ws-opts: {}
   ws-path: /
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 3|🇺🇸8 |  5.1MB/s
+  port: 17549
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
+- name: 3|🇺🇸9 |  5.5MB/s
+  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  port: 443
+  server: 88316701-svhls0-t28b6o-ef48.los.gotochinatown.net
+  tls: true
+  type: http
+  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇺🇸1 |  5.9MB/s
+  name: 3|🇺🇸21 |  3.3MB/s
   network: tcp
-  port: 5229
-  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  port: 5228
+  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
   ws-headers:
-    Host: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+    Host: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  delay: 2373
-  h2-opts: {}
-  http-opts: {}
-  name: 3,8|1|🇺🇸44 |  3.9MB/s
-  network: ws
+- name: 3|🇺🇸11 |  5.6MB/s
   port: 443
-  server: codepen.io
-  servername: fastclubcloud.alpha-panel.ir
-  skip-cert-verify: true
+  server: 5e26927f-svfr40-swy6li-tni2.los.gotochinatown.net
   tls: true
-  type: vmess
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    path: /1WWeeRtTt.131.PP.ua/h7Rcu0y30lhjdVjJ3gc4aj
-- country: 🇺🇸US
-  delay: 1307
-  name: 3|🇺🇸16 |  1.1MB/s
-  password: 40639730-e027-11ea-87ad-f23c913c8d2b
-  port: 8443
-  server: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: fe021254-suk9s0-sve5if-z93q.hy2.gotochinatown.net
-  type: hysteria2
-  udp: true
-- name: 3|🇺🇸17 |  1.5MB/s
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 1sdfghjk.890602.xyz
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1SdfghJk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
+  type: socks5
 - client-fingerprint: chrome
-  name: 3|🇺🇸18 |  5.1MB/s
+  name: 3|🇺🇸12 |  2.4MB/s
   password: dongtaiwang.com
   port: 65232
   server: 108.181.5.130
   skip-cert-verify: true
   sni: apple.com
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸19 |  5.2MB/s
-  network: tcp
-  port: 25479
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: vip.jddns0202.top
-  servername: www.yahoo.com
+- name: 3|🇺🇸13 |  5.5MB/s
+  port: 443
+  server: 80fe2901-svc1s0-swy6li-tni2.los.gotochinatown.net
   tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+  type: socks5
+- name: 3|🇺🇸14 |  5.4MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 443
+  server: 07f52356-svfr40-swy6li-tni2.sj.gotochinatown.net
+  tls: true
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: 1000 Mbps
+  name: 3|🇺🇸15 |  6.0MB/s
+  port: 11512
+  server: 108.181.24.77
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 1000 Mbps
+- auth: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  client-fingerprint: chrome
+  name: 3|🇺🇸16 |  1.6MB/s
+  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  port: 8443
+  server: 444a49aa-surog0-sxm4ot-zn8y.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 444a49aa-surog0-sxm4ot-zn8y.hy2.gotochinatown.net
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇺🇸22 |  5.7MB/s
+  name: 3|🇺🇸17 |  5.0MB/s
   network: tcp
   port: 5229
-  server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
+  server: 73618903-svhls0-t1bnjq-1krtb.cu.plebai.net
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- client-fingerprint: chrome
+  name: 3|🇺🇸18 |  4.2MB/s
+  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  port: 443
+  server: e0616d84-svfr40-t28b6o-ef48.sj.gotochinatown.net
+  sni: e0616d84-svfr40-t28b6o-ef48.sj.gotochinatown.net
+  tls: true
+  type: http
+  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - country: 🇺🇸US
   delay: 1290
-  name: 3|🇺🇸21 |  4.8MB/s
+  name: 3|🇺🇸19 |  4.9MB/s
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
@@ -412,117 +374,31 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   udp: true
-- cipher: aes-256-cfb
-  name: 3|🇺🇸22 |  5.7MB/s
-  password: amazonskr05
+- name: 3|🇺🇸20 |  5.4MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 443
-  server: 54.190.1.15
-  type: ss
-- name: 3|🇺🇸23 |  1.8MB/s
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 104.21.69.41
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1SdfghJk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- country: 🇺🇸US
-  delay: 1297
-  name: 3|🇺🇸24 |  1.4MB/s
-  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-  port: 8443
-  server: 4dbb0b72-sv8cg0-t5fh9u-1uni.hy2.gotochinatown.net
-  skip-cert-verify: false
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸25 |  1.1MB/s
-  network: tcp
-  port: 57926
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: gateway.icloud.com
+  server: 0b366624-svdwg0-swy6li-tni2.sj.gotochinatown.net
   tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 3,8|1|🇺🇸5 |  4.5MB/s
-  network: ws
-  port: '443'
-  server: xc011-2.meiziba5566.com
-  tls: true
-  type: vmess
-  uuid: 42576a04-5a4d-4c7e-fcb4-a8582ab46031
-  ws-opts:
-    path: /xc1234
-- name: 3|🇺🇸28 |  4.5MB/s
-  port: 443
-  server: db402f78-svfr40-t1bnjq-1krtb.los.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 3|🇺🇸29 |  5.7MB/s
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- name: 3|🇺🇸22 |  5.7MB/s
   password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
   port: 443
-  server: e0616d84-svfr40-t28b6o-ef48.sj.gotochinatown.net
+  server: c2284d70-svhls0-t28b6o-ef48.sj.gotochinatown.net
   tls: true
   type: http
   username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 2
-  cipher: auto
-  name: 3,8|1|🇺🇸26 |  3.2MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: zxjp-c.tkong.cc
-  ws-opts: {}
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 3,8|1|🇺🇸36 |  3.5MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇺🇸32 |  1.2MB/s
-  password: QiuC2UiY
-  port: 19360
-  server: 5.34.178.225
-  tfo: true
-  type: ss
-  udp: true
-- name: 3,13|US_speednode_0071
-  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- name: 3|🇺🇸23 |  5.2MB/s
+  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
   port: 443
-  server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net
+  server: 6c39e127-svdwg0-t28b6o-ef48.sj.gotochinatown.net
   tls: true
   type: http
-  udp: true
-  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - client-fingerprint: ios
   flow: ''
   mode: ''
-  name: 3|🇺🇸34 |  5.9MB/s
+  name: 3|🇺🇸24 |  5.7MB/s
   network: ws
   port: 443
   server: 104.18.20.69
@@ -537,7 +413,318 @@ proxies:
     path: /pq/us5
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇺🇸21 |  4.4MB/s
+  name: 3|🇺🇸25 |  3.9MB/s
+  network: tcp
+  port: 5229
+  server: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 3|🇺🇸26 |  2.2MB/s
+  port: 443
+  server: 3d772104-svdwg0-t1bnjq-1krtb.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- alterId: 2
+  cipher: auto
+  name: 3,8|1|🇺🇸31 |  5.8MB/s
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- country: 🇺🇸US
+  delay: 1297
+  name: 3|🇺🇸28 |  1.1MB/s
+  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+  port: 8443
+  server: 4dbb0b72-sv8cg0-t5fh9u-1uni.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: 4dbb0b72-sv8cg0-t5fh9u-1uni.hy2.gotochinatown.net
+  type: hysteria2
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 3,8|1|🇺🇸30 |  4.8MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-headers:
+    Host: tk.hzlt.tkddns.xyz
+  ws-opts: {}
+  ws-path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸31 |  3.8MB/s
+  network: tcp
+  port: 22054
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 3,8|1|🇺🇸13 |  5.6MB/s
+  network: tcp
+  port: 5229
+  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  ws-headers:
+    Host: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  ws-path: /
+- name: 3|🇺🇸33 |  5.5MB/s
+  port: 443
+  server: e3c570fd-svhls0-swy6li-tni2.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|CN_speednode_0032
+  network: tcp
+  port: 38302
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: vip.jddns0202.top
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,8|1|🇺🇸15 |  5.8MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- name: 3|🇺🇸37 |  4.2MB/s
+  port: 443
+  server: db402f78-svfr40-t1bnjq-1krtb.los.gotochinatown.net
+  tls: true
+  type: socks5
+- client-fingerprint: chrome
+  name: 3|🇺🇸38 |  2.8MB/s
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  port: 443
+  server: 35806ac4-svc1s0-t1bnjq-1krtb.los.gotochinatown.net
+  sni: 35806ac4-svc1s0-t1bnjq-1krtb.los.gotochinatown.net
+  tls: true
+  type: http
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- client-fingerprint: chrome
+  name: 3|🇺🇸39 |  4.6MB/s
+  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+  port: 443
+  server: f130abb9-svfr40-t28b6o-ef48.los.gotochinatown.net
+  sni: f130abb9-svfr40-t28b6o-ef48.los.gotochinatown.net
+  tls: true
+  type: http
+  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- name: 3|🇺🇸40 |  5.3MB/s
+  network: ws
+  password: redfree8
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: ipsychO.SUEx12.Ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ipsychO.SUEx12.Ir
+    path: /trre5IzbZ9IZZMddtw?ed=2560
+- name: 3|🇺🇸41 |  5.3MB/s
+  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  port: 443
+  server: 05fcb8e9-svhls0-t1bnjq-1krtb.los.gotochinatown.net
+  tls: true
+  type: http
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- name: 3|🇺🇸42 |  5.4MB/s
+  port: 443
+  server: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
+  tls: true
+  type: socks5
+- auth: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
+  name: 3|🇺🇸43 |  1.1MB/s
+  password: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
+  port: 8443
+  server: b6ea3219-supts0-swbd0b-716s.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: b6ea3219-supts0-swbd0b-716s.hy2.gotochinatown.net
+  type: hysteria2
+- country: 🇺🇸US
+  delay: 1296
+  name: 3|🇺🇸44 |  1.1MB/s
+  password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+  port: 8443
+  server: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
+  skip-cert-verify: false
+  sni: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
+  type: hysteria2
+  udp: true
+- name: 3|🇺🇸46 |  5.6MB/s
+  port: 443
+  server: d34be828-svc1s0-t1bnjq-1krtb.sj.gotochinatown.net
+  tls: true
+  type: socks5
+- name: 3|🇺🇸47 |  4.5MB/s
+  port: 443
+  server: 678aeea8-svhls0-swy6li-tni2.los.gotochinatown.net
+  tls: true
+  type: socks5
+- alterId: 0
+  cipher: auto
+  name: 3,8|1|🇺🇸20 |  4.9MB/s
+  network: tcp
+  port: 5229
+  server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  name: 3|🇺🇸49 |  1.4MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-headers:
+    Host: zxjp-b.tkong.cc
+  ws-path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸50 |  5.6MB/s
+  network: tcp
+  port: 27932
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇺🇸51 |  1.7MB/s
+  network: tcp
+  port: 50200
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3,13|US_speednode_0071
+  password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+  port: 443
+  server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net
+  tls: true
+  type: http
+  udp: true
+  username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+- cipher: aes-256-gcm
+  name: 3|🇺🇸54 |  5.3MB/s
+  password: amazonskr05
+  port: 80
+  server: 34.217.76.83
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 3|🇺🇸55 |  3.2MB/s
+  network: tcp
+  port: 5228
+  server: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- name: 3|🇺🇸56 |  5.6MB/s
+  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  port: 443
+  server: dbd2bf6a-svdwg0-swy6li-tni2.los.gotochinatown.net
+  tls: true
+  type: http
+  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇺🇸7 |  3.3MB/s
+  network: ws
+  port: 443
+  server: xc147-2.meiziba5566.com
+  servername: xc147-2.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: c26f81db-422e-48e5-8324-0970dde4553f
+  ws-opts:
+    headers:
+      Host: xc147-2.meiziba5566.com
+    path: /c26f81db
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇺🇸14 |  1.1MB/s
+  network: ws
+  port: 443
+  server: codepen.io
+  servername: fastclubcloud.alpha-panel.ir
+  tls: true
+  type: vmess
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  ws-opts:
+    path: /1WWeeRtTt.131.PP.ua/h7Rcu0y30lhjdVjJ3gc4aj
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇺🇸26 |  1.1MB/s
+  network: ws
+  port: '443'
+  server: xc011-2.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 42576a04-5a4d-4c7e-fcb4-a8582ab46031
+  ws-opts:
+    path: /xc1234
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇺🇸27 |  5.7MB/s
+  network: tcp
+  port: 23602
+  server: 38.102.235.36
+  tls: false
+  type: vmess
+  uuid: 18b3b300-7bc4-4ee6-8806-dbde3bba84ac
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇺🇸35 |  2.4MB/s
   network: ws
   port: 443
   server: yymg02.haibo168.com
@@ -549,39 +736,9 @@ proxies:
     headers:
       Host: yymg02.haibo168.com
     path: /yymg1234
-- auth: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  name: 3|🇺🇸36 |  1.1MB/s
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  port: 8443
-  server: 74f0ee85-suk9s0-swtza9-1q91p.hy2.gotochinatown.net
-  skip-cert-verify: false
-  sni: 74f0ee85-suk9s0-swtza9-1q91p.hy2.gotochinatown.net
-  type: hysteria2
-- name: 3|🇺🇸37 |  4.4MB/s
-  port: 443
-  server: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
-  tls: true
-  type: socks5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸38 |  6.1MB/s
-  network: tcp
-  port: 22054
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇺🇸39 |  4.5MB/s
-  port: 443
-  server: 61209291-svc1s0-t28b6o-ef48.sj.gotochinatown.net
-  tls: true
-  type: socks5
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸40 |  1.0MB/s
+  name: 8|1|🇺🇸40 |  1.0MB/s
   network: ws
   port: '443'
   server: xc147-2.meiziba5566.com
@@ -589,197 +746,20 @@ proxies:
   type: vmess
   uuid: c26f81db-422e-48e5-8324-0970dde4553f
   ws-opts:
-    headers:
-      host: xc147-2.meiziba5566.com
     path: /c26f81db
-- name: 3|🇺🇸41 |  5.4MB/s
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 443
-  server: e320d05b-svdwg0-t1bnjq-1krtb.los.gotochinatown.net
-  tls: true
-  type: http
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- cipher: aes-256-cfb
-  name: 3|🇺🇸42 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 44.248.72.70
-  type: ss
-- name: 3|🇺🇸43 |  5.7MB/s
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  port: 443
-  server: dbd2bf6a-svdwg0-swy6li-tni2.los.gotochinatown.net
-  tls: true
-  type: http
-  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- name: 3|🇺🇸44 |  4.9MB/s
-  port: 443
-  server: ec2e7c65-svdwg0-t28b6o-ef48.los.gotochinatown.net
-  tls: true
-  type: socks5
-- cipher: aes-256-cfb
-  name: 3|🇺🇸45 |  1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.184.71.212
-  type: ss
-- name: 3|🇺🇸47 |  4.5MB/s
-  port: 443
-  server: d8f8c1e0-svfr40-t1bnjq-1krtb.sj.gotochinatown.net
-  tls: true
-  type: socks5
-- name: 3|🇺🇸48 |  4.5MB/s
-  port: 443
-  server: 3d772104-svdwg0-t1bnjq-1krtb.sj.gotochinatown.net
-  tls: true
-  type: socks5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇺🇸49 |  4.8MB/s
-  network: tcp
-  port: 29023
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 3,8|1|🇺🇸32 |  3.6MB/s
-  network: tcp
-  port: '5228'
-  server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alpn:
-  - h3%2Ch2%2Chttp%2F1.1
-  client-fingerprint: chrome
-  name: 3|🇺🇸52 |  2.9MB/s
-  network: ws
-  port: 443
-  server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
-  servername: us.4056860.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: bc2a2e87-e34b-4126-91ce-e7bccdafc4d4
-  ws-opts:
-    headers:
-      Host: us.4056860.xyz
-    path: /ws
 - alterId: 2
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 3,8|1|🇺🇸55 |  1.5MB/s
+  name: 8|1|🇺🇸53 |  1.8MB/s
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
       Host: zxjp-b.tkong.cc
     path: /
-- name: 3|🇺🇸54 |  5.7MB/s
-  password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-  port: 443
-  server: f130abb9-svfr40-t28b6o-ef48.los.gotochinatown.net
-  tls: true
-  type: http
-  username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- name: 3|🇺🇸55 |  5.4MB/s
-  port: 443
-  server: 80fe2901-svc1s0-swy6li-tni2.los.gotochinatown.net
-  tls: true
-  type: socks5
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸2 |  5.7MB/s
-  network: tcp
-  port: 5228
-  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸3 |  5.2MB/s
-  network: ws
-  port: 443
-  server: xcf037.facai2024.com
-  servername: xcf037.facai2024.com
-  tls: true
-  type: vmess
-  uuid: d9863037-0463-4615-e972-36ba9662d1e9
-  ws-opts:
-    path: /d9863037
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸11 |  2.7MB/s
-  network: ws
-  port: 443
-  server: hk2.rtmp.online
-  tls: true
-  type: vmess
-  uuid: d0fd87cb-5839-4662-b7dc-1ec9f75fca43
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: 8|1|🇺🇸13 |  5.2MB/s
-  network: tcp
-  port: 50009
-  server: 142.4.116.177
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸31 |  5.4MB/s
-  network: tcp
-  port: 25646
-  server: 157.254.227.168
-  tls: false
-  type: vmess
-  uuid: b53dea0b-748f-4247-9f50-c755ac728787
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸40 |  5.8MB/s
-  network: tcp
-  port: 23602
-  server: 38.102.235.36
-  tls: false
-  type: vmess
-  uuid: 18b3b300-7bc4-4ee6-8806-dbde3bba84ac
-- alterId: 2
-  cipher: auto
-  name: 8|1|🇺🇸41 |  2.4MB/s
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v29.heduian.link
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸42 |  2.7MB/s
-  network: tcp
-  port: 49930
-  server: 65.75.194.28
-  tls: false
-  type: vmess
-  uuid: 75191b1e-74a5-4f54-ad94-3bc09ff61322
 - alterId: 0
   cipher: auto
   name: 8,12|美国|@ripaojiedian
