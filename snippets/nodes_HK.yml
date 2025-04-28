@@ -1,17 +1,44 @@
 proxies:
-- name: 3|🇭🇰4 |  1.5MB/s
-  network: tcp
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: 183.232.235.2
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇭🇰2 |  2.7MB/s
+  network: ws
+  port: 80
+  server: 7c354dbb-sv2sg0-svak69-1f9n2.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
-  sni: hk-13-568.flztjc.net
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: 0770871c-2e28-11ec-9ee8-f23c913c8d2b
+  ws-headers:
+    HOST: broadcastlv.chat.bilibili.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 3|🇭🇰4 |  1.2MB/s
+  network: ws
+  port: 80
+  server: 7c354dbb-sv2sg0-svak69-1f9n2.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 0770871c-2e28-11ec-9ee8-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3|🇭🇰10 |  1.5MB/s
+  password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f
+  port: 30018
+  server: 114.132.40.118
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 3,8,11,12|香港3|@ripaojiedian
+  name: 8,11,12|香港3|@ripaojiedian
   network: ws
   port: '8102'
   server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com
