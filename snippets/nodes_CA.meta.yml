@@ -1,20 +1,36 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 3|🇨🇦1 |  5.7MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v25.heduian.link
+    path: /oooo
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇨🇦2 |  1.8MB/s
+  network: tcp
+  port: 16011
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 3|🇨🇦1 |  4.6MB/s
+  name: 3|🇨🇦3 |  1.4MB/s
   password: pHvYevSM
   port: 24119
   server: 15.156.196.38
   tfo: true
   type: ss
-  udp: true
-- country: 🇨🇦CA
-  delay: 2256
-  name: 3|🇨🇦2 |  2.0MB/s
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 132.145.108.102
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
   udp: true
