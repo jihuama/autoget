@@ -1,21 +1,9 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇹🇼1 |  4.9MB/s
-  network: tcp
-  port: 41572
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: vip.jddns0202.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇹🇼2 |  3.5MB/s
+- name: 3|🇹🇼1 |  4.9MB/s
   network: ws
   password: Aimer
-  port: 2087
-  server: 161.145.150.26
+  port: 443
+  server: 159.54.173.8
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
@@ -26,7 +14,34 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼3 |  5.3MB/s
+  name: 3,13|CN_speednode_0013
+  network: tcp
+  port: 15823
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3|🇹🇼3 |  1.4MB/s
+  network: ws
+  password: Aimer
+  port: 443
+  server: 141.11.203.168
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇹🇼4 |  6.2MB/s
   network: tcp
   port: 12477
   reality-opts:
@@ -36,11 +51,11 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇹🇼4 |  5.8MB/s
+- name: 3|🇹🇼5 |  2.1MB/s
   network: ws
   password: Aimer
-  port: 443
-  server: 159.54.173.8
+  port: 8443
+  server: 192.200.160.19
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
