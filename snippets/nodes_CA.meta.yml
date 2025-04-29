@@ -1,20 +1,42 @@
 proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 3|🇨🇦1 |  1.4MB/s
+  name: 3|🇨🇦1 |  1.7MB/s
   password: pHvYevSM
   port: 24119
   server: 15.156.196.38
   tfo: true
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 3|🇨🇦2 |  3.0MB/s
+  network: ws
+  port: 16641
+  server: t.cnmjcn.cyou
+  tls: false
+  type: vmess
+  uuid: 46dce50f-cb9a-45d0-99f8-0107ea567bf2
+  ws-opts:
+    headers:
+      Host: bba63bf2557b0311d6adf64bf4d56c8b.mobgslb.tbcache.com
+    path: /
+- auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  delay: 1674
+  name: 3|🇨🇦3 |  1.1MB/s
+  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  port: 30300
+  server: 155.248.219.28
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 3|🇨🇦2 |  5.5MB/s
+  name: 8|0|🇨🇦2 |  5.5MB/s
   network: ws
   port: 30825
   server: v25.heduian.link
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

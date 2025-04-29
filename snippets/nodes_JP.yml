@@ -1,43 +1,7 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 3|🇯🇵2 |  2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.151.136
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇯🇵9 |  5.7MB/s
-  network: tcp
-  port: 17233
-  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇯🇵4 |  4.5MB/s
-  password: nHUXPsJ6
-  port: 30323
-  server: 13.113.80.125
-  tfo: true
-  type: ss
-  udp: true
-- allowInsecure: '1'
-  name: 3|🇯🇵10 |  2.5MB/s
-  network: original
-  password: 20cc1a99-a26e-4c6b-b0be-1ed331b0c271
-  port: 28507
-  server: 220.130.58.136
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 3|🇯🇵13 |  4.2MB/s
+  name: 3,8|0|🇯🇵13 |  4.2MB/s
   network: tcp
   port: 17233
   server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
@@ -48,22 +12,21 @@ proxies:
   ws-headers:
     Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   ws-path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 3,11|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504281461390-eUluP1Ncv7.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇯🇵10 |  5.3MB/s
-  network: tcp
-  port: 17233
-  server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 3,8|1|🇯🇵7 |  5.8MB/s
+  name: 3,8|0|🇯🇵16 |  5.9MB/s
   network: tcp
   port: 17233
   server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
@@ -76,19 +39,19 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 8|1|🇯🇵1 |  5.9MB/s
+  name: 8|0|🇯🇵3 |  1.7MB/s
   network: tcp
   port: 17233
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 8|1|🇯🇵6 |  1.6MB/s
+  name: 8|0|🇯🇵15 |  5.8MB/s
   network: tcp
   port: 17233
-  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
@@ -111,20 +74,6 @@ proxies:
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 8|12,13|日本5|@ripaojiedian
-  network: ws
-  port: '1053'
-  server: 198.13.44.24
-  servername: vu-tokyo-01.vnode.info
-  tls: true
-  type: vmess
-  uuid: 5147a5d1-ae9b-407e-8e27-8a4e333df4b0
-  ws-opts:
-    headers:
-      Host: vu-tokyo-01.vnode.info
-    path: /
-- alterId: 0
-  cipher: auto
   name: 8,12|日本5|@ripaojiedian
   network: kcp
   port: '53893'
@@ -133,18 +82,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504281461390-eUluP1Ncv7.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇯🇵 日本2|@ripaojiedian

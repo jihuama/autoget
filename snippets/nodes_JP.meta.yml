@@ -1,32 +1,41 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 3|🇯🇵2 |  2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.151.136
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇯🇵9 |  5.7MB/s
+  name: 3,8|0|🇯🇵13 |  4.2MB/s
   network: tcp
   port: 17233
-  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   ws-headers:
-    Host: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
+    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   ws-path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇯🇵4 |  4.5MB/s
-  password: nHUXPsJ6
-  port: 30323
-  server: 13.113.80.125
-  tfo: true
-  type: ss
-  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵2 |  5.6MB/s
+  network: tcp
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵3 |  3.4MB/s
+  network: tcp
+  port: 25768
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3,13|CN_speednode_0032
@@ -41,9 +50,71 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 3,11|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504281461390-eUluP1Ncv7.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- name: 3,13|US_speednode_0052
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: redfree8mahsang6.redfree8.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8mahsang6.redfree8.ir
+    path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵6 |  1.6MB/s
+  name: 3|🇯🇵8 |  6.0MB/s
+  network: tcp
+  port: 48121
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵9 |  5.5MB/s
+  network: tcp
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵10 |  4.5MB/s
+  network: tcp
+  port: 31735
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵12 |  5.9MB/s
   network: tcp
   port: 13989
   reality-opts:
@@ -55,13 +126,13 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵8 |  6.3MB/s
+  name: 3|🇯🇵13 |  4.7MB/s
   network: tcp
-  port: 35659
+  port: 14548
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: gateway.icloud.com
+  server: vip.jddns0202.top
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
@@ -74,79 +145,9 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- allowInsecure: '1'
-  name: 3|🇯🇵10 |  2.5MB/s
-  network: original
-  password: 20cc1a99-a26e-4c6b-b0be-1ed331b0c271
-  port: 28507
-  server: 220.130.58.136
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵11 |  6.0MB/s
-  network: tcp
-  port: 13989
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵12 |  5.9MB/s
-  network: tcp
-  port: 16497
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 3|🇯🇵13 |  4.2MB/s
-  network: tcp
-  port: 17233
-  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵14 |  3.2MB/s
-  network: tcp
-  port: 11839
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 3,8|1|🇯🇵10 |  5.3MB/s
-  network: tcp
-  port: 17233
-  server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 3,8|1|🇯🇵7 |  5.8MB/s
+  name: 3,8|0|🇯🇵16 |  5.9MB/s
   network: tcp
   port: 17233
   server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
@@ -159,7 +160,7 @@ proxies:
   ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵17 |  2.3MB/s
+  name: 3|🇯🇵17 |  3.8MB/s
   network: tcp
   port: 17278
   reality-opts:
@@ -171,19 +172,19 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 8|1|🇯🇵1 |  5.9MB/s
+  name: 8|0|🇯🇵3 |  1.7MB/s
   network: tcp
   port: 17233
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 8|1|🇯🇵6 |  1.6MB/s
+  name: 8|0|🇯🇵15 |  5.8MB/s
   network: tcp
   port: 17233
-  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
@@ -206,20 +207,6 @@ proxies:
     path: /nmkj
 - alterId: 0
   cipher: auto
-  name: 8|12,13|日本5|@ripaojiedian
-  network: ws
-  port: '1053'
-  server: 198.13.44.24
-  servername: vu-tokyo-01.vnode.info
-  tls: true
-  type: vmess
-  uuid: 5147a5d1-ae9b-407e-8e27-8a4e333df4b0
-  ws-opts:
-    headers:
-      Host: vu-tokyo-01.vnode.info
-    path: /
-- alterId: 0
-  cipher: auto
   name: 8,12|日本5|@ripaojiedian
   network: kcp
   port: '53893'
@@ -228,18 +215,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504281461390-eUluP1Ncv7.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇯🇵 日本2|@ripaojiedian
