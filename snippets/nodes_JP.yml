@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 3|🇯🇵2 |  2.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.151.136
+  type: ss
 - alterId: 0
   cipher: auto
   name: 3,8|1|🇯🇵9 |  5.7MB/s
@@ -12,54 +18,35 @@ proxies:
   ws-headers:
     Host: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   ws-path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3,11,13|US_speednode_0056
-  password: '!!str 74260678056890000'
-  port: 23602
-  server: 38.102.235.36
-  skip-cert-verify: false
-  sni: grown-doberman.shiner427.skin
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18b3b300-7bc4-4ee6-8806-dbde3bba84ac
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 3|🇯🇵5 |  5.8MB/s
+  name: 3|🇯🇵4 |  4.5MB/s
   password: nHUXPsJ6
   port: 30323
   server: 13.113.80.125
   tfo: true
   type: ss
   udp: true
+- allowInsecure: '1'
+  name: 3|🇯🇵10 |  2.5MB/s
+  network: original
+  password: 20cc1a99-a26e-4c6b-b0be-1ed331b0c271
+  port: 28507
+  server: 220.130.58.136
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 3|🇯🇵7 |  4.0MB/s
-  network: ws
-  port: 35243
-  server: jp3.vip2.g2.moonbase.life
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      host: web.xcjs.info
-    path: /home
-- alterId: 0
-  cipher: auto
-  name: 3,8|1|🇯🇵1 |  5.9MB/s
+  name: 3|🇯🇵13 |  4.2MB/s
   network: tcp
   port: 17233
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   ws-headers:
-    Host: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -76,17 +63,26 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 3|🇯🇵18 |  2.0MB/s
+  name: 3,8|1|🇯🇵7 |  5.8MB/s
   network: tcp
   port: 17233
-  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
   ws-headers:
-    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+    Host: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇯🇵1 |  5.9MB/s
+  network: tcp
+  port: 17233
+  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 8|1|🇯🇵6 |  1.6MB/s
@@ -96,15 +92,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇯🇵7 |  5.8MB/s
-  network: tcp
-  port: 17233
-  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -124,14 +111,11 @@ proxies:
     path: /nmkj
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|日本5|@ripaojiedian
+  name: 8|12,13|日本5|@ripaojiedian
   network: ws
   port: '1053'
   server: 198.13.44.24
   servername: vu-tokyo-01.vnode.info
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 5147a5d1-ae9b-407e-8e27-8a4e333df4b0
@@ -141,7 +125,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,12|日本6|@ripaojiedian
+  name: 8,12|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -155,7 +139,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504271541968-w4fkyyqQBp.download.microsoft.com
+    host: 202504281461390-eUluP1Ncv7.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -164,24 +148,24 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇯🇵 日本2|@ripaojiedian
-  password: f6e49310f2ad
+  password: 59224ed0f0e4
   plugin: v2ray-plugin
   plugin-opts:
-    host: ydyhcmiv1.kvote.cn
+    host: jp06v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /ypazzviwr
+    path: /zwqdkxwkk
     skip-cert-verify: false
     tls: true
-  port: 33747
-  server: 103.103.245.90
+  port: 443
+  server: 103.140.136.242
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.180.247.149
+  server: 54.95.213.25
   tfo: false
   type: ss

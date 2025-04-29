@@ -1,13 +1,46 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 3|🇭🇰4 |  5.1MB/s
-  password: ffc75281-6c9a-4cd7-8af6-aaa12eb7496f
-  port: 30018
-  server: 114.132.40.118
-  type: ss
+- name: 3|🇭🇰11 |  5.8MB/s
+  network: tcp
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 8313
+  server: 183.232.235.2
+  skip-cert-verify: true
+  sni: hk-13-568.flztjc.net
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 3|🇭🇰5 |  6.1MB/s
+  name: 3|🇭🇰15 |  4.0MB/s
+  network: ws
+  port: 80
+  raw:
+    add: c3d8620b-sva740-sve1ir-zfm.hk.p5pv.com
+    aid: '2'
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: 88711fa6-2958-11ef-abff-f23c913c8d2b
+    net: ws
+    path: /
+    port: 80
+    ps: null
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: c3d8620b-sva740-sve1ir-zfm.hk.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88711fa6-2958-11ef-abff-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 3|🇭🇰16 |  6.2MB/s
   network: ws
   port: 80
   raw:
@@ -64,14 +97,11 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|香港3|@ripaojiedian
+  name: 8|12,13|香港3|@ripaojiedian
   network: ws
   port: '8102'
   server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
@@ -124,15 +154,15 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 24682
+  port: 50676
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港7|@ripaojiedian
-  password: T1D1e8wJWN6EeHCae4F+cA==
-  port: 2525
-  server: 45.196.234.180
+  name: 11|🇭🇰 香港3|@ripaojiedian
+  password: 92uGfGQsAPq+HoB43r4u5b8lioGZrD/YTrvMUFbjgD8=
+  port: 56999
+  server: 175.178.13.108
   tfo: false
   type: ss

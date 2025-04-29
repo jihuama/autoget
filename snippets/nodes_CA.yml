@@ -1,7 +1,16 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3|🇨🇦1 |  1.4MB/s
+  password: pHvYevSM
+  port: 24119
+  server: 15.156.196.38
+  tfo: true
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 3|🇨🇦1 |  5.7MB/s
+  name: 3|🇨🇦2 |  5.5MB/s
   network: ws
   port: 30825
   server: v25.heduian.link
@@ -13,12 +22,3 @@ proxies:
     headers:
       Host: v25.heduian.link
     path: /oooo
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3|🇨🇦3 |  1.4MB/s
-  password: pHvYevSM
-  port: 24119
-  server: 15.156.196.38
-  tfo: true
-  type: ss
-  udp: true
