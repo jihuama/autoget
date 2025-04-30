@@ -1,19 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰1 |  4.4MB/s
-  network: tcp
-  port: 33782
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenyang001.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇭🇰2 |  2.1MB/s
+  name: 3|🇭🇰1 |  1.0MB/s
   network: tcp
   port: 23657
   reality-opts:
@@ -23,34 +11,50 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3,13|BD_speednode_0001
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: hkre1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: hkre1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- auth: 9ebe67a9-0791-4490-89e0-af6281244fff
-  client-fingerprint: chrome
-  down: 100
-  name: 3|🇭🇰4 |  3.5MB/s
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  password: 9ebe67a9-0791-4490-89e0-af6281244fff
-  port: 33002
-  server: 212.192.12.154
+- alterId: 2
+  cipher: auto
+  name: 3,13|HK_speednode_0026
+  network: ws
+  port: 8102
+  server: 9e968b51-svp0g0-t6fl0c-1r7od.wtt5.p5pv.com
   skip-cert-verify: true
-  type: hysteria2
+  tls: false
+  type: vmess
   udp: true
-  up: 100
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰5 |  6.1MB/s
+  name: 3|🇭🇰4 |  1.1MB/s
   network: tcp
-  port: 33782
+  port: 12597
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇭🇰5 |  1.1MB/s
+  network: tcp
+  port: 31800
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇭🇰7 |  3.6MB/s
+  network: tcp
+  port: 28680
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: shenzhou05.mysynology.net
@@ -60,62 +64,18 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰6 |  2.1MB/s
-  network: tcp
-  port: 21123
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-gcm
-  name: 3|🇭🇰7 |  4.8MB/s
-  password: 6e67deffda597ac4
-  port: 30211
-  server: 46.17.41.4
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇭🇰8 |  1.1MB/s
+  name: 3,13|CN_speednode_0014
   network: tcp
   port: 45883
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
+  server: shenyang001.dynu.net
   servername: www.nvidia.com
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇭🇰9 |  2.9MB/s
-  network: tcp
-  port: 41279
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 3|🇭🇰10 |  4.3MB/s
-  network: ws
-  port: 443
-  server: 20.189.104.97
-  servername: dee33.azurewebsites.net
-  tls: true
-  type: vless
-  udp: false
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    headers:
-      Host: dee33.azurewebsites.net
-    path: /
 - alterId: 0
   cipher: auto
   name: 8,12|香港5|@ripaojiedian
@@ -173,16 +133,18 @@ proxies:
   server: 175.178.13.108
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|HK_speednode_0025
-  port: 20550
-  reality-opts:
-    public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
-  server: hkt-ty-line-1.sudatech.store
-  servername: www.paypal.com
+- alterId: 2
+  cipher: auto
+  name: 13|HK_speednode_0027
+  network: ws
+  port: 8102
+  server: dd95ee1e-svlb40-swuf8s-1tddk.wtt5.p5pv.com
   skip-cert-verify: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: 2d317da5-47c5-4db4-933f-16d1094668db
+  uuid: bb471960-ecf5-11ef-9934-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
