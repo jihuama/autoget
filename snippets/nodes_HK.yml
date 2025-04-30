@@ -1,36 +1,52 @@
 proxies:
-- alterId: 2
+- alterId: 64
   cipher: auto
-  name: 3|🇭🇰8 |  1.7MB/s
+  client-fingerprint: chrome
+  delay: 1952
+  name: 3,11,13|JP_speednode_0028
+  password: 05f1368b-1743-48a3-b2a5-56343e64e7be
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: false
+  sni: sg.lyyyds.club
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 1
+  cipher: auto
+  delay: 1069
+  name: 3|🇭🇰4 |  1.4MB/s
   network: ws
-  port: 8102
-  raw:
-    add: 9e968b51-svp0g0-t6fl0c-1r7od.wtt5.p5pv.com
-    aid: '2'
-    alpn: ''
-    fp: ''
-    host: ''
-    id: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-    net: ws
-    path: /
-    port: 8102
-    ps: null
-    scy: ''
-    sni: ''
-    tls: ''
-    type: ''
-    v: '2'
-  server: 9e968b51-svp0g0-t6fl0c-1r7od.wtt5.p5pv.com
-  servername: ''
+  port: 8080
+  server: 1a6d92f5-svc1s0-t4cy3j-1qkeg.hk3.p5pv.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  udp: true
+  uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 3|🇭🇰5 |  1.0MB/s
+  network: ws
+  port: 8102
+  server: dd95ee1e-svlb40-swuf8s-1tddk.wtt5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bb471960-ecf5-11ef-9934-f23c9164ca5d
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+  ws-path: /
 - alterId: 2
   cipher: auto
   delay: 2249
-  name: 3|🇭🇰14 |  1.8MB/s
+  name: 3,8|3|🇭🇰14 |  1.8MB/s
   network: ws
   port: 8080
   server: 416793dc-svn5s0-syxs94-1jbj0.hk3.p5pv.com
@@ -42,20 +58,67 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: aes-256-gcm
+  delay: 702
+  name: 3|🇭🇰7 |  1.9MB/s
+  password: 887306f3-af8c-472e-b6e0-e7dcf970a4f0
+  port: 34713
+  server: jsyd.piaomiaoxu.net
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 8,13|HK_speednode_0027
+  name: 3|🇭🇰15 |  1.8MB/s
   network: ws
   port: 8102
-  server: dd95ee1e-svlb40-swuf8s-1tddk.wtt5.p5pv.com
-  skip-cert-verify: false
+  raw:
+    add: 112.120.125.105
+    aid: 2
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: bb471960-ecf5-11ef-9934-f23c9164ca5d
+    net: ws
+    path: /
+    port: 8102
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 112.120.125.105
+  servername: ''
   tls: false
   type: vmess
-  udp: true
   uuid: bb471960-ecf5-11ef-9934-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰16 |  1.5MB/s
+  network: tcp
+  port: 32919
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.236.51.38
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 8|3|🇭🇰8 |  1.7MB/s
+  network: ws
+  port: 8102
+  server: 9e968b51-svp0g0-t6fl0c-1r7od.wtt5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
@@ -125,6 +188,21 @@ proxies:
   type: vmess
   udp: true
   uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 13|HK_speednode_0027
+  network: ws
+  port: 8102
+  server: dd95ee1e-svlb40-swuf8s-1tddk.wtt5.p5pv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bb471960-ecf5-11ef-9934-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
