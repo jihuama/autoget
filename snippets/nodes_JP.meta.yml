@@ -1,41 +1,135 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵1 |  6.4MB/s
+  network: tcp
+  port: 25768
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-cfb
+  delay: 757
+  name: 3|🇯🇵2 |  5.9MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.178.9.230
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 3|🇯🇵1 |  2.7MB/s
+  name: 3|🇯🇵3 |  1.1MB/s
   network: tcp
   port: 17233
-  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- client-fingerprint: chrome
+  delay: 950
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵4 |  3.9MB/s
+  network: tcp
+  port: 11839
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 3|🇯🇵5 |  1.1MB/s
+  network: tcp
+  port: 17233
+  server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   ws-headers:
-    Host: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+    Host: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3|🇯🇵6 |  5.3MB/s
+  password: 29d10bfd-fce9-47f8-9d14-71e0de63ffbb
+  port: 16945
+  server: hm.huamao888.top
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  delay: 421
+  name: 3|🇯🇵7 |  4.6MB/s
+  password: SG0882JT0SEZLBIN
+  port: 18001
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3|🇯🇵8 |  6.3MB/s
+  password: 29d10bfd-fce9-47f8-9d14-71e0de63ffbb
+  port: 16946
+  server: hm.huamao888.top
+  type: ss
+  udp: true
+- name: 3,13|JP_speednode_0029
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-gcm
+  delay: 869
+  name: 3|🇯🇵10 |  5.7MB/s
+  password: JZSWPGMV1FR96C63
+  port: 18012
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵2 |  5.9MB/s
+  name: 3,13|CN_speednode_0015
   network: tcp
-  port: 35659
+  port: 25768
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: gateway.icloud.com
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵3 |  2.0MB/s
+  name: 3|🇯🇵12 |  1.7MB/s
   network: tcp
-  port: 35659
+  port: 31735
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: gateway.icloud.com
+  server: shenyang001.dynu.net
+  servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 8|3|🇯🇵1 |  2.7MB/s
+  network: tcp
+  port: 17233
+  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 8,12|日本5|@ripaojiedian
@@ -90,14 +184,6 @@ proxies:
   server: 43.201.51.140
   tfo: false
   type: ss
-- name: 13|JP_speednode_0029
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: 13|JP_speednode_0030
   network: ws
   port: 80
