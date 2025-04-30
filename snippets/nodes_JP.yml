@@ -1,45 +1,33 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 3|🇯🇵4 |  5.9MB/s
-  password: 880afb2e-8df8-4c80-8813-34b55c9c50f1
-  port: 16946
-  server: hm.huamao888.top
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 3|🇯🇵5 |  2.1MB/s
+  name: 3,8|2|🇯🇵17 |  1.2MB/s
   network: tcp
   port: 17233
-  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
+  server: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 3|🇯🇵6 |  5.9MB/s
-  network: tcp
-  port: 17233
-  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
+  delay: 1062
+  name: 3,13|CN_speednode_0022
+  network: ws
+  port: 35244
+  server: 120.253.242.194
+  servername: jp4.vip2.g2.moonbase.life
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
-  ws-headers:
-    Host: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 3|🇯🇵9 |  2.6MB/s
-  password: 880afb2e-8df8-4c80-8813-34b55c9c50f1
-  port: 16945
-  server: hm.huamao888.top
-  type: ss
   udp: true
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    headers:
+      Host: jp4.vip2.g2.moonbase.life
+    path: /home
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇯🇵3 |  5.4MB/s
+  name: 3,8|2|🇯🇵11 |  6.2MB/s
   network: tcp
   port: 17233
   server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
@@ -52,20 +40,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇯🇵4 |  3.3MB/s
-  network: tcp
-  port: 17233
-  server: 1ff869eb-svjgg0-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 1ff869eb-svjgg0-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇯🇵15 |  1.2MB/s
+  name: 3,8|2|🇯🇵15 |  1.2MB/s
   network: tcp
   port: 17233
   server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
@@ -78,27 +53,48 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 3,8|1|🇯🇵1 |  5.6MB/s
+  client-fingerprint: chrome
+  name: 3|🇯🇵15 |  1.7MB/s
+  network: ws
+  port: 35213
+  server: jp3.g2.moonbase.life
+  servername: web.xcjs.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇯🇵5 |  2.1MB/s
   network: tcp
   port: 17233
-  server: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
+  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 8|11,12|日本3|@ripaojiedian
-  network: ws
-  port: '8004'
-  server: 59.42.247.189
-  servername: ''
+  name: 8|2|🇯🇵6 |  5.9MB/s
+  network: tcp
+  port: 17233
+  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 676f113d-f2ab-4fa5-9b2b-43428a489e56
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇯🇵14 |  5.9MB/s
+  network: tcp
+  port: 17233
+  server: 1ff869eb-svjgg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 8,12|日本5|@ripaojiedian
