@@ -1,8 +1,16 @@
 proxies:
-- name: 3|🇯🇵1 |  3.1MB/s
+- alterId: 0
+  cipher: auto
+  name: 3|🇯🇵1 |  2.3MB/s
+  network: tcp
+  port: 17233
+  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+- name: 3|🇯🇵2 |  5.3MB/s
   network: ws
-  port: 30111
-  server: 222.102.166.18
+  port: 12456
+  server: 121.129.91.180
   servername: miku.mikuru.ip-ddns.com
   skip-cert-verify: true
   tls: true
@@ -13,10 +21,10 @@ proxies:
     headers:
       host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 3|🇯🇵2 |  5.0MB/s
+- name: 3|🇯🇵3 |  5.1MB/s
   network: ws
-  port: 12365
-  server: 220.120.172.116
+  port: 14896
+  server: 222.117.231.32
   servername: miku.mikuru.ip-ddns.com
   skip-cert-verify: true
   tls: true
@@ -27,10 +35,10 @@ proxies:
     headers:
       host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 3|🇯🇵3 |  5.2MB/s
+- name: 3|🇯🇵4 |  6.2MB/s
   network: ws
-  port: 16058
-  server: 59.26.208.19
+  port: 50008
+  server: 59.25.160.141
   servername: miku.mikuru.ip-ddns.com
   skip-cert-verify: true
   tls: true
@@ -41,19 +49,64 @@ proxies:
     headers:
       host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
+- name: 3,13|JP_speednode_0008
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: jp104-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jp104-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  name: 3|🇯🇵8 |  2.3MB/s
+  network: tcp
+  port: 17233
+  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵4 |  1.6MB/s
+  name: 3|🇯🇵9 |  5.3MB/s
   network: tcp
-  port: 31735
+  port: 17278
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3|🇯🇵5 |  2.3MB/s
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵13 |  5.7MB/s
+  network: tcp
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou02.mysynology.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3|🇯🇵14 |  5.0MB/s
+  network: ws
+  port: 587
+  server: 195.26.230.120
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- name: 3|🇯🇵15 |  4.6MB/s
   network: ws
   port: 8445
   server: 195.200.18.68
@@ -67,7 +120,86 @@ proxies:
     headers:
       host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 3|🇯🇵6 |  2.8MB/s
+- name: 3|🇯🇵16 |  5.2MB/s
+  network: ws
+  port: 20001
+  server: 52.76.110.129
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- name: 3|🇯🇵17 |  3.5MB/s
+  network: ws
+  port: 24443
+  server: 213.210.55.72
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 3|🇯🇵18 |  2.6MB/s
+  network: tcp
+  port: 17233
+  server: 1ff869eb-svjgg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- allowInsecure: '1'
+  name: 3|🇯🇵19 |  5.9MB/s
+  network: original
+  password: ef23ddd0-14c5-39c2-9880-af55ce892363
+  port: 64804
+  server: 160.16.82.176
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 3|🇯🇵20 |  3.3MB/s
+  network: tcp
+  port: 17233
+  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- client-fingerprint: chrome
+  delay: 950
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵21 |  6.4MB/s
+  network: tcp
+  port: 11839
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵22 |  2.0MB/s
+  network: tcp
+  port: 31735
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 3|🇯🇵23 |  4.1MB/s
   network: ws
   port: 10943
   server: 14.39.43.121
@@ -81,24 +213,21 @@ proxies:
     headers:
       host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3|🇯🇵7 |  1.9MB/s
+- name: 3|🇯🇵24 |  5.8MB/s
   network: ws
-  port: 35213
-  server: jp3.g2.moonbase.life
-  servername: web.xcjs.info
-  skip-cert-verify: false
-  tfo: false
+  port: 12365
+  server: 220.120.172.116
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
   ws-opts:
     headers:
-      Host: web.xcjs.info
-    path: /home
-- name: 3|🇯🇵8 |  3.0MB/s
+      host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- name: 3|🇯🇵25 |  2.7MB/s
   network: ws
   port: 12202
   server: 14.56.226.68
@@ -114,7 +243,19 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵9 |  5.5MB/s
+  name: 3|🇯🇵26 |  6.2MB/s
+  network: tcp
+  port: 35659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇯🇵27 |  6.1MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -125,70 +266,73 @@ proxies:
   tls: true
   type: vless
   uuid: ef23ddd0-14c5-39c2-9880-af55ce892363
-- name: 3,13|JP_speednode_0008
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 443
-  server: jp104-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: jp104-cdn-route.couldflare-cdn.com
+- name: 3|🇯🇵29 |  5.0MB/s
+  network: ws
+  port: 20000
+  server: 45.76.143.208
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
+- name: 3|🇯🇵30 |  5.6MB/s
+  network: ws
+  port: 16058
+  server: 59.26.208.19
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇯🇵11 |  2.6MB/s
+  name: 3|🇯🇵31 |  6.0MB/s
   network: tcp
-  port: 14548
+  port: 25768
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: vip.jddns0202.top
+  server: bsuqian01.dynu.net
   servername: www.nvidia.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇯🇵12 |  3.8MB/s
+- alterId: 0
+  cipher: auto
+  name: 3|🇯🇵32 |  3.4MB/s
   network: tcp
-  port: 1443
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-    short-id: 1a
-  server: t13.qifei.app
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: ef23ddd0-14c5-39c2-9880-af55ce892363
-- name: 3|🇯🇵13 |  5.7MB/s
-  network: ws
-  port: 12416
-  server: 121.174.200.92
-  servername: miku.mikuru.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
-  ws-opts:
-    headers:
-      host: miku.mikuru.ip-ddns.com
-    path: /?ed=2560
-- name: 3|🇯🇵14 |  3.2MB/s
-  network: ws
-  port: 8442
-  server: 185.233.184.66
-  servername: miku.mikuru.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
-  ws-opts:
-    headers:
-      host: miku.mikuru.ip-ddns.com
-    path: /?ed=2560
-- name: 3|🇯🇵15 |  5.1MB/s
+  port: 17233
+  raw:
+    add: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+    aid: 0
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+    net: tcp
+    path: ''
+    port: 17233
+    ps: 1|🇯🇵7 |  5.7MB/s
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- name: 3|🇯🇵33 |  1.9MB/s
   network: ws
   port: 443
   server: 13.228.155.72
@@ -202,15 +346,34 @@ proxies:
     headers:
       host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
+- name: 3|🇯🇵34 |  5.9MB/s
+  network: ws
+  port: 30111
+  server: 222.102.166.18
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
+  ws-opts:
+    headers:
+      host: miku.mikuru.ip-ddns.com
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 8|3|🇯🇵6 |  1.7MB/s
-  network: tcp
-  port: 11555
-  server: 167.88.182.219
-  tls: false
+  name: 8|2|🇯🇵7 |  1.9MB/s
+  network: ws
+  port: 35213
+  server: jp3.g2.moonbase.life
+  servername: web.xcjs.info
+  tls: true
   type: vmess
-  uuid: c4968b1c-d71b-44be-f31e-ac231a2e828d
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
 - alterId: 0
   cipher: auto
   name: 8,12|日本5|@ripaojiedian

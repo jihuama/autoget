@@ -1,134 +1,33 @@
 proxies:
-- name: 3|🇹🇼1 |  1.8MB/s
-  network: ws
-  port: 443
-  server: damien.ns.cloudflare.com
-  servername: edccf.aimercc.filegear-sg.me
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3|🇹🇼1 |  3.6MB/s
+  network: tcp
+  port: 13263
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: gateway.icloud.com
   tls: true
   type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edccf.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼2 |  4.0MB/s
-  network: ws
-  port: 18443
-  server: 18.166.149.73
-  servername: edccf.aimercc.filegear-sg.me
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 3|🇹🇼2 |  5.1MB/s
+  network: tcp
+  port: 3687
+  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edccf.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼3 |  1.4MB/s
-  network: ws
-  port: 443
-  server: 35.201.203.106
-  servername: edccf.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edccf.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼4 |  2.1MB/s
-  network: ws
-  port: 443
-  server: 141.98.196.223
-  servername: edccf.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edccf.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼5 |  5.8MB/s
-  network: ws
-  port: 443
-  server: ignacio.ns.cloudflare.com
-  servername: edccf.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edccf.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼6 |  1.2MB/s
-  network: ws
-  port: 443
-  server: arvind.ns.cloudflare.com
-  servername: edccf.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edccf.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼7 |  5.5MB/s
-  network: ws
-  port: 2002
-  server: 45.66.217.175
-  servername: edccf.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edccf.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼8 |  4.7MB/s
-  network: ws
-  port: 35251
-  server: 183.108.31.63
-  servername: edccf.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edccf.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 3|🇹🇼9 |  5.1MB/s
-  network: ws
-  port: 10010
-  server: 221.158.163.251
-  servername: edccf.aimercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edccf.aimercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+  tls: false
+  type: vmess
+  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  ws-headers:
+    Host: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
+  ws-path: /
 - client-fingerprint: chrome
   delay: 2717
   flow: xtls-rprx-vision
-  name: 3|🇹🇼10 |  3.8MB/s
+  name: 3|🇹🇼3 |  2.8MB/s
   network: tcp
   port: 41572
   reality-opts:
@@ -138,24 +37,34 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 8|3|🇹🇼4 |  3.5MB/s
-  network: tcp
-  port: 3687
-  server: 4664f9a4-submo0-sv7alj-ctxx.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
-- alterId: 0
-  cipher: auto
-  name: 8|3|🇹🇼17 |  1.3MB/s
-  network: tcp
-  port: 3687
-  server: e8defb00-su7xc0-tf3uue-cum1.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
+- name: 3|🇹🇼4 |  1.8MB/s
+  network: ws
+  port: 12383
+  server: 211.114.180.156
+  servername: edcch.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edcch.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 3|🇹🇼5 |  3.5MB/s
+  network: ws
+  port: 12226
+  server: 119.203.202.120
+  servername: edcch.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edcch.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: 0
   cipher: auto
   name: 8,12|台湾|@ripaojiedian
