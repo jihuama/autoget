@@ -1,19 +1,19 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 3|🇹🇼1 |  6.0MB/s
+  password: feb203c3-4b25-4961-be32-7e842d7b5dab
+  port: 14001
+  server: japan.cnix.asia
+  type: ss
+- cipher: aes-128-gcm
+  name: 3|🇹🇼2 |  2.1MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 64050
+  server: csuzhou01.1cooldns.com
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇹🇼1 |  6.6MB/s
-  network: tcp
-  port: 24050
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3|🇹🇼2 |  5.8MB/s
+  name: 3|🇹🇼3 |  6.8MB/s
   network: tcp
   port: 15842
   reality-opts:
@@ -23,10 +23,32 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-128-gcm
+  name: 3|🇹🇼4 |  3.6MB/s
+  password: feb203c3-4b25-4961-be32-7e842d7b5dab
+  port: 14002
+  server: japan.cnix.asia
+  type: ss
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 3|🇹🇼5 |  4.3MB/s
+  network: ws
+  port: 2082
+  server: 195.85.59.95
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: a3f9d9b6-3ae4-4c47-9dbf-33b0a5c7f1a5
+  ws-opts:
+    headers:
+      Host: 0210.uous1wog.workers.dev
+    path: ''
 - client-fingerprint: chrome
   delay: 2717
   flow: xtls-rprx-vision
-  name: 3|🇹🇼3 |  4.2MB/s
+  name: 3|🇹🇼6 |  3.2MB/s
   network: tcp
   port: 41572
   reality-opts:
@@ -36,3 +58,13 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 12|台湾|@ripaojiedian
+  network: tcp
+  port: '14100'
+  server: dxv4.pai50288.uk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
