@@ -2,17 +2,18 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11,13|CN_speednode_0003
-  password: a35b44a9-d941-4c1d-96ac-7a9f6607edb7
-  port: 36609
-  server: 120.232.153.40
+  name: 3,11,13|US_speednode_0201
+  password: 6D1HK1k4GS
+  port: 443
+  server: abc.theyyszmn.sbs
+  servername: abc.theyyszmn.sbs
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  sni: game-seagull.shiner427.skin
   tfo: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 3d84a668-0588-447b-fbe1-058deb5baf93
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 3|🇭🇰2 |  1.2MB/s
@@ -75,12 +76,13 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - delay: 1408
-  name: 3|🇭🇰8 |  1.1MB/s
+  name: 3,13|BD_speednode_0001
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: hkre1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
+  udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   delay: 1788
@@ -162,17 +164,15 @@ proxies:
   ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3,13|CN_speednode_0004
+  name: 3|🇭🇰16 |  2.0MB/s
   network: tcp
   port: 45883
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: shenyang001.dynu.net
   servername: www.nvidia.com
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -188,13 +188,14 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 3|🇭🇰20 |  6.3MB/s
+  name: 3,13|HK_speednode_0071
   network: tcp
   port: 20550
   reality-opts:
     public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
   server: hkt-ty-line-1.sudatech.store
   servername: www.paypal.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -370,3 +371,40 @@ proxies:
   server: 175.178.13.108
   tfo: false
   type: ss
+- cipher: chacha20-ietf
+  name: 13|HK_speednode_0072
+  password: asd123456
+  port: 8388
+  server: 103.149.182.61
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|HK_speednode_0073
+  network: ws
+  port: 1081
+  server: hk-cn-01.yumeifang.cn
+  servername: hk-cn-01.yumeifang.cn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: df9b788f-929a-4349-970a-8cbbe12d6ae8
+  ws-opts:
+    headers:
+      Host: wamxoa.com
+    path: /asdd
+- name: 13|HK_speednode_0074
+  network: ws
+  port: 2096
+  server: 154.211.8.47
+  servername: fei.634676.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  ws-opts:
+    headers:
+      Host: fei.634676.xyz
+    path: /?ed=2560
