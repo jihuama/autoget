@@ -22,7 +22,7 @@ proxies:
     headers:
       host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 3,13|KR_speednode_0083
+- name: 3,13|KR_speednode_0037
   network: ws
   port: 14896
   server: 222.117.231.32
@@ -36,22 +36,21 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- client-fingerprint: random
-  name: 3,13|KR_speednode_0086
+- name: 3|🇯🇵4 |  6.2MB/s
   network: ws
   port: 50008
   server: 59.25.160.141
-  servername: mot.luyuju.dpdns.org
-  skip-cert-verify: false
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: f8e0a197-2d5c-441e-a724-525379e4db3a
+  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
   ws-opts:
     headers:
-      Host: mot.luyuju.dpdns.org
+      host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 3,13|JP_speednode_0082
+- name: 3,13|JP_speednode_0036
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -201,7 +200,7 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 3,13|KR_speednode_0084
+- name: 3,13|KR_speednode_0038
   network: ws
   port: 10943
   server: 14.39.43.121
@@ -398,6 +397,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
+- alterId: 64
+  cipher: auto
+  name: 8|2|🇯🇵28 |  1.1MB/s
+  network: tcp
+  port: 32980
+  server: 120.198.71.214
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -491,17 +499,3 @@ proxies:
   server: 13.114.102.184
   tfo: false
   type: ss
-- name: 13|JP_speednode_0081
-  network: ws
-  port: 443
-  server: 185.184.223.47
-  servername: ed.sosocn.filegear-sg.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 699f6733-5766-42f0-a05b-da23c5ee3817
-  ws-opts:
-    headers:
-      Host: ed.sosocn.filegear-sg.me
-    path: /?ed=2560
