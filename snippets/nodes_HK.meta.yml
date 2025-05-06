@@ -2,15 +2,15 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11,13|CN_speednode_0006
-  password: VMhGp5wEIyCDf90T
-  port: 5229
-  server: 451a9050-sux8g0-t7enwo-1f1f1.cu.plebai.net
-  skip-cert-verify: true
-  sni: hk06.run.place
+  name: 3,11,13|SG_speednode_0063
+  password: '!!str 74260667533381300'
+  port: 443
+  server: loving-piranha.shiner427.skin
+  skip-cert-verify: false
+  sni: loving-piranha.shiner427.skin
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   udp: true
   uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
 - client-fingerprint: chrome
@@ -380,3 +380,45 @@ proxies:
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 13|HK_speednode_0034
+  port: 443
+  reality-opts:
+    public-key: Rwqxz0M2DjcW39poMFeZzfjlYZf2PwxxQ0UEI4CSZik
+    short-id: 6891d99c
+  server: pq.aws14.yydjc.top
+  servername: www.mi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd
+- client-fingerprint: chrome
+  name: 13|HK_speednode_0035
+  network: ws
+  port: 18443
+  server: 18.166.149.73
+  servername: edcch.ambercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edcch.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 13|HK_speednode_0036
+  network: ws
+  password: Aimer
+  port: 443
+  server: 154.211.8.240
+  skip-cert-verify: false
+  sni: epccf.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epccf.ambercc.filegear-sg.me
+    path: /

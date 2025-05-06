@@ -213,7 +213,7 @@ proxies:
     headers:
       host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- name: 3|🇯🇵24 |  5.8MB/s
+- name: 3,13|KR_speednode_0042
   network: ws
   port: 12365
   server: 220.120.172.116
@@ -225,7 +225,7 @@ proxies:
   uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
   ws-opts:
     headers:
-      host: miku.mikuru.ip-ddns.com
+      Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
 - name: 3|🇯🇵25 |  2.7MB/s
   network: ws
@@ -485,3 +485,72 @@ proxies:
   server: 52.199.191.145
   tfo: false
   type: ss
+- name: 13|JP_speednode_0037
+  network: ws
+  port: 8443
+  server: 154.92.9.1
+  servername: txmt.conetcdata.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
+  ws-opts:
+    headers:
+      Host: txmt.conetcdata.dpdns.org
+    path: /
+- name: 13|JP_speednode_0038
+  network: ws
+  port: 443
+  server: 103.116.7.248
+  servername: edcch.ambercc.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edcch.ambercc.filegear-sg.me
+    path: /
+- name: 13|JP_speednode_0039
+  network: ws
+  port: 8443
+  server: 154.92.9.2
+  servername: txmt.conetcdata.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
+  ws-opts:
+    headers:
+      Host: txmt.conetcdata.dpdns.org
+    path: /
+- name: 13|JP_speednode_0040
+  network: ws
+  port: 443
+  server: 103.116.7.230
+  servername: edcch.ambercc.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edcch.ambercc.filegear-sg.me
+    path: /
+- name: 13|JP_speednode_0041
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 103.116.7.220
+  skip-cert-verify: true
+  sni: epcch.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epcch.ambercc.filegear-sg.me
+    path: /?ed=2560
