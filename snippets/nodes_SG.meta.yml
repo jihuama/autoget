@@ -24,14 +24,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|新加坡2|@ripaojiedian
+  name: 8|13,14|新加坡2|@ripaojiedian
   network: ws
   port: '35111'
   server: sg1.g2.moonbase.life
   servername: sg1.g2.moonbase.life
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
@@ -39,25 +36,28 @@ proxies:
     headers:
       Host: sg1.g2.moonbase.life
     path: /home
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|新加坡3|@ripaojiedian
+  network: ws
+  port: '35146'
+  server: sg6.vip2.g2.moonbase.life
+  servername: web.xcjs.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 18.183.225.74
+  server: 18.183.184.244
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|SG_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: USd1Iznfu9nwnvIfz5CPcrnhXoQX1e1C1fCPNB9mbAk
-    short-id: 36fb8090
-  server: pq.aws56.yydjc.top
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd

@@ -930,7 +930,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 8,12|台湾2|@ripaojiedian
+  name: 8|14|台湾2|@ripaojiedian
   network: tcp
   port: '3687'
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
@@ -967,14 +967,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|新加坡2|@ripaojiedian
+  name: 8|13,14|新加坡2|@ripaojiedian
   network: ws
   port: '35111'
   server: sg1.g2.moonbase.life
   servername: sg1.g2.moonbase.life
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
@@ -1138,7 +1135,7 @@ proxies:
   name: 11|tg频道:@ripaojiedian
   password: awsps0501
   port: 443
-  server: 52.195.211.35
+  server: 57.180.41.89
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -1166,31 +1163,39 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 11223
+  port: 37512
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|RO_speednode_0022
-  password: '74260667533381300'
-  port: 443
-  server: patient-emu.shiner427.skin
-  skip-cert-verify: true
-  sni: patient-emu.shiner427.skin
+  name: 11,13|CN_speednode_0004
+  password: b6200af42ccadea353f5b5856dd20d70
+  port: 30052
+  server: 183.236.51.38
+  skip-cert-verify: false
+  sni: 113.99.140.184
   tfo: false
   tls: false
-  type: trojan
+  type: vmess
   udp: true
-  uuid: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港8|@ripaojiedian
+  password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
+  port: 46603
+  server: xg-jd.huidu51.com
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505061413967-7UVJRqcDLy.download.microsoft.com
+    host: 202505061413967-ARiTaH7btE.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -1199,26 +1204,60 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇯🇵 日本2|@ripaojiedian
-  password: ada8f5609e21
+  password: ee003c5fb8d8
   plugin: v2ray-plugin
   plugin-opts:
     host: jp06v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /nloyfvlu
+    path: /ywkyahjulb
     skip-cert-verify: false
     tls: true
-  port: 443
+  port: 41827
   server: 103.140.136.242
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|新加坡3|@ripaojiedian
+  network: ws
+  port: '35146'
+  server: sg6.vip2.g2.moonbase.life
+  servername: web.xcjs.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|美国|@ripaojiedian
+  network: ws
+  port: '30832'
+  server: v32.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505061413967-7UVJRqcDLy.download.microsoft.com
+    host: 202505061413967-ARiTaH7btE.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1226,18 +1265,26 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 18.183.225.74
+  server: 3.112.233.244
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 13.114.102.184
+  server: 18.183.184.244
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  password: awsps0501
+  port: 443
+  server: 54.199.249.6
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1248,6 +1295,16 @@ proxies:
   server: 103.186.155.19
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|日本4|@ripaojiedian
+  network: tcp
+  port: '53710'
+  server: 47.79.88.113
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1db838d0-ecd2-4b73-a7f8-5af6b401d833
 - name: 13|BR_speednode_0001
   network: ws
   port: 443
@@ -1262,36 +1319,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /proxyip=185.133.35.115:443
-- alterId: 2
-  cipher: auto
-  name: 13|CN_speednode_0007
-  network: ws
-  port: 30828
-  server: v28.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v28.heduian.link
-    path: /oooo
-- name: 13|CR_speednode_0009
-  network: ws
-  port: 443
-  server: 190.93.245.90
-  servername: cf.501508.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: cf.501508.xyz
-    path: /?ed=2560
-- name: 13|EE_speednode_0010
+- name: 13|EE_speednode_0005
   network: ws
   port: 8880
   server: 45.80.110.75
@@ -1305,113 +1333,14 @@ proxies:
     headers:
       Host: 23-lsjfjwiposkfls.hc2021.cfd
     path: /?ed=2560
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 13|GB_speednode_0011
-  port: 443
-  reality-opts:
-    public-key: b5WuWodd3tB9cHWUJuoEFNvgYVOcLuDyjaxHy70umU4
-    short-id: '50211843'
-  server: 130.162.163.216
-  servername: buylite.tv.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 13|KR_speednode_0006
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  type: ss
   udp: true
-  uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd
-- name: 13|GB_speednode_0012
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: london01.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|GB_speednode_0013
-  port: 8440
-  reality-opts:
-    public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-  server: 178.62.44.40
-  servername: refersion.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97dda572-7ff0-4609-8388-c82be57bc6a9
-- name: 13|GB_speednode_0014
-  network: ws
-  port: 443
-  server: 35.178.235.225
-  servername: uk.rtot.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00651706-0d2d-448b-80f2-7678f3e5187c
-  ws-opts:
-    headers:
-      Host: uk.rtot.me
-    path: /bing
-- name: 13|GB_speednode_0015
-  network: ws
-  port: 81
-  server: 95.164.18.132
-  servername: miku.mikuru.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5543ae5c-c24f-405a-9266-597cbc43c818
-  ws-opts:
-    headers:
-      Host: miku.mikuru.ip-ddns.com
-    path: /?ed=2560
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 13|HK_speednode_0016
-  port: 443
-  reality-opts:
-    public-key: Rwqxz0M2DjcW39poMFeZzfjlYZf2PwxxQ0UEI4CSZik
-    short-id: 6891d99c
-  server: pq.aws14.yydjc.top
-  servername: www.mi.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd
-- name: 13|JP_speednode_0017
-  network: ws
-  port: 8443
-  server: 154.92.9.1
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /
-- name: 13|JP_speednode_0018
-  network: ws
-  port: 8443
-  server: 154.92.9.2
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /
-- name: 13|KR_speednode_0019
+- name: 13|KR_speednode_0007
   network: ws
   port: 12365
   server: 220.120.172.116
@@ -1425,92 +1354,7 @@ proxies:
     headers:
       Host: miku.mikuru.ip-ddns.com
     path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 13|KR_speednode_0020
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  type: ss
-  udp: true
-- name: 13|MD_speednode_0021
-  network: ws
-  port: 443
-  server: md01.abvpn.ru
-  servername: md01.abvpn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 588f094b-431b-422c-b80b-007945037072
-  ws-opts:
-    headers:
-      Host: md01.abvpn.ru
-    path: /websocket
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|SG_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: USd1Iznfu9nwnvIfz5CPcrnhXoQX1e1C1fCPNB9mbAk
-    short-id: 36fb8090
-  server: pq.aws56.yydjc.top
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd
-- name: 13|TR_speednode_0024
-  port: 53221
-  server: 94.131.108.195
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 90efad13-d266-4d10-a914-bc40028ec469
-- name: 13|US_speednode_0025
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: redfree8mahsang6.redfree8.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8mahsang6.redfree8.ir
-    path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-- name: 13|US_speednode_0026
-  network: ws
-  port: 80
-  server: 104.18.121.131
-  servername: 23-lsjfjwiposkfls.hc2021.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|US_speednode_0027
-  network: ws
-  port: 8880
-  server: 135.84.76.75
-  servername: 23-lsjfjwiposkfls.hc2021.cfd
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /?ed=2560
-- name: 13|US_speednode_0029
+- name: 13|US_speednode_0008
   network: ws
   port: 80
   server: 104.18.121.12
@@ -1524,21 +1368,21 @@ proxies:
     headers:
       Host: 23-lsjfjwiposkfls.hc2021.cfd
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|US_speednode_0031
+- name: 13|US_speednode_0010
   network: ws
-  port: 8880
-  server: 135.84.75.75
-  servername: 23-lsjfjwiposkfls.hc2021.cfd
+  port: 80
+  server: www.speedtest.net
+  servername: redfree8mahsang6.redfree8.ir
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /?ed=2560
-- name: 13|US_speednode_0032
+      Host: redfree8mahsang6.redfree8.ir
+    path: /TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+- name: 13|US_speednode_0011
   network: ws
   port: 80
   server: 104.18.121.106
@@ -1552,9 +1396,51 @@ proxies:
     headers:
       Host: 23-lsjfjwiposkfls.hc2021.cfd
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 13|US_speednode_0013
+  network: ws
+  port: 8880
+  server: 135.84.76.75
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  ws-opts:
+    headers:
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
+    path: /?ed=2560
+- name: 13|US_speednode_0014
+  network: ws
+  port: 8880
+  server: 135.84.75.75
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  ws-opts:
+    headers:
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
+    path: /?ed=2560
+- name: 13|US_speednode_0016
+  network: ws
+  port: 80
+  server: 104.18.121.131
+  servername: 23-lsjfjwiposkfls.hc2021.cfd
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
+  ws-opts:
+    headers:
+      Host: 23-lsjfjwiposkfls.hc2021.cfd
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|US_speednode_0042
+  name: 13|US_speednode_0024
   port: 7885
   reality-opts:
     public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
@@ -1566,50 +1452,7 @@ proxies:
   type: vless
   udp: true
   uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
-- client-fingerprint: random
-  name: 13|US_speednode_0056
-  network: ws
-  port: 2096
-  server: 104.16.116.221
-  servername: robook.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: robook.dpdns.org
-    path: /?ed=2560
-- name: 13|US_speednode_0057
-  network: ws
-  port: 2053
-  server: 104.24.240.115
-  servername: xpvip168.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39a2588a-2980-4ae6-a32e-63fb3456daef
-  ws-opts:
-    headers:
-      Host: xpvip168.eu.org
-    path: /?ed=2560
-- name: 13|US_speednode_0058
-  network: ws
-  port: 443
-  server: 103.21.244.17
-  servername: what.zhonghuoxing.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055d270-0e76-4a41-a53f-871bbb51b003
-  ws-opts:
-    headers:
-      Host: what.zhonghuoxing.top
-    path: /?ed=2560
-- name: 13|US_speednode_0059
+- name: 13|US_speednode_0035
   network: ws
   port: 443
   server: 104.16.95.143
@@ -1623,7 +1466,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- name: 13|US_speednode_0061
+- name: 13|US_speednode_0042
   network: ws
   port: 8443
   server: 104.24.40.146
@@ -1637,78 +1480,7 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0062
-  network: ws
-  port: 2087
-  server: 104.16.4.142
-  servername: robook.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: robook.dpdns.org
-    path: /?ed=2560
-- name: 13|US_speednode_0063
-  network: ws
-  port: 2053
-  server: 104.16.12.247
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /?ed=2560
-- name: 13|US_speednode_0095
-  network: ws
-  port: 8443
-  server: 162.159.152.81
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /
-- name: 13|US_speednode_0071
-  network: ws
-  port: 8443
-  server: 162.159.152.139
-  servername: www.pjw5.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 812d7dde-5f48-47eb-acc8-9c94c04550c2
-  ws-opts:
-    headers:
-      Host: www.pjw5.top
-    path: /?ed=2560
-- name: 13|US_speednode_0084
-  network: ws
-  port: 80
-  server: 151.101.64.155
-  servername: Irancellman.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: f3cdd808-a562-4c9d-c895-99dcaa9aaaf8
-  ws-opts:
-    headers:
-      Host: Irancellman.net
-    path: /WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048
-- name: 13|US_speednode_0078
+- name: 13|US_speednode_0047
   network: ws
   port: 443
   server: 104.16.83.224
@@ -1722,7 +1494,7 @@ proxies:
     headers:
       Host: taoj.eu.org
     path: /?ed=2560
-- name: 13|US_speednode_0082
+- name: 13|US_speednode_0048
   network: ws
   port: 2053
   server: 104.16.190.87
@@ -1736,25 +1508,24 @@ proxies:
     headers:
       Host: bitget1.asdasd.click
     path: /?ed=2560
-- client-fingerprint: random
-  name: 13|US_speednode_0085
+- name: 13|US_speednode_0052
   network: ws
-  port: 443
-  server: 104.24.152.190
-  servername: what.zhonghuoxing.top
+  port: 8443
+  server: 162.159.152.139
+  servername: www.pjw5.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: f055d270-0e76-4a41-a53f-871bbb51b003
+  uuid: 812d7dde-5f48-47eb-acc8-9c94c04550c2
   ws-opts:
     headers:
-      Host: what.zhonghuoxing.top
+      Host: www.pjw5.top
     path: /?ed=2560
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 13|US_speednode_0092
+  name: 13|US_speednode_0058
   network: ws
   port: 443
   server: 188.114.96.4
@@ -1768,49 +1539,7 @@ proxies:
     headers:
       Host: MyphOTOgRApicpIcTUre.iR
     path: /I4OZ4PupsElhvJ7c
-- name: 13|US_speednode_0087
-  network: ws
-  port: 8443
-  server: 199.34.228.47
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /
-- name: 13|US_speednode_0088
-  network: ws
-  port: 8443
-  server: 199.34.228.66
-  servername: txmt.conetcdata.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: de537efd-4d7c-4f3c-aea5-19d3f36c7b1b
-  ws-opts:
-    headers:
-      Host: txmt.conetcdata.dpdns.org
-    path: /
-- name: 13|US_speednode_0089
-  network: ws
-  port: 443
-  server: 104.18.20.69
-  servername: us5s.pqvip.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ee2c33b-cc0f-4ea1-b287-5870f3ee3951
-  ws-opts:
-    headers:
-      Host: us5s.pqvip.top
-    path: /pq/us5
-- name: 13|US_speednode_0090
+- name: 13|US_speednode_0059
   network: ws
   port: 443
   server: 160.79.104.113
@@ -1824,84 +1553,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /
-- name: 13|US_speednode_0091
-  network: ws
-  password: redfree8
-  port: 443
-  server: 104.17.147.22
-  skip-cert-verify: false
-  sni: ipsychO.SUEx12.Ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ipsychO.SUEx12.Ir
-    path: /trre5IzbZ9IZZMddtw?ed=2560
-- name: 13|US_speednode_0093
-  network: ws
-  port: 443
-  server: 199.34.228.186
-  servername: cf.501508.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: cf.501508.xyz
-    path: /
-- name: 13|US_speednode_0094
-  network: ws
-  port: 443
-  server: 192.0.54.6
-  servername: cf.501508.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a268ce39-7687-4817-aa5f-def4f653fb88
-  ws-opts:
-    headers:
-      Host: cf.501508.xyz
-    path: /
-- name: 13|US_speednode_0098
-  network: ws
-  port: 443
-  server: 104.18.20.20
-  servername: us6s.globals-download.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ee2c33b-cc0f-4ea1-b287-5870f3ee3951
-  ws-opts:
-    headers:
-      Host: us6s.globals-download.com
-    path: /pq/us6
-- name: 13|US_speednode_0099
-  network: ws
-  port: 443
-  server: 104.24.188.214
-  servername: planetzh.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: af713c0c-a79e-464b-b08e-831ce00fe235
-  ws-opts:
-    headers:
-      Host: planetzh.xyz
-    path: /
-- name: 13|US_speednode_0100
-  password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-  port: 443
-  server: 0e16aa8a-svukg0-swy6li-tni2.los.gotochinatown.net
-  tls: true
-  type: http
-  udp: true
-  username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- name: 13|US_speednode_0101
+- name: 13|US_speednode_0060
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 443
   server: e6c022e2-svwf40-swy6li-tni2.los.gotochinatown.net
@@ -1909,15 +1561,7 @@ proxies:
   type: http
   udp: true
   username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- name: 13|US_speednode_0102
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 443
-  server: c23319fc-svukg0-t1bnjq-1krtb.sj.gotochinatown.net
-  tls: true
-  type: http
-  udp: true
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 13|US_speednode_0103
+- name: 13|US_speednode_0061
   network: ws
   port: 443
   server: 4.255.56.137
