@@ -2,6 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  delay: 2033
   name: 3,11,13|US_speednode_0068
   password: e6a2e741-0fce-440b-910c-b81325e2263a
   port: 443
@@ -13,23 +14,14 @@ proxies:
   type: trojan
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alpn:
-  - h3
-  client-fingerprint: randomized
-  name: 3|🇹🇼4 |  5.7MB/s|Netflix|Disney|...
-  network: ws
-  password: Aimer
-  port: '443'
-  server: 27.50.49.136
-  skip-cert-verify: false
-  sni: epccj.ambercc.filegear-sg.me
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3|🇹🇼5 |  6.2MB/s|11%|Youtube|Ope...
+  password: 887f01da-5b52-4dff-a80f-efe3380ac35f
+  port: 50555
+  server: chiyu.myfczy169.top
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: chacha20-ietf-poly1305
   name: 13|TW_speednode_0036
   password: 937f6b6168b6
