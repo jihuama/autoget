@@ -56,6 +56,23 @@ proxies:
   server: 52.27.142.2
   tfo: false
   type: ss
+- alpn:
+  - h3
+  client-fingerprint: random
+  name: 13|SG_speednode_0034
+  network: ws
+  port: 8443
+  server: 27.50.49.242
+  servername: edccj.ambercc.filegear-sg.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccj.ambercc.filegear-sg.me
+    path: /?ed=2560
 - name: 13|SG_speednode_0035
   network: ws
   password: Aimer

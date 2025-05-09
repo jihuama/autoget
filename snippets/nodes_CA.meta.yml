@@ -1,22 +1,8 @@
 proxies:
-- name: 3|🇨🇦1 |  6.1MB/s|35%|Youtube|Gem...
+- name: 3|🇨🇦1 |  5.6MB/s|63%|Disney
   network: ws
-  port: '2052'
-  server: 104.17.148.22
-  type: vless
-  udp: true
-  uuid: 98f48d81-da83-49d2-a1c1-547c2a57798d
-  ws-opts:
-    headers:
-      Host: sPeedtest2.sbs.cavl.cytun.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
-  xudp: true
-- name: 3|🇨🇦2 |  1.2MB/s|63%|Disney|Open...
-  network: ws
-  port: 443
-  server: 192.0.54.174
+  port: 12001
+  server: 45.154.98.124
   servername: hl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -27,142 +13,28 @@ proxies:
     headers:
       Host: hl.ylka.dpdns.org
     path: /?ed=2560
-- name: 3|🇨🇦3 |  1.3MB/s|63%|Disney|Gemi...
-  network: ws
+- client-fingerprint: chrome
+  name: 3|🇨🇦2 |  1.4MB/s|64%|Netflix|Dis...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
-  server: ip.gs
-  servername: hl.ylka.dpdns.org
+  server: toronto1.sqx001.com
   skip-cert-verify: true
+  sni: toronto1.sqx001.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦4 |  1.1MB/s|63%|Disney
-  network: ws
-  port: 443
-  server: www.digitalocean.com
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦5 |  1.2MB/s|63%|Disney|Gemi...
-  network: ws
-  port: 443
-  server: abdullah.ns.cloudflare.com
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦6 |  4.9MB/s|63%|Disney|Gemi...
-  network: ws
-  port: 443
-  server: sullivan.ns.cloudflare.com
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦7 |  1.0MB/s|63%|Disney|Gemi...
-  network: ws
-  port: 443
-  server: 158.224.83.27
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦8 |  4.7MB/s|Disney|Openai|G...
-  network: ws
-  port: 443
-  server: 45.67.215.165
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦9 |  6.1MB/s|Disney|Openai
-  network: ws
-  port: 443
-  server: www.pcmag.com
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦10 |  1.6MB/s|63%|Disney|Ope...
-  network: ws
-  port: 443
-  server: 63.141.128.136
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦11 |  2.4MB/s|Disney|Gemini
-  network: ws
-  port: 443
-  server: wilson.ns.cloudflare.com
-  servername: hl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: hl.ylka.dpdns.org
-    path: /?ed=2560
-- alterId: 0
+  username: dmpyoary@mayorlogistic.com
+- alterId: 2
   cipher: auto
-  name: 8|3|🇨🇦1 |  4.1MB/s|29%|Youtube|O...
+  client-fingerprint: chrome
+  name: 3|🇨🇦3 |  5.6MB/s|Youtube|Openai|...
   network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  tls: true
+  port: 30825
+  server: v25.heduian.link
+  tls: false
   type: vmess
-  uuid: 81380a5e-613c-4863-8b3a-5588f32690c3
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: MaXnEtVipAp-ca1.MaxnetserVicEs.ONliNe
-    path: /linkws
+      Host: baidu.com
+    path: /oooo
