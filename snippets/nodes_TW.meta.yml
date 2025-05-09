@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 3|🇹🇼1 |  2.5MB/s|0%|Disney|Opena...
+  name: 3|🇹🇼1 |  1.3MB/s|0%|Disney|Opena...
   network: ws
   password: Aimer
   port: '443'
@@ -19,7 +19,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 3|🇹🇼2 |  1.3MB/s|0%|Netflix|Open...
+  name: 3|🇹🇼2 |  1.4MB/s|Openai
   network: ws
   password: Aimer
   port: '443'
@@ -36,7 +36,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 3|🇹🇼3 |  1.4MB/s|0%|Netflix|Disn...
+  name: 3|🇹🇼3 |  4.0MB/s|Netflix|Disney|...
   network: ws
   password: Aimer
   port: '2096'
@@ -53,40 +53,7 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: random
-  name: 3|🇹🇼4 |  1.0MB/s|0%|Disney|Opena...
-  network: ws
-  port: '8443'
-  server: 27.50.49.242
-  servername: edccj.ambercc.filegear-sg.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edccj.ambercc.filegear-sg.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
-  xudp: true
-- name: 3|🇹🇼5 |  2.8MB/s|0%|Disney|Opena...
-  network: ws
-  port: '8080'
-  server: 104.18.14.19
-  type: vless
-  udp: true
-  uuid: 41956a47-8432-4a3f-b70d-a54fc7efd6b8
-  ws-opts:
-    headers:
-      Host: 0223.jq2ter91.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /Telegram@V2ray_Alpha
-  xudp: true
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 3|🇹🇼6 |  1.2MB/s|0%|Disney|Gemin...
+  name: 3|🇹🇼4 |  2.0MB/s|0%|Disney|Opena...
   network: ws
   port: '443'
   server: 108.162.195.82
@@ -102,32 +69,33 @@ proxies:
         like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /?ed=2560&proxyip=ts.hpc.tw
   xudp: true
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 3|🇹🇼8 |  5.6MB/s|0%|Disney|Opena...
-  network: ws
-  port: '2083'
-  server: 154.218.15.250
-  servername: edccj.ambercc.filegear-sg.me
-  tls: true
-  type: vless
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,11,13|CN_speednode_0004
+  password: b6200af42ccadea353f5b5856dd20d70
+  port: 30052
+  server: 183.236.51.38
+  skip-cert-verify: false
+  sni: 113.99.140.184
+  tfo: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      Host: edccj.ambercc.filegear-sg.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2560&proxyip=ts.hpc.tw
-  xudp: true
-- client-fingerprint: chrome
-  name: 3|🇹🇼9 |  2.4MB/s|Netflix|Openai|...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 3|🇹🇼6 |  1.5MB/s|25%|Netflix|Dis...
+  password: 937f6b6168b6
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wt8v1.kvote.cn
+    mode: websocket
+    mux: true
+    path: /oqhygtklyhwi
+    skip-cert-verify: false
+    tls: true
   port: 443
-  server: tw01.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
+  server: 103.137.62.194
+  tfo: false
+  type: ss
