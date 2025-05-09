@@ -5,6 +5,17 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🇸🇬4 |  1.1MB/s|54%|Youtube|Ope...
+  obfs: tls1.2_ticket_auth
+  obfs-param: sg2-cdn-route.couldflare-cdn.com
+  password: uiACqrIr
+  port: 56138
+  protocol: origin
+  protocol-param: ''
+  server: cm2.xcone.xyz
+  type: ssr
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -24,14 +35,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|新加坡3|@ripaojiedian
+  name: 8,12|新加坡3|@ripaojiedian
   network: ws
   port: '35146'
   server: sg6.vip2.g2.moonbase.life
   servername: web.xcjs.info
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
@@ -44,6 +52,6 @@ proxies:
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 18.183.184.244
+  server: 52.27.142.2
   tfo: false
   type: ss
