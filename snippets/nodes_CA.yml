@@ -1,14 +1,19 @@
 proxies:
-- alterId: 2
+- alterId: '0'
   cipher: auto
-  name: 8|2|🇨🇦3 |  5.6MB/s|Youtube|Opena...
+  name: 3|🇨🇦1 |  3.2MB/s|29%|Youtube|Ope...
   network: ws
-  port: 30825
-  server: v25.heduian.link
-  tls: false
+  port: 443
+  server: cloudgetservice.mcloudservice.site
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: 81380a5e-613c-4863-8b3a-5588f32690c3
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: baidu.com
-    path: /oooo
+      Host: MaXnEtVipAp-ca1.MaxnetserVicEs.ONliNe
+    max-early-data: 2560
+    path: /linkws
+  xudp: true
