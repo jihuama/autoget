@@ -1,11 +1,29 @@
 proxies:
 - cipher: aes-256-gcm
   delay: 1872
-  name: 3|🇭🇰2 |  2.3MB/s|0%|Netflix|Yout...
+  name: 3|🇭🇰1 |  4.8MB/s|0%|Netflix|Disn...
   password: UDAKN2HJM6TYYJSP
   port: 15009
   server: 156.245.190.18
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 3,8,11|🇭🇰 香港4|@ripaojiedian
+  network: ws
+  port: 8080
+  server: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+  xudp: true
 - alterId: 64
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
@@ -18,35 +36,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11|🇭🇰 香港4|@ripaojiedian
-  network: ws
-  port: 8080
-  server: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 8,12|香港5|@ripaojiedian
   network: tcp
   port: '59082'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 8,12|香港6|@ripaojiedian
-  network: tcp
-  port: '36609'
   server: 120.232.153.40
   servername: ''
   tls: false
