@@ -7,7 +7,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 3,13|CN_speednode_0008
+  name: 3,13|CN_speednode_0005
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -17,6 +17,19 @@ proxies:
   server: cm2.xcone.xyz
   type: ssr
   udp: true
+- delay: 1770
+  name: 3|🇸🇬6 |  5.2MB/s|63%|Netflix|Dis...
+  network: ws
+  password: slch2024
+  port: 8443
+  server: myanmar.visa.com
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -34,20 +47,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 8|14|新加坡3|@ripaojiedian
-  network: ws
-  port: '35146'
-  server: sg6.vip2.g2.moonbase.life
-  servername: web.xcjs.info
-  tls: true
-  type: vmess
-  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
-  ws-opts:
-    headers:
-      Host: web.xcjs.info
-    path: /home
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
@@ -56,7 +55,7 @@ proxies:
   server: 3.35.231.158
   tfo: false
   type: ss
-- name: 13|SG_speednode_0035
+- name: 13|SG_speednode_0024
   network: ws
   password: Aimer
   port: 8443
