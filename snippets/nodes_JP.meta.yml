@@ -1,21 +1,6 @@
 proxies:
-- name: 3|🇩🇪7 |  1.5MB/s|21%|Openai
-  network: ws
-  port: '80'
-  server: www.speedtest.net
-  servername: ipsychO.SUEx12.Ir
-  type: vless
-  udp: true
-  uuid: 5a15f476-cffb-4d11-ba1c-cf8a7fca961a
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.lop.isvpython.online.
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn?ed=2048
-  xudp: true
 - auth: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  name: 3|🇯🇵2 |  2.0MB/s|0%|Youtube|Gemi...
+  name: 3|🇯🇵1 |  1.2MB/s|0%|Youtube|Gemi...
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 3ed64477-9d5c-49ca-b536-2dae51c987d2
@@ -25,6 +10,64 @@ proxies:
   sni: s0.awsstatic.com
   type: hysteria2
   udp: true
+- client-fingerprint: chrome
+  name: 3|🇯🇵2 |  4.8MB/s|8%|Disney|Youtu...
+  network: ws
+  port: '11223'
+  server: 218.38.33.77
+  servername: mikuyo.bpd67081tsq.ddns-ip.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: be21e25f-5919-4e6b-b443-bfa45273de5d
+  ws-opts:
+    headers:
+      Host: mikuyo.bpd67081tsq.ddns-ip.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 3|🇯🇵3 |  6.2MB/s|20%|Disney|Yout...
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: gkeUZppVQzutjGsRcsGMW8OrPHboJ3qRFpIvj8lcUj4
+    short-id: c174618d
+  server: 3.115.82.155
+  servername: tv.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d62993f2-f2b7-410d-b56d-2cef2e971038
+  xudp: true
+- client-fingerprint: chrome
+  name: 3|🇯🇵4 |  1.7MB/s|0%|Netflix|Disn...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky03.sqx001.com
+  skip-cert-verify: true
+  sni: tky03.sqx001.com
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
+- client-fingerprint: chrome
+  name: 3|🇯🇵5 |  1.6MB/s|0%|Disney|Opena...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky02.sqx001.com
+  skip-cert-verify: true
+  sni: tky02.sqx001.com
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
 - alterId: 64
   cipher: auto
   name: 8|3|🇯🇵3 |  5.6MB/s|51%|Youtube|O...

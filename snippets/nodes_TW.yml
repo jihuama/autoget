@@ -2,20 +2,27 @@ proxies:
 - alpn:
   - h3
   client-fingerprint: randomized
-  name: 3|🇹🇼1 |  1.9MB/s|0%|Netflix|Disn...
+  name: 3|🇹🇼1 |  5.8MB/s|0%|Netflix
   network: ws
   password: Aimer
   port: '443'
-  server: 209.208.227.79
+  server: 27.50.49.136
   skip-cert-verify: false
   sni: epccj.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-cfb
+  name: 3|🇹🇼2 |  1.2MB/s|0%|Openai
+  password: qwerREWQ@@
+  port: '64759'
+  server: 185.189.160.98
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 13|TW_speednode_0025
   password: 937f6b6168b6
