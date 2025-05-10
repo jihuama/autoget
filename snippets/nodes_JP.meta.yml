@@ -1,17 +1,25 @@
 proxies:
-- auth: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  name: 3|🇯🇵1 |  1.2MB/s|0%|Youtube|Gemi...
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  port: 13301
-  server: baipiaoyun-japan.baipiaoyun.site
-  skip-cert-verify: true
-  sni: s0.awsstatic.com
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
-  name: 3|🇯🇵2 |  4.8MB/s|8%|Disney|Youtu...
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 3|🇯🇵1 |  5.4MB/s|20%|Disney|Yout...
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: gkeUZppVQzutjGsRcsGMW8OrPHboJ3qRFpIvj8lcUj4
+    short-id: c174618d
+  server: 3.115.82.155
+  servername: tv.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d62993f2-f2b7-410d-b56d-2cef2e971038
+  xudp: true
+- client-fingerprint: chrome
+  name: 3|🇯🇵2 |  1.5MB/s|Youtube|Openai
   network: ws
   port: '11223'
   server: 218.38.33.77
@@ -28,26 +36,7 @@ proxies:
     path: fp=chrome
   xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 3|🇯🇵3 |  6.2MB/s|20%|Disney|Yout...
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: gkeUZppVQzutjGsRcsGMW8OrPHboJ3qRFpIvj8lcUj4
-    short-id: c174618d
-  server: 3.115.82.155
-  servername: tv.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d62993f2-f2b7-410d-b56d-2cef2e971038
-  xudp: true
-- client-fingerprint: chrome
-  name: 3|🇯🇵4 |  1.7MB/s|0%|Netflix|Disn...
+  name: 3|🇯🇵3 |  2.6MB/s|13%|Youtube|Ope...
   password: cacb4d4fa26f4eed25e4d17a6370083c
   port: 443
   server: tky03.sqx001.com
@@ -57,30 +46,6 @@ proxies:
   type: http
   udp: true
   username: dmpyoary@mayorlogistic.com
-- client-fingerprint: chrome
-  name: 3|🇯🇵5 |  1.6MB/s|0%|Disney|Opena...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky02.sqx001.com
-  skip-cert-verify: true
-  sni: tky02.sqx001.com
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- alterId: 64
-  cipher: auto
-  name: 8|3|🇯🇵3 |  5.6MB/s|51%|Youtube|O...
-  network: ws
-  port: 1443
-  server: sslvpn.51job.com
-  tls: true
-  type: vmess
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
 - alterId: 64
   cipher: auto
   name: 8,12|日本3|@ripaojiedian
