@@ -17,40 +17,53 @@ proxies:
   server: cm2.xcone.xyz
   type: ssr
   udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: random
-  name: 3|🇸🇬2 |  5.6MB/s|Youtube|Openai|...
+- name: 3|🇸🇬2 |  3.3MB/s|Openai
+  network: ws
+  port: '80'
+  server: 141.193.213.21
+  type: vless
+  udp: true
+  uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
+  ws-opts:
+    headers:
+      Host: lk.sahanwickramasinghe.shop
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /
+  xudp: true
+- name: 3|🇸🇬3 |  5.3MB/s|Youtube|Openai
+  network: ws
+  port: '80'
+  server: 141.193.213.20
+  type: vless
+  udp: true
+  uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
+  ws-opts:
+    headers:
+      Host: lk.sahanwickramasinghe.shop
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  flow: none
+  name: 3|🇸🇬4 |  5.8MB/s|Youtube|Openai|...
   network: ws
   port: '2096'
-  server: 104.17.70.206
-  servername: xrr.rtxconfigz.xyz
+  server: 141.193.213.20
+  servername: premium.vkehi.shop
   tls: true
   type: vless
   udp: true
-  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
+  uuid: 93be59b7-ebce-4aec-8e66-4470e06e58ae
   ws-opts:
     headers:
-      Host: xrr.rtxconfigz.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: ''
+      Host: premium.vkehi.shop
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: '%2F'
   xudp: true
-- delay: 1770
-  name: 3|🇸🇬3 |  2.4MB/s|63%|Netflix|Dis...
-  network: ws
-  password: slch2024
-  port: 8443
-  server: myanmar.visa.com
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -70,7 +83,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 8,12|新加坡3|@ripaojiedian
+  name: 8|14|新加坡3|@ripaojiedian
   network: ws
   port: '35146'
   server: sg6.vip2.g2.moonbase.life
@@ -87,7 +100,7 @@ proxies:
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 52.27.142.2
+  server: 3.35.231.158
   tfo: false
   type: ss
 - alpn:
