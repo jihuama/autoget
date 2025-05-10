@@ -1,29 +1,26 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 3|🇭🇰1 |  1.2MB/s|60%|Youtube
-  network: tcp
-  port: '443'
-  server: 103.253.43.210
-  servername: hon5.vpntype.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: fbabc72e-6e88-4e74-976d-3b70071d13dc
-  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰2 |  1.7MB/s|0%|Netflix|Disn...
+  name: 3|🇭🇰1 |  2.0MB/s|0%|Netflix|Yout...
   password: 887f01da-5b52-4dff-a80f-efe3380ac35f
   port: 54016
   server: chiyu.myfczy169.top
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇭🇰2 |  1.1MB/s|0%|Netflix|Yout...
+  password: OHJHa1cyZ0RnNlFxWHZQdGdrUGdqNXVo
+  port: '48019'
+  server: 45.196.235.33
+  type: ss
+  udp: true
+- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  name: 3|🇭🇰3 |  1.3MB/s|0%|Netflix|Disn...
+  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  port: 24591
+  server: hk1.shiyuandian.shop
+  skip-cert-verify: true
+  sni: hk1.shiyuandian.shop
+  type: hysteria2
+  udp: true
 - alterId: 64
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
