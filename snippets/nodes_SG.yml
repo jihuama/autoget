@@ -5,22 +5,23 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: chacha20-ietf
-  name: 3|🇸🇬3 |  1.3MB/s|Netflix|Youtube...
-  password: asd123456
-  port: '8388'
-  server: 103.36.91.32
-  type: ss
-  udp: true
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 8|3|🇸🇬2 |  3.2MB/s|0%|Netflix|Di...
-  network: tcp
-  port: '46121'
-  server: 183.236.51.38
-  tls: false
+  name: 3|🇸🇬3 |  4.9MB/s|23%|Disney|Yout...
+  network: ws
+  port: 43050
+  server: 152.69.220.94
+  servername: a.ziqiu1060.ggff.net
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  udp: true
+  uuid: 28ca0567-754e-46fc-e774-b19c787975f7
+  ws-opts:
+    headers:
+      Host: a.ziqiu1060.ggff.net
+    path: /dsfsdf
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

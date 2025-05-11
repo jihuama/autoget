@@ -1,39 +1,31 @@
 proxies:
-- client-fingerprint: chrome
-  name: 3,13|KR_speednode_0047
+- cipher: aes-128-gcm
+  name: 3|🇯🇵1 |  4.4MB/s|0%|Disney|Youtu...
+  password: 904d4c81-aebf-4882-bb2a-b4dcb8cb5d05
+  port: 12062
+  server: bit-jp.03ezhg0qsa.download
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 3,13|CN_speednode_0013
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19832
+  server: h.cm2.xiaomi-api.xyz
+  type: ss
+  udp: true
+- delay: 937
+  name: 3|🇯🇵3 |  1.4MB/s|23%|Netflix|Dis...
   network: ws
-  port: 11223
-  server: 218.38.33.77
-  servername: mikuyo.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: false
+  port: 443
+  server: kyle.ns.cloudflare.com
+  servername: vless01.trevely.us.kg
+  tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: be21e25f-5919-4e6b-b443-bfa45273de5d
+  uuid: 5177172c-125a-47fa-bccd-3778b459a75e
   ws-opts:
     headers:
-      Host: mikuyo.bpd67081tsq.ddns-ip.net
-    path: /
-  xudp: true
-- name: 3,13|JP_speednode_0044
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky03.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- client-fingerprint: chrome
-  name: 3|🇯🇵3 |  2.1MB/s|0%|Youtube|Open...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky02.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
+      Host: vless01.trevely.us.kg
+    path: /?ed=2560
 - alterId: 64
   cipher: auto
   name: 8,12|日本3|@ripaojiedian
@@ -121,3 +113,12 @@ proxies:
   type: vless
   udp: true
   uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+- name: 13|JP_speednode_0044
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tky03.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
