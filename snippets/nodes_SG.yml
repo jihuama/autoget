@@ -5,6 +5,36 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-gcm
+  name: 3|🇸🇬1 |  1.2MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11508'
+  server: cdn-p1-sg.weibo-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 3|🇸🇬2 |  2.8MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11536'
+  server: ieplqz.youku-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 3|🇸🇬3 |  1.2MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11530'
+  server: cdn-p1-sg.weibo-dns.com
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 8|3|🇸🇬2 |  1.1MB/s|0%|Netflix|Op...
+  network: tcp
+  port: 43302
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

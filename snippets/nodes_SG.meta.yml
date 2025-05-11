@@ -5,12 +5,33 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: aes-256-gcm
+  name: 3|🇸🇬1 |  1.2MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11508'
+  server: cdn-p1-sg.weibo-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 3|🇸🇬2 |  2.8MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11536'
+  server: ieplqz.youku-dns.com
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 3|🇸🇬3 |  1.2MB/s|13%|Netflix|Dis...
+  password: 423cf642-6528-410c-b542-2aae04113d33
+  port: '11530'
+  server: cdn-p1-sg.weibo-dns.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: none
-  name: 3|🇸🇬1 |  2.1MB/s|Openai
+  name: 3|🇸🇬5 |  5.7MB/s|Youtube|Openai|...
   network: ws
   port: '2096'
-  server: 141.193.213.20
+  server: 141.193.213.21
   servername: premium.vkehi.shop
   tls: true
   type: vless
@@ -19,24 +40,19 @@ proxies:
   ws-opts:
     headers:
       Host: premium.vkehi.shop
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: '%2F'
   xudp: true
-- name: 3|🇸🇬3 |  5.4MB/s|34%|Netflix|Dis...
-  network: ws
-  port: '80'
-  server: 34.160.118.77
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: reedfree8mahsang2.redorg.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: Telegram🇨🇳
-  xudp: true
+- alterId: 64
+  cipher: auto
+  name: 8|3|🇸🇬2 |  1.1MB/s|0%|Netflix|Op...
+  network: tcp
+  port: 43302
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
