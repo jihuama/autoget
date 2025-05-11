@@ -1,30 +1,57 @@
 proxies:
+- alpn:
+  - h3
+  down: ''
+  fingerprint: ''
+  name: 3|🇨🇦1 |  1.1MB/s|23%|Netflix|Dis...
+  obfs: ''
+  obfs-password: ''
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: '45979'
+  server: 40.233.80.61
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
 - alterId: 0
   cipher: auto
-  name: 3,8|3|🇨🇦2 |  1.0MB/s|29%|Youtube|O...
+  country: 🏁ZZ
+  delay: 2385
+  h2-opts: {}
+  http-opts: {}
+  name: 3|🇨🇦2 |  2.6MB/s|29%|Youtube|Ope...
+  network: ws
+  port: 2083
+  server: 172.66.168.209
+  servername: CanaDa-138.blAzecAnAdA.SITe
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 698d9a5b-59dc-4ea6-b404-cd9e967fc54c
+  ws-opts:
+    headers:
+      HOST: CanaDa-138.blAzecAnAdA.SITe
+    path: /linkvkws
+- client-fingerprint: chrome
+  name: 3|🇨🇦3 |  2.2MB/s|64%|Netflix|Dis...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: toronto1.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dmpyoary@mayorlogistic.com
+- alterId: 0
+  cipher: auto
+  name: 8|1|🇨🇦1 |  1.5MB/s|29%|Youtube|O...
   network: ws
   port: 2083
   server: cloudgetservice.mcloudservice.site
-  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
   uuid: 698d9a5b-59dc-4ea6-b404-cd9e967fc54c
   ws-opts:
     headers:
       Host: CanaDa-138.blAzecAnAdA.SITe
     path: /linkvkws
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 8|3|🇨🇦3 |  5.8MB/s|29%|Youtube|O...
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: b87cea1d-d14c-45c3-af40-7af5d3be88da
-  ws-opts:
-    headers:
-      Host: CANADa-199.BLaZecANADA.sIte
-    path: /linkvkvws

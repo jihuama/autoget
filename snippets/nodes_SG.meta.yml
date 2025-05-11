@@ -5,30 +5,9 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: aes-256-gcm
-  name: 3|🇸🇬1 |  1.2MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11508'
-  server: cdn-p1-sg.weibo-dns.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 3|🇸🇬2 |  2.8MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11536'
-  server: ieplqz.youku-dns.com
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 3|🇸🇬3 |  1.2MB/s|13%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11530'
-  server: cdn-p1-sg.weibo-dns.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: none
-  name: 3|🇸🇬5 |  5.7MB/s|Youtube|Openai|...
+  name: 3|🇸🇬1 |  1.4MB/s|Youtube|Openai
   network: ws
   port: '2096'
   server: 141.193.213.21
@@ -44,9 +23,37 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: '%2F'
   xudp: true
+- name: 3,13|US_speednode_0102
+  network: ws
+  port: 80
+  server: 185.148.106.32
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
+- name: 3|🇸🇬3 |  2.0MB/s|Youtube|Openai
+  network: ws
+  port: 80
+  server: 141.193.213.21
+  type: vless
+  udp: true
+  uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
+  ws-opts:
+    headers:
+      Host: lk.sahanwickramasinghe.shop
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
 - alterId: 64
   cipher: auto
-  name: 8|3|🇸🇬2 |  1.1MB/s|0%|Netflix|Op...
+  name: 8|1|🇸🇬4 |  1.5MB/s|0%|Netflix|Op...
   network: tcp
   port: 43302
   server: 183.236.51.38
