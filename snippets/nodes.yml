@@ -394,7 +394,6 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 653
-  ip-version: dual
   name: 3,11,13|CN_speednode_0009
   password: a5DnyYNIexIzS2Xg3YYlg9Ol0SgEpyCj5ZCSBanD88eOpwOC4aEzDyTjY0nxBDjzSaACSTqSE223C83
   port: 36609
@@ -406,44 +405,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 3,8|2|🇺🇸40 |  2.4MB/s|32%|Openai
-  network: ws
-  port: 80
-  server: FfFgTYY.7282728.XyZ
-  tls: false
-  type: vmess
-  uuid: 3d4ad187-b554-4300-bf71-d26c71962504
-  ws-opts:
-    path: /NiNQyrcaIIJ3WqRcOEICAwmfH7
-- alpn:
-  - http/1.1
-  name: 3|🇺🇸20 |  2.1MB/s|Openai
-  network: ws
-  password: f82fb954-06a1-4f0b-9180-17e07585b61f
-  port: 443
-  server: 104.21.16.1
-  skip-cert-verify: false
-  sni: 6hj8.191262.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /Yu29UN3Yz8hcnI3SlZor0
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1856
-  h2-opts: {}
-  http-opts: {}
-  name: 3,8|2|🇯🇵3 |  3.7MB/s|10%|Disney|Yo...
-  network: tcp
-  port: 17233
-  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -458,214 +419,24 @@ proxies:
   udp: true
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
   xudp: true
-- cipher: aes-256-gcm
-  name: 3|🇯🇵6 |  5.8MB/s|64%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: 11505
-  server: cdn-p1-jp.weibo-dns.com
-  type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 3|🇺🇸50 |  4.7MB/s|0%
-  network: ws
-  password: fefba36d-5142-42f1-b14d-db5249511d93
-  port: '443'
-  server: 172.67.152.170
-  skip-cert-verify: false
-  sni: 5ttt.191288.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /BFBuPh4SuxTxCwkqKrjE
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 3|🇺🇸52 |  2.1MB/s|34%|Openai
-  network: ws
-  password: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd
-  port: '443'
-  server: 104.21.42.250
-  skip-cert-verify: false
-  sni: 8io09.191268.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /tvowuLtlha3zxRV9PS
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 3|🇺🇸53 |  5.7MB/s|Openai
-  network: ws
-  password: c6840587-7ac4-40be-aa4b-ae327eb4fa53
-  port: '443'
-  server: 104.21.61.154
-  skip-cert-verify: false
-  sni: CCCvfGHj.191266.xYZ
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /ogSVyJu0ksqZjqvVUXlLhk95Ad
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 3|🇺🇸54 |  4.1MB/s|31%|Openai
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
+  client-fingerprint: chrome
+  delay: 1856
+  h2-opts: {}
+  http-opts: {}
+  name: 3,8|2|🇯🇵3 |  3.7MB/s|10%|Disney|Yo...
+  network: tcp
+  port: 17233
+  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: zxjp-c.tkong.cc
-  ws-path: /
-- alpn:
-  - http/1.1
-  ip-version: dual
-  name: 3|🇺🇸56 |  5.5MB/s|34%|Openai
-  network: ws
-  password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
-  port: 443
-  server: 104.21.64.1
-  skip-cert-verify: false
-  sni: 10r.iran1912.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /VEP415T5mby2DulPWRIwOavJd
-- ip-version: dual
-  name: 3|🇺🇸57 |  2.5MB/s|Netflix|Disney...
-  network: ws
-  password: 4f435a3a-dfb8-4c90-b637-8df8c5d44550
-  port: 443
-  server: 172.67.135.37
-  sni: m9rrrfgh.459.pp.ua
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /l6lvY4hFZriQDBimbKYmPIggy
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸58 |  1.1MB/s|32%|Youtube|Op...
-  network: ws
-  port: 80
-  server: 172.67.170.51
-  type: vmess
-  uuid: ced307a2-af2c-4113-bebc-fb888c702b7d
-  ws-opts:
-    headers:
-      host: m4frt.999182.xyz
-    path: /PEQ7CoA1VrBwsbnEcmJLxC
-- alterId: 2
-  cipher: auto
-  name: 3|🇺🇸59 |  2.2MB/s|31%|Openai
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇭🇰1 |  2.0MB/s|16%|Netflix|Dis...
-  network: ws
-  port: 8080
-  server: e9a671ea-sw1z40-t4vk19-1nlwy.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 9247343a-5db0-11ee-9367-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: e9a671ea-sw1z40-t4vk19-1nlwy.hgc1.tcpbbr.net
-    path: /
-- client-fingerprint: chrome
-  name: 3|🇺🇸63 |  5.5MB/s|34%|Openai
-  network: ws
-  password: f82fb954-06a1-4f0b-9180-17e07585b61f
-  port: '443'
-  server: 104.21.23.162
-  skip-cert-verify: false
-  sni: 6tghjk.131.pp.ua
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /Yu29UN3Yz8hcnI3SlZor0
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 3|🇺🇸66 |  5.9MB/s|32%|Openai
-  network: ws
-  password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
-  port: '443'
-  server: 104.21.35.247
-  skip-cert-verify: false
-  sni: ff.HuangSHANg2030.DPDnS.oRg
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ptGwaGzcA4KNAXX
-- alterId: '0'
-  cipher: auto
-  name: 3|🇨🇦5 |  5.7MB/s|29%|Youtube|Ope...
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 81380a5e-613c-4863-8b3a-5588f32690c3
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: MaXnEtVipAp-ca1.MaxnetserVicEs.ONliNe
-    max-early-data: 2560
-    path: /linkws
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 3|🇨🇦6 |  5.1MB/s|29%|Youtube|Ope...
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b87cea1d-d14c-45c3-af40-7af5d3be88da
-  ws-opts:
-    headers:
-      Host: CANADa-199.BLaZecANADA.sIte
-    path: /linkvkvws
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 3|🇺🇸76 |  5.4MB/s|32%|Openai
+  name: 3|🇺🇸18 |  1.4MB/s|32%|Openai
   network: ws
   password: c6840587-7ac4-40be-aa4b-ae327eb4fa53
   port: '443'
@@ -679,40 +450,9 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.63 Safari/537.36
     path: /ogSVyJu0ksqZjqvVUXlLhk95Ad
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  delay: 1855
-  name: 3|🇺🇸120 |  3.1MB/s|34%|Openai
-  network: ws
-  password: f82fb954-06a1-4f0b-9180-17e07585b61f
-  port: 443
-  server: 104.21.96.1
-  skip-cert-verify: false
-  sni: 6hj8.191262.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /Yu29UN3Yz8hcnI3SlZor0
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 3|🇺🇸124 |  1.0MB/s|Openai
-  network: ws
-  port: 20028
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6d1d673d-8344-471f-88c1-722c6f0017c1
-  ws-opts:
-    path: /
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸125 |  6.0MB/s|31%|Openai
+  name: 3|🇺🇸39 |  1.0MB/s|31%|Openai
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -725,6 +465,314 @@ proxies:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
+- cipher: aes-256-cfb
+  name: 3|🇰🇷9 |  5.8MB/s|44%|Netflix|Dis...
+  password: qwerREWQ@@
+  port: 15098
+  server: p222.panda001.net
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🇰🇷10 |  5.3MB/s|44%|Netflix|Di...
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🌀2-VN |  1.6MB/s|0%|Openai
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.19
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🌀3-VN |  2.2MB/s|0%|Netflix|Op...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.133
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🌀4-VN |  2.6MB/s|0%|Openai
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.22
+  type: ss
+- cipher: aes-256-cfb
+  name: 3|🌀5-VN |  3.6MB/s|0%|Openai
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.24
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3,11|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.20
+  tfo: false
+  type: ss
+- alpn:
+  - http/1.1
+  ip-version: dual
+  name: 3|🇺🇸43 |  6.0MB/s|32%|Openai
+  network: ws
+  password: 1549e70f-dc57-45e3-ac7c-515f0161db72
+  port: 443
+  server: 172.67.155.140
+  skip-cert-verify: false
+  sni: 6667.HUAnGSHanG.dpdNs.orG
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /TomYJoQX0RSt1mktNrT
+- alpn:
+  - http/1.1
+  ip-version: dual
+  name: 3|🇺🇸44 |  4.6MB/s|32%|Openai
+  network: ws
+  password: 1549e70f-dc57-45e3-ac7c-515f0161db72
+  port: 443
+  server: 104.21.7.147
+  skip-cert-verify: false
+  sni: 6667.HUAnGSHanG.dpdNs.orG
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /TomYJoQX0RSt1mktNrT
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 3|🇺🇸46 |  5.7MB/s|32%|Openai
+  network: ws
+  password: c6840587-7ac4-40be-aa4b-ae327eb4fa53
+  port: '443'
+  server: 172.67.200.117
+  skip-cert-verify: false
+  sni: ccdfRt6.890634.Xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /ogSVyJu0ksqZjqvVUXlLhk95Ad
+- alterId: '0'
+  cipher: auto
+  name: 3|🌀7-ID |  1.3MB/s|41%|Youtube|O...
+  network: tcp
+  port: '17234'
+  server: 1e69d086-sux8g0-t9eu8q-tlhh.cm5.p5pv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 3|🇺🇸52 |  5.2MB/s|34%|Openai
+  network: ws
+  password: 4be20cf1-6af1-4e87-ae5a-80d6ec30fecd
+  port: '443'
+  server: 172.67.214.21
+  skip-cert-verify: false
+  sni: 8io09.191268.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /tvowuLtlha3zxRV9PS
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 3|🇺🇸57 |  1.5MB/s|0%|Openai
+  network: ws
+  password: fefba36d-5142-42f1-b14d-db5249511d93
+  port: '443'
+  server: 104.21.82.39
+  skip-cert-verify: false
+  sni: 5ttt.191288.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /BFBuPh4SuxTxCwkqKrjE
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 3|🇺🇸59 |  5.9MB/s|0%|Netflix|Dis...
+  network: ws
+  password: 4f435a3a-dfb8-4c90-b637-8df8c5d44550
+  port: '443'
+  server: 104.21.26.17
+  skip-cert-verify: false
+  sni: m9rrrfgh.459.pp.ua
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /l6lvY4hFZriQDBimbKYmPIggy
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 3|🇺🇸60 |  4.9MB/s|32%|Openai
+  network: ws
+  password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
+  port: '443'
+  server: 172.67.181.193
+  skip-cert-verify: false
+  sni: ff.HuangSHANg2030.DPDnS.oRg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /ptGwaGzcA4KNAXX
+- alterId: '0'
+  cipher: auto
+  name: 3|🇫🇷4 |  5.6MB/s|Openai
+  network: ws
+  port: 443
+  server: 172.67.136.233
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 3|🌀9-ID |  1.6MB/s|41%|Youtube|O...
+  network: tcp
+  port: '17234'
+  server: 2a668e37-surog0-sxm4ot-zn8y.cm5.p5pv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  xudp: true
+- alterId: 0
+  cipher: auto
+  delay: 1140
+  name: 3|🇭🇰3 |  1.5MB/s|16%|Netflix|You...
+  network: ws
+  port: 8080
+  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰4 |  3.7MB/s|16%|Youtube|Ope...
+  network: ws
+  port: 8080
+  server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰5 |  1.6MB/s|16%|Youtube|Ope...
+  network: ws
+  port: 8080
+  server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰6 |  1.4MB/s|16%|Youtube|Ope...
+  network: ws
+  port: 8080
+  server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰7 |  1.7MB/s|16%|Youtube|Ope...
+  network: ws
+  port: 8080
+  server: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🌀11-VN |  3.8MB/s|0%|Youtube|O...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.36
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🌀12-VN |  1.1MB/s|Netflix|Yout...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.33
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🌀13-VN |  4.2MB/s|0%|Netflix|Y...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.35
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 3|🌀14-VN |  4.2MB/s|0%|Openai|Ge...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.23
+  tfo: true
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: 6|Github搜索TrojanLinks
@@ -1237,6 +1285,17 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
+  name: 8|2|🇺🇸40 |  2.4MB/s|32%|Openai
+  network: ws
+  port: 80
+  server: FfFgTYY.7282728.XyZ
+  tls: false
+  type: vmess
+  uuid: 3d4ad187-b554-4300-bf71-d26c71962504
+  ws-opts:
+    path: /NiNQyrcaIIJ3WqRcOEICAwmfH7
+- alterId: 0
+  cipher: auto
   name: 8|2|🇺🇸49 |  4.2MB/s|32%|Openai
   network: ws
   port: 80
@@ -1639,14 +1698,6 @@ proxies:
   password: awsps0501
   port: 443
   server: 18.182.62.232
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.20
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305

@@ -5,7 +5,6 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   delay: 653
-  ip-version: dual
   name: 3,11,13|CN_speednode_0009
   password: a5DnyYNIexIzS2Xg3YYlg9Ol0SgEpyCj5ZCSBanD88eOpwOC4aEzDyTjY0nxBDjzSaACSTqSE223C83
   port: 36609
@@ -20,20 +19,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  delay: 1856
-  h2-opts: {}
-  http-opts: {}
-  name: 3,8|2|🇯🇵3 |  3.7MB/s|10%|Disney|Yo...
-  network: tcp
-  port: 17233
-  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 3,8|2|🇯🇵2 |  5.8MB/s|10%|Disney|Yo...
   network: tcp
   port: 17233
@@ -45,12 +30,20 @@ proxies:
   udp: true
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
   xudp: true
-- cipher: aes-256-gcm
-  name: 3|🇯🇵6 |  5.8MB/s|64%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: 11505
-  server: cdn-p1-jp.weibo-dns.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1856
+  h2-opts: {}
+  http-opts: {}
+  name: 3,8|2|🇯🇵3 |  3.7MB/s|10%|Disney|Yo...
+  network: tcp
+  port: 17233
+  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
 - alterId: 64
   cipher: auto
   name: 8,12|日本3|@ripaojiedian
