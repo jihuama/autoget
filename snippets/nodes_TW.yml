@@ -1,11 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,8|2|🇹🇼1 |  6.2MB/s|0%|Netflix|Di...
+  name: 8|3|🇹🇼1 |  6.2MB/s|0%|Netflix|Di...
   network: ws
   port: 80
   server: 85ef02dd-b03e-94d5-61f4-bb5a8d5f491f.castlepeakhospital.moe
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
@@ -15,11 +14,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,8|2|🇹🇼2 |  2.5MB/s|0%|Netflix|Di...
+  name: 8|3|🇹🇼2 |  2.5MB/s|0%|Netflix|Di...
   network: ws
   port: 80
   server: 205928ec-61f8-1f90-8438-1b912b849b80.castlepeakhospital.moe
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
@@ -27,6 +25,19 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- name: 13|TW_speednode_0038
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 13|TW_speednode_0039
   password: 937f6b6168b6

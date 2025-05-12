@@ -1,20 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  delay: 1856
-  h2-opts: {}
-  http-opts: {}
-  name: 3,8|2|🇯🇵1 |  5.5MB/s|10%|Youtube|O...
-  network: tcp
-  port: 17233
-  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 3,8|2|🇯🇵2 |  3.5MB/s|10%|Disney|Yo...
+  client-fingerprint: chrome
+  name: 3,8|3|🇯🇵2 |  3.5MB/s|10%|Disney|Yo...
   network: tcp
   port: 17233
   server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
@@ -25,81 +13,26 @@ proxies:
   udp: true
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
   xudp: true
-- name: 3|🇯🇵3 |  1.9MB/s|Youtube|Openai|...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tky03.sqx001.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  delay: 1856
+  h2-opts: {}
+  http-opts: {}
+  name: 3,8|3|🇯🇵1 |  5.5MB/s|10%|Youtube|O...
+  network: tcp
+  port: 17233
+  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
 - cipher: aes-256-gcm
-  name: 3|🇯🇵4 |  1.6MB/s|64%|Netflix|Dis...
+  name: 3|🇯🇵4 |  2.0MB/s|64%|Netflix|Dis...
   password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11506'
+  port: 11505
   server: cdn-p1-jp.weibo-dns.com
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 3|🇯🇵5 |  2.2MB/s|64%|Netflix|Dis...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: 11504
-  server: cdn-p1-jp.weibo-dns.com
-  type: ss
-- client-fingerprint: chrome
-  name: 3|🇯🇵6 |  5.4MB/s|12%|Youtube|Ope...
-  network: ws
-  port: '443'
-  server: 104.215.58.230
-  servername: gkkui8.azurewebsites.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    headers:
-      Host: gkkui8.azurewebsites.net
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: ''
-  xudp: true
-- client-fingerprint: chrome
-  name: 3|🇯🇵7 |  2.7MB/s|8%|Netflix|Disn...
-  network: ws
-  port: '10187'
-  server: 121.189.106.45
-  servername: mot.luyuju.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: f8e0a197-2d5c-441e-a724-525379e4db3a
-  ws-opts:
-    headers:
-      Host: mot.luyuju.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: ''
-  xudp: true
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 3|🇯🇵8 |  1.2MB/s|8%|Disney|Youtu...
-  network: ws
-  port: '443'
-  server: 54.169.229.188
-  servername: mot.majusti.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c87a3a5-d2c4-4cd9-878e-07e307b386d6
-  ws-opts:
-    headers:
-      Host: mot.majusti.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /?ed=2560
-  xudp: true
 - alterId: 64
   cipher: auto
   name: 8,12|日本3|@ripaojiedian
