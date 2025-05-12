@@ -14,6 +14,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 8|2|🌀4-CN |  1.1MB/s|0%|Netflix
+  network: tcp
+  port: 41554
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 广东省移动 7
@@ -29,7 +38,7 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0013
+  name: 13|CN_speednode_0008
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   port: 19832
   server: h.cm2.xiaomi-api.xyz
@@ -37,7 +46,39 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0016
+  name: 13|CN_speednode_0011
+  network: ws
+  port: 22641
+  server: 52.80.232.93
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0012
+  network: ws
+  port: 22641
+  server: 52.80.27.229
+  servername: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0014
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -50,27 +91,9 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- cipher: rc4-md5
-  name: 13|CN_speednode_0017
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40236
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 3.link-hub.click
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0018
-  password: b2a2cac1-debb-4bb4-b1a7-e4a0e368724c
-  port: 30001
-  server: gdgs.tarioblink.me
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0023
+  name: 13|CN_speednode_0015
   network: ws
   port: 30828
   server: 111.26.109.79
@@ -83,29 +106,19 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: rc4-md5
-  name: 13|CN_speednode_0024
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40218
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.linkhub.support
-  type: ssr
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0025
+  name: 13|CN_speednode_0016
   network: ws
-  port: 30828
-  server: v28.heduian.link
+  port: 22642
+  server: 52.80.232.93
+  servername: zxjp-b.tkong.cc
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: ocbc.com
-    path: /oooo
+      Host: zxjp-b.tkong.cc
+    path: /
