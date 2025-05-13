@@ -1,5 +1,19 @@
 proxies:
-- name: 3|🇨🇦1 |  1.1MB/s|62%|Netflix|Dis...
+- name: 3|🇨🇦1 |  4.8MB/s|62%|Disney|Open...
+  network: ws
+  port: 443
+  server: iplocation.io
+  servername: vx.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vx.ylks0033.dpdns.org
+    path: /?ed=2560
+- name: 3|🇨🇦2 |  5.7MB/s|62%|Netflix|Dis...
   network: ws
   port: 443
   server: 135.84.76.94
@@ -13,10 +27,10 @@ proxies:
     headers:
       Host: vx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 3|🇨🇦2 |  2.8MB/s|62%|Disney|Gemi...
+- name: 3|🇨🇦3 |  1.4MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: 160.123.255.151
+  server: 192.0.63.200
   servername: vx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -27,38 +41,10 @@ proxies:
     headers:
       Host: vx.ylks0033.dpdns.org
     path: /?ed=2560
-- name: 3|🇨🇦3 |  5.9MB/s|62%|Netflix|Gem...
+- name: 3|🇨🇦4 |  1.7MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: 160.123.255.77
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦4 |  1.5MB/s|62%
-  network: ws
-  port: 443
-  server: moura.ns.cloudflare.com
-  servername: vx.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vx.ylks0033.dpdns.org
-    path: /?ed=2560
-- name: 3|🇨🇦5 |  2.2MB/s|62%|Disney|Gemi...
-  network: ws
-  port: 443
-  server: rustam.ns.cloudflare.com
+  server: 160.123.255.76
   servername: vx.ylks0033.dpdns.org
   skip-cert-verify: true
   tls: true
