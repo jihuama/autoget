@@ -5,12 +5,26 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- name: 3,13|US_speednode_0054
+  network: ws
+  port: 80
+  server: 135.84.65.11
+  servername: reedfree8mahsang2.redorg.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
   flow: none
-  name: 3|🇸🇬1 |  5.5MB/s|Youtube|Openai
+  name: 3|🇸🇬2 |  1.8MB/s|Youtube|Openai
   network: ws
   port: '2096'
-  server: 141.193.213.20
+  server: 141.193.213.21
   servername: premium.vkehi.shop
   tls: true
   type: vless
@@ -19,31 +33,10 @@ proxies:
   ws-opts:
     headers:
       Host: premium.vkehi.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: '%2F'
   xudp: true
-- name: 3|🇸🇬2 |  5.5MB/s|Youtube|Openai
-  network: ws
-  port: '80'
-  server: 141.193.213.20
-  type: vless
-  udp: true
-  uuid: 628a3541-1b2d-43ab-ad4f-82b6406480fe
-  ws-opts:
-    headers:
-      Host: lk.sahanwickramasinghe.shop
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /
-  xudp: true
-- cipher: chacha20-ietf
-  name: 3|🇸🇬3 |  5.0MB/s|0%|Netflix|Yout...
-  password: asd123456
-  port: '8388'
-  server: 103.36.91.32
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -64,8 +57,8 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇸🇬 狮城特殊|@ripaojiedian
-  password: awsps0501
+  password: yijian0503
   port: 443
-  server: 43.203.235.15
+  server: 3.36.122.17
   tfo: false
   type: ss
