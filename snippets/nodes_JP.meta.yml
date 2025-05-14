@@ -1,13 +1,26 @@
 proxies:
+- name: 3|🇯🇵1 |  3.2MB/s|7%|Disney|Youtu...
+  network: ws
+  port: 14220
+  server: 218.51.125.182
+  servername: mikuyo.bpd67081tsq.ddns-ip.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: be21e25f-5919-4e6b-b443-bfa45273de5d
+  ws-opts:
+    headers:
+      host: mikuyo.bpd67081tsq.ddns-ip.net
+    path: /?ed=2560
 - alterId: 64
   cipher: auto
-  name: 3,8,13|CN_speednode_0012
+  name: 8,13|CN_speednode_0012
   network: ws
   port: 1443
   server: sslvpn.51job.com
   servername: centos7
   skip-cert-verify: true
-  tfo: false
   tls: true
   type: vmess
   udp: true
@@ -18,46 +31,10 @@ proxies:
     path: /634c5c4f9782
 - alterId: 0
   cipher: auto
-  name: 3,8|3|🇯🇵3 |  3.6MB/s|11%|Disney|Yo...
+  name: 8|2|🇯🇵2 |  5.5MB/s|11%|Disney|Yo...
   network: tcp
   port: 17233
   server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-  xudp: true
-- auth: 4ab4694d-72df-4438-b087-66a0892b7904
-  delay: 1538
-  name: 3|🇯🇵3 |  4.4MB/s|0%|Netflix|Disn...
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 4ab4694d-72df-4438-b087-66a0892b7904
-  port: 13301
-  server: baipiaoyun-japan-v1.baipiaoyun.site
-  skip-cert-verify: true
-  sni: s0.awsstatic.com
-  type: hysteria2
-  udp: true
-- auth: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  name: 3|🇯🇵5 |  1.7MB/s|0%|Disney|Youtu...
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3ed64477-9d5c-49ca-b536-2dae51c987d2
-  port: 13301
-  server: baipiaoyun-japan.baipiaoyun.site
-  skip-cert-verify: true
-  sni: s0.awsstatic.com
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8|3|🇯🇵4 |  4.6MB/s|11%|Disney|Yo...
-  network: tcp
-  port: 17233
-  server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
-  servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
