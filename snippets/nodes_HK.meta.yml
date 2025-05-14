@@ -1,39 +1,60 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: 3|🇭🇰2 |  3.1MB/s|0%|Disney|Opena...
-  network: ws
-  port: '443'
-  server: 172.66.45.9
-  servername: MiSTliNK-CL9.pAgEs.Dev
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 3,13|HK_speednode_0017
+  port: 20550
+  reality-opts:
+    public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
+  server: hkt-ty-line-1.sudatech.store
+  servername: www.paypal.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 321cc007-bb85-41c9-b686-1f45cf5174e0
-  ws-opts:
-    headers:
-      Host: mistlink-cl9.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: /ERlnnsHzyLczPW3c?ed=2560
-  xudp: true
-- name: 3,13|US_speednode_0028
+  uuid: 2d317da5-47c5-4db4-933f-16d1094668db
+- client-fingerprint: chrome
+  name: 3|🇭🇰3 |  2.3MB/s|Youtube
+  password: 25d55ad283aa400af464c76d713c07ad
+  port: 8443
+  server: hk04.sqx001.com
+  skip-cert-verify: true
+  sni: hk04.sqx001.com
+  tls: true
+  type: http
+  udp: true
+  username: podbbylf@mayorlogistic.com
+- alterId: 2
+  cipher: auto
+  name: 3|🇭🇰4 |  2.6MB/s|15%|Netflix|Dis...
   network: ws
   port: 80
-  server: 45.159.217.86
-  servername: ipsycho.suex12.ir
-  skip-cert-verify: true
+  server: f49bcb46-sv2sg0-sw1w5j-1a3sy.hk.p5pv.com
   tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  type: vmess
+  uuid: b93c66cc-00ed-11ec-8673-f23c9164ca5d
   ws-opts:
     headers:
-      Host: ipsycho.suex12.ir
-    path: /re5IzbZ9IZZMddtw
-  xudp: true
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|2|🇭🇰4 |  5.3MB/s|15%|Netflix|D...
+  network: tcp
+  port: 4138
+  server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 8,12|香港|@ripaojiedian
+  network: tcp
+  port: '56152'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
@@ -97,16 +118,3 @@ proxies:
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|HK_speednode_0017
-  port: 20550
-  reality-opts:
-    public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
-  server: hkt-ty-line-1.sudatech.store
-  servername: www.paypal.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2d317da5-47c5-4db4-933f-16d1094668db
