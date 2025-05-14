@@ -1,13 +1,36 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 3,13|CN_speednode_0019
+  network: ws
+  port: 1443
+  server: sslvpn.51job.com
+  servername: centos7
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
 - alterId: 0
   cipher: auto
-  name: 8|2|🇯🇵2 |  4.4MB/s|11%|Disney|Yo...
-  network: tcp
-  port: 4151
-  server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 3,13|DE_speednode_0035
+  network: http
+  port: 13883
+  server: 45.159.50.57
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  udp: true
+  uuid: e6d8237f-4bbf-4a62-af4f-b0844120e0b4
 - alterId: 64
   cipher: auto
   name: 8,12|日本3|@ripaojiedian
@@ -21,16 +44,15 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 8,11,12,13|CN_speednode_0010
+  name: 8,11,12|日本4|@ripaojiedian
   network: ws
-  port: 8004
+  port: '8004'
   server: 59.42.247.189
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: ebb3b22f-1485-40a3-aa37-ea7e444c2327
   ws-opts:
     headers:
