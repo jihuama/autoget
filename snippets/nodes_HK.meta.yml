@@ -1,44 +1,41 @@
 proxies:
+- cipher: chacha20-ietf
+  delay: 763
+  name: 3|🇭🇰3 |  4.3MB/s|16%|Netflix|Dis...
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: sGWdzYDx5J
+  port: 43125
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: csilicovolcanoconiosis.godeove.xyz
+  type: ssr
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇨🇳CN
+  delay: 175
+  name: 3|🇭🇰4 |  2.4MB/s|100%|Netflix|Di...
+  password: QZ4L8ZDG75OFMFRU
+  port: 15012
+  server: 183.2.157.135
+  type: ss
+- cipher: aes-256-gcm
+  name: 3|🇭🇰5 |  5.3MB/s|100%|Disney|You...
+  password: V98N1K9OBXGHKC3X
+  port: 15005
+  server: 183.2.157.135
+  type: ss
+- cipher: aes-256-gcm
+  name: 3|🇭🇰6 |  3.8MB/s|100%|Netflix|Di...
+  password: FB83ULXQR5LHF82K
+  port: 15010
+  server: 183.2.157.135
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 3,8|2|🇭🇰6 |  4.3MB/s|15%|Disney|Yo...
+  name: 3|🇭🇰7 |  4.3MB/s|15%|Netflix|Dis...
   network: ws
   port: 8080
-  server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b
-  ws-opts:
-    path: /
-  xudp: true
-- auth: nfsn666
-  client-fingerprint: chrome
-  name: 3|🇭🇰3 |  1.9MB/s|0%|Netflix|Disn...
-  password: nfsn666
-  port: 8888
-  server: hk.nfsn666.gq
-  skip-cert-verify: true
-  sni: hk.nfsn666.gq
-  type: hysteria2
-- auth: 4ab4694d-72df-4438-b087-66a0892b7904
-  delay: 1543
-  name: 3|🇭🇰5 |  2.9MB/s|25%|Netflix|Dis...
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 4ab4694d-72df-4438-b087-66a0892b7904
-  port: 11229
-  server: baipiaoyun-hongkongv1.baipiaoyun.site
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇭🇰4 |  3.1MB/s|15%|Netflix|D...
-  network: ws
-  port: '8080'
   server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
   tls: false
   type: vmess
@@ -49,30 +46,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8|2|🇭🇰5 |  2.5MB/s|15%|Youtube|O...
+  name: 8|2|🇭🇰2 |  4.0MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
-  server: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net
+  server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: e35ea0a0-0634-11f0-8eb0-f23c9164ca5d
+  uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b
   ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 8|2|🇭🇰8 |  1.0MB/s|15%|Netflix|Y...
-  network: ws
-  port: 80
-  server: 77ad9e87-sv0xs0-t46she-5ifr.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 77ad9e87-sv0xs0-t46she-5ifr.hk.p5pv.com
     path: /
 - alterId: 64
   cipher: auto
@@ -135,16 +116,18 @@ proxies:
   server: 103.149.183.61
   tfo: false
   type: ss
-- name: 13|HK_speednode_0139
+- alterId: 0
+  cipher: auto
+  name: 13|HK_speednode_0174
   network: ws
-  password: trojan
-  port: 8443
-  server: 45.192.222.112
+  port: 8080
+  server: e4d173ea-swd340-sykxcb-1nhp7.hgc1.tcpbbr.net
   skip-cert-verify: false
-  sni: store.timimi.dpdns.org
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
   ws-opts:
     headers:
-      Host: store.timimi.dpdns.org
+      Host: broadcastlv.chat.bilibili.com
     path: /
