@@ -1,39 +1,7 @@
 proxies:
-- cipher: chacha20-ietf
-  delay: 763
-  name: 3|🇭🇰3 |  4.3MB/s|16%|Netflix|Dis...
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: sGWdzYDx5J
-  port: 43125
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: csilicovolcanoconiosis.godeove.xyz
-  type: ssr
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇨🇳CN
-  delay: 175
-  name: 3|🇭🇰4 |  2.4MB/s|100%|Netflix|Di...
-  password: QZ4L8ZDG75OFMFRU
-  port: 15012
-  server: 183.2.157.135
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|🇭🇰5 |  5.3MB/s|100%|Disney|You...
-  password: V98N1K9OBXGHKC3X
-  port: 15005
-  server: 183.2.157.135
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|🇭🇰6 |  3.8MB/s|100%|Netflix|Di...
-  password: FB83ULXQR5LHF82K
-  port: 15010
-  server: 183.2.157.135
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 3|🇭🇰7 |  4.3MB/s|15%|Netflix|Dis...
+  name: 3,8|3|🇭🇰7 |  4.3MB/s|15%|Netflix|D...
   network: ws
   port: 8080
   server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
@@ -46,15 +14,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8|2|🇭🇰2 |  4.0MB/s|15%|Disney|Yo...
+  name: 3,13|HK_speednode_0174
   network: ws
   port: 8080
-  server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
+  server: e4d173ea-swd340-sykxcb-1nhp7.hgc1.tcpbbr.net
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b
+  udp: true
+  uuid: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
   ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
     path: /
+- auth: 4ab4694d-72df-4438-b087-66a0892b7904
+  delay: 1543
+  name: 3|🇭🇰3 |  2.0MB/s|25%|Netflix|Dis...
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 4ab4694d-72df-4438-b087-66a0892b7904
+  port: 11229
+  server: baipiaoyun-hongkongv1.baipiaoyun.site
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+  udp: true
 - alterId: 64
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
@@ -116,18 +100,3 @@ proxies:
   server: 103.149.183.61
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|HK_speednode_0174
-  network: ws
-  port: 8080
-  server: e4d173ea-swd340-sykxcb-1nhp7.hgc1.tcpbbr.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5fc9c9aa-ea47-11ed-8397-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
