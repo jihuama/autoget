@@ -1,14 +1,17 @@
 proxies:
-- name: 13|CA_speednode_0009
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 140.238.158.238
+- client-fingerprint: chrome
+  delay: 1887
+  flow: xtls-rprx-vision
+  name: 3|🇨🇦2 |  5.7MB/s|2%|Netflix|Disn...
+  network: tcp
+  port: 56565
+  reality-opts:
+    public-key: 59iI-5g0yQ3r6ZaoBOQSWOCnMw6_t_q0oS4gXngXhW0
+    short-id: 2e3b0488
+  server: www.vanboss.work
+  servername: www.samsung.com
   skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=140.238.158.238:443&proxyIP=null
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
