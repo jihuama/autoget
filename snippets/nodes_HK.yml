@@ -1,8 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 3,8|3|🇭🇰4 |  3.0MB/s|16%|Disney|Yo...
+  network: ws
+  port: 8080
+  server: e6eb5fca-swexs0-sycpj3-18jxd.hgc1.tcpbbr.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fcf7573c-faa4-11ef-8a67-f23c913c8d2b
+  ws-opts:
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 3,8,11,12|香港8|@ripaojiedian
+  name: 8,11,12|香港8|@ripaojiedian
   network: ws
   port: '8080'
   server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
@@ -16,29 +30,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3,11|🇭🇰 香港6|@ripaojiedian
-  password: NPOA4WYID2WF8N4E
-  port: 15016
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 3|🇭🇰4 |  3.0MB/s|16%|Disney|Yout...
-  network: ws
-  port: 8080
-  server: e6eb5fca-swexs0-sycpj3-18jxd.hgc1.tcpbbr.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fcf7573c-faa4-11ef-8a67-f23c913c8d2b
-  ws-opts:
-    headers: {}
-    path: /
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 8,12|香港|@ripaojiedian
@@ -93,6 +84,14 @@ proxies:
     tls: true
   port: 15985
   server: hkkh11v1.xpmc.cc
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港6|@ripaojiedian
+  password: NPOA4WYID2WF8N4E
+  port: 15016
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - name: 13|HK_speednode_0061
