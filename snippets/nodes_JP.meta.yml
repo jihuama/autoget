@@ -1,15 +1,36 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 3|🇯🇵1 |  2.9MB/s|12%|Youtube|Ope...
+  password: d72162d1-9bce-460e-99ed-bc3c92cfbe11
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 3|🇯🇵2 |  3.5MB/s|12%|Youtube|Ope...
+  network: ws
+  port: '443'
+  server: 20.210.64.11
+  servername: vsdfee.azurewebsites.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
+  ws-opts:
+    headers:
+      Host: vsdfee.azurewebsites.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: ''
+  xudp: true
 - alterId: 64
   cipher: auto
-  name: 3,8|2|🇯🇵2 |  4.9MB/s|Youtube|Opena...
+  name: 8|2|🇯🇵2 |  4.9MB/s|Youtube|Opena...
   network: ws
   port: 1443
   server: sslvpn.51job.com
-  skip-cert-verify: true
-  tfo: false
   tls: true
   type: vmess
-  udp: true
   uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
   ws-opts:
     headers:
@@ -27,14 +48,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|日本4|@ripaojiedian
+  name: 8|13,14|日本4|@ripaojiedian
   network: ws
   port: '46015'
   server: 112.29.213.228
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
@@ -58,7 +76,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505121278853-gxJrEwg9CP.download.microsoft.com
+    host: 202505121278853-jDmMPlEOcQ.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -67,25 +85,25 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇯🇵 日本2|@ripaojiedian
-  password: 130961f0a8a6
+  password: bd95d7933d72
   plugin: v2ray-plugin
   plugin-opts:
     host: jp06v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /bpqzubxyzm
+    path: /qvqgjshkqqep
     skip-cert-verify: false
     tls: true
-  port: 19499
+  port: 53586
   server: 103.140.136.242
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
-  password: yijian0503
-  port: 443
-  server: 13.250.27.89
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  password: 1d6fc1e2-a36d-4bd7-b0d0-e901343d9b97
+  port: 19008
+  server: 183.36.41.50
   tfo: false
   type: ss
 - cipher: aes-256-gcm
