@@ -1,24 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 3|🇭🇰1 |  3.7MB/s|12%|Youtube
-  password: d72162d1-9bce-460e-99ed-bc3c92cfbe11
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 3|🇭🇰3 |  1.4MB/s|6%|Youtube
-  password: 25d55ad283aa400af464c76d713c07ad
-  port: 8443
-  server: hk04.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: podbbylf@mayorlogistic.com
 - cipher: chacha20-ietf
   delay: 763
-  name: 3|🇭🇰4 |  1.9MB/s|16%|Disney
+  name: 3|🇭🇰1 |  2.8MB/s|16%|Disney
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: sGWdzYDx5J
@@ -29,24 +12,7 @@ proxies:
   type: ssr
   udp: true
 - client-fingerprint: chrome
-  name: 3|🇭🇰5 |  4.0MB/s|12%|Netflix|You...
-  network: ws
-  port: '443'
-  server: 20.189.104.97
-  servername: dee33.azurewebsites.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    headers:
-      Host: dee33.azurewebsites.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 3|🇭🇰6 |  1.7MB/s|12%|Youtube
+  name: 3|🇭🇰2 |  1.8MB/s|12%
   network: ws
   port: '443'
   server: 13.75.34.176
@@ -64,17 +30,14 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 8|2|🇭🇰1 |  4.6MB/s|Youtube|Opena...
-  network: ws
-  port: 8080
-  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
+  name: 8,12|香港|@ripaojiedian
+  network: tcp
+  port: '25635'
+  server: 103.224.80.89
+  servername: ''
   tls: false
   type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-    path: /
+  uuid: b6d376fb-c49e-49f4-fe0c-065bf7987ff5
 - alterId: 64
   cipher: auto
   name: 8,12|香港3|@ripaojiedian
@@ -87,27 +50,30 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 8,12|香港4|@ripaojiedian
+  name: 8,12|香港7|@ripaojiedian
   network: tcp
-  port: '43302'
+  port: '41554'
   server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 8|13,14|香港5|@ripaojiedian
+  client-fingerprint: chrome
+  name: 8,11,12|香港8|@ripaojiedian
   network: ws
-  port: '22642'
-  server: 52.80.232.93
-  servername: zxjp-b.tkong.cc
-  tls: true
+  port: '8080'
+  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
   ws-opts:
     headers:
-      Host: zxjp-b.tkong.cc
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -133,40 +99,3 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|香港8|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|香港|@ripaojiedian
-  network: tcp
-  port: '25635'
-  server: 103.224.80.89
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b6d376fb-c49e-49f4-fe0c-065bf7987ff5
-- alterId: 64
-  cipher: auto
-  name: 12|香港7|@ripaojiedian
-  network: tcp
-  port: '41554'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
