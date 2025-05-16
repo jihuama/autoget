@@ -1,66 +1,7 @@
 proxies:
-- cipher: chacha20-ietf
-  delay: 763
-  name: 3|🇭🇰1 |  2.8MB/s|16%|Disney
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: sGWdzYDx5J
-  port: 43125
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: csilicovolcanoconiosis.godeove.xyz
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8,12|香港|@ripaojiedian
-  network: tcp
-  port: '25635'
-  server: 103.224.80.89
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b6d376fb-c49e-49f4-fe0c-065bf7987ff5
-- alterId: 64
-  cipher: auto
-  name: 8,12|香港3|@ripaojiedian
-  network: tcp
-  port: '35921'
-  server: 120.198.71.216
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 8,12|香港7|@ripaojiedian
-  network: tcp
-  port: '41554'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|香港8|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
+  name: 2,8|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -74,11 +15,81 @@ proxies:
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 5,9|香港|@ripaojiedian
+  network: tcp
+  port: '25635'
+  server: 103.224.80.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b6d376fb-c49e-49f4-fe0c-065bf7987ff5
+- alterId: 64
+  cipher: auto
+  name: 5,9|香港3|@ripaojiedian
+  network: tcp
+  port: '35921'
+  server: 120.198.71.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 5,9|香港4|@ripaojiedian
+  network: tcp
+  port: '43302'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 5,9|香港7|@ripaojiedian
+  network: tcp
+  port: '41554'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 5,8,9|香港8|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港6|@ripaojiedian
+  name: 8|🇭🇰 香港6|@ripaojiedian
   password: NPOA4WYID2WF8N4E
   port: 15016
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- name: 10|HK_speednode_0065
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: us.madison.eu.org
+  skip-cert-verify: false
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr

@@ -16,7 +16,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|github.com/freefq - 广东省移动 7
+  name: 6|github.com/freefq - 广东省移动 7
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn
@@ -28,16 +28,43 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0018
-  password: 97bb1716-f512-402b-bec8-56858ed772ac
-  port: 36525
-  server: jp01.wmdns.cc
+- alterId: 0
+  cipher: auto
+  name: 10|CN_speednode_0026
+  network: ws
+  port: 8004
+  server: 59.42.247.189
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87519551-3ffa-4387-b517-dd0e223e00ef
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
+- cipher: aes-256-gcm
+  name: 10|CN_speednode_0027
+  password: 973c665168454f3f
+  port: 2019
+  server: 103.115.18.246
   type: ss
   udp: true
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0019
+  name: 10|CN_speednode_0029
+  network: ws
+  port: 22643
+  server: 54.223.46.105
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+- alterId: 2
+  cipher: auto
+  name: 10|CN_speednode_0030
   network: ws
   port: 22643
   server: 54.223.154.91
@@ -53,7 +80,23 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0023
+  name: 10|CN_speednode_0031
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 10|CN_speednode_0032
   network: ws
   port: 22643
   server: 54.223.46.105
@@ -69,11 +112,22 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0022
+  name: 10|CN_speednode_0033
   network: ws
-  port: 22643
+  port: 22641
   server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
+  servername: zxjp-a.tkong.cc
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+- alterId: 2
+  cipher: auto
+  name: 10|CN_speednode_0034
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -81,5 +135,5 @@ proxies:
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
+      Host: zxjp-a.tkong.cc
     path: /
