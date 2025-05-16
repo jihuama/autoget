@@ -1,15 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: none
-  name: 8|3|🇫🇷4 |  5.2MB/s|26%|Netflix|O...
-  network: ws
-  port: '2096'
-  server: fr.vmess.comnpmjs.com
-  servername: fr.vmess.comnpmjs.com
-  tls: true
-  type: vmess
-  uuid: 708358a5-8c9a-55b8-a521-73b8d7b63d3b
-  ws-opts:
-    headers:
-      Host: fr.vmess.comnpmjs.com
-    path: /vmess
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 3|🇫🇷4 |  2.4MB/s|30%|Youtube|Ope...
+  network: tcp
+  password: telegram-id-directvpn
+  port: '22223'
+  server: 35.181.182.220
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
