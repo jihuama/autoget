@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,8,11,12|香港8|@ripaojiedian
+  name: 8,11,12|香港8|@ripaojiedian
   network: ws
   port: '8080'
   server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
@@ -18,28 +18,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3|🇭🇰2 |  1.0MB/s|16%|Disney|Open...
+  name: 8|3|🇭🇰2 |  1.0MB/s|16%|Disney|Op...
   network: ws
   port: 8080
   server: e6eb5fca-swexs0-sycpj3-18jxd.hgc1.tcpbbr.net
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: fcf7573c-faa4-11ef-8a67-f23c913c8d2b
   ws-opts:
     headers:
       Host: e6eb5fca-swexs0-sycpj3-18jxd.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 8|3|🇭🇰1 |  1.7MB/s|16%|Youtube
-  network: ws
-  port: 8080
-  server: e6eb5fca-swexs0-sycpj3-18jxd.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: fcf7573c-faa4-11ef-8a67-f23c913c8d2b
-  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
@@ -71,16 +59,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 8,12|香港7|@ripaojiedian
-  network: tcp
-  port: '41554'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
@@ -105,6 +83,19 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- name: 13|HK_speednode_0060
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: us.madison.eu.org
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
 - name: 13|HK_speednode_0061
   network: ws
   password: bpb-trojan
