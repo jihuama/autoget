@@ -5,6 +5,35 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- name: 3,13|US_speednode_0127
+  network: ws
+  port: 8080
+  server: 170.114.46.6
+  servername: xrr.rtxconfigz.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
+  ws-opts:
+    headers:
+      Host: xrr.rtxconfigz.xyz
+    path: /
+- name: 3|🇸🇬2 |  3.3MB/s|Youtube|Openai
+  network: ws
+  port: '8080'
+  server: 170.114.45.6
+  servername: xrr.rtxconfigz.xyz
+  type: vless
+  udp: true
+  uuid: 291c27a5-34d2-4081-83cc-2196cd208148
+  ws-opts:
+    headers:
+      Host: xrr.rtxconfigz.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -22,16 +51,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 8,12|新加坡2|@ripaojiedian
-  network: tcp
-  port: '54652'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 13|SG_speednode_0082
   network: ws
   port: 8880
@@ -46,3 +65,17 @@ proxies:
     headers:
       Host: us.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 13|SG_speednode_0083
+  network: ws
+  port: 2087
+  server: 27.50.48.18
+  servername: edccx.aimercc.filegear-sg.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      Host: edccx.aimercc.filegear-sg.me
+    path: /?ed=2560

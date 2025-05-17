@@ -203,48 +203,35 @@ proxies:
   type: trojan
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 3|🇺🇸84 |  4.8MB/s|50%
-  network: ws
-  password: 70776bb4-d791-4cbd-9c9b-c76e937f9e60
-  port: 443
-  server: 172.67.216.240
-  skip-cert-verify: true
-  sni: Xxs345rf.857856.xYZ
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Xxs345rf.857856.xYZ
-    path: /71M8Ov1I5Gk9247fHC0XGZG6
 - alterId: 0
   cipher: auto
-  name: 3,8|3|🇺🇸19 |  4.6MB/s|51%|Gemini
+  name: 3|🇺🇸52 |  5.0MB/s|32%|Netflix|Di...
   network: ws
-  port: '2082'
+  port: 2096
+  server: 141.101.120.253
+  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 8|3|🇺🇸136 |  4.0MB/s|51%|Openai|...
+  network: ws
+  port: 2082
   server: 172.67.214.33
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2f821152-c3e9-4074-9185-2790e7425f42
   ws-opts:
     headers:
       Host: cs.flha.ru
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 8|3|🇺🇸70 |  2.3MB/s|29%|Openai
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-a.tkong.cc
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: tk.hzlt.tkddns.xyz
     path: /
 - alterId: 2
   cipher: auto
