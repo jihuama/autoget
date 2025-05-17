@@ -203,89 +203,33 @@ proxies:
   type: trojan
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-cfb
-  name: 3,13|US_speednode_0089
-  obfs: plain
-  obfs-param: ''
-  password: shadowsocks
-  port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 184.170.241.194
-  type: ssr
-  udp: true
-- alpn:
-  - ''
-  alterId: 0
+- alterId: 0
   cipher: auto
-  name: 3,8|1|🇺🇸37 |  5.3MB/s|Openai|Gemin...
+  name: 8|3|🇺🇸19 |  4.6MB/s|51%|Gemini
   network: ws
   port: '2082'
   server: 172.67.214.33
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 2f821152-c3e9-4074-9185-2790e7425f42
   ws-opts:
     headers:
       Host: cs.flha.ru
     path: /
-  xudp: true
 - alterId: 2
   cipher: auto
-  name: 3|🇺🇸70 |  2.3MB/s|29%|Openai
+  name: 8|3|🇺🇸70 |  2.3MB/s|29%|Openai
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-a.tkong.cc
-  skip-cert-verify: true
-  tfo: false
   tls: true
   type: vmess
-  udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
       Host: tk.hzlt.tkddns.xyz
     path: /
-- name: 3|🇺🇸71 |  1.4MB/s|50%|Openai|Gem...
-  network: ws
-  password: 70776bb4-d791-4cbd-9c9b-c76e937f9e60
-  port: 443
-  server: 172.67.216.240
-  skip-cert-verify: true
-  sni: Xxs345rf.857856.xYZ
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Xxs345rf.857856.xYZ
-    path: /71M8Ov1I5Gk9247fHC0XGZG6
-- alterId: 0
-  cipher: auto
-  name: 8|1|🇺🇸49 |  5.8MB/s|32%|Netflix|...
-  network: ws
-  port: 2096
-  server: 141.101.120.253
-  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 8|1|🇺🇸127 |  2.9MB/s|17%
-  network: tcp
-  port: 40392
-  server: 120.232.153.123
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -418,6 +362,17 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: aes-128-cfb
+  name: 13|US_speednode_0089
+  obfs: plain
+  obfs-param: ''
+  password: shadowsocks
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 184.170.241.194
+  type: ssr
+  udp: true
 - name: 13|US_speednode_0104
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
