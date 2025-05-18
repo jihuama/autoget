@@ -189,164 +189,38 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 64
+- alpn:
+  - http/1.1
+  alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  ip-version: dual
-  name: 3,11,13|CN_speednode_0025
-  password: b6200af42ccadea353f5b5856dd20d70
-  port: 39001
-  server: 120.233.128.68
+  name: 3,11,13|US_speednode_0275
+  password: a07cebde-351d-4ad3-8045-3cd0aa3f586c
+  port: 443
+  server: mg7.gy6688.xyz
   skip-cert-verify: true
-  sni: 120.233.128.68
+  sni: mg7.gy6688.xyz
   tfo: false
   tls: false
   type: trojan
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alpn:
-  - http/1.1
-  name: 3|🇺🇸29 |  3.4MB/s|29%|Openai
-  network: ws
-  password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
-  port: 443
-  server: 172.67.138.187
-  skip-cert-verify: false
-  sni: CdVftY.7282728.xYz
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /ptGwaGzcA4KNAXX
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 3,11|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202505031478387-KuiKPndOsR.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 3|🇺🇸31 |  2.0MB/s|28%|Netflix|Di...
-  password: 77a12a3d-6df0-48c8-a189-b071fcda1456
-  port: 11511
-  server: cdn-p1-us.youku-dns.com
-  type: ss
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,8,11,12|美国4|@ripaojiedian
+  name: 3,13|CN_speednode_0026
   network: ws
-  port: '22642'
+  port: 22641
   server: tk.hzlt.tkddns.xyz
-  servername: zxjp-b.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 3,8,13|CN_speednode_0030
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
+  servername: zxjp-a.tkong.cc
   skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 3|🇺🇸51 |  4.5MB/s|30%|Openai
-  network: ws
-  password: 15b24b56-d667-4fa8-b548-f3dc942fb461
-  port: '443'
-  server: 104.21.15.232
-  skip-cert-verify: false
-  sni: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /4p35eUnmGxQ8YJFJxz
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 3|🇺🇸58 |  4.8MB/s|50%|Openai
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: '443'
-  server: 104.21.23.162
-  skip-cert-verify: false
-  sni: D05F4aA7-92B1-a659-E3b9-695Dd2870B3c.131.Pp.UA
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸103 |  5.1MB/s|29%|Openai|Ge...
-  network: ws
-  port: 443
-  server: m11sERFGH.459.pP.uA
-  servername: m11SERFGh.459.Pp.Ua
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0a28b420-4f7c-43ad-a29e-80068ce08263
-  ws-opts:
-    headers:
-      Host: m11serfgh.459.pp.ua
-    path: /lhU8ShsoPZlulnnYPb86csp
-- name: 3|🇺🇸145 |  1.6MB/s|50%|Openai
-  network: ws
-  password: 5453ae26-250d-4e79-b4ec-016baf806865
-  port: 443
-  server: 1sdfghjk.890602.xyz
-  sni: 1SdfghJk.890602.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1SdfghJk.890602.xyz
-    path: /OYzPAeaZdXUq2d6J3gc4aj
-- alterId: 0
-  cipher: auto
-  name: 8|3|🇺🇸18 |  4.9MB/s|32%|Netflix|...
-  network: ws
-  port: 2096
-  server: 141.101.120.253
-  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
-    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 8,11,12,13|CN_speednode_0031
+  name: 3,8,11,12,13|CN_speednode_0025
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -363,27 +237,97 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 8,13|CN_speednode_0029
+  ip-version: dual
+  name: 3|🇺🇸63 |  4.4MB/s|Netflix|Openai
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-a.tkong.cc
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
+- name: 3|🇺🇸64 |  1.2MB/s|29%|Openai
+  network: ws
+  password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
+  port: 443
+  server: 172.67.181.193
+  sni: EEeEee4.hUAngSHANG2030.dPdNS.org
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /ptGwaGzcA4KNAXX
+- alterId: 0
+  cipher: auto
+  name: 3|🇺🇸65 |  4.7MB/s|32%
+  network: ws
+  port: 2096
+  server: 141.101.120.253
+  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
   skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 3|🇺🇸102 |  2.6MB/s|28%|Netflix|D...
+  password: 77a12a3d-6df0-48c8-a189-b071fcda1456
+  port: 11511
+  server: 183.2.150.226
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 8|3|🇺🇸48 |  2.5MB/s|Openai
+  client-fingerprint: chrome
+  name: 8,11,12|美国4|@ripaojiedian
   network: ws
-  port: 22643
+  port: '22642'
   server: tk.hzlt.tkddns.xyz
+  servername: zxjp-b.tkong.cc
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 8|3|🇺🇸34 |  2.1MB/s|29%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|3|🇺🇸103 |  5.1MB/s|29%|Openai|...
+  network: ws
+  port: 443
+  server: m11sERFGH.459.pP.uA
+  servername: m11SERFGh.459.Pp.Ua
+  tls: true
+  type: vmess
+  uuid: 0a28b420-4f7c-43ad-a29e-80068ce08263
+  ws-opts:
+    headers:
+      Host: m11serfgh.459.pp.ua
+    path: /lhU8ShsoPZlulnnYPb86csp
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -469,70 +413,26 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-128-cfb
-  name: 13|US_speednode_0089
-  obfs: plain
-  obfs-param: ''
-  password: shadowsocks
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202505031478387-KuiKPndOsR.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|US_speednode_0160
+  password: DXxkNDO4tdBCmtTSD3VN7d
   port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 184.170.241.194
-  type: ssr
+  server: 104.192.227.162
+  type: ss
   udp: true
-- name: 13|US_speednode_0104
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 162.159.153.217
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=162.159.153.217:443&proxyIP=null
-- name: 13|US_speednode_0109
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 162.159.152.205
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=162.159.152.205:443&proxyIP=null
-- name: 13|US_speednode_0110
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 192.0.54.194
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=192.0.54.194:443&proxyIP=null
-- name: 13|US_speednode_0111
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 160.79.105.81
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=160.79.105.81:443&proxyIP=null
-- name: 13|US_speednode_0112
+- name: 13|US_speednode_0178
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -545,11 +445,11 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=160.79.105.81:443
-- name: 13|US_speednode_0114
+- name: 13|US_speednode_0185
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 162.159.153.209
+  server: 192.0.54.194
   skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
@@ -557,8 +457,8 @@ proxies:
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=162.159.153.209:443&proxyIP=null
-- name: 13|US_speednode_0119
+    path: /proxyip=192.0.54.194:443&proxyIP=null
+- name: 13|US_speednode_0196
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -571,16 +471,16 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=192.0.54.184:443&proxyIP=null
-- name: 13|US_speednode_0120
+- name: 13|US_speednode_0219
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
-  server: 192.0.54.184
-  skip-cert-verify: false
+  server: 160.79.105.169
+  skip-cert-verify: true
   sni: icecream.955850.xyz
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: icecream.955850.xyz
-    path: /proxyip=192.0.54.184:443
+    path: /proxyip=160.79.105.169:443&proxyIP=null

@@ -1,5 +1,5 @@
 proxies:
-- name: 3|🇭🇰1 |  2.7MB/s|0%
+- name: 3|🇭🇰1 |  5.7MB/s|0%
   network: tcp
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
@@ -7,18 +7,40 @@ proxies:
   skip-cert-verify: false
   sni: hk-13-568.flztjc.net
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 3,11|🇭🇰 香港|@ripaojiedian
-  password: ENYGONDU94UW1G6X
-  port: 15010
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰4 |  3.2MB/s|43%|Youtube
+  network: ws
+  port: 443
+  server: 172.67.135.62
+  servername: hknbyivfffj.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰5 |  2.3MB/s|43%|Youtube
+  network: ws
+  port: 443
+  server: 104.21.6.201
+  servername: hknbyivfffj.site
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: hknbyivfffj.site
+    path: /rbqqvws
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11,12|香港8|@ripaojiedian
+  name: 8,11,12|香港8|@ripaojiedian
   network: ws
   port: '8080'
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -42,16 +64,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 8|14|香港4|@ripaojiedian
+  name: 8,12|香港4|@ripaojiedian
   network: tcp
-  port: '43302'
-  server: 183.236.51.38
+  port: '19019'
+  server: 45.89.233.67
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 802e1632-9c29-4f2d-821f-96a35daeed3b
 - alterId: 0
   cipher: auto
   name: 8,12|香港6|@ripaojiedian
@@ -62,16 +84,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 268fe594-cd35-4038-8bc1-1086ada27fe8
-- alterId: 64
+- alterId: 2
   cipher: auto
-  name: 8|14|香港7|@ripaojiedian
-  network: tcp
-  port: '41554'
-  server: 183.236.51.38
+  client-fingerprint: chrome
+  name: 8,11,12|香港7|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港|@ripaojiedian
+  password: ENYGONDU94UW1G6X
+  port: 15010
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
@@ -88,56 +125,18 @@ proxies:
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|香港7|@ripaojiedian
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 12|香港4|@ripaojiedian
-  network: tcp
-  port: '19019'
-  server: 45.89.233.67
-  servername: ''
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|HK_speednode_0112
+  network: http
+  port: 3000
+  server: 18.162.203.189
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 802e1632-9c29-4f2d-821f-96a35daeed3b
-- name: 13|HK_speednode_0060
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: us.madison.eu.org
-  skip-cert-verify: true
-  sni: skwygx.top
-  type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: skwygx.top
-    path: /tr?ed=2560
-- name: 13|HK_speednode_0061
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: us.madison.eu.org
-  skip-cert-verify: false
-  sni: skwygx.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: skwygx.top
-    path: /tr
+  uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
