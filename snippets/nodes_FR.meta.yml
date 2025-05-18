@@ -1,38 +1,7 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  delay: 1086
-  down: '100'
-  name: 3|🇫🇷1 |  5.6MB/s|25%|Youtube|Ope...
-  obfs: ''
-  port: 15010
-  protocol: ''
-  server: 195.154.200.40
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '100'
-- client-fingerprint: chrome
-  name: 3|🇨🇦1 |  1.8MB/s|28%|Youtube|Ope...
-  network: ws
-  port: 2096
-  server: whatismyipaddress.com
-  servername: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 84c1aca2-d9d4-4f6d-8f31-f38ba5df12e6
-  ws-opts:
-    headers:
-      Host: wwwspeedtestnetwhiteberinsistomd6625996s27.elitemizban.ir
-    path: /
-  xudp: true
 - down: ''
   fingerprint: ''
-  name: 3|🇫🇷4 |  6.0MB/s|15%|Openai
+  name: 3|🇫🇷1 |  3.4MB/s|15%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -42,35 +11,27 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   up: ''
-- auth: dongtaiwang.com
-  client-fingerprint: chrome
-  name: 3|🇫🇷5 |  5.3MB/s|15%|Openai
-  password: dongtaiwang.com
-  port: 4489
-  server: 51.158.205.126
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 1086
+  down: '100'
+  name: 3|🇫🇷2 |  2.2MB/s|25%|Youtube|Ope...
+  obfs: ''
+  port: 15010
+  protocol: ''
+  server: 195.154.200.40
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  sni: apple.com
+  type: hysteria
+  up: '100'
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 3,13|FR_speednode_0045
-  port: 24957
-  reality-opts:
-    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
-    short-id: 4b4d9d72
-  server: 51.158.205.126
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
-- name: 3|🇫🇷8 |  1.2MB/s|36%|Openai
+  name: 3|🇫🇷5 |  3.1MB/s|36%|Openai
   network: ws
-  port: 2096
-  server: 104.19.223.79
+  port: '2096'
+  server: whatismyipaddress.com
   servername: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -78,8 +39,11 @@ proxies:
   ws-opts:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
-    path: /
-- name: 3|🇫🇷9 |  2.8MB/s|36%|Openai
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: ''
+  xudp: true
+- name: 3|🇫🇷6 |  1.5MB/s|36%|Openai
   network: ws
   port: 2096
   server: 104.19.222.79
@@ -93,31 +57,20 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇫🇷4 |  2.7MB/s|100%|Openai
+- name: 3|🇫🇷7 |  3.3MB/s|36%|Openai
   network: ws
-  port: 2095
-  server: 185.174.138.209
-  tls: false
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  port: 2096
+  server: 104.19.223.79
+  servername: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2404f667-5969-4883-a71a-ea2e0db2d25b
   ws-opts:
     headers:
-      Host: yellow-paper-029c.yvonna.workers.dev
-    path: /az05.beyondy.cfd/link?/TM
-- alterId: 0
-  cipher: auto
-  name: 8|2|🇫🇷10 |  4.4MB/s|0%|Openai
-  network: ws
-  port: 2095
-  server: 185.174.138.209
-  servername: yellow-paper-029c.yvonna.workers.dev
-  tls: false
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    path: /az05.beyondy.cfd/link?/TM
+      Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
+    path: /
 - name: 13|FR_speednode_0040
   network: ws
   port: 8880
@@ -173,3 +126,17 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=185.16.110.113:443&proxyIP=null
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|FR_speednode_0045
+  port: 24957
+  reality-opts:
+    public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
+    short-id: 4b4d9d72
+  server: 51.158.205.126
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
