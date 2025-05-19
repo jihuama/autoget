@@ -1490,11 +1490,14 @@ proxies:
   type: socks5
 - alterId: 2
   cipher: auto
-  name: 8,12|美国|@ripaojiedian
+  client-fingerprint: chrome
+  name: 8,11,12|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -1504,11 +1507,14 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 8,12|美国4|@ripaojiedian
+  client-fingerprint: chrome
+  name: 8,11,12|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-b.tkong.cc
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
@@ -1518,12 +1524,14 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 8,12,13|CN_speednode_0025
+  client-fingerprint: chrome
+  name: 8,11,12,13|CN_speednode_0025
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-a.tkong.cc
   skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   udp: true
@@ -1600,6 +1608,18 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202505181740997-PGL2R6MGpn.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - name: 13|US_speednode_0152
   network: ws
   port: 8880
