@@ -25,6 +25,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,11,12|日本7|@ripaojiedian
+  network: ws
+  port: '1443'
+  server: 58.246.138.244
+  servername: centos7
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
 - alterId: 0
   cipher: auto
   name: 8,12|日本5|@ripaojiedian
@@ -63,23 +80,6 @@ proxies:
   server: 103.140.136.76
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|日本7|@ripaojiedian
-  network: ws
-  port: '1443'
-  server: 58.246.138.244
-  servername: centos7
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇯🇵 日本6|@ripaojiedian
