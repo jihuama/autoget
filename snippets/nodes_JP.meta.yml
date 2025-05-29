@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 3,8|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 3,8|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -69,10 +69,25 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- name: 13|JP_speednode_0023
+- client-fingerprint: random
+  name: 13|JP_speednode_0036
   network: ws
-  port: 29192
-  server: 202.60.191.6
+  port: 443
+  server: 64.110.104.30
+  servername: qwok.feidyql.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82fd9622-83a8-4378-92d6-dcb4a2787d63
+  ws-opts:
+    headers:
+      Host: qwok.feidyql.dpdns.org
+    path: /?ed=2560
+- name: 13|JP_speednode_0037
+  network: ws
+  port: 57005
+  server: 152.69.192.40
   servername: steep.skyfigure.top
   skip-cert-verify: true
   tls: true
