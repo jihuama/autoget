@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,8|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 3,8|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -84,10 +84,25 @@ proxies:
   server: 121.127.231.217
   tfo: false
   type: ss
-- name: 13|HK_speednode_0055
+- alterId: 2
+  cipher: auto
+  name: 13|HK_speednode_0168
   network: ws
-  port: 7656
-  server: 46.149.203.202
+  port: 460
+  server: bf1dd228-sxfz40-sxs14h-dnss.hkt.east.wctype.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 16955d72-1794-11f0-a035-f23c95b6f51d
+  ws-opts:
+    headers:
+      Host: a605477178.m.ctrip.com
+    path: /
+- name: 13|HK_speednode_0172
+  network: ws
+  port: 6669
+  server: 8.218.107.42
   servername: steep.skyfigure.top
   skip-cert-verify: true
   tls: true
@@ -98,10 +113,10 @@ proxies:
     headers:
       Host: steep.skyfigure.top
     path: /TelegramU0001F1E8U0001F1F3 @pgkj666 /?ed=2560
-- name: 13|HK_speednode_0056
+- name: 13|HK_speednode_0171
   network: ws
-  port: 6669
-  server: 8.218.107.42
+  port: 7656
+  server: 46.149.203.202
   servername: steep.skyfigure.top
   skip-cert-verify: true
   tls: true
