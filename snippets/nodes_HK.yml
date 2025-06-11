@@ -42,28 +42,24 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 8|14|香港7@ripaojiedian
+  name: 8,12|香港7|@ripaojiedian
   network: tcp
-  port: '29992'
-  server: 103.224.80.111
+  port: '38993'
+  server: 103.224.80.89
   servername: ''
   tls: false
   type: vmess
-  uuid: c3659582-a6e0-45c2-92ec-3b4d8b240e07
-- alterId: 2
+  uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
+- alterId: 64
   cipher: auto
-  name: 8|13,14|香港8|@ripaojiedian
-  network: ws
-  port: '460'
-  server: 9b53711d-sxlj40-szcxa1-dmd8.hkt.east.wctype.com
+  name: 8,12|香港8|@ripaojiedian
+  network: tcp
+  port: '33519'
+  server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess
-  uuid: 2058bdd6-1505-11f0-a035-f23c95b6f51d
-  ws-opts:
-    headers:
-      Host: a605477178.m.ctrip.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
@@ -80,38 +76,3 @@ proxies:
   server: 121.127.231.217
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|香港7|@ripaojiedian
-  network: tcp
-  port: '38993'
-  server: 103.224.80.89
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
-- alterId: 64
-  cipher: auto
-  name: 12|香港8|@ripaojiedian
-  network: tcp
-  port: '33519'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 13|HK_speednode_0016
-  network: ws
-  port: 460
-  server: 9a6be8fa-sxhts0-sxkcyq-b4pt.hkt.east.wctype.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  ws-opts:
-    headers:
-      Host: a605477178.m.ctrip.com
-    path: /
