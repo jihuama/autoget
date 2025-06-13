@@ -42,7 +42,7 @@ proxies:
   uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
 - alterId: 64
   cipher: auto
-  name: 8,12|香港8|@ripaojiedian
+  name: 8|14|香港8|@ripaojiedian
   network: tcp
   port: '33519'
   server: 183.236.51.38
@@ -53,6 +53,22 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
+  password: 1450cecfb93f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: kh36v1.pmxiaonan.xyz
+    mode: websocket
+    mux: true
+    path: /simieepvt
+    skip-cert-verify: false
+    tls: true
+  port: 42519
+  server: 121.127.231.229
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港2|@ripaojiedian 2
   password: 08293b204707
   plugin: v2ray-plugin
   plugin-opts:
@@ -64,13 +80,5 @@ proxies:
     tls: true
   port: 41174
   server: 156.251.179.79
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 11|🇭🇰 香港9|@ripaojiedian
-  password: rGDbiF7gtx5TWt4r4VjneQ==
-  port: 552
-  server: 156.225.22.213
   tfo: false
   type: ss
