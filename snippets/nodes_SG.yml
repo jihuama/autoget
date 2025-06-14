@@ -1,18 +1,18 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11,13|US_speednode_0125
-  password: b6fb3816-af03-4b21-b1fc-cb2b70fa2705
-  port: 1370
-  server: t15.emovpn.buzz
+  name: 3,11,13|CN_speednode_0007
+  password: FpQhGpIr
+  port: 4448
+  server: 36.151.251.56
   skip-cert-verify: true
-  sni: www.baidu.com
+  sni: 36.151.251.62
   tfo: false
   tls: false
   type: trojan
   udp: true
-  uuid: b79d2468-b606-3803-a863-fbc8f5c4d1aa
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 8|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
@@ -51,7 +51,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 8,12|新加坡4|@ripaojiedian
+  name: 8|14|新加坡4|@ripaojiedian
   network: tcp
   port: '56051'
   server: 38.47.176.251
@@ -59,3 +59,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|新加坡2|@ripaojiedian
+  network: ws
+  port: '46019'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
