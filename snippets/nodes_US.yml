@@ -49,14 +49,12 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12,13|CN_speednode_0036
+  name: 8,13|CN_speednode_0036
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-a.tkong.cc
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   udp: true
@@ -139,9 +137,26 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-LF8GL1rPM0.download.microsoft.com
+    host: 202506131022370-yLzbxEkmoB.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|美国4|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: 104.18.43.21
+  servername: mailman-backing-facilitate-cents.trycloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: b3b28da5-a27d-4d33-ee13-dcdf5c7fc45b
+  ws-opts:
+    headers:
+      Host: mailman-backing-facilitate-cents.trycloudflare.com
+    path: /

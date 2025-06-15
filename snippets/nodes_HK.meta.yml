@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8,12|香港7|@ripaojiedian
+  name: 8|14|香港7|@ripaojiedian
   network: tcp
   port: '20332'
   server: 43.247.135.2
@@ -40,22 +40,41 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- name: 11|🇭🇰 香港|@ripaojiedian
+  password: <password>
+  port: 8443
+  server: 2608d13f-sx6ps0-t1bnjq-1krtb.hkt.cdnhuawei.com
+  skip-cert-verify: false
+  sni: 2608d13f-sx6ps0-t1bnjq-1krtb.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 1450cecfb93f
+  password: 08293b204707
   plugin: v2ray-plugin
   plugin-opts:
-    host: kh36v1.pmxiaonan.xyz
+    host: hk6v1.pmxiaonan.xyz
     mode: websocket
     mux: true
-    path: /simieepvt
+    path: /sclbvcgkp
     skip-cert-verify: false
     tls: true
-  port: 15056
-  server: 121.127.231.229
+  port: 42084
+  server: 156.251.179.238
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港7|@ripaojiedian
+  network: tcp
+  port: '46159'
+  server: 120.198.71.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 13|HK_speednode_0090
   network: ws
