@@ -15,14 +15,11 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 8,11,12|香港6|@ripaojiedian
+  name: 8|13,14|香港6|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -61,10 +58,30 @@ proxies:
     path: /sclbvcgkp
     skip-cert-verify: false
     tls: true
-  port: 42084
+  port: 20507
   server: 156.251.179.238
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港6|@ripaojiedian
+  network: tcp
+  port: '20452'
+  server: 20.2.80.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
+- alterId: 0
+  cipher: auto
+  name: 12|香港v2|@ripaojiedian
+  network: kcp
+  port: '10655'
+  server: 43.99.247.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd9d6687-d1c0-49d9-89fa-2ac90940b17a
 - client-fingerprint: chrome
   name: 13|HK_speednode_0090
   network: ws
