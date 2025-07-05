@@ -1,18 +1,17 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 3,11|🇺🇸 美国4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 5975
-  server: 36.151.251.56
+  port: 30495
+  server: 36.151.251.60
   skip-cert-verify: true
   sni: www.baidu.com
-  tfo: false
   tls: false
   type: trojan
   udp: true
-  uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
   network: ws
   port: 443
@@ -50,7 +49,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|SG_speednode_0240
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  password: YjFmZ
+  port: 8388
+  server: sg.opensocks.site
+  tfo: false
+  type: ss
+- name: 13|SG_speednode_0238
   network: ws
   port: 8880
   server: 92.243.74.77
@@ -64,21 +71,7 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|SG_speednode_0241
-  network: ws
-  port: 8880
-  server: 92.243.75.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|SG_speednode_0242
+- name: 13|SG_speednode_0239
   network: ws
   port: 8880
   server: 27.50.49.77
@@ -92,7 +85,21 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 13|SG_speednode_0243
+- name: 13|SG_speednode_0240
+  network: ws
+  port: 8880
+  server: 92.243.75.77
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
+  ws-opts:
+    headers:
+      Host: free.cfdns.online
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 13|SG_speednode_0241
   network: ws
   port: 8880
   server: 27.50.48.77
