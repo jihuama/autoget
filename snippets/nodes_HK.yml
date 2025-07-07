@@ -14,7 +14,7 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 0
-  cipher: auto
+  cipher: none
   name: '8,12|香港v2|@ripaojiedian #1'
   network: kcp
   port: '34833'
@@ -26,9 +26,9 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港|@ripaojiedian
-  password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff
-  port: 16007
-  server: hk007.dogsvip.site
+  password: T47AM29B8DPD20RF
+  port: 15003
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -47,11 +47,20 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 2
+  cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
-  password: 7HJO64Y69YP2L0KM
-  port: 15013
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 11,12|香港3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
