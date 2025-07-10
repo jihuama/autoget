@@ -35,7 +35,7 @@ proxies:
   tls: false
   type: trojan
   udp: true
-  uuid: 37b58e86-83ef-4ff8-b5dd-4bde36921f2b
+  uuid: e6925cbe-51b9-40e9-b57e-85b6f026499b
 - alterId: 0
   cipher: auto
   name: '3,8|🌀4-TH |  2.6MB/s|55%|Netflix|O... #1'
@@ -610,7 +610,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '8,12|香港|@ripaojiedian #1'
+  name: 8|香港|@ripaojiedian
   network: tcp
   port: '50170'
   server: 38.147.188.234
@@ -637,14 +637,11 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: '8,11,12|新加坡4|@ripaojiedian #1'
+  name: 8|新加坡4|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -799,9 +796,17 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|tg频道:@ripaojiedian
-  password: yijian0503
+  password: qawszxc123
   port: 443
-  server: 43.201.46.211
+  server: 13.212.187.83
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: '11|🇭🇰 香港|@ripaojiedian #1'
+  password: ELNP3E9X426OSUVK
+  port: 15006
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -820,12 +825,12 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
+  name: 11|🇭🇰 香港7|@ripaojiedian
+  password: ZX9F8KK21O60YK9T
+  port: 15015
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -834,7 +839,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-U5JTftURXP.download.microsoft.com
+    host: 202507031938065-KILVHWQpc0.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -856,12 +861,12 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 18.142.245.222
+  name: 11|🇯🇵 日本5|@ripaojiedian
+  password: 0ANIPMQ8V4PH2BQO
+  port: 18002
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -870,17 +875,32 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-U5JTftURXP.download.microsoft.com
+    host: 202507031938065-KILVHWQpc0.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.22
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 11|🇺🇸 美国5|@ripaojiedian
+  network: ws
+  password: d6b8011a-c725-435a-9fec-bf6d3530392c
+  port: 2083
+  server: 194.53.53.249
+  skip-cert-verify: false
+  sni: vle.amclubdns.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vle.amclubdns.dpdns.org
+    path: /?ed=2560&PROT_TYPE=trojan
+- alterId: 0
+  cipher: auto
+  name: 12|香港3|@ripaojiedian
+  network: tcp
+  port: '33291'
+  server: 103.224.80.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6925cbe-51b9-40e9-b57e-85b6f026499b
