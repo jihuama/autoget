@@ -35,7 +35,7 @@ proxies:
   tls: false
   type: trojan
   udp: true
-  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
+  uuid: 5c2228f2-757b-4446-8682-68b652b05993
 - alterId: 0
   cipher: auto
   name: '3,8|🌀4-TH |  2.6MB/s|55%|Netflix|O... #1'
@@ -601,7 +601,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '8,12|香港|@ripaojiedian #1'
+  name: 8|香港|@ripaojiedian
   network: tcp
   port: '58236'
   server: 103.224.80.92
@@ -756,11 +756,28 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|tg频道:@ripaojiedian
-  password: awsps0501
+  password: yijian0503
   port: 443
-  server: 54.168.210.205
+  server: 3.39.249.233
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '11,12|香港|@ripaojiedian #1'
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
@@ -783,7 +800,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
+    host: 202507031938065-xSDyIYO2PY.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -805,12 +822,20 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
+  name: 11|🇯🇵 日本5|@ripaojiedian
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 13.231.80.233
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -819,12 +844,22 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
+    host: 202507031938065-xSDyIYO2PY.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港3|@ripaojiedian
+  network: tcp
+  port: '31076'
+  server: 38.147.189.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5c2228f2-757b-4446-8682-68b652b05993
 - alterId: 0
   cipher: auto
   http-opts:
