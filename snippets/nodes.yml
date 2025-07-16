@@ -862,7 +862,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 13|ES_speednode_0040
+- name: 13|ES_speednode_0045
   network: ws
   password: trojan
   port: 8443
@@ -875,28 +875,52 @@ proxies:
     headers:
       Host: store.timimi.dpdns.org
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|RU_speednode_0104
+- name: 13|GB_speednode_0076
   network: ws
-  port: 18443
-  server: 45.5921688.xyz
-  servername: 45.5921688.xyz
+  password: trojan
+  port: 443
+  server: 91.193.58.0
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: wahaha.yingyangkuaixian.dpdns.org
+  type: trojan
   udp: true
-  uuid: 71a7db14-1b6f-5aec-9e5d-9bd5f8beabab
   ws-opts:
     headers:
-      Host: 45.5921688.xyz
+      Host: wahaha.yingyangkuaixian.dpdns.org
     path: /
-- name: 13|US_speednode_0206
+- name: 13|GB_speednode_0077
+  network: ws
+  password: trojan
+  port: 443
+  server: 91.193.58.0
+  skip-cert-verify: true
+  sni: wahaha.yingyangkuaixian.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: wahaha.yingyangkuaixian.dpdns.org
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  name: 13|JP_speednode_0085
+  password: 70a0b8103356
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp5v1.lingjfjkm002.com
+    mode: websocket
+    mux: true
+    path: /bezradrqccl
+    tls: true
+  port: 636
+  server: 137.220.142.139
+  type: ss
+  udp: true
+- name: 13|RU_speednode_0144
   network: ws
   password: tg-fq521free
   port: 443
-  server: 198.62.62.67
-  skip-cert-verify: true
+  server: 45.67.215.95
+  skip-cert-verify: false
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
   udp: true
