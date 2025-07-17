@@ -2,9 +2,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 3,11|🇺🇸 美国4|@ripaojiedian
+  name: 3,11,13|CN_speednode_0018
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 13855
+  port: 4447
   server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
@@ -49,3 +49,37 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- http-opts:
+    headers:
+      Host:
+      - zula.ir
+    method: GET
+    path:
+    - /
+  name: 13|SG_speednode_0076
+  network: http
+  port: 80
+  server: 5.223.45.64
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 31cebb90-917e-4bf4-9f2c-8ec4e35b286d
+- http-opts:
+    headers:
+      Host:
+      - zula.ir
+    method: GET
+    path:
+    - /
+  name: 13|SG_speednode_0077
+  network: http
+  port: 80
+  server: 5.223.56.230
+  servername: zula.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 31cebb90-917e-4bf4-9f2c-8ec4e35b286d
