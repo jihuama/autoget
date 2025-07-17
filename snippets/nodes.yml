@@ -22,7 +22,7 @@ proxies:
   server: 156.146.40.194
   type: ss
   udp: true
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 3,11|🇺🇸 美国4|@ripaojiedian
@@ -31,11 +31,10 @@ proxies:
   server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
-  tfo: false
   tls: false
   type: trojan
   udp: true
-  uuid: b4ab63b7-d208-4be6-aa3b-f0f8c51c286d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '3,8|🌀4-TH |  2.6MB/s|55%|Netflix|O... #1'
@@ -614,7 +613,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港8|@ripaojiedian #1'
+  name: 8|香港8|@ripaojiedian
   network: tcp
   port: '45461'
   server: 103.224.80.95
@@ -769,9 +768,9 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: awsps0501
   port: 443
-  server: 18.143.163.134
+  server: 3.113.25.232
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -790,33 +789,30 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
-  password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-  port: 22356
-  server: ss.029.node-for-bigairport.win
+  name: 11,12|台湾|@ripaojiedian
+  network: ws
+  port: '80'
+  server: twjxlnnoljxc2.jkhkgj.xyz
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 88a027c.dl.microsoft.lu:14333
-    mode: tls
-  port: 2377
-  server: 118.163.198.43
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
+  ws-opts:
+    headers:
+      Host: file.dingtalk.com
+    path: /market/tw?ed=512
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-EWj4WqPxg0.download.microsoft.com
+    host: 202507121073737-knyhjj43dT.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -838,21 +834,13 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡3|@ripaojiedian
-  password: /6Go+gsioWhN1fM4MiOLwS4oWVF+r3UGv2SjSApfS0A=
-  port: 39856
-  server: 165.154.236.149
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-EWj4WqPxg0.download.microsoft.com
+    host: 202507121073737-knyhjj43dT.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -871,6 +859,19 @@ proxies:
     headers:
       Host: store.timimi.dpdns.org
     path: /
+- name: 13|GB_speednode_0075
+  network: ws
+  password: trojan
+  port: 443
+  server: 91.193.58.0
+  skip-cert-verify: true
+  sni: wahaha.yingyangkuaixian.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: wahaha.yingyangkuaixian.dpdns.org
+    path: /?ed=2560
 - name: 13|GB_speednode_0076
   network: ws
   password: trojan
@@ -884,21 +885,8 @@ proxies:
     headers:
       Host: wahaha.yingyangkuaixian.dpdns.org
     path: /
-- name: 13|GB_speednode_0077
-  network: ws
-  password: trojan
-  port: 443
-  server: 91.193.58.0
-  skip-cert-verify: true
-  sni: wahaha.yingyangkuaixian.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: /?ed=2560
 - cipher: aes-256-gcm
-  name: 13|JP_speednode_0085
+  name: 13|JP_speednode_0082
   password: 70a0b8103356
   plugin: v2ray-plugin
   plugin-opts:
@@ -911,16 +899,3 @@ proxies:
   server: 137.220.142.139
   type: ss
   udp: true
-- name: 13|RU_speednode_0144
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 45.67.215.95
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
