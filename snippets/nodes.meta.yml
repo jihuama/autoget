@@ -713,6 +713,7 @@ proxies:
   server: 36.151.251.48
   skip-cert-verify: true
   sni: www.baidu.com
+  tfo: false
   tls: false
   type: trojan
   udp: true
@@ -2243,14 +2244,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '8,11,12|台湾|@ripaojiedian #1'
+  name: 8|台湾|@ripaojiedian
   network: ws
   port: '80'
   server: twjxlnnoljxc2.jkhkgj.xyz
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
@@ -2407,7 +2405,7 @@ proxies:
   name: 11|tg频道:@ripaojiedian
   password: awsps0501
   port: 443
-  server: 3.113.25.232
+  server: 54.187.127.254
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -2432,7 +2430,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-knyhjj43dT.download.microsoft.com
+    host: 202507121073737-O8zUIKjU25.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -2460,12 +2458,38 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-knyhjj43dT.download.microsoft.com
+    host: 202507121073737-O8zUIKjU25.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 11|🇦🇹 奥地利|@ripaojiedian
+  password: TG:@Enkelte_notif&&TG:@Notif_Chat
+  port: 34045
+  server: 152.53.2.128
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.18
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '12|台湾|@ripaojiedian #1'
+  network: tcp
+  port: '3687'
+  server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
 - name: 13|AT_speednode_0001
   network: ws
   port: 2096
