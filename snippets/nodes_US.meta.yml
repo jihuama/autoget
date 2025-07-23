@@ -1293,14 +1293,11 @@ proxies:
   type: socks5
 - alterId: 0
   cipher: chacha20-poly1305
-  client-fingerprint: chrome
-  name: '8,11,12|美国5|@ripaojiedian #1'
+  name: 8|美国5|@ripaojiedian
   network: ws
   port: '8880'
   server: s2.cn-db.top
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 82ff3066-1fbd-3dd2-9b15-7c46a865317c
@@ -1376,6 +1373,18 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507121073737-WXqfuE2j3A.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 11,13|SG_speednode_0256
   network: ws
@@ -1390,18 +1399,6 @@ proxies:
     headers:
       Host: tyep.esslh.filegear-sg.me
     path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202507121073737-Hr6yYQkgXg.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - name: 13|US_speednode_0272
   network: ws
   port: 8880
