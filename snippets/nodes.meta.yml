@@ -717,7 +717,7 @@ proxies:
   tls: false
   type: trojan
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: aee65b36-ac1a-428b-8da3-dae88195e47f
 - name: 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
   network: ws
   port: 443
@@ -2244,7 +2244,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港3|@ripaojiedian #1'
+  name: 8|香港3|@ripaojiedian
   network: tcp
   port: '42203'
   server: 103.224.80.29
@@ -2254,7 +2254,7 @@ proxies:
   uuid: 89e3bb59-bf63-4346-9864-cbc79cee58a5
 - alterId: 0
   cipher: auto
-  name: '8,12|香港6|@ripaojiedian #1'
+  name: 8|香港6|@ripaojiedian
   network: tcp
   port: '49597'
   server: 103.181.165.26
@@ -2264,14 +2264,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '8,11,12|日本5|@ripaojiedian #1'
+  name: 8|日本5|@ripaojiedian
   network: ws
   port: '8080'
   server: 47.79.94.25
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: b36d992c-786b-4136-96d6-c37641207d47
@@ -2428,7 +2425,7 @@ proxies:
   name: 11|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 35.86.81.76
+  server: 43.203.107.212
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -2453,7 +2450,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507022251291-d01YttPsbj.download.microsoft.com
+    host: 202507282137611-JtmNFkb3wi.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -2475,26 +2472,54 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
+- client-fingerprint: chrome
+  name: 11|🇯🇵 日本5|@ripaojiedian
+  network: ws
+  password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
+  port: 20230
+  server: jp006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: /
+- client-fingerprint: chrome
   name: 11|🇺🇸 美国|@ripaojiedian
-  password: vGCBLG1SUe7YdXI1fPhdsA==
-  port: 36529
-  server: jpiplc.deuen.com
-  tfo: false
-  type: ss
+  network: ws
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  port: 443
+  server: 172.67.214.21
+  skip-cert-verify: false
+  sni: xXcdvFgt.191268.XYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xXcdvFgt.191268.XYz
+    path: /ctdmgeIg3NII3ibrzzKXJGy3S1
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507022251291-d01YttPsbj.download.microsoft.com
+    host: 202507282137611-JtmNFkb3wi.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '12|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '11745'
+  server: 38.147.188.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aee65b36-ac1a-428b-8da3-dae88195e47f
 - name: 13|AE_speednode_0001
   network: ws
   port: 8880
