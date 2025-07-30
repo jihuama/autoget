@@ -32,7 +32,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港3|@ripaojiedian #1'
+  name: 8|香港3|@ripaojiedian
   network: tcp
   port: '11745'
   server: 38.147.188.250
@@ -66,3 +66,30 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|香港6|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '12|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '10701'
+  server: 43.247.135.176
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5fb2081-2d51-4a3a-93d7-b20e34c6c0af
