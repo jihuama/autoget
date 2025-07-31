@@ -136,14 +136,11 @@ proxies:
   uuid: b5fb2081-2d51-4a3a-93d7-b20e34c6c0af
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: '8,11,12|香港6|@ripaojiedian #1'
+  name: 8|香港6|@ripaojiedian
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
@@ -310,7 +307,7 @@ proxies:
   name: 11|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.126.196.58
+  server: 13.201.33.249
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -329,13 +326,30 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|香港5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 212f8cd0-t0bog0-t1nwsn-1la2q.hkt.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 431026c8-7397-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-8jv54zz1ja.download.microsoft.com
+    host: 202507282137611-HEnrNCdMfp.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -357,6 +371,14 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 11|🇰🇷 韩国2|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 11|🇺🇸 美国|@ripaojiedian
   network: ws
@@ -376,7 +398,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-8jv54zz1ja.download.microsoft.com
+    host: 202507282137611-HEnrNCdMfp.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
