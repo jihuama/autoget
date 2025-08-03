@@ -890,27 +890,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: 13|AT_speednode_0003
-  password: TG:@Enkelte_notif&&TG:@Notif_Chat
-  port: 34045
-  server: 152.53.2.128
-  type: ss
-  udp: true
-- name: 13|JP_speednode_0067
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 103.116.7.220
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 13|JP_speednode_0068
+- name: 13|JP_speednode_0062
   network: ws
   password: Aimer
   port: 2083
@@ -923,7 +903,20 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|JP_speednode_0069
+- name: 13|JP_speednode_0063
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 103.116.7.220
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 13|JP_speednode_0064
   network: ws
   password: Aimer
   port: 2087
@@ -936,14 +929,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 13|KR_speednode_0070
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.62.168
-  type: ss
-  udp: true
-- name: 13|KZ_speednode_0075
+- name: 13|KZ_speednode_0069
   network: ws
   password: Aimer
   port: 443
@@ -956,7 +942,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /
-- name: 13|KZ_speednode_0076
+- name: 13|KZ_speednode_0070
   network: ws
   password: Aimer
   port: 443
@@ -969,7 +955,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|SC_speednode_0093
+- name: 13|SC_speednode_0087
   network: ws
   password: Aimer
   port: 2083
@@ -982,7 +968,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|SG_speednode_0096
+- name: 13|SG_speednode_0090
   network: ws
   password: Aimer
   port: 8443
@@ -995,20 +981,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|SG_speednode_0097
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.180
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /
-- name: 13|SG_speednode_0098
+- name: 13|SG_speednode_0091
   network: ws
   password: Aimer
   port: 8443
@@ -1021,11 +994,11 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0159
+- name: 13|SG_speednode_0092
   network: ws
   password: Aimer
-  port: 2083
-  server: 160.79.105.156
+  port: 8443
+  server: 92.243.74.180
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -1033,8 +1006,8 @@ proxies:
   ws-opts:
     headers:
       Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 13|US_speednode_0160
+    path: /
+- name: 13|US_speednode_0154
   network: ws
   password: Aimer
   port: 2053
@@ -1047,20 +1020,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0161
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 198.62.62.192
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /
-- name: 13|US_speednode_0162
+- name: 13|US_speednode_0155
   network: ws
   password: tg-fq521free
   port: 443
@@ -1073,11 +1033,11 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 13|US_speednode_0163
+- name: 13|US_speednode_0156
   network: ws
   password: Aimer
-  port: 443
-  server: 192.0.54.7
+  port: 2083
+  server: 160.79.105.156
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -1086,7 +1046,20 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0164
+- name: 13|US_speednode_0157
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 198.62.62.192
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /
+- name: 13|US_speednode_0158
   network: ws
   password: Aimer
   port: 2083
@@ -1099,20 +1072,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0165
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 160.79.105.160
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 13|US_speednode_0166
+- name: 13|US_speednode_0159
   network: ws
   password: Aimer
   port: 8443
@@ -1125,11 +1085,11 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0167
+- name: 13|US_speednode_0160
   network: ws
   password: Aimer
-  port: 2083
-  server: 192.200.160.35
+  port: 443
+  server: 192.0.54.7
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -1138,33 +1098,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0168
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 130.250.137.63
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 13|US_speednode_0169
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 167.68.4.131
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 13|US_speednode_0170
+- name: 13|US_speednode_0161
   network: ws
   password: Aimer
   port: 2083
@@ -1177,11 +1111,11 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0171
+- name: 13|US_speednode_0162
   network: ws
   password: Aimer
-  port: 2096
-  server: 66.81.247.230
+  port: 8443
+  server: 160.79.105.160
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -1190,7 +1124,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0173
+- name: 13|US_speednode_0163
   network: ws
   password: Aimer
   port: 2087
@@ -1203,11 +1137,11 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0174
+- name: 13|US_speednode_0164
   network: ws
   password: Aimer
-  port: 2087
-  server: 161.145.150.26
+  port: 2083
+  server: 130.250.137.63
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -1216,11 +1150,11 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0175
+- name: 13|US_speednode_0165
   network: ws
   password: Aimer
-  port: 2053
-  server: 167.68.4.7
+  port: 8443
+  server: 167.68.4.131
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -1229,20 +1163,20 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0176
+- name: 13|US_speednode_0166
   network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
+  password: Aimer
+  port: 2096
+  server: 66.81.247.230
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: 13|US_speednode_0177
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 13|US_speednode_0167
   network: ws
   password: Aimer
   port: 2053
@@ -1255,7 +1189,59 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 13|US_speednode_0178
+- name: 13|US_speednode_0168
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 192.200.160.35
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 13|US_speednode_0169
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: 13|US_speednode_0170
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.7
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 13|US_speednode_0171
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 161.145.150.26
+  skip-cert-verify: true
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 13|US_speednode_0172
   network: ws
   password: Aimer
   port: 2096
