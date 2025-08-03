@@ -33,7 +33,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: '8,11,12|香港5|@ripaojiedian #1'
+  name: '8,11,12|香港3|@ripaojiedian #1'
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -42,7 +42,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
+  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -73,42 +73,20 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: 13|HK_speednode_0029
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '11,12|香港5|@ripaojiedian #1'
   network: ws
-  password: Aimer
-  port: 443
-  server: 154.211.8.240
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 13|HK_speednode_0030
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 154.211.8.227
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 13|HK_speednode_0031
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 154.211.8.12
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
+      Host: hkt.gotochinatown.net
+    path: /
