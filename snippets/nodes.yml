@@ -22,20 +22,20 @@ proxies:
   server: 156.146.40.194
   type: ss
   udp: true
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: '3,11|🇺🇸 美国4|@ripaojiedian #1'
+  name: 3,11,13|CN_speednode_0018
   password: 253bc477d4e43c209f2d427272968280
-  port: 33720
-  server: 23.236.68.99
-  skip-cert-verify: false
+  port: 406
+  server: 36.156.102.125
+  skip-cert-verify: true
   sni: www.baidu.com
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 0409e328-19f9-4305-9962-2f9f3ce9df1a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 3,8|🌀其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
@@ -873,3 +873,71 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- name: 13|TW_speednode_0132
+  network: ws
+  password: ttfang
+  port: 81
+  server: 103.106.230.186
+  skip-cert-verify: true
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0163
+  password: 0b191076d18f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /ugiibpkbca
+    tls: true
+  port: 636
+  server: 156.251.179.136
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0168
+  password: 23d03aa704c7
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: cmihk3v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /grqhyifio
+    tls: true
+  port: 636
+  server: 156.251.179.181
+  type: ss
+  udp: true
+- name: 13|US_speednode_0172
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0173
+  password: 0b191076d18f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /ugiibpkbca
+    tls: true
+  port: 636
+  server: 156.251.179.139
+  type: ss
+  udp: true
