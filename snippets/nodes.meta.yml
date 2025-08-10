@@ -704,19 +704,20 @@ proxies:
   sni: 469c6200-swb8g0-t1bnjq-1krtb.los.gotochinatown.net
   tls: true
   type: socks5
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 3,11|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 472
-  server: 36.156.102.125
-  skip-cert-verify: true
+  port: 33720
+  server: 23.236.68.99
+  skip-cert-verify: false
   sni: www.baidu.com
+  tfo: false
   tls: false
-  type: trojan
+  type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 0409e328-19f9-4305-9962-2f9f3ce9df1a
 - name: 3|🇸🇬2 |  2.8MB/s|61%|Youtube|Ope...
   network: ws
   port: 443
@@ -2399,7 +2400,7 @@ proxies:
   name: 11|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.239.86.92
+  server: 34.203.13.163
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -2418,6 +2419,14 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 11|🇭🇰 香港3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  tfo: false
+  type: ss
 - name: 11|🇹🇼 台湾|@ripaojiedian
   password: test.+
   port: 30443
@@ -2433,7 +2442,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-G2zNAjxjDH.download.microsoft.com
+    host: 202507282137611-ABbKq8VLBc.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -2474,12 +2483,22 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-G2zNAjxjDH.download.microsoft.com
+    host: 202507282137611-ABbKq8VLBc.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|美国4|@ripaojiedian
+  network: tcp
+  port: '33720'
+  server: 23.236.68.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0409e328-19f9-4305-9962-2f9f3ce9df1a
 - name: 13|AE_speednode_0001
   network: ws
   port: 8880
