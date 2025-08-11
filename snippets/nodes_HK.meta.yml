@@ -28,6 +28,36 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 2
+  cipher: auto
+  name: '8,11,12|香港3|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '8,11,12|香港7|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '8,12|香港v2|@ripaojiedian #1'
@@ -52,33 +82,3 @@ proxies:
   port: 636
   server: 103.103.245.158
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 11,12|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11,12|香港7|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
