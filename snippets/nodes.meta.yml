@@ -2343,14 +2343,11 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: '8,11,12|香港3|@ripaojiedian #1'
+  name: 8|香港3|@ripaojiedian
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
@@ -2360,7 +2357,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '8,12|香港7|@ripaojiedian #1'
+  name: '8,12|香港3|@ripaojiedian #1'
   network: tcp
   port: '44470'
   server: 43.247.135.176
@@ -2517,7 +2514,7 @@ proxies:
   name: 11|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 15.188.74.209
+  server: 51.44.179.14
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -2544,22 +2541,13 @@ proxies:
   server: awes35lesl.blhao0o.dpdns.org
   tfo: false
   type: ss
-- name: 11|🇹🇼 台湾|@ripaojiedian
-  password: test.+
-  port: 30443
-  server: cmhkb.ssv.vc
-  skip-cert-verify: false
-  sni: cmhkb.ssv.vc
-  tls: true
-  type: http
-  username: test
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -2583,12 +2571,37 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 11|🇯🇵 日本5|@ripaojiedian
+  password: 628726b8-9371-4bdd-aab5-d864a492a492
+  port: 35782
+  server: t1.fttos.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 11|🇰🇷 韩国|@ripaojiedian
   password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
   port: 19852
   server: mm.huawei-api.top
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|新加坡4|@ripaojiedian
+  network: ws
+  port: '16618'
+  server: t.cnmjcn.cyou
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 42c37c6c-9ad9-42dc-99d6-afd3c100a563
+  ws-opts:
+    headers:
+      Host: e5406c2f4f42756d4a4089ffcd58947b.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
   name: 11|🇺🇸 美国|@ripaojiedian
   network: ws
@@ -2608,7 +2621,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-oza3DJO8nv.download.microsoft.com
+    host: 202507282137611-pwlP10l6s0.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
