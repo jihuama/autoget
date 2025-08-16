@@ -76,18 +76,23 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,13|JP_speednode_0094
   password: 253bc477d4e43c209f2d427272968280
-  port: 22006
-  server: 36.156.102.67
-  skip-cert-verify: true
+  port: 43722
+  server: 172.104.98.192
+  skip-cert-verify: false
   sni: www.baidu.com
-  type: trojan
-- name: 13|HK_speednode_0060
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 71dc43f8-dc50-4bb6-93e2-95dd5149d7fd
+- name: 13|HK_speednode_0078
   network: ws
   port: 8880
-  server: 45.192.223.156
+  server: 154.211.8.156
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
@@ -97,30 +102,70 @@ proxies:
   ws-opts:
     headers:
       Host: kjgx.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 13|HK_speednode_0061
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2
+- name: 13|HK_speednode_0079
   network: ws
-  password: Aimer
-  port: 2087
-  server: 154.211.8.227
-  skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
-  type: trojan
+  port: 21415
+  server: 43.132.244.52
+  servername: tw.laoyoutiao.link
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   ws-opts:
     headers:
-      Host: epgb.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 13|HK_speednode_0062
+      Host: tw.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 13|HK_speednode_0080
   network: ws
   password: Aimer
   port: 2096
-  server: 154.211.8.150
+  server: 154.211.8.220
   skip-cert-verify: true
-  sni: epgb.aimercc.dpdns.org
+  sni: epgc.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: epgb.aimercc.dpdns.org
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 13|HK_speednode_0081
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 154.211.8.209
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 13|HK_speednode_0082
+  network: ws
+  password: Aimer
+  port: 443
+  server: 154.211.8.90
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
+- name: 13|HK_speednode_0083
+  network: ws
+  password: Aimer
+  port: 443
+  server: 154.211.8.155
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
