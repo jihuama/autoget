@@ -9,34 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202508150964186-C3Laaffn48.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
-  password: 823e135ed103
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp7v1.lingjfjkm002.com
-    mode: websocket
-    mux: true
-    path: /dchlbvrbbotc
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 137.220.191.40
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 13|JP_speednode_0091
   network: ws
@@ -79,6 +51,16 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|JP_speednode_0094
+  port: 43722
+  server: 172.104.98.192
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 71dc43f8-dc50-4bb6-93e2-95dd5149d7fd
 - name: 13|JP_speednode_0095
   network: ws
   password: Aimer
