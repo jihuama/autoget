@@ -1,6 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: '8,11,12|美国|@ripaojiedian #1'
+  network: ws
+  port: '22100'
+  server: 45.136.245.177
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 58abdfa2-3565-4280-9a98-a2c3e6f5c0ef
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -67,23 +84,6 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
-  network: ws
-  port: '22100'
-  server: 45.136.245.177
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 58abdfa2-3565-4280-9a98-a2c3e6f5c0ef
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇺🇸 美国2|@ripaojiedian
@@ -96,3 +96,56 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  name: 13|US_speednode_0093
+  password: 23d03aa704c7
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: cmihk3v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /grqhyifio
+    tls: true
+  port: 636
+  server: 156.251.179.181
+  type: ss
+  udp: true
+- name: 13|US_speednode_0109
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 198.62.62.67
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: 13|US_speednode_0110
+  network: ws
+  password: ttfang
+  port: 2096
+  server: ttfang.fange.me
+  skip-cert-verify: false
+  sni: ttfang.fange.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ttfang.fange.me
+    path: /Telegram🇨🇳
+- name: 13|US_speednode_0111
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
