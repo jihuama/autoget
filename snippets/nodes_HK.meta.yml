@@ -18,6 +18,33 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
+  name: 8,12|香港3|@ripaojiedian
+  network: tcp
+  port: '31552'
+  server: 38.147.189.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 8,11,12|香港5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: '8,12|香港v2|@ripaojiedian #1'
   network: kcp
   port: '28590'
@@ -54,31 +81,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|香港5|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|香港3|@ripaojiedian
-  network: tcp
-  port: '31552'
-  server: 38.147.189.37
-  servername: ''
-  tls: false
-  type: vmess
   uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
