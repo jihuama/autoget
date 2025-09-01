@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8|美国|@ripaojiedian
-  network: tcp
-  port: '443'
-  server: 165.140.216.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -89,104 +79,68 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- http-opts:
-    headers:
-      Host:
-      - zhaket.com
+- alterId: 0
+  cipher: auto
+  http-opts:
     method: GET
     path:
     - /
-  name: 13|US_speednode_0020
-  network: http
-  port: 625
-  server: uk.hotspoto.news
-  servername: zhaket.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6c8f15df-cd15-4002-abfd-3902ceffb5b9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 13|US_speednode_0021
-  port: 443
-  reality-opts:
-    public-key: nyid7jiXERXF6qkkRVsub0wfX9xGKKAsVzQERxhqZHc
-    short-id: c8e8e4b7
-  server: 85.239.53.46
-  servername: stackoverflow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18ce358e-b507-4cde-8c83-94806aedf467
-- name: 13|US_speednode_0022
-  network: ws
-  port: 80
-  server: 45.159.218.17
-  servername: worker-flat-disk-100d.b9563f65aef681.workers.dev
+  network: http
+  port: 25740
+  server: 192.3.216.180
   skip-cert-verify: false
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 64d39d67-62dc-470c-a592-1d5a6ee87cb5
-  ws-opts:
-    headers:
-      Host: worker-flat-disk-100d.b9563f65aef681.workers.dev
-    path: /🔒
-- name: 13|US_speednode_0023
-  network: ws
-  port: 8080
-  server: 63.141.128.2
-  servername: b.jOin.zEdMoDeOn.oNl.
+  uuid: 43cf14a5-5b85-47e2-a4c2-b514beab7054
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|US_speednode_0025
+  network: http
+  port: 59081
+  server: 156.238.225.160
   skip-cert-verify: false
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 78927eda-79c3-40d1-bb55-f0671939089b
-  ws-opts:
-    headers:
-      Host: b.jOin.zEdMoDeOn.oNl.
-    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-- name: 13|US_speednode_0024
+  uuid: ce42a56d-06fb-4cf0-bddd-18cdc3114622
+- cipher: chacha20-ietf-poly1305
+  name: 13|US_speednode_0026
+  password: YA4zGmd4OPLkKZGyLfR6PN
+  port: 10721
+  server: 159.203.173.101
+  type: ss
+  udp: true
+- name: 13|US_speednode_0027
   network: ws
   port: 80
-  server: 63.141.128.16
-  servername: e.jOin.zEdMoDeOn.oNl.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 15f2b73d-9790-4092-bb4b-e38a4feb1b56
-  ws-opts:
-    headers:
-      Host: e.jOin.zEdMoDeOn.oNl.
-    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-- name: 13|US_speednode_0025
-  network: ws
-  port: 80
-  server: 63.141.128.22
+  server: 63.141.128.26
   servername: f.jOin.zEdMoDeOn.oNl.
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: ff0d9e6c-6b4c-40c2-9254-f602b21aa836
+  uuid: c032bdcd-bcd6-4d85-99ee-e12a9458ba62
   ws-opts:
     headers:
       Host: f.jOin.zEdMoDeOn.oNl.
-    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-- name: 13|US_speednode_0026
+    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+- name: 13|US_speednode_0028
   network: ws
   port: 8080
-  server: 63.141.128.14
-  servername: a.joIn.zEdMoDeOn.oNl.
+  server: 63.141.128.13
+  servername: c.jOin.zEdMoDeOn.oNl.
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: e68bc33e-7222-4125-b064-8209d71f29d9
+  uuid: c8919b30-1117-405d-9e0f-9577c7e0f0ff
   ws-opts:
     headers:
-      Host: a.joIn.zEdMoDeOn.oNl.
-    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      Host: c.jOin.zEdMoDeOn.oNl.
+    path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
