@@ -18,7 +18,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港3|@ripaojiedian #1'
+  name: 8|香港3|@ripaojiedian
   network: tcp
   port: '25013'
   server: 38.147.188.160
@@ -28,7 +28,7 @@ proxies:
   uuid: e90bfc71-1a0a-43e8-9272-6be036e9d88e
 - alterId: 64
   cipher: auto
-  name: '8,12|香港5|@ripaojiedian #1'
+  name: 8|香港5|@ripaojiedian
   network: tcp
   port: '47272'
   server: 183.240.245.250
@@ -70,12 +70,29 @@ proxies:
   port: 42940
   server: 64.81.24.59
   skip-cert-verify: false
-  sni: www.baidu.com
+  sni: 23.45.86.28
   tfo: false
   tls: false
   type: vmess
   udp: true
   uuid: f68d852e-cef3-4baf-f4ce-b98c88197bde
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '11,12|香港5|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 13|HK_speednode_0008
