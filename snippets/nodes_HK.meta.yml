@@ -89,19 +89,33 @@ proxies:
   tls: false
   type: vmess
   uuid: 22babdc6-5437-4de0-b3a9-67c005a19e11
-- name: 13|HK_speednode_0002
-  password: <password>
-  port: 8443
-  server: 9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com
-  tls: true
-  type: http
+- alterId: 2
+  cipher: auto
+  name: 13|HK_speednode_0005
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 13|HK_speednode_0003
-  password: <password>
-  port: 8443
-  server: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com
-  tls: true
-  type: http
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|HK_speednode_0006
+  network: http
+  port: 30397
+  server: 43.247.135.17
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  uuid: 7364bf26-0eb6-40cc-b7e6-fb1a4b6bf69c
