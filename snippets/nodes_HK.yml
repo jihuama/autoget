@@ -28,16 +28,6 @@ proxies:
   uuid: e4c54f8f-78bd-439d-8365-28f261078962
 - alterId: 0
   cipher: auto
-  name: 8|香港3|@ripaojiedian
-  network: tcp
-  port: '51697'
-  server: 38.147.188.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22babdc6-5437-4de0-b3a9-67c005a19e11
-- alterId: 0
-  cipher: auto
   name: '8,12|香港v2|@ripaojiedian #1'
   network: kcp
   port: '28590'
@@ -65,14 +55,28 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0004
+  name: 11|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 26144
-  server: ppy-boardv2.02ijp4uos1.download
-  skip-cert-verify: false
+  port: 4317
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
   sni: 23.45.86.28
   tfo: false
   tls: false
+  type: trojan
+  uuid: e4c54f8f-78bd-439d-8365-28f261078962
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /jxjxhsnsjhcd
+  name: 13|HK_speednode_0013
+  network: http
+  port: 21872
+  server: 103.30.76.251
+  skip-cert-verify: false
+  tls: false
   type: vmess
   udp: true
-  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+  uuid: 566d4bf4-b0be-4b38-b73b-0bf18d86f2ee
