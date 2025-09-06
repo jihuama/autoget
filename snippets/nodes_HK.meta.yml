@@ -18,7 +18,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港3|@ripaojiedian #1'
+  name: 8|香港3|@ripaojiedian
   network: tcp
   port: '15778'
   server: 38.147.188.234
@@ -52,6 +52,24 @@ proxies:
   server: 156.251.179.135
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12,13|HK_speednode_0022
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -64,19 +82,56 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: e4c54f8f-78bd-439d-8365-28f261078962
+  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /jxjxhsnsjhcd
-  name: 13|HK_speednode_0013
-  network: http
-  port: 21872
-  server: 103.30.76.251
+  name: 12|香港5|@ripaojiedian
+  network: tcp
+  port: '28677'
+  server: 43.247.134.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
+- alterId: 2
+  cipher: auto
+  name: 13|HK_speednode_0020
+  network: ws
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 566d4bf4-b0be-4b38-b73b-0bf18d86f2ee
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 13|HK_speednode_0021
+  network: ws
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 13|HK_speednode_0023
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
