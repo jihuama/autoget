@@ -52,19 +52,21 @@ proxies:
   server: 156.251.179.135
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 1
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
-  password: 253bc477d4e43c209f2d427272968280
-  port: 13855
-  server: 36.156.102.77
+  name: 11,13|SG_speednode_0022
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  port: 443
+  server: de.viefast.net
+  servername: kk5wh-g05.jp01-nn-vm0.entry.fr0528.art
   skip-cert-verify: true
-  sni: 23.45.86.28
+  sni: csapp.catch.net.tw
   tfo: false
-  tls: false
+  tls: true
   type: trojan
-  uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b
+  udp: true
+  uuid: d89abf34-4cc8-3573-876c-e193c6cb1a8b
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港5|@ripaojiedian
@@ -81,3 +83,18 @@ proxies:
   server: shenzhen99.fkfkd.cn
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|HK_speednode_0006
+  network: http
+  port: 30397
+  server: 43.247.135.17
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7364bf26-0eb6-40cc-b7e6-fb1a4b6bf69c
