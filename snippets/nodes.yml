@@ -750,20 +750,19 @@ proxies:
   server: 156.251.179.135
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0006
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  port: 52512
-  server: 183.240.180.47
-  skip-cert-verify: false
-  sni: aliyun.com
+  name: 11|🇺🇸 美国4|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4317
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
   tfo: false
   tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: trojan
+  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港5|@ripaojiedian
@@ -829,80 +828,37 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 13|BR_speednode_0001
+  name: 13|PY_speednode_0022
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 38.54.57.90
+  server: 38.165.233.93
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0003
-  obfs: plain
-  obfs-param: 45672222545.microsoft.com
-  password: bxsnucrgk6hfish
-  port: 1056
-  protocol: auth_aes128_sha1
-  protocol-param: 222545:TIvS2C
-  server: yd-03.paofunlink.com
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: 13|CN_speednode_0005
-  obfs: plain
-  obfs-param: 45672222545.microsoft.com
-  password: bxsnucrgk6hfish
-  port: 1078
-  protocol: auth_aes128_sha1
-  protocol-param: 222545:TIvS2C
-  server: yd-03.paofunlink.com
-  type: ssr
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 13|DE_speednode_0008
+- name: 13|US_speednode_0026
   network: ws
-  port: 443
-  server: kampong.org
-  servername: kampong.org
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: kampong.org
-    path: /linkvws
-- cipher: chacha20-ietf-poly1305
-  name: 13|DE_speednode_0011
-  password: zaq1@WSXcde3$RFV
-  plugin: obfs
-  plugin-opts:
-    host: falkenstein.ticoag.fun
-    mode: tls
-    tls: false
-  port: 26902
-  server: 23.165.200.112
-  type: ss
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|VN_speednode_0027
+  network: ws
+  port: 80
+  server: vn4.viefast.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  name: 13|KR_speednode_0015
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|SA_speednode_0025
-  password: g8BWaY8FYhKfVMOT9N0IIB
-  port: 8443
-  server: 154.205.134.132
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|TW_speednode_0027
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
-  udp: true
+  uuid: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  ws-opts:
+    headers:
+      Host: www.linemo.jp
+    path: /viefast
