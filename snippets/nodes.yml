@@ -547,23 +547,14 @@ proxies:
   uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - alterId: 0
   cipher: auto
-  name: 8|🇭🇰 香港7|@ripaojiedian
-  network: http
-  port: 13193
-  server: 103.224.80.96
-  tls: false
-  type: vmess
-  uuid: 080d4d5d-6dbd-4d75-9927-aa3902c150a5
-- alterId: 0
-  cipher: auto
-  name: 8|日本5|@ripaojiedian
+  name: '8,12|台湾|@ripaojiedian #1'
   network: tcp
-  port: '37925'
-  server: nnertn.vxzjv.xyz
+  port: '49795'
+  server: 103.236.227.7
   servername: ''
   tls: false
   type: vmess
-  uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
+  uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -752,12 +743,12 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|US_speednode_0021
-  password: Z3aK0aZqwyNcz7S3l3ncNCODYxNFnA8SCOOSOZ3y3AX8xA4a0RZ3gxn39aqYAaBOyzR43acKOCzSX3S
-  port: 28331
-  server: hanger.appagent.net
+  name: 11,13|US_speednode_0032
+  password: F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0
+  port: 28334
+  server: pricey.appagent.net
   skip-cert-verify: false
-  sni: sto.freeguard.org
+  sni: blender.appagent.net
   tfo: false
   tls: false
   type: trojan
@@ -773,12 +764,13 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '11|🇭🇰 香港7|@ripaojiedian #1'
+  name: 11,13|CN_speednode_0002
   password: e4469310-00fc-4527-8afa-71788b3bcef7
   port: 35602
   server: gw.liangyuandianwan.com
   tfo: false
   type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 11|🇯🇵 日本|@ripaojiedian
@@ -827,54 +819,67 @@ proxies:
   server: 103.186.155.28
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|台湾|@ripaojiedian
-  network: tcp
-  port: '49795'
-  server: 103.236.227.7
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
 - cipher: chacha20-ietf-poly1305
   name: 13|CN_speednode_0003
-  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-  port: 40011
-  server: frk.fastsoonlink.com
+  password: e4469310-00fc-4527-8afa-71788b3bcef7
+  port: 35603
+  server: gw.liangyuandianwan.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 13|CN_speednode_0004
-  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-  port: 40005
-  server: sgp.fastsoonlink.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0005
   password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
   port: 40030
   server: pr.fastsoonlink.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0005
+  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
+  port: 40001
+  server: us.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 13|CN_speednode_0006
+  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
+  port: 40005
+  server: sgp.fastsoonlink.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0007
   password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
   port: 40031
   server: ru.fastsoonlink.com
   type: ss
   udp: true
-- name: 13|NL_speednode_0010
-  network: ws
-  password: 02XtoczO7V
-  port: 17590
-  server: 5.255.102.41
-  skip-cert-verify: false
-  sni: mooshali.arshiacomplus.dpdns.org
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0008
+  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
+  port: 40034
+  server: fr.fastsoonlink.com
+  type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0009
+  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
+  port: 40011
+  server: frk.fastsoonlink.com
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0010
+  network: ws
+  port: 30824
+  server: v24.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: mooshali.arshiacomplus.dpdns.org
-    path: /hishhhh123
+      Host: v24.heduian.link
+    path: /oooo

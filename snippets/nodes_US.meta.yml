@@ -79,6 +79,21 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- name: 13|US_speednode_0023
+  network: ws
+  packet-encoding: xudp
+  port: 2082
+  server: 159.112.235.174
+  servername: workerr.schodog1.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
+  ws-opts:
+    headers:
+      Host: workerr.schodog1.workers.dev
+    path: /?ed=2048
 - http-opts:
     headers:
       Host:
@@ -86,7 +101,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 13|US_speednode_0022
+  name: 13|US_speednode_0029
   network: http
   port: 33801
   server: m44a.vip784.com
@@ -96,16 +111,62 @@ proxies:
   type: vless
   udp: true
   uuid: 39c8e0d3-c932-4ff7-b3e3-83002647907b
-- client-fingerprint: firefox
-  name: 13|US_speednode_0023
-  port: 10001
+- http-opts:
+    headers:
+      Host:
+      - varzesh3.ir
+    method: GET
+    path:
+    - /
+  name: 13|US_speednode_0031
+  network: http
+  port: 33801
+  server: m24a.vip784.com
+  servername: varzesh3.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d36f457f-17a9-4891-a113-322ec6792917
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 13|US_speednode_0033
+  port: 1024
   reality-opts:
-    public-key: 1ltSdo2K6D9EEwebaDQPCb5ypbURcXyO9HsX4RUbbUo
-    short-id: 1a24af87
-  server: 172.233.153.209
-  servername: yahoo.com
+    public-key: oRaRpTa3cBJYHjJ6H8U6ytDkNbYISl1zcRBJthOXcH4
+    short-id: be144fdc
+  server: 107.172.51.233
+  servername: www.douyin.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
+  uuid: deba3b58-3919-4a66-acac-a064049cfb49
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|US_speednode_0034
+  port: 1024
+  reality-opts:
+    public-key: 721JBxuxy_fJBCfQ6fY1-SIYm7QVXOSKV8m6Nz1Ah3Q
+    short-id: ca111825
+  server: 23.95.231.71
+  servername: www.douyin.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d6e0404-30c6-4267-a50c-f8643fe1a7d5
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 13|US_speednode_0035
+  port: 443
+  reality-opts:
+    public-key: Xd2u-uX0dhiJrB_ESaDSoQBmT6Jv1tEmqn3inOiYFDg
+    short-id: 207a3de5
+  server: 146.235.193.81
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 747c62da-109f-4add-8e67-c66e1af7d255
