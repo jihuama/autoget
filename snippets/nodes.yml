@@ -545,6 +545,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '8,11,12|日本4|@ripaojiedian #1'
+  network: ws
+  port: '41315'
+  server: a.lyazzz.online
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e
+  ws-opts:
+    headers:
+      Host: img14.360buyimg.com
+    path: /obj
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -733,15 +750,16 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 160.16.117.182
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  name: 11,13|FR_speednode_0009
+  password: installshield
+  port: 8443
+  server: 23.162.152.30
+  skip-cert-verify: true
+  sni: aliyun.com
   tfo: false
   tls: false
   type: trojan
+  udp: true
   uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -755,23 +773,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|日本4|@ripaojiedian
-  network: ws
-  port: '41315'
-  server: a.lyazzz.online
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e
-  ws-opts:
-    headers:
-      Host: img14.360buyimg.com
-    path: /obj
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国|@ripaojiedian
@@ -788,10 +789,3 @@ proxies:
   server: 103.186.155.28
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 13|KR_speednode_0030
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.62.168
-  type: ss
-  udp: true
