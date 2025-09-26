@@ -717,23 +717,23 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
-  password: 2b5fad3874e5
+  password: ccf426f1fe78
   plugin: v2ray-plugin
   plugin-opts:
-    host: hk6v1.dsjsapp.com
+    host: newroot2v1.dsjsapp.com
     mode: websocket
     mux: true
-    path: /aqwshiog
+    path: /zksuapgx
     skip-cert-verify: false
     tls: true
   port: 443
-  server: 156.251.179.135
+  server: 103.103.245.158
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 3296
   server: 160.16.117.182
@@ -755,40 +755,29 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
-  password: 8808e9f11454
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp5v1.lingjfjkm002.com
-    mode: websocket
-    mux: false
-    path: /nvcnjrmkggoy
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 137.220.142.139
+  name: 11,12|日本4|@ripaojiedian
+  network: ws
+  port: '41315'
+  server: a.lyazzz.online
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e
+  ws-opts:
+    headers:
+      Host: img14.360buyimg.com
+    path: /obj
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.63.177
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202509242154338-Zr8tJCX9sq.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - cipher: aes-256-cfb
