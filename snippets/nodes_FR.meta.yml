@@ -1,8 +1,9 @@
 proxies:
-- name: 13|FR_speednode_0012
+- client-fingerprint: chrome
+  name: 13|FR_speednode_0008
   network: ws
-  port: 2053
-  server: 89.168.43.31
+  port: 443
+  server: 141.145.199.188
   servername: kejiland.freewarp.eu.org
   skip-cert-verify: false
   tls: true
@@ -13,7 +14,22 @@ proxies:
     headers:
       Host: kejiland.freewarp.eu.org
     path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560
-- name: 13|FR_speednode_0013
+- client-fingerprint: chrome
+  name: 13|FR_speednode_0009
+  network: ws
+  port: 2096
+  server: 185.16.110.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets
+- name: 13|FR_speednode_0012
   network: ws
   port: 2096
   server: 141.11.203.32
@@ -26,4 +42,4 @@ proxies:
   ws-opts:
     headers:
       Host: kejiland.freewarp.eu.org
-    path: /snippets
+    path: /snippetssecurity=tls
