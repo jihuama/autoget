@@ -537,7 +537,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|韩国|@ripaojiedian #1'
+  name: 8|韩国|@ripaojiedian
   network: tcp
   port: '10755'
   server: 45.94.68.13
@@ -547,7 +547,7 @@ proxies:
   uuid: a844b289-6fd7-407b-8312-d600ec2efcd4
 - alterId: 0
   cipher: auto
-  name: '8,12|印度尼西亚|@ripaojiedian #1'
+  name: 8|印度尼西亚|@ripaojiedian
   network: tcp
   port: '26144'
   server: ppy-boardv2.02ijp4uos1.download
@@ -567,7 +567,7 @@ proxies:
   uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
 - alterId: 0
   cipher: auto
-  name: '8,12|日本v2|@ripaojiedian #1'
+  name: 8|日本v2|@ripaojiedian
   network: kcp
   port: '30391'
   server: 54.168.151.169
@@ -726,16 +726,70 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '11|🇮🇩 印度尼西亚|@ripaojiedian #1'
+  name: 11,12|香港3|@ripaojiedian
+  network: ws
+  port: '31469'
+  server: 149.30.232.103
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇺🇸 美国3|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 26144
-  server: ppy-boardv2.02ijp4uos1.download
+  port: 57518
+  server: 23.236.68.161
   skip-cert-verify: false
   sni: www.nintendogames.net
   tfo: false
   tls: false
   type: vmess
-  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,12|香港5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本|@ripaojiedian
+  password: 722a54414ae6ee706ac9
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45572
+  server: jp07.jd.kunlunpx.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: '11|🇰🇷 韩国|@ripaojiedian #1'
+  password: qwerREWQ@@
+  port: 2520
+  server: 121.170.203.147
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇻🇳 越南|@ripaojiedian
@@ -744,6 +798,36 @@ proxies:
   server: 103.186.154.42
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '12|日本v2|@ripaojiedian #1'
+  network: kcp
+  port: '20932'
+  server: 43.207.83.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
+- alterId: 0
+  cipher: auto
+  name: 12|韩国2|@ripaojiedian
+  network: tcp
+  port: '55879'
+  server: 210.109.205.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
+- alterId: 0
+  cipher: auto
+  name: 12|美国3|@ripaojiedian
+  network: tcp
+  port: '57518'
+  server: 23.236.68.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
 - name: 13|AE_speednode_0001
   network: ws
   port: 2096
