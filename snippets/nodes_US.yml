@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 8,12|美国3|@ripaojiedian
+  network: tcp
+  port: '57518'
+  server: 23.236.68.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
+- alterId: 0
+  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -69,11 +79,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|美国3|@ripaojiedian
-  network: tcp
-  port: '57518'
-  server: 23.236.68.161
-  servername: ''
-  tls: false
+  name: 13|US_speednode_0056
+  network: ws
+  port: 444
+  server: 154.26.176.94
+  servername: us.nbee.pp.ua
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
+  udp: true
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.nbee.pp.ua
+    path: /aa
