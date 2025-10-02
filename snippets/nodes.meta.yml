@@ -713,15 +713,19 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 11,13|CN_speednode_0003
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  port: 12000
-  server: 106.75.134.1
-  skip-cert-verify: true
-  sni: aliyun.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,13|CN_speednode_0002
+  password: 253bc477d4e43c209f2d427272968280
+  port: 6018
+  server: cn01.365cloud8754.com
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: false
+  type: vmess
   udp: true
+  uuid: 5af37c85-67d9-4955-ac57-1d682855d0ed
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇻🇳 越南|@ripaojiedian
@@ -730,53 +734,106 @@ proxies:
   server: 103.186.154.198
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 13|CN_speednode_0003
+  network: ws
+  port: 30833
+  server: v33.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- cipher: chacha20-ietf-poly1305
+  name: 13|CZ_speednode_0004
+  password: EacZIMFwmMCR6dWqN5Ah0c
+  port: 1419
+  server: 194.135.46.13
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|BG_speednode_0001
-  port: 433
+  name: 13|GR_speednode_0005
+  port: 20223
   reality-opts:
-    public-key: ttai5o9sL51jx8MWuQA2glnVnVRe0pzZmDbHnTzlynA
-    short-id: 1A2B3C4D5E6F7890
-  server: sunstar.astracat.ru
-  servername: cdnjs.com
+    public-key: dRgK6_86Zkd_nFhiUxmrBjAbO_nis9zCEKZpiCl2Z2Q
+    short-id: ec372208
+  server: gr1-2.9966662.xyz
+  servername: www.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ea8a4fac-8b8a-4fa5-a7b4-63575499fffb
+  uuid: a24c6851-2055-42c1-9c20-2d3bad97334f
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0002
+  name: 13|HK_speednode_0006
   network: ws
-  port: 30806
-  server: v6.heduian.link
+  port: 80
+  server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 2
+      Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
+    path: /
+- alterId: 0
   cipher: auto
-  name: 13|CN_speednode_0004
-  network: ws
-  port: 30830
-  server: v30.heduian.link
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|HK_speednode_0007
+  network: http
+  port: 31212
+  server: 47.242.90.210
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
+- alterId: 2
+  cipher: auto
+  name: 13|HK_speednode_0009
+  network: ws
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     headers:
-      Host: ocbc.com
-    path: /oooo
+      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 13|HK_speednode_0010
+  network: ws
+  port: 80
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|IL_speednode_0027
+  name: 13|IL_speednode_0011
   port: 443
   reality-opts:
     public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
@@ -791,22 +848,62 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts:
-    headers:
-      Host:
-      - www.cloudflare.com
     method: GET
     path:
     - /
-  name: 13|JP_speednode_0029
+  name: 13|IN_speednode_0012
   network: http
-  port: 80
-  server: 45.77.178.67
+  port: 18872
+  server: 123.58.203.92
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: b6009332-d81f-572d-9f4f-949b86adda5d
-- name: 13|KR_speednode_0030
+  uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|IR_speednode_0013
+  port: 44443
+  reality-opts:
+    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
+  server: hybrid.arvancloud.online
+  servername: www.speedtest.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|IR_speednode_0014
+  port: 44443
+  reality-opts:
+    public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
+  server: 193.151.135.21
+  servername: www.speedtest.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+- http-opts:
+    headers:
+      Host:
+      - Telewebion.com
+    method: GET
+    path:
+    - /
+  name: 13|IR_speednode_0015
+  network: http
+  port: 20532
+  server: 94.182.137.12
+  servername: Telewebion.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8496c102-4094-4dd3-ad63-7bb7a35cbaee
+- name: 13|KR_speednode_0016
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -815,34 +912,65 @@ proxies:
   type: http
   udp: true
   username: test
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - www.cloudflare.com
-    method: GET
-    path:
-    - /
-  name: 13|SG_speednode_0032
-  network: http
-  port: 80
-  server: 45.76.153.172
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 44c4f3f6-4bbc-5241-b717-27feef65a9ae
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 13|US_speednode_0033
-  port: 30227
-  reality-opts:
-    public-key: y0QO-mD8hrDE3rV7C8BX-gQiCANoasGKQlq2ReIVXkI
-  server: 216.133.149.235
-  servername: aws.amazon.com
+- name: 13|US_speednode_0017
+  network: ws
+  port: 443
+  server: 162.159.43.92
+  servername: juzi.634676.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 9a54bad8-538d-4744-b7bc-640629840490
+  uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
+  ws-opts:
+    headers:
+      Host: juzi.634676.xyz
+    path: /?ed=2560
+- name: 13|US_speednode_0018
+  network: ws
+  port: 80
+  server: mstr.fastly80.hosting-ip.com
+  servername: gm195.io
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d46fbe10-7982-4229-b461-4afef5c690fa
+  ws-opts:
+    headers:
+      Host: gm195.io
+    path: /admin
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 13|US_speednode_0019
+  network: ws
+  port: 2053
+  server: 104.16.53.11
+  servername: frAgeU2.cpI2HIdd.eu.ORG
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
+  ws-opts:
+    headers:
+      Host: frAgeU2.cpI2HIdd.eu.ORG
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|US_speednode_0020
+  network: ws
+  port: 443
+  server: cf.fovi.tk
+  servername: cf.fovi.tk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxlux.fovi.tk
+    path: /eisasqa
