@@ -18,7 +18,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港v2|@ripaojiedian #1'
+  name: 8|香港v2|@ripaojiedian
   network: kcp
   port: '54483'
   server: 13.231.211.146
@@ -51,10 +51,21 @@ proxies:
   server: 38.54.98.110
   skip-cert-verify: true
   sni: aliyun.com
+  tfo: false
   tls: true
   type: vmess
   udp: true
   uuid: 665d9b8f-153d-4907-adac-de12afd9c851
+- alterId: 0
+  cipher: auto
+  name: 12|香港3|@ripaojiedian
+  network: tcp
+  port: '12114'
+  server: 103.224.80.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa92855a-9932-4e87-b5c2-4aed159c7c78
 - alterId: 2
   cipher: auto
   name: 13|HK_speednode_0010
