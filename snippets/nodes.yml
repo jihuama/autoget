@@ -723,15 +723,16 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 11,13|NL_speednode_0047
   password: 253bc477d4e43c209f2d427272968280
-  port: 1572
-  server: 36.156.102.88
-  skip-cert-verify: false
+  port: 443
+  server: 38.180.249.152
+  skip-cert-verify: true
   sni: www.nintendogames.net
   tfo: false
   tls: false
   type: trojan
+  udp: true
   uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -761,14 +762,43 @@ proxies:
   tls: false
   type: vmess
   uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+- cipher: chacha20-ietf-poly1305
+  name: 13|CA_speednode_0012
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 79.127.233.170
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|HK_speednode_0024
+  network: http
+  port: 31212
+  server: 47.242.90.210
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
 - cipher: aes-256-cfb
-  name: 13|KR_speednode_0014
+  name: 13|KR_speednode_0035
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|KR_speednode_0037
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.62.168
   type: ss
   udp: true
-- name: 13|SG_speednode_0023
+- name: 13|SG_speednode_0050
   network: ws
   password: wb6368
   port: 2087
@@ -781,16 +811,120 @@ proxies:
     headers:
       Host: hsdgbuys.pages.dev
     path: /
-- name: 13|US_speednode_0037
+- name: 13|US_speednode_0072
   network: ws
-  password: YwuvGJk36B
-  port: 2053
-  server: creativecommons.org
-  skip-cert-verify: false
-  sni: kotlet.arshiacomplus.dpdns.org
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kotlet.arshiacomplus.dpdns.org
-    path: /yamtekodasayahhh
+      Host: nodes.830901.xyz
+    path: /?ed=2560
+- name: 13|US_speednode_0074
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: /
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0075
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.209
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0076
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.196
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0077
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.60
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0078
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.237
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0079
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.194
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0080
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.175
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0081
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.202
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0082
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.15
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0083
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.213
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0084
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.12
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0085
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.26
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0086
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.28
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0087
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.77
+  type: ss
+  udp: true
