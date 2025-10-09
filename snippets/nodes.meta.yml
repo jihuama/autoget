@@ -537,24 +537,41 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 8|香港3|@ripaojiedian
+  name: '8,12|香港3|@ripaojiedian #1'
   network: tcp
-  port: '23203'
-  server: 103.224.80.27
+  port: '34310'
+  server: 149.104.15.178
   servername: ''
   tls: false
   type: vmess
-  uuid: 6990d803-ccc0-49fb-b73d-55c913bc7e85
+  uuid: 114b2416-9c29-4a7c-81ea-2b14e7a5588c
 - alterId: 0
   cipher: auto
-  name: 8|香港5|@ripaojiedian
+  client-fingerprint: chrome
+  name: '8,11,12|香港5|@ripaojiedian #1'
+  network: ws
+  port: '21791'
+  server: kf5uhgscrdl73kmihv8c.appsworld.shop
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
+- alterId: 0
+  cipher: auto
+  name: '8,12|香港7|@ripaojiedian #1'
   network: tcp
-  port: '10002'
-  server: 36.139.201.35
+  port: '35436'
+  server: 103.30.78.138
   servername: ''
   tls: false
   type: vmess
-  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+  uuid: 084928cf-ed55-42e8-b686-b8e271dfb0ce
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -734,23 +751,6 @@ proxies:
   type: trojan
   udp: true
   uuid: 084928cf-ed55-42e8-b686-b8e271dfb0ce
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '11,12|香港5|@ripaojiedian #1'
-  network: ws
-  port: '21791'
-  server: kf5uhgscrdl73kmihv8c.appsworld.shop
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇻🇳 越南|@ripaojiedian
@@ -759,26 +759,6 @@ proxies:
   server: 103.186.154.184
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '12|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '34310'
-  server: 149.104.15.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 114b2416-9c29-4a7c-81ea-2b14e7a5588c
-- alterId: 0
-  cipher: auto
-  name: 12|香港7|@ripaojiedian
-  network: tcp
-  port: '35436'
-  server: 103.30.78.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 084928cf-ed55-42e8-b686-b8e271dfb0ce
 - name: 13|AE_speednode_0001
   network: ws
   port: 2096
