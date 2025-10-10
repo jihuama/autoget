@@ -537,7 +537,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港3|@ripaojiedian #1'
+  name: 8|香港3|@ripaojiedian
   network: tcp
   port: '34310'
   server: 149.104.15.178
@@ -564,7 +564,7 @@ proxies:
     path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
 - alterId: 0
   cipher: auto
-  name: '8,12|香港7|@ripaojiedian #1'
+  name: 8|香港7|@ripaojiedian
   network: tcp
   port: '35436'
   server: 103.30.78.138
@@ -721,6 +721,20 @@ proxies:
   server: 34.245.185.129
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,13|NL_speednode_0047
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 38.180.249.152
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tfo: false
+  tls: false
+  type: trojan
+  udp: true
+  uuid: f6771d73-462f-488e-8419-a133f34d051a
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
@@ -737,28 +751,33 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11,13|NL_speednode_0047
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 38.180.249.152
-  skip-cert-verify: true
-  sni: www.nintendogames.net
+  name: 11,13|KR_speednode_0035
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
   tfo: false
-  tls: false
-  type: trojan
+  type: ss
   udp: true
-  uuid: 084928cf-ed55-42e8-b686-b8e271dfb0ce
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.184
+  server: 103.186.154.182
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '12|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '55238'
+  server: 103.224.80.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6771d73-462f-488e-8419-a133f34d051a
 - cipher: chacha20-ietf-poly1305
   name: 13|CA_speednode_0012
   password: f8f7aCzcPKbsF8p3
@@ -781,13 +800,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
-- cipher: aes-256-cfb
-  name: 13|KR_speednode_0035
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 13|KR_speednode_0037
   password: f8f7aCzcPKbsF8p3
