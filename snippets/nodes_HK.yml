@@ -18,14 +18,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 8|香港3|@ripaojiedian
+  name: '8,12|香港3|@ripaojiedian #1'
   network: tcp
-  port: '34310'
-  server: 149.104.15.178
+  port: '55238'
+  server: 103.224.80.122
   servername: ''
   tls: false
   type: vmess
-  uuid: 114b2416-9c29-4a7c-81ea-2b14e7a5588c
+  uuid: f6771d73-462f-488e-8419-a133f34d051a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -45,28 +45,19 @@ proxies:
     path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
 - alterId: 0
   cipher: auto
-  name: 8|香港7|@ripaojiedian
-  network: tcp
-  port: '35436'
-  server: 103.30.78.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 084928cf-ed55-42e8-b686-b8e271dfb0ce
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 11,13|NL_speednode_0047
+  name: 11,13|US_speednode_0080
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: 38.180.249.152
-  skip-cert-verify: true
+  server: 23.227.194.19
+  servername: ml0724.ysds168.shop
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tfo: false
-  tls: false
+  tls: true
   type: trojan
   udp: true
-  uuid: f6771d73-462f-488e-8419-a133f34d051a
+  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 11|🇭🇰 香港2|@ripaojiedian
@@ -83,28 +74,3 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '12|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '55238'
-  server: 103.224.80.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6771d73-462f-488e-8419-a133f34d051a
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 13|HK_speednode_0024
-  network: http
-  port: 31212
-  server: 47.242.90.210
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
