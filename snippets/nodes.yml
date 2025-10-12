@@ -537,14 +537,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '8,11,12|香港5|@ripaojiedian #1'
+  name: 8|香港5|@ripaojiedian
   network: ws
   port: '21791'
   server: kf5uhgscrdl73kmihv8c.appsworld.shop
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc
@@ -571,14 +568,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '8,11,12|新加坡3|@ripaojiedian #1'
+  name: 8|新加坡3|@ripaojiedian
   network: ws
   port: '443'
   server: node4.rtxconfigz.com
   servername: node4.rtxconfigz.com
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 44e57485-eccc-46ef-808f-cd17ac810018
@@ -734,39 +728,64 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 11,13|SG_speednode_0020
   password: installshield
   port: 8443
   server: 38.180.106.124
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: fe2.update.microsoft.com
+  tfo: false
+  tls: false
   type: trojan
   udp: true
+  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
-  password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-  port: 10043
-  server: 36.234.105.191
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @ripaojiedian)32cf132:178330
+    mode: tls
+  port: 2377
+  server: 5.44.249.43
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 11|🇯🇵 日本4|@ripaojiedian
-  password: lINaALnHIiH4cSj8pJn6TQ==
-  port: 9443
-  server: 202.182.98.223
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 11,13|SG_speednode_0018
+  network: ws
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  skip-cert-verify: false
+  sni: hsdgbuys.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hsdgbuys.pages.dev
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.217
+  server: 103.186.155.136
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港3|@ripaojiedian
+  network: tcp
+  port: '30485'
+  server: 103.224.80.67
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
 - alterId: 2
   cipher: auto
   name: 13|CN_speednode_0004
@@ -797,19 +816,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
-- name: 13|SG_speednode_0018
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 13|SG_speednode_0019
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
