@@ -537,7 +537,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港3|@ripaojiedian #1'
+  name: 8|香港3|@ripaojiedian
   network: tcp
   port: '41522'
   server: 43.247.135.17
@@ -547,14 +547,11 @@ proxies:
   uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: '8,11,12|日本|@ripaojiedian #1'
+  name: 8|日本|@ripaojiedian
   network: ws
   port: '30806'
   server: v6.heduian.link
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -701,7 +698,7 @@ proxies:
   name: 11|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.39.112.103
+  server: 16.176.178.192
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -734,16 +731,12 @@ proxies:
   type: trojan
   udp: true
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡3|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @ripaojiedian)32cf132:178330
-    mode: tls
-  port: 2377
-  server: 5.44.249.43
+  name: 11|🇦🇺 澳大利亚|@ripaojiedian
+  password: dada0801
+  port: 80
+  server: 3.107.184.53
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -751,9 +744,27 @@ proxies:
   name: 11|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.237
+  server: 103.186.154.48
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇬🇧 英国|@ripaojiedian
+  password: k1v5g9FefdoO
+  port: 8388
+  server: 57.129.140.88
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡3|@ripaojiedian
+  network: tcp
+  port: '22286'
+  server: 47.245.106.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8646218f-a600-4b73-8721-aa5d4567819e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 13|AT_speednode_0001
