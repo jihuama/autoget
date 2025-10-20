@@ -696,15 +696,16 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
+  name: 11,13|CN_speednode_0009
   password: BxceQaOe
-  port: 26876
-  server: 36.156.102.115
+  port: 811
+  server: 36.151.251.18
   skip-cert-verify: true
   sni: www.nintendogames.net
   tfo: false
   tls: false
   type: trojan
+  udp: true
   uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969
 - cipher: chacha20-ietf
   client-fingerprint: chrome
@@ -714,17 +715,58 @@ proxies:
   server: 103.36.91.32
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf
   name: 13|CN_speednode_0002
-  password: 455ecab1-a8ea-4b89-a2d8-fafc70130e2d
-  port: 16004
-  server: 2nosbobo.1010.jscpai.com
-  type: ss
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1321
+  protocol: auth_aes128_md5
+  protocol-param: 21138:3veJGX
+  server: 106.126.3.24
+  type: ssr
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|MA_speednode_0024
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 188.214.157.30
-  type: ss
+- cipher: chacha20-ietf
+  name: 13|CN_speednode_0003
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1435
+  protocol: auth_aes128_md5
+  protocol-param: 21138:3veJGX
+  server: 36.151.194.31
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 13|CN_speednode_0004
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1397
+  protocol: auth_aes128_md5
+  protocol-param: 21138:3veJGX
+  server: hneyoxqhenuf.dnsfailover.org
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 13|CN_speednode_0006
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1332
+  protocol: auth_aes128_md5
+  protocol-param: 21138:3veJGX
+  server: 36.151.194.31
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 13|CN_speednode_0007
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1393
+  protocol: auth_aes128_md5
+  protocol-param: 21138:3veJGX
+  server: hneyoxqhenuf.dnsfailover.org
+  type: ssr
   udp: true
