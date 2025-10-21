@@ -706,15 +706,34 @@ proxies:
   tls: false
   type: trojan
   udp: true
-  uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969
-- cipher: chacha20-ietf
+  uuid: fd49381f-9fd8-4403-8698-48331a4d775d
+- alterId: 2
+  cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡4|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+  name: 11,12|新加坡4|@ripaojiedian
+  network: ws
+  port: '30839'
+  server: v39.heduian.link
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 12|美国4|@ripaojiedian
+  network: tcp
+  port: '47083'
+  server: 124.236.46.114
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fd49381f-9fd8-4403-8698-48331a4d775d
 - name: 13|AE_speednode_0001
   network: ws
   port: 2053
