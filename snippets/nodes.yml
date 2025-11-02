@@ -696,20 +696,31 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|CN_speednode_0009
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 11819
-  server: 36.133.73.36
-  skip-cert-verify: false
+  name: 11|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 53743
+  server: 36.151.251.47
+  skip-cert-verify: true
   sni: www.nintendogames.net
   tfo: false
   tls: false
-  type: vmess
-  udp: true
+  type: trojan
   uuid: de32752c-0661-467e-82d3-35bc740a787f
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @ripaojiedian)e9e4816:99990
+    mode: tls
+  port: 2377
+  server: 54.64.148.82
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 13|CN_speednode_0008
+  name: 13|CN_speednode_0001
   network: ws
   port: 30804
   server: v4.heduian.link
@@ -728,7 +739,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 13|KR_speednode_0017
+  name: 13|KR_speednode_0004
   network: http
   port: 80
   server: 152.70.92.69
