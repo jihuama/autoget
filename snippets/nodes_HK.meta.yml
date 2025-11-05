@@ -45,55 +45,74 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 53743
-  server: 36.150.215.239
-  skip-cert-verify: true
-  sni: www.nintendogames.net
+  name: 11,13|TH_speednode_0050
+  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+  port: 1036
+  server: th0603-1.ysds168.shop
+  skip-cert-verify: false
+  sni: dingding-doc.com
   tfo: false
-  tls: false
-  type: trojan
-  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 13|HK_speednode_0011
-  port: 36666
-  reality-opts:
-    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
-    short-id: 6da03029
-  server: hk4.cv1168.com
-  servername: www.python.org
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5893c6cd-c14f-4e99-a9ae-6c2ca7456584
+- name: 13|HK_speednode_0007
+  network: ws
+  port: 443
+  server: 47.76.218.163
+  servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: aae56c24-7511-4526-9708-3fcbd804253c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 13|HK_speednode_0012
-  port: 36666
-  reality-opts:
-    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
-    short-id: 6da03029
-  server: hk3.cv1168.com
-  servername: www.python.org
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /freecodes/?ed=2560
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 13|HK_speednode_0008
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 154.218.15.198
+  servername: vless.hubp.de
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: aae56c24-7511-4526-9708-3fcbd804253c
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 13|HK_speednode_0013
-  port: 36666
-  reality-opts:
-    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
-    short-id: 6da03029
-  server: hk2.cv1168.com
-  servername: www.python.org
+  uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+  ws-opts:
+    headers:
+      Host: vless.hubp.de
+    path: /?ed=2560
+- name: 13|HK_speednode_0009
+  network: ws
+  port: 2096
+  server: 154.218.15.253
+  servername: gaosir.unfeeling.sbs
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: aae56c24-7511-4526-9708-3fcbd804253c
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram @ShadowProxy66 /?ed=2560
+- name: 13|HK_speednode_0010
+  network: ws
+  port: 47790
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
