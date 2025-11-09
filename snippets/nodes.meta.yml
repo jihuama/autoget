@@ -537,7 +537,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港6|@ripaojiedian #1'
+  name: 8|香港6|@ripaojiedian
   network: tcp
   port: '49509'
   server: 36.150.27.76
@@ -708,14 +708,42 @@ proxies:
   type: vmess
   udp: true
   uuid: c3d066bc-4170-4006-a95c-0012367e8f13
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  password: 89d52514-f5a4-45c6-96ea-49e113e60129
+  port: 10007
+  server: 183.2.133.119
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.193
+  server: 103.186.155.215
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  name: '12|香港6|@ripaojiedian #1'
+  network: tcp
+  port: '11210'
+  server: 8.148.194.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c74f0304-5b43-3772-852a-2b108c423d23
+- alterId: 2
+  cipher: auto
+  name: 12|韩国|@ripaojiedian
+  network: tcp
+  port: '11215'
+  server: 8.148.248.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c74f0304-5b43-3772-852a-2b108c423d23
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 13|CA_speednode_0002
