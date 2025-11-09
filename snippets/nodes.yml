@@ -706,18 +706,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,13|NL_speednode_0021
-  password: BxceQaOe
-  port: 2083
-  server: nl-v2ray.freevmess.com
-  servername: nl-v2ray.freevmess.com
-  skip-cert-verify: false
-  sni: 58.152.46.98
+  name: 11,13|US_speednode_0028
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.45.27.162
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   tfo: false
-  tls: true
-  type: vmess
+  tls: false
+  type: trojan
   udp: true
-  uuid: c3d066bc-4170-4006-a95c-0012367e8f13
+  uuid: 93058ab5-bb29-44d4-c309-d224c0967732
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 11|🇯🇵 日本4|@ripaojiedian
@@ -734,114 +733,18 @@ proxies:
   server: 103.186.155.215
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 13|CY_speednode_0006
-  password: HfAiyrdFbKJuKIQkGjvJrDFefmH8YDSC
-  port: 443
-  server: 45.83.131.43
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|GB_speednode_0010
-  password: amazonskr05
-  port: 443
-  server: 3.8.172.214
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|KR_speednode_0019
-  password: qwerREWQ@@
-  port: 37008
-  server: 221.139.79.57
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|RU_speednode_0023
-  password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA
-  port: 443
-  server: 45.144.31.24
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 13|US_speednode_0028
-  network: ws
-  port: 443
-  server: 1762596741.bilibiliapp.cn
-  servername: 84nmwex.speed.jpsacibnb.cccp.useraaca.pp.ua
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|KR_speednode_0024
+  network: http
+  port: 80
+  server: 152.70.92.69
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: 84nmwex.speed.jpsacibnb.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0029
-  network: ws
-  port: 443
-  server: 1762596741.bilibiliapp.cn
-  servername: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|US_speednode_0030
-  network: ws
-  port: 443
-  server: 1762596741.bilibiliapp.cn
-  servername: i5z5l83j3.speed.ydnxya.cccp.useraaca.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: i5z5l83j3.speed.ydnxya.cccp.useraaca.pp.ua
-    path: /
-- cipher: aes-256-cfb
-  name: 13|VN_speednode_0031
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.153
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|VN_speednode_0032
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.110
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|VN_speednode_0033
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.50
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|VN_speednode_0034
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.23
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 13|VN_speednode_0035
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.226
-  type: ss
-  udp: true
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
