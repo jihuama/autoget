@@ -677,30 +677,57 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,13|US_speednode_0028
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.45.27.162
+- name: 11,13|HK_speednode_0004
+  password: BxceQaOe
+  port: 4569
+  server: 116.49.237.130
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: false
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-  uuid: 93058ab5-bb29-44d4-c309-d224c0967732
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 13|KR_speednode_0024
-  network: http
-  port: 80
-  server: 152.70.92.69
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 13|CY_speednode_0001
+  password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+  port: 443
+  server: 185.156.110.92
+  type: ss
   udp: true
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- name: 13|NL_speednode_0006
+  network: ws
+  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
+  port: 443
+  server: 194.147.115.149
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/194.147.115.149=443
+- name: 13|PL_speednode_0007
+  network: ws
+  password: 49d416e1-4cec-41e1-bff6-3748c466f275
+  port: 8443
+  server: 45.144.48.158
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
+- name: 13|RU_speednode_0009
+  network: ws
+  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+  port: 2053
+  server: 213.159.208.88
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
