@@ -535,7 +535,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '8,12|香港7|@ripaojiedian #1'
+  name: 8|香港7|@ripaojiedian
   network: tcp
   port: '25007'
   server: onecat-jp.03ezhg0qsa.download
@@ -545,7 +545,7 @@ proxies:
   uuid: 69749298-6821-3358-b6d3-1d18d8642cba
 - alterId: 0
   cipher: auto
-  name: '8,12|日本4|@ripaojiedian #1'
+  name: 8|日本4|@ripaojiedian
   network: tcp
   port: '47083'
   server: 114.98.183.61
@@ -555,7 +555,7 @@ proxies:
   uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - alterId: 0
   cipher: auto
-  name: '8,12|韩国|@ripaojiedian #1'
+  name: 8|韩国|@ripaojiedian
   network: tcp
   port: '47093'
   server: 114.98.183.61
@@ -723,7 +723,27 @@ proxies:
   name: 11|🇭🇰 香港6|@ripaojiedian
   password: asd123456
   port: 8388
-  server: 103.149.182.158
+  server: 103.149.183.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 11|🇹🇼 台湾|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: e221b75:110505
+    mode: tls
+  port: 2377
+  server: 60.249.35.3
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '11|🇯🇵 日本4|@ripaojiedian #1'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: e221b75:110505
+    mode: tls
+  port: 2377
+  server: 172.105.217.136
   type: ss
 - name: 13|DK_speednode_0011
   network: ws
