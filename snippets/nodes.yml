@@ -677,12 +677,12 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- name: 11,13|US_speednode_0020
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.45.34.73
+- name: 11,13|HK_speednode_0003
+  password: BxceQaOe
+  port: 443
+  server: 58.152.26.173
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -705,30 +705,29 @@ proxies:
   port: 2377
   server: 3.112.229.1
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 13|FR_speednode_0006
-  password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG
-  port: 443
-  server: 51.158.204.165
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|MD_speednode_0013
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-  udp: true
-- name: 13|RU_speednode_0016
+- name: 13|NL_speednode_0004
   network: ws
-  password: -4146XJHYAzJ4K8Ov6_LBQ
-  port: 11000
-  server: 194.35.116.62
+  password: e812343b-61a1-46fd-b086-b1395d0eb7de
+  port: 443
+  server: 89.110.116.141
   skip-cert-verify: false
-  sni: f4e23c6c168f0e91.noproblemvpn.ru
+  sni: joss.gpj.web.id
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: f4e23c6c168f0e91.noproblemvpn.ru
-    path: /tw
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/89.110.116.141=443
+- name: 13|RU_speednode_0005
+  network: ws
+  password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
+  port: 2053
+  server: 95.182.120.208
+  skip-cert-verify: false
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
