@@ -689,12 +689,12 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 11,13|US_speednode_0014
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  name: 11,13|HK_speednode_0013
+  password: BxceQaOe
   port: 443
-  server: 96.126.190.132
+  server: 58.152.26.173
   skip-cert-verify: true
-  sni: www.bilibili.com
+  sni: t.me/ripaojiedian
   tls: false
   type: trojan
   udp: true
@@ -705,9 +705,23 @@ proxies:
   port: 8388
   server: 103.149.183.191
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0001
+  password: db8a0e6b-5fd7-435d-9558-5c86b0679c4d
+  port: 48907
+  server: slur.izenny.com
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|DE_speednode_0002
+  password: amazonskr05
+  port: 443
+  server: 18.199.91.56
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 13|GB_speednode_0005
+  name: 13|GB_speednode_0006
   port: 443
   reality-opts:
     public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
@@ -719,42 +733,42 @@ proxies:
   type: vless
   udp: true
   uuid: bccbecc9-c1d2-45d1-b3fa-771a19b9831c
-- cipher: aes-256-gcm
-  name: 13|JP_speednode_0007
-  password: dada0801
-  port: 80
-  server: 43.206.240.31
+- cipher: chacha20-ietf-poly1305
+  name: 13|HK_speednode_0011
+  password: 715ed7ef-db8d-4e21-94d6-e0fc14e3ce18
+  port: 10012
+  server: 154.16.10.201
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 13|KR_speednode_0008
-  password: dada0801
-  port: 80
-  server: 43.201.70.24
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|IL_speednode_0014
+  port: 443
+  reality-opts:
+    public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+    short-id: 55e6af1a35e64a98
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: 13|KR_speednode_0009
-  password: dada0801
-  port: 80
-  server: 54.180.202.139
-  type: ss
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|RU_speednode_0015
+  port: 51224
+  reality-opts:
+    public-key: DvKMFkm82Jkp6Jk_7pXYb0fMXq1MsLMNxDeQfcCSbEA
+    short-id: ab12cd34
+  server: ru-msk.shvurgceo.online
+  servername: download.max.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-gcm
-  name: 13|KR_speednode_0010
-  password: dada0801
-  port: 80
-  server: 43.203.199.246
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 13|KR_speednode_0011
-  password: dada0801
-  port: 80
-  server: 13.209.14.105
-  type: ss
-  udp: true
-- name: 13|RU_speednode_0012
+  uuid: 14305246-dc93-4b3c-9f6c-d0b29fa7e4fa
+- name: 13|RU_speednode_0016
   network: ws
   port: 1443
   server: 81.161.98.228
