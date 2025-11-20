@@ -535,7 +535,7 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: '8,12|台湾|@ripaojiedian #1'
+  name: 8|台湾|@ripaojiedian
   network: tcp
   port: '11223'
   server: 8.138.145.90
@@ -687,23 +687,25 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 11,13|HK_speednode_0013
+- name: 11,13|HK_speednode_0013
   password: BxceQaOe
   port: 443
   server: 58.152.26.173
   skip-cert-verify: true
   sni: t.me/ripaojiedian
-  tls: false
   type: trojan
   udp: true
-  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
-- cipher: chacha20-ietf
-  name: 11|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.191
+- cipher: aes-128-gcm
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
+  port: 21712
+  server: 103.219.103.217
+  type: ss
+- cipher: aes-128-gcm
+  name: 11|🇺🇸 美国4|@ripaojiedian
+  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
+  port: 23344
+  server: 103.219.103.217
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 13|CN_speednode_0001
