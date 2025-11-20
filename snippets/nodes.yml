@@ -533,16 +533,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 8|台湾|@ripaojiedian
-  network: tcp
-  port: '11223'
-  server: 8.138.145.90
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
@@ -690,9 +680,9 @@ proxies:
 - name: 11,13|HK_speednode_0013
   password: BxceQaOe
   port: 443
-  server: 58.152.26.173
+  server: 58.152.25.241
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - cipher: aes-128-gcm
@@ -702,29 +692,165 @@ proxies:
   server: 103.219.103.217
   type: ss
 - cipher: aes-128-gcm
-  name: 11|🇺🇸 美国4|@ripaojiedian
+  name: 11,13|CN_speednode_0006
   password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
   port: 23344
   server: 103.219.103.217
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 13|CN_speednode_0001
+  name: 13|CN_speednode_0003
+  password: d9b85218-da37-42a7-8906-67bab810252c
+  port: 55407
+  server: slur.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0004
+  password: db8a0e6b-5fd7-435d-9558-5c86b0679c4d
+  port: 40063
+  server: slur.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 13|CN_speednode_0005
   password: db8a0e6b-5fd7-435d-9558-5c86b0679c4d
   port: 48907
   server: slur.izenny.com
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 13|DE_speednode_0002
-  password: amazonskr05
+- name: 13|EE_speednode_0007
+  network: ws
+  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
   port: 443
-  server: 18.199.91.56
+  server: 37.252.5.75
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
+- name: 13|ES_speednode_0008
+  network: ws
+  password: 1e1a7efa-a4f1-4936-a470-a001e0c3c85b
+  port: 8443
+  server: 212.227.144.37
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/212.227.144.37=8443
+- name: 13|FR_speednode_0011
+  network: ws
+  password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
+  port: 443
+  server: 51.15.210.1
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
+- name: 13|IL_speednode_0014
+  network: ws
+  password: 8f58ba37-a117-4ad3-9422-37b62e01d2e6
+  port: 443
+  server: 77.91.74.6
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/77.91.74.6=443
+- cipher: chacha20-ietf-poly1305
+  name: 13|IR_speednode_0015
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 151.242.251.142
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|JP_speednode_0018
+  network: ws
+  port: 11655
+  server: 131.186.63.89
+  servername: hk.nbee.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  ws-opts:
+    headers:
+      Host: hk.nbee.pp.ua
+    path: /aa
+- cipher: aes-256-gcm
+  name: 13|KR_speednode_0019
+  password: dada0801
+  port: 80
+  server: 13.124.194.133
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 13|HK_speednode_0011
-  password: 715ed7ef-db8d-4e21-94d6-e0fc14e3ce18
-  port: 10012
-  server: 154.16.10.201
+  name: 13|MD_speednode_0020
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+  udp: true
+- name: 13|NL_speednode_0021
+  network: ws
+  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+  port: 443
+  server: 138.124.30.8
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
+- name: 13|PL_speednode_0022
+  network: ws
+  password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
+  port: 8443
+  server: 217.30.10.31
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
+- name: 13|PT_speednode_0023
+  network: ws
+  password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
+  port: 81
+  server: 45.159.251.8
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0031
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.252
   type: ss
   udp: true
