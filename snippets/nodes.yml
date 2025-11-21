@@ -677,27 +677,46 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- name: 11,13|HK_speednode_0013
+- alterId: 0
+  cipher: auto
+  name: 11,13|HK_speednode_0013
   password: BxceQaOe
   port: 443
   server: 58.152.25.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tls: false
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 11|🇯🇵 日本4|@ripaojiedian
-  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
-  port: 21712
-  server: 103.219.103.217
+  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+- cipher: aes-256-gcm
+  name: 11|🇩🇪 德国|@ripaojiedian
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 57.128.214.100
   type: ss
-- cipher: aes-128-gcm
-  name: 11,13|CN_speednode_0006
-  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
-  port: 23344
-  server: 103.219.103.217
+- cipher: aes-256-gcm
+  name: 11|🇬🇧 英国|@ripaojiedian
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 144.217.164.29
   type: ss
-  udp: true
+- cipher: aes-256-gcm
+  name: 11|🇺🇸 美国4|@ripaojiedian
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 15.204.247.49
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|日本4|@ripaojiedian
+  network: tcp
+  port: '3304'
+  server: 113.57.36.148
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
 - cipher: chacha20-ietf-poly1305
   name: 13|CN_speednode_0003
   password: d9b85218-da37-42a7-8906-67bab810252c
@@ -717,6 +736,13 @@ proxies:
   password: db8a0e6b-5fd7-435d-9558-5c86b0679c4d
   port: 48907
   server: slur.izenny.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 13|CN_speednode_0006
+  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
+  port: 23344
+  server: 103.219.103.217
   type: ss
   udp: true
 - name: 13|EE_speednode_0007
