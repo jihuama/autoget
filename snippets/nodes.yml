@@ -650,17 +650,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,13|HK_speednode_0009
+  name: 11|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  servername: broadcastlv.chat.bilibili.com
+  port: 4569
+  server: 54.95.80.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 40290609-2743-4d85-c9c3-4c72dd151b9f
 - cipher: aes-256-gcm
   name: 11|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
@@ -707,29 +705,39 @@ proxies:
   tls: false
   type: vmess
   uuid: 40290609-2743-4d85-c9c3-4c72dd151b9f
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 13|HK_speednode_0010
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|SG_speednode_0035
+  network: http
+  port: 19751
+  server: 43.165.7.71
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 13|HK_speednode_0012
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0037
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.192
+  type: ss
   udp: true
-  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0038
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.46
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 13|VN_speednode_0039
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.50
+  type: ss
+  udp: true
