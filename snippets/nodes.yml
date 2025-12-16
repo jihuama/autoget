@@ -648,17 +648,18 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 2173
-  server: 16.163.143.132
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  name: 11,13|HK_speednode_0010
+  password: e2722c0fb503f8a592436c12bce0509a
+  port: 443
+  server: 112.118.116.178
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   tls: false
   type: trojan
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
   name: 11|🇺🇸 美国4|@ripaojiedian
   password: t6d26id0pjzdo3x5wtlf
@@ -666,15 +667,17 @@ proxies:
   server: 69.164.240.83
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 11|🇺🇸 美国5|@ripaojiedian
+  name: 11,13|US_speednode_0024
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: feb7fa9:154948
     mode: tls
+    tls: false
   port: 2377
   server: 88.210.36.107
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 11|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -691,13 +694,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 13|GB_speednode_0003
-  password: Kmn7dHPw5wNfkqQMPcGWQA
-  port: 28212
-  server: 31.3.209.183
-  type: ss
-  udp: true
 - cipher: chacha20-ietf
   name: 13|HK_speednode_0004
   password: asd123456
@@ -706,57 +702,23 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: 13|HK_speednode_0005
+  name: 13|HK_speednode_0007
   password: asd123456
   port: 8388
-  server: 103.149.182.86
+  server: 103.149.182.79
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 13|KR_speednode_0007
-  network: http
-  port: 80
-  server: 152.70.92.69
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-- cipher: aes-128-gcm
-  name: 13|RO_speednode_0008
-  password: kfuzkwdg4oynv495aywc
-  port: 13262
-  server: 86.106.84.195
+- cipher: aes-256-cfb
+  name: 13|PY_speednode_0015
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.165.233.93
   type: ss
   udp: true
-- name: 13|US_speednode_0011
-  network: ws
-  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
-  port: 8443
-  server: 69.84.182.108
-  skip-cert-verify: false
-  sni: cdn-node-oss-61.anycdn.de
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 13|RU_speednode_0017
+  password: cPzFh2p9MWXvVYWs5hX55e5BZFty7ke-
+  port: 1234
+  server: 91.221.37.30
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-61.anycdn.de
-    path: /profile/us1
-- name: 13|US_speednode_0012
-  network: ws
-  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
-  port: 8443
-  server: 69.84.182.18
-  skip-cert-verify: false
-  sni: cdn-node-oss-62.anycdn.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: cdn-node-oss-62.anycdn.de
-    path: /profile/us2
