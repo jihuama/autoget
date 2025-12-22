@@ -650,15 +650,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|🇺🇸 美国4|@ripaojiedian
-  password: BxceQaOe
-  port: 180
-  server: 82.198.246.97
+  name: 11,13|HK_speednode_0016
+  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  port: 443
+  server: 58.152.110.104
+  servername: n1744454498.lie5d.cyou
   skip-cert-verify: false
-  sni: t.me%2Fripaojiedian
+  sni: www.nintendogames.net
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  type: trojan
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: 11|🇭🇰 香港2|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -691,7 +693,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 13|RU_speednode_0012
+- name: 13|RU_speednode_0026
   network: ws
   password: 5a2c16f9
   port: 443
@@ -704,21 +706,3 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - speedtest.adslthailand.com
-    method: GET
-    path:
-    - /
-  name: 13|TH_speednode_0018
-  network: http
-  port: 8080
-  server: m.modzard.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f2e17b4d-22fd-44a4-90db-40649717be8e
