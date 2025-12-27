@@ -1,14 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|🇺🇸 美国4|@ripaojiedian
-  password: BxceQaOe
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  sni: t.me%2Fripaojiedian
+  name: 11,13|US_speednode_0009
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   tls: false
-  type: vmess
+  type: trojan
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
@@ -20,3 +21,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 13|HK_speednode_0003
+  port: 10122
+  reality-opts:
+    public-key: TU2OTQBiMyK-mKCI3G6fENadfG-fdNlWJF7Qv9ywkFY
+    short-id: 8a6394aa28d6
+  server: 1.36.189.217
+  servername: music.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f60f6e7-8419-4cff-9e1b-14179f677a5e
