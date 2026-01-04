@@ -13,6 +13,22 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
+  name: 11,12,13|HK_speednode_0007
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8da5616c-8566-11ee-9a21-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
   name: 12|香港|@ripaojiedian
   network: tcp
   port: '30807'
@@ -33,21 +49,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
-- alterId: 2
-  cipher: auto
-  name: 13|HK_speednode_0007
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8da5616c-8566-11ee-9a21-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
 - alterId: 2
   cipher: auto
   name: 13|HK_speednode_0009
