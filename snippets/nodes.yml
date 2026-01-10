@@ -648,18 +648,17 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11,13|US_speednode_0026
+  name: 11|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 34128
-  server: 216.167.26.220
-  skip-cert-verify: false
+  port: 4569
+  server: 43.199.60.168
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
-  type: vmess
-  udp: true
-  uuid: 4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28
+  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: 11|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
@@ -682,57 +681,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: rc4-md5
-  name: 13|AM_speednode_0001
-  password: 6c325435b2176c2d
-  port: 18790
-  server: 85.90.207.104
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|AM_speednode_0002
-  password: e716d7bbae4bdd14
-  port: 18794
-  server: 85.90.207.104
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 13|DE_speednode_0004
-  network: ws
-  port: 443
-  server: frankfurt02.zgjok.com
-  servername: frankfurt02.zgjok.com
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|KR_speednode_0012
+  network: http
+  port: 80
+  server: 152.70.92.69
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 90d50c62-13b4-4f9c-b5d8-0168d30b423a
-- cipher: chacha20-ietf-poly1305
-  name: 13|LT_speednode_0011
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.183
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|LU_speednode_0012
-  password: 01dc0d7cbb650bc3
-  port: 11201
-  server: 109.61.39.150
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 13|RU_speednode_0016
-  password: 7ae4e68cf77f6089
-  port: 1012
-  server: 195.133.5.38
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 13|RU_speednode_0017
-  password: 83acf69edb4e5453
-  port: 20219
-  server: 194.87.68.7
-  type: ss
-  udp: true
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
