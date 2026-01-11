@@ -648,17 +648,18 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|🇺🇸 美国3|@ripaojiedian
+  name: 11,13|CN_speednode_0002
   password: BxceQaOe
-  port: 2173
-  server: 43.198.151.117
-  skip-cert-verify: true
+  port: 47083
+  server: tunnel2.qqa678.com
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
-  type: trojan
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: vmess
+  udp: true
+  uuid: f66df097-93a0-43a1-b4c7-586e13f61f46
 - alterId: 2
   cipher: auto
   name: 11,12|香港2|@ripaojiedian
@@ -696,18 +697,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 13|KR_speednode_0012
-  network: http
-  port: 80
-  server: 152.70.92.69
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
