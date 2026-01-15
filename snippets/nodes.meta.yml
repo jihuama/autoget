@@ -664,8 +664,15 @@ proxies:
   name: 11|🇭🇰 香港2|@ripaojiedian
   password: asd123456
   port: 8388
-  server: 103.149.183.200
+  server: 103.149.182.79
   type: ss
+- cipher: aes-128-gcm
+  name: 11,13|CN_speednode_0005
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 26334
+  server: 223.95.183.132
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
   name: 11,13|CN_speednode_0007
   password: b637f2e47b7827b308ebf399008075d2
@@ -683,6 +690,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 12|香港6|@ripaojiedian
+  network: tcp
+  port: '47081'
+  server: oss-4.qqa678.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e49b8721-f124-4999-814a-fc777c0ae190
 - cipher: chacha20-ietf-poly1305
   name: 13|CN_speednode_0001
   password: aed6e687-58a9-4836-ba62-7d8184c94df4
@@ -708,13 +725,6 @@ proxies:
   name: 13|CN_speednode_0004
   password: b637f2e47b7827b308ebf399008075d2
   port: 53596
-  server: 223.95.183.132
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 13|CN_speednode_0005
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 26334
   server: 223.95.183.132
   type: ss
   udp: true
