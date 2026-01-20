@@ -648,17 +648,18 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|🇺🇸 美国3|@ripaojiedian
+  name: 11,13|CN_speednode_0002
   password: BxceQaOe
-  port: 1112
-  server: 18.163.116.85
-  skip-cert-verify: true
+  port: 47081
+  server: tunnel2.qqa678.com
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
-  type: trojan
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: vmess
+  udp: true
+  uuid: 940962e9-85c7-43fa-a9ca-d523b15a32a5
 - cipher: aes-256-cfb
   name: 11|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -675,3 +676,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - speedtest.adslthailand.com
+    method: GET
+    path:
+    - /
+  name: 13|TH_speednode_0018
+  network: http
+  port: 8080
+  server: m.modzard.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f2e17b4d-22fd-44a4-90db-40649717be8e
