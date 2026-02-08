@@ -71,7 +71,7 @@ def w1770946466():
     return subs
 
 
-AUTOURLS = [w1770946466]
+AUTOURLS = []
 AUTOFETCH = [sharkdoor]
 
 if __name__ == '__main__':
