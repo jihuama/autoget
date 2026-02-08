@@ -72,7 +72,7 @@ def w1770946466():
 
 
 AUTOURLS = [w1770946466]
-AUTOFETCH = [kkzui, sharkdoor]
+AUTOFETCH = [sharkdoor]
 
 if __name__ == '__main__':
     print("URL 抓取："+', '.join([_.__name__ for _ in AUTOURLS]))
