@@ -41,6 +41,12 @@ def b64decodes_safe(s):
     except UnicodeDecodeError: raise
     except binascii.Error: raise
 
+def normpath(url: str):
+    if url.startswith('file://'):
+        basedir = os.path.dirname(os.path.abspath(__file__))
+        return url.replace('/./', '/'+basedir.lstrip('/').replace(os.sep, '/')+'/')
+    return url
+
 DEFAULT_UUID = '8'*8+'-8888'*3+'-'+'8'*12
 
 CLASH2VMESS = {'name': 'ps', 'server': 'add', 'port': 'port', 'uuid': 'id', 
@@ -63,7 +69,8 @@ CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_
 ABFURLS = (
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
-    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
+    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+    # "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
     # "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt",
     # "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt",
     # "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
@@ -79,7 +86,7 @@ ABFURLS = (
 
 ABFWHITE = (
     "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt",
-    "file:///abpwhite.txt",
+    "file:///./abpwhite.txt",
 )
 
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 1.1.1.1; 1.0.0.1; 4.2.2.2; 4.2.2.1; 114.114.114.114; 127.0.0.1; 0.0.0.0".split('; ')
@@ -612,9 +619,11 @@ def extract(url: str) -> Union[Set[str], int]:
     res = session.get(url)
     if res.status_code != 200: return res.status_code
     urls = set()
-    for line in res.text:
+    mark = '#'+url.split('#', 1)[1] if '#' in url else ''
+    for line in res.text.strip().splitlines():
+        line = line.strip()
         if line.startswith("http"):
-            urls.add(line)
+            urls.add(line+mark)
     return urls
 
 merged: Dict[str, Node] = {}
@@ -673,7 +682,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     for url in ABFURLS:
         url = raw2fastly(url)
         try:
-            res = session.get(url)
+            res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
             try:
                 print(f"{url} 下载失败：{e.args[0].reason}")
@@ -686,7 +695,8 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
             continue
         for line in res.text.strip().splitlines():
             line = line.strip()
-            if not line or line[0] == '!': continue
+            # 忽略注释（'#'）与 Adblock 的 '!' 注释
+            if not line or line[0] in '!#': continue
             elif line[:2] == '@@':
                 unblock.add(line.split('^')[0].strip('@|^'))
             elif line[:2] == '||' and ('/' not in line) and ('?' not in line) and \
@@ -696,7 +706,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     for url in ABFWHITE:
         url = raw2fastly(url)
         try:
-            res = session.get(url)
+            res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
             try:
                 print(f"{url} 下载失败：{e.args[0].reason}")
@@ -709,7 +719,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
             continue
         for line in res.text.strip().splitlines():
             line = line.strip()
-            if not line or line[0] == '!': continue
+            if not line or line[0] in '!#': continue
             else: unblock.add(line.split('^')[0].strip('|^'))
 
     domain_root = DomainTree()
@@ -925,6 +935,8 @@ def main():
 
     print("正在写出 Clash & Meta 订阅...")
     match_rule = None
+    keywords: List[str] = []
+    suffixes: List[str] = []
     for rule in conf['rules']:
         tmp = rule.strip().split(',')
         if len(tmp) == 2 and tmp[0] == 'MATCH':
@@ -932,13 +944,26 @@ def main():
             break
         if len(tmp) == 3:
             rtype, rargument, rpolicy = tmp
+            if rtype == 'DOMAIN-KEYWORD':
+                keywords.append(rargument)
+            elif rtype == 'DOMAIN-SUFFIX':
+                suffixes.append(rargument)
         elif len(tmp) == 4:
             rtype, rargument, rpolicy, rresolve = tmp
             rpolicy += ','+rresolve
         else: print("规则 '"+rule+"' 无法被解析！"); continue
-        k = rtype+','+rargument
-        if k not in rules:
-            rules[k] = rpolicy
+        # 参考 NoMoreWalls 的去重逻辑：避免被更一般的 KEYWORD/SUFFIX 覆盖或重复
+        for kwd in keywords:
+            if kwd in rargument and kwd != rargument:
+                break
+        else:
+            for sfx in suffixes:
+                if ('.'+rargument).endswith('.'+sfx) and sfx != rargument:
+                    break
+            else:
+                k = rtype+','+rargument
+                if k not in rules:
+                    rules[k] = rpolicy
     conf['rules'] = [','.join(_) for _ in rules.items()]+[match_rule]
 
     # Clash & Meta
