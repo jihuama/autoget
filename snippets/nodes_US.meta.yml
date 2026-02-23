@@ -1,73 +1,54 @@
 proxies:
-- name: 0|🇺🇸_US_美国
-  network: ws
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ssp
+  name: 0|🇺🇸_US_美国
+  network: grpc
   port: 443
-  server: 172.67.160.192
-  servername: nuclear.us.kg
+  server: s842.ccgfw.top
+  servername: u708330u0378s842.ccgfw.top
   tls: true
   type: vless
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e
+- name: 0|🇺🇸_US_美国_1
+  network: ws
+  port: 2052
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
   ws-opts:
     headers:
-      Host: nuclear.us.kg
-    path: /free/103.101.153.32:443
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸_US_美国_1
-  port: 8443
-  reality-opts:
-    public-key: nGpFJVvSeovPXUN32QWht5nxg16Mwus--TLdY0JBHjY
-    short-id: 5a53bd202e47bab8
-  server: 144.31.111.182
-  servername: cloudlane.xyz
-  tls: true
-  type: vless
-  uuid: 9f4ffa56-6813-430c-8cac-159cc469086a
-- client-fingerprint: chrome
+      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+    path: /?ed
+- client-fingerprint: randomized
   name: 0|🇺🇸_US_美国_2
   network: ws
-  port: 443
-  server: 141.101.123.40
-  servername: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
+  port: 2096
+  server: www.visasoutheasteurope.com
+  servername: daluan.eu.org
   tls: true
   type: vless
-  uuid: 8388434b-bbc8-4e00-b497-69a7f56f6e24
+  uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
   ws-opts:
     headers:
-      Host: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
-    path: /ws
-- client-fingerprint: chrome
+      Host: daluan.eu.org
+    path: /?ed=2560
+- cipher: aes-256-cfb
   name: 0|🇺🇸_US_美国_3
-  network: ws
-  port: 443
-  server: 173.245.59.121
-  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-  tls: true
-  type: vless
-  uuid: 979b6822-d65a-400d-89f8-30391903ac20
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-    path: /ws
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸_US_美国_4
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: admin.c2.havij.co
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.54.57.90
   type: ss
-- client-fingerprint: chrome
-  name: 0|🇺🇸_US_美国_5
-  network: ws
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸_US_美国_4
   port: 443
-  server: 190.93.245.102
-  servername: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
+  server: s719.okgfw.top
+  servername: u708330u9530s719.okgfw.top
   tls: true
   type: vless
-  uuid: f521fa2c-835e-43e7-b4dc-a1fd6f2ed1dd
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
-    path: /ws
+  uuid: 8c6118b9-78a8-3b3b-a49a-6aa9cb5b1d4e
 - alterId: 0
   cipher: auto
   name: 3|github.com/freefq - 美国CloudFla...
@@ -136,15 +117,21 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- name: 7|US_speednode_0021
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 8349696c-tb0v40-tcfva5-duku.sjc.oshuawei.com
-  tls: true
-  type: http
+- name: 7|US_speednode_0015
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  servername: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
-  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- name: 7|US_speednode_0022
+  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+  ws-opts:
+    headers:
+      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+    path: /
+- name: 7|US_speednode_0016
   network: ws
   port: 80
   server: 104.20.1.252
