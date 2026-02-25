@@ -1,15 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,5|🇮🇳 印度|@ripaojiedian
+  name: 0,5,7|US_speednode_0023
   password: BxceQaOe
-  port: 11929
-  server: board-01.ddnskunlun.com
-  skip-cert-verify: false
+  port: 443
+  server: 47.84.126.255
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  udp: true
+  uuid: 32285564-1664-485c-f4db-daa776321a52
 - cipher: aes-256-cfb
   name: 0|未知
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -697,33 +698,31 @@ proxies:
   tls: false
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: 7|HK_speednode_0012
-  network: ws
-  port: 1004
-  server: 8.210.197.138
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 7|FI_speednode_0003
+  password: cJvGkXLQg1TCouv8BmE0Xu
+  port: 5669
+  server: 95.164.113.153
+  type: ss
   udp: true
-  uuid: a13d3f6b-b961-4512-fc8a-9f1d908937b8
-  ws-opts:
-    headers:
-      Host: 8.210.197.138
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|US_speednode_0022
-  network: ws
-  port: 37952
-  server: 156.236.76.45
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 7|GB_speednode_0006
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: 20.108.41.100
+  type: ss
   udp: true
-  uuid: b8304f18-9a28-427c-b1fe-d92ee1757c0b
-  ws-opts:
-    headers:
-      Host: 156.236.76.45
-    path: /arki
+- cipher: chacha20-ietf-poly1305
+  name: 7|RU_speednode_0014
+  password: 5kWesolQ0y0PVdIrb65LbHT2u
+  port: 43902
+  server: basic-ru-0.undef.network
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 7|SG_speednode_0018
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+  udp: true
