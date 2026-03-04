@@ -1,131 +1,100 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇳_CN_中国->🏳️_unKnow_未知
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 34061
+  server: ldu.izenny.com
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 0|🇨🇳_CN_中国
-  network: ws
-  port: 80
-  server: a97f4a24-t9w4g0-tn57fp-5ifr.hkt.gotochinatown.net
+  name: 0,5|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 4864
+  server: 18.166.249.43
   skip-cert-verify: false
+  sni: t.me%2Fripaojiedian
+  tfo: true
   tls: false
-  type: vmess
-  uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🇨🇳_CN_中国_1
-  network: ws
-  port: 80
-  server: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🇨🇳_CN_中国_2
-  network: ws
-  port: 80
-  server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
-  servername: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🇨🇳_CN_中国_3
-  network: ws
-  port: 80
-  server: 92c73b3e-t9w4g0-thd0h1-1rz5s.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-128-gcm
+  name: 0|🇨🇳_CN_中国->🇱🇹_LT_立陶宛
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇳_CN_中国->🇬🇧_GB_英国
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 18148
+  server: ldu.izenny.com
+  type: ss
 - cipher: aes-256-cfb
   name: 0|未知
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.127
+  server: 103.186.154.58
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|未知_1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.139
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|未知_2
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.160
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|未知_3
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.188
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|未知_4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.250
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|未知_5
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.53
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸_US_美国_4
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: admin.c2.havij.co
+  name: 0|🇨🇳_CN_中国->🇺🇸_US_美国
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 55936
+  server: ldu.izenny.com
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 0|🇨🇳_CN_中国_4
-  network: ws
-  port: 80
-  server: 51f142c0-t9w4g0-tart0c-g3b3.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🇨🇳_CN_中国_5
-  network: ws
-  port: 80
-  server: c3d192c0-t9w4g0-tb5nzx-1mqag.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🇨🇳_CN_中国_6
-  network: ws
-  port: 80
-  server: 967d835d-t9w4g0-tysu9z-1nq4g.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🇨🇳_CN_中国_7
-  network: ws
-  port: 80
-  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-    path: /
+- cipher: aes-256-gcm
+  name: 0|🇷🇺_RU_俄罗斯_1
+  password: 9f3d1a6d31468599
+  port: 60129
+  server: 195.58.49.100
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|未知_6
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.240
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|未知_7
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.205
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|未知_8
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.46
+  type: ss
 - alterId: 64
   cipher: auto
   name: 1|Github搜索TrojanLinks
@@ -776,18 +745,6 @@ proxies:
   server: 63.180.254.10
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 5|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 4864
-  server: 18.166.249.43
-  skip-cert-verify: false
-  sni: t.me%2Fripaojiedian
-  tfo: true
-  tls: false
-  type: trojan
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 6|香港|@ripaojiedian
