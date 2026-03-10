@@ -1,44 +1,19 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇺🇸_US_美国
-  port: 10006
-  reality-opts:
-    public-key: XUVBEFyxevBwoGwVlo31vXMR_wQ0h0UnhzC4jCeakkc
-    short-id: 590bdc3b6dad
-  server: hk.tfree.top
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-- name: 0|🇺🇸_US_美国_1
-  network: ws
+- name: 0|🇺🇸_US_美国
   port: 443
-  server: 198.62.62.235
-  servername: bank.alaska-tigr.info
+  server: ae2.suio.me
+  servername: ae2.suio.me
   tls: true
   type: vless
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: bank.alaska-tigr.info
-    path: /love
-- client-fingerprint: chrome
-  name: 0,7|US_speednode_0054
-  network: ws
+  uuid: 6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a
+- cipher: chacha20-ietf-poly1305
+  name: 0,7|GB_speednode_0011
+  password: W74XFALLLuw6m5IA
   port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: admin.c1.webramz.co
+  type: ss
   udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
-- name: 0|🇺🇸_US_美国_3
+- name: 0|🇺🇸_US_美国_2
   network: ws
   port: 2052
   server: 104.18.32.47
@@ -49,16 +24,13 @@ proxies:
     headers:
       Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.
     path: /
-- client-fingerprint: chrome
-  name: 0|🇺🇸_US_美国_4
+- cipher: chacha20-ietf-poly1305
+  name: 0,7|GB_speednode_0013
+  password: W74XFALLLuw6m5IA
   port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  server: 47.80.12.87
-  servername: api.company-target.com
-  tls: true
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  server: series-a1.samanehha.co
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 3|github.com/freefq - 美国CloudFla...
@@ -141,6 +113,21 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  name: 7|US_speednode_0054
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 7|US_speednode_0055
