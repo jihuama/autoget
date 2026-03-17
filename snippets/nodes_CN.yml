@@ -13,10 +13,18 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- cipher: aes-256-gcm
-  name: 7|CN_speednode_0005
-  password: PiLr13pE
-  port: 30036
-  server: 120.233.125.33
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7|CN_speednode_0003
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 40449518-c836-4aa7-b6a1-429f6e221eed
+  ws-opts:
+    headers:
+      Host: 74e46cd6105a36ab9d31c4451aa68c4a.mobgslb.tbcache.com
+    path: /
