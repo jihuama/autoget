@@ -1,34 +1,41 @@
 proxies:
-- name: 0|🇺🇸_US_美国
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国
+  network: ws
   port: 443
-  server: ae2.suio.me
-  servername: ae2.suio.me
+  server: vip1.kaixincloud.top
+  servername: r.icy.de5.net
   tls: true
   type: vless
-  uuid: 6ca2c654-53b3-4ac1-a2ef-c4b4ee88727a
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸_US_美国_1
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: admin.c1.webramz.co
-  type: ss
-- name: 0|🇺🇸_US_美国_2
-  network: ws
-  port: 2052
-  server: 104.18.32.47
-  tls: false
-  type: vless
-  uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
   ws-opts:
     headers:
-      Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸_US_美国_3
-  password: W74XFALLLuw6m5IA
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国_1
+  network: ws
   port: 443
-  server: series-a1.samanehha.co
-  type: ss
+  server: 192.200.160.20
+  servername: 639073677243557970.camry-perma.info
+  tls: true
+  type: vless
+  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+  ws-opts:
+    headers:
+      Host: 639073677243557970.camry-perma.info
+    path: /yaeungws
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国_2
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: d557c6895d014075
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
 - alterId: 0
   cipher: auto
   name: 3|github.com/freefq - 美国CloudFla...
