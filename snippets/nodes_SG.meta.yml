@@ -416,14 +416,14 @@ proxies:
       Host: 180.215.130.123
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 7|SG-38.89.142.56-0320
+  name: 7|SG-38.89.142.56-0380
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 38.89.142.56
   type: ss
 - alterId: 4
   cipher: auto
-  name: 7|SG-103.253.26.20-0403
+  name: 7|SG-103.253.26.20-0410
   network: ws
   port: 443
   server: 103.253.26.20
@@ -437,7 +437,21 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 7|SG-103.253.26.134-0409
+  name: 7|SG-202.61.141.130-0411
+  network: ws
+  port: 443
+  server: 202.61.141.130
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: 202.61.141.130
+    path: /
+- alterId: 4
+  cipher: auto
+  name: 7|SG-103.253.26.134-0416
   network: ws
   port: 443
   server: 103.253.26.134
@@ -477,7 +491,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
 - alterId: 0
   cipher: auto
-  name: 7|SG-174.138.25.187-0823
+  name: 7|SG-174.138.25.187-0822
   network: ws
   port: 8880
   server: 174.138.25.187
@@ -489,7 +503,7 @@ proxies:
     path: /hkaa0
 - alterId: 1
   cipher: auto
-  name: 7|SG-104.248.148.147-0984
+  name: 7|SG-104.248.148.147-0983
   network: ws
   port: 21888
   server: 104.248.148.147
@@ -503,7 +517,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-139.99.61.53-1030
+  name: 7|SG-139.99.61.53-1029
   network: ws
   port: 80
   server: 139.99.61.53
@@ -517,7 +531,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-139.99.61.154-1077
+  name: 7|SG-139.99.61.154-1076
   network: ws
   port: 80
   server: 139.99.61.154
@@ -531,7 +545,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 7|SG-15.235.202.196-1105
+  name: 7|SG-15.235.202.196-1104
   network: ws
   port: 80
   server: 15.235.202.196
@@ -545,7 +559,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 7|SG-202.79.172.53-1173
+  name: 7|SG-202.79.172.53-1172
   network: ws
   port: 443
   server: 202.79.172.53
@@ -557,7 +571,7 @@ proxies:
     path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: 7|SG-143.198.219.182-1189
+  name: 7|SG-143.198.219.182-1188
   network: ws
   port: 80
   server: 143.198.219.182
@@ -569,7 +583,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 7|SG-146.190.82.241-1226
+  name: 7|SG-146.190.82.241-1225
   network: ws
   port: 80
   server: 146.190.82.241
@@ -580,14 +594,14 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 7|SG-54.179.221.54-1251
+  name: 7|SG-54.179.221.54-1250
   password: amazonskr05
   port: 443
   server: 54.179.221.54
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|SG-18.143.123.35-1262
+  name: 7|SG-18.143.123.35-1261
   network: ws
   port: 80
   server: 18.143.123.35
@@ -598,20 +612,20 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 7|SG-13.215.191.190-1289
+  name: 7|SG-13.215.191.190-1288
   password: amazonskr05
   port: 443
   server: 13.215.191.190
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-13.215.177.216-1439
+  name: 7|SG-13.215.177.216-1438
   password: amazonskr05
   port: 443
   server: 13.215.177.216
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|SG-178.128.61.149-1456
+  name: 7|SG-178.128.61.149-1455
   network: ws
   port: 50328
   server: 178.128.61.149
@@ -622,7 +636,7 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 7|SG-13.215.49.89-1584
+  name: 7|SG-13.215.49.89-1583
   password: amazonskr05
   port: 443
   server: 13.215.49.89
@@ -633,7 +647,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 7|SG-138.2.83.217-1586
+  name: 7|SG-138.2.83.217-1585
   network: http
   port: 43863
   server: 138.2.83.217
@@ -643,7 +657,7 @@ proxies:
   uuid: ca984457-b017-46e5-d973-42a3c3fdc292
 - alterId: 0
   cipher: auto
-  name: 7|SG-146.190.82.241-1639
+  name: 7|SG-146.190.82.241-1638
   network: ws
   port: 443
   server: 146.190.82.241
@@ -654,14 +668,14 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 7|SG-13.214.212.124-1828
+  name: 7|SG-13.214.212.124-1827
   password: amazonskr05
   port: 443
   server: 13.214.212.124
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|SG-129.150.44.64-2202
+  name: 7|SG-129.150.44.64-2201
   network: ws
   port: 46075
   server: 129.150.44.64
@@ -677,7 +691,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 7|SG-152.69.211.235-1857
+  name: 7|SG-152.69.211.235-1856
   network: http
   port: 80
   server: 152.69.211.235
@@ -687,7 +701,7 @@ proxies:
   uuid: d345916f-1673-4a98-f37d-49357c84ce03
 - alterId: 0
   cipher: auto
-  name: 7|SG-15.235.184.36-1912
+  name: 7|SG-15.235.184.36-1911
   network: ws
   port: 80
   server: 15.235.184.36
@@ -699,7 +713,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 7|SG-139.99.61.154-1917
+  name: 7|SG-139.99.61.154-1916
   network: ws
   port: 80
   server: 139.99.61.154
@@ -711,7 +725,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 7|SG-109.123.237.41-1944
+  name: 7|SG-109.123.237.41-1943
   network: ws
   port: 80
   server: 109.123.237.41
@@ -722,14 +736,14 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-cfb
-  name: 7|SG-13.215.173.2-1988
+  name: 7|SG-13.215.173.2-1987
   password: amazonskr05
   port: 443
   server: 13.215.173.2
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|SG-109.123.237.41-2106
+  name: 7|SG-109.123.237.41-2105
   network: ws
   port: 80
   server: 109.123.237.41
@@ -740,14 +754,14 @@ proxies:
   ws-opts:
     path: /fastssh
 - cipher: aes-256-cfb
-  name: 7|SG-13.215.163.54-2119
+  name: 7|SG-13.215.163.54-2118
   password: amazonskr05
   port: 443
   server: 13.215.163.54
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|SG-15.235.192.196-2198
+  name: 7|SG-15.235.192.196-2197
   network: ws
   port: 80
   server: 15.235.192.196
@@ -759,7 +773,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 7|SG-157.230.36.235-2199
+  name: 7|SG-157.230.36.235-2198
   network: ws
   port: 80
   server: 157.230.36.235
@@ -770,20 +784,20 @@ proxies:
   ws-opts:
     path: /graphql
 - cipher: aes-256-cfb
-  name: 7|SG-13.229.105.31-2246
+  name: 7|SG-13.229.105.31-2245
   password: amazonskr05
   port: 443
   server: 13.229.105.31
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-3.0.148.195-2293
+  name: 7|SG-3.0.148.195-2292
   password: amazonskr05
   port: 443
   server: 3.0.148.195
   type: ss
 - alterId: 64
   cipher: auto
-  name: 7|SG-202.79.171.157-2367
+  name: 7|SG-202.79.171.157-2366
   network: ws
   port: 443
   server: 202.79.171.157
@@ -794,56 +808,56 @@ proxies:
   ws-opts:
     path: /path/243535322906
 - cipher: aes-256-cfb
-  name: 7|SG-54.254.199.122-2437
+  name: 7|SG-54.254.199.122-2436
   password: amazonskr05
   port: 443
   server: 54.254.199.122
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-13.215.174.243-2732
+  name: 7|SG-13.215.174.243-2731
   password: amazonskr05
   port: 443
   server: 13.215.174.243
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-13.250.46.178-3461
+  name: 7|SG-13.250.46.178-3460
   password: amazonskr05
   port: 443
   server: 13.250.46.178
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-13.213.2.160-3665
+  name: 7|SG-13.213.2.160-3664
   password: amazonskr05
   port: 443
   server: 13.213.2.160
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-18.141.183.204-3525
+  name: 7|SG-18.141.183.204-3524
   password: amazonskr05
   port: 443
   server: 18.141.183.204
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-13.250.54.18-3560
+  name: 7|SG-13.250.54.18-3559
   password: amazonskr05
   port: 443
   server: 13.250.54.18
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-13.215.200.86-3584
+  name: 7|SG-13.215.200.86-3583
   password: amazonskr05
   port: 443
   server: 13.215.200.86
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-18.142.183.235-3604
+  name: 7|SG-18.142.183.235-3603
   password: amazonskr05
   port: 443
   server: 18.142.183.235
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.219.58.58-3928
+  name: 7|SG-8.219.58.58-3927
   network: ws
   port: 443
   server: 8.219.58.58
@@ -855,7 +869,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.214.33.158-4376
+  name: 7|SG-8.214.33.158-4375
   network: ws
   port: 80
   server: 8.214.33.158
@@ -865,23 +879,9 @@ proxies:
   uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
   ws-opts:
     path: /
-- alterId: 4
-  cipher: auto
-  name: 7|SG-202.61.141.130-4398
-  network: ws
-  port: 443
-  server: 202.61.141.130
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: 202.61.141.130
-    path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-180.215.130.123-4406
+  name: 7|SG-180.215.130.123-4405
   network: ws
   port: 46452
   server: 180.215.130.123
@@ -893,7 +893,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-139.99.61.53-4418
+  name: 7|SG-139.99.61.53-4417
   network: ws
   port: 80
   server: 139.99.61.53
@@ -905,7 +905,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 7|SG-159.223.32.230-4550
+  name: 7|SG-159.223.32.230-4549
   network: ws
   port: 8080
   server: 159.223.32.230
@@ -916,20 +916,20 @@ proxies:
   ws-opts:
     path: /cctv13/hd.m3u8
 - cipher: aes-256-cfb
-  name: 7|SG-13.213.46.196-4577
+  name: 7|SG-13.213.46.196-4576
   password: amazonskr05
   port: 443
   server: 13.213.46.196
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-54.251.168.143-4579
+  name: 7|SG-54.251.168.143-4578
   password: amazonskr05
   port: 443
   server: 54.251.168.143
   type: ss
 - alterId: 64
   cipher: auto
-  name: 7|SG-159.223.94.156-4583
+  name: 7|SG-159.223.94.156-4582
   network: ws
   port: 80
   server: 159.223.94.156
@@ -940,32 +940,32 @@ proxies:
   ws-opts:
     path: /anti13.zingfast.vn
 - cipher: chacha20-ietf
-  name: 7|SG-103.36.91.32-4778
+  name: 7|SG-103.36.91.32-4777
   password: asd123456
   port: 8388
   server: 103.36.91.32
   type: ss
 - cipher: aes-256-gcm
-  name: 7|SG-139.99.68.21-5575
+  name: 7|SG-139.99.68.21-5574
   password: zDNVedRFPQexG9v
   port: 6379
   server: 139.99.68.21
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|SG-81.90.189.41-5576
+  name: 7|SG-81.90.189.41-5575
   password: G!yBwPWH3Vao
   port: 801
   server: 81.90.189.41
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-165.232.169.142-6827
+  name: 7|SG-165.232.169.142-6826
   password: 1e5111699c45496da84112f35db665c4
   port: 29332
   server: 165.232.169.142
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.219.120.168-6904
+  name: 7|SG-8.219.120.168-6903
   network: ws
   port: 443
   server: 8.219.120.168
@@ -978,7 +978,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.219.214.221-6905
+  name: 7|SG-8.219.214.221-6904
   network: ws
   port: 443
   server: 8.219.214.221
@@ -991,7 +991,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.219.211.222-6908
+  name: 7|SG-8.219.211.222-6907
   network: ws
   port: 443
   server: 8.219.211.222
@@ -1003,68 +1003,68 @@ proxies:
   ws-opts:
     path: /vmess
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.6-6931
+  name: 7|SG-103.172.116.6-6930
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.5-6932
+  name: 7|SG-103.172.116.5-6931
   password: aLpQtfEZe445QyHk
   port: 9098
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.5-6933
+  name: 7|SG-103.172.116.5-6932
   password: y9VURyNzJWNRYEGQ
   port: 9008
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.6-6934
+  name: 7|SG-103.172.116.6-6933
   password: HSZuyJQcWe8dxNdF
   port: 9043
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.6-6935
+  name: 7|SG-103.172.116.6-6934
   password: 9XwYyZsK8SNzQDtY
   port: 9059
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.6-6936
+  name: 7|SG-103.172.116.6-6935
   password: KnJGad3FqTvjqbaX
   port: 9014
   server: 103.172.116.6
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.5-6937
+  name: 7|SG-103.172.116.5-6936
   password: c3NtHJ5ujV2tGDfj
   port: 9084
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.5-6938
+  name: 7|SG-103.172.116.5-6937
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.5-6939
+  name: 7|SG-103.172.116.5-6938
   password: QWDDvVE9npNurQfA
   port: 9026
   server: 103.172.116.5
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.6-6940
+  name: 7|SG-103.172.116.6-6939
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   server: 103.172.116.6
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|SG-45.76.181.246-7130
+  name: 7|SG-45.76.181.246-7129
   network: ws
   port: 12345
   server: 45.76.181.246
@@ -1076,7 +1076,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-202.79.161.192-7305
+  name: 7|SG-202.79.161.192-7304
   network: ws
   port: 443
   server: 202.79.161.192
@@ -1088,7 +1088,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 7|SG-202.79.161.188-7306
+  name: 7|SG-202.79.161.188-7305
   network: ws
   port: 443
   server: 202.79.161.188
@@ -1102,7 +1102,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-47.84.62.1-7370
+  name: 7|SG-47.84.62.1-7369
   network: ws
   port: 20086
   server: 47.84.62.1
@@ -1114,7 +1114,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-13.250.31.140-7374
+  name: 7|SG-13.250.31.140-7373
   network: ws
   port: 20086
   server: 13.250.31.140
@@ -1126,7 +1126,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-210.87.111.241-7379
+  name: 7|SG-210.87.111.241-7378
   network: ws
   port: 20521
   server: 210.87.111.241
@@ -1138,7 +1138,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-202.79.160.243-7380
+  name: 7|SG-202.79.160.243-7379
   network: ws
   port: 443
   server: 202.79.160.243
@@ -1153,7 +1153,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 7|SG-202.79.160.164-7385
+  name: 7|SG-202.79.160.164-7384
   network: ws
   port: 443
   server: 202.79.160.164
@@ -1167,7 +1167,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.219.206.22-7430
+  name: 7|SG-8.219.206.22-7429
   network: ws
   port: 443
   server: 8.219.206.22
@@ -1181,7 +1181,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.222.159.245-7474
+  name: 7|SG-8.222.159.245-7473
   network: ws
   port: 443
   server: 8.222.159.245
@@ -1196,7 +1196,7 @@ proxies:
     path: /linkws
 - alterId: 64
   cipher: auto
-  name: 7|SG-107.149.189.70-7559
+  name: 7|SG-107.149.189.70-7558
   network: ws
   port: 37002
   server: 107.149.189.70
@@ -1208,7 +1208,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 7|SG-107.149.189.68-7591
+  name: 7|SG-107.149.189.68-7590
   network: ws
   port: 37002
   server: 107.149.189.68
@@ -1222,7 +1222,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-206.238.236.36-7698
+  name: 7|SG-206.238.236.36-7697
   network: ws
   port: 2052
   server: 206.238.236.36
@@ -1237,7 +1237,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 7|SG-43.159.94.25-7798
+  name: 7|SG-43.159.94.25-7797
   network: ws
   port: 2052
   server: lol.ps
@@ -1251,7 +1251,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.222.222.64-8053
+  name: 7|SG-8.222.222.64-8052
   network: ws
   port: 80
   server: 8.222.222.64
@@ -1263,7 +1263,7 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.222.138.164-8054
+  name: 7|SG-8.222.138.164-8053
   network: ws
   port: 80
   server: 8.222.138.164
@@ -1275,7 +1275,7 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.219.150.28-8055
+  name: 7|SG-8.219.150.28-8054
   network: ws
   port: 443
   server: 8.219.150.28
@@ -1287,7 +1287,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|SG-8.219.123.35-8056
+  name: 7|SG-8.219.123.35-8055
   network: ws
   port: 80
   server: 8.219.123.35
@@ -1298,32 +1298,32 @@ proxies:
   ws-opts:
     path: /2TokGE9A/
 - cipher: aes-256-cfb
-  name: 7|SG-54.254.129.246-8079
+  name: 7|SG-54.254.129.246-8078
   password: amazonskr05
   port: 443
   server: 54.254.129.246
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|SG-51.79.161.232-8095
+  name: 7|SG-51.79.161.232-8094
   password: 4Hub2f9JyhECyAq2Opm0NS
   port: 443
   server: 51.79.161.232
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-13.213.44.183-8782
+  name: 7|SG-13.213.44.183-8781
   password: amazonskr05
   port: 443
   server: 13.213.44.183
   type: ss
 - cipher: aes-256-cfb
-  name: 7|SG-13.212.199.120-8783
+  name: 7|SG-13.212.199.120-8782
   password: amazonskr05
   port: 443
   server: 13.212.199.120
   type: ss
 - alterId: 64
   cipher: auto
-  name: 7|SG-118.107.46.173-8788
+  name: 7|SG-118.107.46.173-8787
   network: ws
   port: 443
   server: 118.107.46.173
@@ -1334,7 +1334,7 @@ proxies:
   ws-opts:
     path: /path/080712342310
 - cipher: aes-256-cfb
-  name: 7|SG-103.172.116.79-8997
+  name: 7|SG-103.172.116.79-8996
   password: KBGjZYcy4SyRShmA
   port: 9044
   server: 103.172.116.79
