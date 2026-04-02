@@ -1,79 +1,61 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.51-0055
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 134.195.196.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|CA-134.195.196.51-0056
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 134.195.196.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|CA-134.195.196.51-0059
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 134.195.196.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|CA-134.195.196.51-0060
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 134.195.196.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|CA-134.195.196.51-0061
+  name: 7|CA-134.195.196.51-0014
   password: pKEW8JPByTVTLtM
   port: 443
   server: 134.195.196.51
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.51-0069
+  name: 7|CA-134.195.196.51-0017
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 134.195.196.51
+  type: ss
+- cipher: aes-256-gcm
+  name: 7|CA-134.195.196.51-0019
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 134.195.196.51
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.51-0073
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 134.195.196.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|CA-134.195.196.51-0076
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 134.195.196.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|CA-134.195.198.211-0101
+  name: 7|CA-134.195.198.211-0020
   password: pKEW8JPByTVTLtM
   port: 443
   server: 134.195.198.211
   type: ss
+- cipher: aes-256-gcm
+  name: 7|CA-134.195.196.51-0102
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 134.195.196.51
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|CA-79.127.200.169-0216
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 79.127.200.169
+  type: ss
 - cipher: aes-256-cfb
-  name: 7|CA-79.127.233.170-0221
+  name: 7|CA-79.127.233.170-0219
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 79.127.233.170
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-79.127.200.169-0226
+  name: 7|CA-45.154.204.7-0241
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
-  server: 79.127.200.169
+  server: 45.154.204.7
   type: ss
-- cipher: rc4-md5
-  name: 7|CA-137.184.174.93-0243
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
+- cipher: chacha20-ietf-poly1305
+  name: 7|CA-23.95.76.59-0256
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 23.95.76.59
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|CA-134.195.198.147-0262
+  name: 7|CA-134.195.198.147-0257
   network: ws
   port: 443
   server: 134.195.198.147
@@ -85,21 +67,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|CA-134.195.198.147-0263
-  network: ws
-  port: 443
-  server: 134.195.198.147
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: inna.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|CA-23.162.200.227-0271
+  name: 7|CA-23.162.200.227-0288
   network: ws
   port: 443
   server: 23.162.200.227
@@ -109,48 +77,38 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 7|CA-23.95.76.59-0277
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 23.95.76.59
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|CA-45.154.204.7-0295
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 45.154.204.7
-  type: ss
-- cipher: aes-128-cfb
-  name: 7|CA-45.154.204.13-0326
-  obfs: http_post
-  obfs-param: ''
-  password: $$Turb0VPN$$
-  port: 443
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: ssca.irundns.net
-  type: ssr
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-0434
+  name: 7|CA-144.217.164.29-0342
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 144.217.164.29
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|CA-196.247.59.154-0413
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 196.247.59.154
+  type: ss
+- cipher: aes-256-gcm
+  name: 7|CA-134.195.196.149-0429
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.154-0451
+  name: 7|CA-196.247.59.154-0446
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.61-0554
+  name: 7|CA-85.208.108.61-0549
   password: XKFKl2rULjIp74
   port: 8008
   server: 85.208.108.61
   type: ss
 - cipher: aes-256-cfb
-  name: 7|CA-3.97.173.5-0827
+  name: 7|CA-3.97.173.5-0821
   obfs: http_simple
   obfs-param: ''
   password: YpX2opBbrfqJzzMs
@@ -159,15 +117,9 @@ proxies:
   protocol-param: ''
   server: z0115.security-cloudfront-cdn.com
   type: ssr
-- cipher: aes-256-gcm
-  name: 7|CA-144.217.164.29-0829
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  port: 12000
-  server: 144.217.164.29
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 7|CA-15.235.41.200-0834
+  name: 7|CA-15.235.41.200-0828
   network: ws
   port: 80
   server: 15.235.41.200
@@ -179,7 +131,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 7|CA-51.79.102.253-0838
+  name: 7|CA-51.79.102.253-0832
   network: ws
   port: 80
   server: 51.79.102.253
@@ -190,134 +142,134 @@ proxies:
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-79.127.233.170-0843
+  name: 7|CA-79.127.233.170-0837
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 79.127.233.170
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-198.8.92.84-0929
+  name: 7|CA-198.8.92.84-0923
   password: ugyBkSEFxVEmUYSHyvxmWNj9
   port: 40220
   server: 198.8.92.84
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-138.197.174.245-0951
+  name: 7|CA-138.197.174.245-0945
   password: yuMqkGIx6Ia0
   port: 56443
   server: 138.197.174.245
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-198.8.92.84-0968
+  name: 7|CA-198.8.92.84-0962
   password: J9Y2ncrdPEC38gwydNFFGBna
   port: 35294
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-198.8.92.84-0972
+  name: 7|CA-198.8.92.84-0966
   password: F5bKkb9ggkLx4JbQrbLn7LjZ
   port: 44945
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-198.8.92.84-0984
+  name: 7|CA-198.8.92.84-0978
   password: Kquv5UhvZXNMemAQy8DxZ7qn
   port: 38620
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-198.8.92.84-0985
+  name: 7|CA-198.8.92.84-0979
   password: BdRWC38L5JUDMTYNNxJGcUwB
   port: 49396
   server: 198.8.92.84
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1216
+  name: 7|CA-51.161.118.38-1210
   password: G!yBwPWH3Vao
   port: 801
   server: 51.161.118.38
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.90-1232
+  name: 7|CA-85.208.108.90-1226
   password: faBAoD54k87UJG7
   port: 2375
   server: 85.208.108.90
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.90-1251
+  name: 7|CA-85.208.108.90-1245
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.90
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1289
+  name: 7|CA-51.161.118.38-1283
   password: G!yBwPWH3Vao
   port: 812
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1290
+  name: 7|CA-51.161.118.38-1284
   password: G!yBwPWH3Vao
   port: 805
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1291
+  name: 7|CA-51.161.118.38-1285
   password: G!yBwPWH3Vao
   port: 808
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1292
+  name: 7|CA-51.161.118.38-1286
   password: G!yBwPWH3Vao
   port: 811
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1293
+  name: 7|CA-51.161.118.38-1287
   password: G!yBwPWH3Vao
   port: 807
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1294
+  name: 7|CA-51.161.118.38-1288
   password: G!yBwPWH3Vao
   port: 802
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1295
+  name: 7|CA-51.161.118.38-1289
   password: G!yBwPWH3Vao
   port: 804
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1296
+  name: 7|CA-51.161.118.38-1290
   password: G!yBwPWH3Vao
   port: 810
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1298
+  name: 7|CA-51.161.118.38-1292
   password: G!yBwPWH3Vao
   port: 803
   server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-1299
+  name: 7|CA-51.161.118.38-1293
   password: G!yBwPWH3Vao
   port: 800
   server: 51.161.118.38
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.90-1300
+  name: 7|CA-85.208.108.90-1294
   password: faBAoD54k87UJG7
   port: 2376
   server: 85.208.108.90
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|CA-132.145.99.228-1351
+  name: 7|CA-132.145.99.228-1345
   network: ws
   port: 13724
   server: 132.145.99.228
@@ -329,7 +281,7 @@ proxies:
     path: /ws-path
 - alterId: 0
   cipher: auto
-  name: 7|CA-192.99.8.99-1451
+  name: 7|CA-192.99.8.99-1445
   network: ws
   port: 36005
   server: 192.99.8.99
@@ -340,20 +292,20 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-1478
+  name: 7|CA-85.208.108.60-1472
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-1534
+  name: 7|CA-85.208.108.60-1528
   password: pKEW8JPByTVTLtM
   port: 4444
   server: 85.208.108.60
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|CA-158.51.121.36-1797
+  name: 7|CA-158.51.121.36-1791
   network: ws
   port: 443
   server: 158.51.121.36
@@ -364,194 +316,194 @@ proxies:
   ws-opts:
     path: /linkvws
 - cipher: aes-256-gcm
-  name: 7|CA-198.57.27.218-1816
+  name: 7|CA-198.57.27.218-1810
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 198.57.27.218
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-72.140.224.195-1933
+  name: 7|CA-72.140.224.195-1927
   password: G!yBwPWH3Vao
   port: 800
   server: 72.140.224.195
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-1963
+  name: 7|CA-85.208.108.60-1957
   password: XKFKl2rULjIp74
   port: 8009
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2000
+  name: 7|CA-85.208.108.60-1994
   password: KixLvKzwjekG00rm
   port: 5500
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2017
+  name: 7|CA-85.208.108.60-2011
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2147
+  name: 7|CA-85.208.108.60-2141
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2120
+  name: 7|CA-85.208.108.60-2114
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2806
+  name: 7|CA-85.208.108.60-2800
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2164
+  name: 7|CA-85.208.108.60-2158
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2124
+  name: 7|CA-85.208.108.60-2118
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2125
+  name: 7|CA-85.208.108.60-2119
   password: KixLvKzwjekG00rm
   port: 8080
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2126
+  name: 7|CA-85.208.108.60-2120
   password: faBAoD54k87UJG7
   port: 2376
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2127
+  name: 7|CA-85.208.108.60-2121
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2128
+  name: 7|CA-85.208.108.60-2122
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2129
+  name: 7|CA-85.208.108.60-2123
   password: XKFKl2rULjIp74
   port: 8008
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2130
+  name: 7|CA-85.208.108.60-2124
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2132
+  name: 7|CA-85.208.108.60-2126
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-3494
+  name: 7|CA-85.208.108.60-3488
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2137
+  name: 7|CA-85.208.108.60-2131
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2820
+  name: 7|CA-85.208.108.60-2814
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2144
+  name: 7|CA-85.208.108.60-2138
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2151
+  name: 7|CA-85.208.108.60-2145
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2158
+  name: 7|CA-85.208.108.60-2152
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2169
+  name: 7|CA-85.208.108.60-2163
   password: Y6R9pAtvxxzmGC
   port: 5600
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2175
+  name: 7|CA-85.208.108.60-2169
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2176
+  name: 7|CA-85.208.108.60-2170
   password: e4FCWrgpkji3QY
   port: 9102
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-3469
+  name: 7|CA-85.208.108.60-3463
   password: e4FCWrgpkji3QY
   port: 9101
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2188
+  name: 7|CA-85.208.108.60-2182
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2816
+  name: 7|CA-85.208.108.60-2810
   password: faBAoD54k87UJG7
   port: 2375
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-2196
+  name: 7|CA-85.208.108.60-2190
   password: KixLvKzwjekG00rm
   port: 8000
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-2795
+  name: 7|CA-85.208.108.20-2789
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.20
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|CA-51.161.130.141-2357
+  name: 7|CA-51.161.130.141-2351
   network: ws
   port: 80
   server: 51.161.130.141
@@ -562,80 +514,80 @@ proxies:
   ws-opts:
     path: /JAGOANSSH/
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.18-2410
+  name: 7|CA-85.208.108.18-2404
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.18
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-2549
+  name: 7|CA-85.208.108.59-2543
   password: XKFKl2rULjIp74
   port: 8009
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-2688
+  name: 7|CA-85.208.108.59-2682
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-3445
+  name: 7|CA-85.208.108.60-3439
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-3455
+  name: 7|CA-85.208.108.60-3449
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.61-3798
+  name: 7|CA-85.208.108.61-3792
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.61
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.92-3799
+  name: 7|CA-85.208.108.92-3793
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.92
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.156-3974
+  name: 7|CA-196.247.59.156-3968
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.156
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-4061
+  name: 7|CA-85.208.108.20-4055
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-4062
+  name: 7|CA-85.208.108.20-4056
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-4065
+  name: 7|CA-85.208.108.20-4059
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-4066
+  name: 7|CA-85.208.108.20-4060
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 85.208.108.20
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|CA-149.56.95.159-4240
+  name: 7|CA-149.56.95.159-4234
   network: ws
   port: 23784
   server: 149.56.95.159
@@ -647,7 +599,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 7|CA-138.197.165.31-4551
+  name: 7|CA-138.197.165.31-4545
   network: ws
   port: 8080
   server: 138.197.165.31
@@ -657,9 +609,19 @@ proxies:
   uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
   ws-opts:
     path: /cctv13/hd.m3u8
+- cipher: aes-128-cfb
+  name: 7|CA-45.154.204.13-4643
+  obfs: http_post
+  obfs-param: ''
+  password: $$Turb0VPN$$
+  port: 443
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: ssca.irundns.net
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 7|CA-134.195.198.147-4711
+  name: 7|CA-134.195.198.147-4708
   network: ws
   port: 443
   server: 134.195.198.147
@@ -669,441 +631,441 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     path: /linkvws
+- cipher: rc4-md5
+  name: 7|CA-137.184.174.93-4887
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-5257
+  name: 7|CA-134.195.196.149-5285
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-5258
+  name: 7|CA-134.195.196.149-5286
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.154-5264
+  name: 7|CA-196.247.59.154-5292
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-5284
+  name: 7|CA-134.195.196.149-5312
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-5285
+  name: 7|CA-134.195.196.149-5313
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.85-5286
+  name: 7|CA-134.195.196.85-5314
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 134.195.196.85
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.154-5287
+  name: 7|CA-196.247.59.154-5315
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.154-5289
+  name: 7|CA-196.247.59.154-5317
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.154-5290
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 196.247.59.154
-  type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.93-5306
+  name: 7|CA-85.208.108.93-5334
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 85.208.108.93
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.231-5358
+  name: 7|CA-134.195.196.231-5386
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.230-5359
+  name: 7|CA-134.195.196.230-5387
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 134.195.196.230
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.231-5360
+  name: 7|CA-134.195.196.231-5388
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-38.111.114.246-5460
+  name: 7|CA-38.111.114.246-5488
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.111.114.246
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-38.111.114.246-5461
+  name: 7|CA-38.111.114.246-5489
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.111.114.246
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5507
+  name: 7|CA-85.208.108.59-5535
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.60-5508
+  name: 7|CA-85.208.108.60-5536
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.18-5509
+  name: 7|CA-85.208.108.18-5537
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.18
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5511
+  name: 7|CA-85.208.108.59-5539
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-5512
+  name: 7|CA-85.208.108.20-5540
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.21-5513
+  name: 7|CA-85.208.108.21-5541
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5514
+  name: 7|CA-85.208.108.59-5542
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.21-5515
+  name: 7|CA-85.208.108.21-5543
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-5516
+  name: 7|CA-85.208.108.20-5544
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.21-5517
+  name: 7|CA-85.208.108.21-5545
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5520
+  name: 7|CA-85.208.108.59-5548
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-5521
+  name: 7|CA-85.208.108.20-5549
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-5522
+  name: 7|CA-85.208.108.20-5550
   password: KixLvKzwjekG00rm
   port: 8000
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5524
+  name: 7|CA-85.208.108.59-5552
   password: KixLvKzwjekG00rm
   port: 8000
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5525
+  name: 7|CA-85.208.108.59-5553
   password: XKFKl2rULjIp74
   port: 8008
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.94-5527
+  name: 7|CA-85.208.108.94-5555
   password: KixLvKzwjekG00rm
   port: 8080
   server: 85.208.108.94
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5530
+  name: 7|CA-85.208.108.59-5558
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5535
+  name: 7|CA-85.208.108.59-5563
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5539
+  name: 7|CA-85.208.108.59-5567
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5540
+  name: 7|CA-85.208.108.59-5568
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.21-5542
+  name: 7|CA-85.208.108.21-5570
   password: e4FCWrgpkji3QY
   port: 9102
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5543
+  name: 7|CA-85.208.108.59-5571
   password: e4FCWrgpkji3QY
   port: 9102
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.58-5544
+  name: 7|CA-85.208.108.58-5572
   password: e4FCWrgpkji3QY
   port: 9101
   server: 85.208.108.58
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.94-5546
+  name: 7|CA-85.208.108.94-5574
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.94
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5547
+  name: 7|CA-85.208.108.59-5575
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5548
+  name: 7|CA-85.208.108.59-5576
   password: faBAoD54k87UJG7
   port: 2375
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5550
+  name: 7|CA-85.208.108.59-5578
   password: faBAoD54k87UJG7
   port: 2376
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5552
+  name: 7|CA-85.208.108.59-5580
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5556
+  name: 7|CA-85.208.108.59-5584
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.21-5557
+  name: 7|CA-85.208.108.21-5585
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-5558
+  name: 7|CA-85.208.108.20-5586
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.20-5560
+  name: 7|CA-85.208.108.20-5588
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5561
+  name: 7|CA-85.208.108.59-5589
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5563
+  name: 7|CA-85.208.108.59-5591
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-85.208.108.59-5564
+  name: 7|CA-85.208.108.59-5592
   password: e4FCWrgpkji3QY
   port: 9101
   server: 85.208.108.59
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.154-5706
+  name: 7|CA-196.247.59.154-5734
   password: G!yBwPWH3Vao
   port: 805
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.156-5711
+  name: 7|CA-196.247.59.156-5739
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.154-5712
+  name: 7|CA-196.247.59.154-5740
   password: G!yBwPWH3Vao
   port: 802
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.156-5713
+  name: 7|CA-196.247.59.156-5741
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.156-5714
+  name: 7|CA-196.247.59.156-5742
   password: G!yBwPWH3Vao
   port: 808
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.156-5717
+  name: 7|CA-196.247.59.156-5745
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-196.247.59.156-5720
+  name: 7|CA-196.247.59.156-5748
   password: G!yBwPWH3Vao
   port: 804
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-51.161.118.38-5722
+  name: 7|CA-51.161.118.38-5750
   password: G!yBwPWH3Vao
   port: 806
   server: 51.161.118.38
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-5803
+  name: 7|CA-134.195.196.149-5831
   password: XKFKl2rULjIp74
   port: 8009
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.198.95-5804
+  name: 7|CA-134.195.198.95-5832
   password: faBAoD54k87UJG7
   port: 2376
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-5805
+  name: 7|CA-134.195.196.149-5833
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.198.95-5806
+  name: 7|CA-134.195.198.95-5834
   password: pKEW8JPByTVTLtM
   port: 443
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-5807
+  name: 7|CA-134.195.196.149-5835
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-134.195.196.143-5808
+  name: 7|CA-134.195.196.143-5836
   password: G!yBwPWH3Vao
   port: 805
   server: 134.195.196.143
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.107-5809
+  name: 7|CA-134.195.196.107-5837
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 134.195.196.107
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|CA-134.195.196.178-5810
+  name: 7|CA-134.195.196.178-5838
   password: G!yBwPWH3Vao
   port: 804
   server: 134.195.196.178
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-5812
+  name: 7|CA-134.195.196.149-5840
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.107-5814
+  name: 7|CA-134.195.196.107-5842
   password: XKFKl2rULjIp74
   port: 8009
   server: 134.195.196.107
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.198.95-5815
+  name: 7|CA-134.195.198.95-5843
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.198.95-5816
+  name: 7|CA-134.195.198.95-5844
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.107-5819
+  name: 7|CA-134.195.196.107-5847
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 134.195.196.107
   type: ss
 - cipher: aes-256-gcm
-  name: 7|CA-134.195.196.149-5821
+  name: 7|CA-134.195.196.149-5849
   password: KixLvKzwjekG00rm
   port: 8080
   server: 134.195.196.149
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7|CA-137.184.164.233-6923
+  name: 7|CA-137.184.164.233-6951
   network: ws
   port: 80
   server: 137.184.164.233
@@ -1115,7 +1077,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 7|CA-158.51.121.63-6946
+  name: 7|CA-158.51.121.63-6974
   network: ws
   port: 443
   server: 158.51.121.63
@@ -1130,7 +1092,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 7|CA-23.162.200.227-6947
+  name: 7|CA-23.162.200.227-6975
   network: ws
   port: 443
   server: 23.162.200.227
@@ -1142,7 +1104,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 7|CA-134.195.198.147-6949
+  name: 7|CA-134.195.198.147-6977
   network: ws
   port: 443
   server: 134.195.198.147
@@ -1156,7 +1118,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 7|CA-148.113.176.192-6957
+  name: 7|CA-148.113.176.192-6985
   network: ws
   port: 443
   server: 148.113.176.192
@@ -1169,7 +1131,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 7|CA-148.113.153.109-6960
+  name: 7|CA-148.113.153.109-6988
   network: ws
   port: 443
   server: 148.113.153.109
@@ -1184,7 +1146,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 7|CA-15.235.50.172-6969
+  name: 7|CA-15.235.50.172-6997
   network: ws
   port: 443
   server: 15.235.50.172
@@ -1198,7 +1160,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|CA-15.235.85.147-6978
+  name: 7|CA-15.235.85.147-7006
   network: ws
   port: 443
   server: 15.235.85.147
@@ -1212,7 +1174,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|CA-15.235.85.156-6989
+  name: 7|CA-15.235.85.156-7017
   network: ws
   port: 443
   server: 15.235.85.156
@@ -1227,7 +1189,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 7|CA-15.235.83.228-6996
+  name: 7|CA-15.235.83.228-7024
   network: ws
   port: 443
   server: 15.235.83.228
@@ -1240,7 +1202,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|CA-15.235.83.227-7000
+  name: 7|CA-15.235.83.227-7028
   network: ws
   port: 443
   server: 15.235.83.227
@@ -1255,7 +1217,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 7|CA-23.162.200.94-7673
+  name: 7|CA-23.162.200.94-7701
   network: ws
   port: 443
   server: 23.162.200.94
