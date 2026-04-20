@@ -1,15 +1,14 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 0,4,7,9|GB_speednode_0005
+  name: 0,4,7|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 30812
-  server: v12.hdacd.com
+  port: 49534
+  server: 18.183.182.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
-  type: vmess
-  udp: true
+  type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
   name: 0|🇷🇺_RU_俄罗斯 · proxy_pool:snakem9...
@@ -822,80 +821,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 9|AT_speednode_0001
-  network: ws
-  password: trojan
-  port: 8888
-  server: 152.53.45.251
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|CN_speednode_0002
-  network: ws
-  port: 16645
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3958aab8-fa85-43ac-ae60-537f4e642d9f
-  ws-opts:
-    headers:
-      Host: b8503d97efa57c667a0dcb7e848917ca.mobgslb.tbcache.com
-    path: /
-- cipher: aes-256-cfb
-  name: 9|VN_speednode_0023
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.198
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 9|VN_speednode_0024
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.236
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 9|VN_speednode_0025
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.24
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 9|VN_speednode_0026
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.162
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 9|VN_speednode_0027
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.216
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 9|VN_speednode_0028
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.136
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 9|VN_speednode_0029
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.60
-  type: ss
+- cipher: chacha20-ietf
+  name: 9|GB_speednode_0003
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  protocol-param: ''
+  server: ssr2.762988.xyz
+  type: ssr
   udp: true

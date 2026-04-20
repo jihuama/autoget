@@ -1,15 +1,14 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 0,4,7,9|GB_speednode_0005
+  name: 0,4,7|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 30812
-  server: v12.hdacd.com
+  port: 49534
+  server: 18.183.182.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
-  type: vmess
-  udp: true
+  type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 0|🇯🇵_JP_日本 · proxy_pool:V2RayAut...
   network: ws
@@ -23,3 +22,16 @@ proxies:
     headers:
       Host: snippet.fgfw.loc.cc
     path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  name: 9|JP_speednode_0008
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: 2da72ce6
+  server: 176.97.73.155
+  servername: navi.bankrate.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b277abf-e0d6-44d8-85c6-f6c7afc0aec5
