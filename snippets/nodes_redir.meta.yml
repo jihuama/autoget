@@ -1,6 +1,33 @@
 proxies:
 - client-fingerprint: chrome
-  name: 0,4|_CN_->_US_
+  name: 0|🇺🇸_US_美国->🇱🇻_LV_拉脱维亚 · proxy_p...
+  network: ws
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&proxyip=ip.111000.de5.net:443
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_p...
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
+  ws-opts:
+    headers:
+      Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  name: 4|_CN_->_US_
   network: ws
   port: 443
   server: 139.196.41.153
@@ -14,7 +41,7 @@ proxies:
     path: /gs5=6666:6666@47.239.178.125:6666
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,4|_US_->_SC_
+  name: 4|_US_->_SC_
   port: 443
   server: pl234.mechvpn.online
   servername: pl234.mechvpn.online
@@ -23,7 +50,7 @@ proxies:
   uuid: 729764b1-149c-49f2-b170-322544df7b5b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,4|_NL_->_US_
+  name: 4|_NL_->_US_
   port: 13344
   reality-opts:
     public-key: DC71RjKr16drr8gqK8QhEuCVLpkbBfUfPb9Far8Jkzo
@@ -34,7 +61,7 @@ proxies:
   type: vless
   uuid: 3fce3b0d-0b92-4e92-9a78-18051dd648b4
 - client-fingerprint: chrome
-  name: 0,4|_CN_->_US__1
+  name: 4|_CN_->_US__1
   network: ws
   port: 20231
   server: 64.120.89.69
@@ -47,7 +74,7 @@ proxies:
       Host: r.icy.de5.net
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 0,4|_NL_->_US__1
+  name: 4|_NL_->_US__1
   network: ws
   port: 8005
   server: 45.145.42.170
@@ -61,7 +88,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,4|_CZ_->_RU_
+  name: 4|_CZ_->_RU_
   port: 10965
   reality-opts:
     public-key: lHxeD2nYtDb1V7JseV-sUTEuqH6_jie7U_iOARX7cT0
@@ -72,7 +99,7 @@ proxies:
   type: vless
   uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
 - client-fingerprint: chrome
-  name: 0,4|_CN_->_unKnow_
+  name: 4|_CN_->_unKnow_
   port: 443
   reality-opts:
     public-key: RravQN06gzsNsm5ojEhZGrxBgLGEpqEThtHEltdjpBk
@@ -83,7 +110,7 @@ proxies:
   type: vless
   uuid: d4de1f64-bf3c-4d97-9663-0091f8c07359
 - client-fingerprint: chrome
-  name: 0,4|_US_->_SG_
+  name: 4|_US_->_SG_
   network: ws
   port: 11001
   server: 47.245.99.66
