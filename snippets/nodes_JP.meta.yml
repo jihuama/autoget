@@ -1,17 +1,18 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0,4,7,9|GB_speednode_0009
-  password: BxceQaOe
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: vmess
+- name: 0|🇯🇵_JP_日本
+  network: ws
+  port: 443
+  server: 103.13.19.227
+  servername: 1-aym.pages.dev
+  tls: true
+  type: vless
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 0,4|_JP_  proxy_pool:V2RayAutoConf...
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-aym.pages.dev
+    path: /fp=chrome
+- name: 4|_JP_  proxy_pool:V2RayAutoConf...
   network: ws
   port: 12345
   server: 43.167.157.65
