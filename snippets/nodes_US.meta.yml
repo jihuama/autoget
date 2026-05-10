@@ -1,5 +1,30 @@
 proxies:
-- name: 0,4|_US_
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国
+  network: ws
+  port: 443
+  server: 104.19.58.118
+  servername: us1-us1.aiopen.sbs
+  tls: true
+  type: vless
+  uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+  ws-opts:
+    headers:
+      Host: us1-us1.aiopen.sbs
+    path: /kbjc/us1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇺🇸_US_美国_1
+  port: 10001
+  reality-opts:
+    public-key: 4jNz4Bw-FZlaX-WtfAdwK0hegY28W_k8AttGd-7hZn4
+    short-id: fb2c6678
+  server: 156.229.161.107
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+- name: 4|_US_
   network: ws
   port: 2053
   server: 104.17.72.206
@@ -11,7 +36,7 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-- name: 0,4|_US__1
+- name: 4|_US__1
   network: ws
   port: 2096
   server: 188.114.98.0
