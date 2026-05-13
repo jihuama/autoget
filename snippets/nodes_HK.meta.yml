@@ -1,16 +1,16 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 7,9|GB_speednode_0020
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 7,9|GB_speednode_0002
   password: BxceQaOe
-  port: 30806
-  server: v6.hdacd.com
+  port: 180
+  server: 82.198.246.214
   skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: 8|香港|@ripaojiedian
@@ -21,18 +21,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 9|HK_speednode_0021
-  network: http
-  port: 56972
-  server: 154.37.223.19
+- client-fingerprint: chrome
+  name: 9|HK_speednode_0004
+  network: ws
+  port: 587
+  server: 47.239.7.163
+  servername: pagescm.freen21.cc.cd
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  tls: true
+  type: vless
   udp: true
-  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen21.cc.cd
+    path: /albums/out.html
