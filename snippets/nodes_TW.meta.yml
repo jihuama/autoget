@@ -1,22 +1,15 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 9|TW_speednode_0055
-  password: a9a0d092-6f0e-4701-81ee-454643d6d506
-  port: 50099
-  server: r3mrcg0011499tl.cybervena.com
-  type: ss
+- name: 9|TW_speednode_0034
+  network: ws
+  port: 17820
+  server: s5.db-link.in
+  servername: 48afa0c5c9.shopify.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-256-cfb
-  name: 9|TW_speednode_0053
-  password: qwerREWQ@@
-  port: 41632
-  server: 185.189.160.105
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|TW_speednode_0054
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 111.248.76.47
-  type: ss
-  udp: true
+  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
+  ws-opts:
+    headers:
+      Host: 48afa0c5c9.shopify.com
+    path: /db102448afa0c5c9fp=chrome
