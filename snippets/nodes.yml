@@ -8,14 +8,14 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 0,4,7,9|ID_speednode_0015
-  password: BxceQaOe
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: false
-  sni: t.me%2Fripaojiedian
+  name: 0,4,7,9|TW_speednode_0029
+  password: e5c22f63-e473-496a-beff-fdc5655008c1
+  port: 2096
+  server: tvhinet.lajichang.xyz
+  skip-cert-verify: true
+  sni: tvhinet.lajichang.xyz
   tls: false
-  type: vmess
+  type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
@@ -739,112 +739,60 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 9|CN_speednode_0007
-  network: ws
-  port: 16622
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-  ws-opts:
-    headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|CN_speednode_0008
-  network: ws
-  port: 16626
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-  ws-opts:
-    headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|CN_speednode_0009
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-  ws-opts:
-    headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 9|GB_speednode_0010
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.131
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|GB_speednode_0011
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.141
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9|GB_speednode_0014
-  network: ws
-  port: 16617
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-  ws-opts:
-    headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
 - cipher: aes-256-cfb
-  name: 9|VN_speednode_0041
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.214
+  name: 9|ES_speednode_0003
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 5.188.181.201
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|GB_speednode_0006
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 9|TW_speednode_0030
+  network: http
+  port: 53229
+  server: 103.127.243.54
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
 - cipher: aes-256-cfb
   name: 9|VN_speednode_0042
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.58
+  server: 103.186.154.31
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 9|VN_speednode_0043
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.213
+  server: 103.186.155.9
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 9|VN_speednode_0044
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.229
+  server: 103.186.155.81
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 9|VN_speednode_0045
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.24
+  server: 103.186.155.183
   type: ss
   udp: true
