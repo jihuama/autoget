@@ -712,17 +712,17 @@ proxies:
   server: 63.180.254.10
   type: ss
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 7,9|GB_speednode_0006
+  cipher: auto
+  name: 7,9|US_speednode_0072
   password: BxceQaOe
-  port: 180
-  server: 82.198.246.214
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 2
   cipher: auto
   name: 8|香港|@ripaojiedian
@@ -753,11 +753,112 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 9|DE_speednode_0005
-  password: Fh0TVw64B57wDPoJ2VLsog
+- cipher: aes-256-cfb
+  name: 9|CA_speednode_0005
+  password: amazonskr05
   port: 443
-  server: 5.230.184.171
+  server: 15.157.68.13
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 9|CA_speednode_0006
+  password: amazonskr05
+  port: 443
+  server: 35.183.129.131
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 9|CA_speednode_0007
+  password: amazonskr05
+  port: 443
+  server: 15.222.60.36
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|CY_speednode_0015
+  password: hfSE3thwAQqvSIac5xLpUD
+  port: 53292
+  server: 45.83.130.97
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 9|DE_speednode_0016
+  password: amazonskr05
+  port: 443
+  server: 18.195.95.15
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|GB_speednode_0024
+  password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
+  port: 31348
+  server: 89.185.84.34
+  type: ss
+  udp: true
+- name: 9|KR_speednode_0029
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 30303
+  server: 121.191.33.84
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: 9|KR_speednode_0030
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 12345
+  server: 59.30.42.194
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: 9|KR_speednode_0031
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18000
+  server: 121.154.96.50
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: 9|KR_speednode_0032
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 29999
+  server: 14.53.107.138
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- cipher: chacha20-ietf-poly1305
+  name: 9|NL_speednode_0035
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|SE_speednode_0047
+  password: CZjvepQLlrEC9sVxkFfnlK
+  port: 34633
+  server: 78.40.117.161
   type: ss
   udp: true
 - alterId: 0
@@ -766,40 +867,54 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: 9|TW_speednode_0031
+  name: 9|TW_speednode_0048
   network: http
-  port: 53229
-  server: 103.127.243.54
+  port: 55386
+  server: 103.127.243.60
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
 - cipher: chacha20-ietf-poly1305
-  name: 9|TW_speednode_0033
-  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  name: 9|TW_speednode_0049
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: r3mrcg0011499tl.cybervena.com
+  server: r3mrcg001286ek2.cybervena.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 9|UA_speednode_0034
-  password: qTa6L03BFhHoyA3psL9xpV
-  port: 443
-  server: 185.207.136.67
+  name: 9|US_speednode_0075
+  password: 4LwjNxZEaMDsT26xKjcNmo
+  port: 4668
+  server: 79.141.163.21
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 9|US_speednode_0037
-  password: amazonskr05
-  port: 443
-  server: 13.218.172.80
+  name: 9|VN_speednode_0079
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.200
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 9|US_speednode_0038
-  password: amazonskr05
-  port: 443
-  server: 100.27.193.207
+  name: 9|VN_speednode_0080
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.232
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 9|VN_speednode_0081
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.202
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 9|VN_speednode_0082
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.208
   type: ss
   udp: true
