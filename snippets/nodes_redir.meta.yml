@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: edge
   flow: xtls-rprx-vision-udp443
-  name: 0,9|RU_speednode_0025
+  name: 0,4,9|RU_speednode_0025
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -12,7 +12,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alterId: 2
   cipher: auto
-  name: 0,7,9|US_speednode_0026
+  name: 0,4,7,9|US_speednode_0026
   password: 65fQmPHHbPcBCfvSHt
   port: 30806
   server: v6.hdacd.com
@@ -22,41 +22,3 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 4|_NL_->_US_
-  network: ws
-  port: 2096
-  server: 188.42.88.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 4|_JP_->_TW_
-  port: 55309
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: 4bcbc85d
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 4|_JP_->_SG_
-  port: 55313
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: 4bcbc85d
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
