@@ -708,44 +708,31 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: 9|JP_speednode_0007
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhll.qqs.me
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226?enc=aes-128-gcm
-    tls: true
-  port: 443
-  server: 54.65.58.58
+- cipher: chacha20-ietf
+  name: 9|HK_speednode_0001
+  password: asd123456
+  port: 8388
+  server: 103.149.183.113
   type: ss
   udp: true
-- name: 9|KR_speednode_0008
-  network: ws
-  password: pUkVhYVSnjbEy4xbkNJ2QvXTSSLHxRN6sRbdSnnwpbMSXTbC
-  port: 443
-  server: node3.bw8848.org
-  skip-cert-verify: false
-  sni: node3.bw8848.org
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 9|TW_speednode_0063
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 38320
+  server: account-center.zzdy25.com
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: node3.bw8848.org
-    path: /node3-node3-jgnkjy
-- cipher: aes-128-gcm
-  name: 9|US_speednode_0056
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhll.qqs.me
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226?enc=aes-128-gcm
-    tls: true
-  port: 443
-  server: 69.63.216.10
+- cipher: chacha20-ietf-poly1305
+  name: 9|TW_speednode_0064
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 36321
+  server: account-center.zzdy25.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|TW_speednode_0065
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 38777
+  server: account-center.zzdy25.com
   type: ss
   udp: true
