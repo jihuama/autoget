@@ -1,11 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: 0,4,9|RU_speednode_0062
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 0,4|_GB_->_GE_
   port: 22231
   server: r1.mizulina.top
   servername: r1.mizulina.top
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
