@@ -1,6 +1,6 @@
 proxies:
 - flow: xtls-rprx-vision
-  name: 0,4|_FR_
+  name: 0|🇫🇷_FR_法国
   port: 443
   server: fr.noooo.win
   skip-cert-verify: true
@@ -8,3 +8,14 @@ proxies:
   type: vless
   udp: true
   uuid: 7b241232-208d-4d36-857e-913f91b044f4
+- name: 4|_FR_
+  network: ws
+  port: 8443
+  server: 146.59.230.8
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
