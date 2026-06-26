@@ -711,17 +711,18 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 7|🇺🇸 美国3|@ripaojiedian
+  name: 7,9|GB_speednode_0002
   password: BxceQaOe
-  port: 22657
-  server: 16.162.121.169
-  skip-cert-verify: true
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
-  type: trojan
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: 8|香港|@ripaojiedian
@@ -733,19 +734,7 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 9|US_speednode_0066
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 134.195.101.115
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|US_speednode_0067
+  name: 9|US_speednode_0022
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -757,19 +746,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 9|US_speednode_0070
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-    tls: false
-  port: 2377
-  server: 134.195.101.127
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 9|US_speednode_0071
+  name: 9|US_speednode_0023
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -778,5 +755,17 @@ proxies:
     tls: false
   port: 2377
   server: 134.195.101.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 9|US_speednode_0024
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+    tls: false
+  port: 2377
+  server: 134.195.101.127
   type: ss
   udp: true
