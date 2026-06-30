@@ -1,5 +1,27 @@
 proxies:
-- name: 0,4|_NL_->_US_
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alterId: 0
+  cipher: auto
+  name: 0,7,9|US_speednode_0054
+  password: BxceQaOe
+  port: 13932
+  server: 104.253.134.92
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+- name: 4|_NL_->_US_
   network: ws
   port: 2096
   server: 188.42.88.238
@@ -13,7 +35,7 @@ proxies:
       Host: sni.jpmj.dev
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 0,4|_JP_->_TW_
+  name: 4|_JP_->_TW_
   port: 55309
   reality-opts:
     public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
@@ -26,7 +48,7 @@ proxies:
   uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 0,4|_JP_->_SG_
+  name: 4|_JP_->_SG_
   port: 55313
   reality-opts:
     public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
