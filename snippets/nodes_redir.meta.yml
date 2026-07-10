@@ -1,23 +1,34 @@
 proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 0,4|_GB_->_GE_
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alterId: 0
-  cipher: auto
-  name: 0,4,7,9|US_speednode_0054
-  password: BxceQaOe
-  port: 13932
-  server: 104.253.134.92
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
