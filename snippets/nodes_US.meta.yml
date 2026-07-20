@@ -1,7 +1,93 @@
 proxies:
+- name: 0|🇺🇸_US_美国
+  network: ws
+  port: 443
+  server: 135.84.73.245
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 0|🇺🇸_US_美国_1
+  network: ws
+  port: 443
+  server: 104.18.12.149
+  servername: S4-f45.pAGeS.DeV
+  tls: true
+  type: vless
+  udp: true
+  uuid: b60e5c32-3d4e-425c-a785-a36cd0621a72
+  ws-opts:
+    headers:
+      Host: S4-f45.pAGeS.DeV
+    path: /
+- flow: xtls-rprx-vision
+  name: 0|🇺🇸_US_美国_2
+  port: 17195
+  server: 104.250.239.8
+  servername: usvless.yydzx.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: 0|🇺🇸_US_美国_3
+  network: ws
+  port: 443
+  server: 104.17.101.139
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?proxyip=ip.111000.de5.net%3A443
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国_4
+  network: ws
+  port: 2096
+  server: 139.64.235.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /
+- name: 0|🇺🇸_US_美国_5
+  network: ws
+  port: 2096
+  server: 45.153.7.191
+  servername: sni.my111000.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+- name: 0|🇺🇸_US_美国_6
+  network: ws
+  port: 443
+  server: 162.159.17.207
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
 - alterId: 0
   cipher: auto
-  name: 0,4,7,9|US_speednode_0054
+  name: 4,7,9|US_speednode_0054
   password: BxceQaOe
   port: 13932
   server: 104.253.134.92
@@ -11,7 +97,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
-- name: 0,4|_US__2
+- name: 4|_US__2
   port: 10035
   server: 47.77.214.201
   skip-cert-verify: true
