@@ -1,5 +1,25 @@
 proxies:
-- name: 0,4|_NL_->_US_
+- alterId: 0
+  cipher: auto
+  name: 0,7,9|US_speednode_0054
+  password: BxceQaOe
+  port: 13932
+  server: 104.253.134.92
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+- name: 0|🇮🇷_IR_伊朗->🇫🇷_FR_法国
+  port: 33485
+  server: babi.amojimi.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
+- name: 4|_NL_->_US_
   network: ws
   port: 2096
   server: 188.42.88.238
@@ -13,7 +33,7 @@ proxies:
       Host: sni.jpmj.dev
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 0,4|_JP_->_TW_
+  name: 4|_JP_->_TW_
   port: 55309
   reality-opts:
     public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
@@ -26,7 +46,7 @@ proxies:
   uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 0,4|_JP_->_SG_
+  name: 4|_JP_->_SG_
   port: 55313
   reality-opts:
     public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
