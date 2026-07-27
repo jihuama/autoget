@@ -694,29 +694,43 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 9|NL_speednode_0006
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
+- cipher: aes-256-gcm
+  name: 9|CA_speednode_0001
+  password: 2803361d6c196af8
+  port: 10210
+  server: 50.114.177.134
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- name: 9|US_speednode_0090
+- cipher: chacha20-ietf-poly1305
+  name: 9|NL_speednode_0007
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
+  type: ss
+  udp: true
+- name: 9|US_speednode_0069
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.12
+  server: 172.64.152.23
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 9|US_speednode_0070
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.170
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
     path: /assignment
