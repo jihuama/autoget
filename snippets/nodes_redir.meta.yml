@@ -1,4 +1,14 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alterId: 2
   cipher: auto
   name: 0,4,7,9|HK_speednode_0007
@@ -11,7 +21,7 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 0,4|_IR_->_FR_
+- name: 4|_IR_->_FR_
   port: 33485
   server: babi.amojimi.ir
   skip-cert-verify: true
