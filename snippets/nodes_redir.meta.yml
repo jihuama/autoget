@@ -1,14 +1,31 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,4|_GB_->_GE_
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 0,9|AE_speednode_0003
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国->🇫🇮_FI_芬兰
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
+  ws-opts:
+    headers:
+      Host: pan11.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
 - alterId: 0
   cipher: auto
   name: 0,4,7,9|US_speednode_0277
@@ -22,3 +39,36 @@ proxies:
   type: trojan
   udp: true
   uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
+- name: 0,9|AE_speednode_0004
+  port: 443
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- name: 0|🇩🇪_DE_德国->🇹🇭_TH_泰国
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 4|_GB_->_GE_
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
