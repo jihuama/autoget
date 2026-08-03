@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: firefox
-  name: 0,9|AE_speednode_0003
+  name: 0,4,9|AE_speednode_0003
   port: 443
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
@@ -12,7 +12,7 @@ proxies:
   udp: true
   uuid: 04b9e828-43ed-4faf-8952-41069ec08355
 - client-fingerprint: chrome
-  name: 0|🇺🇸_US_美国->🇫🇮_FI_芬兰
+  name: 0,4|_US_->_FI_
   network: ws
   port: 443
   server: 199.232.78.159
@@ -39,7 +39,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
-- name: 0,9|AE_speednode_0004
+- name: 0,4,9|AE_speednode_0004
   port: 443
   server: ddc-akn.astralweb.tech
   servername: ddc-akn.astralweb.tech
@@ -48,7 +48,7 @@ proxies:
   type: vless
   udp: true
   uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- name: 0|🇩🇪_DE_德国->🇹🇭_TH_泰国
+- name: 0,4|_DE_->_TH_
   network: ws
   port: 80
   server: www.true.th
@@ -62,13 +62,3 @@ proxies:
     headers:
       Host: d2pwbkmfr5lxa4.cloudfront.net
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 4|_GB_->_GE_
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
