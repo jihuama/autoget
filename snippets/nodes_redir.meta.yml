@@ -1,16 +1,14 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: 0,4,9|AE_speednode_0003
+- client-fingerprint: firefox
+  name: 0,4,9|AE_speednode_0001
   port: 443
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
 - client-fingerprint: chrome
   name: 0,4|_US_->_FI_
   network: ws
@@ -26,22 +24,21 @@ proxies:
     headers:
       Host: pan11.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 0,4,7,9|US_speednode_0093
-  password: 1BARPLkaLl
-  port: 11973
-  server: board-04.ddnskunlun.com
+  name: 0,4,7,9|LU_speednode_0012
+  password: ND91608427
+  port: 443
+  server: eager-louse.rooster465.autos
   skip-cert-verify: true
-  sni: 45.130.22.70
+  sni: eager-louse.rooster465.autos
   tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- name: 0,4,9|AE_speednode_0002
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 0,4|_AE_->_DE__1
   port: 443
   server: ddc-akn.astralweb.tech
-  servername: ddc-akn.astralweb.tech
   skip-cert-verify: true
   tls: true
   type: vless
