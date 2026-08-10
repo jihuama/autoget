@@ -1,7 +1,27 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 0,4,7|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 10418
+  server: 18.167.76.203
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: trojan
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 0|🇺🇸_US_美国_2
+  port: 10035
+  server: 47.77.214.201
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,4|_US_
+  name: 4|_US_
   port: 993
   reality-opts:
     public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
@@ -14,7 +34,7 @@ proxies:
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 0,4|_US__1
+  name: 4|_US__1
   port: 443
   reality-opts:
     public-key: 6INA8Jxa9oQT3XrW4uXd0leo2upMdUn8s_XbSP0qB3I
@@ -26,7 +46,7 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- name: 0,4|_US__2
+- name: 4|_US__2
   network: ws
   port: 8880
   server: 104.17.21.32

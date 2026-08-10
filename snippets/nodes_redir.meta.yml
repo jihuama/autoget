@@ -1,6 +1,39 @@
 proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: firefox
-  name: 0,4|_AE_->_DE_
+  name: 4|_AE_->_DE_
   port: 443
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
@@ -10,7 +43,7 @@ proxies:
   udp: true
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
 - client-fingerprint: chrome
-  name: 0,4|_US_->_FI_
+  name: 4|_US_->_FI_
   network: ws
   port: 443
   server: 199.232.78.159
@@ -24,19 +57,7 @@ proxies:
     headers:
       Host: pan11.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- alterId: 2
-  cipher: auto
-  name: 0,4,7|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 10418
-  server: 18.167.76.203
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 0,4|_AE_->_DE__1
+- name: 4|_AE_->_DE__1
   port: 443
   server: ddc-akn.astralweb.tech
   skip-cert-verify: true
@@ -44,7 +65,7 @@ proxies:
   type: vless
   udp: true
   uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- name: 0,4|_DE_->_TH_
+- name: 4|_DE_->_TH_
   network: ws
   port: 80
   server: www.true.th

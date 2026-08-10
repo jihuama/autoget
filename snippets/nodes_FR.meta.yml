@@ -1,7 +1,16 @@
 proxies:
+- flow: xtls-rprx-vision
+  name: 0|🇫🇷_FR_法国
+  port: 443
+  server: fr.noooo.win
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b241232-208d-4d36-857e-913f91b044f4
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 0,4|_FR_
+  name: 4|_FR_
   port: 43248
   reality-opts:
     public-key: LPLKpq5_G1WB6BqJhrCKQp1oQly3akbsVjvYPZrbGgg
