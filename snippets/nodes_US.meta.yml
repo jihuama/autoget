@@ -11,7 +11,7 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 0|🇺🇸_US_美国_2
+- name: 0,4|_US__2
   port: 10035
   server: 47.77.214.201
   skip-cert-verify: true
@@ -19,46 +19,6 @@ proxies:
   type: vless
   udp: true
   uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 4|_US_
-  port: 993
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 4|_US__1
-  port: 443
-  reality-opts:
-    public-key: 6INA8Jxa9oQT3XrW4uXd0leo2upMdUn8s_XbSP0qB3I
-    short-id: f0a9d2b1c7e4f648
-  server: 217.177.75.7
-  servername: usa.tunnelx.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- name: 4|_US__2
-  network: ws
-  port: 8880
-  server: 104.17.21.32
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
-  ws-opts:
-    headers:
-      Host: icy-rice-3c1c.340-680.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
 - alterId: 0
   cipher: auto
   name: 5|github.com/freefq - 美国CloudFla...

@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+  name: 0,4|_GB_->_GE_
   port: 22231
   server: r1.mizulina.top
   servername: r1.mizulina.top
@@ -12,7 +12,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_1
+  name: 0,4|_GB_->_GE__1
   port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -23,7 +23,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 0|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚_2
+  name: 0,4|_GB_->_GE__2
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -32,50 +32,3 @@ proxies:
   type: vless
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: firefox
-  name: 4|_AE_->_DE_
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- client-fingerprint: chrome
-  name: 4|_US_->_FI_
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
-  ws-opts:
-    headers:
-      Host: pan11.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- name: 4|_AE_->_DE__1
-  port: 443
-  server: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- name: 4|_DE_->_TH_
-  network: ws
-  port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  ws-opts:
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: /
