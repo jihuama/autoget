@@ -1,7 +1,45 @@
 proxies:
+- name: 0|🇳🇱_NL_荷兰->🇺🇸_US_美国
+  network: ws
+  port: 2096
+  server: 188.42.88.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵_JP_日本->🇹🇼_TW_中国台湾
+  port: 55309
+  reality-opts:
+    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+    short-id: 4bcbc85d
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 0|🇯🇵_JP_日本->🇸🇬_SG_新加坡
+  port: 55313
+  reality-opts:
+    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+    short-id: 4bcbc85d
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 0,4|_GB_->_GE_
+  name: 4|_GB_->_GE_
   port: 22231
   server: r1.mizulina.top
   servername: r1.mizulina.top
@@ -12,7 +50,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 0,4|_GB_->_GE__1
+  name: 4|_GB_->_GE__1
   port: 443
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -23,7 +61,7 @@ proxies:
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 0,4|_GB_->_GE__2
+  name: 4|_GB_->_GE__2
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
