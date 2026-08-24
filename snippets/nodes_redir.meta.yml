@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 0,7|🇺🇸 美国3|@ripaojiedian
+  name: 0,4,7|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 34039
   server: 54.179.227.94
@@ -11,7 +11,7 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 0|🇮🇷_IR_伊朗->🇫🇷_FR_法国
+- name: 0,4|_IR_->_FR_
   port: 33485
   server: babi.amojimi.ir
   skip-cert-verify: true
@@ -19,41 +19,3 @@ proxies:
   type: vless
   udp: true
   uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
-- name: 4|_NL_->_US_
-  network: ws
-  port: 2096
-  server: 188.42.88.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 4|_JP_->_TW_
-  port: 55309
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: 4bcbc85d
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 4|_JP_->_SG_
-  port: 55313
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: 4bcbc85d
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
