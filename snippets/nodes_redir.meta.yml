@@ -1,4 +1,29 @@
 proxies:
+- client-fingerprint: firefox
+  name: 0|🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国->🇫🇮_FI_芬兰
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
+  ws-opts:
+    headers:
+      Host: pan11.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
 - alterId: 2
   cipher: auto
   name: 0,4,7|🇺🇸 美国3|@ripaojiedian
@@ -11,7 +36,29 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 0,4|_IR_->_FR_
+- name: 0|🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_1
+  port: 443
+  server: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- name: 0|🇩🇪_DE_德国->🇹🇭_TH_泰国
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: /
+- name: 4|_IR_->_FR_
   port: 33485
   server: babi.amojimi.ir
   skip-cert-verify: true

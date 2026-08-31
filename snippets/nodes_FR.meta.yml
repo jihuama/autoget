@@ -1,5 +1,19 @@
 proxies:
-- name: 0,4|_FR_
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇫🇷_FR_法国
+  port: 43248
+  reality-opts:
+    public-key: LPLKpq5_G1WB6BqJhrCKQp1oQly3akbsVjvYPZrbGgg
+    short-id: 3355cf9734b0150e
+  server: 15.237.177.139
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f9d8ca28-2fff-45de-9b25-3bf29186018e
+- name: 4|_FR_
   port: 22223
   server: 13.37.22.60
   skip-cert-verify: true
@@ -7,7 +21,7 @@ proxies:
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 0,4|_FR__1
+- name: 4|_FR__1
   port: 22222
   server: 13.37.22.60
   skip-cert-verify: true
@@ -15,7 +29,7 @@ proxies:
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 0,4|_FR__2
+- name: 4|_FR__2
   port: 22224
   server: 13.37.22.60
   skip-cert-verify: true
