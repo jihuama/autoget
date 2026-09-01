@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: firefox
-  name: 0|🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
+  name: 0,4|_AE_->_DE_
   port: 443
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
@@ -10,7 +10,7 @@ proxies:
   udp: true
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
 - client-fingerprint: chrome
-  name: 0|🇺🇸_US_美国->🇫🇮_FI_芬兰
+  name: 0,4|_US_->_FI_
   network: ws
   port: 443
   server: 199.232.78.159
@@ -36,7 +36,7 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 0|🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_1
+- name: 0,4|_AE_->_DE__1
   port: 443
   server: ddc-akn.astralweb.tech
   skip-cert-verify: true
@@ -44,7 +44,7 @@ proxies:
   type: vless
   udp: true
   uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- name: 0|🇩🇪_DE_德国->🇹🇭_TH_泰国
+- name: 0,4|_DE_->_TH_
   network: ws
   port: 80
   server: www.true.th
@@ -58,11 +58,3 @@ proxies:
     headers:
       Host: d2pwbkmfr5lxa4.cloudfront.net
     path: /
-- name: 4|_IR_->_FR_
-  port: 33485
-  server: babi.amojimi.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
