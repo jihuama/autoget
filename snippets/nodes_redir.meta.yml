@@ -1,6 +1,66 @@
 proxies:
 - client-fingerprint: firefox
-  name: 0,4|_AE_->_DE_
+  name: 0|🇺🇸_US_美国->🇫🇮_FI_芬兰
+  network: ws
+  port: 443
+  server: a2.arshia-nova.ir
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /
+- client-fingerprint: chrome
+  name: 0|🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  network: ws
+  port: 443
+  server: 103.143.81.178
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 0|🇦🇺_AU_澳大利亚->🇫🇮_FI_芬兰
+  network: ws
+  port: 443
+  server: 202.166.187.132
+  servername: f.yoptybla.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
+  ws-opts:
+    headers:
+      Host: f.yoptybla.ru
+    path: /
+- client-fingerprint: chrome
+  name: 0|🇹🇷_TR_土耳其->🇳🇱_NL_荷兰
+  network: ws
+  port: 8443
+  server: 104.143.204.23
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: firefox
+  name: 4|_AE_->_DE_
   port: 443
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
@@ -10,7 +70,7 @@ proxies:
   udp: true
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
 - client-fingerprint: chrome
-  name: 0,4|_US_->_FI_
+  name: 4|_US_->_FI_
   network: ws
   port: 443
   server: 199.232.78.159
@@ -24,19 +84,7 @@ proxies:
     headers:
       Host: pan11.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- alterId: 2
-  cipher: auto
-  name: 0,4,7|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 443
-  server: 100.42.228.109
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 0,4|_AE_->_DE__1
+- name: 4|_AE_->_DE__1
   port: 443
   server: ddc-akn.astralweb.tech
   skip-cert-verify: true
@@ -44,7 +92,7 @@ proxies:
   type: vless
   udp: true
   uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- name: 0,4|_DE_->_TH_
+- name: 4|_DE_->_TH_
   network: ws
   port: 80
   server: www.true.th

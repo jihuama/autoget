@@ -1,7 +1,84 @@
 proxies:
 - client-fingerprint: chrome
+  name: 0|🇦🇲_AM_亚美尼亚
+  network: ws
+  port: 443
+  server: 2.56.204.183
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- name: 0|🇺🇸_US_美国
+  network: ws
+  port: 15262
+  server: 66.33.22.221
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9edfe008-51a5-48ee-ae99-945971227100
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国_1
+  network: ws
+  port: 2096
+  server: 172.67.130.159
+  servername: cdn-us.skyvora.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 550d6eb0-1775-44a4-a464-9176e3d74b50
+  ws-opts:
+    headers:
+      Host: cdn-us.skyvora.app
+    path: /0i027asku
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 0,4|_US_
+  name: 0|🇺🇸_US_美国_2
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: 72.56.41.33
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+- name: 0|🇺🇸_US_美国_3
+  network: ws
+  port: 27534
+  server: 66.33.22.219
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 55333b48-43d2-40f5-99ef-982046bdf437
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国_4
+  network: ws
+  port: 443
+  server: 104.21.78.105
+  servername: 6-m17.KUWaiT.kdNs.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  ws-opts:
+    headers:
+      Host: 6-M17.kuwAit.kDns.Fr
+    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 4|_US_
   port: 993
   reality-opts:
     public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
@@ -14,7 +91,7 @@ proxies:
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 0,4|_US__1
+  name: 4|_US__1
   port: 443
   reality-opts:
     public-key: 6INA8Jxa9oQT3XrW4uXd0leo2upMdUn8s_XbSP0qB3I
@@ -26,7 +103,7 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- name: 0,4|_US__2
+- name: 4|_US__2
   network: ws
   port: 8880
   server: 104.17.21.32
