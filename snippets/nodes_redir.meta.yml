@@ -1,6 +1,65 @@
 proxies:
 - client-fingerprint: firefox
-  name: 0,4|_US_->_FI_
+  name: 0|🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国->🇫🇮_FI_芬兰
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
+  ws-opts:
+    headers:
+      Host: pan11.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+- alterId: 2
+  cipher: auto
+  name: 0,4,7|🇭🇰 香港|@ripaojiedian
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  sni: de.catxstar.com
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 0|🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国_1
+  port: 443
+  server: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- name: 0|🇩🇪_DE_德国->🇹🇭_TH_泰国
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: /
+- client-fingerprint: firefox
+  name: 4|_US_->_FI_
   network: ws
   port: 443
   server: a2.arshia-nova.ir
@@ -15,7 +74,7 @@ proxies:
       Host: c12.com
     path: /
 - client-fingerprint: chrome
-  name: 0,4|_HK_->_SG_
+  name: 4|_HK_->_SG_
   network: ws
   port: 443
   server: 103.143.81.178
@@ -30,7 +89,7 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 0,4|_AU_->_FI_
+  name: 4|_AU_->_FI_
   network: ws
   port: 443
   server: 202.166.187.132
@@ -45,7 +104,7 @@ proxies:
       Host: f.yoptybla.ru
     path: /
 - client-fingerprint: chrome
-  name: 0,4|_TR_->_NL_
+  name: 4|_TR_->_NL_
   network: ws
   port: 8443
   server: 104.143.204.23
