@@ -1,123 +1,6 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇨🇳_CN_中国->🇯🇵_JP_日本
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|🇨🇳_CN_中国->🇺🇸_US_美国
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 0|🇨🇳_CN_中国->🇺🇸_US_美国_1
-  port: 52683
-  server: jp.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- cipher: aes-256-cfb
-  name: 0|🇨🇳_CN_中国->🇺🇸_US_美国_2
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 0|🇨🇳_CN_中国->🇺🇸_US_美国_3
-  port: 58011
-  server: us22.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- cipher: aes-256-cfb
-  name: 0|🇨🇳_CN_中国->🇰🇷_KR_韩国
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇹🇼_TW_中国台湾->🇫🇮_FI_芬兰
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: brightharbor.download
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 0|🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦
-  port: 9443
-  reality-opts:
-    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
-    short-id: a1b2c3d4
-  server: 31.59.150.174
-  servername: hotcoals.aeternavpn.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- client-fingerprint: chrome
-  name: 0|🇺🇸_US_美国->🇯🇵_JP_日本
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.125
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 0|🇷🇺_RU_俄罗斯->🇰🇿_KZ_哈萨克斯坦
-  network: grpc
-  port: 9882
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  server: 82.202.157.181
-  servername: dl.google.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- client-fingerprint: chrome
-  name: 0|🇺🇸_US_美国->🇯🇵_JP_日本_1
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.26
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: firefox
-  name: 4|_US_->_FI_
+  name: 0,4|_US_->_FI_
   network: ws
   port: 443
   server: a2.arshia-nova.ir
@@ -132,7 +15,7 @@ proxies:
       Host: c12.com
     path: /
 - client-fingerprint: chrome
-  name: 4|_HK_->_SG_
+  name: 0,4|_HK_->_SG_
   network: ws
   port: 443
   server: 103.143.81.178
@@ -147,7 +30,7 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
 - client-fingerprint: chrome
-  name: 4|_AU_->_FI_
+  name: 0,4|_AU_->_FI_
   network: ws
   port: 443
   server: 202.166.187.132
@@ -162,7 +45,7 @@ proxies:
       Host: f.yoptybla.ru
     path: /
 - client-fingerprint: chrome
-  name: 4|_TR_->_NL_
+  name: 0,4|_TR_->_NL_
   network: ws
   port: 8443
   server: 104.143.204.23

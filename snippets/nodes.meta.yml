@@ -1,45 +1,92 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇨🇳_CN_中国->🇯🇵_JP_日本
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 0,4,7|🇭🇰 香港|@ripaojiedian
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 0|🇺🇸_US_美国_1
+  name: 0,4|_AM_
   network: ws
-  port: 2096
-  server: 104.17.25.208
-  servername: fq.jp188.dpdns.org
+  port: 443
+  server: 2.56.204.183
+  servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   ws-opts:
     headers:
-      Host: fq.jp188.dpdns.org
-    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
-- cipher: aes-256-cfb
-  name: 0|🇮🇪_IE_爱尔兰
-  password: amazonskr05
+      Host: shuma.ccwu.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,4|_TW_
+  network: ws
   port: 443
-  server: 54.171.218.140
+  server: 654168416355441.oylfmxz.cn
   skip-cert-verify: true
-  type: ss
+  tls: true
+  type: vmess
   udp: true
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+- client-fingerprint: chrome
+  name: 0,4|_ES_
+  network: ws
+  port: 8443
+  server: 152.114.195.163
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- name: 0,4|_US_
+  network: ws
+  port: 15262
+  server: 66.33.22.221
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9edfe008-51a5-48ee-ae99-945971227100
+- client-fingerprint: chrome
+  name: 0,4|_US__1
+  network: ws
+  port: 2096
+  server: 172.67.130.159
+  servername: cdn-us.skyvora.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 550d6eb0-1775-44a4-a464-9176e3d74b50
+  ws-opts:
+    headers:
+      Host: cdn-us.skyvora.app
+    path: /0i027asku
+- flow: xtls-rprx-vision
+  name: 0,4|_DE_
+  port: 7444
+  server: de777.lavivas.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0,4|_DE__1
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: gesmankos.sadiepinki.com
+  servername: gesmankos.sadiepinki.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 0,4|_DE__2
@@ -53,177 +100,188 @@ proxies:
   type: vless
   udp: true
   uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
-- cipher: aes-256-cfb
-  name: 0|🇨🇳_CN_中国->🇺🇸_US_美国
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 0|🇨🇳_CN_中国->🇺🇸_US_美国_1
-  port: 52683
-  server: jp.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇱🇻_LV_拉脱维亚
-  port: 443
-  reality-opts:
-    public-key: NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo
-    short-id: 5c256336e3b673fa
-  server: 195.123.213.28
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02fcc1a4-ee90-4970-8bbb-4ffaa8109d24
-- cipher: aes-256-cfb
-  name: 0|🇨🇳_CN_中国->🇺🇸_US_美国_2
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 0|🇨🇳_CN_中国->🇺🇸_US_美国_3
-  port: 58011
-  server: us22.sofast.live
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- cipher: aes-256-cfb
-  name: 0|🇨🇳_CN_中国->🇰🇷_KR_韩国
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇹🇼_TW_中国台湾->🇫🇮_FI_芬兰
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: brightharbor.download
-  servername: localhost
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 0|🇳🇱_NL_荷兰->🇲🇩_MD_摩尔多瓦
-  port: 9443
+  name: 0,4|_US__2
+  port: 40443
   reality-opts:
-    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
-    short-id: a1b2c3d4
-  server: 31.59.150.174
-  servername: hotcoals.aeternavpn.space
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: 72.56.41.33
+  servername: deepl.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸_US_美国_2
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+- client-fingerprint: firefox
+  name: 0,4|_US_->_FI_
   network: ws
   port: 443
-  server: www.shopify.com
-  servername: guanwang.awsno.com
+  server: a2.arshia-nova.ir
+  servername: ssl.fastly.com
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
   ws-opts:
     headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵_JP_日本
-  network: http
-  port: 49432
-  server: 38.47.121.14
+      Host: c12.com
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0,4|_DE__3
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: 45.95.96.236
+  servername: gesmankos.sadiepinki.com
   skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+- client-fingerprint: chrome
+  name: 0,4|_PL_
+  network: ws
+  port: 443
+  server: 103.167.234.26
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- name: 0,4|_US__3
+  network: ws
+  port: 27534
+  server: 66.33.22.219
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 55333b48-43d2-40f5-99ef-982046bdf437
+- client-fingerprint: chrome
+  name: 0,4|_HK_->_SG_
+  network: ws
+  port: 443
+  server: 103.143.81.178
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 0,4|_AU_->_FI_
+  network: ws
+  port: 443
+  server: 202.166.187.132
+  servername: f.yoptybla.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
+  ws-opts:
+    headers:
+      Host: f.yoptybla.ru
+    path: /
+- client-fingerprint: chrome
+  name: 0,4|_JP_
+  network: ws
+  port: 443
+  server: 35.72.179.15
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 0,4|_TR_->_NL_
+  network: ws
+  port: 8443
+  server: 104.143.204.23
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: 0,4|_US__4
+  network: ws
+  port: 443
+  server: 104.21.78.105
+  servername: 6-m17.KUWaiT.kdNs.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  ws-opts:
+    headers:
+      Host: 6-M17.kuwAit.kDns.Fr
+    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+- alterId: 2
+  cipher: auto
+  name: 0,4,7|🇭🇰 香港|@ripaojiedian
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: 0|🇺🇸_US_美国->🇯🇵_JP_日本
+  name: 0,4|_HK_
+  network: ws
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.125
-  servername: localhost
+  server: 103.101.0.73
+  servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- cipher: aes-256-cfb
-  name: 0|🇲🇾_MY_马来西亚
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 118.107.222.231
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 0|🇩🇪_DE_德国_1
-  port: 443
-  reality-opts:
-    public-key: O_YZOJVON0LE1U01hAtNUOVRy7z6fkBUXbMtpCGoGEg
-  server: 176.96.138.122
-  servername: plucky-xenon.cdn.cachefleet.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 0|🇷🇺_RU_俄罗斯->🇰🇿_KZ_哈萨克斯坦
-  network: grpc
-  port: 9882
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aa
-  server: 82.202.157.181
-  servername: dl.google.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
 - client-fingerprint: chrome
-  name: 0|🇺🇸_US_美国->🇯🇵_JP_日本_1
+  name: 0,4|_MD_
+  network: ws
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.26
-  servername: localhost
+  server: 185.153.198.86
+  servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
 - alterId: 64
   cipher: auto
   name: 2|Github搜索TrojanLinks
@@ -743,266 +801,6 @@ proxies:
     headers:
       Host: www.47876202.xyz
     path: /path/191019072927
-- client-fingerprint: chrome
-  name: 4|_AM_
-  network: ws
-  port: 443
-  server: 2.56.204.183
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 4|_TW_
-  network: ws
-  port: 443
-  server: 654168416355441.oylfmxz.cn
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-- client-fingerprint: chrome
-  name: 4|_ES_
-  network: ws
-  port: 8443
-  server: 152.114.195.163
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- name: 4|_US_
-  network: ws
-  port: 15262
-  server: 66.33.22.221
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9edfe008-51a5-48ee-ae99-945971227100
-- client-fingerprint: chrome
-  name: 4|_US__1
-  network: ws
-  port: 2096
-  server: 172.67.130.159
-  servername: cdn-us.skyvora.app
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 550d6eb0-1775-44a4-a464-9176e3d74b50
-  ws-opts:
-    headers:
-      Host: cdn-us.skyvora.app
-    path: /0i027asku
-- flow: xtls-rprx-vision
-  name: 4|_DE_
-  port: 7444
-  server: de777.lavivas.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 4|_DE__1
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-  server: gesmankos.sadiepinki.com
-  servername: gesmankos.sadiepinki.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 4|_US__2
-  port: 40443
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: ee33
-  server: 72.56.41.33
-  servername: deepl.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
-- client-fingerprint: firefox
-  name: 4|_US_->_FI_
-  network: ws
-  port: 443
-  server: a2.arshia-nova.ir
-  servername: ssl.fastly.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 4|_DE__3
-  port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-  server: 45.95.96.236
-  servername: gesmankos.sadiepinki.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-- client-fingerprint: chrome
-  name: 4|_PL_
-  network: ws
-  port: 443
-  server: 103.167.234.26
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- name: 4|_US__3
-  network: ws
-  port: 27534
-  server: 66.33.22.219
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 55333b48-43d2-40f5-99ef-982046bdf437
-- client-fingerprint: chrome
-  name: 4|_HK_->_SG_
-  network: ws
-  port: 443
-  server: 103.143.81.178
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 4|_AU_->_FI_
-  network: ws
-  port: 443
-  server: 202.166.187.132
-  servername: f.yoptybla.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8be20011-59b1-4118-91ed-83e8e6b662cd
-  ws-opts:
-    headers:
-      Host: f.yoptybla.ru
-    path: /
-- client-fingerprint: chrome
-  name: 4|_JP_
-  network: ws
-  port: 443
-  server: 35.72.179.15
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 4|_TR_->_NL_
-  network: ws
-  port: 8443
-  server: 104.143.204.23
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 4|_US__4
-  network: ws
-  port: 443
-  server: 104.21.78.105
-  servername: 6-m17.KUWaiT.kdNs.fR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 6-M17.kuwAit.kDns.Fr
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-- client-fingerprint: chrome
-  name: 4|_HK_
-  network: ws
-  port: 443
-  server: 103.101.0.73
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: 4|_MD_
-  network: ws
-  port: 443
-  server: 185.153.198.86
-  servername: shuma.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
 - alterId: 0
   cipher: auto
   name: 5|github.com/freefq - 印度  2
@@ -1143,51 +941,100 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 9|DE_speednode_0001
-  password: e4b72b531a2d10900519
+- name: 9|AT_speednode_0001
   port: 443
-  server: 167.172.172.190
+  server: 146.70.244.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: testuser1
-- name: 9|DK_speednode_0002
-  port: 9002
-  server: 158.173.154.4
+- name: 9|DE_speednode_0002
+  password: None
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|DK_speednode_0003
-  port: 9002
-  server: 158.173.154.3
+- name: 9|DE_speednode_0003
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|DK_speednode_0004
+- name: 9|DE_speednode_0004
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|DK_speednode_0005
   port: 9002
   server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|FR_speednode_0005
-  port: 443
-  server: 82.65.162.76
+- name: 9|DK_speednode_0006
+  port: 9002
+  server: 158.173.154.3
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0006
+- name: 9|DK_speednode_0007
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|FR_speednode_0008
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|GB_speednode_0010
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|JP_speednode_0011
+  port: 343
+  server: 133.18.200.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|NL_speednode_0012
   port: 443
   server: 185.238.168.20
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0012
+- name: 9|NL_speednode_0013
+  port: 9443
+  server: 149.36.51.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|NL_speednode_0014
+  port: 9443
+  server: 149.36.51.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|NL_speednode_0019
   password: None
   port: 9002
   server: 84.17.47.125
@@ -1195,7 +1042,21 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0011
+- name: 9|NL_speednode_0016
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|NL_speednode_0017
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|NL_speednode_0020
   password: None
   port: 9002
   server: 84.17.47.148
@@ -1203,159 +1064,89 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0009
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|NL_speednode_0010
+- name: 9|NL_speednode_0021
   port: 9002
   server: 84.17.47.146
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0013
+- name: 9|NL_speednode_0022
   port: 9002
-  server: 84.17.47.147
+  server: 84.17.47.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0014
+- name: 9|RO_speednode_0023
   port: 9002
-  server: 84.17.47.150
+  server: 193.176.84.20
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|RO_speednode_0015
-  port: 9002
-  server: 193.176.84.35
+- name: 9|RO_speednode_0024
+  port: 443
+  server: 185.163.110.194
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|RO_speednode_0016
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|RO_speednode_0017
-  port: 9002
-  server: 193.176.84.29
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|RO_speednode_0018
+- name: 9|RS_speednode_0025
   password: None
-  port: 9002
-  server: 193.176.84.26
+  port: 443
+  server: 146.70.221.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|RO_speednode_0019
-  port: 9002
-  server: 193.176.84.38
+- name: 9|RS_speednode_0026
+  port: 443
+  server: 146.70.221.18
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|SE_speednode_0020
+- name: 9|SE_speednode_0027
   port: 443
-  server: 217.210.129.243
+  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 9|SG_speednode_0021
-  network: tcp
-  port: 34379
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
+- name: 9|US_speednode_0028
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 9|US_speednode_0022
-  network: ws
-  port: 80
-  server: platform109.golnamakcert.top
-  servername: platform109.halalkhor.info
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- name: 9|US_speednode_0029
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  ws-opts:
-    headers:
-      Host: platform109.halalkhor.info
-    path: /platform109
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: 9|US_speednode_0023
-  network: http
-  port: 443
-  server: 44.251.76.224
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: 9|US_speednode_0024
-  network: http
-  port: 443
-  server: 100.54.27.217
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: 9|US_speednode_0025
+- name: 9|US_speednode_0030
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|US_speednode_0026
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|US_speednode_0027
+- client-fingerprint: random
+  name: 9|US_speednode_0031
+  network: ws
   port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
+  server: freev2.cloudflare.182682.xyz
+  servername: jp-osa.862400.xyz
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: ed6ae8d0-0ad4-4828-8fee-621a650abb39
+  ws-opts:
+    headers:
+      Host: jp-osa.862400.xyz
+    path: /announcement?ed=2048
