@@ -941,31 +941,34 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 9|AT_speednode_0001
+- name: 9|CA_speednode_0001
   port: 443
-  server: 146.70.244.2
+  server: 35.183.131.26
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|DE_speednode_0002
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|DE_speednode_0003
+- http-opts:
+    headers:
+      Host:
+      - play.googleapis.com
+    method: GET
+    path:
+    - /
+  name: 9|DE_speednode_0002
+  network: http
   port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
+  server: 3.79.233.186
+  servername: play.googleapis.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
 - name: 9|DE_speednode_0004
+  password: None
   port: 443
-  server: 149.36.50.157
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
@@ -979,84 +982,191 @@ proxies:
   udp: true
 - name: 9|DK_speednode_0006
   port: 9002
-  server: 158.173.154.3
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 9|DK_speednode_0007
   port: 9002
-  server: 158.173.154.4
+  server: 158.173.154.1
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: 9|FR_speednode_0008
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|GB_speednode_0010
-  password: None
   port: 443
-  server: 212.102.63.61
+  server: 82.65.162.76
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|JP_speednode_0011
-  port: 343
-  server: 133.18.200.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|NL_speednode_0012
+- name: 9|FR_speednode_0009
   port: 443
-  server: 185.238.168.20
+  server: 51.158.243.91
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0013
-  port: 9443
-  server: 149.36.51.161
+- name: 9|FR_speednode_0010
+  port: 443
+  server: 51.210.167.149
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0014
-  port: 9443
-  server: 149.36.51.157
+- name: 9|FR_speednode_0011
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0019
+  username: 'null'
+- name: 9|FR_speednode_0012
+  port: 8090
+  server: 83.206.1.225
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 9|GB_speednode_0013
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
+  server: netherlands02.azotvpn.xyz
+  servername: netherlands02.azotvpn.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+- name: 9|GB_speednode_0014
+  port: 8443
+  server: 198.105.124.180
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|IE_speednode_0015
+  port: 443
+  server: 18.200.158.139
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|IL_speednode_0016
+  port: 443
+  server: 62.90.77.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0017
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0018
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0019
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0020
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0021
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0022
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0023
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0024
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0025
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 9|IT_speednode_0026
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+- name: 9|LV_speednode_0027
+  port: 443
+  server: 185.219.159.15
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|NL_speednode_0028
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|NL_speednode_0029
   password: None
+  port: 9002
+  server: 84.17.47.123
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|NL_speednode_0030
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0016
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|NL_speednode_0017
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|NL_speednode_0020
+- name: 9|NL_speednode_0031
   password: None
   port: 9002
   server: 84.17.47.148
@@ -1064,89 +1174,104 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0021
+- name: 9|RO_speednode_0032
   port: 9002
-  server: 84.17.47.146
+  server: 193.176.84.24
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|NL_speednode_0022
+- name: 9|RO_speednode_0033
   port: 9002
-  server: 84.17.47.149
+  server: 193.176.84.36
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|RO_speednode_0023
+- name: 9|RO_speednode_0034
   port: 9002
-  server: 193.176.84.20
+  server: 193.176.84.38
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|RO_speednode_0024
+- name: 9|RO_speednode_0035
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|RO_speednode_0036
+  port: 9002
+  server: 193.176.84.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|RO_speednode_0037
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|RO_speednode_0038
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|US_speednode_0039
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|US_speednode_0040
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|US_speednode_0041
   port: 443
-  server: 185.163.110.194
+  server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 9|RS_speednode_0025
+- name: 9|US_speednode_0042
   password: None
-  port: 443
-  server: 146.70.221.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|RS_speednode_0026
-  port: 443
-  server: 146.70.221.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|SE_speednode_0027
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|US_speednode_0028
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|US_speednode_0029
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 9|US_speednode_0030
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: random
-  name: 9|US_speednode_0031
-  network: ws
-  port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: jp-osa.862400.xyz
-  skip-cert-verify: false
+- name: 9|US_speednode_0043
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: ed6ae8d0-0ad4-4828-8fee-621a650abb39
-  ws-opts:
-    headers:
-      Host: jp-osa.862400.xyz
-    path: /announcement?ed=2048
+  username: 'null'
+- name: 9|US_speednode_0044
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 9|US_speednode_0045
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
