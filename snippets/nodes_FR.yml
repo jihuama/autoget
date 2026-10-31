@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- name: 0|v2go | 🇫🇷 FR | TROJAN | 409_IP...
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.8.83
+  servername: www.calmlunch.com
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 0|🇫🇷_FR_法国_IPV4
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.231.254
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment

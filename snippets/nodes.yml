@@ -1,25 +1,113 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0,4|_TW_
+- cipher: aes-256-gcm
+  name: 0|🇮🇹_IT_意大利_IPV4
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  skip-cert-verify: false
+  tls: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|🇮🇹_IT_意大利_IPV4 (2)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  skip-cert-verify: false
+  tls: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 0|🇮🇹_IT_意大利_IPV4 (3)
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  skip-cert-verify: false
+  tls: false
+  type: ss
+- cipher: chacha20-ietf
+  name: 0|🇳🇱_NL_荷兰_IPV4
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: 109.104.153.43
+  type: ssr
+- name: 0|v2go | 🇫🇷 FR | TROJAN | 409_IP...
   network: ws
+  password: humanity
   port: 443
-  server: 654168416355441.oylfmxz.cn
-  skip-cert-verify: true
+  server: 104.18.8.83
+  servername: www.calmlunch.com
+  skip-cert-verify: false
+  sni: www.calmlunch.com
   tls: true
-  type: vmess
-  udp: true
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 0|🇫🇷_FR_法国_IPV4
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.231.254
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: 0|🇺🇸_US_美国_IPV4
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.0.172
+  servername: www.cordweave.com
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 0,4,7|🇭🇰 香港|@ripaojiedian
+  password: 6cddea99-9b18-4d42-8638-131bd9f5374f
   port: 30807
   server: v10.hdacd.com
+  servername: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   skip-cert-verify: false
+  sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: rc4-md5
+  name: 0|🇭🇰_HK_香港->🇺🇸_US_美国_IPV4
+  obfs: plain
+  obfs-param: 6f5218522.douyin.com
+  password: di15PV
+  port: 27561
+  protocol: auth_aes128_md5
+  protocol-param: 218522:0hfCJk
+  server: api.meituan88.com
+  type: ssr
+- client-fingerprint: chrome
+  name: 0|🇩🇪_DE_德国_IPV4
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.80.111.7
+  servername: www.calmlunch.com
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /assignment
 - alterId: 64
   cipher: auto
   name: 2|Github搜索TrojanLinks
@@ -539,6 +627,17 @@ proxies:
     headers:
       Host: www.47876202.xyz
     path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  name: 4|_TW_
+  network: ws
+  port: 443
+  server: 654168416355441.oylfmxz.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
 - alterId: 0
   cipher: auto
   name: 5|github.com/freefq - 印度  2
