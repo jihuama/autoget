@@ -911,12 +911,14 @@ proxies:
     path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
 - alterId: 64
   cipher: auto
-  name: 4|_CN_
-  port: 50002
-  server: 112.132.215.108
+  name: 4,7|🇺🇸 美国5|@ripaojiedian
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
   skip-cert-verify: true
+  sni: ssl.fastly.com
   tls: false
-  type: vmess
+  type: trojan
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
@@ -1074,293 +1076,105 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 7|🇯🇵 日本|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+    short-id: 7c6d6833
+  server: 139.162.91.239
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
+  ws-opts:
+    path: /ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 7|🇫🇷 法国|@ripaojiedian
   network: tcp
   port: 443
   reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 50.7.44.27
-  servername: www.apple.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: edge.bookmai.com
+  servername: mother-earth.fyi
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|🇯🇵 日本2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 50.7.44.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 7|🇯🇵 日本3|@ripaojiedian
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
-    short-id: bb472a184677af64
-  server: 50.7.44.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
-- client-fingerprint: chrome
-  name: 7|🇯🇵 日本4|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-jp.skyvora.app
-  servername: cdn-jp.skyvora.app
+  port: 443
+  reality-opts:
+    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
+    short-id: c29f9af4
+  server: 172.105.216.21
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
   ws-opts:
-    headers:
-      Host: cdn-jp.skyvora.app
-    path: /pmcxbjzdau6
+    path: /ws
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.123
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|🇭🇰 香港2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.133
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  server: 66.90.115.133
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-- client-fingerprint: chrome
-  name: 7|🇭🇰 香港4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: cdn-hk.skyvora.app
-  servername: cdn-hk.skyvora.app
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b8896fd-ba38-4da7-b365-d0f01f37aa40
-  ws-opts:
-    headers:
-      Host: cdn-hk.skyvora.app
-    path: /zmeadqv620k
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 7|🇸🇬 新加坡|@ripaojiedian
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.30
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|🇸🇬 新加坡2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.26
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|🇸🇬 新加坡3|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.27
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-- client-fingerprint: chrome
-  name: 7|🇸🇬 新加坡4|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-sg.skyvora.app
-  servername: cdn-sg.skyvora.app
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
-  ws-opts:
-    headers:
-      Host: cdn-sg.skyvora.app
-    path: /axzfrv47qcn
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|🇺🇸 美国|@ripaojiedian
-  network: tcp
   port: 443
   reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  server: 139.162.20.241
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+  ws-opts:
+    path: /ws
 - client-fingerprint: chrome
   name: 7|🇺🇸 美国2|@ripaojiedian
   network: ws
   port: 443
-  server: 188.164.248.110
-  servername: imanvipreserved.pages.dev
+  reality-opts:
+    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+    short-id: 60e39a7e
+  server: 172.235.53.103
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
   ws-opts:
-    headers:
-      Host: imanvipreserved.pages.dev
-    path: /
+    path: /ws
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 7|🇺🇸 美国3|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  server: 38.145.220.39
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
-- client-fingerprint: chrome
-  name: 7|🇺🇸 美国4|@ripaojiedian
   network: ws
-  port: 8443
-  server: cdn-us.skyvora.app
-  servername: cdn-us.skyvora.app
+  port: 443
+  reality-opts:
+    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+    short-id: 357a37e1
+  server: 172.236.239.126
+  servername: itunes.apple.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 71d6fdb8-eda2-4aa8-b3e2-34a3aad51382
+  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
   ws-opts:
-    headers:
-      Host: cdn-us.skyvora.app
-    path: /kqdyeo2k4b1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|🇩🇪 德国|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.203
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 7|🇩🇪 德国2|@ripaojiedian
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: 55986a94e2228791
-  server: 50.7.86.214
-  servername: www.apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+    path: /ws
 - client-fingerprint: chrome
   name: 9|AT_speednode_0001
   network: ws
